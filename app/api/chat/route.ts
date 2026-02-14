@@ -10,23 +10,28 @@ export async function POST(request: NextRequest) {
     const apiKey = process.env.ANTHROPIC_API_KEY;
 
     if (apiKey) {
-      // TODO: Integrate with Anthropic API
-      // const response = await fetch('https://api.anthropic.com/v1/messages', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //     'x-api-key': apiKey,
-      //     'anthropic-version': '2023-06-01',
-      //   },
-      //   body: JSON.stringify({
-      //     model: 'claude-sonnet-4-5-20250929',
-      //     max_tokens: 1024,
-      //     system: getSystemPrompt(projectPatternIds),
-      //     messages: [{ role: 'user', content: message }],
-      //   }),
-      // });
-      // const data = await response.json();
-      // return NextResponse.json({ message: data.content[0].text });
+      const response = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-5-20250929',
+          max_tokens: 1024,
+          system: getSystemPrompt(projectPatternIds),
+          messages: [{ role: 'user', content: message }],
+        }),
+      });
+
+      if (!response.ok) {
+        console.error('Anthropic API error:', response.status, await response.text());
+        throw new Error('Anthropic API request failed');
+      }
+
+      const data = await response.json();
+      return NextResponse.json({ message: data.content[0].text });
     }
 
     // Mock response for demo
