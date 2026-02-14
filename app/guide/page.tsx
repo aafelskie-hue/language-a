@@ -25,10 +25,6 @@ export default function GuidePage() {
         <ChatInterface />
       </div>
 
-      {/* Note about demo mode */}
-      <p className="text-center text-xs text-steel mt-4">
-        Demo mode: Using mock responses. Add ANTHROPIC_API_KEY to enable full AI capabilities.
-      </p>
     </div>
   );
 }
