@@ -1,0 +1,154 @@
+[
+  {
+    "id": "fifteen-minute-life",
+    "label": "Patterns for the Fifteen-Minute Life",
+    "number": "I",
+    "scale": "Neighborhood",
+    "description": "How we organize daily living",
+    "patternIds": [1, 2, 3, 4]
+  },
+  {
+    "id": "digital-age-dwelling",
+    "label": "Patterns for Dwelling in the Digital Age",
+    "number": "II",
+    "scale": "Building",
+    "description": "How work, rest, and technology coexist in our homes",
+    "patternIds": [5, 6, 7, 8, 9, 10, 11]
+  },
+  {
+    "id": "housing-diversity",
+    "label": "Patterns for Housing Diversity",
+    "number": "III",
+    "scale": "Building + Neighborhood",
+    "description": "The missing types between houses and towers",
+    "patternIds": [12, 13, 14, 15]
+  },
+  {
+    "id": "climate-resilience",
+    "label": "Patterns for Climate Resilience",
+    "number": "IV",
+    "scale": "Building + Construction",
+    "description": "Designing for the climate we have, not the climate we had",
+    "patternIds": [16, 17, 18, 19, 20]
+  },
+  {
+    "id": "energy-envelope",
+    "label": "Patterns for Energy and Envelope",
+    "number": "V",
+    "scale": "Building + Construction",
+    "description": "The building as its own power plant and climate system",
+    "patternIds": [21, 22, 23]
+  },
+  {
+    "id": "food-water",
+    "label": "Patterns for Food and Water",
+    "number": "VI",
+    "scale": "Site + Building",
+    "description": "Closing the loops",
+    "patternIds": [24, 25, 26]
+  },
+  {
+    "id": "adaptive-reuse",
+    "label": "Patterns for Adaptive Reuse",
+    "number": "VII",
+    "scale": "Building + Neighborhood",
+    "description": "Working with what exists",
+    "patternIds": [27, 28, 29]
+  },
+  {
+    "id": "health-biophilia",
+    "label": "Patterns for Health and Biophilia",
+    "number": "VIII",
+    "scale": "Building + Construction",
+    "description": "The body in the building",
+    "patternIds": [30, 31, 32, 33]
+  },
+  {
+    "id": "foundation",
+    "label": "Foundation Patterns",
+    "number": "F",
+    "scale": "All Scales",
+    "description": "Core design principles that underpin all other patterns",
+    "patternIds": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+  },
+  {
+    "id": "community-governance",
+    "label": "Patterns for Community Governance",
+    "number": "IX",
+    "scale": "Neighborhood",
+    "description": "How communities own and manage shared resources",
+    "patternIds": [50, 51, 52, 53]
+  },
+  {
+    "id": "construction-making",
+    "label": "Patterns for Construction and Making",
+    "number": "X",
+    "scale": "Construction",
+    "description": "Materials, repair, craft, and the act of building",
+    "patternIds": [54, 55, 56, 57]
+  },
+  {
+    "id": "northern-living",
+    "label": "Patterns for Northern and Cold-Climate Living",
+    "number": "XI",
+    "scale": "All Scales",
+    "description": "Designing for -30°C",
+    "patternIds": [58, 59, 60, 61, 62, 63, 64]
+  },
+  {
+    "id": "water-infrastructure",
+    "label": "Patterns for Water and Infrastructure",
+    "number": "XII",
+    "scale": "Building + Site",
+    "description": "Managing water, waste, and hidden systems",
+    "patternIds": [65, 66, 67, 68, 69, 70]
+  },
+  {
+    "id": "children-play",
+    "label": "Patterns for Children and Play",
+    "number": "XIII",
+    "scale": "Neighborhood + Building",
+    "description": "The child's experience of the built environment",
+    "patternIds": [71, 72, 73, 74, 75, 76]
+  },
+  {
+    "id": "aging-accessibility",
+    "label": "Patterns for Aging and Accessibility",
+    "number": "XIV",
+    "scale": "Neighborhood + Building",
+    "description": "Designing for every body across every life stage",
+    "patternIds": [77, 78, 79, 80, 81]
+  },
+  {
+    "id": "light-darkness",
+    "label": "Patterns for Light and Darkness",
+    "number": "XV",
+    "scale": "Building + Construction",
+    "description": "The quality of light in inhabited spaces",
+    "patternIds": [82, 83, 84, 85, 86]
+  },
+  {
+    "id": "sound-silence",
+    "label": "Patterns for Sound and Silence",
+    "number": "XVI",
+    "scale": "All Scales",
+    "description": "The acoustic environment",
+    "patternIds": [87, 88, 89, 90]
+  },
+  {
+    "id": "the-commons",
+    "label": "Patterns for the Commons",
+    "number": "XVII",
+    "scale": "Neighborhood",
+    "description": "Shared infrastructure for shared life",
+    "patternIds": [91, 92, 93, 94, 95]
+  },
+  {
+    "id": "density-done-right",
+    "label": "Patterns for Density Done Right",
+    "number": "XVIII",
+    "scale": "Neighborhood + Building",
+    "description": "How to add housing without losing character",
+    "patternIds": [96, 97, 98, 99, 100]
+  }
+]
