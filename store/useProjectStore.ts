@@ -61,7 +61,7 @@ interface ProjectStore {
   // Auth methods
   setAuthenticated: (authenticated: boolean) => void;
   loadProjects: () => Promise<void>;
-  migrateLocalToCloud: (localProjects: Project[]) => Promise<number>;
+  migrateLocalToCloud: (localData: LocalStorageData) => Promise<number>;
   clearLocalProjects: () => void;
 }
 
@@ -69,17 +69,25 @@ const generateId = () => Math.random().toString(36).substring(2, 15);
 
 const STORAGE_KEY = 'language-a-projects';
 
-// Helper to get localStorage projects directly (for migration)
+export interface LocalStorageData {
+  projects: Project[];
+  activeProjectId: string | null;
+}
+
+// Helper to get localStorage data directly (for migration)
 // Must be called BEFORE setAuthenticated(true) since partialize will clear localStorage
-export function getLocalStorageProjects(): Project[] {
-  if (typeof window === 'undefined') return [];
+export function getLocalStorageData(): LocalStorageData {
+  if (typeof window === 'undefined') return { projects: [], activeProjectId: null };
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    if (!stored) return [];
+    if (!stored) return { projects: [], activeProjectId: null };
     const parsed = JSON.parse(stored);
-    return parsed?.state?.projects ?? [];
+    return {
+      projects: parsed?.state?.projects ?? [],
+      activeProjectId: parsed?.state?.activeProjectId ?? null,
+    };
   } catch {
-    return [];
+    return { projects: [], activeProjectId: null };
   }
 }
 
@@ -108,15 +116,23 @@ export const useProjectStore = create<ProjectStore>()(
       },
 
       loadProjects: async () => {
-        const { isAuthenticated } = get();
+        const { isAuthenticated, activeProjectId } = get();
         if (!isAuthenticated) return;
 
         set({ isLoading: true });
         try {
           const response = await fetch('/api/projects');
           if (response.ok) {
-            const projects = await response.json();
-            set({ projects, isLoading: false });
+            const projects: Project[] = await response.json();
+
+            // Auto-select most recently updated project if none active
+            let newActiveId = activeProjectId;
+            if (!newActiveId && projects.length > 0) {
+              // Projects are returned sorted by updatedAt desc from API
+              newActiveId = projects[0].id;
+            }
+
+            set({ projects, activeProjectId: newActiveId, isLoading: false });
           } else {
             set({ isLoading: false });
           }
@@ -125,9 +141,11 @@ export const useProjectStore = create<ProjectStore>()(
         }
       },
 
-      migrateLocalToCloud: async (localProjects: Project[]) => {
+      migrateLocalToCloud: async (localData: LocalStorageData) => {
         const { isAuthenticated } = get();
         if (!isAuthenticated) return 0;
+
+        const { projects: localProjects, activeProjectId: localActiveId } = localData;
 
         if (localProjects.length === 0) {
           set({ migrationComplete: true });
@@ -138,6 +156,10 @@ export const useProjectStore = create<ProjectStore>()(
 
         set({ isSyncing: true });
         let migratedCount = 0;
+        let newActiveProjectId: string | null = null;
+
+        // Map old local IDs to new cloud IDs
+        const idMapping = new Map<string, string>();
 
         try {
           for (const project of localProjects) {
@@ -152,8 +174,15 @@ export const useProjectStore = create<ProjectStore>()(
             });
 
             if (response.ok) {
+              const cloudProject: Project = await response.json();
+              idMapping.set(project.id, cloudProject.id);
               migratedCount++;
             }
+          }
+
+          // Preserve active project selection
+          if (localActiveId && idMapping.has(localActiveId)) {
+            newActiveProjectId = idMapping.get(localActiveId)!;
           }
 
           // Clear localStorage after successful migration
@@ -162,8 +191,25 @@ export const useProjectStore = create<ProjectStore>()(
           }
 
           // Reload projects from cloud
-          await get().loadProjects();
-          set({ isSyncing: false, migrationComplete: true });
+          const response = await fetch('/api/projects');
+          if (response.ok) {
+            const projects: Project[] = await response.json();
+
+            // Use preserved active ID, or fall back to most recent
+            if (!newActiveProjectId && projects.length > 0) {
+              newActiveProjectId = projects[0].id;
+            }
+
+            set({
+              projects,
+              activeProjectId: newActiveProjectId,
+              isSyncing: false,
+              migrationComplete: true,
+            });
+          } else {
+            set({ isSyncing: false, migrationComplete: true });
+          }
+
           return migratedCount;
         } catch {
           set({ isSyncing: false, migrationComplete: true });

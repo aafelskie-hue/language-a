@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useSession } from 'next-auth/react';
-import { useProjectStore, getLocalStorageProjects } from '@/store/useProjectStore';
+import { useProjectStore, getLocalStorageData } from '@/store/useProjectStore';
 
 export function ProjectSync() {
   const { data: session, status } = useSession();
@@ -28,14 +28,14 @@ export function ProjectSync() {
       // User just logged in
       // IMPORTANT: Read localStorage BEFORE setAuthenticated, because
       // setAuthenticated(true) triggers partialize() which clears localStorage
-      const localProjects = getLocalStorageProjects();
+      const localData = getLocalStorageData();
 
       setAuthenticated(true);
 
       // Load cloud projects and handle migration
       const initializeProjects = async () => {
-        // Migrate local projects to cloud (if any)
-        const migratedCount = await migrateLocalToCloud(localProjects);
+        // Migrate local projects to cloud (if any), preserving activeProjectId
+        const migratedCount = await migrateLocalToCloud(localData);
 
         if (migratedCount > 0) {
           setNotification(
