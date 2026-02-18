@@ -56,11 +56,15 @@ export function getCategorySiblings(pattern: Pattern): Pattern[] {
 }
 
 export function getNextPattern(id: number): Pattern | undefined {
-  return patterns.find(p => p.id === id + 1);
+  const currentIndex = patterns.findIndex(p => p.id === id);
+  if (currentIndex === -1 || currentIndex === patterns.length - 1) return undefined;
+  return patterns[currentIndex + 1];
 }
 
 export function getPreviousPattern(id: number): Pattern | undefined {
-  return patterns.find(p => p.id === id - 1);
+  const currentIndex = patterns.findIndex(p => p.id === id);
+  if (currentIndex <= 0) return undefined;
+  return patterns[currentIndex - 1];
 }
 
 export function getRandomPattern(): Pattern {
