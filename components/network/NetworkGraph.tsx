@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import * as d3 from 'd3';
 import type { Scale } from '@/lib/types';
 import { prepareNetworkData, scaleColors, categoryColors, scaleSizes, NetworkNode, NetworkLink } from '@/lib/network';
@@ -24,8 +24,8 @@ export function NetworkGraph({
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
 
-  // Memoize data
-  const { nodes, links } = prepareNetworkData();
+  // Memoize data to prevent rebuilding graph on every render
+  const { nodes, links } = useMemo(() => prepareNetworkData(), []);
 
   // Update dimensions on resize
   useEffect(() => {
@@ -55,9 +55,11 @@ export function NetworkGraph({
     // Filter nodes by visible scales
     const filteredNodes = nodes.filter(n => visibleScales.includes(n.scale));
     const filteredNodeIds = new Set(filteredNodes.map(n => n.id));
-    const filteredLinks = links.filter(
-      l => filteredNodeIds.has(l.source as number) && filteredNodeIds.has(l.target as number)
-    );
+    const filteredLinks = links.filter(l => {
+      const sourceId = typeof l.source === 'number' ? l.source : (l.source as NetworkNode).id;
+      const targetId = typeof l.target === 'number' ? l.target : (l.target as NetworkNode).id;
+      return filteredNodeIds.has(sourceId) && filteredNodeIds.has(targetId);
+    });
 
     // Search highlighting
     const searchLower = searchQuery.toLowerCase();
@@ -179,7 +181,7 @@ export function NetworkGraph({
       });
 
       node.style('opacity', n => connectedIds.has(n.id) ? 1 : 0.2);
-      link.style('opacity', l => {
+      link.style('stroke-opacity', l => {
         const sourceId = typeof l.source === 'number' ? l.source : (l.source as NetworkNode).id;
         const targetId = typeof l.target === 'number' ? l.target : (l.target as NetworkNode).id;
         return sourceId === d.id || targetId === d.id ? 1 : 0.1;
@@ -193,7 +195,7 @@ export function NetworkGraph({
 
     function resetHighlight() {
       node.style('opacity', 1);
-      link.style('opacity', 0.4);
+      link.style('stroke-opacity', 0.4);
       link.attr('stroke', '#9CA3AF');
     }
 
