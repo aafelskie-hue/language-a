@@ -90,7 +90,7 @@ export function ChatInterface() {
             </div>
             <h2 className="text-xl font-bold text-charcoal mb-2">Pattern Guide</h2>
             <p className="text-slate mb-6 max-w-md mx-auto">
-              I can help you apply the 100 patterns to your design projects.
+              I can help you apply Language A&apos;s 253 patterns to your design projects.
               Describe your situation, and I&apos;ll suggest relevant patterns.
             </p>
 

@@ -2,7 +2,11 @@ import patternsData from '@/data/patterns.json';
 import categoriesData from '@/data/categories.json';
 import type { Pattern, Category, Scale, Confidence } from './types';
 
-export const patterns: Pattern[] = patternsData as Pattern[];
+// Sort patterns by reading_order for display (default browse/list order)
+// ID is still used for URL routing and cross-reference links
+export const patterns: Pattern[] = (patternsData as Pattern[]).slice().sort(
+  (a, b) => a.reading_order - b.reading_order
+);
 export const categories: Category[] = categoriesData as Category[];
 
 export function getPatternById(id: number): Pattern | undefined {
@@ -14,11 +18,15 @@ export function getPatternByNumber(num: string): Pattern | undefined {
 }
 
 export function getPatternsByCategory(categoryId: string): Pattern[] {
-  return patterns.filter(p => p.category === categoryId);
+  return patterns.filter(p => p.category === categoryId).sort(
+    (a, b) => a.reading_order - b.reading_order
+  );
 }
 
 export function getPatternsByScale(scale: Scale): Pattern[] {
-  return patterns.filter(p => p.scale === scale);
+  return patterns.filter(p => p.scale === scale).sort(
+    (a, b) => a.reading_order - b.reading_order
+  );
 }
 
 export function getPatternsByConfidence(confidence: Confidence): Pattern[] {

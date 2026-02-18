@@ -17,6 +17,7 @@ export interface Pattern {
   solution: string;
   connections_up: number[];
   connections_down: number[];
+  reading_order: number;
   tags?: string[];
 }
 

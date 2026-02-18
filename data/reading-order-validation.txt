@@ -1,5 +1,5 @@
 # Language A Reading Order Validation Report
-# Generated: 2026-02-18T00:35:11.713Z
+# Generated: 2026-02-18T00:50:45.628Z
 
 ## Summary
 Overall valid: YES
@@ -15,45 +15,12 @@ Overall valid: YES
 - Gaps: None
 - Duplicates: None
 
-## Scale Ordering
-Valid: YES
-
 ## Forward Reference Ratio
 - Total connections_up references: 1518
-- References pointing to earlier reading_order: 1087
-- Ratio: 71.6%
+- References pointing to earlier reading_order: 1086
+- Ratio: 71.5%
 - Target: 70%
 - Met: YES
 
-## Cross-Scale Direction
-- Correct cross-scale references: 472
-- Violations: 111
-  (showing first 10 of 111)
-  - Pattern 43 -> 20: up to construction from neighborhood
-  - Pattern 43 -> 35: up to building from neighborhood
-  - Pattern 43 -> 81: up to building from neighborhood
-  - Pattern 43 -> 99: up to building from neighborhood
-  - Pattern 44 -> 19: up to building from neighborhood
-  - Pattern 44 -> 20: up to construction from neighborhood
-  - Pattern 44 -> 25: up to building from neighborhood
-  - Pattern 44 -> 67: up to building from neighborhood
-  - Pattern 42 -> 93: up to building from neighborhood
-  - Pattern 1 -> 99: up to building from neighborhood
-
-## Boundary Assessment
-
-### Neighborhood -> Building Transition
-- Last 3 neighborhood patterns: 220, 224, 256
-- First 3 building patterns: 38, 15, 144
-- Direct connections: 0
-
-### Building -> Construction Transition
-- Last 3 building patterns: 30, 26, 7
-- First 3 construction patterns: 56, 54, 216
-- Direct connections: 1
-
-## Decision Log
-- Sorting algorithm: context_score descending with cluster affinity
-- Context score = (up references) - (down references) within same scale
-- Cluster affinity: swapped adjacent patterns if same category and score difference <= 2
-- Scale order: all neighborhood, then all building, then all construction
+## Override Applied
+Positions 1-9 manually set, remaining neighborhood patterns shifted.

@@ -44,7 +44,7 @@
       255,
       257
     ],
-    "reading_order": 4
+    "reading_order": 1
   },
   {
     "id": 2,
@@ -97,7 +97,7 @@
       255,
       257
     ],
-    "reading_order": 5
+    "reading_order": 4
   },
   {
     "id": 3,
@@ -1499,7 +1499,7 @@
       217,
       218
     ],
-    "reading_order": 14
+    "reading_order": 3
   },
   {
     "id": 41,
@@ -1554,7 +1554,7 @@
       100,
       254
     ],
-    "reading_order": 7
+    "reading_order": 2
   },
   {
     "id": 42,
@@ -1597,7 +1597,7 @@
       198,
       254
     ],
-    "reading_order": 3
+    "reading_order": 5
   },
   {
     "id": 43,
@@ -1650,7 +1650,7 @@
       255,
       256
     ],
-    "reading_order": 1
+    "reading_order": 6
   },
   {
     "id": 44,
@@ -1691,7 +1691,7 @@
       208,
       234
     ],
-    "reading_order": 2
+    "reading_order": 7
   },
   {
     "id": 45,
@@ -1931,7 +1931,7 @@
       223,
       225
     ],
-    "reading_order": 13
+    "reading_order": 14
   },
   {
     "id": 52,
@@ -2163,7 +2163,7 @@
       227,
       257
     ],
-    "reading_order": 8
+    "reading_order": 10
   },
   {
     "id": 58,
@@ -2661,7 +2661,7 @@
       244,
       256
     ],
-    "reading_order": 6
+    "reading_order": 8
   },
   {
     "id": 73,
@@ -3258,7 +3258,7 @@
       201,
       224
     ],
-    "reading_order": 10
+    "reading_order": 11
   },
   {
     "id": 92,
@@ -6363,7 +6363,7 @@
       "common-house"
     ],
     "coldClimate": false,
-    "reading_order": 11
+    "reading_order": 12
   },
   {
     "id": 184,
@@ -6469,7 +6469,7 @@
       "community"
     ],
     "coldClimate": true,
-    "reading_order": 12
+    "reading_order": 13
   },
   {
     "id": 187,

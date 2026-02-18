@@ -62,7 +62,7 @@ export default function HomePage() {
                 Design Patterns for Enduring Places
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight mb-6 leading-tight">
-                100 design patterns for places that last
+                253 design patterns for places that last
               </h1>
               <p className="text-lg md:text-xl text-silver leading-relaxed mb-8">
                 Grounded in the forces that don&apos;t change — climate, light, gravity, and human need for shelter and community.
@@ -231,7 +231,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-8">
             <div>
               <p className="font-mono text-[11px] uppercase tracking-widest text-copper mb-2">
-                All 100 Patterns
+                All {patterns.length} Patterns
               </p>
               <h2 className="text-2xl md:text-3xl font-bold text-charcoal tracking-tight">
                 Pattern Explorer
@@ -267,7 +267,7 @@ export default function HomePage() {
                 {/* Toolbar */}
                 <div className="flex items-center justify-between mb-6">
                   <p className="font-mono text-sm text-steel">
-                    Showing <span className="text-charcoal font-medium">{filteredPatterns.length}</span> of 100 patterns
+                    Showing <span className="text-charcoal font-medium">{filteredPatterns.length}</span> of {patterns.length} patterns
                   </p>
 
                   <div className="flex items-center gap-3">
@@ -344,7 +344,7 @@ export default function HomePage() {
                 onClick={() => setShowExplorer(true)}
                 className="btn btn-primary"
               >
-                Browse All 100 Patterns
+                Browse All {patterns.length} Patterns
               </button>
             </div>
           )}

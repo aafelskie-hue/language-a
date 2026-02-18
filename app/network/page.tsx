@@ -49,7 +49,7 @@ export default function NetworkPage() {
       {/* Header */}
       <header className="mb-8">
         <p className="font-mono text-[11px] uppercase tracking-widest text-copper mb-3">
-          100 Patterns Interconnected
+          {patterns.length} Patterns Interconnected
         </p>
         <h1 className="text-3xl md:text-4xl font-bold text-charcoal tracking-tight mb-3">
           Pattern Network

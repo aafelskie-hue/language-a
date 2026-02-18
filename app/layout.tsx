@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     default: 'Language A — Design Patterns for Enduring Places',
     template: '%s | Language A',
   },
-  description: '100 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
+  description: '253 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
   keywords: ['pattern language', 'architecture', 'design patterns', 'urban planning', 'housing', 'cold climate', 'enduring places'],
   authors: [{ name: 'Beachhead Systems' }],
   openGraph: {
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
     url: 'https://language-a.com',
     siteName: 'Language A',
     title: 'Language A — Design Patterns for Enduring Places',
-    description: '100 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
+    description: '253 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Language A — Design Patterns for Enduring Places',
-    description: '100 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
+    description: '253 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
   },
   icons: {
     icon: '/favicon.svg',
