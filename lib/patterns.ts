@@ -2,15 +2,17 @@ import patternsData from '@/data/patterns.json';
 import categoriesData from '@/data/categories.json';
 import type { Pattern, Category, Scale, Confidence } from './types';
 
-// Sort patterns by ID (pattern number) for display
-// reading_order field preserved in data for future use
-export const patterns: Pattern[] = (patternsData as Pattern[]).slice().sort(
+// All patterns including unpublished (255+) for direct lookups
+const allPatterns: Pattern[] = (patternsData as Pattern[]).slice().sort(
   (a, b) => a.id - b.id
 );
+
+// Published patterns (1-254) for listings and explorer
+export const patterns: Pattern[] = allPatterns.filter(p => p.id <= 254);
 export const categories: Category[] = categoriesData as Category[];
 
 export function getPatternById(id: number): Pattern | undefined {
-  return patterns.find(p => p.id === id);
+  return allPatterns.find(p => p.id === id);
 }
 
 export function getPatternByNumber(num: string): Pattern | undefined {
