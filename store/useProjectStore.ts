@@ -61,7 +61,7 @@ interface ProjectStore {
   // Auth methods
   setAuthenticated: (authenticated: boolean) => void;
   loadProjects: () => Promise<void>;
-  migrateLocalToCloud: () => Promise<number>;
+  migrateLocalToCloud: (localProjects: Project[]) => Promise<number>;
   clearLocalProjects: () => void;
 }
 
@@ -70,7 +70,8 @@ const generateId = () => Math.random().toString(36).substring(2, 15);
 const STORAGE_KEY = 'language-a-projects';
 
 // Helper to get localStorage projects directly (for migration)
-function getLocalStorageProjects(): Project[] {
+// Must be called BEFORE setAuthenticated(true) since partialize will clear localStorage
+export function getLocalStorageProjects(): Project[] {
   if (typeof window === 'undefined') return [];
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
@@ -124,13 +125,14 @@ export const useProjectStore = create<ProjectStore>()(
         }
       },
 
-      migrateLocalToCloud: async () => {
+      migrateLocalToCloud: async (localProjects: Project[]) => {
         const { isAuthenticated } = get();
         if (!isAuthenticated) return 0;
 
-        const localProjects = getLocalStorageProjects();
         if (localProjects.length === 0) {
           set({ migrationComplete: true });
+          // Load existing cloud projects
+          await get().loadProjects();
           return 0;
         }
 
