@@ -1,0 +1,252 @@
+{
+  "patternId": 121,
+  "patternName": "The Battery Bank",
+  "timestamp": "2026-02-16T23:30:47.221Z",
+  "model": "claude-code-cli",
+  "totalClaims": 12,
+  "results": [
+    {
+      "claim": {
+        "text": "A typical rooftop system in Edmonton generates 80% of its daily output between 10 AM and 4 PM",
+        "claim": "Rooftop solar systems in Edmonton generate 80% of daily output between 10 AM and 4 PM",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this claim due to web search permission restrictions.",
+      "detail": "The claim that Edmonton rooftop solar systems generate 80% of daily output between 10 AM and 4 PM could not be verified because web search access was not available. This claim is plausible based on general knowledge of solar generation curves at northern latitudes, where peak sun hours are concentrated around solar noon. However, the specific 80% figure for Edmonton cannot be confirmed without access to actual solar generation data or studies from Alberta-based sources.",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "surplus generation flows to the grid at wholesale rates (often 3-5 cents/kWh in Alberta)",
+        "claim": "Wholesale electricity rates for exported solar in Alberta are 3-5 cents/kWh",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "Alberta wholesale electricity rates are volatile and can range from 3-5 cents/kWh at times, but this understates typical rates and oversimplifies a highly variable market.",
+      "detail": "Alberta operates a deregulated wholesale electricity market through AESO (Alberta Electric System Operator) with pool prices that fluctuate hourly based on supply and demand. Historical data shows pool prices can indeed drop to 3-5 cents/kWh during low-demand periods or high renewable output, but annual averages have often been higher (7-10+ cents/kWh in recent years). The claim uses 'often' which provides some flexibility, but the 3-5 cent range represents lower-end pricing rather than typical rates. Solar micro-generators in Alberta export at pool price, which is accurate.",
+      "sources": [
+        "Unable to verify with current web search - assessment based on pre-cutoff knowledge of AESO market data and Alberta micro-generation regulations"
+      ]
+    },
+    {
+      "claim": {
+        "text": "then flows back at retail rates (12-18 cents/kWh)",
+        "claim": "Retail electricity rates in Alberta are 12-18 cents/kWh",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check current Alberta electricity rates.",
+      "detail": "Web search and web fetch tools are not available for this verification. Alberta has a deregulated electricity market where rates vary by retailer and plan type. The 12-18 cents/kWh range is plausible based on historical Alberta electricity pricing, but current rates cannot be confirmed without access to search tools or official Alberta Utilities Commission data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "During the February 2021 Texas grid collapse, 4.5 million homes lost power for days in freezing temperatures",
+        "claim": "February 2021 Texas grid collapse left 4.5 million homes without power for days",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The Texas grid collapse and massive outages are verified, but the specific number '4.5 million homes' may not be exact.",
+      "detail": "The February 2021 Texas winter storm (Winter Storm Uri) caused catastrophic power grid failures, leaving millions without power in freezing temperatures for extended periods. Various sources cite different numbers - commonly reported figures include 4.5 million customers (not necessarily homes), 'more than 4 million', and 'up to 4.5 million'. The distinction between 'homes' and 'customers' matters since commercial accounts are also counted. The core claim about massive, days-long outages in freezing conditions is accurate.",
+      "sources": [
+        "Unable to verify with live web search - based on training data knowledge of the 2021 Texas power crisis"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The California Public Utilities Commission found that after the 2019 Public Safety Power Shutoffs, battery storage installations in affected areas increased 400% the following year",
+        "claim": "California Public Utilities Commission reported 400% increase in battery storage installations in areas affected by 2019 Public Safety Power Shutoffs",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this specific 400% statistic from CPUC sources without web access.",
+      "detail": "While battery storage installations in California did surge significantly following the 2019 PSPS events (which affected millions of customers and raised awareness of grid resilience), I cannot verify the specific '400% increase' figure attributed to the California Public Utilities Commission without accessing current CPUC reports and Self-Generation Incentive Program (SGIP) data. The claim is plausible given known trends in residential battery adoption post-PSPS, but the exact statistic and its attribution to CPUC requires verification.",
+      "sources": [
+        "Unable to search - verification requires web access to CPUC reports and SGIP program data"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Lithium iron phosphate (LFP) batteries now offer 6,000+ cycle lifespans — roughly 15-20 years of daily cycling",
+        "claim": "LFP batteries offer 6,000+ cycle lifespans, equivalent to 15-20 years of daily cycling",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The 6,000+ cycle claim is within the documented range for premium LFP batteries, but represents the high end rather than typical specifications.",
+      "detail": "LFP battery cycle life varies significantly by manufacturer and conditions. High-quality LFP batteries commonly cite 2,000-5,000 cycles to 80% depth of discharge, with premium products like CATL's claiming up to 10,000+ cycles. The 6,000+ figure is achievable but represents optimistic specifications rather than industry standard. The 15-20 year calculation (6,000 cycles ÷ 365 days = 16.4 years) is mathematically sound for daily cycling. However, calendar aging also limits battery life independent of cycles, typically to 10-15 years regardless of cycle count.",
+      "sources": [
+        "Unable to verify via web search - based on training knowledge of battery specifications from manufacturers like CATL, BYD, and technical literature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "at costs that have fallen 90% since 2010",
+        "claim": "Battery storage costs have fallen 90% since 2010",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are required to fact-check this claim but permissions were not granted. The claim about 90% battery storage cost decline since 2010 is a commonly cited statistic that would need verification against sources like DOE, BloombergNEF, or NREL data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Tesla's Powerwall, Enphase's IQ batteries, and similar residential systems provide 10-15 kWh of usable storage",
+        "claim": "Tesla Powerwall and Enphase IQ batteries provide 10-15 kWh of usable storage",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Tesla Powerwall provides 13.5 kWh and Enphase IQ Battery 10 provides approximately 10 kWh of usable storage, both falling within the claimed 10-15 kWh range.",
+      "detail": "Tesla Powerwall 2, Powerwall 3, and Powerwall+ all offer 13.5 kWh of usable storage capacity, which falls squarely within the 10-15 kWh range. Enphase IQ Battery 10 provides approximately 10.08 kWh of usable capacity, at the lower end of the claimed range. Note that Enphase also offers smaller models (IQ Battery 5P at 5 kWh, IQ Battery 3 at 3.36 kWh) that fall outside this range, but the primary IQ Battery 10 model fits the claim. The 10-15 kWh characterization is accurate for the flagship residential products from both manufacturers.",
+      "sources": [
+        "Training knowledge based on Tesla Powerwall specifications",
+        "Training knowledge based on Enphase IQ Battery specifications"
+      ]
+    },
+    {
+      "claim": {
+        "text": "wall-mounted units roughly the size of a water heater",
+        "claim": "Residential battery systems are roughly the size of a water heater",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Residential battery systems like Tesla Powerwall are indeed comparable in size to standard water heaters.",
+      "detail": "The Tesla Powerwall 2, one of the most common residential battery systems, measures approximately 45.3 x 29.6 x 5.75 inches (1150 x 753 x 147 mm) and weighs about 251.3 lbs. A standard residential tank water heater typically measures around 60 inches tall by 24 inches in diameter. While the form factors differ (Powerwall is flat/rectangular, water heaters are cylindrical), the overall footprint and wall space occupied is comparable, making 'roughly the size of a water heater' a reasonable approximation for general audiences. Other residential batteries like LG Chem RESU and Enphase Encharge have similar dimensions.",
+      "sources": [
+        "Tesla Powerwall specifications (manufacturer documentation)",
+        "Standard residential water heater dimensions (industry standard)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The U.S. Investment Tax Credit (30% through 2032)",
+        "claim": "U.S. Investment Tax Credit for battery storage is 30% through 2032",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "Web search and fetch tools are unavailable in this session. The claim aligns with training knowledge about the Inflation Reduction Act's ITC provisions, but current verification against primary sources (IRS, DOE, or legislative text) could not be performed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "batteries were exotic technology in 1977",
+        "claim": "Battery storage was exotic/uncommon technology in 1977",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Battery storage for grid-scale or large-scale energy applications was indeed exotic and uncommon in 1977, limited primarily to small consumer electronics and specialized applications.",
+      "detail": "In 1977, lithium-ion batteries had not yet been commercialized (that came in 1991), and large-scale battery storage systems were experimental at best. Lead-acid batteries existed but were primarily used for automotive starting applications and limited backup power. Grid-scale battery storage as we know it today was essentially nonexistent. The term 'exotic' accurately describes the state of battery storage technology for energy applications in that era.",
+      "sources": [
+        "Historical knowledge of battery technology development",
+        "Lithium-ion battery commercialization timeline (Sony 1991)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "his pattern *South Facing Outdoors* (Alexander 105)",
+        "claim": "Christopher Alexander's pattern 105 is titled 'South Facing Outdoors'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander's A Pattern Language does include pattern 105 titled 'South Facing Outdoors'.",
+      "detail": "In Christopher Alexander's 1977 book 'A Pattern Language: Towns, Buildings, Construction', pattern 105 is indeed titled 'South Facing Outdoors'. This pattern discusses the importance of orienting outdoor spaces to face south (in the Northern Hemisphere) to maximize sunlight and warmth. The pattern is part of the building-level patterns in the book's sequence of 253 patterns.",
+      "sources": [
+        "Christopher Alexander et al., 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 3,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A typical rooftop system in Edmonton generates 80% of its daily output between 10 AM and 4 PM",
+          "claim": "Rooftop solar systems in Edmonton generate 80% of daily output between 10 AM and 4 PM",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this claim due to web search permission restrictions.",
+        "detail": "The claim that Edmonton rooftop solar systems generate 80% of daily output between 10 AM and 4 PM could not be verified because web search access was not available. This claim is plausible based on general knowledge of solar generation curves at northern latitudes, where peak sun hours are concentrated around solar noon. However, the specific 80% figure for Edmonton cannot be confirmed without access to actual solar generation data or studies from Alberta-based sources.",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "then flows back at retail rates (12-18 cents/kWh)",
+          "claim": "Retail electricity rates in Alberta are 12-18 cents/kWh",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check current Alberta electricity rates.",
+        "detail": "Web search and web fetch tools are not available for this verification. Alberta has a deregulated electricity market where rates vary by retailer and plan type. The 12-18 cents/kWh range is plausible based on historical Alberta electricity pricing, but current rates cannot be confirmed without access to search tools or official Alberta Utilities Commission data.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The California Public Utilities Commission found that after the 2019 Public Safety Power Shutoffs, battery storage installations in affected areas increased 400% the following year",
+          "claim": "California Public Utilities Commission reported 400% increase in battery storage installations in areas affected by 2019 Public Safety Power Shutoffs",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this specific 400% statistic from CPUC sources without web access.",
+        "detail": "While battery storage installations in California did surge significantly following the 2019 PSPS events (which affected millions of customers and raised awareness of grid resilience), I cannot verify the specific '400% increase' figure attributed to the California Public Utilities Commission without accessing current CPUC reports and Self-Generation Incentive Program (SGIP) data. The claim is plausible given known trends in residential battery adoption post-PSPS, but the exact statistic and its attribution to CPUC requires verification.",
+        "sources": [
+          "Unable to search - verification requires web access to CPUC reports and SGIP program data"
+        ]
+      },
+      {
+        "claim": {
+          "text": "at costs that have fallen 90% since 2010",
+          "claim": "Battery storage costs have fallen 90% since 2010",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are required to fact-check this claim but permissions were not granted. The claim about 90% battery storage cost decline since 2010 is a commonly cited statistic that would need verification against sources like DOE, BloombergNEF, or NREL data.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

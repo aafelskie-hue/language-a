@@ -1,0 +1,121 @@
+{
+  "patternId": 238,
+  "patternName": "The Overflow Path",
+  "timestamp": "2026-02-17T05:58:19.750Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Australia's stormwater guidelines, developed through decades of flash-flood experience, require that every development demonstrate an 'overland flow path' capable of conveying the one-in-one-hundred-year storm without entering buildings.",
+        "claim": "Australian stormwater guidelines require developments to demonstrate overland flow paths for 1-in-100-year storms",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Australian stormwater guidelines do require overland flow path consideration for major storm events, but requirements vary by state/territory and the specific ARI threshold is not universally 1-in-100-year.",
+      "detail": "Australia uses Australian Rainfall and Runoff (ARR) guidelines and state-based stormwater management frameworks that do require developments to consider overland flow paths for major storm events. However, the specific recurrence interval varies by jurisdiction - some use 1% AEP (equivalent to 1-in-100-year), while others may use different thresholds. The requirement to protect buildings from flooding via defined overland flow paths is a common principle in Australian stormwater management, but calling it a single national 'guideline' oversimplifies the state-based regulatory framework.",
+      "sources": [
+        "Australian Rainfall and Runoff (ARR) national guidelines",
+        "Various state stormwater management manuals (NSW, Victoria, Queensland)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Queensland's planning code specifies that floor levels must sit 300mm above the major-system flood level, and that flow paths must be free of obstructions that would divert water toward structures.",
+        "claim": "Queensland planning code requires floor levels 300mm above major-system flood level",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search web sources to verify the specific Queensland planning code flood level requirements.",
+      "detail": "Web search and fetch tools are not currently available. Queensland does have State Planning Policy provisions for flood hazard management, and the 300mm freeboard above flood level is a common planning standard in Australia. However, without access to current Queensland planning documents, I cannot confirm the exact wording, whether it references 'major-system flood level' specifically, or verify the flow path obstruction requirements.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A 2019 analysis by the Institute for Catastrophic Loss Reduction found that 40% of Canadian homeowner water-damage claims originated from surface water entry during heavy rainfall",
+        "claim": "Institute for Catastrophic Loss Reduction 2019 analysis found 40% of Canadian homeowner water-damage claims from surface water entry during heavy rainfall",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check ICLR publications.",
+      "detail": "The Institute for Catastrophic Loss Reduction (ICLR) is a real Canadian organization that publishes research on property damage and insurance claims. However, I was unable to search for or access their publications to verify whether they published a 2019 analysis stating that 40% of Canadian homeowner water-damage claims originated from surface water entry during heavy rainfall. Web search access is required to verify this specific citation.",
+      "sources": [
+        "Unable to access web sources - verification requires web search permissions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a one-in-one-hundred-year storm (approximately 75mm in one hour for Edmonton)",
+        "claim": "A 1-in-100-year storm for Edmonton is approximately 75mm in one hour",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access to check current Edmonton IDF (Intensity-Duration-Frequency) data.",
+      "detail": "Edmonton's 1-in-100-year storm intensity values are published in municipal IDF curve reports. The 75mm/hour figure for a 1-hour duration 100-year return period is plausible for the region based on general knowledge of Canadian prairie climate data, but I cannot access current City of Edmonton engineering documents or Environment Canada IDF data to confirm the exact value. These technical specifications require verification against official sources.",
+      "sources": [
+        "Unable to search - no web access granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Queensland's planning code specifies that floor levels must sit 300mm above the major-system flood level, and that flow paths must be free of obstructions that would divert water toward structures.",
+          "claim": "Queensland planning code requires floor levels 300mm above major-system flood level",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search web sources to verify the specific Queensland planning code flood level requirements.",
+        "detail": "Web search and fetch tools are not currently available. Queensland does have State Planning Policy provisions for flood hazard management, and the 300mm freeboard above flood level is a common planning standard in Australia. However, without access to current Queensland planning documents, I cannot confirm the exact wording, whether it references 'major-system flood level' specifically, or verify the flow path obstruction requirements.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A 2019 analysis by the Institute for Catastrophic Loss Reduction found that 40% of Canadian homeowner water-damage claims originated from surface water entry during heavy rainfall",
+          "claim": "Institute for Catastrophic Loss Reduction 2019 analysis found 40% of Canadian homeowner water-damage claims from surface water entry during heavy rainfall",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check ICLR publications.",
+        "detail": "The Institute for Catastrophic Loss Reduction (ICLR) is a real Canadian organization that publishes research on property damage and insurance claims. However, I was unable to search for or access their publications to verify whether they published a 2019 analysis stating that 40% of Canadian homeowner water-damage claims originated from surface water entry during heavy rainfall. Web search access is required to verify this specific citation.",
+        "sources": [
+          "Unable to access web sources - verification requires web search permissions"
+        ]
+      },
+      {
+        "claim": {
+          "text": "a one-in-one-hundred-year storm (approximately 75mm in one hour for Edmonton)",
+          "claim": "A 1-in-100-year storm for Edmonton is approximately 75mm in one hour",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access to check current Edmonton IDF (Intensity-Duration-Frequency) data.",
+        "detail": "Edmonton's 1-in-100-year storm intensity values are published in municipal IDF curve reports. The 75mm/hour figure for a 1-hour duration 100-year return period is plausible for the region based on general knowledge of Canadian prairie climate data, but I cannot access current City of Edmonton engineering documents or Environment Canada IDF data to confirm the exact value. These technical specifications require verification against official sources.",
+        "sources": [
+          "Unable to search - no web access granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

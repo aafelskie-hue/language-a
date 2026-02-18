@@ -1,0 +1,125 @@
+{
+  "patternId": 200,
+  "patternName": "The Seasonal Pond",
+  "timestamp": "2026-02-17T04:03:57.629Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "The California Department of Fish and Wildlife documented over 200 species of plants and animals associated with vernal pools in the Central Valley, including 34 species found nowhere else",
+        "claim": "California Department of Fish and Wildlife documented over 200 species associated with Central Valley vernal pools, with 34 endemic species",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were requested but permissions were not granted. I cannot verify claims about CDFW vernal pool species documentation without access to search external sources. This verdict reflects inability to search, not a judgment on the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the wood frog (*Lithobates sylvaticus*) and spotted salamander (*Amblyostoma maculatum*) breed exclusively in fishless temporary pools",
+        "claim": "Wood frogs (Lithobates sylvaticus) and spotted salamanders (Ambystoma maculatum) breed exclusively in fishless temporary pools",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The claim is directionally correct about preference for fishless vernal pools but overstates the exclusivity of this behavior.",
+      "detail": "Both species strongly prefer fishless temporary/vernal pools for breeding because fish predation on eggs and larvae drastically reduces reproductive success. However, 'exclusively' is too strong. Wood frogs and spotted salamanders have been documented breeding in semi-permanent pools, beaver ponds, and occasionally even permanent water bodies when fish are absent or in low densities. The biological preference is for fishless waters (temporary or permanent), not strictly temporary pools. Additionally, the original text contains a spelling error: 'Amblyostoma' should be 'Ambystoma'.",
+      "sources": [
+        "Unable to verify via web search - verdict based on established amphibian ecology knowledge. Web search access was denied."
+      ]
+    },
+    {
+      "claim": {
+        "text": "towns like Amherst, Massachusetts close roads on 'Big Night' to protect the crossing",
+        "claim": "Amherst, Massachusetts closes roads on 'Big Night' to protect salamander crossings",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; claim is plausible based on background knowledge but requires source verification.",
+      "detail": "Web search and fetch tools were not available to verify this claim. The 'Big Night' salamander migration phenomenon is well-known in Massachusetts, and Amherst has documented conservation programs, but I cannot confirm whether the town officially closes roads (as opposed to volunteer crossing guards) without accessing current sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A study of prairie potholes in the northern Great Plains by the U.S. Geological Survey found that these temporary wetlands store an average of 2.5 million acre-feet of floodwater annually across the region",
+        "claim": "U.S. Geological Survey study found prairie potholes in northern Great Plains store an average of 2.5 million acre-feet of floodwater annually",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access during this session.",
+      "detail": "I attempted multiple web searches for USGS studies on prairie pothole floodwater storage in the northern Great Plains but was unable to execute them due to permission restrictions. The claim references a specific USGS study with a precise figure (2.5 million acre-feet annually), which would require access to USGS publications or databases to verify. Prairie potholes are indeed recognized for their flood mitigation services, but the specific statistic cannot be confirmed without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Unlike permanent ponds, which lose water primarily to evaporation, seasonal ponds lose water primarily to infiltration and plant uptake, making them net contributors to the local water table",
+        "claim": "Seasonal ponds lose water primarily to infiltration and plant uptake rather than evaporation, making them net contributors to local water tables",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify this hydrological claim about seasonal ponds",
+      "detail": "Web search permissions were not available to verify this technical claim. The claim makes a specific assertion about the hydrology of seasonal vs permanent ponds that would require peer-reviewed hydrological studies or USGS/EPA reports to verify. The assertion that seasonal ponds are 'net contributors to local water tables' is a strong claim requiring quantitative evidence from water balance studies.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The California Department of Fish and Wildlife documented over 200 species of plants and animals associated with vernal pools in the Central Valley, including 34 species found nowhere else",
+          "claim": "California Department of Fish and Wildlife documented over 200 species associated with Central Valley vernal pools, with 34 endemic species",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were requested but permissions were not granted. I cannot verify claims about CDFW vernal pool species documentation without access to search external sources. This verdict reflects inability to search, not a judgment on the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A study of prairie potholes in the northern Great Plains by the U.S. Geological Survey found that these temporary wetlands store an average of 2.5 million acre-feet of floodwater annually across the region",
+          "claim": "U.S. Geological Survey study found prairie potholes in northern Great Plains store an average of 2.5 million acre-feet of floodwater annually",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access during this session.",
+        "detail": "I attempted multiple web searches for USGS studies on prairie pothole floodwater storage in the northern Great Plains but was unable to execute them due to permission restrictions. The claim references a specific USGS study with a precise figure (2.5 million acre-feet annually), which would require access to USGS publications or databases to verify. Prairie potholes are indeed recognized for their flood mitigation services, but the specific statistic cannot be confirmed without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Unlike permanent ponds, which lose water primarily to evaporation, seasonal ponds lose water primarily to infiltration and plant uptake, making them net contributors to the local water table",
+          "claim": "Seasonal ponds lose water primarily to infiltration and plant uptake rather than evaporation, making them net contributors to local water tables",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify this hydrological claim about seasonal ponds",
+        "detail": "Web search permissions were not available to verify this technical claim. The claim makes a specific assertion about the hydrology of seasonal vs permanent ponds that would require peer-reviewed hydrological studies or USGS/EPA reports to verify. The assertion that seasonal ponds are 'net contributors to local water tables' is a strong claim requiring quantitative evidence from water balance studies.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

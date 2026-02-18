@@ -1,0 +1,169 @@
+{
+  "patternId": 177,
+  "patternName": "The Pedestrian Shortcut",
+  "timestamp": "2026-02-17T02:32:46.799Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "A standard Edmonton block measures roughly 120 meters by 60 meters",
+        "claim": "Standard Edmonton city blocks measure approximately 120 meters by 60 meters",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for current sources to verify Edmonton block dimensions.",
+      "detail": "Web search tools were not available to verify this claim. Edmonton's grid system does follow a rectangular block pattern established in early city planning, and the dimensions cited (120m x 60m) are plausible for North American city grids. However, without access to Edmonton city planning documents or survey data, I cannot confirm the specific measurements.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Marshall and Garrick's 2010 study of street network patterns found that cities with finer-grained pedestrian networks — more intersections per square kilometer — showed measurably higher walking rates and lower traffic fatalities",
+        "claim": "Marshall and Garrick published a 2010 study finding that cities with more intersections per square kilometer had higher walking rates and lower traffic fatalities",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of web search access to check the Marshall and Garrick 2010 study.",
+      "detail": "Web search and web fetch tools are not currently available to verify this citation. I cannot confirm whether Marshall and Garrick published a 2010 study on street network patterns, intersections per square kilometer, walking rates, and traffic fatalities without access to academic databases or web search. The claim sounds plausible and follows established urban planning research patterns, but verification requires external source access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The city's 1994 'Places for People' study by Jan Gehl found that the laneways — originally service alleys for the Victorian street grid — carried 40% of all pedestrian movement through the central city",
+        "claim": "Jan Gehl conducted a 'Places for People' study of Melbourne in 1994",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "I attempted to use WebSearch and WebFetch tools but they are not enabled for this session. I cannot search for evidence about Jan Gehl's Places for People study of Melbourne without web access. The claim cannot be verified or disputed without external sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The city's 1994 'Places for People' study by Jan Gehl found that the laneways — originally service alleys for the Victorian street grid — carried 40% of all pedestrian movement through the central city",
+        "claim": "The 1994 Gehl study found Melbourne's laneways carried 40% of all pedestrian movement through the central city",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "Web search and web fetch tools are not available in this session. The claim references a specific 1994 'Places for People' study by Jan Gehl regarding Melbourne laneways carrying 40% of pedestrian movement, but I cannot access external sources to verify whether this statistic is accurate.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the laneways — originally service alleys for the Victorian street grid",
+        "claim": "Melbourne's laneways were originally service alleys built as part of the Victorian-era street grid",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Melbourne's laneways were indeed originally designed as service alleys (called 'little streets') in the Victorian-era Hoddle Grid street plan of 1837.",
+      "detail": "Melbourne's central city was laid out by surveyor Robert Hoddle in 1837, creating what is known as the Hoddle Grid. The plan included narrow service lanes (typically 6-10 meters wide) between the main streets, originally intended for rear access to properties, deliveries, sanitation, and utilities - classic Victorian-era service functions. These laneways were integral to the original street design, not later additions. They later transformed into the cultural and retail spaces Melbourne is now famous for.",
+      "sources": [
+        "Knowledge of Melbourne urban planning history and Hoddle Grid (1837)",
+        "Note: Unable to access web sources to verify with primary documentation - confidence based on established historical knowledge"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander identified this in Pattern 52 (Network of Paths and Cars)",
+        "claim": "Christopher Alexander's Pattern 52 is titled 'Network of Paths and Cars'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Pattern 52 in Christopher Alexander's 'A Pattern Language' (1977) is indeed titled 'Network of Paths and Cars'.",
+      "detail": "Christopher Alexander's 'A Pattern Language: Towns, Buildings, Construction' (1977), published by Oxford University Press, contains 253 patterns. Pattern 52 is titled 'Network of Paths and Cars' and advocates for separating pedestrian paths and car roads into two distinct networks that intersect only at certain points. This is a well-documented pattern that has been referenced extensively in urban planning and architecture literature.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press - Pattern 52"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Newman's 1972 work on defensible space established the principle: informal surveillance from adjacent uses makes public space feel safe",
+        "claim": "Oscar Newman published work on defensible space in 1972 establishing that informal surveillance from adjacent uses makes public space feel safe",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Oscar Newman published 'Defensible Space: Crime Prevention Through Urban Design' in 1972, and natural surveillance is a core principle of his theory.",
+      "detail": "Oscar Newman's seminal book 'Defensible Space: Crime Prevention Through Urban Design' was published in 1972. The concept of natural surveillance—where residents and adjacent uses can observe public spaces, creating informal oversight that deters crime—is one of the four key principles of defensible space theory. Newman's research at Pruitt-Igoe and other housing projects demonstrated that design features enabling residents to see and monitor shared spaces correlated with reduced crime and increased feelings of safety.",
+      "sources": [
+        "Newman, Oscar. 'Defensible Space: Crime Prevention Through Urban Design.' Macmillan, 1972 (based on training knowledge - web verification was unavailable)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A standard Edmonton block measures roughly 120 meters by 60 meters",
+          "claim": "Standard Edmonton city blocks measure approximately 120 meters by 60 meters",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for current sources to verify Edmonton block dimensions.",
+        "detail": "Web search tools were not available to verify this claim. Edmonton's grid system does follow a rectangular block pattern established in early city planning, and the dimensions cited (120m x 60m) are plausible for North American city grids. However, without access to Edmonton city planning documents or survey data, I cannot confirm the specific measurements.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Marshall and Garrick's 2010 study of street network patterns found that cities with finer-grained pedestrian networks — more intersections per square kilometer — showed measurably higher walking rates and lower traffic fatalities",
+          "claim": "Marshall and Garrick published a 2010 study finding that cities with more intersections per square kilometer had higher walking rates and lower traffic fatalities",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim due to lack of web search access to check the Marshall and Garrick 2010 study.",
+        "detail": "Web search and web fetch tools are not currently available to verify this citation. I cannot confirm whether Marshall and Garrick published a 2010 study on street network patterns, intersections per square kilometer, walking rates, and traffic fatalities without access to academic databases or web search. The claim sounds plausible and follows established urban planning research patterns, but verification requires external source access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The city's 1994 'Places for People' study by Jan Gehl found that the laneways — originally service alleys for the Victorian street grid — carried 40% of all pedestrian movement through the central city",
+          "claim": "Jan Gehl conducted a 'Places for People' study of Melbourne in 1994",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "I attempted to use WebSearch and WebFetch tools but they are not enabled for this session. I cannot search for evidence about Jan Gehl's Places for People study of Melbourne without web access. The claim cannot be verified or disputed without external sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The city's 1994 'Places for People' study by Jan Gehl found that the laneways — originally service alleys for the Victorian street grid — carried 40% of all pedestrian movement through the central city",
+          "claim": "The 1994 Gehl study found Melbourne's laneways carried 40% of all pedestrian movement through the central city",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access",
+        "detail": "Web search and web fetch tools are not available in this session. The claim references a specific 1994 'Places for People' study by Jan Gehl regarding Melbourne laneways carrying 40% of pedestrian movement, but I cannot access external sources to verify whether this statistic is accurate.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "patternId": 185,
+  "patternName": "The Aging-in-Place Suite",
+  "timestamp": "2026-02-17T03:04:36.593Z",
+  "model": "claude-code-cli",
+  "totalClaims": 11,
+  "results": [
+    {
+      "claim": {
+        "text": "spend $50,000 or more converting a main floor that was never designed for sleeping",
+        "claim": "Main floor conversion for accessibility costs $50,000 or more",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify specific $50,000 figure for main floor accessibility conversions due to search access limitations.",
+      "detail": "Web search was unavailable to verify this claim. The $50,000 figure for converting a main floor for accessibility (adding bedroom/bathroom for aging in place) is plausible given typical renovation costs, but I cannot confirm this specific threshold without access to construction cost data, accessibility renovation studies, or aging-in-place research. Home renovation costs vary significantly by region, scope, and accessibility features required.",
+      "sources": [
+        "Unable to search - no sources accessed"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Statistics Canada reported in 2021 that 93% of Canadians aged 65 and older wished to remain in their current home as long as possible",
+        "claim": "Statistics Canada 2021 report found 93% of Canadians 65+ wished to remain in their current home as long as possible",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for this claim due to lack of web access permissions.",
+      "detail": "Web search and web fetch tools are not currently available to verify this Statistics Canada claim. The statistic about 93% of Canadians 65+ wishing to remain in their homes is a specific, checkable claim that requires access to Statistics Canada reports or related sources to verify. Without web access, no determination can be made.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "CMHC's 2019 housing survey found that only 9% of Canadian homes had all three features necessary for basic aging in place: no-step entry, a bedroom on the main floor, and a main-floor bathroom",
+        "claim": "CMHC 2019 housing survey found only 9% of Canadian homes had no-step entry, main-floor bedroom, and main-floor bathroom",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch permissions have not been granted, preventing verification of this claim about CMHC's 2019 housing survey statistics on accessible housing features in Canada. The claim references specific data (9% of homes with no-step entry, main-floor bedroom, and main-floor bathroom) that would require accessing CMHC's official reports or documentation to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Canadian Institute for Health Information found that in 2018-2019, falls were the leading cause of injury hospitalizations among seniors, with over 149,000 hospitalizations nationally",
+        "claim": "Canadian Institute for Health Information reported falls as leading cause of injury hospitalizations among seniors in 2018-2019, with over 149,000 hospitalizations nationally",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions to access CIHI data.",
+      "detail": "I was unable to search for or access the Canadian Institute for Health Information website or any other sources to verify this claim. The claim references a specific organization (CIHI), a specific timeframe (2018-2019), and a specific statistic (over 149,000 hospitalizations). Without web access, I cannot confirm whether CIHI published this data or whether the numbers are accurate.",
+      "sources": [
+        "No sources accessible - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Stairs are implicated in approximately 20% of home fall injuries among those over 65, according to the Public Health Agency of Canada",
+        "claim": "Public Health Agency of Canada reported stairs implicated in approximately 20% of home fall injuries among those over 65",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "I was unable to search for this claim because web search and web fetch permissions were not granted. To properly verify this statistic about stairs being implicated in 20% of home fall injuries among those over 65 according to the Public Health Agency of Canada, I would need to search PHAC publications and reports on seniors' falls.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Visitability ordinances in cities like Pima County, Arizona (adopted 2002)",
+        "claim": "Pima County, Arizona adopted visitability ordinance in 2002",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access limitations.",
+      "detail": "I was unable to perform web searches to verify whether Pima County, Arizona adopted a visitability ordinance in 2002. Note also that Pima County is a county, not a city, which the original text appears to conflate ('cities like Pima County'). Visitability ordinances requiring accessible home features have been adopted by various jurisdictions, but I cannot confirm the specific date or existence of Pima County's ordinance without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Atlanta, Georgia (the first in the U.S., 1992)",
+        "claim": "Atlanta, Georgia passed the first visitability ordinance in the U.S. in 1992",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Atlanta did pass an early visitability ordinance, but the exact date and whether it was truly the first in the U.S. requires verification.",
+      "detail": "Visitability as a concept was pioneered by Eleanor Smith and Concrete Change in Atlanta, Georgia, and Atlanta did adopt early visitability requirements. However, some sources suggest the first visitability law was actually passed in Austin, Texas in 1998, or that Pima County, Arizona was among the earliest. The 1992 date for Atlanta may refer to advocacy efforts beginning rather than ordinance passage. Without access to primary sources, the precise chronology cannot be confirmed.",
+      "sources": [
+        "Unable to access web sources - verdict based on background knowledge that may be incomplete or outdated"
+      ]
+    },
+    {
+      "claim": {
+        "text": "typically $100 to $600 per unit according to Concrete Change's implementation studies",
+        "claim": "Concrete Change implementation studies found visitability features cost $100 to $600 per unit when built from the start",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find Concrete Change's implementation studies.",
+      "detail": "I attempted to search for Concrete Change visitability cost studies but did not have permission to use web search or web fetch tools. Concrete Change is a known visitability advocacy organization, and the $100-$600 cost range for visitability features in new construction is a commonly cited figure in housing accessibility literature, but I cannot verify the specific attribution to 'Concrete Change implementation studies' without searching for primary sources.",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Eleanor Smith, founder of Concrete Change and creator of the visitability movement",
+        "claim": "Eleanor Smith founded Concrete Change and created the visitability movement",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for primary sources to verify the claim due to tool access restrictions.",
+      "detail": "I was unable to perform web searches or fetch web pages to verify this claim. Based on my training knowledge, Eleanor Smith is indeed associated with Concrete Change and the visitability movement in housing accessibility, but I cannot access current sources to confirm the specific claim that she 'founded' Concrete Change and 'created' the visitability movement. Primary source verification would require access to official organizational records or biographical sources.",
+      "sources": [
+        "No sources accessible - web search tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Eleanor Smith...documented that homes built to visitable standards required no structural modification when residents aged or became disabled, while conventional homes faced renovation costs averaging $30,000 to $100,000 for accessibility conversion",
+        "claim": "Eleanor Smith documented conventional homes faced renovation costs averaging $30,000 to $100,000 for accessibility conversion",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific attribution to Eleanor Smith or the exact cost range cited without web search access.",
+      "detail": "Eleanor Smith is the founder of Concrete Change, a visitability advocacy organization, and has authored numerous materials on visitability. However, I cannot confirm whether she specifically documented this $30,000 to $100,000 cost range for accessibility retrofits without access to search tools to locate the primary source. Various sources do cite similar ranges for home accessibility modifications, but the specific attribution to Smith requires verification.",
+      "sources": [
+        "Unable to search - tool access denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander's Pattern 159, Light on Two Sides of Every Room",
+        "claim": "Christopher Alexander's A Pattern Language contains Pattern 159 titled 'Light on Two Sides of Every Room'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 159 in Christopher Alexander's A Pattern Language is titled 'Light on Two Sides of Every Room'.",
+      "detail": "Christopher Alexander's seminal 1977 book 'A Pattern Language: Towns, Buildings, Construction' contains 253 patterns. Pattern 159 is titled 'Light on Two Sides of Every Room' and addresses the importance of natural lighting from multiple directions in room design. This is a widely cited pattern in architecture and design literature.",
+      "sources": [
+        "Christopher Alexander et al., A Pattern Language: Towns, Buildings, Construction (Oxford University Press, 1977)",
+        "Training knowledge - web verification unavailable"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 9,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Statistics Canada reported in 2021 that 93% of Canadians aged 65 and older wished to remain in their current home as long as possible",
+          "claim": "Statistics Canada 2021 report found 93% of Canadians 65+ wished to remain in their current home as long as possible",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for this claim due to lack of web access permissions.",
+        "detail": "Web search and web fetch tools are not currently available to verify this Statistics Canada claim. The statistic about 93% of Canadians 65+ wishing to remain in their homes is a specific, checkable claim that requires access to Statistics Canada reports or related sources to verify. Without web access, no determination can be made.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "CMHC's 2019 housing survey found that only 9% of Canadian homes had all three features necessary for basic aging in place: no-step entry, a bedroom on the main floor, and a main-floor bathroom",
+          "claim": "CMHC 2019 housing survey found only 9% of Canadian homes had no-step entry, main-floor bedroom, and main-floor bathroom",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch permissions have not been granted, preventing verification of this claim about CMHC's 2019 housing survey statistics on accessible housing features in Canada. The claim references specific data (9% of homes with no-step entry, main-floor bedroom, and main-floor bathroom) that would require accessing CMHC's official reports or documentation to verify.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Canadian Institute for Health Information found that in 2018-2019, falls were the leading cause of injury hospitalizations among seniors, with over 149,000 hospitalizations nationally",
+          "claim": "Canadian Institute for Health Information reported falls as leading cause of injury hospitalizations among seniors in 2018-2019, with over 149,000 hospitalizations nationally",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions to access CIHI data.",
+        "detail": "I was unable to search for or access the Canadian Institute for Health Information website or any other sources to verify this claim. The claim references a specific organization (CIHI), a specific timeframe (2018-2019), and a specific statistic (over 149,000 hospitalizations). Without web access, I cannot confirm whether CIHI published this data or whether the numbers are accurate.",
+        "sources": [
+          "No sources accessible - web search permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Stairs are implicated in approximately 20% of home fall injuries among those over 65, according to the Public Health Agency of Canada",
+          "claim": "Public Health Agency of Canada reported stairs implicated in approximately 20% of home fall injuries among those over 65",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access",
+        "detail": "I was unable to search for this claim because web search and web fetch permissions were not granted. To properly verify this statistic about stairs being implicated in 20% of home fall injuries among those over 65 according to the Public Health Agency of Canada, I would need to search PHAC publications and reports on seniors' falls.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "typically $100 to $600 per unit according to Concrete Change's implementation studies",
+          "claim": "Concrete Change implementation studies found visitability features cost $100 to $600 per unit when built from the start",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find Concrete Change's implementation studies.",
+        "detail": "I attempted to search for Concrete Change visitability cost studies but did not have permission to use web search or web fetch tools. Concrete Change is a known visitability advocacy organization, and the $100-$600 cost range for visitability features in new construction is a commonly cited figure in housing accessibility literature, but I cannot verify the specific attribution to 'Concrete Change implementation studies' without searching for primary sources.",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Eleanor Smith...documented that homes built to visitable standards required no structural modification when residents aged or became disabled, while conventional homes faced renovation costs averaging $30,000 to $100,000 for accessibility conversion",
+          "claim": "Eleanor Smith documented conventional homes faced renovation costs averaging $30,000 to $100,000 for accessibility conversion",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific attribution to Eleanor Smith or the exact cost range cited without web search access.",
+        "detail": "Eleanor Smith is the founder of Concrete Change, a visitability advocacy organization, and has authored numerous materials on visitability. However, I cannot confirm whether she specifically documented this $30,000 to $100,000 cost range for accessibility retrofits without access to search tools to locate the primary source. Various sources do cite similar ranges for home accessibility modifications, but the specific attribution to Smith requires verification.",
+        "sources": [
+          "Unable to search - tool access denied"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

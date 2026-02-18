@@ -1,0 +1,131 @@
+{
+  "patternId": 21,
+  "patternName": "Neighborhood Energy Commons",
+  "timestamp": "2026-02-16T20:41:02.173Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "In Germany, Energiegenossenschaften (energy cooperatives) collectively own over 40% of the country's renewable generation capacity.",
+        "claim": "German energy cooperatives (Energiegenossenschaften) collectively own over 40% of Germany's renewable generation capacity",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification sources due to tool permission restrictions.",
+      "detail": "Web search was not available to verify this claim about German energy cooperatives (Energiegenossenschaften) owning over 40% of Germany's renewable generation capacity. This statistic requires verification against German energy agency reports, cooperative association data, or academic studies on Energiewende ownership patterns. Without search capability, I cannot confirm or deny the claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Households that belong to cooperatives reduce their energy consumption measurably — not because of price signals, but because they can *see* the generation, understand the system, and feel ownership of it.",
+        "claim": "Households belonging to energy cooperatives reduce their energy consumption measurably compared to non-members",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to web search permissions not being granted.",
+      "detail": "Web search access was requested but not granted, preventing verification of this claim about energy cooperative members reducing consumption. The claim is plausible based on general knowledge about community ownership models and behavioral economics, but cannot be confirmed or denied without access to search for primary research.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Vermont, Green Mountain Power's community battery program installs visible battery walls in neighbourhoods, with real-time displays showing charge state and grid contribution.",
+        "claim": "Green Mountain Power (Vermont) has a community battery program that installs visible battery walls in neighborhoods with real-time displays",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; GMP battery programs exist but specific claim about visible neighborhood battery walls with real-time displays cannot be confirmed.",
+      "detail": "Green Mountain Power does operate battery storage programs in Vermont, including home battery leasing. However, without web search capability, I cannot verify the specific claim about 'community battery walls' with 'visible' installations featuring 'real-time displays showing charge state and grid contribution.' This specific detail about public-facing displays in neighborhoods would require current web sources to confirm.",
+      "sources": [
+        "Unable to search - web access not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Brooklyn's BMG microgrid lets neighbours trade locally generated solar energy peer-to-peer, with a dashboard that makes the flows visible.",
+        "claim": "Brooklyn has a microgrid called BMG that enables peer-to-peer solar energy trading with a visible dashboard",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify claim without web search access to check current status and specific features.",
+      "detail": "Web search and fetch tools are unavailable in this environment. Based on training data, Brooklyn Microgrid was a real LO3 Energy project enabling P2P energy trading, but I cannot confirm current operational status, exact name conventions (BMG), or dashboard features without accessing current sources.",
+      "sources": [
+        "Unable to search - tools not permitted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "In Germany, Energiegenossenschaften (energy cooperatives) collectively own over 40% of the country's renewable generation capacity.",
+          "claim": "German energy cooperatives (Energiegenossenschaften) collectively own over 40% of Germany's renewable generation capacity",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification sources due to tool permission restrictions.",
+        "detail": "Web search was not available to verify this claim about German energy cooperatives (Energiegenossenschaften) owning over 40% of Germany's renewable generation capacity. This statistic requires verification against German energy agency reports, cooperative association data, or academic studies on Energiewende ownership patterns. Without search capability, I cannot confirm or deny the claim.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Households that belong to cooperatives reduce their energy consumption measurably — not because of price signals, but because they can *see* the generation, understand the system, and feel ownership of it.",
+          "claim": "Households belonging to energy cooperatives reduce their energy consumption measurably compared to non-members",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to web search permissions not being granted.",
+        "detail": "Web search access was requested but not granted, preventing verification of this claim about energy cooperative members reducing consumption. The claim is plausible based on general knowledge about community ownership models and behavioral economics, but cannot be confirmed or denied without access to search for primary research.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In Vermont, Green Mountain Power's community battery program installs visible battery walls in neighbourhoods, with real-time displays showing charge state and grid contribution.",
+          "claim": "Green Mountain Power (Vermont) has a community battery program that installs visible battery walls in neighborhoods with real-time displays",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; GMP battery programs exist but specific claim about visible neighborhood battery walls with real-time displays cannot be confirmed.",
+        "detail": "Green Mountain Power does operate battery storage programs in Vermont, including home battery leasing. However, without web search capability, I cannot verify the specific claim about 'community battery walls' with 'visible' installations featuring 'real-time displays showing charge state and grid contribution.' This specific detail about public-facing displays in neighborhoods would require current web sources to confirm.",
+        "sources": [
+          "Unable to search - web access not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Brooklyn's BMG microgrid lets neighbours trade locally generated solar energy peer-to-peer, with a dashboard that makes the flows visible.",
+          "claim": "Brooklyn has a microgrid called BMG that enables peer-to-peer solar energy trading with a visible dashboard",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify claim without web search access to check current status and specific features.",
+        "detail": "Web search and fetch tools are unavailable in this environment. Based on training data, Brooklyn Microgrid was a real LO3 Energy project enabling P2P energy trading, but I cannot confirm current operational status, exact name conventions (BMG), or dashboard features without accessing current sources.",
+        "sources": [
+          "Unable to search - tools not permitted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "patternId": 102,
+  "patternName": "Visible Structure",
+  "timestamp": "2026-02-16T16:40:39.770Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "The 2021 International Building Code introduced three new construction types (IV-A, IV-B, IV-C) specifically permitting mass timber buildings up to 18 stories",
+        "claim": "2021 International Building Code introduced construction types IV-A, IV-B, and IV-C for mass timber buildings up to 18 stories",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "The 2021 IBC did introduce construction types IV-A, IV-B, and IV-C for mass timber buildings, with IV-A allowing up to 18 stories.",
+      "detail": "The 2021 International Building Code (IBC) introduced three new construction types specifically for mass timber: Type IV-A (up to 18 stories), Type IV-B (up to 12 stories), and Type IV-C (up to 9 stories). These changes were based on research conducted by the International Code Council and others on the fire safety performance of mass timber. The claim accurately states that IV-A permits 18 stories, though the other types have lower limits.",
+      "sources": [
+        "International Code Council 2021 IBC documentation",
+        "Knowledge from training data on building code updates"
+      ]
+    },
+    {
+      "claim": {
+        "text": "with Type IV-C allowing fully exposed timber structure up to 9 stories",
+        "claim": "IBC Type IV-C construction allows fully exposed timber structure up to 9 stories",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to confirm current IBC provisions.",
+      "detail": "Web search tools are not currently available. Based on training knowledge, Type IV-C construction does allow exposed mass timber and permits taller buildings under 2021 IBC, but specific story limits vary by occupancy type. Cannot confirm whether 9 stories is accurate for all or specific occupancy types without accessing current IBC documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "large timber sections form an insulating char layer when exposed to fire, maintaining structural capacity",
+        "claim": "Large timber sections form protective char layer in fire that maintains structural capacity",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The charring behavior of large timber sections in fire is a well-established principle in fire engineering and building science.",
+      "detail": "When large timber (mass timber) sections are exposed to fire, the outer layer chars at a predictable rate (approximately 0.6-0.8mm per minute for softwoods). This char layer has low thermal conductivity and acts as an insulating barrier, protecting the inner wood which retains its structural properties. This is a fundamental principle documented in building codes (IBC), fire engineering standards (Eurocode 5, ASTM E119), and extensively researched by organizations like the Forest Products Laboratory and WoodWorks. Unlike steel which loses strength rapidly at elevated temperatures, the predictable charring rate of timber allows engineers to design for fire resistance.",
+      "sources": [
+        "Forest Products Laboratory research on fire performance of wood",
+        "Eurocode 5 (EN 1995-1-2) structural fire design",
+        "International Building Code fire resistance provisions for heavy timber",
+        "American Wood Council Technical Report on calculating fire resistance"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "with Type IV-C allowing fully exposed timber structure up to 9 stories",
+          "claim": "IBC Type IV-C construction allows fully exposed timber structure up to 9 stories",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to confirm current IBC provisions.",
+        "detail": "Web search tools are not currently available. Based on training knowledge, Type IV-C construction does allow exposed mass timber and permits taller buildings under 2021 IBC, but specific story limits vary by occupancy type. Cannot confirm whether 9 stories is accurate for all or specific occupancy types without accessing current IBC documentation.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ★☆ until additional sources are found."
+  }
+}

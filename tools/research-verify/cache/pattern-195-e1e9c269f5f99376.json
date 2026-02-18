@@ -1,0 +1,231 @@
+{
+  "patternId": 195,
+  "patternName": "The Thermal Storage Tank",
+  "timestamp": "2026-02-17T03:50:53.244Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "Water holds 4,186 joules per kilogram per degree Celsius",
+        "claim": "The specific heat capacity of water is 4,186 joules per kilogram per degree Celsius",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.98,
+      "summary": "The specific heat capacity of water at 4,186 J/(kg·°C) is a well-established physical constant.",
+      "detail": "This is a standard reference value for the specific heat capacity of liquid water at approximately 15°C. The value is universally cited in physics, chemistry, and engineering references. Slight variations occur with temperature (e.g., 4,182 J/(kg·°C) at 25°C), but 4,186 is the standard textbook value.",
+      "sources": [
+        "Standard physics reference tables",
+        "NIST physical constants database",
+        "Engineering thermodynamics references"
+      ]
+    },
+    {
+      "claim": {
+        "text": "more than four times the thermal capacity of concrete, sixty times that of air",
+        "claim": "Water has more than 4x the thermal capacity of concrete and 60x that of air",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The water vs concrete comparison is correct (4x+), but the water vs air comparison of 60x is not standard for specific heat capacity.",
+      "detail": "Water's specific heat capacity (~4,186 J/kg·K) is indeed about 4.5x that of concrete (~880-920 J/kg·K), making the 'more than 4x' claim accurate. However, water's specific heat is only about 4x that of air by mass (~1,005 J/kg·K), not 60x. The 60x figure might come from volumetric heat capacity comparisons, but that ratio is actually much higher (~3,500x). The claim may be conflating different thermal metrics.",
+      "sources": [
+        "Engineering reference values for specific heat capacity - standard physics/engineering tables"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A cubic meter of water, heated from 40°C to 80°C, stores 167 megajoules",
+        "claim": "One cubic meter of water heated from 40°C to 80°C stores 167 megajoules of thermal energy",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.98,
+      "summary": "The calculation is correct based on fundamental thermodynamic principles using water's specific heat capacity.",
+      "detail": "Using the standard formula Q = mcΔT with water's specific heat capacity of 4.186 kJ/(kg·°C), 1 cubic meter (1000 kg) of water heated through a 40°C temperature differential stores exactly 167.44 MJ. The claim's figure of 167 MJ is accurate when rounded appropriately. This is a straightforward physics calculation that doesn't require external verification.",
+      "sources": [
+        "Standard thermodynamic calculation using water specific heat capacity = 4.186 kJ/(kg·°C)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Marstal solar heating plant on the island of Ærø stores summer heat in a 75,000 cubic meter pit for winter use",
+        "claim": "Marstal solar heating plant on Ærø island uses a 75,000 cubic meter pit for seasonal heat storage",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search the web to verify this claim about the Marstal solar heating plant's pit storage capacity. The claim references a specific technical detail (75,000 cubic meter pit) that would require checking against official sources or technical documentation about the Marstal district heating system on Ærø island in Denmark.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "achieving solar fractions above 55% at 55°N latitude",
+        "claim": "Marstal solar heating plant achieves solar fractions above 55% at 55°N latitude",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not granted permission in this verification session. The Marstal solar heating plant in Denmark is a well-known large-scale solar district heating installation, and 55°N is approximately the latitude of Denmark. However, without ability to search for current technical documentation or reports, I cannot confirm the specific solar fraction figure of 55%.",
+      "sources": [
+        "No sources accessible - web tools not permitted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the Passivhaus Institut recommends stratified hot water tanks of 500 to 2,000 liters for single-family homes coupling heat pumps with solar thermal or photovoltaics",
+        "claim": "Passivhaus Institut recommends 500-2,000 liter stratified hot water tanks for single-family homes with heat pumps and solar",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify claim due to lack of web search access to check Passivhaus Institut recommendations.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The Passivhaus Institut does publish technical guidance on hot water systems for passive houses, but I cannot confirm the specific tank size recommendation of 500-2,000 liters for single-family homes with heat pumps and solar without access to their documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Edmonton's off-peak electricity rates drop to 3-5 cents per kWh",
+        "claim": "Edmonton off-peak electricity rates are 3-5 cents per kWh",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search access was not granted, preventing verification of Edmonton electricity rates. The claim references specific pricing (3-5 cents per kWh for off-peak rates) that would require current utility rate information from EPCOR or Alberta electricity market sources to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "EPCOR's regulated rate option shows winter peak prices exceeding 15 cents per kWh between 5-7 PM",
+        "claim": "EPCOR regulated rate option has winter peak prices exceeding 15 cents per kWh between 5-7 PM",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions to access current EPCOR rate information.",
+      "detail": "EPCOR does offer a Regulated Rate Option (RRO) in Alberta, Canada, and electricity pricing does vary by time of day and season. However, I was unable to search for or access EPCOR's current rate schedules to verify whether winter peak prices between 5-7 PM specifically exceed 15 cents per kWh. Utility rates change frequently, so current verification would require accessing EPCOR's official rate documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a 2,000-liter tank at 70°C holds enough thermal energy to keep a small house above freezing for 24 to 48 hours",
+        "claim": "A 2,000-liter tank at 70°C can keep a small house above freezing for 24-48 hours without power",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The physics calculations confirm that 2,000 liters at 70°C contains approximately 151 kWh of usable thermal energy, which matches the 24-48 hour claim for keeping a small house above freezing.",
+      "detail": "Using the specific heat of water (4.186 kJ/kg·°C), 2,000 liters cooling from 70°C to near freezing releases approximately 544 MJ or 151 kWh. A small well-insulated house needs 2-4 kW to maintain temperature in cold weather, yielding 38-75 hours of heating capacity. The 24-48 hour range is conservative and accounts for real-world inefficiencies like heat exchanger losses and varying outdoor conditions.",
+      "sources": [
+        "Physics calculation using water specific heat capacity 4.186 kJ/kg·°C",
+        "Typical residential heating load estimates 2-4 kW for small insulated homes"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander's Pattern 201 (Waist-High Shelf)",
+        "claim": "Christopher Alexander's A Pattern Language contains Pattern 201 titled 'Waist-High Shelf'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander's A Pattern Language does contain Pattern 201 titled 'Waist-High Shelf'.",
+      "detail": "A Pattern Language (1977) by Christopher Alexander contains 253 patterns numbered from 1 to 253. Pattern 201 is indeed titled 'Waist-High Shelf' and describes the importance of having surfaces at waist height for placing objects temporarily. This is a well-documented pattern in the book's structure covering construction and interior details.",
+      "sources": [
+        "A Pattern Language: Towns, Buildings, Construction by Christopher Alexander et al., Oxford University Press, 1977"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 1,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Marstal solar heating plant on the island of Ærø stores summer heat in a 75,000 cubic meter pit for winter use",
+          "claim": "Marstal solar heating plant on Ærø island uses a 75,000 cubic meter pit for seasonal heat storage",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search the web to verify this claim about the Marstal solar heating plant's pit storage capacity. The claim references a specific technical detail (75,000 cubic meter pit) that would require checking against official sources or technical documentation about the Marstal district heating system on Ærø island in Denmark.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "achieving solar fractions above 55% at 55°N latitude",
+          "claim": "Marstal solar heating plant achieves solar fractions above 55% at 55°N latitude",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not granted permission in this verification session. The Marstal solar heating plant in Denmark is a well-known large-scale solar district heating installation, and 55°N is approximately the latitude of Denmark. However, without ability to search for current technical documentation or reports, I cannot confirm the specific solar fraction figure of 55%.",
+        "sources": [
+          "No sources accessible - web tools not permitted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "the Passivhaus Institut recommends stratified hot water tanks of 500 to 2,000 liters for single-family homes coupling heat pumps with solar thermal or photovoltaics",
+          "claim": "Passivhaus Institut recommends 500-2,000 liter stratified hot water tanks for single-family homes with heat pumps and solar",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify claim due to lack of web search access to check Passivhaus Institut recommendations.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The Passivhaus Institut does publish technical guidance on hot water systems for passive houses, but I cannot confirm the specific tank size recommendation of 500-2,000 liters for single-family homes with heat pumps and solar without access to their documentation.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Edmonton's off-peak electricity rates drop to 3-5 cents per kWh",
+          "claim": "Edmonton off-peak electricity rates are 3-5 cents per kWh",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search access was not granted, preventing verification of Edmonton electricity rates. The claim references specific pricing (3-5 cents per kWh for off-peak rates) that would require current utility rate information from EPCOR or Alberta electricity market sources to confirm.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "EPCOR's regulated rate option shows winter peak prices exceeding 15 cents per kWh between 5-7 PM",
+          "claim": "EPCOR regulated rate option has winter peak prices exceeding 15 cents per kWh between 5-7 PM",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions to access current EPCOR rate information.",
+        "detail": "EPCOR does offer a Regulated Rate Option (RRO) in Alberta, Canada, and electricity pricing does vary by time of day and season. However, I was unable to search for or access EPCOR's current rate schedules to verify whether winter peak prices between 5-7 PM specifically exceed 15 cents per kWh. Utility rates change frequently, so current verification would require accessing EPCOR's official rate documentation.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

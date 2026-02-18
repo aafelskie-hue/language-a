@@ -1,0 +1,53 @@
+{
+  "programs": [
+    {
+      "name": "Beacon Food Forest",
+      "location": "Seattle, Washington, USA",
+      "year": "2012",
+      "outcome": "7-acre public food forest on city land, one of the largest urban food forests in the US. Open to public foraging.",
+      "source": "Seattle Department of Neighborhoods / Jefferson Park Alliance - widely documented but I cannot verify current statistics without web search"
+    },
+    {
+      "name": "Atlanta Food Forest",
+      "location": "Atlanta, Georgia, USA",
+      "year": "2016",
+      "outcome": "7.1-acre food forest in Browns Mill neighborhood, developed on city-owned land as free community food source",
+      "source": "City of Atlanta / Trees Atlanta partnership - I recall this project but cannot verify current status or numbers"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to provide verified statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify specific citations",
+      "title": "N/A",
+      "year": "N/A",
+      "finding": "Food forest / forest garden research exists in permaculture and agroforestry literature, but I cannot provide verified citations without search access"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Seattle, WA - Beacon Food Forest",
+      "description": "Multi-layered perennial food system with fruit trees, berry bushes, herbs, vegetables on former unused public land",
+      "source": "Widely documented urban food forest project"
+    },
+    {
+      "location": "Atlanta, GA - Atlanta Food Forest",
+      "description": "Large urban food forest designed for community access and free food harvesting",
+      "source": "Trees Atlanta / City partnership"
+    },
+    {
+      "location": "Various UK locations",
+      "description": "Multiple community orchards and forest gardens exist in UK, often on commons or public land",
+      "source": "Cannot verify specific examples without search"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT: Web search was not available. I have knowledge of several prominent food forest projects (Beacon Food Forest, Atlanta Food Forest) from my training, but I cannot verify current statistics, outcomes, or academic citations without search access. The concept is well-established in permaculture literature and there are real implemented examples, but providing specific numbers or citations would require fabrication. I recommend re-running this query with web search enabled to get properly sourced evidence. The pattern concept itself is sound and there ARE real examples, but this research output should be considered incomplete."
+}

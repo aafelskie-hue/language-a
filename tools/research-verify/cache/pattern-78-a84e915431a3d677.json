@@ -1,0 +1,105 @@
+{
+  "patternId": 78,
+  "patternName": "The Visible Elder",
+  "timestamp": "2026-02-16T21:39:06.706Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "elders who interact regularly with children show improved cognitive function, reduced depression, and greater sense of purpose",
+        "claim": "Research shows regular intergenerational contact with children improves cognitive function, reduces depression, and increases sense of purpose in elders",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to web search access being unavailable.",
+      "detail": "Web search permission was not granted, preventing verification of this specific research claim. However, based on training data, intergenerational programs (such as Experience Corps and various nursing home-preschool co-location programs) have been studied and shown benefits for older adults, though specific claims about cognitive function, depression reduction, and sense of purpose would need source verification to confirm exact findings.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Children who interact with elders show improved social skills, empathy, and emotional regulation",
+        "claim": "Research shows children who interact with elders demonstrate improved social skills, empathy, and emotional regulation",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify through web search due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about intergenerational programs benefiting children's social-emotional development is consistent with published research in this field (e.g., Generations United reports, studies on programs like ONEgeneration), but I could not independently verify specific sources in real-time. The claim is plausible and aligns with general findings in developmental psychology literature on intergenerational contact.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "elders, deprived of purpose and visibility, decline faster",
+        "claim": "Social isolation and lack of purpose accelerates decline in elderly individuals",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though the claim aligns with well-established gerontological research.",
+      "detail": "The claim that social isolation and lack of purpose accelerates decline in elderly individuals is consistent with extensive published research, including work by the CDC, AARP, and numerous academic studies linking social isolation to increased mortality, cognitive decline, and depression in older adults. However, without web search access, I cannot verify this against specific current sources or cite primary research. The original phrasing 'deprived of purpose and visibility' captures two distinct concepts (purpose/meaning and social connection/visibility) that are both independently supported in aging research.",
+      "sources": [
+        "Unable to search - based on training knowledge only"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "elders who interact regularly with children show improved cognitive function, reduced depression, and greater sense of purpose",
+          "claim": "Research shows regular intergenerational contact with children improves cognitive function, reduces depression, and increases sense of purpose in elders",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to web search access being unavailable.",
+        "detail": "Web search permission was not granted, preventing verification of this specific research claim. However, based on training data, intergenerational programs (such as Experience Corps and various nursing home-preschool co-location programs) have been studied and shown benefits for older adults, though specific claims about cognitive function, depression reduction, and sense of purpose would need source verification to confirm exact findings.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Children who interact with elders show improved social skills, empathy, and emotional regulation",
+          "claim": "Research shows children who interact with elders demonstrate improved social skills, empathy, and emotional regulation",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify through web search due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about intergenerational programs benefiting children's social-emotional development is consistent with published research in this field (e.g., Generations United reports, studies on programs like ONEgeneration), but I could not independently verify specific sources in real-time. The claim is plausible and aligns with general findings in developmental psychology literature on intergenerational contact.",
+        "sources": [
+          "Unable to access web sources - verification incomplete"
+        ]
+      },
+      {
+        "claim": {
+          "text": "elders, deprived of purpose and visibility, decline faster",
+          "claim": "Social isolation and lack of purpose accelerates decline in elderly individuals",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access, though the claim aligns with well-established gerontological research.",
+        "detail": "The claim that social isolation and lack of purpose accelerates decline in elderly individuals is consistent with extensive published research, including work by the CDC, AARP, and numerous academic studies linking social isolation to increased mortality, cognitive decline, and depression in older adults. However, without web search access, I cannot verify this against specific current sources or cite primary research. The original phrasing 'deprived of purpose and visibility' captures two distinct concepts (purpose/meaning and social connection/visibility) that are both independently supported in aging research.",
+        "sources": [
+          "Unable to search - based on training knowledge only"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

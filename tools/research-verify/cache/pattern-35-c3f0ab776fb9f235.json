@@ -1,0 +1,36 @@
+{
+  "patternId": 35,
+  "patternName": "The Entrance Sequence",
+  "timestamp": "2026-02-16T21:00:06.320Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "In cold climates, this sequence also serves as a thermal buffer — each layer reduces heat loss and wind intrusion.",
+        "claim": "Spatial transition layers (gates, porches, vestibules) reduce heat loss and wind intrusion in cold climates",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "This is well-established building science — vestibules, airlocks, and transition spaces reduce infiltration and heat loss by creating intermediate thermal zones.",
+      "detail": "The claim reflects fundamental building physics principles widely documented in building science literature. Vestibules and airlock entries work by preventing direct air exchange between inside and outside (only one door open at a time), creating a buffer zone that reduces stack effect and wind-driven infiltration. This is codified in energy codes (ASHRAE 90.1, IECC) which require vestibules for commercial buildings in cold climates. The Department of Energy, building science organizations like Building Science Corporation, and ASHRAE all document this principle.",
+      "sources": [
+        "ASHRAE Standard 90.1 (Energy Standard for Buildings)",
+        "International Energy Conservation Code (IECC)",
+        "Building Science Corporation technical resources",
+        "Department of Energy building guidance"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

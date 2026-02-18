@@ -1,0 +1,150 @@
+{
+  "patternId": 216,
+  "patternName": "The Thick Wall",
+  "timestamp": "2026-02-17T05:10:07.769Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "Christopher Alexander identified this pattern as #197 in *A Pattern Language* (1977)",
+        "claim": "Pattern #197 in Alexander's 'A Pattern Language' (1977) addresses thick walls",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern #197 in Christopher Alexander's 'A Pattern Language' (1977) is indeed titled 'Thick Walls' and addresses the concept of inhabitable wall thickness.",
+      "detail": "Christopher Alexander's 'A Pattern Language' published in 1977 contains 253 patterns for architectural and urban design. Pattern #197 is titled 'THICK WALLS' and discusses how traditional buildings had walls two feet thick or more that created inhabitable zones with window seats, niches, and alcoves. This is a well-established reference in architectural pattern literature.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press",
+        "Training knowledge of the original text"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the 15 kWh/m²·year heating demand that the Passive House Institute established in Darmstadt",
+        "claim": "Passive House Institute in Darmstadt established 15 kWh/m²·year as the heating demand standard",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Passive House Institute (PHI) in Darmstadt, Germany, indeed established 15 kWh/m²·year as the maximum heating demand standard for Passive House certification.",
+      "detail": "The Passive House Institute was founded by Dr. Wolfgang Feist in Darmstadt, Germany in 1996. The 15 kWh/m²·year heating energy demand is one of the core requirements for Passive House certification and has been the standard since the institute formalized the criteria. This is well-documented across official Passive House Institute publications and is a foundational technical requirement of the certification system.",
+      "sources": [
+        "Passive House Institute official criteria (passivehouse.com)",
+        "PHI technical documentation and certification requirements"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Alberta Building Envelope Council's 2019 study of high-performance housing in the Edmonton region documented double-stud walls ranging from 300mm to 450mm total thickness",
+        "claim": "Alberta Building Envelope Council published a 2019 study of high-performance housing in Edmonton region documenting double-stud wall thicknesses of 300-450mm",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find the cited Alberta Building Envelope Council 2019 study.",
+      "detail": "I attempted to search for the Alberta Building Envelope Council's 2019 study on high-performance housing in Edmonton and double-stud wall specifications, but web search and fetch permissions were not available. The claim cites a specific organization, year, region, and technical specifications (300-450mm double-stud walls) that would require access to ABEC publications or building science literature to verify.",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Swedish *timmervägg* construction — log walls 200-300mm thick — routinely incorporated window seats within the wall depth",
+        "claim": "Traditional Swedish timmervägg (log wall) construction used 200-300mm thick walls that incorporated window seats",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search web sources to verify the specific wall thickness measurements and window seat claims.",
+      "detail": "Web search and fetch tools are not available in this session. The claim references Swedish timmervägg construction with specific wall thickness (200-300mm) and window seat integration, which are plausible features of traditional Nordic log construction but cannot be verified without access to primary sources on Swedish building traditions or architectural documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Finnish architect Alvar Aalto's Villa Mairea (1939) used thick masonry walls with deep window reveals that became display niches and reading alcoves",
+        "claim": "Alvar Aalto's Villa Mairea was built in 1939 and features thick masonry walls with deep window reveals used as display niches and reading alcoves",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Villa Mairea was built 1938-1939 by Aalto, but the claim about thick masonry walls with window reveals as niches/alcoves may be overstated or mischaracterized.",
+      "detail": "Villa Mairea was indeed designed by Alvar Aalto for Harry and Maire Gullichsen and completed in 1938-1939 (sometimes cited as just 1939). However, Villa Mairea is primarily known for its combination of modernist design with natural materials including wood, not specifically for thick masonry walls. The building features brick, wood, and other materials. Without web access, I cannot confirm the specific claim about deep window reveals being used as display niches and reading alcoves - this detail may be accurate for specific areas of the house but I cannot verify it.",
+      "sources": [
+        "Unable to verify - web search permission not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the Norwegian firm Snøhetta's Powerhouse Brattørkaia (2019) in Trondheim incorporated 400mm walls with integrated storage zones",
+        "claim": "Snøhetta's Powerhouse Brattørkaia in Trondheim was completed in 2019 with 400mm walls featuring integrated storage zones",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Powerhouse Brattørkaia was completed in 2019 by Snøhetta, but the specific 400mm wall thickness claim could not be verified through web search.",
+      "detail": "My training knowledge confirms that Powerhouse Brattørkaia in Trondheim, Norway was designed by Snøhetta and completed in 2019. It is an energy-positive building (produces more energy than it consumes). However, I was unable to verify the specific claim about 400mm walls with integrated storage zones as web search permissions were not available. The building does feature thick, highly-insulated walls as part of its Passivhaus-inspired design, but the exact 400mm specification requires verification.",
+      "sources": [
+        "Unable to access web sources - based on training knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Fanger's thermal comfort research at the Technical University of Denmark established that a 1°C increase in mean radiant temperature permits roughly a 1°C decrease in air temperature for equivalent comfort",
+        "claim": "Fanger's research at Technical University of Denmark found that 1°C increase in mean radiant temperature allows approximately 1°C decrease in air temperature for equivalent thermal comfort",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 1°C exchange rate claim due to lack of web search access.",
+      "detail": "P.O. Fanger's work at Technical University of Denmark on thermal comfort (PMV/PPD models) is well-established in HVAC literature. The concept that radiant temperature and air temperature have trade-off relationships for thermal comfort is consistent with thermal comfort theory. However, I could not search to verify the specific claim that 1°C MRT increase permits exactly 1°C air temperature decrease. This specific ratio would depend on other factors in Fanger's equations.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 2,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Alberta Building Envelope Council's 2019 study of high-performance housing in the Edmonton region documented double-stud walls ranging from 300mm to 450mm total thickness",
+          "claim": "Alberta Building Envelope Council published a 2019 study of high-performance housing in Edmonton region documenting double-stud wall thicknesses of 300-450mm",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find the cited Alberta Building Envelope Council 2019 study.",
+        "detail": "I attempted to search for the Alberta Building Envelope Council's 2019 study on high-performance housing in Edmonton and double-stud wall specifications, but web search and fetch permissions were not available. The claim cites a specific organization, year, region, and technical specifications (300-450mm double-stud walls) that would require access to ABEC publications or building science literature to verify.",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Fanger's thermal comfort research at the Technical University of Denmark established that a 1°C increase in mean radiant temperature permits roughly a 1°C decrease in air temperature for equivalent comfort",
+          "claim": "Fanger's research at Technical University of Denmark found that 1°C increase in mean radiant temperature allows approximately 1°C decrease in air temperature for equivalent thermal comfort",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 1°C exchange rate claim due to lack of web search access.",
+        "detail": "P.O. Fanger's work at Technical University of Denmark on thermal comfort (PMV/PPD models) is well-established in HVAC literature. The concept that radiant temperature and air temperature have trade-off relationships for thermal comfort is consistent with thermal comfort theory. However, I could not search to verify the specific claim that 1°C MRT increase permits exactly 1°C air temperature decrease. This specific ratio would depend on other factors in Fanger's equations.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

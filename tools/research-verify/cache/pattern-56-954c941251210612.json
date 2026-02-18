@@ -1,0 +1,36 @@
+{
+  "patternId": 56,
+  "patternName": "Honest Materials",
+  "timestamp": "2026-02-16T21:19:35.265Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "wood darkens, copper patinas, stone weathers",
+        "claim": "Wood darkens over time, copper develops a patina, and stone weathers with age",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "These are well-established scientific facts about material aging that are documented in materials science, architecture, and conservation literature.",
+      "detail": "Wood darkening over time is caused by UV exposure and oxidation of lignin and other compounds. Copper patina (verdigris) is a well-documented oxidation process where copper reacts with oxygen, water, and carbon dioxide to form copper carbonate. Stone weathering through physical, chemical, and biological processes is a fundamental concept in geology and building conservation. These are basic materials science facts that do not require web search verification as they represent established scientific knowledge found in any materials science or geology textbook.",
+      "sources": [
+        "Materials science textbooks",
+        "Geology and weathering literature",
+        "Architectural conservation manuals",
+        "Chemistry of oxidation processes"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

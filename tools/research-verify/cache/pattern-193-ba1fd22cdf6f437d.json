@@ -1,0 +1,322 @@
+{
+  "patternId": 193,
+  "patternName": "The District Heating Loop",
+  "timestamp": "2026-02-17T03:37:17.905Z",
+  "model": "claude-code-cli",
+  "totalClaims": 13,
+  "results": [
+    {
+      "claim": {
+        "text": "A single household furnace runs at 80-95% efficiency",
+        "claim": "Household furnaces operate at 80-95% efficiency",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "The 80-95% efficiency range for household furnaces accurately reflects standard AFUE ratings for modern gas furnaces.",
+      "detail": "Household gas furnaces are rated by Annual Fuel Utilization Efficiency (AFUE). Standard efficiency furnaces typically operate at 80% AFUE, while high-efficiency condensing furnaces achieve 90-98% AFUE. The U.S. Department of Energy has set minimum efficiency standards of 80% for non-condensing furnaces. The claimed range of 80-95% accurately captures the typical operating efficiency of modern residential furnaces.",
+      "sources": [
+        "U.S. Department of Energy efficiency standards (based on training knowledge)",
+        "ENERGY STAR furnace specifications (based on training knowledge)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Copenhagen's district heating network, serving 99% of the city",
+        "claim": "Copenhagen's district heating network serves 99% of the city",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The claim is directionally correct but the exact percentage may be slightly different depending on the source and year.",
+      "detail": "Copenhagen does have one of the world's most extensive district heating networks, and coverage figures commonly cited range from 97-99% of buildings in the city. Various sources cite slightly different figures - some report 98%, others 99%. The claim of 99% is within the commonly reported range but the exact figure varies by source and measurement year. Unable to verify with live web sources due to permission restrictions.",
+      "sources": [
+        "Unable to access web sources - based on training knowledge that Copenhagen's district heating coverage is commonly cited in the 97-99% range"
+      ]
+    },
+    {
+      "claim": {
+        "text": "operates at an effective efficiency exceeding 90% while drawing 65% of its heat from waste sources: garbage incineration, industrial processes, and power plant exhaust",
+        "claim": "Copenhagen's district heating operates at over 90% efficiency and draws 65% of heat from waste sources",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to find current sources on Copenhagen district heating statistics.",
+      "detail": "This claim requires verification against official Copenhagen district heating statistics (HOFOR or CTR sources) to confirm the >90% efficiency figure and 65% waste heat percentage. Without web search capability, I cannot access current data to verify these specific numbers. The general claim that Copenhagen uses combined heat and power with waste incineration is consistent with known facts about Danish district heating, but the specific percentages require verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The system has reduced Copenhagen's CO₂ emissions by 665,000 tonnes annually",
+        "claim": "Copenhagen's district heating reduces CO₂ emissions by 665,000 tonnes annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 665,000 tonnes figure due to lack of web search access.",
+      "detail": "Copenhagen's district heating system is well-documented as one of the world's largest and most successful, covering about 98% of the city and significantly reducing emissions compared to individual heating. However, I cannot verify the specific figure of 665,000 tonnes annually without access to web search to find primary sources from Copenhagen Municipality, HOFOR (Copenhagen's utility), or official climate reports. The figure is plausible given the system's scale, but the exact number requires verification.",
+      "sources": [
+        "Unable to search - web tools not available in this session"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Edmonton's 5,200 heating degree days (base 18°C)",
+        "claim": "Edmonton has 5,200 heating degree days (base 18°C)",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.6,
+      "summary": "Cannot verify exact figure without web access, but 5,200 HDD is consistent with known Edmonton climate data.",
+      "detail": "Edmonton is known to have approximately 5,000-5,500 heating degree days (base 18°C) annually according to Environment and Climate Change Canada climate normals. The claimed figure of 5,200 falls within this expected range and is plausible, but I cannot access current sources to verify the exact number. Web search would be needed to confirm against official Canadian climate data.",
+      "sources": [
+        "Unable to access web sources - based on training data knowledge of Canadian climate normals"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The University of Alberta's district energy system, serving 90 buildings across campus",
+        "claim": "University of Alberta's district energy system serves 90 buildings",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search for information about the University of Alberta's district energy system because web search and web fetch permissions were not granted. The claim about 90 buildings cannot be confirmed or denied without access to external sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "When the university added cogeneration in 2010, it captured waste heat from electricity generation, improving overall fuel utilization to over 70%",
+        "claim": "University of Alberta added cogeneration in 2010 and achieved over 70% fuel utilization",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I attempted to search for information about the University of Alberta's cogeneration system installation date and fuel utilization efficiency, but web search and web fetch tools were not available. The claim cannot be evaluated without access to external sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Västerås, Sweden (population 120,000, latitude 59°N, winters comparable to Edmonton)",
+        "claim": "Västerås, Sweden has a population of 120,000 and is located at latitude 59°N",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The latitude is accurate but the population figure is significantly understated.",
+      "detail": "Västerås is indeed located at approximately 59.6°N latitude, so the 59°N claim is accurate. However, the population of Västerås is significantly larger than 120,000. As of recent census data, the city proper has around 130,000-150,000 residents, and the municipality population exceeds 155,000. The figure of 120,000 may have been accurate historically but is outdated.",
+      "sources": [
+        "Unable to verify via web search due to permission restrictions - based on training data knowledge of Swedish demographics and geography"
+      ]
+    },
+    {
+      "claim": {
+        "text": "converted to district heating beginning in 1954",
+        "claim": "Västerås began converting to district heating in 1954",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify the 1954 date for Västerås district heating conversion.",
+      "detail": "I was unable to perform web searches to verify this claim. Västerås is a Swedish city and Sweden has an extensive district heating history, with early systems dating to the 1940s-1950s. The 1954 date is plausible for Swedish district heating development, but without access to search tools, I cannot confirm the specific year for Västerås.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "By 2020, the system served 98% of buildings, with water temperatures of 70-120°C flowing through 400 kilometers of insulated pipe",
+        "claim": "Västerås district heating served 98% of buildings by 2020 with 400 km of pipe at 70-120°C",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to find primary sources about Västerås district heating statistics.",
+      "detail": "Web search was unavailable to verify the specific statistics claimed (98% building coverage, 400 km pipe length, 70-120°C temperatures by 2020). Västerås is known for having an extensive district heating system operated by Mälarenergi, but the specific figures require access to official reports or municipal data to confirm. The claimed numbers are plausible for a Swedish city of Västerås's size with well-developed district heating infrastructure.",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Heat losses in modern pre-insulated pipes run 5-10% annually",
+        "claim": "Modern pre-insulated district heating pipes have 5-10% annual heat losses",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions",
+      "detail": "Web search and fetch tools are unavailable in this session. Verification of technical claims about district heating pipe heat losses requires access to manufacturer specifications, industry reports, and academic literature. Cannot provide a meaningful verdict without external source access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Danish guidelines suggest a minimum heat density of 1.5 GJ per linear meter of trench per year",
+        "claim": "Danish guidelines specify minimum heat density of 1.5 GJ per linear meter of trench per year for district heating",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access in this session.",
+      "detail": "Web search and fetch tools are not available to verify this claim against primary sources. The claim references a specific technical threshold (1.5 GJ/linear meter/year) for Danish district heating guidelines, which is a plausible figure in the district heating literature, but without access to search tools I cannot confirm the exact specification or its source.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "roughly 25-30 dwellings per hectare, or the density of rowhouses and low-rise apartments",
+        "claim": "1.5 GJ/linear meter threshold corresponds to 25-30 dwellings per hectare",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "This verification requires web search to find technical literature on district heating linear heat density thresholds and their correspondence to residential density levels. The claim involves a specific technical relationship (1.5 GJ/linear meter = 25-30 dwellings/hectare) that would need to be checked against energy engineering sources, district heating guidelines, or urban planning literature. Without web search capability, I cannot determine if this technical threshold is accurate.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 2,
+    "unverified": 10,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "operates at an effective efficiency exceeding 90% while drawing 65% of its heat from waste sources: garbage incineration, industrial processes, and power plant exhaust",
+          "claim": "Copenhagen's district heating operates at over 90% efficiency and draws 65% of heat from waste sources",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to find current sources on Copenhagen district heating statistics.",
+        "detail": "This claim requires verification against official Copenhagen district heating statistics (HOFOR or CTR sources) to confirm the >90% efficiency figure and 65% waste heat percentage. Without web search capability, I cannot access current data to verify these specific numbers. The general claim that Copenhagen uses combined heat and power with waste incineration is consistent with known facts about Danish district heating, but the specific percentages require verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The system has reduced Copenhagen's CO₂ emissions by 665,000 tonnes annually",
+          "claim": "Copenhagen's district heating reduces CO₂ emissions by 665,000 tonnes annually",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 665,000 tonnes figure due to lack of web search access.",
+        "detail": "Copenhagen's district heating system is well-documented as one of the world's largest and most successful, covering about 98% of the city and significantly reducing emissions compared to individual heating. However, I cannot verify the specific figure of 665,000 tonnes annually without access to web search to find primary sources from Copenhagen Municipality, HOFOR (Copenhagen's utility), or official climate reports. The figure is plausible given the system's scale, but the exact number requires verification.",
+        "sources": [
+          "Unable to search - web tools not available in this session"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The University of Alberta's district energy system, serving 90 buildings across campus",
+          "claim": "University of Alberta's district energy system serves 90 buildings",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search for information about the University of Alberta's district energy system because web search and web fetch permissions were not granted. The claim about 90 buildings cannot be confirmed or denied without access to external sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "When the university added cogeneration in 2010, it captured waste heat from electricity generation, improving overall fuel utilization to over 70%",
+          "claim": "University of Alberta added cogeneration in 2010 and achieved over 70% fuel utilization",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I attempted to search for information about the University of Alberta's cogeneration system installation date and fuel utilization efficiency, but web search and web fetch tools were not available. The claim cannot be evaluated without access to external sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "converted to district heating beginning in 1954",
+          "claim": "Västerås began converting to district heating in 1954",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify the 1954 date for Västerås district heating conversion.",
+        "detail": "I was unable to perform web searches to verify this claim. Västerås is a Swedish city and Sweden has an extensive district heating history, with early systems dating to the 1940s-1950s. The 1954 date is plausible for Swedish district heating development, but without access to search tools, I cannot confirm the specific year for Västerås.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "By 2020, the system served 98% of buildings, with water temperatures of 70-120°C flowing through 400 kilometers of insulated pipe",
+          "claim": "Västerås district heating served 98% of buildings by 2020 with 400 km of pipe at 70-120°C",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to find primary sources about Västerås district heating statistics.",
+        "detail": "Web search was unavailable to verify the specific statistics claimed (98% building coverage, 400 km pipe length, 70-120°C temperatures by 2020). Västerås is known for having an extensive district heating system operated by Mälarenergi, but the specific figures require access to official reports or municipal data to confirm. The claimed numbers are plausible for a Swedish city of Västerås's size with well-developed district heating infrastructure.",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Heat losses in modern pre-insulated pipes run 5-10% annually",
+          "claim": "Modern pre-insulated district heating pipes have 5-10% annual heat losses",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions",
+        "detail": "Web search and fetch tools are unavailable in this session. Verification of technical claims about district heating pipe heat losses requires access to manufacturer specifications, industry reports, and academic literature. Cannot provide a meaningful verdict without external source access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Danish guidelines suggest a minimum heat density of 1.5 GJ per linear meter of trench per year",
+          "claim": "Danish guidelines specify minimum heat density of 1.5 GJ per linear meter of trench per year for district heating",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access in this session.",
+        "detail": "Web search and fetch tools are not available to verify this claim against primary sources. The claim references a specific technical threshold (1.5 GJ/linear meter/year) for Danish district heating guidelines, which is a plausible figure in the district heating literature, but without access to search tools I cannot confirm the exact specification or its source.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "roughly 25-30 dwellings per hectare, or the density of rowhouses and low-rise apartments",
+          "claim": "1.5 GJ/linear meter threshold corresponds to 25-30 dwellings per hectare",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "This verification requires web search to find technical literature on district heating linear heat density thresholds and their correspondence to residential density levels. The claim involves a specific technical relationship (1.5 GJ/linear meter = 25-30 dwellings/hectare) that would need to be checked against energy engineering sources, district heating guidelines, or urban planning literature. Without web search capability, I cannot determine if this technical threshold is accurate.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "patternId": 78,
+  "patternName": "The Visible Elder",
+  "timestamp": "2026-02-18T04:46:39.703Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "A 2014 study at UCLA found that older adults who mentored elementary students showed significant improvements in cognitive function — memory, problem-solving, processing speed — while the children showed gains in reading achievement and social behavior",
+        "claim": "UCLA conducted a 2014 study finding that older adults mentoring elementary students showed improvements in cognitive function (memory, problem-solving, processing speed) and children showed gains in reading achievement and social behavior",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify without web search access; the described research characteristics match Experience Corps studies, but those were primarily Johns Hopkins-led, not UCLA.",
+      "detail": "The claim describes intergenerational mentoring research with outcomes (cognitive benefits for elders, academic/behavioral gains for children) consistent with published Experience Corps studies. However, the major peer-reviewed Experience Corps cognitive research was led by Johns Hopkins researchers, not UCLA. Without web search, I cannot confirm whether UCLA conducted a separate 2014 study with these specific findings or if this is a misattribution of Johns Hopkins research.",
+      "sources": [
+        "Unable to search - permission not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A 2014 study at UCLA found that older adults who mentored elementary students showed significant improvements in cognitive function — memory, problem-solving, processing speed — while the children showed gains in reading achievement and social behavior",
+          "claim": "UCLA conducted a 2014 study finding that older adults mentoring elementary students showed improvements in cognitive function (memory, problem-solving, processing speed) and children showed gains in reading achievement and social behavior",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify without web search access; the described research characteristics match Experience Corps studies, but those were primarily Johns Hopkins-led, not UCLA.",
+        "detail": "The claim describes intergenerational mentoring research with outcomes (cognitive benefits for elders, academic/behavioral gains for children) consistent with published Experience Corps studies. However, the major peer-reviewed Experience Corps cognitive research was led by Johns Hopkins researchers, not UCLA. Without web search, I cannot confirm whether UCLA conducted a separate 2014 study with these specific findings or if this is a misattribution of Johns Hopkins research.",
+        "sources": [
+          "Unable to search - permission not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

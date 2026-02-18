@@ -1,0 +1,116 @@
+{
+  "patternId": 164,
+  "patternName": "The Lending Library",
+  "timestamp": "2026-02-17T02:02:25.702Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Berkeley's Tool Lending Library, established in 1979 as one of the first in North America",
+        "claim": "Berkeley's Tool Lending Library was established in 1979 and was one of the first in North America",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify the claim due to web search permissions not being granted.",
+      "detail": "Web search and web fetch tools were not available to verify this historical claim about Berkeley's Tool Lending Library. I was unable to access any external sources to confirm the 1979 establishment date or whether it was one of the first tool lending libraries in North America. This claim requires external verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Sacramento Public Library launched a 'Library of Things' in 2015 lending sewing machines, musical instruments, and camping gear",
+        "claim": "Sacramento Public Library launched a Library of Things in 2015 lending sewing machines, musical instruments, and camping gear",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot access Sacramento Public Library's website or search for news articles about their Library of Things program to verify the 2015 launch date or the specific items mentioned (sewing machines, musical instruments, camping gear).",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "London's Library of Things, founded in 2014, now operates multiple locations lending everything from carpet cleaners to sound systems",
+        "claim": "London's Library of Things was founded in 2014 and now operates multiple locations",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of access to web search tools.",
+      "detail": "I attempted to search for information about London's Library of Things founding date and locations but was unable to access web search or fetch capabilities. The claim about the 2014 founding date and multiple locations cannot be confirmed or denied without access to primary sources such as the Library of Things official website or news coverage.",
+      "sources": [
+        "No sources accessible - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Toronto Tool Library, established in 2013, runs a membership-based model across multiple locations",
+        "claim": "Toronto Tool Library was established in 2013 and runs a membership-based model across multiple locations",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The Toronto Tool Library was established in 2013 with a membership-based model, but the 'multiple locations' claim needs verification as location count has varied over time.",
+      "detail": "The Toronto Tool Library was indeed founded in 2013, starting in the Parkdale neighborhood of Toronto. It operates on a membership-based lending model where members pay annual fees to borrow tools. The organization has operated multiple locations at various points, though the exact number of current locations may have changed over time. Without current web access, I cannot verify the present number of active locations.",
+      "sources": [
+        "Unable to access web sources - based on training knowledge up to 2024"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Berkeley's Tool Lending Library, established in 1979 as one of the first in North America",
+          "claim": "Berkeley's Tool Lending Library was established in 1979 and was one of the first in North America",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify the claim due to web search permissions not being granted.",
+        "detail": "Web search and web fetch tools were not available to verify this historical claim about Berkeley's Tool Lending Library. I was unable to access any external sources to confirm the 1979 establishment date or whether it was one of the first tool lending libraries in North America. This claim requires external verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Sacramento Public Library launched a 'Library of Things' in 2015 lending sewing machines, musical instruments, and camping gear",
+          "claim": "Sacramento Public Library launched a Library of Things in 2015 lending sewing machines, musical instruments, and camping gear",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access in this environment.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot access Sacramento Public Library's website or search for news articles about their Library of Things program to verify the 2015 launch date or the specific items mentioned (sewing machines, musical instruments, camping gear).",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "London's Library of Things, founded in 2014, now operates multiple locations lending everything from carpet cleaners to sound systems",
+          "claim": "London's Library of Things was founded in 2014 and now operates multiple locations",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim due to lack of access to web search tools.",
+        "detail": "I attempted to search for information about London's Library of Things founding date and locations but was unable to access web search or fetch capabilities. The claim about the 2014 founding date and multiple locations cannot be confirmed or denied without access to primary sources such as the Library of Things official website or news coverage.",
+        "sources": [
+          "No sources accessible - web search unavailable"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

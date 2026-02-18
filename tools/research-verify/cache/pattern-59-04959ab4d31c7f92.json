@@ -1,0 +1,60 @@
+{
+  "patternId": 59,
+  "patternName": "The Heated Threshold",
+  "timestamp": "2026-02-16T21:22:50.947Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "a vestibule of at least 3 square meters",
+        "claim": "3 square meters is an adequate minimum size for a vestibule to accommodate two people in winter clothing",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are unavailable in this session. The claim about 3 square meters being adequate for a vestibule appears reasonable based on general architectural principles (allowing roughly 1.5 sq m per person with bulky winter clothing), but no specific building codes or standards could be checked to confirm this figure.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "at least 1 meter of hanging space per occupant",
+        "claim": "1 meter of hanging space per occupant is sufficient for coat and gear storage",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this specific metric due to search access limitations.",
+      "detail": "The claim of 1 meter (approximately 3.3 feet) of hanging space per occupant for coat and gear storage is a reasonable design guideline that aligns with general interior design and architectural planning recommendations. However, without access to web search, I cannot confirm this specific measurement against authoritative sources such as building codes, interior design standards (like ASID guidelines), or architectural planning resources. The figure appears plausible based on typical coat widths (2-4 inches per garment) and practical storage needs.",
+      "sources": [
+        "Unable to search - no web access granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "a vestibule of at least 3 square meters",
+          "claim": "3 square meters is an adequate minimum size for a vestibule to accommodate two people in winter clothing",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are unavailable in this session. The claim about 3 square meters being adequate for a vestibule appears reasonable based on general architectural principles (allowing roughly 1.5 sq m per person with bulky winter clothing), but no specific building codes or standards could be checked to confirm this figure.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

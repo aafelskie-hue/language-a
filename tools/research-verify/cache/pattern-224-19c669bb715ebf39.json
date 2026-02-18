@@ -1,0 +1,254 @@
+{
+  "patternId": 224,
+  "patternName": "The Material Library",
+  "timestamp": "2026-02-16T19:03:38.355Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "The Habitat for Humanity ReStore network operates over 900 locations across North America",
+        "claim": "Habitat for Humanity ReStore network operates over 900 locations across North America",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access limitations.",
+      "detail": "I attempted to search for information about Habitat for Humanity ReStore locations but was unable to access web search or web fetch tools. The claim that there are 'over 900 locations across North America' is plausible given that Habitat for Humanity is a large nonprofit organization with an extensive ReStore network, but I cannot verify the specific number without access to primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "diverting an estimated 100,000 tonnes of building materials from landfills annually",
+        "claim": "Habitat for Humanity ReStore diverts an estimated 100,000 tonnes of building materials from landfills annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot access Habitat for Humanity's official statistics or any external sources to verify this claim about ReStore diverting 100,000 tonnes of building materials annually. The claim would need to be verified through Habitat for Humanity's official reports or sustainability data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A 2018 study by the Building Materials Reuse Association (now Build Reuse) found that deconstruction — the careful disassembly of buildings to recover materials — salvages 70 to 90 percent of a building's material value by weight",
+        "claim": "Building Materials Reuse Association (now Build Reuse) published a 2018 study finding deconstruction salvages 70-90% of building material value by weight",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check the specific 2018 BMRA/Build Reuse study.",
+      "detail": "I was unable to access web search capabilities to verify whether the Building Materials Reuse Association (now Build Reuse) published a 2018 study with the specific 70-90% salvage rate claim. The organization Build Reuse does exist and is the renamed BMRA, but I cannot confirm the existence of the cited 2018 study or its specific findings without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "compared to 20 to 30 percent for conventional demolition and recycling",
+        "claim": "Conventional demolition and recycling salvages only 20-30% of building material value by weight",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current statistics on demolition material recovery rates.",
+      "detail": "The claim that conventional demolition recovers only 20-30% of building material value by weight cannot be verified without access to current EPA data, industry reports, or academic studies on construction and demolition waste. The specific framing of 'value by weight' is unusual - most statistics discuss recovery rates by weight or by value separately, not combined. Common industry figures often cite higher recycling rates (around 70-90%) for C&D debris by weight, but this includes low-value materials like concrete rubble used as aggregate, which differs from recovering material 'value'.",
+      "sources": [
+        "Unable to access web sources - verification requires EPA Construction and Demolition Debris data or industry reports from organizations like CDRA (Construction & Demolition Recycling Association)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Portland, Oregon's 2016 deconstruction ordinance requires that homes built before 1916 be deconstructed rather than demolished",
+        "claim": "Portland, Oregon passed a 2016 deconstruction ordinance requiring homes built before 1916 to be deconstructed rather than demolished",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Portland did pass a deconstruction ordinance, but the year threshold was 1916 initially and later expanded, and there are some nuances to the requirement.",
+      "detail": "Portland did adopt a deconstruction ordinance that took effect in 2016, requiring deconstruction for homes built in 1916 or earlier. However, the ordinance was later expanded in 2019 to include homes built in 1940 or earlier. The claim is accurate for the initial 2016 ordinance but does not reflect subsequent expansions. The date '1916' in the original ordinance was chosen as homes 100+ years old at the time of passage.",
+      "sources": [
+        "Unable to verify via web search - based on training knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "San Jose mandates deconstruction for pre-1940 buildings",
+        "claim": "San Jose mandates deconstruction for pre-1940 buildings",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to check current San Jose municipal code or ordinances.",
+      "detail": "I was unable to search for verification of San Jose's deconstruction mandate for pre-1940 buildings because web search and fetch permissions were not granted. San Jose does have construction and demolition debris diversion requirements, but I cannot confirm whether there is a specific deconstruction mandate tied to the pre-1940 building age threshold without accessing current municipal sources.",
+      "sources": [
+        "No sources accessible - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Milwaukee's deconstruction training program has graduated hundreds of workers and diverted thousands of tonnes of lumber, brick, and architectural elements from the waste stream",
+        "claim": "Milwaukee has a deconstruction training program that has graduated hundreds of workers and diverted thousands of tonnes of materials from the waste stream",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and fetch tools are unavailable in this session, preventing any verification of the claim about Milwaukee's deconstruction training program. The claim references specific outcomes (hundreds of workers graduated, thousands of tonnes diverted) that require external source verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Reclaimed brick — denser and more durable than modern equivalents — costs 30 to 50 percent less than new handmade brick of similar quality",
+        "claim": "Reclaimed brick costs 30-50% less than new handmade brick of similar quality",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current brick pricing comparisons.",
+      "detail": "Web search and web fetch tools are not available in this session. The claim about reclaimed brick costing 30-50% less than new handmade brick requires access to current pricing data from brick suppliers, construction industry sources, or market analyses. Without this access, the claim cannot be verified or disputed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Reclaimed brick — denser and more durable than modern equivalents",
+        "claim": "Reclaimed brick is denser and more durable than modern brick equivalents",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The claim is directionally correct for many historic bricks but overgeneralizes - it depends on the era and firing methods of the reclaimed brick.",
+      "detail": "Many reclaimed bricks from the late 19th and early 20th century were indeed fired at higher temperatures for longer periods than some modern mass-produced bricks, resulting in greater density and durability. However, this is not universally true - it depends on when and how the original bricks were made. Some antique handmade bricks are actually softer than modern engineering bricks. The claim would be more accurate stated as 'often denser' or 'can be denser' rather than as an absolute.",
+      "sources": [
+        "Unable to verify with web search - assessment based on general knowledge of brick manufacturing history"
+      ]
+    },
+    {
+      "claim": {
+        "text": "his THINGS FROM YOUR LIFE (253) gestures toward it: \"Do not be tricked into thinking your house should be decked out with expensive furnishings... Use only things you really care for.\"",
+        "claim": "Christopher Alexander's A Pattern Language contains pattern 253 called 'Things From Your Life' with the quoted text",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "Pattern 253 in A Pattern Language is indeed called 'Things From Your Life' but the exact wording of the quote should be verified against the original text.",
+      "detail": "Christopher Alexander's A Pattern Language (1977) does contain Pattern 253 titled 'Things From Your Life,' and it does discuss not filling your home with expensive furnishings but rather with things that have personal meaning. However, I cannot verify the exact wording of the quote without access to the primary source. The paraphrase captures the pattern's essential message about authenticity in home decoration versus commercial furnishings.",
+      "sources": [
+        "Christopher Alexander, A Pattern Language: Towns, Buildings, Construction (1977), Oxford University Press"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 3,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Habitat for Humanity ReStore network operates over 900 locations across North America",
+          "claim": "Habitat for Humanity ReStore network operates over 900 locations across North America",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access limitations.",
+        "detail": "I attempted to search for information about Habitat for Humanity ReStore locations but was unable to access web search or web fetch tools. The claim that there are 'over 900 locations across North America' is plausible given that Habitat for Humanity is a large nonprofit organization with an extensive ReStore network, but I cannot verify the specific number without access to primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "diverting an estimated 100,000 tonnes of building materials from landfills annually",
+          "claim": "Habitat for Humanity ReStore diverts an estimated 100,000 tonnes of building materials from landfills annually",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot access Habitat for Humanity's official statistics or any external sources to verify this claim about ReStore diverting 100,000 tonnes of building materials annually. The claim would need to be verified through Habitat for Humanity's official reports or sustainability data.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A 2018 study by the Building Materials Reuse Association (now Build Reuse) found that deconstruction — the careful disassembly of buildings to recover materials — salvages 70 to 90 percent of a building's material value by weight",
+          "claim": "Building Materials Reuse Association (now Build Reuse) published a 2018 study finding deconstruction salvages 70-90% of building material value by weight",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check the specific 2018 BMRA/Build Reuse study.",
+        "detail": "I was unable to access web search capabilities to verify whether the Building Materials Reuse Association (now Build Reuse) published a 2018 study with the specific 70-90% salvage rate claim. The organization Build Reuse does exist and is the renamed BMRA, but I cannot confirm the existence of the cited 2018 study or its specific findings without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "compared to 20 to 30 percent for conventional demolition and recycling",
+          "claim": "Conventional demolition and recycling salvages only 20-30% of building material value by weight",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current statistics on demolition material recovery rates.",
+        "detail": "The claim that conventional demolition recovers only 20-30% of building material value by weight cannot be verified without access to current EPA data, industry reports, or academic studies on construction and demolition waste. The specific framing of 'value by weight' is unusual - most statistics discuss recovery rates by weight or by value separately, not combined. Common industry figures often cite higher recycling rates (around 70-90%) for C&D debris by weight, but this includes low-value materials like concrete rubble used as aggregate, which differs from recovering material 'value'.",
+        "sources": [
+          "Unable to access web sources - verification requires EPA Construction and Demolition Debris data or industry reports from organizations like CDRA (Construction & Demolition Recycling Association)"
+        ]
+      },
+      {
+        "claim": {
+          "text": "San Jose mandates deconstruction for pre-1940 buildings",
+          "claim": "San Jose mandates deconstruction for pre-1940 buildings",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to check current San Jose municipal code or ordinances.",
+        "detail": "I was unable to search for verification of San Jose's deconstruction mandate for pre-1940 buildings because web search and fetch permissions were not granted. San Jose does have construction and demolition debris diversion requirements, but I cannot confirm whether there is a specific deconstruction mandate tied to the pre-1940 building age threshold without accessing current municipal sources.",
+        "sources": [
+          "No sources accessible - web search unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Milwaukee's deconstruction training program has graduated hundreds of workers and diverted thousands of tonnes of lumber, brick, and architectural elements from the waste stream",
+          "claim": "Milwaukee has a deconstruction training program that has graduated hundreds of workers and diverted thousands of tonnes of materials from the waste stream",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and fetch tools are unavailable in this session, preventing any verification of the claim about Milwaukee's deconstruction training program. The claim references specific outcomes (hundreds of workers graduated, thousands of tonnes diverted) that require external source verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Reclaimed brick — denser and more durable than modern equivalents — costs 30 to 50 percent less than new handmade brick of similar quality",
+          "claim": "Reclaimed brick costs 30-50% less than new handmade brick of similar quality",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current brick pricing comparisons.",
+        "detail": "Web search and web fetch tools are not available in this session. The claim about reclaimed brick costing 30-50% less than new handmade brick requires access to current pricing data from brick suppliers, construction industry sources, or market analyses. Without this access, the claim cannot be verified or disputed.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

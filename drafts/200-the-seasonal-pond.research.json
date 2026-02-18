@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "name": "Unable to verify current programs",
+      "location": "",
+      "year": "",
+      "outcome": "",
+      "source": "Web search unavailable"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to verify current statistics",
+      "source": "Web search unavailable",
+      "year": ""
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify",
+      "title": "",
+      "year": "",
+      "finding": ""
+    }
+  ],
+  "examples": [
+    {
+      "location": "Unable to verify",
+      "description": "",
+      "source": "Web search unavailable"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL: Web search and fetch tools are not available. I cannot verify any evidence for this pattern. The topic of seasonal ponds/vernal pools is well-documented in ecological literature (particularly regarding amphibian breeding habitat), but without search access I cannot provide properly sourced, current citations. Request that web search permission be granted to complete this research properly."
+}

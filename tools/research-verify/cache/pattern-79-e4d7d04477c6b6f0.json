@@ -1,0 +1,60 @@
+{
+  "patternId": 79,
+  "patternName": "Walkable Healthcare",
+  "timestamp": "2026-02-16T21:40:14.241Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "small primary care clinics embedded in neighborhoods, within walking distance of housing. These clinics handle 80% of healthcare needs",
+        "claim": "Primary care clinics handle 80% of healthcare needs",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The general claim that primary care handles the majority of healthcare needs is well-established, though the exact '80%' figure varies by source and methodology.",
+      "detail": "The claim that primary care addresses approximately 80-90% of healthcare needs is commonly cited in healthcare policy literature and by organizations like the World Health Organization and American Academy of Family Physicians. However, the exact percentage varies depending on whether it refers to visits, conditions treated, or healthcare interactions. Some sources cite figures ranging from 75-90%. The specific 80% figure is a reasonable approximation within commonly cited ranges, though it should ideally include a source attribution.",
+      "sources": [
+        "Unable to verify via web search - based on general medical policy knowledge. Common sources for this claim include WHO primary care reports and AAFP policy statements."
+      ]
+    },
+    {
+      "claim": {
+        "text": "reduce emergency room visits by 20–40% in the communities they serve",
+        "claim": "Neighborhood primary care clinics reduce emergency room visits by 20-40%",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The claim that neighborhood primary care clinics reduce emergency room visits by 20-40% is a plausible assertion consistent with general healthcare research findings, but I cannot confirm the specific percentage range without access to search capabilities.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "reduce emergency room visits by 20–40% in the communities they serve",
+          "claim": "Neighborhood primary care clinics reduce emergency room visits by 20-40%",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The claim that neighborhood primary care clinics reduce emergency room visits by 20-40% is a plausible assertion consistent with general healthcare research findings, but I cannot confirm the specific percentage range without access to search capabilities.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

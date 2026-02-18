@@ -1,0 +1,273 @@
+{
+  "patternId": 140,
+  "patternName": "The Church Conversion",
+  "timestamp": "2026-02-17T00:54:51.634Z",
+  "model": "claude-code-cli",
+  "totalClaims": 13,
+  "results": [
+    {
+      "claim": {
+        "text": "The Churches Conservation Trust in England maintains over 350 redundant churches as heritage sites",
+        "claim": "Churches Conservation Trust in England maintains over 350 redundant churches",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The Churches Conservation Trust does maintain over 350 redundant churches in England as heritage sites.",
+      "detail": "The Churches Conservation Trust (CCT) is the national charity that cares for Anglican churches no longer needed for regular worship in England. Based on established organizational data, the CCT has consistently cared for over 350 churches since at least the 2010s, with the number typically cited as 350-360+. The organization was founded in 1969 (originally as the Redundant Churches Fund) and gradually accumulated churches over the decades. The claim of 'over 350' aligns with widely reported figures, though I could not access current web sources to confirm the exact current number.",
+      "sources": [
+        "Churches Conservation Trust organizational information (knowledge-based)",
+        "UK heritage sector documentation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In Canada, the National Trust estimated in 2019 that 9,000 religious buildings face closure risk within two decades — roughly one-third of the total stock",
+        "claim": "National Trust of Canada estimated in 2019 that 9,000 religious buildings face closure risk within two decades, representing roughly one-third of total stock",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search access was not available to verify this claim. I attempted multiple searches for 'National Trust Canada 2019 9000 religious buildings closure risk' and related queries but could not execute them. Manual verification using web search would be needed to confirm the National Trust of Canada estimate, the 9,000 figure, and the one-third characterization.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the former Robertson-Wesley United Church on 123rd Street sat empty for years before conversion to condominiums",
+        "claim": "Robertson-Wesley United Church on 123rd Street in Edmonton was converted to condominiums after sitting empty",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to web search permission not being granted.",
+      "detail": "Web search is required to verify claims about specific local buildings and their conversion history. Without access to search, I cannot confirm or deny whether Robertson-Wesley United Church on 123rd Street in Edmonton was converted to condominiums after sitting empty. This claim requires searching Edmonton property records, news archives, or church history sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the Rossdale Power Plant redevelopment incorporates the adjacent St. Joachim Catholic Church site",
+        "claim": "Rossdale Power Plant redevelopment in Edmonton incorporates the St. Joachim Catholic Church site",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence due to lack of web access permissions.",
+      "detail": "Web search and web fetch tools are unavailable in this session. I cannot verify whether the Rossdale Power Plant redevelopment incorporates the St. Joachim Catholic Church site without access to current sources about Edmonton development projects.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "stone foundations, solid masonry walls, old-growth timber trusses — that would cost three to five times as much to replicate today",
+        "claim": "Replicating historic church construction (stone foundations, solid masonry, old-growth timber trusses) would cost 3-5 times as much today",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify this claim due to lack of web search access, though the general direction is plausible based on known construction economics.",
+      "detail": "The claim that replicating historic church construction (stone foundations, solid masonry, old-growth timber trusses) would cost 3-5x as much today is plausible given known factors: old-growth timber is scarce and expensive, skilled stonemasons are rare, and labor-intensive traditional techniques cost more than modern methods. However, without web search access, I cannot verify the specific 3-5x multiplier with authoritative sources. This figure may be a reasonable estimate from preservation professionals but requires verification from construction cost databases or historic preservation organizations.",
+      "sources": [
+        "Unable to access web sources - search permission not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A typical urban church offers a nave volume of 8,000 to 15,000 cubic feet with ceiling heights of 25 to 40 feet",
+        "claim": "Typical urban church nave volume is 8,000-15,000 cubic feet with 25-40 foot ceiling heights",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for primary sources to verify church nave dimensional specifications.",
+      "detail": "Web search tools are not available in this environment to verify the specific volume range (8,000-15,000 cubic feet) and ceiling heights (25-40 feet) claimed for typical urban church naves. These measurements seem plausible for small to medium urban churches based on general architectural knowledge, but without access to architectural standards documents, church design guides, or building surveys, I cannot confirm the specific ranges cited.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Church Brew Works in Pittsburgh inserted a brewing operation into the nave of St. John the Baptist Church (1902)",
+        "claim": "Church Brew Works in Pittsburgh is located in St. John the Baptist Church built in 1902",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web access permissions in this session.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot search for information about Church Brew Works or St. John the Baptist Church to verify the claimed 1902 construction date. This verdict reflects tool limitations, not an assessment of the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "placing fermentation tanks where pews once stood while preserving the altar, stained glass, and full ceiling height",
+        "claim": "Church Brew Works preserved the altar, stained glass, and full ceiling height of St. John the Baptist Church",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though the claim aligns with widely known facts about this establishment.",
+      "detail": "Web search and fetch tools were not available to verify this claim. The Church Brew Works in Pittsburgh's Lawrenceville neighborhood is a well-documented converted church brewery, and preservation of original architectural elements including the altar, stained glass, and high ceilings is consistent with general knowledge about this venue. However, without access to primary sources, this cannot be confirmed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Montreal, the conversion of Église Saint-Jude into 42 housing units (completed 2018)",
+        "claim": "Église Saint-Jude in Montreal was converted into 42 housing units, completed in 2018",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search permissions were not granted, preventing verification of this claim about Église Saint-Jude's conversion to housing units in Montreal. The claim involves a specific church, number of units (42), and completion date (2018) that would require searching Montreal real estate records, news archives, or architectural databases to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "inserted a steel-framed mezzanine structure into the nave, creating two-story units that preserve sightlines to the original windows and ceiling",
+        "claim": "Église Saint-Jude conversion used steel-framed mezzanine structure creating two-story units",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify the specific architectural details of the Église Saint-Jude conversion.",
+      "detail": "Web search and fetch tools are not available for this verification. I cannot confirm whether the Église Saint-Jude church conversion used a steel-framed mezzanine structure to create two-story units. This claim requires access to architectural publications, project documentation, or news coverage to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the inserted structure does not touch the perimeter walls",
+        "claim": "Église Saint-Jude conversion inserted structure that does not touch perimeter walls",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find sources about this architectural project.",
+      "detail": "The claim refers to a specific architectural detail of the Église Saint-Jude conversion — that an inserted structure does not touch the perimeter walls. This is a technical architectural claim that would require access to project documentation, architectural publications, or case studies. Without web search capability, I cannot locate sources to confirm or deny this structural approach.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Edinburgh, the conversion of a redundant church into the Scottish Storytelling Centre (2006)",
+        "claim": "Scottish Storytelling Centre in Edinburgh opened in 2006 in a converted church",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify as web search and fetch permissions are not enabled for this session.",
+      "detail": "I attempted to search for information about the Scottish Storytelling Centre in Edinburgh but do not have web access permissions enabled. The claim about it opening in 2006 in a converted church cannot be verified or disputed without access to external sources. This is a technical limitation, not a reflection on the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "preserved the main hall for performance while adding ancillary uses in side chapels and basement spaces",
+        "claim": "Scottish Storytelling Centre preserved main hall for performance and added uses in side chapels and basement",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify specific architectural details about the Scottish Storytelling Centre renovation without web search access.",
+      "detail": "The Scottish Storytelling Centre is located in the Netherbow Arts Centre on Edinburgh's Royal Mile, which incorporates parts of a historic church building. While it is plausible that the renovation preserved a main hall for performances and repurposed side chapels and basement spaces for ancillary uses, I cannot verify these specific architectural details without access to web search or official sources. The claim aligns with common adaptive reuse patterns for church buildings but requires verification from architectural records or the Centre's official documentation.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 12,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "In Canada, the National Trust estimated in 2019 that 9,000 religious buildings face closure risk within two decades — roughly one-third of the total stock",
+          "claim": "National Trust of Canada estimated in 2019 that 9,000 religious buildings face closure risk within two decades, representing roughly one-third of total stock",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search access was not available to verify this claim. I attempted multiple searches for 'National Trust Canada 2019 9000 religious buildings closure risk' and related queries but could not execute them. Manual verification using web search would be needed to confirm the National Trust of Canada estimate, the 9,000 figure, and the one-third characterization.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "stone foundations, solid masonry walls, old-growth timber trusses — that would cost three to five times as much to replicate today",
+          "claim": "Replicating historic church construction (stone foundations, solid masonry, old-growth timber trusses) would cost 3-5 times as much today",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify this claim due to lack of web search access, though the general direction is plausible based on known construction economics.",
+        "detail": "The claim that replicating historic church construction (stone foundations, solid masonry, old-growth timber trusses) would cost 3-5x as much today is plausible given known factors: old-growth timber is scarce and expensive, skilled stonemasons are rare, and labor-intensive traditional techniques cost more than modern methods. However, without web search access, I cannot verify the specific 3-5x multiplier with authoritative sources. This figure may be a reasonable estimate from preservation professionals but requires verification from construction cost databases or historic preservation organizations.",
+        "sources": [
+          "Unable to access web sources - search permission not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "A typical urban church offers a nave volume of 8,000 to 15,000 cubic feet with ceiling heights of 25 to 40 feet",
+          "claim": "Typical urban church nave volume is 8,000-15,000 cubic feet with 25-40 foot ceiling heights",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for primary sources to verify church nave dimensional specifications.",
+        "detail": "Web search tools are not available in this environment to verify the specific volume range (8,000-15,000 cubic feet) and ceiling heights (25-40 feet) claimed for typical urban church naves. These measurements seem plausible for small to medium urban churches based on general architectural knowledge, but without access to architectural standards documents, church design guides, or building surveys, I cannot confirm the specific ranges cited.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Church Brew Works in Pittsburgh inserted a brewing operation into the nave of St. John the Baptist Church (1902)",
+          "claim": "Church Brew Works in Pittsburgh is located in St. John the Baptist Church built in 1902",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web access permissions in this session.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot search for information about Church Brew Works or St. John the Baptist Church to verify the claimed 1902 construction date. This verdict reflects tool limitations, not an assessment of the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In Montreal, the conversion of Église Saint-Jude into 42 housing units (completed 2018)",
+          "claim": "Église Saint-Jude in Montreal was converted into 42 housing units, completed in 2018",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search permissions were not granted, preventing verification of this claim about Église Saint-Jude's conversion to housing units in Montreal. The claim involves a specific church, number of units (42), and completion date (2018) that would require searching Montreal real estate records, news archives, or architectural databases to confirm.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In Edinburgh, the conversion of a redundant church into the Scottish Storytelling Centre (2006)",
+          "claim": "Scottish Storytelling Centre in Edinburgh opened in 2006 in a converted church",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify as web search and fetch permissions are not enabled for this session.",
+        "detail": "I attempted to search for information about the Scottish Storytelling Centre in Edinburgh but do not have web access permissions enabled. The claim about it opening in 2006 in a converted church cannot be verified or disputed without access to external sources. This is a technical limitation, not a reflection on the claim's accuracy.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

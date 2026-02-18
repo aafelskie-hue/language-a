@@ -1,0 +1,254 @@
+{
+  "patternId": 221,
+  "patternName": "The Sweat Equity Path",
+  "timestamp": "2026-02-16T18:43:37.564Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "Habitat for Humanity has refined the sweat equity model over five decades",
+        "claim": "Habitat for Humanity has been operating for five decades (approximately 50 years)",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Habitat for Humanity was founded in 1976, making the claim of 'five decades' (approximately 50 years) accurate as of 2026.",
+      "detail": "Habitat for Humanity International was founded in 1976 by Millard and Linda Fuller in Americus, Georgia. From 1976 to 2026 is exactly 50 years, which aligns precisely with the claim of 'five decades.' The organization has indeed been refining its sweat equity model throughout this period.",
+      "sources": [
+        "Historical knowledge of Habitat for Humanity founding in 1976 - widely documented organizational fact"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Their standard requirement — 200 to 500 hours of labor per household before receiving keys",
+        "claim": "Habitat for Humanity's standard sweat equity requirement is 200 to 500 hours of labor per household",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search the web to verify the specific sweat equity hour requirements due to permission restrictions.",
+      "detail": "Web search and fetch permissions were not granted, preventing verification of this claim. Based on general knowledge, Habitat for Humanity does require sweat equity and requirements vary by affiliate, but I cannot confirm the specific 200-500 hour range without accessing current sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In their 2019 annual report, Habitat International documented 13.4 million people served since founding",
+        "claim": "Habitat for Humanity's 2019 annual report states 13.4 million people served since founding",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access limitations.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The claim references a specific statistic (13.4 million people served since founding) from Habitat for Humanity's 2019 annual report, but I could not access external sources to confirm or deny this figure. Manual verification using Habitat for Humanity's official annual reports would be required.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "reducing costs by 10-15% on a typical build",
+        "claim": "Sweat equity reduces costs by 10-15% on a typical Habitat for Humanity build",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify the specific 10-15% cost reduction figure for Habitat for Humanity sweat equity through available search methods.",
+      "detail": "While Habitat for Humanity's sweat equity model is well-documented and does reduce construction costs, I was unable to search for and verify the specific 10-15% cost reduction figure cited. Habitat for Humanity typically requires 200-500 hours of sweat equity from partner families, which undoubtedly reduces labor costs, but the exact percentage savings may vary by affiliate and project. Without access to web search, I cannot confirm whether this specific statistic appears in Habitat's official materials or research.",
+      "sources": [
+        "Unable to search - web permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The U.S. Department of Housing and Urban Development's Section 523 Self-Help Housing Program extends this model through loans to groups of families who agree to build each other's homes under qualified supervision",
+        "claim": "HUD Section 523 Self-Help Housing Program provides loans to groups of families to build each other's homes under qualified supervision",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Section 523 Self-Help Housing is a real program that works as described, but it is administered by USDA Rural Development, not HUD.",
+      "detail": "The Section 523 Mutual Self-Help Housing Technical Assistance Grant Program is administered by USDA Rural Development, not HUD. The program does provide assistance to organizations that help groups of families build homes together through 'sweat equity.' The mechanism described (families building each other's homes under qualified supervision) is accurate, but the attribution to HUD is incorrect.",
+      "sources": [
+        "Unable to verify with web search - permissions not granted. Based on prior knowledge of federal housing programs."
+      ]
+    },
+    {
+      "claim": {
+        "text": "The USDA's Rural Housing Service reports that self-help housing programs produce homes at 15-20% below market construction costs",
+        "claim": "USDA Rural Housing Service reports self-help housing programs produce homes at 15-20% below market construction costs",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify the specific 15-20% cost savings figure through web search due to tool permission restrictions.",
+      "detail": "The USDA Rural Housing Service does operate self-help housing programs (Section 523 Mutual Self-Help Housing Technical Assistance Grants), and these programs are known to produce cost savings through 'sweat equity' contributions from participants. However, I was unable to access web sources to verify the specific claim that USDA reports the 15-20% below market construction costs figure. This specific statistic requires verification from USDA publications or program reports.",
+      "sources": [
+        "Unable to search - tool permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "with foreclosure rates consistently lower than conventional mortgages",
+        "claim": "Self-help housing programs have lower foreclosure rates than conventional mortgages",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "I was unable to access web search or web fetch tools to verify this claim about self-help housing program foreclosure rates. The claim that self-help housing programs have lower foreclosure rates than conventional mortgages is a specific statistical assertion that would require access to data from sources like USDA Rural Development (which administers the Section 502 Mutual Self-Help Housing program), HUD, or academic research on housing program outcomes. Without search capability, I cannot confirm or deny this claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Canada, the Northern Self-Help Housing program administered through Indigenous Services Canada uses similar principles",
+        "claim": "Indigenous Services Canada administers a Northern Self-Help Housing program",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check Indigenous Services Canada programs.",
+      "detail": "I was unable to search for evidence of this program because web search permissions were not granted. Indigenous Services Canada does administer various housing programs for Indigenous communities, but I cannot confirm whether a specific 'Northern Self-Help Housing program' exists under that exact name. The claim is plausible given Canada's Indigenous housing initiatives, but requires web verification.",
+      "sources": [
+        "No sources could be accessed - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Housing cooperatives in Denmark have pioneered 'arbejdsweekend' — mandatory work weekends where members maintain common areas, with hours credited against monthly fees",
+        "claim": "Danish housing cooperatives use 'arbejdsweekend' (mandatory work weekends) with hours credited against monthly fees",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search being unavailable.",
+      "detail": "Web search permissions were not granted, preventing verification of this claim. The concept of mandatory work duties in Danish housing cooperatives (andelsboligforeninger) is consistent with known Scandinavian cooperative housing practices, but the specific term 'arbejdsweekend' and the fee credit mechanism could not be independently verified.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Cooperative Housing Federation of British Columbia reports similar arrangements among their member co-ops, with work requirements typically ranging from 4 to 10 hours per household per month",
+        "claim": "Cooperative Housing Federation of British Columbia reports member co-ops have work requirements of 4 to 10 hours per household per month",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of web search access.",
+      "detail": "I was unable to search for evidence regarding the Cooperative Housing Federation of British Columbia's reported work requirements for member co-ops. The claim about 4 to 10 hours per household per month is specific and plausible for housing cooperatives, but without access to CHF BC's official publications, reports, or website, I cannot confirm or deny this statistic.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 8,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Their standard requirement — 200 to 500 hours of labor per household before receiving keys",
+          "claim": "Habitat for Humanity's standard sweat equity requirement is 200 to 500 hours of labor per household",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search the web to verify the specific sweat equity hour requirements due to permission restrictions.",
+        "detail": "Web search and fetch permissions were not granted, preventing verification of this claim. Based on general knowledge, Habitat for Humanity does require sweat equity and requirements vary by affiliate, but I cannot confirm the specific 200-500 hour range without accessing current sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In their 2019 annual report, Habitat International documented 13.4 million people served since founding",
+          "claim": "Habitat for Humanity's 2019 annual report states 13.4 million people served since founding",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access limitations.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The claim references a specific statistic (13.4 million people served since founding) from Habitat for Humanity's 2019 annual report, but I could not access external sources to confirm or deny this figure. Manual verification using Habitat for Humanity's official annual reports would be required.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "reducing costs by 10-15% on a typical build",
+          "claim": "Sweat equity reduces costs by 10-15% on a typical Habitat for Humanity build",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify the specific 10-15% cost reduction figure for Habitat for Humanity sweat equity through available search methods.",
+        "detail": "While Habitat for Humanity's sweat equity model is well-documented and does reduce construction costs, I was unable to search for and verify the specific 10-15% cost reduction figure cited. Habitat for Humanity typically requires 200-500 hours of sweat equity from partner families, which undoubtedly reduces labor costs, but the exact percentage savings may vary by affiliate and project. Without access to web search, I cannot confirm whether this specific statistic appears in Habitat's official materials or research.",
+        "sources": [
+          "Unable to search - web permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The USDA's Rural Housing Service reports that self-help housing programs produce homes at 15-20% below market construction costs",
+          "claim": "USDA Rural Housing Service reports self-help housing programs produce homes at 15-20% below market construction costs",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify the specific 15-20% cost savings figure through web search due to tool permission restrictions.",
+        "detail": "The USDA Rural Housing Service does operate self-help housing programs (Section 523 Mutual Self-Help Housing Technical Assistance Grants), and these programs are known to produce cost savings through 'sweat equity' contributions from participants. However, I was unable to access web sources to verify the specific claim that USDA reports the 15-20% below market construction costs figure. This specific statistic requires verification from USDA publications or program reports.",
+        "sources": [
+          "Unable to search - tool permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "with foreclosure rates consistently lower than conventional mortgages",
+          "claim": "Self-help housing programs have lower foreclosure rates than conventional mortgages",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "I was unable to access web search or web fetch tools to verify this claim about self-help housing program foreclosure rates. The claim that self-help housing programs have lower foreclosure rates than conventional mortgages is a specific statistical assertion that would require access to data from sources like USDA Rural Development (which administers the Section 502 Mutual Self-Help Housing program), HUD, or academic research on housing program outcomes. Without search capability, I cannot confirm or deny this claim.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Housing cooperatives in Denmark have pioneered 'arbejdsweekend' — mandatory work weekends where members maintain common areas, with hours credited against monthly fees",
+          "claim": "Danish housing cooperatives use 'arbejdsweekend' (mandatory work weekends) with hours credited against monthly fees",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search being unavailable.",
+        "detail": "Web search permissions were not granted, preventing verification of this claim. The concept of mandatory work duties in Danish housing cooperatives (andelsboligforeninger) is consistent with known Scandinavian cooperative housing practices, but the specific term 'arbejdsweekend' and the fee credit mechanism could not be independently verified.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Cooperative Housing Federation of British Columbia reports similar arrangements among their member co-ops, with work requirements typically ranging from 4 to 10 hours per household per month",
+          "claim": "Cooperative Housing Federation of British Columbia reports member co-ops have work requirements of 4 to 10 hours per household per month",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim due to lack of web search access.",
+        "detail": "I was unable to search for evidence regarding the Cooperative Housing Federation of British Columbia's reported work requirements for member co-ops. The claim about 4 to 10 hours per household per month is specific and plausible for housing cooperatives, but without access to CHF BC's official publications, reports, or website, I cannot confirm or deny this statistic.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "programs": [],
+  "statistics": [],
+  "studies": [],
+  "examples": [
+    {
+      "location": "Eastgate Centre, Harare, Zimbabwe",
+      "description": "Designed by Mick Pearce (1996), uses passive cooling inspired by termite mounds with thermal chimneys and stack effect ventilation. Often cited as using 90% less energy than conventional buildings, though this figure is widely repeated without primary sourcing.",
+      "source": "Unable to verify - requires web search"
+    },
+    {
+      "location": "BedZED, London, UK",
+      "description": "Beddington Zero Energy Development (2002) uses wind cowls and thermal stack ventilation for passive air movement.",
+      "source": "Unable to verify - requires web search"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL: I do not have permission to use web search or web fetch tools in this session. The examples listed are from my training data but I CANNOT verify current statistics, programs, or academic studies without search access. The Eastgate Centre claim of 90% energy savings is frequently cited but I cannot locate the primary source. This response should be considered PLACEHOLDER ONLY until proper web research can be conducted. Do not use these citations without independent verification."
+}

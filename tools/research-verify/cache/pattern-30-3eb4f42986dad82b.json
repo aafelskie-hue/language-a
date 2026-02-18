@@ -1,0 +1,138 @@
+{
+  "patternId": 30,
+  "patternName": "Nature in Every Room",
+  "timestamp": "2026-02-16T20:51:00.093Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "Terrapin Bright Green's \"14 Patterns of Biophilic Design\" (2014, updated 2024)",
+        "claim": "Terrapin Bright Green published '14 Patterns of Biophilic Design' in 2014 with an update in 2024",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "I was unable to search for evidence about Terrapin Bright Green's '14 Patterns of Biophilic Design' publication date or any 2024 update. The original 2014 publication date is widely cited in biophilic design literature, but I cannot independently verify the 2024 update claim without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "drawing on over 500 publications",
+        "claim": "Terrapin Bright Green's '14 Patterns of Biophilic Design' draws on over 500 publications",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web access to search for the primary source document.",
+      "detail": "I attempted to search for the Terrapin Bright Green '14 Patterns of Biophilic Design' report to verify the claim about 500+ publications, but web search and fetch tools are not available in this session. The report does exist and is a well-known document in biophilic design literature, but I cannot confirm the specific number of cited publications without accessing the document or its bibliography.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Hospital patients with views of trees recover faster",
+        "claim": "Hospital patients with views of trees recover faster than those without",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "This claim is supported by the landmark 1984 study by Roger Ulrich published in Science.",
+      "detail": "Roger Ulrich's 1984 study 'View through a window may influence recovery from surgery' published in Science (Vol. 224, pp. 420-421) found that hospital patients recovering from gallbladder surgery who had views of trees had shorter hospital stays (7.96 days vs 8.70 days), required fewer analgesic doses, and had fewer negative nurse evaluations compared to patients whose windows faced a brick wall. This study has been widely replicated and is foundational in evidence-based healthcare design.",
+      "sources": [
+        "Ulrich, R.S. (1984). View through a window may influence recovery from surgery. Science, 224(4647), 420-421"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Office workers with plants report 15% higher productivity",
+        "claim": "Office workers with plants report 15% higher productivity",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing verification of the 15% productivity claim. This statistic is commonly cited in discussions of biophilic design and appears to originate from research by Dr. Chris Knight and colleagues at the University of Exeter, but I cannot confirm the exact figure or methodology without access to search tools.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Students in biophilic classrooms score higher on tests",
+        "claim": "Students in biophilic classrooms score higher on tests",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search the web to verify this claim about biophilic classrooms and student test scores. The claim is plausible based on general knowledge about biophilic design research, but without access to primary sources, academic studies, or news articles, I cannot confirm the specific assertion that students in biophilic classrooms score higher on tests.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Terrapin Bright Green's \"14 Patterns of Biophilic Design\" (2014, updated 2024)",
+          "claim": "Terrapin Bright Green published '14 Patterns of Biophilic Design' in 2014 with an update in 2024",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "I was unable to search for evidence about Terrapin Bright Green's '14 Patterns of Biophilic Design' publication date or any 2024 update. The original 2014 publication date is widely cited in biophilic design literature, but I cannot independently verify the 2024 update claim without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "drawing on over 500 publications",
+          "claim": "Terrapin Bright Green's '14 Patterns of Biophilic Design' draws on over 500 publications",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web access to search for the primary source document.",
+        "detail": "I attempted to search for the Terrapin Bright Green '14 Patterns of Biophilic Design' report to verify the claim about 500+ publications, but web search and fetch tools are not available in this session. The report does exist and is a well-known document in biophilic design literature, but I cannot confirm the specific number of cited publications without accessing the document or its bibliography.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Office workers with plants report 15% higher productivity",
+          "claim": "Office workers with plants report 15% higher productivity",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools are not available in this session, preventing verification of the 15% productivity claim. This statistic is commonly cited in discussions of biophilic design and appears to originate from research by Dr. Chris Knight and colleagues at the University of Exeter, but I cannot confirm the exact figure or methodology without access to search tools.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Students in biophilic classrooms score higher on tests",
+          "claim": "Students in biophilic classrooms score higher on tests",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search the web to verify this claim about biophilic classrooms and student test scores. The claim is plausible based on general knowledge about biophilic design research, but without access to primary sources, academic studies, or news articles, I cannot confirm the specific assertion that students in biophilic classrooms score higher on tests.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

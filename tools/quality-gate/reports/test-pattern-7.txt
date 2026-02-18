@@ -1,0 +1,34 @@
+============================================================
+RESEARCH VERIFICATION REPORT
+Generated: 2026-02-17T14:35:12.014Z
+============================================================
+
+SUMMARY
+----------------------------------------
+Total patterns: 1
+Total claims: 6
+
+PATTERN VERDICTS:
+  CLEAN:   0 (0%)
+  CAUTION: 1 (100%)
+  FAIL:    0 (0%)
+
+CLAIM VERDICTS:
+  VERIFIED:   1 (17%)
+  PARTIALLY:  0 (0%)
+  UNVERIFIED: 5 (83%)
+  DISPUTED:   0 (0%)
+  FABRICATED: 0 (0%)
+
+============================================================
+INDIVIDUAL PATTERN RESULTS
+============================================================
+
+Pattern 7: The Zoom Room [RV: CAUTION]
+  Claims: 6
+  Verified: 1, Partially: 0
+  Unverified: 5, Disputed: 0, Fabricated: 0
+  HIGH IMPORTANCE ISSUES:
+    - UNVERIFIED: Most remote workers spend 2-4 hours daily on video calls by ...
+    - UNVERIFIED: Stanford conducted a study of 10 million meetings...
+    - UNVERIFIED: Video call frequency stabilized at roughly triple pre-pandem...

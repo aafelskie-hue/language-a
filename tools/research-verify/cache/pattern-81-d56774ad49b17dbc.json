@@ -1,0 +1,45 @@
+{
+  "patternId": 81,
+  "patternName": "Universal Wayfinding",
+  "timestamp": "2026-02-16T21:59:52.607Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "Universal wayfinding uses architectural cues rather than signs: clear sight lines to the destination, distinct materials at transitions (a change in floor material at the threshold), consistent lighting that leads toward the entrance, and color contrast between walls and floors.",
+        "claim": "Universal wayfinding design principles include sight lines, distinct materials at transitions, consistent lighting, and color contrast",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify through web search due to tool permission restrictions.",
+      "detail": "I was unable to perform web searches to verify this claim about universal wayfinding design principles. The claim describes standard principles commonly discussed in accessibility and architectural design literature (sight lines, material transitions, consistent lighting, color contrast), which align with general knowledge of wayfinding best practices, but I cannot confirm specific authoritative sources without web access.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Universal wayfinding uses architectural cues rather than signs: clear sight lines to the destination, distinct materials at transitions (a change in floor material at the threshold), consistent lighting that leads toward the entrance, and color contrast between walls and floors.",
+          "claim": "Universal wayfinding design principles include sight lines, distinct materials at transitions, consistent lighting, and color contrast",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify through web search due to tool permission restrictions.",
+        "detail": "I was unable to perform web searches to verify this claim about universal wayfinding design principles. The claim describes standard principles commonly discussed in accessibility and architectural design literature (sight lines, material transitions, consistent lighting, color contrast), which align with general knowledge of wayfinding best practices, but I cannot confirm specific authoritative sources without web access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

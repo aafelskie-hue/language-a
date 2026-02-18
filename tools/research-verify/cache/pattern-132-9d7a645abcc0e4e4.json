@@ -1,0 +1,90 @@
+{
+  "patternId": 132,
+  "patternName": "The Food Forest",
+  "timestamp": "2026-02-17T00:23:40.565Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "The Beacon Food Forest in Seattle, established in 2012 on seven acres of formerly underused public parkland in the Jefferson Park neighborhood",
+        "claim": "Beacon Food Forest in Seattle was established in 2012 on seven acres in Jefferson Park neighborhood",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The Beacon Food Forest exists in Jefferson Park, Seattle, but the acreage and establishment date details need verification.",
+      "detail": "From my training knowledge, the Beacon Food Forest is a real public food forest in Seattle's Jefferson Park neighborhood. However, I recall the project was developed in phases starting around 2009-2012, with initial planting beginning around 2012-2014. The acreage is commonly cited as approximately 7 acres, though some sources indicate the initial phase was smaller (around 2 acres) with expansion plans. Unable to verify exact details without web search access.",
+      "sources": [
+        "Unable to search - web permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Atlanta Food Forest, planted in 2016 on 7.1 acres in the Browns Mill neighborhood",
+        "claim": "Atlanta Food Forest was planted in 2016 on 7.1 acres in Browns Mill neighborhood",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search and web fetch tools are not currently available to verify this claim. The Atlanta Food Forest in Browns Mill is a real, well-documented project, but I cannot confirm the specific acreage (7.1 acres) or planting year (2016) without access to search tools to find primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Christopher Alexander's Pattern 51, Green Streets, called for continuous planted strips along every street and path",
+        "claim": "Christopher Alexander's Pattern 51 is titled 'Green Streets' and calls for continuous planted strips along streets and paths",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Pattern 51 in A Pattern Language is indeed titled 'Green Streets' and describes planting continuous green strips along streets.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977) contains Pattern 51, titled 'Green Streets.' The pattern calls for planting trees and grass strips along streets to provide shade, beauty, and environmental benefits. The pattern specifically recommends continuous planted areas rather than isolated plantings. My confidence is 0.9 rather than 1.0 because I cannot perform a live web search to confirm the exact wording about 'continuous planted strips along every street and path.'",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (1977)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A food forest requires three to seven years before the canopy layer produces significant fruit, though berry bushes and herbaceous layers yield within one to two years",
+        "claim": "Food forest canopy layer requires 3-7 years to produce significant fruit; berry bushes and herbaceous layers yield within 1-2 years",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claimed timelines for food forest layers align well with established horticultural knowledge.",
+      "detail": "Standard fruit trees (apple, pear, cherry) forming the canopy layer typically take 3-7 years to produce significant harvests, with dwarf varieties on the earlier end and standard trees on the later end. Berry bushes like raspberries, blackberries, and currants commonly produce in their first or second year after planting. Herbaceous perennials (herbs, perennial vegetables) often yield in their first growing season or second year. These timeframes are well-documented in permaculture and horticulture literature.",
+      "sources": [
+        "Unable to verify via web search due to permission restrictions - verdict based on established horticultural knowledge"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Atlanta Food Forest, planted in 2016 on 7.1 acres in the Browns Mill neighborhood",
+          "claim": "Atlanta Food Forest was planted in 2016 on 7.1 acres in Browns Mill neighborhood",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "Web search and web fetch tools are not currently available to verify this claim. The Atlanta Food Forest in Browns Mill is a real, well-documented project, but I cannot confirm the specific acreage (7.1 acres) or planting year (2016) without access to search tools to find primary sources.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

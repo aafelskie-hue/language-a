@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-02-18T00:22:19.320Z",
-  "totalPatterns": 253,
+  "timestamp": "2026-02-18T20:24:20.649Z",
+  "totalPatterns": 254,
   "connectivity": {
-    "totalConnections": 2317,
-    "averagePerPattern": 9.15810276679842,
+    "totalConnections": 2346,
+    "averagePerPattern": 9.236220472440944,
     "orphans": [],
     "hubs": [
       {
         "id": 1,
         "name": "The Fifteen-Minute Neighborhood",
-        "connections": 21
+        "connections": 20
       },
       {
         "id": 2,
         "name": "The Third Place Network",
-        "connections": 25
+        "connections": 24
       },
       {
         "id": 3,
@@ -27,6 +27,11 @@
         "connections": 10
       },
       {
+        "id": 7,
+        "name": "The Zoom Room",
+        "connections": 18
+      },
+      {
         "id": 11,
         "name": "The Charging Threshold",
         "connections": 9
@@ -34,7 +39,7 @@
       {
         "id": 12,
         "name": "The Missing Middle",
-        "connections": 21
+        "connections": 23
       },
       {
         "id": 13,
@@ -99,12 +104,12 @@
       {
         "id": 27,
         "name": "Office-to-Housing Conversion",
-        "connections": 11
+        "connections": 12
       },
       {
         "id": 28,
         "name": "Heritage Retrofit",
-        "connections": 13
+        "connections": 14
       },
       {
         "id": 29,
@@ -159,27 +164,27 @@
       {
         "id": 40,
         "name": "Walkable Density Gradient",
-        "connections": 12
+        "connections": 13
       },
       {
         "id": 41,
         "name": "The Identifiable Neighborhood",
-        "connections": 22
+        "connections": 23
       },
       {
         "id": 42,
         "name": "Common Ground",
-        "connections": 16
+        "connections": 17
       },
       {
         "id": 43,
         "name": "The Local Street",
-        "connections": 24
+        "connections": 23
       },
       {
         "id": 44,
         "name": "Green Corridors",
-        "connections": 16
+        "connections": 17
       },
       {
         "id": 45,
@@ -199,7 +204,7 @@
       {
         "id": 49,
         "name": "The Repaired Building",
-        "connections": 14
+        "connections": 21
       },
       {
         "id": 51,
@@ -214,17 +219,17 @@
       {
         "id": 54,
         "name": "Repair Culture",
-        "connections": 18
+        "connections": 19
       },
       {
         "id": 55,
         "name": "The Owner-Builder",
-        "connections": 15
+        "connections": 16
       },
       {
         "id": 56,
         "name": "Honest Materials",
-        "connections": 18
+        "connections": 19
       },
       {
         "id": 57,
@@ -234,7 +239,7 @@
       {
         "id": 58,
         "name": "The Winter City Street",
-        "connections": 15
+        "connections": 14
       },
       {
         "id": 59,
@@ -249,7 +254,7 @@
       {
         "id": 62,
         "name": "Ice Management by Design",
-        "connections": 11
+        "connections": 12
       },
       {
         "id": 63,
@@ -284,7 +289,7 @@
       {
         "id": 72,
         "name": "Safe Streets for Children",
-        "connections": 10
+        "connections": 9
       },
       {
         "id": 73,
@@ -352,14 +357,9 @@
         "connections": 9
       },
       {
-        "id": 99,
-        "name": "The Mixed-Use Ground Floor",
-        "connections": 9
-      },
-      {
         "id": 100,
         "name": "Incremental Development",
-        "connections": 10
+        "connections": 19
       },
       {
         "id": 101,
@@ -372,9 +372,14 @@
         "connections": 13
       },
       {
+        "id": 105,
+        "name": "Honest Joinery",
+        "connections": 9
+      },
+      {
         "id": 107,
         "name": "The Tool Wall",
-        "connections": 11
+        "connections": 12
       },
       {
         "id": 108,
@@ -457,24 +462,19 @@
         "connections": 10
       },
       {
+        "id": 139,
+        "name": "The Mall Transformation",
+        "connections": 9
+      },
+      {
         "id": 143,
         "name": "The Retrofit Sequence",
-        "connections": 14
+        "connections": 15
       },
       {
         "id": 146,
         "name": "The Outdoor Room",
         "connections": 9
-      },
-      {
-        "id": 147,
-        "name": "The Winter Vestibule",
-        "connections": 9
-      },
-      {
-        "id": 148,
-        "name": "The Heated Sidewalk",
-        "connections": 10
       },
       {
         "id": 153,
@@ -555,21 +555,11 @@
         "id": 222,
         "name": "The Conflict Resolution Space",
         "connections": 9
-      },
-      {
-        "id": 224,
-        "name": "The Material Library",
-        "connections": 9
-      },
-      {
-        "id": 257,
-        "name": "The Corner Store Building",
-        "connections": 9
       }
     ]
   },
   "scaleFlow": {
-    "neighborhoodToBuilding": 94.5945945945946,
+    "neighborhoodToBuilding": 89.1891891891892,
     "buildingToConstruction": 91.37931034482759,
     "scaleIsolated": [
       {
@@ -591,6 +581,11 @@
         "id": 226,
         "name": "The Joinery Tradition",
         "scale": "construction"
+      },
+      {
+        "id": 254,
+        "name": "The Living Language",
+        "scale": "neighborhood"
       }
     ]
   },
@@ -601,12 +596,11 @@
           1
         ],
         "building": [
-          99,
           12,
+          99,
           139,
           180,
-          181,
-          257
+          181
         ],
         "construction": [
           169,
@@ -615,11 +609,10 @@
           107,
           109,
           228,
-          108,
-          148
+          108
         ],
         "complete": true,
-        "strength": 0.20952380952380953
+        "strength": 0.2564102564102564
       },
       {
         "neighborhood": [
@@ -631,33 +624,31 @@
           99,
           140,
           142,
-          222,
-          257
+          222
         ],
         "construction": [
           169,
           49,
           143,
-          32,
-          148
+          32
         ],
         "complete": true,
-        "strength": 0.19230769230769232
+        "strength": 0.2545454545454545
       },
       {
         "neighborhood": [
           3
         ],
         "building": [
-          83,
           33,
           82,
+          83,
           86
         ],
         "construction": [
+          84,
           212,
-          252,
-          84
+          252
         ],
         "complete": true,
         "strength": 0.35714285714285715
@@ -673,8 +664,8 @@
         "construction": [
           62,
           110,
-          63,
           47,
+          63,
           118,
           147,
           233
@@ -766,17 +757,17 @@
           247
         ],
         "complete": true,
-        "strength": 0.23333333333333334
+        "strength": 0.22857142857142856
       },
       {
         "neighborhood": [
           41
         ],
         "building": [
-          93,
           12,
           35,
-          36
+          36,
+          93
         ],
         "construction": [
           169,
@@ -786,7 +777,7 @@
           147
         ],
         "complete": true,
-        "strength": 0.2777777777777778
+        "strength": 0.26666666666666666
       },
       {
         "neighborhood": [
@@ -831,6 +822,19 @@
       },
       {
         "neighborhood": [
+          50
+        ],
+        "building": [
+          222
+        ],
+        "construction": [
+          32
+        ],
+        "complete": true,
+        "strength": 0.6666666666666666
+      },
+      {
+        "neighborhood": [
           51
         ],
         "building": [
@@ -846,7 +850,7 @@
           32
         ],
         "complete": true,
-        "strength": 0.3055555555555556
+        "strength": 0.3333333333333333
       },
       {
         "neighborhood": [
@@ -859,8 +863,8 @@
         "construction": [
           169,
           32,
-          54,
           107,
+          54,
           55,
           108
         ],
@@ -885,31 +889,30 @@
           57
         ],
         "building": [
-          161,
-          257
+          161
         ],
         "construction": [
           54,
-          148,
           55,
-          107
+          107,
+          221
         ],
         "complete": true,
-        "strength": 0.47619047619047616
+        "strength": 0.8
       },
       {
         "neighborhood": [
           58
         ],
         "building": [
-          59,
           153,
+          59,
           232
         ],
         "construction": [
           62,
-          63,
           47,
+          63,
           118,
           147,
           233,
@@ -977,25 +980,25 @@
           143
         ],
         "complete": true,
-        "strength": 0.4166666666666667
+        "strength": 0.5
       },
       {
         "neighborhood": [
           77
         ],
         "building": [
+          175,
           14,
           15,
           80,
           81,
-          175,
           171,
           172,
           248
         ],
         "construction": [
-          47,
           173,
+          47,
           249,
           247,
           147
@@ -1035,8 +1038,8 @@
           89
         ],
         "building": [
-          87,
-          33
+          33,
+          87
         ],
         "construction": [
           160,
@@ -1104,7 +1107,7 @@
           54
         ],
         "complete": true,
-        "strength": 0.35714285714285715
+        "strength": 0.3333333333333333
       },
       {
         "neighborhood": [
@@ -1114,8 +1117,8 @@
           12,
           27,
           36,
-          98,
           73,
+          98,
           112
         ],
         "construction": [
@@ -1140,7 +1143,7 @@
           169
         ],
         "complete": true,
-        "strength": 0.5833333333333334
+        "strength": 0.5
       },
       {
         "neighborhood": [
@@ -1149,8 +1152,10 @@
         "building": [
           12,
           28,
+          138,
           139,
-          166
+          166,
+          222
         ],
         "construction": [
           169,
@@ -1162,10 +1167,13 @@
           103,
           104,
           143,
-          207
+          207,
+          32,
+          54,
+          55
         ],
         "complete": true,
-        "strength": 0.3047619047619048
+        "strength": 0.24736842105263157
       },
       {
         "neighborhood": [
@@ -1189,7 +1197,7 @@
           182
         ],
         "complete": true,
-        "strength": 0.2802197802197802
+        "strength": 0.27472527472527475
       },
       {
         "neighborhood": [
@@ -1206,9 +1214,9 @@
         ],
         "construction": [
           45,
+          46,
           48,
           69,
-          46,
           118,
           155,
           157,
@@ -1271,9 +1279,9 @@
           59
         ],
         "construction": [
+          47,
           62,
           63,
-          47,
           118,
           147,
           233,
@@ -1344,22 +1352,7 @@
           159
         ],
         "complete": true,
-        "strength": 0.5666666666666667
-      },
-      {
-        "neighborhood": [
-          177
-        ],
-        "building": [
-          257
-        ],
-        "construction": [
-          148,
-          102,
-          104
-        ],
-        "complete": true,
-        "strength": 0.5
+        "strength": 0.5333333333333333
       },
       {
         "neighborhood": [
@@ -1392,7 +1385,7 @@
           169
         ],
         "complete": true,
-        "strength": 0.25555555555555554
+        "strength": 0.24444444444444444
       },
       {
         "neighborhood": [
@@ -1412,7 +1405,7 @@
           169
         ],
         "complete": true,
-        "strength": 0.25555555555555554
+        "strength": 0.24444444444444444
       },
       {
         "neighborhood": [
@@ -1507,7 +1500,7 @@
           207
         ],
         "complete": true,
-        "strength": 0.2647058823529412
+        "strength": 0.28104575163398693
       },
       {
         "neighborhood": [
@@ -1580,7 +1573,7 @@
           32
         ],
         "complete": true,
-        "strength": 0.45
+        "strength": 0.4
       },
       {
         "neighborhood": [
@@ -1605,9 +1598,9 @@
         ],
         "construction": [
           49,
+          54,
           56,
           69,
-          54,
           110,
           136,
           228,
@@ -1618,32 +1611,15 @@
       },
       {
         "neighborhood": [
-          224
-        ],
-        "building": [
-          257
-        ],
-        "construction": [
-          148,
-          49,
-          54,
-          104,
-          207
-        ],
-        "complete": true,
-        "strength": 0.42857142857142855
-      },
-      {
-        "neighborhood": [
           229
         ],
         "building": [
           59
         ],
         "construction": [
+          47,
           62,
           63,
-          47,
           118,
           147,
           233,
@@ -1718,54 +1694,20 @@
         ],
         "complete": true,
         "strength": 0.6666666666666666
-      },
-      {
-        "neighborhood": [
-          254
-        ],
-        "building": [
-          222
-        ],
-        "construction": [
-          32
-        ],
-        "complete": true,
-        "strength": 0.6666666666666666
-      },
-      {
-        "neighborhood": [
-          255
-        ],
-        "building": [
-          99,
-          170,
-          176,
-          257
-        ],
-        "construction": [
-          169,
-          148
-        ],
-        "complete": true,
-        "strength": 0.5714285714285714
-      },
-      {
-        "neighborhood": [
-          256
-        ],
-        "building": [
-          257
-        ],
-        "construction": [
-          148,
-          103,
-          147
-        ],
-        "complete": true,
-        "strength": 0.6
       }
     ],
     "broken": [
+      {
+        "neighborhood": [
+          5
+        ],
+        "building": [],
+        "construction": [
+          62
+        ],
+        "complete": false,
+        "strength": 1
+      },
       {
         "neighborhood": [
           42
@@ -1821,6 +1763,18 @@
       },
       {
         "neighborhood": [
+          177
+        ],
+        "building": [],
+        "construction": [
+          102,
+          104
+        ],
+        "complete": false,
+        "strength": 0.6666666666666666
+      },
+      {
+        "neighborhood": [
           179
         ],
         "building": [],
@@ -1853,6 +1807,20 @@
         "construction": [],
         "complete": false,
         "strength": 1
+      },
+      {
+        "neighborhood": [
+          224
+        ],
+        "building": [],
+        "construction": [
+          49,
+          54,
+          104,
+          207
+        ],
+        "complete": false,
+        "strength": 0.6
       },
       {
         "neighborhood": [
@@ -1891,6 +1859,15 @@
         "strength": 1
       },
       {
+        "neighborhood": [
+          254
+        ],
+        "building": [],
+        "construction": [],
+        "complete": false,
+        "strength": 0
+      },
+      {
         "neighborhood": [],
         "building": [
           6
@@ -1914,7 +1891,7 @@
           182
         ],
         "complete": false,
-        "strength": 0.55
+        "strength": 0.5
       },
       {
         "neighborhood": [],
@@ -2078,6 +2055,17 @@
       {
         "neighborhood": [],
         "building": [
+          170
+        ],
+        "construction": [
+          169
+        ],
+        "complete": false,
+        "strength": 1
+      },
+      {
+        "neighborhood": [],
+        "building": [
           174
         ],
         "construction": [
@@ -2158,17 +2146,17 @@
   },
   "categoryBalance": {
     "distribution": {
-      "fifteen-minute-life": 10,
+      "fifteen-minute-life": 8,
       "digital-age-dwelling": 11,
       "housing-diversity": 13,
       "climate-resilience": 16,
       "energy-envelope": 21,
       "food-water": 14,
-      "adaptive-reuse": 13,
+      "adaptive-reuse": 14,
       "health-biophilia": 12,
-      "foundation": 22,
+      "foundation": 23,
       "community-governance": 8,
-      "construction-making": 17,
+      "construction-making": 18,
       "northern-living": 21,
       "water-infrastructure": 13,
       "children-play": 11,
@@ -2178,17 +2166,13 @@
       "the-commons": 10,
       "density-done-right": 11
     },
-    "balanceScore": 0.9834160154224507
+    "balanceScore": 0.9813463385937707
   },
   "reciprocity": {
-    "totalDirected": 2317,
-    "reciprocalPairs": 571,
-    "reciprocityRate": 0.49287872248597325,
+    "totalDirected": 2346,
+    "reciprocalPairs": 586,
+    "reciprocityRate": 0.49957374254049447,
     "oneWay": [
-      {
-        "from": 1,
-        "to": 4
-      },
       {
         "from": 1,
         "to": 40
@@ -2200,6 +2184,34 @@
       {
         "from": 1,
         "to": 43
+      },
+      {
+        "from": 1,
+        "to": 2
+      },
+      {
+        "from": 1,
+        "to": 3
+      },
+      {
+        "from": 1,
+        "to": 4
+      },
+      {
+        "from": 1,
+        "to": 5
+      },
+      {
+        "from": 1,
+        "to": 12
+      },
+      {
+        "from": 1,
+        "to": 21
+      },
+      {
+        "from": 1,
+        "to": 58
       },
       {
         "from": 1,
@@ -2216,26 +2228,6 @@
       {
         "from": 1,
         "to": 99
-      },
-      {
-        "from": 1,
-        "to": 2
-      },
-      {
-        "from": 1,
-        "to": 3
-      },
-      {
-        "from": 1,
-        "to": 12
-      },
-      {
-        "from": 1,
-        "to": 21
-      },
-      {
-        "from": 1,
-        "to": 58
       },
       {
         "from": 1,
@@ -2260,10 +2252,6 @@
       {
         "from": 1,
         "to": 229
-      },
-      {
-        "from": 1,
-        "to": 255
       }
     ]
   },
@@ -2288,6 +2276,32 @@
       "internalConnections": 60,
       "externalConnections": 42,
       "ratio": 0.4117647058823529,
+      "isolated": false
+    },
+    {
+      "patterns": [
+        54,
+        55,
+        56,
+        57,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        221,
+        224,
+        225,
+        226,
+        227,
+        228
+      ],
+      "internalConnections": 104,
+      "externalConnections": 78,
+      "ratio": 0.42857142857142855,
       "isolated": false
     },
     {
@@ -2321,31 +2335,6 @@
     },
     {
       "patterns": [
-        54,
-        55,
-        56,
-        57,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        224,
-        225,
-        226,
-        227,
-        228
-      ],
-      "internalConnections": 92,
-      "externalConnections": 81,
-      "ratio": 0.4682080924855491,
-      "isolated": false
-    },
-    {
-      "patterns": [
         71,
         72,
         73,
@@ -2359,24 +2348,8 @@
         245
       ],
       "internalConnections": 40,
-      "externalConnections": 36,
-      "ratio": 0.47368421052631576,
-      "isolated": false
-    },
-    {
-      "patterns": [
-        51,
-        52,
-        53,
-        219,
-        220,
-        222,
-        223,
-        254
-      ],
-      "internalConnections": 34,
-      "externalConnections": 34,
-      "ratio": 0.5,
+      "externalConnections": 35,
+      "ratio": 0.4666666666666667,
       "isolated": false
     },
     {
@@ -2384,6 +2357,7 @@
         27,
         28,
         29,
+        138,
         139,
         140,
         141,
@@ -2395,9 +2369,25 @@
         206,
         207
       ],
-      "internalConnections": 56,
-      "externalConnections": 58,
-      "ratio": 0.5087719298245614,
+      "internalConnections": 66,
+      "externalConnections": 59,
+      "ratio": 0.472,
+      "isolated": false
+    },
+    {
+      "patterns": [
+        50,
+        51,
+        52,
+        53,
+        219,
+        220,
+        222,
+        223
+      ],
+      "internalConnections": 34,
+      "externalConnections": 34,
+      "ratio": 0.5,
       "isolated": false
     },
     {
@@ -2447,8 +2437,8 @@
         234
       ],
       "internalConnections": 74,
-      "externalConnections": 97,
-      "ratio": 0.5672514619883041,
+      "externalConnections": 95,
+      "ratio": 0.5621301775147929,
       "isolated": false
     },
     {
@@ -2515,25 +2505,6 @@
     },
     {
       "patterns": [
-        96,
-        97,
-        98,
-        99,
-        100,
-        166,
-        167,
-        168,
-        169,
-        170,
-        176
-      ],
-      "internalConnections": 36,
-      "externalConnections": 60,
-      "ratio": 0.625,
-      "isolated": false
-    },
-    {
-      "patterns": [
         91,
         92,
         93,
@@ -2572,6 +2543,25 @@
     },
     {
       "patterns": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        166,
+        167,
+        168,
+        169,
+        170,
+        176
+      ],
+      "internalConnections": 36,
+      "externalConnections": 65,
+      "ratio": 0.6435643564356436,
+      "isolated": false
+    },
+    {
+      "patterns": [
         6,
         7,
         8,
@@ -2584,9 +2574,9 @@
         181,
         182
       ],
-      "internalConnections": 27,
-      "externalConnections": 51,
-      "ratio": 0.6538461538461539,
+      "internalConnections": 30,
+      "externalConnections": 58,
+      "ratio": 0.6590909090909091,
       "isolated": false
     },
     {
@@ -2605,27 +2595,9 @@
         185,
         186
       ],
-      "internalConnections": 47,
-      "externalConnections": 89,
-      "ratio": 0.6544117647058824,
-      "isolated": false
-    },
-    {
-      "patterns": [
-        1,
-        2,
-        3,
-        4,
-        177,
-        178,
-        179,
-        255,
-        256,
-        257
-      ],
-      "internalConnections": 32,
-      "externalConnections": 78,
-      "ratio": 0.7090909090909091,
+      "internalConnections": 46,
+      "externalConnections": 92,
+      "ratio": 0.6666666666666666,
       "isolated": false
     },
     {
@@ -2641,6 +2613,22 @@
       "internalConnections": 12,
       "externalConnections": 33,
       "ratio": 0.7333333333333333,
+      "isolated": false
+    },
+    {
+      "patterns": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        177,
+        178,
+        179
+      ],
+      "internalConnections": 22,
+      "externalConnections": 67,
+      "ratio": 0.7528089887640449,
       "isolated": false
     },
     {
@@ -2666,16 +2654,17 @@
         215,
         216,
         217,
-        218
+        218,
+        254
       ],
-      "internalConnections": 72,
-      "externalConnections": 246,
-      "ratio": 0.7735849056603774,
+      "internalConnections": 82,
+      "externalConnections": 252,
+      "ratio": 0.7544910179640718,
       "isolated": false
     }
   ],
   "alexanderIntegration": {
-    "patternsWithRefs": 7,
+    "patternsWithRefs": 8,
     "patternsWithoutRefs": [
       1,
       2,
@@ -2725,6 +2714,7 @@
       47,
       48,
       49,
+      50,
       51,
       52,
       53,
@@ -2808,6 +2798,7 @@
       134,
       136,
       137,
+      138,
       139,
       140,
       141,
@@ -2888,6 +2879,7 @@
       218,
       219,
       220,
+      221,
       222,
       223,
       224,
@@ -2919,12 +2911,13 @@
       251,
       252,
       253,
-      254,
-      255,
-      256,
-      257
+      254
     ],
     "mostReferenced": [
+      {
+        "alexanderId": 97,
+        "count": 1
+      },
       {
         "alexanderId": 105,
         "count": 1
@@ -2971,12 +2964,13 @@
     {
       "severity": "advisory",
       "type": "hubs",
-      "description": "112 patterns have more than 8 connections",
+      "description": "110 patterns have more than 8 connections",
       "affectedPatterns": [
         1,
         2,
         3,
         4,
+        7,
         11,
         12,
         13,
@@ -3042,10 +3036,10 @@
         95,
         96,
         98,
-        99,
         100,
         101,
         104,
+        105,
         107,
         108,
         111,
@@ -3063,10 +3057,9 @@
         131,
         132,
         136,
+        139,
         143,
         146,
-        147,
-        148,
         153,
         156,
         157,
@@ -3082,27 +3075,28 @@
         208,
         213,
         215,
-        222,
-        224,
-        257
+        222
       ]
     },
     {
       "severity": "advisory",
       "type": "scale-isolated",
-      "description": "4 patterns only connect to their own scale",
+      "description": "5 patterns only connect to their own scale",
       "affectedPatterns": [
         66,
         78,
         106,
-        226
+        226,
+        254
       ]
     },
     {
       "severity": "advisory",
       "type": "broken-chains",
-      "description": "33 vertical chains are incomplete",
+      "description": "38 vertical chains are incomplete",
       "affectedPatterns": [
+        5,
+        62,
         42,
         93,
         72,
@@ -3112,6 +3106,9 @@
         93,
         165,
         73,
+        177,
+        102,
+        104,
         179,
         101,
         104,
@@ -3120,6 +3117,11 @@
         25,
         201,
         25,
+        224,
+        49,
+        54,
+        104,
+        207,
         225,
         55,
         104,
@@ -3129,6 +3131,7 @@
         104,
         241,
         73,
+        254,
         6,
         63,
         64,
@@ -3180,6 +3183,8 @@
         154,
         212,
         62,
+        170,
+        169,
         174,
         173,
         247,

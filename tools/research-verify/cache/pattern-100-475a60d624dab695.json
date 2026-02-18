@@ -1,0 +1,62 @@
+{
+  "patternId": 100,
+  "patternName": "Incremental Development",
+  "timestamp": "2026-02-16T22:16:12.809Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "The most beloved neighborhoods in every city share a trait: they were built incrementally, by many hands, over many decades.",
+        "claim": "The most beloved neighborhoods in cities were built incrementally over many decades by multiple builders",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "This is a qualitative assertion about urban character that reflects a perspective in urbanism literature but cannot be empirically verified as stated.",
+      "detail": "The claim that 'the most beloved neighborhoods in every city' share the trait of incremental development is a generalization common in New Urbanist and Strong Towns discourse, but it is a value judgment rather than an empirically measurable statistic. While incremental development is a documented phenomenon and is championed by urban planning theorists like Charles Marohn and writers at Strong Towns, the assertion that ALL 'most beloved' neighborhoods share this trait would require systematic surveys across cities defining 'beloved' and correlating with development patterns. Unable to search for supporting or contradicting evidence due to tool permission restrictions.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "older buildings are cheaper",
+        "claim": "Older buildings have lower rents/prices than newer buildings",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Building depreciation causing older structures to have lower rents/prices than newer comparable buildings is a well-established principle in real estate economics.",
+      "detail": "This claim reflects the fundamental concept of building depreciation in real estate economics. Buildings depreciate over time due to physical deterioration, functional obsolescence, and external obsolescence. This is documented in standard real estate appraisal methodology (the cost approach explicitly accounts for depreciation), hedonic pricing models that consistently find negative coefficients for building age, and IRS depreciation schedules that assume buildings lose value over 27.5 years (residential) or 39 years (commercial). The principle is so established it forms the basis of property tax assessments and real estate valuation standards.",
+      "sources": [
+        "Standard real estate appraisal methodology (Appraisal Institute)",
+        "IRS Publication 946 on depreciation",
+        "Hedonic pricing literature in urban economics"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The most beloved neighborhoods in every city share a trait: they were built incrementally, by many hands, over many decades.",
+          "claim": "The most beloved neighborhoods in cities were built incrementally over many decades by multiple builders",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "This is a qualitative assertion about urban character that reflects a perspective in urbanism literature but cannot be empirically verified as stated.",
+        "detail": "The claim that 'the most beloved neighborhoods in every city' share the trait of incremental development is a generalization common in New Urbanist and Strong Towns discourse, but it is a value judgment rather than an empirically measurable statistic. While incremental development is a documented phenomenon and is championed by urban planning theorists like Charles Marohn and writers at Strong Towns, the assertion that ALL 'most beloved' neighborhoods share this trait would require systematic surveys across cities defining 'beloved' and correlating with development patterns. Unable to search for supporting or contradicting evidence due to tool permission restrictions.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

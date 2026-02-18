@@ -1,0 +1,65 @@
+{
+  "programs": [
+    {
+      "name": "Garden Suites Zoning By-law Amendment",
+      "location": "Toronto, Canada",
+      "year": "2022",
+      "outcome": "Permitted garden suites city-wide on lots with detached, semi-detached, and townhouses; max 1 storey/no taller than 4m or 2 storeys/6m with conditions",
+      "source": "City of Toronto Planning - requires live verification for current statistics"
+    },
+    {
+      "name": "Laneway Housing Program",
+      "location": "Vancouver, Canada",
+      "year": "2009",
+      "outcome": "Over 4,000 laneway houses built by 2022; expanded eligibility multiple times",
+      "source": "City of Vancouver - requires live verification for current numbers"
+    },
+    {
+      "name": "California ADU Reform (AB 68, AB 881, SB 13)",
+      "location": "California, USA",
+      "year": "2020",
+      "outcome": "ADU permits increased from ~5,000/year to 20,000+/year statewide after reforms",
+      "source": "California HCD - requires live verification"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Vancouver laneway houses averaged $350,000-500,000 construction cost (2020)",
+      "source": "City of Vancouver planning reports",
+      "year": "2020"
+    },
+    {
+      "claim": "65% of ADU occupants in Portland were family members or friends of property owners",
+      "source": "Portland Bureau of Planning and Sustainability ADU survey",
+      "year": "2018"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Wegmann, Jake; Chapple, Karen",
+      "title": "Hidden Density in Single-Family Neighborhoods: Backyard Cottages as an Equitable Smart Growth Strategy",
+      "year": "2014",
+      "finding": "ADUs provide affordable housing without changing neighborhood character; face barriers from parking requirements and utility connection fees"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Vancouver, BC, Canada",
+      "description": "Laneway houses program - detached units in rear yards/lanes; typically 500-900 sq ft with full amenities",
+      "source": "City of Vancouver"
+    },
+    {
+      "location": "Portland, OR, USA",
+      "description": "Detached ADU program with waived system development charges 2010-2016; resulted in over 2,000 detached ADUs",
+      "source": "Portland Bureau of Planning"
+    },
+    {
+      "location": "Seattle, WA, USA",
+      "description": "DADU (Detached Accessory Dwelling Unit) program expanded in 2019 to allow DADUs on more lots",
+      "source": "Seattle OPCD"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "CRITICAL: I was unable to perform live web searches to verify this information. The data above comes from my training knowledge (cutoff May 2025) and represents what I understand to be accurate from that period. All statistics and program outcomes should be verified through current government sources before use. The core pattern (garden suites as dignified secondary dwellings) has substantial policy support in multiple jurisdictions, but exact current numbers require live verification. I recommend running this research again with WebSearch permissions enabled."
+}

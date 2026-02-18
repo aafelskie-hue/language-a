@@ -1,0 +1,197 @@
+{
+  "patternId": 228,
+  "patternName": "The Documented Process",
+  "timestamp": "2026-02-16T19:08:50.629Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "The UK's Building Safety Act of 2022, enacted after the Grenfell Tower fire killed seventy-two people",
+        "claim": "UK Building Safety Act was enacted in 2022",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The UK Building Safety Act received Royal Assent on 28 April 2022, confirming it was enacted in 2022.",
+      "detail": "The Building Safety Act 2022 is officially designated as 'c. 30' in UK legislation, receiving Royal Assent on 28 April 2022. It was indeed enacted in response to the Grenfell Tower fire of June 2017, which killed 72 people. The Act created the Building Safety Regulator and established new safety requirements for high-rise residential buildings.",
+      "sources": [
+        "UK legislation.gov.uk official record (ukpga/2022/30)",
+        "Parliamentary records of Royal Assent 28 April 2022"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The UK's Building Safety Act of 2022, enacted after the Grenfel Tower fire killed seventy-two people",
+        "claim": "Grenfell Tower fire killed 72 people",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Grenfell Tower fire on June 14, 2017 killed 72 people, which is the officially confirmed death toll.",
+      "detail": "The Grenfell Tower fire occurred on June 14, 2017 in North Kensington, London. The official death toll of 72 people was confirmed by authorities and has been consistently reported in government inquiries, coroner reports, and the Grenfell Tower Inquiry. This figure includes 70 people who died at the scene and 2 who died in hospital.",
+      "sources": [
+        "Grenfell Tower Inquiry official findings",
+        "UK Government reports on Grenfell Tower fire",
+        "Metropolitan Police official statements"
+      ]
+    },
+    {
+      "claim": {
+        "text": "introduced the concept of the 'Golden Thread' — a requirement that all building information be recorded, stored, and maintained throughout the building's life",
+        "claim": "UK Building Safety Act 2022 introduced the 'Golden Thread' concept requiring building information to be recorded and maintained throughout the building's life",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The UK Building Safety Act 2022 does introduce the 'Golden Thread' concept requiring building information to be recorded and maintained throughout a building's lifecycle.",
+      "detail": "The Building Safety Act 2022 establishes the 'Golden Thread' as a key requirement for higher-risk buildings in England. This concept requires that building information be accurate, accessible, and maintained throughout the building's design, construction, and occupation phases. The term and concept originated from Dame Judith Hackitt's Independent Review of Building Regulations and Fire Safety following the Grenfell Tower fire, and was formally enacted through the Building Safety Act 2022.",
+      "sources": [
+        "UK Government Building Safety Act 2022",
+        "Dame Judith Hackitt Independent Review of Building Regulations and Fire Safety (2018)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The failure at Grenfell was partly a failure of knowledge: no one could determine what cladding had actually been installed, what fire-stopping existed in what locations, or who had made decisions that deviated from approved drawings",
+        "claim": "Investigations found that at Grenfell Tower, documentation was insufficient to determine what cladding was installed, fire-stopping locations, and decision-making on deviations from approved drawings",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The Grenfell Tower Inquiry Phase 2 Report confirmed significant documentation failures regarding cladding, fire-stopping, and decision-making records.",
+      "detail": "The Grenfell Tower Inquiry (Phase 2, published September 2024) found that record-keeping was inadequate, making it difficult to trace what materials were actually installed versus what was specified, who made decisions to deviate from approved designs, and the state of fire-stopping measures. The inquiry criticized the lack of a proper 'golden thread' of building information. However, I cannot search live sources to confirm the exact wording, so confidence is limited by reliance on training data rather than current verification.",
+      "sources": [
+        "Grenfell Tower Inquiry Phase 2 Report (September 2024) - based on training knowledge, not live verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A 2019 survey by the Royal Institution of Chartered Surveyors found that fewer than 30 percent of UK buildings had operation and maintenance manuals that were both complete and accessible to current owners",
+        "claim": "RICS conducted a 2019 survey finding fewer than 30% of UK buildings had complete and accessible operation and maintenance manuals",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search for this claim as web search and web fetch tools are currently unavailable. The claim references a specific 2019 RICS survey about UK building documentation, but without search capabilities, I cannot confirm whether this survey exists or whether the 30% statistic is accurate.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In North America, the situation is worse — there is no regulatory requirement for residential buildings to retain construction documentation",
+        "claim": "North America has no regulatory requirement for residential buildings to retain construction documentation",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "The claim oversimplifies a complex regulatory landscape - while there's no uniform federal requirement, state and local jurisdictions have varying document retention rules.",
+      "detail": "In the United States, building codes and documentation requirements are primarily regulated at the state and local level, not federally. Many jurisdictions require building departments to retain permit records and plans for specific periods (often 10+ years), though requirements for homeowners to retain documents vary. Canada similarly has provincial/territorial jurisdiction over building codes. The claim's absolute statement that there is 'no regulatory requirement' ignores the patchwork of local regulations that do exist.",
+      "sources": [
+        "Unable to search - assessment based on general knowledge of US/Canadian building code structure"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Building Information Modeling (BIM) and the COBie (Construction Operations Building Information Exchange) data standard, which requires that equipment locations, specifications, warranties, and maintenance schedules be delivered as structured data alongside the physical building",
+        "claim": "COBie (Construction Operations Building Information Exchange) is a data standard that requires equipment locations, specifications, warranties, and maintenance schedules to be delivered as structured data",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "COBie is indeed a data standard that specifies structured delivery of facility management data including equipment locations, specifications, warranties, and maintenance information.",
+      "detail": "COBie (Construction Operations Building Information Exchange) was developed by the US Army Corps of Engineers and is now an international standard (BS 1192-4, ISO 15686-4). The standard explicitly defines data schemas for delivering equipment/asset information including location data, product specifications, warranty information, and maintenance requirements in structured spreadsheet or XML formats. This is the core purpose of COBie - to capture facility handover data in a machine-readable structured format rather than unstructured documents.",
+      "sources": [
+        "Prior knowledge of buildingSMART International COBie specification",
+        "Note: Web search was unavailable for real-time verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Sweden's Byggsektorns Miljöprogram has required environmental product declarations and material inventories since the early 2000s",
+        "claim": "Sweden's Byggsektorns Miljöprogram has required environmental product declarations and material inventories since the early 2000s",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search restrictions preventing research into Swedish construction sector environmental programs.",
+      "detail": "Web search was unavailable to verify the existence and requirements of Sweden's Byggsektorns Miljöprogram (Building Sector Environmental Program). The claim references a Swedish construction industry initiative that would require searching Swedish government or industry sources. Without access to search, I cannot confirm whether this program exists, when it was established, or what requirements it imposed regarding environmental product declarations and material inventories.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Alexander's original language included The Building Manual in pattern 131 of 'The Oregon Experiment'",
+        "claim": "Christopher Alexander's 'The Oregon Experiment' includes a pattern called 'The Building Manual' as pattern 131",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.85,
+      "summary": "The claim confuses two different Alexander books and misidentifies pattern 131, which is actually 'The Flow Through Rooms' in 'A Pattern Language.'",
+      "detail": "'The Oregon Experiment' (1975) is a separate work from 'A Pattern Language' (1977) and does not contain numbered patterns in the same format. Pattern 131 in 'A Pattern Language' is 'The Flow Through Rooms,' not 'The Building Manual.' No pattern called 'The Building Manual' exists in either work. The claim appears to conflate these books and fabricate a pattern name.",
+      "sources": [
+        "Christopher Alexander, 'A Pattern Language' (1977)",
+        "Christopher Alexander, 'The Oregon Experiment' (1975)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "though not in the 253 patterns",
+        "claim": "'A Pattern Language' contains 253 patterns and does not include 'The Building Manual' pattern",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "A Pattern Language by Christopher Alexander contains exactly 253 patterns, and 'The Building Manual' is not among them.",
+      "detail": "A Pattern Language (1977) by Christopher Alexander et al. is well-documented as containing exactly 253 patterns, numbered from 1 (Independent Regions) to 253 (Things From Your Life). The patterns cover three scales: towns, buildings, and construction. 'The Building Manual' is not one of the 253 numbered patterns in this book. The phrase 'though not in the 253 patterns' correctly indicates this pattern name does not appear in the canonical pattern list.",
+      "sources": [
+        "A Pattern Language: Towns, Buildings, Construction (1977) by Christopher Alexander, Sara Ishikawa, and Murray Silverstein - Oxford University Press"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 6,
+    "partially": 1,
+    "unverified": 2,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A 2019 survey by the Royal Institution of Chartered Surveyors found that fewer than 30 percent of UK buildings had operation and maintenance manuals that were both complete and accessible to current owners",
+          "claim": "RICS conducted a 2019 survey finding fewer than 30% of UK buildings had complete and accessible operation and maintenance manuals",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search for this claim as web search and web fetch tools are currently unavailable. The claim references a specific 2019 RICS survey about UK building documentation, but without search capabilities, I cannot confirm whether this survey exists or whether the 30% statistic is accurate.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Sweden's Byggsektorns Miljöprogram has required environmental product declarations and material inventories since the early 2000s",
+          "claim": "Sweden's Byggsektorns Miljöprogram has required environmental product declarations and material inventories since the early 2000s",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search restrictions preventing research into Swedish construction sector environmental programs.",
+        "detail": "Web search was unavailable to verify the existence and requirements of Sweden's Byggsektorns Miljöprogram (Building Sector Environmental Program). The claim references a Swedish construction industry initiative that would require searching Swedish government or industry sources. Without access to search, I cannot confirm whether this program exists, when it was established, or what requirements it imposed regarding environmental product declarations and material inventories.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

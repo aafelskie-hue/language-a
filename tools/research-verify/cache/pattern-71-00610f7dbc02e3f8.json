@@ -1,0 +1,101 @@
+{
+  "patternId": 71,
+  "patternName": "The Adventure Playground",
+  "timestamp": "2026-02-16T21:32:55.740Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "Adventure playgrounds — originating in Denmark in 1943",
+        "claim": "Adventure playgrounds originated in Denmark in 1943",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not currently available to verify this claim. Based on training knowledge, this claim appears accurate — adventure playgrounds are widely attributed to Danish landscape architect C. Th. Sørensen who created the first 'skrammellegeplads' (junk playground) in Emdrup, Copenhagen in 1943. However, I cannot confirm this with current sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Over 1,000 adventure playgrounds operate in Europe",
+        "claim": "Over 1,000 adventure playgrounds currently operate in Europe",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. Adventure playgrounds are known to be widespread in Europe, particularly in Germany, the UK, and Scandinavia, but the specific figure of 'over 1,000' cannot be confirmed without access to current sources or official counts from playground associations.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "North America has fewer than ten",
+        "claim": "North America has fewer than 10 adventure playgrounds",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current counts of adventure playgrounds in North America.",
+      "detail": "Adventure playgrounds (staffed playgrounds with loose parts, tools, and natural materials) are indeed rare in North America compared to Europe. The claim of fewer than 10 is plausible given known examples like The Yard in NYC, Berkeley's adventure playground, and a few others, but I cannot search for a current authoritative count. The exact number may have changed since this claim was written.",
+      "sources": [
+        "Unable to access web sources to verify"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Adventure playgrounds — originating in Denmark in 1943",
+          "claim": "Adventure playgrounds originated in Denmark in 1943",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not currently available to verify this claim. Based on training knowledge, this claim appears accurate — adventure playgrounds are widely attributed to Danish landscape architect C. Th. Sørensen who created the first 'skrammellegeplads' (junk playground) in Emdrup, Copenhagen in 1943. However, I cannot confirm this with current sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Over 1,000 adventure playgrounds operate in Europe",
+          "claim": "Over 1,000 adventure playgrounds currently operate in Europe",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. Adventure playgrounds are known to be widespread in Europe, particularly in Germany, the UK, and Scandinavia, but the specific figure of 'over 1,000' cannot be confirmed without access to current sources or official counts from playground associations.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "North America has fewer than ten",
+          "claim": "North America has fewer than 10 adventure playgrounds",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current counts of adventure playgrounds in North America.",
+        "detail": "Adventure playgrounds (staffed playgrounds with loose parts, tools, and natural materials) are indeed rare in North America compared to Europe. The claim of fewer than 10 is plausible given known examples like The Yard in NYC, Berkeley's adventure playground, and a few others, but I cannot search for a current authoritative count. The exact number may have changed since this claim was written.",
+        "sources": [
+          "Unable to access web sources to verify"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

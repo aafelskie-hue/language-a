@@ -1,0 +1,53 @@
+{
+  "programs": [
+    {
+      "name": "WELL Building Standard - Biophilic Design Credits",
+      "location": "International (IWBI)",
+      "year": "2014-present",
+      "outcome": "Includes credits for prospect and refuge design elements; thousands of projects registered globally",
+      "source": "International WELL Building Institute - wellcertified.com (would need verification for current numbers)"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to provide verified statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Jay Appleton",
+      "title": "The Experience of Landscape",
+      "year": "1975",
+      "finding": "Foundational theory that humans prefer environments offering both prospect (open views for surveillance) and refuge (enclosed spaces for safety), based on evolutionary psychology"
+    },
+    {
+      "authors": "Judith Heerwagen and Gordon Orians",
+      "title": "Humans, Habitats and Aesthetics (Chapter in The Biophilia Hypothesis)",
+      "year": "1993",
+      "finding": "Extended Appleton's theory with empirical research showing preference for savanna-like environments with scattered trees providing both open views and shelter"
+    },
+    {
+      "authors": "Stephen Kellert",
+      "title": "Building for Life: Designing and Understanding the Human-Nature Connection",
+      "year": "2005",
+      "finding": "Established biophilic design framework incorporating prospect-refuge as core principle; published by Island Press"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Fallingwater, Pennsylvania, USA",
+      "description": "Frank Lloyd Wright's 1939 design exemplifies prospect-refuge: cantilevered terraces provide open views over waterfall (prospect) while stone walls and low ceilings create intimate protected spaces (refuge)",
+      "source": "Widely documented in architectural literature - specific outcome data would need verification"
+    },
+    {
+      "location": "Amazon Spheres, Seattle, USA",
+      "description": "2018 biophilic workplace design explicitly incorporates prospect-refuge principles with varied ceiling heights, alcoves, and overlook spaces",
+      "source": "NBBJ Architects design documentation - specific employee wellness outcomes would need verification"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "Prospect-refuge theory has strong theoretical foundations (Appleton 1975 is well-established). However, without web search access, I cannot verify current statistics, recent studies, or specific program outcomes. The academic foundation is solid, but quantified built-environment outcomes need verification. Core studies are from 1970s-2000s; recent empirical validation in architecture would strengthen this pattern. Recommend web search to find: (1) recent VR/eye-tracking studies on prospect-refuge preferences, (2) post-occupancy evaluations from biophilic buildings, (3) current WELL/LEED project data."
+}

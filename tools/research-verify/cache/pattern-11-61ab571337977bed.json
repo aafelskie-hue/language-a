@@ -1,0 +1,98 @@
+{
+  "patternId": 11,
+  "patternName": "The Charging Threshold",
+  "timestamp": "2026-02-16T20:18:21.021Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "Alexander designed ENTRANCE TRANSITION (112) as one of his most important patterns",
+        "claim": "Christopher Alexander's pattern #112 in A Pattern Language is titled 'Entrance Transition'",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern #112 in Christopher Alexander's A Pattern Language (1977) is indeed titled 'Entrance Transition'.",
+      "detail": "This is a well-established fact from the book 'A Pattern Language: Towns, Buildings, Construction' by Christopher Alexander et al., published in 1977 by Oxford University Press. The pattern addresses the psychological need for a transitional space between public streets and private interiors. Unable to perform live web verification due to permission restrictions, but this is verifiable in the original text and widely documented in architectural and software pattern literature.",
+      "sources": [
+        "Christopher Alexander et al., A Pattern Language: Towns, Buildings, Construction (Oxford University Press, 1977), Pattern #112"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Roughly 40% of new vehicles sold in Norway are fully electric",
+        "claim": "Approximately 40% of new vehicle sales in Norway are fully electric",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.85,
+      "summary": "Norway's fully electric vehicle market share has been significantly higher than 40% in recent years, reaching approximately 80-90% of new car sales.",
+      "detail": "According to data from the Norwegian Road Federation (OFV) and widely reported statistics, Norway's EV market share exceeded 80% in 2023 and reached approximately 88-90% in 2024. The claim of 'approximately 40%' significantly understates Norway's actual EV adoption, which is the highest in the world. This figure of ~40% might have been accurate around 2019-2020, but is substantially outdated for recent years.",
+      "sources": [
+        "Norwegian Road Federation (OFV) statistics",
+        "International Energy Agency EV reports",
+        "Training data from multiple news sources reporting on Norway's EV market through early 2025"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the figure is rising toward 25% in the EU",
+        "claim": "Electric vehicle share of new vehicle sales in the EU is approaching 25%",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify due to lack of web search access to find current EU EV sales data.",
+      "detail": "Based on my knowledge up to May 2025, EU battery electric vehicle market share was around 14-15% in 2023, with some projections showing growth toward 20%+ by 2024-2025. However, I cannot access current web sources to verify whether the figure has actually approached 25%. The claim appears directionally plausible given market trends, but the specific 25% threshold cannot be confirmed without current data.",
+      "sources": [
+        "Unable to access web sources - verification requires current market data from ACEA or similar automotive industry sources"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Roughly 40% of new vehicles sold in Norway are fully electric",
+          "claim": "Approximately 40% of new vehicle sales in Norway are fully electric",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "DISPUTED",
+        "confidence": 0.85,
+        "summary": "Norway's fully electric vehicle market share has been significantly higher than 40% in recent years, reaching approximately 80-90% of new car sales.",
+        "detail": "According to data from the Norwegian Road Federation (OFV) and widely reported statistics, Norway's EV market share exceeded 80% in 2023 and reached approximately 88-90% in 2024. The claim of 'approximately 40%' significantly understates Norway's actual EV adoption, which is the highest in the world. This figure of ~40% might have been accurate around 2019-2020, but is substantially outdated for recent years.",
+        "sources": [
+          "Norwegian Road Federation (OFV) statistics",
+          "International Energy Agency EV reports",
+          "Training data from multiple news sources reporting on Norway's EV market through early 2025"
+        ]
+      },
+      {
+        "claim": {
+          "text": "the figure is rising toward 25% in the EU",
+          "claim": "Electric vehicle share of new vehicle sales in the EU is approaching 25%",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify due to lack of web search access to find current EU EV sales data.",
+        "detail": "Based on my knowledge up to May 2025, EU battery electric vehicle market share was around 14-15% in 2023, with some projections showing growth toward 20%+ by 2024-2025. However, I cannot access current web sources to verify whether the figure has actually approached 25%. The claim appears directionally plausible given market trends, but the specific 25% threshold cannot be confirmed without current data.",
+        "sources": [
+          "Unable to access web sources - verification requires current market data from ACEA or similar automotive industry sources"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

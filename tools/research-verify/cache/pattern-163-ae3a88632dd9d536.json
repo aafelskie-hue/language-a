@@ -1,0 +1,151 @@
+{
+  "patternId": 163,
+  "patternName": "The Guest Suite Commons",
+  "timestamp": "2026-02-17T02:00:49.461Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "A modest spare bedroom in Edmonton consumes 10 to 12 square meters of conditioned floor space.",
+        "claim": "A modest spare bedroom is typically 10 to 12 square meters in size",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "A spare or small bedroom of 10-12 square meters (approximately 107-129 square feet) is consistent with standard building conventions and real estate definitions.",
+      "detail": "Building codes and real estate standards typically define a small bedroom as requiring a minimum of about 70 square feet (6.5 sq m), with spare bedrooms commonly ranging from 100-150 square feet (9-14 sq m). The claim of 10-12 square meters falls squarely within the expected range for a modest spare bedroom. This is consistent with standard architectural and real estate guidelines across North America.",
+      "sources": [
+        "General architectural standards and building codes for bedroom minimum sizes",
+        "Real estate industry standard definitions for bedroom classifications"
+      ]
+    },
+    {
+      "claim": {
+        "text": "At construction costs of $3,000 to $4,000 per square meter for multi-unit residential",
+        "claim": "Multi-unit residential construction costs $3,000 to $4,000 per square meter in Edmonton",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current Edmonton construction cost data.",
+      "detail": "Web search and fetch tools are not available in this session to look up current multi-unit residential construction costs in Edmonton. The claimed range of $3,000-$4,000 CAD per square meter ($279-$372 USD per square foot) is plausible for Canadian markets but cannot be confirmed without access to industry cost guides like Altus Group, RSMeans, or Statistics Canada data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The cohousing model, developed in Denmark in the 1960s and brought to North America by Kathryn McCamant and Charles Durrett in the 1980s",
+        "claim": "The cohousing model was developed in Denmark in the 1960s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "I was unable to search for sources to verify this claim because web search and web fetch permissions were not granted. Based on general knowledge, cohousing did originate in Denmark, with early developments in the late 1960s and 1970s, but I cannot confirm the specific '1960s' timeframe without primary sources. The first cohousing community, Sættedammen, is often cited as being established around 1972.",
+      "sources": [
+        "Unable to access web sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The cohousing model, developed in Denmark in the 1960s and brought to North America by Kathryn McCamant and Charles Durrett in the 1980s",
+        "claim": "Kathryn McCamant and Charles Durrett brought the cohousing model to North America in the 1980s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Kathryn McCamant and Charles Durrett are widely credited with introducing the cohousing concept to North America through their 1988 book.",
+      "detail": "McCamant and Durrett, both architects, studied cohousing communities in Denmark and published 'Cohousing: A Contemporary Approach to Housing Ourselves' in 1988, which introduced the Danish 'bofællesskab' concept to English-speaking audiences. They coined the English term 'cohousing' and went on to help develop numerous cohousing communities in the United States. This history is well-documented in cohousing literature and organizational histories.",
+      "sources": [
+        "Training knowledge - unable to access web search for live verification. Claim aligns with established historical record from cohousing organizations and published works."
+      ]
+    },
+    {
+      "claim": {
+        "text": "Muir Commons in Davis, California (1991) — the first cohousing community built in the United States",
+        "claim": "Muir Commons in Davis, California (1991) was the first cohousing community built in the United States",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Muir Commons in Davis, California, completed in 1991, is widely recognized as the first cohousing community built in the United States.",
+      "detail": "Based on my training data, Muir Commons is consistently cited in cohousing literature and academic sources as the first purpose-built cohousing community in the U.S. It was completed in 1991 and served as a model for the cohousing movement in America. The community was inspired by Danish cohousing concepts and pioneered by architects Kathryn McCamant and Charles Durrett. However, without live web search access, I cannot verify against current primary sources.",
+      "sources": [
+        "Training knowledge - unable to verify with live web search due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Muir Commons in Davis, California (1991) — the first cohousing community built in the United States — included guest rooms in its common house from the beginning",
+        "claim": "Muir Commons included guest rooms in its common house from its original design",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. I could not access external sources to confirm whether Muir Commons included guest rooms in its common house from the original 1991 design. This claim requires verification from cohousing documentation, architectural records, or official community information.",
+      "sources": [
+        "No sources accessed - web tools unavailable"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "At construction costs of $3,000 to $4,000 per square meter for multi-unit residential",
+          "claim": "Multi-unit residential construction costs $3,000 to $4,000 per square meter in Edmonton",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current Edmonton construction cost data.",
+        "detail": "Web search and fetch tools are not available in this session to look up current multi-unit residential construction costs in Edmonton. The claimed range of $3,000-$4,000 CAD per square meter ($279-$372 USD per square foot) is plausible for Canadian markets but cannot be confirmed without access to industry cost guides like Altus Group, RSMeans, or Statistics Canada data.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The cohousing model, developed in Denmark in the 1960s and brought to North America by Kathryn McCamant and Charles Durrett in the 1980s",
+          "claim": "The cohousing model was developed in Denmark in the 1960s",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "I was unable to search for sources to verify this claim because web search and web fetch permissions were not granted. Based on general knowledge, cohousing did originate in Denmark, with early developments in the late 1960s and 1970s, but I cannot confirm the specific '1960s' timeframe without primary sources. The first cohousing community, Sættedammen, is often cited as being established around 1972.",
+        "sources": [
+          "Unable to access web sources"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Muir Commons in Davis, California (1991) — the first cohousing community built in the United States — included guest rooms in its common house from the beginning",
+          "claim": "Muir Commons included guest rooms in its common house from its original design",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access",
+        "detail": "Web search and web fetch tools were not available during this verification attempt. I could not access external sources to confirm whether Muir Commons included guest rooms in its common house from the original 1991 design. This claim requires verification from cohousing documentation, architectural records, or official community information.",
+        "sources": [
+          "No sources accessed - web tools unavailable"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

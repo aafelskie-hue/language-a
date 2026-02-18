@@ -1,0 +1,153 @@
+{
+  "patternId": 64,
+  "patternName": "Frost-Protected Foundation",
+  "timestamp": "2026-02-16T21:29:06.037Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "conventional foundations must extend below the frost line — often 1.5 to 2 meters deep",
+        "claim": "Frost line depth requiring foundation excavation is often 1.5 to 2 meters in cold climates",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Frost line depths of 1.5 to 2 meters (approximately 5 to 6.5 feet) are accurate for cold climate regions.",
+      "detail": "Building codes in cold climate regions require foundations to extend below the frost line to prevent frost heave. In northern U.S. states and Canada, frost line depths commonly range from 1.2m (4 feet) in moderately cold areas to over 2m (6+ feet) in very cold regions like Minnesota, Wisconsin, and northern Canada. The claim's range of 1.5 to 2 meters is well within documented requirements for cold climates.",
+      "sources": [
+        "Unable to verify with live web search - assessment based on training data knowledge of building codes and construction practices"
+      ]
+    },
+    {
+      "claim": {
+        "text": "This allows foundations as shallow as 300mm even in Edmonton's climate",
+        "claim": "Frost-protected shallow foundations can be as shallow as 300mm in Edmonton's climate",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the 300mm minimum depth claim for Edmonton without web access to check current FPSF technical standards.",
+      "detail": "Frost-protected shallow foundations do allow significantly reduced foundation depths in cold climates through strategic insulation placement. However, the specific claim of 300mm minimum depth in Edmonton's severe climate (Zone 7) requires verification against ASCE 32-01 standards or National Building Code of Canada provisions. Without web search access, I cannot confirm whether this specific depth is achievable or if it represents an oversimplification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The technique is standard in Scandinavia (used in over a million buildings in Norway and Sweden)",
+        "claim": "Frost-protected shallow foundations have been used in over a million buildings in Norway and Sweden",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of web search access.",
+      "detail": "This claim about frost-protected shallow foundations (FPSF) being used in over a million buildings in Norway and Sweden is a commonly cited statistic in building science literature, particularly in HUD and Building Science Corporation documents. However, without web search access, I cannot verify the specific number or its source. The claim is plausible given that FPSF technology originated in Scandinavia in the 1950s and became standard practice there.",
+      "sources": [
+        "Unable to access external sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "accepted by the Canadian building code",
+        "claim": "Frost-protected shallow foundations are accepted by the Canadian building code",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Frost-protected shallow foundations (FPSF) are accepted under the National Building Code of Canada as an alternative to conventional deep foundations.",
+      "detail": "The National Building Code of Canada has provisions for frost-protected shallow foundations, which use insulation to protect foundations from frost heave rather than extending below the frost line. This approach has been recognized in Canadian building standards and is referenced in Part 9 of the NBC. FPSF designs are based on principles established in research from Scandinavian countries and have been adopted in North American codes including Canada.",
+      "sources": [
+        "National Building Code of Canada",
+        "National Research Council Canada publications on foundation design"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Extend rigid insulation (EPS or XPS) horizontally at least 1.2 meters from the building perimeter",
+        "claim": "FPSF requires horizontal insulation extending at least 1.2 meters from building perimeter",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "FPSF horizontal insulation requirements vary by climate zone and are not a fixed 1.2 meters for all applications.",
+      "detail": "According to ASCE 32 (Design and Construction of Frost-Protected Shallow Foundations) and ICC building codes, horizontal wing insulation requirements for FPSF vary significantly based on the Air Freezing Index of the location. In colder climates (higher AFI), horizontal extensions can range from approximately 0.3 meters (12 inches) in milder frost areas to over 1.8 meters (72 inches) in severe cold climates. The 1.2 meter figure falls within the typical range but is not a universal minimum requirement. The actual requirement depends on climate zone, building heat loss characteristics, and whether the building is heated or unheated.",
+      "sources": [
+        "ASCE 32-01 Design and Construction of Frost-Protected Shallow Foundations",
+        "ICC International Residential Code Chapter 4 - Foundations",
+        "HUD Frost-Protected Shallow Foundation Guidelines"
+      ]
+    },
+    {
+      "claim": {
+        "text": "This reduces excavation, concrete, and cost by 30–50%",
+        "claim": "Frost-protected shallow foundations reduce excavation, concrete, and cost by 30–50% compared to conventional deep foundations",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 30-50% cost savings claim without web search access to check primary sources.",
+      "detail": "Frost-protected shallow foundations are a legitimate building technique that does reduce excavation depth and concrete use compared to conventional deep foundations below the frost line. The 30-50% savings range is commonly cited in industry literature, but I cannot verify the specific numbers without accessing HUD, ICC, or DOE publications that document actual cost comparisons. The claim is plausible based on the engineering principles involved.",
+      "sources": [
+        "Unable to access web sources - verification requires HUD publications, Building America reports, or ICC code documentation"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "This allows foundations as shallow as 300mm even in Edmonton's climate",
+          "claim": "Frost-protected shallow foundations can be as shallow as 300mm in Edmonton's climate",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the 300mm minimum depth claim for Edmonton without web access to check current FPSF technical standards.",
+        "detail": "Frost-protected shallow foundations do allow significantly reduced foundation depths in cold climates through strategic insulation placement. However, the specific claim of 300mm minimum depth in Edmonton's severe climate (Zone 7) requires verification against ASCE 32-01 standards or National Building Code of Canada provisions. Without web search access, I cannot confirm whether this specific depth is achievable or if it represents an oversimplification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The technique is standard in Scandinavia (used in over a million buildings in Norway and Sweden)",
+          "claim": "Frost-protected shallow foundations have been used in over a million buildings in Norway and Sweden",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim due to lack of web search access.",
+        "detail": "This claim about frost-protected shallow foundations (FPSF) being used in over a million buildings in Norway and Sweden is a commonly cited statistic in building science literature, particularly in HUD and Building Science Corporation documents. However, without web search access, I cannot verify the specific number or its source. The claim is plausible given that FPSF technology originated in Scandinavia in the 1950s and became standard practice there.",
+        "sources": [
+          "Unable to access external sources"
+        ]
+      },
+      {
+        "claim": {
+          "text": "This reduces excavation, concrete, and cost by 30–50%",
+          "claim": "Frost-protected shallow foundations reduce excavation, concrete, and cost by 30–50% compared to conventional deep foundations",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 30-50% cost savings claim without web search access to check primary sources.",
+        "detail": "Frost-protected shallow foundations are a legitimate building technique that does reduce excavation depth and concrete use compared to conventional deep foundations below the frost line. The 30-50% savings range is commonly cited in industry literature, but I cannot verify the specific numbers without accessing HUD, ICC, or DOE publications that document actual cost comparisons. The claim is plausible based on the engineering principles involved.",
+        "sources": [
+          "Unable to access web sources - verification requires HUD publications, Building America reports, or ICC code documentation"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

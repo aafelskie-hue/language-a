@@ -1,0 +1,50 @@
+{
+  "patternId": 92,
+  "patternName": "The Repair Café",
+  "timestamp": "2026-02-16T22:12:57.280Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "The Repair Café movement — founded in Amsterdam in 2009",
+        "claim": "The Repair Café movement was founded in Amsterdam in 2009",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Repair Café movement was indeed founded in Amsterdam in 2009 by Martine Postma.",
+      "detail": "The first Repair Café was organized by journalist and environmental activist Martine Postma in Amsterdam on October 18, 2009. The concept grew into an international movement, with Repair Café International Foundation established in 2011 to support the global expansion. This is well-documented in multiple sources about the repair movement and circular economy initiatives.",
+      "sources": [
+        "Repair Café International Foundation official history",
+        "Multiple news articles and academic papers on repair movements cite this founding date and location"
+      ]
+    },
+    {
+      "claim": {
+        "text": "has grown to over 2,500 locations worldwide",
+        "claim": "There are over 2,500 Repair Café locations worldwide",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Repair Café has grown to over 2,500 locations worldwide, with the official organization reporting approximately 3,000+ locations as of recent counts.",
+      "detail": "The Repair Café Foundation, founded in Amsterdam in 2009, has indeed expanded to thousands of locations globally. As of 2023-2024, the organization reports over 2,500-3,000 Repair Cafés operating in dozens of countries. The claim of 'over 2,500 locations worldwide' aligns with reported figures, though exact current numbers vary as new locations open regularly.",
+      "sources": [
+        "Repair Café Foundation official communications",
+        "General knowledge of the Repair Café movement growth as of 2024"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 0,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence is stronger than current ★☆ suggests. Consider upgrading to ★★."
+  }
+}

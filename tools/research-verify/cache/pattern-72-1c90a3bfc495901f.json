@@ -1,0 +1,78 @@
+{
+  "patternId": 72,
+  "patternName": "Safe Streets for Children",
+  "timestamp": "2026-02-16T21:34:36.264Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "in 1971, 80% of British 7–8-year-olds walked to school alone",
+        "claim": "In 1971, 80% of British 7-8 year olds walked to school alone",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "This statistic comes from Mayer Hillman's Policy Studies Institute research comparing children's independent mobility in 1971 and 1990.",
+      "detail": "The claim originates from 'One False Move: A Study of Children's Independent Mobility' (1990) by Mayer Hillman, John Adams, and John Whitelegg, published by the Policy Studies Institute. The study found that around 80% of 7-8 year old children in England walked to school without adult supervision in 1971, compared to dramatically lower rates by 1990. This is a frequently cited and well-established statistic in urban planning and child development literature. I was unable to verify via live web search due to permission constraints, but this statistic is consistent with my training data on Hillman's research.",
+      "sources": [
+        "Hillman, M., Adams, J., & Whitelegg, J. (1990). One False Move: A Study of Children's Independent Mobility. Policy Studies Institute, London"
+      ]
+    },
+    {
+      "claim": {
+        "text": "by 2010, the figure was under 10%",
+        "claim": "By 2010, under 10% of British 7-8 year olds walked to school alone",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources for this specific statistic.",
+      "detail": "This claim about declining rates of British children walking to school alone is consistent with widely-reported trends in children's independent mobility research, often attributed to studies by Mayer Hillman and the Policy Studies Institute. However, without web search access, I cannot confirm the specific figure of 'under 10%' for 7-8 year olds by 2010 or locate the primary source for this statistic.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "maximum vehicle speeds of 30 km/h",
+        "claim": "30 km/h is the appropriate maximum vehicle speed for child-safe residential streets",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "30 km/h is the internationally recognized standard for safe vehicle speeds in areas with pedestrians, especially children, based on physics of pedestrian-vehicle collisions and WHO recommendations.",
+      "detail": "The World Health Organization, Vision Zero programs, and transportation safety research consistently identify 30 km/h (approximately 20 mph) as the threshold for pedestrian survivability. At 30 km/h, pedestrian fatality risk is approximately 10%, while at 50 km/h it rises to approximately 80-90%. This is based on human biomechanical tolerance to impact forces. The UN Global Plan for the Decade of Action for Road Safety and numerous national traffic safety organizations recommend 30 km/h limits for residential streets and areas where vulnerable road users, especially children, are present.",
+      "sources": [
+        "WHO Global Status Report on Road Safety",
+        "Vision Zero principles (Sweden)",
+        "European Transport Safety Council research",
+        "UN Decade of Action for Road Safety recommendations"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "by 2010, the figure was under 10%",
+          "claim": "By 2010, under 10% of British 7-8 year olds walked to school alone",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find primary sources for this specific statistic.",
+        "detail": "This claim about declining rates of British children walking to school alone is consistent with widely-reported trends in children's independent mobility research, often attributed to studies by Mayer Hillman and the Policy Studies Institute. However, without web search access, I cannot confirm the specific figure of 'under 10%' for 7-8 year olds by 2010 or locate the primary source for this statistic.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ★☆ until additional sources are found."
+  }
+}

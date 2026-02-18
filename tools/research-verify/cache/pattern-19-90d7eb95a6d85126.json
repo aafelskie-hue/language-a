@@ -1,0 +1,120 @@
+{
+  "patternId": 19,
+  "patternName": "The Rain Garden",
+  "timestamp": "2026-02-16T20:35:49.398Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Philadelphia's Green City, Clean Waters program has installed over 2,800 \"greened\" acres of rain gardens, bioswales, and permeable surfaces",
+        "claim": "Philadelphia's Green City, Clean Waters program has installed over 2,800 greened acres",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify the specific 2,800 greened acres figure without web search access.",
+      "detail": "The Green City, Clean Waters program is a verified real program by the Philadelphia Water Department focused on green stormwater infrastructure. However, I cannot access current sources to verify the specific claim of 'over 2,800 greened acres' - this figure may be accurate, outdated, or inflated. Web search access is required to check against official PWD reports.",
+      "sources": [
+        "Unable to search - verification tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "keeping billions of gallons of runoff out of the combined sewer system",
+        "claim": "Philadelphia's Green City, Clean Waters program has kept billions of gallons of runoff out of the combined sewer system",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources.",
+      "detail": "I was unable to search for or fetch web content to verify this claim about Philadelphia's Green City, Clean Waters program. The claim references a specific program and a 'billions of gallons' statistic that would require accessing Philadelphia Water Department official sources or program reports. Without web access, I cannot confirm or deny the accuracy of this statistic.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Copenhagen's Cloudburst Management Plan uses rain gardens, permeable surfaces, and designed depressions that double as public spaces",
+        "claim": "Copenhagen has a Cloudburst Management Plan that uses rain gardens, permeable surfaces, and designed depressions as public spaces",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify via web search due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are not currently enabled, preventing active verification of this claim. From training knowledge, Copenhagen did adopt a Cloudburst Management Plan following severe 2011 flooding, and the plan does include green infrastructure elements. However, without live web access to primary sources, I cannot verify the specific components (rain gardens, permeable surfaces, designed depressions as public spaces) as stated.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Size the garden to absorb a two-year storm event (roughly 25mm of rain)",
+        "claim": "A two-year storm event corresponds to roughly 25mm of rain",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "A two-year storm event rainfall depth varies significantly by geographic location and cannot be stated as a universal value of 25mm.",
+      "detail": "Two-year storm event rainfall depths are location-specific and depend on local precipitation patterns. In some regions (like parts of the UK or Northern Europe), 25mm may be reasonable for a 2-year, 24-hour storm. However, in other regions (like the US Southeast), a 2-year storm can exceed 75-100mm. The claim presents a location-specific value as if it were universal. The US EPA and NOAA provide precipitation frequency atlases (like NOAA Atlas 14) that show significant regional variation. Without specifying a location, 25mm is only accurate for certain temperate climates with moderate rainfall.",
+      "sources": [
+        "Unable to access web sources - assessment based on stormwater engineering principles and knowledge of NOAA Atlas 14 precipitation data"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Philadelphia's Green City, Clean Waters program has installed over 2,800 \"greened\" acres of rain gardens, bioswales, and permeable surfaces",
+          "claim": "Philadelphia's Green City, Clean Waters program has installed over 2,800 greened acres",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify the specific 2,800 greened acres figure without web search access.",
+        "detail": "The Green City, Clean Waters program is a verified real program by the Philadelphia Water Department focused on green stormwater infrastructure. However, I cannot access current sources to verify the specific claim of 'over 2,800 greened acres' - this figure may be accurate, outdated, or inflated. Web search access is required to check against official PWD reports.",
+        "sources": [
+          "Unable to search - verification tools unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "keeping billions of gallons of runoff out of the combined sewer system",
+          "claim": "Philadelphia's Green City, Clean Waters program has kept billions of gallons of runoff out of the combined sewer system",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find primary sources.",
+        "detail": "I was unable to search for or fetch web content to verify this claim about Philadelphia's Green City, Clean Waters program. The claim references a specific program and a 'billions of gallons' statistic that would require accessing Philadelphia Water Department official sources or program reports. Without web access, I cannot confirm or deny the accuracy of this statistic.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Copenhagen's Cloudburst Management Plan uses rain gardens, permeable surfaces, and designed depressions that double as public spaces",
+          "claim": "Copenhagen has a Cloudburst Management Plan that uses rain gardens, permeable surfaces, and designed depressions as public spaces",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify via web search due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are not currently enabled, preventing active verification of this claim. From training knowledge, Copenhagen did adopt a Cloudburst Management Plan following severe 2011 flooding, and the plan does include green infrastructure elements. However, without live web access to primary sources, I cannot verify the specific components (rain gardens, permeable surfaces, designed depressions as public spaces) as stated.",
+        "sources": [
+          "Unable to access web sources - verification incomplete"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

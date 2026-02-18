@@ -1,0 +1,445 @@
+{
+  "patternId": 129,
+  "patternName": "The Super-Insulated Envelope",
+  "timestamp": "2026-02-17T00:11:04.883Z",
+  "model": "claude-code-cli",
+  "totalClaims": 19,
+  "results": [
+    {
+      "claim": {
+        "text": "in a climate with 5,200 heating degree days",
+        "claim": "Edmonton has approximately 5,200 heating degree days",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.6,
+      "summary": "Unable to perform web search to verify current official figures, but the claim aligns with general knowledge of Edmonton's climate.",
+      "detail": "Web search and fetch permissions were not granted, preventing verification against official sources like Environment Canada or Canadian climate normals data. Based on training data, Edmonton's heating degree days are typically in the 5,000-5,500 range, making 5,200 a plausible approximation. However, official verification would require accessing current climate data.",
+      "sources": [
+        "Unable to access web sources - permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Between November and March, the city experiences roughly 140 days where the mean temperature stays below freezing",
+        "claim": "Edmonton experiences approximately 140 days with mean temperature below freezing between November and March",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification - web access tools are currently unavailable.",
+      "detail": "This claim about Edmonton experiencing approximately 140 days with mean temperature below freezing between November and March could not be verified because web search and fetch permissions were not granted. Edmonton is known to have a cold continental climate with long, cold winters, making this claim plausible, but the specific number cannot be confirmed without access to climate data sources like Environment Canada or weather databases.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The 2020 Alberta Building Code requires R-22 for walls",
+        "claim": "2020 Alberta Building Code requires R-22 for walls",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were not available to conduct verification. Cannot determine whether the 2020 Alberta Building Code requires R-22 for walls without access to official Alberta government sources or building code documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Passive House standard, developed in Darmstadt and tested across 65,000 buildings worldwide",
+        "claim": "Passive House standard was developed in Darmstadt",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though training knowledge suggests the claim is accurate.",
+      "detail": "Web search permissions were not granted, preventing verification against current authoritative sources. Based on training data (which should be verified), the Passive House standard was developed by Dr. Wolfgang Feist at the Passivhaus Institut in Darmstadt, Germany, with the first building completed in 1991. This claim appears consistent with known history but requires web verification for a confident verdict.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Passive House standard, developed in Darmstadt and tested across 65,000 buildings worldwide",
+        "claim": "Passive House standard has been tested across 65,000 buildings worldwide",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "Web search and web fetch tools were not available to verify the claim about 65,000 Passive House buildings worldwide. The Passive House Institute in Darmstadt, Germany does maintain statistics on certified buildings, but I cannot access current data to confirm or dispute the specific 65,000 figure.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Passive House standard...specifies a different threshold: a maximum heating demand of 15 kWh/m² per year",
+        "claim": "Passive House standard specifies maximum heating demand of 15 kWh/m² per year",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Passive House standard does specify a maximum heating demand of 15 kWh/m² per year as one of its core certification requirements.",
+      "detail": "The Passivhaus standard, developed by the Passivhaus Institut in Darmstadt, Germany, has five key criteria, one of which is that the space heating energy demand must not exceed 15 kWh per square meter of treated floor area per year. This is a foundational and widely-documented requirement of the standard. The same limit applies to cooling demand in applicable climates.",
+      "sources": [
+        "Unable to verify with live web search - based on training knowledge of Passivhaus Institut certification criteria"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the BuildABILITY Group's 2017 study of high-performance housing found that walls require R-40 to R-60, roofs R-60 to R-80",
+        "claim": "BuildABILITY Group published a 2017 study of high-performance housing recommending R-40 to R-60 for walls and R-60 to R-80 for roofs in Edmonton's climate",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are required to verify this citation claim, but permissions were not granted. I cannot confirm or deny whether BuildABILITY Group published a 2017 study with these specific R-value recommendations for Edmonton's climate without access to search the web for primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The 2012 Mill Creek NetZero Home, built by Habitat Studio in Edmonton, used a double-stud wall with R-56 insulation",
+        "claim": "Habitat Studio built the Mill Creek NetZero Home in Edmonton in 2012 with R-56 double-stud wall insulation",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools are not currently available to verify this claim about the Mill Creek NetZero Home built by Habitat Studio in Edmonton. The claim includes specific details (2012 date, R-56 rating, double-stud wall construction) that would require external verification against primary sources such as Habitat Studio's website, building documentation, or industry publications.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "achieved a measured heating demand of 12.8 kWh/m² annually — 85% below code-built homes in the same neighborhood",
+        "claim": "Mill Creek NetZero Home achieved measured heating demand of 12.8 kWh/m² annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "The Mill Creek NetZero Home is a real project in Edmonton, Alberta, but I could not search for the specific measured heating demand figure of 12.8 kWh/m² as web search tools were not available. This claim requires verification against primary sources such as Natural Resources Canada reports or peer-reviewed building performance studies.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "achieved a measured heating demand of 12.8 kWh/m² annually — 85% below code-built homes in the same neighborhood",
+        "claim": "Mill Creek NetZero Home heating demand was 85% below code-built homes in the same neighborhood",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools are not available in the current session, preventing verification of the Mill Creek NetZero Home heating demand claim. The claim references specific metrics (12.8 kWh/m² annually, 85% reduction) that would require access to Natural Resources Canada documentation or academic studies on the Edmonton Mill Creek NetZero demonstration project to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Passivhaus Institut's research shows that in heating-dominated climates (above 4,000 HDD), the optimal wall R-value falls between R-40 and R-60",
+        "claim": "Passivhaus Institut research indicates optimal wall R-value of R-40 to R-60 for climates above 4,000 HDD",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about Passivhaus Institut research on optimal wall R-values (R-40 to R-60) for climates above 4,000 HDD cannot be verified or refuted without access to search the Passivhaus Institut's publications, PHIUS resources, or building science databases.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A code-minimum house in Edmonton might require 120 GJ of natural gas annually; a super-insulated envelope reduces this to 15-25 GJ",
+        "claim": "Code-minimum house in Edmonton requires approximately 120 GJ of natural gas annually for heating",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 120 GJ figure for Edmonton code-minimum houses due to lack of web search access.",
+      "detail": "The claim involves a specific technical statistic about Edmonton residential heating requirements. While the general magnitude appears plausible for a cold climate zone like Edmonton (Climate Zone 7A), the specific 120 GJ figure for code-minimum construction cannot be confirmed without access to Natural Resources Canada data, Edmonton building code documentation, or energy modeling studies. Average Canadian household natural gas consumption is roughly 90-110 GJ annually, but code-minimum new construction versus existing housing stock would differ.",
+      "sources": [
+        "Unable to search - web search not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A code-minimum house in Edmonton might require 120 GJ of natural gas annually; a super-insulated envelope reduces this to 15-25 GJ",
+        "claim": "Super-insulated envelope reduces Edmonton home heating load to 15-25 GJ annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search access to find sources on Edmonton heating energy consumption.",
+      "detail": "This claim involves specific technical data about Edmonton residential heating loads (120 GJ baseline, 15-25 GJ for super-insulated). The figures are plausible given Edmonton's cold climate (Zone 7A) and known passive house performance metrics, but without web search I cannot confirm the specific numbers against Canadian energy data sources like NRCan or CMHC studies.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The 2019 Building Science Corporation study of double-stud walls in cold climates found that assemblies with exterior insulation (at least R-10 outboard of the sheathing) kept the sheathing above the dew point even at -35°C",
+        "claim": "Building Science Corporation published a 2019 study on double-stud walls in cold climates",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for or access Building Science Corporation publications to verify this 2019 study claim.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing me from accessing Building Science Corporation's website or searching for their publications on double-stud walls in cold climates. Building Science Corporation (BSC) is a real and reputable organization that publishes building science research, but I cannot confirm whether this specific 2019 study exists or whether it contains the claimed findings about exterior insulation keeping sheathing above dew point at -35°C.",
+      "sources": [
+        "Unable to access sources - web tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The 2019 Building Science Corporation study of double-stud walls in cold climates found that assemblies with exterior insulation (at least R-10 outboard of the sheathing) kept the sheathing above the dew point even at -35°C",
+        "claim": "Building Science Corporation study found R-10 exterior insulation keeps sheathing above dew point at -35°C",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for this claim due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are required to verify this technical claim about a specific Building Science Corporation study. Building Science Corporation does publish research on double-stud walls and exterior insulation in cold climates, but without search access, I cannot confirm the existence of a 2019 study with these specific findings about R-10 insulation and -35°C dew point performance.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "during the February 2021 polar vortex, when temperatures hit -40°C for three consecutive days",
+        "claim": "February 2021 polar vortex brought -40°C temperatures to Edmonton for three consecutive days",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Edmonton did experience extreme cold in February 2021, but the specific claim of -40°C for three consecutive days may have slight inaccuracies in the exact temperatures or duration.",
+      "detail": "February 2021 saw a significant polar vortex event affecting much of North America, including Alberta. Edmonton did experience extremely cold temperatures during this period, with temperatures dropping to around -40°C with wind chill. However, without access to official weather records, I cannot confirm the exact claim of -40°C actual air temperature (not wind chill) for exactly three consecutive days. Historical records from Environment Canada would be needed to verify the precise temperatures and duration.",
+      "sources": [
+        "Unable to access web sources - verification requires Environment Canada historical weather data or timeanddate.com records"
+      ]
+    },
+    {
+      "claim": {
+        "text": "super-insulated homes in Edmonton maintained 18°C interiors for over 48 hours with no active heating",
+        "claim": "Super-insulated homes in Edmonton maintained 18°C interiors for over 48 hours without active heating during February 2021 polar vortex",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence to verify or refute this specific claim about Edmonton homes during the February 2021 polar vortex.",
+      "detail": "Web search was not available to verify this claim. The claim is specific and testable - it references a real event (the February 2021 polar vortex that affected western Canada and Texas) and makes precise assertions about performance (18°C for 48+ hours without heating). Without search access, I cannot determine if passive house or super-insulated homes in Edmonton were documented maintaining these conditions during this event.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "At -30°C, an R-22 wall with an interior setpoint of 21°C produces a temperature gradient of 2.3°C per R-value",
+        "claim": "R-22 wall produces temperature gradient of 2.3°C per R-value with -30°C exterior and 21°C interior",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The claim is mathematically correct based on standard thermal physics calculations.",
+      "detail": "The temperature gradient per R-value is calculated as total temperature difference divided by total R-value. With a 51°C temperature difference (21°C - (-30°C)) across an R-22 wall, the gradient is 51/22 = 2.318°C per R-value, which rounds correctly to 2.3°C. This follows directly from the definition of R-value as thermal resistance and Fourier's law of heat conduction.",
+      "sources": [
+        "Mathematical calculation based on thermal physics principles and R-value definition"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The interior surface of that wall hovers around 15°C",
+        "claim": "Interior surface of R-22 wall measures approximately 15°C when exterior is -30°C and interior setpoint is 21°C",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "The calculation for an R-22 wall with ideal conditions yields ~19-20°C interior surface temperature, not 15°C, but thermal bridging effects could reduce this to 15°C in some areas.",
+      "detail": "Using standard heat transfer calculations for R-22 walls (3.87 m²K/W) with interior film resistance of R-0.68, the interior surface temperature would be approximately 19-20°C under the stated conditions. The 15°C figure may represent surface temperatures at thermal bridges (studs) where effective R-value is lower, or may assume different film coefficients. The claim is physically plausible for a worst-case scenario but overstates typical surface temperature depression.",
+      "sources": [
+        "ASHRAE Fundamentals handbook thermal transmission calculations",
+        "Standard heat transfer physics calculations"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 2,
+    "unverified": 15,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "in a climate with 5,200 heating degree days",
+          "claim": "Edmonton has approximately 5,200 heating degree days",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.6,
+        "summary": "Unable to perform web search to verify current official figures, but the claim aligns with general knowledge of Edmonton's climate.",
+        "detail": "Web search and fetch permissions were not granted, preventing verification against official sources like Environment Canada or Canadian climate normals data. Based on training data, Edmonton's heating degree days are typically in the 5,000-5,500 range, making 5,200 a plausible approximation. However, official verification would require accessing current climate data.",
+        "sources": [
+          "Unable to access web sources - permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The 2020 Alberta Building Code requires R-22 for walls",
+          "claim": "2020 Alberta Building Code requires R-22 for walls",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were not available to conduct verification. Cannot determine whether the 2020 Alberta Building Code requires R-22 for walls without access to official Alberta government sources or building code documentation.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "the BuildABILITY Group's 2017 study of high-performance housing found that walls require R-40 to R-60, roofs R-60 to R-80",
+          "claim": "BuildABILITY Group published a 2017 study of high-performance housing recommending R-40 to R-60 for walls and R-60 to R-80 for roofs in Edmonton's climate",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are required to verify this citation claim, but permissions were not granted. I cannot confirm or deny whether BuildABILITY Group published a 2017 study with these specific R-value recommendations for Edmonton's climate without access to search the web for primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The 2012 Mill Creek NetZero Home, built by Habitat Studio in Edmonton, used a double-stud wall with R-56 insulation",
+          "claim": "Habitat Studio built the Mill Creek NetZero Home in Edmonton in 2012 with R-56 double-stud wall insulation",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools are not currently available to verify this claim about the Mill Creek NetZero Home built by Habitat Studio in Edmonton. The claim includes specific details (2012 date, R-56 rating, double-stud wall construction) that would require external verification against primary sources such as Habitat Studio's website, building documentation, or industry publications.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "achieved a measured heating demand of 12.8 kWh/m² annually — 85% below code-built homes in the same neighborhood",
+          "claim": "Mill Creek NetZero Home achieved measured heating demand of 12.8 kWh/m² annually",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "The Mill Creek NetZero Home is a real project in Edmonton, Alberta, but I could not search for the specific measured heating demand figure of 12.8 kWh/m² as web search tools were not available. This claim requires verification against primary sources such as Natural Resources Canada reports or peer-reviewed building performance studies.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "achieved a measured heating demand of 12.8 kWh/m² annually — 85% below code-built homes in the same neighborhood",
+          "claim": "Mill Creek NetZero Home heating demand was 85% below code-built homes in the same neighborhood",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools are not available in the current session, preventing verification of the Mill Creek NetZero Home heating demand claim. The claim references specific metrics (12.8 kWh/m² annually, 85% reduction) that would require access to Natural Resources Canada documentation or academic studies on the Edmonton Mill Creek NetZero demonstration project to verify.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Passivhaus Institut's research shows that in heating-dominated climates (above 4,000 HDD), the optimal wall R-value falls between R-40 and R-60",
+          "claim": "Passivhaus Institut research indicates optimal wall R-value of R-40 to R-60 for climates above 4,000 HDD",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about Passivhaus Institut research on optimal wall R-values (R-40 to R-60) for climates above 4,000 HDD cannot be verified or refuted without access to search the Passivhaus Institut's publications, PHIUS resources, or building science databases.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A code-minimum house in Edmonton might require 120 GJ of natural gas annually; a super-insulated envelope reduces this to 15-25 GJ",
+          "claim": "Code-minimum house in Edmonton requires approximately 120 GJ of natural gas annually for heating",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 120 GJ figure for Edmonton code-minimum houses due to lack of web search access.",
+        "detail": "The claim involves a specific technical statistic about Edmonton residential heating requirements. While the general magnitude appears plausible for a cold climate zone like Edmonton (Climate Zone 7A), the specific 120 GJ figure for code-minimum construction cannot be confirmed without access to Natural Resources Canada data, Edmonton building code documentation, or energy modeling studies. Average Canadian household natural gas consumption is roughly 90-110 GJ annually, but code-minimum new construction versus existing housing stock would differ.",
+        "sources": [
+          "Unable to search - web search not available"
+        ]
+      },
+      {
+        "claim": {
+          "text": "A code-minimum house in Edmonton might require 120 GJ of natural gas annually; a super-insulated envelope reduces this to 15-25 GJ",
+          "claim": "Super-insulated envelope reduces Edmonton home heating load to 15-25 GJ annually",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify due to lack of web search access to find sources on Edmonton heating energy consumption.",
+        "detail": "This claim involves specific technical data about Edmonton residential heating loads (120 GJ baseline, 15-25 GJ for super-insulated). The figures are plausible given Edmonton's cold climate (Zone 7A) and known passive house performance metrics, but without web search I cannot confirm the specific numbers against Canadian energy data sources like NRCan or CMHC studies.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The 2019 Building Science Corporation study of double-stud walls in cold climates found that assemblies with exterior insulation (at least R-10 outboard of the sheathing) kept the sheathing above the dew point even at -35°C",
+          "claim": "Building Science Corporation published a 2019 study on double-stud walls in cold climates",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for or access Building Science Corporation publications to verify this 2019 study claim.",
+        "detail": "Web search and web fetch tools are not available in this session, preventing me from accessing Building Science Corporation's website or searching for their publications on double-stud walls in cold climates. Building Science Corporation (BSC) is a real and reputable organization that publishes building science research, but I cannot confirm whether this specific 2019 study exists or whether it contains the claimed findings about exterior insulation keeping sheathing above dew point at -35°C.",
+        "sources": [
+          "Unable to access sources - web tools unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The 2019 Building Science Corporation study of double-stud walls in cold climates found that assemblies with exterior insulation (at least R-10 outboard of the sheathing) kept the sheathing above the dew point even at -35°C",
+          "claim": "Building Science Corporation study found R-10 exterior insulation keeps sheathing above dew point at -35°C",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for this claim due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are required to verify this technical claim about a specific Building Science Corporation study. Building Science Corporation does publish research on double-stud walls and exterior insulation in cold climates, but without search access, I cannot confirm the existence of a 2019 study with these specific findings about R-10 insulation and -35°C dew point performance.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "super-insulated homes in Edmonton maintained 18°C interiors for over 48 hours with no active heating",
+          "claim": "Super-insulated homes in Edmonton maintained 18°C interiors for over 48 hours without active heating during February 2021 polar vortex",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence to verify or refute this specific claim about Edmonton homes during the February 2021 polar vortex.",
+        "detail": "Web search was not available to verify this claim. The claim is specific and testable - it references a real event (the February 2021 polar vortex that affected western Canada and Texas) and makes precise assertions about performance (18°C for 48+ hours without heating). Without search access, I cannot determine if passive house or super-insulated homes in Edmonton were documented maintaining these conditions during this event.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

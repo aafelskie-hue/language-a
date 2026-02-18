@@ -1,0 +1,56 @@
+{
+  "programs": [
+    {
+      "name": "Safe Routes to School (SRTS)",
+      "location": "United States (federal program)",
+      "year": "2005 (SAFETEA-LU), expanded 2012",
+      "outcome": "Federal program providing funding for infrastructure improvements along school routes including sidewalks, crossings, and traffic calming. Reported increases in walking/biking to school in participating communities.",
+      "source": "Federal Highway Administration / saferoutesinfo.org - REQUIRES VERIFICATION of current statistics"
+    },
+    {
+      "name": "Walking School Bus programs",
+      "location": "Multiple countries (originated New Zealand/Australia, spread globally)",
+      "year": "1990s onward",
+      "outcome": "Adult-supervised walking groups along designated routes. Programs exist in UK, USA, Canada, and elsewhere.",
+      "source": "Various local governments - REQUIRES VERIFICATION of specific outcome data"
+    },
+    {
+      "name": "Woonerf / Living Streets",
+      "location": "Netherlands, spreading internationally",
+      "year": "1970s onward",
+      "outcome": "Street design prioritizing pedestrians with residential oversight, though not specifically school-focused",
+      "source": "Dutch urban planning literature - REQUIRES VERIFICATION"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to provide verified statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Jane Jacobs",
+      "title": "The Death and Life of Great American Cities",
+      "year": "1961",
+      "finding": "Foundational 'eyes on the street' concept - natural surveillance from buildings with windows and doors facing streets increases safety. Not specifically about schools but establishes theoretical basis."
+    },
+    {
+      "authors": "REQUIRES VERIFICATION",
+      "title": "Various SRTS evaluation studies exist",
+      "year": "2005-present",
+      "finding": "Multiple evaluations of Safe Routes to School programs exist but I cannot cite specific findings without search access"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Various SRTS communities in USA",
+      "description": "Infrastructure improvements along school routes including improved sidewalks, crossings, and route selection favoring residential areas",
+      "source": "REQUIRES VERIFICATION - specific examples need web search"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "WITHOUT WEB SEARCH ACCESS, I cannot verify specific statistics, program outcomes, or current studies. The conceptual foundation exists (Jane Jacobs' 'eyes on the street', Safe Routes to School programs, Walking School Bus initiatives), but I cannot provide properly sourced evidence with URLs and specific numbers. This pattern has strong theoretical grounding in urban design literature and real programs exist, but specific measurable evidence for 'visible routes with adult supervision from windows/doorsteps' as a designed feature needs verification. The Safe Routes to School program is real and federally funded in the US, but whether route selection criteria explicitly prioritize 'passing windows and doorsteps' versus general safety infrastructure would require research. RECOMMEND: Re-run this query when web search is available to find specific SRTS evaluation data, Walking School Bus outcome studies, and Crime Prevention Through Environmental Design (CPTED) research related to school routes."
+}

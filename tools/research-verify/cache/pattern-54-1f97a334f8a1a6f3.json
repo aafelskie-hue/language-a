@@ -1,0 +1,81 @@
+{
+  "patternId": 54,
+  "patternName": "Repair Culture",
+  "timestamp": "2026-02-16T21:18:52.192Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "The \"right to repair\" movement has made this visible in electronics",
+        "claim": "There is a movement called the 'right to repair' movement focused on electronics repairability",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.99,
+      "summary": "The right to repair movement is a well-established, widely documented movement focused on electronics repairability.",
+      "detail": "The right to repair movement is a globally recognized advocacy movement that has been active for over a decade, focusing on consumers' and independent repair shops' ability to repair electronic devices. Major organizations include iFixit, The Repair Association, and PIRG's Right to Repair campaign. The movement has resulted in legislation in multiple U.S. states (New York, California, Minnesota, Colorado) and EU regulations requiring manufacturers to provide repair information and spare parts for electronics.",
+      "sources": [
+        "iFixit.com - major right to repair advocacy organization",
+        "The Repair Association (repair.org)",
+        "FTC report on right to repair (2021)",
+        "Multiple state legislatures passing right to repair laws 2022-2024"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Traditional construction — timber frame, masonry, plaster — was designed to be repaired by its occupants",
+        "claim": "Traditional timber frame, masonry, and plaster construction was designed to be repairable by building occupants",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for sources to verify this historical claim about traditional construction repairability.",
+      "detail": "This claim aligns with general knowledge about pre-industrial construction practices, where materials like lime plaster, timber framing with wooden pegs, and lime mortar masonry were indeed more accessible for repair by non-specialists compared to modern materials like Portland cement or proprietary systems. However, without web search access, I cannot locate specific primary sources or historical documentation that explicitly states traditional construction was 'designed' with occupant repair in mind versus simply being more amenable to it by nature of simpler materials and techniques.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Modern construction — sealed systems, proprietary fasteners, glued assemblies — requires specialists and often makes repair more expensive than replacement",
+        "claim": "Modern construction with sealed systems, proprietary fasteners, and glued assemblies often makes repair more expensive than replacement",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "This is a well-documented phenomenon in right-to-repair discourse and consumer electronics/appliance repair economics.",
+      "detail": "This claim reflects widely acknowledged design trends documented by consumer advocacy groups like iFixit, EU right-to-repair legislation rationale, and repair industry economics. The claim is technically accurate: sealed batteries (smartphones, laptops), proprietary pentalobe screws (Apple), glued screens (tablets), and welded components (appliances) demonstrably increase repair complexity and cost. While I cannot provide specific URLs due to tool access limitations, this is established industry knowledge supported by iFixit repairability scores, FTC reports on repair restrictions, and EU/US right-to-repair legislative findings.",
+      "sources": [
+        "iFixit repairability assessments",
+        "FTC 'Nixing the Fix' report (2021)",
+        "EU Ecodesign Directive right-to-repair provisions",
+        "General industry knowledge about modern product design trends"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Traditional construction — timber frame, masonry, plaster — was designed to be repaired by its occupants",
+          "claim": "Traditional timber frame, masonry, and plaster construction was designed to be repairable by building occupants",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for sources to verify this historical claim about traditional construction repairability.",
+        "detail": "This claim aligns with general knowledge about pre-industrial construction practices, where materials like lime plaster, timber framing with wooden pegs, and lime mortar masonry were indeed more accessible for repair by non-specialists compared to modern materials like Portland cement or proprietary systems. However, without web search access, I cannot locate specific primary sources or historical documentation that explicitly states traditional construction was 'designed' with occupant repair in mind versus simply being more amenable to it by nature of simpler materials and techniques.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

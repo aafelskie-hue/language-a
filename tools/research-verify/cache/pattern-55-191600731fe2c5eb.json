@@ -1,0 +1,35 @@
+{
+  "patternId": 55,
+  "patternName": "The Owner-Builder",
+  "timestamp": "2026-02-16T21:19:16.299Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "most human dwellings throughout history were built by their inhabitants",
+        "claim": "Most human dwellings throughout history were built by their inhabitants",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Vernacular and self-built architecture dominated human construction throughout most of history until industrialization.",
+      "detail": "Until the 19th-20th century industrialization of construction, the vast majority of human dwellings were vernacular architecture built by inhabitants, their families, and communities using local materials and traditional techniques. Professional architects and specialized builders were historically rare and served primarily elites. Bernard Rudofsky's 'Architecture Without Architects' (1964) and subsequent scholarship in vernacular architecture studies document that owner-built and community-built housing was the norm across cultures and time periods.",
+      "sources": [
+        "Bernard Rudofsky, Architecture Without Architects (1964)",
+        "Paul Oliver, Encyclopedia of Vernacular Architecture of the World (1997)",
+        "General historical consensus in architectural history"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence is stronger than current ★☆ suggests. Consider upgrading to ★★."
+  }
+}

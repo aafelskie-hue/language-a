@@ -1,0 +1,246 @@
+{
+  "patternId": 115,
+  "patternName": "The Convertible Floor Plan",
+  "timestamp": "2026-02-16T23:05:54.709Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "The Dutch architect N.J. Habraken, in his 1961 book *Supports: An Alternative to Mass Housing*, argued that the failure of postwar housing was not aesthetic but structural",
+        "claim": "N.J. Habraken published 'Supports: An Alternative to Mass Housing' in 1961",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.9,
+      "summary": "Habraken's book was originally published in Dutch in 1961, but the English translation titled 'Supports: An Alternative to Mass Housing' was published in 1972.",
+      "detail": "N.J. Habraken published 'De dragers en de mensen: Het einde van de massawoningbouw' in Dutch in 1961. The English translation with the title 'Supports: An Alternative to Mass Housing' was published in 1972 (by Praeger in the US and Architectural Press in the UK). The claim correctly identifies the original year of publication but the English title corresponds to the 1972 translation, not the 1961 Dutch original.",
+      "sources": [
+        "Knowledge of architectural history and publication records"
+      ]
+    },
+    {
+      "claim": {
+        "text": "This idea was tested at scale in Japan beginning in the 1980s under the name 'Skeleton-Infill' (SI) housing",
+        "claim": "Skeleton-Infill (SI) housing began being implemented at scale in Japan in the 1980s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search tools are not available in this session. From training knowledge, Skeleton-Infill (SI) housing is associated with Japan and the Open Building movement, with roots in N.J. Habraken's work from the 1960s-70s. The KEP (Kodan Experimental Project) in Japan during the 1970s-80s is relevant, but I cannot confirm the specific '1980s at scale' claim without web access to primary sources.",
+      "sources": [
+        "Unable to search - web tools not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Osaka Gas experimental building NEXT21, completed in 1993, housed eighteen units within a concrete frame where every interior partition, kitchen, and bathroom was demountable",
+        "claim": "NEXT21 building was completed in 1993 by Osaka Gas with eighteen units",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were not available to perform verification. The claim about NEXT21 building being completed in 1993 by Osaka Gas with eighteen units could not be checked against online sources. Manual verification with access to architectural databases or the Osaka Gas company history would be needed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Over thirty years, units have been reconfigured multiple times — walls moved, kitchens relocated, two units merged, one unit split — without touching the structure",
+        "claim": "NEXT21 units have been reconfigured multiple times over 30 years including merging and splitting units",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search permissions were not granted, preventing verification of the specific claim about NEXT21 unit reconfigurations. NEXT21 is a known experimental housing project in Osaka (1993) designed around Open Building principles, but the specific details about multiple reconfigurations including unit merging and splitting over 30 years could not be confirmed through web sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Tokyo Metropolitan Housing Supply Corporation adopted SI principles for public housing in the 2000s",
+        "claim": "Tokyo Metropolitan Housing Supply Corporation adopted Skeleton-Infill principles for public housing in the 2000s",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources about Tokyo Metropolitan Housing Supply Corporation's adoption of SI principles.",
+      "detail": "Web search tools were unavailable to verify this claim. The Skeleton-Infill (SI) housing concept originated in Japan and was promoted by Japan's Open Building movement, making the claim plausible. However, without access to search for official Tokyo Metropolitan Housing Supply Corporation documents or academic sources on Japanese public housing policy, the specific claim about adoption in the 2000s cannot be confirmed or denied.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "residents reported higher satisfaction and longer tenures than in conventional stock, and the corporation documented lower lifecycle costs because interior renovations required no structural permits and no demolition waste",
+        "claim": "Tokyo Metropolitan Housing Supply Corporation documented higher resident satisfaction, longer tenures, and lower lifecycle costs for SI housing compared to conventional stock",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search permissions not being granted.",
+      "detail": "Web search tool was unavailable during this verification session. The claim references specific findings from the Tokyo Metropolitan Housing Supply Corporation regarding SI (Skeleton-Infill) housing performance metrics. This would require searching Japanese government housing authority records, academic papers on SI housing, or translated official reports to verify. The concept of SI housing in Japan is well-documented in housing literature, but the specific attribution to this corporation and these particular outcomes cannot be confirmed without search access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A conventional wall relocation in Edmonton — removing a 3-metre partition, reframing an opening, patching drywall, repainting — costs $3,000 to $8,000 and takes two to four weeks when scheduled through a contractor",
+        "claim": "Conventional wall relocation in Edmonton costs $3,000-$8,000 and takes 2-4 weeks through a contractor",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The cost range of $3,000-$8,000 CAD and timeline of 2-4 weeks for interior wall relocation through a contractor appears plausible based on general knowledge of renovation costs, but I could not access current Edmonton-specific pricing data or contractor quotes to confirm these specific figures.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A demountable partition system adds 10–15% to initial construction cost but reduces reconfiguration to a one-day task costing under $500 in labour",
+        "claim": "Demountable partition systems add 10-15% to initial construction cost and reduce reconfiguration to one day costing under $500 in labour",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of the claimed 10-15% cost premium and $500/one-day reconfiguration figures. These are specific industry statistics that would require access to construction cost databases, manufacturer specifications, or industry publications to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Over a fifty-year building life with three major household transitions, the demountable approach saves $10,000–$20,000 per unit and eliminates six to twelve weeks of construction disruption",
+        "claim": "Demountable approach saves $10,000-$20,000 per unit over 50 years with three major transitions and eliminates 6-12 weeks of disruption",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search was unavailable during this verification attempt. The claim makes specific assertions about lifecycle cost savings ($10,000-$20,000 per unit over 50 years) and construction disruption reduction (6-12 weeks) for demountable wall systems, but I could not search for primary sources such as lifecycle cost analyses, construction industry studies, or housing research to verify these figures.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 8,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "This idea was tested at scale in Japan beginning in the 1980s under the name 'Skeleton-Infill' (SI) housing",
+          "claim": "Skeleton-Infill (SI) housing began being implemented at scale in Japan in the 1980s",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "Web search tools are not available in this session. From training knowledge, Skeleton-Infill (SI) housing is associated with Japan and the Open Building movement, with roots in N.J. Habraken's work from the 1960s-70s. The KEP (Kodan Experimental Project) in Japan during the 1970s-80s is relevant, but I cannot confirm the specific '1980s at scale' claim without web access to primary sources.",
+        "sources": [
+          "Unable to search - web tools not available"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Osaka Gas experimental building NEXT21, completed in 1993, housed eighteen units within a concrete frame where every interior partition, kitchen, and bathroom was demountable",
+          "claim": "NEXT21 building was completed in 1993 by Osaka Gas with eighteen units",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were not available to perform verification. The claim about NEXT21 building being completed in 1993 by Osaka Gas with eighteen units could not be checked against online sources. Manual verification with access to architectural databases or the Osaka Gas company history would be needed.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Over thirty years, units have been reconfigured multiple times — walls moved, kitchens relocated, two units merged, one unit split — without touching the structure",
+          "claim": "NEXT21 units have been reconfigured multiple times over 30 years including merging and splitting units",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "Web search permissions were not granted, preventing verification of the specific claim about NEXT21 unit reconfigurations. NEXT21 is a known experimental housing project in Osaka (1993) designed around Open Building principles, but the specific details about multiple reconfigurations including unit merging and splitting over 30 years could not be confirmed through web sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Tokyo Metropolitan Housing Supply Corporation adopted SI principles for public housing in the 2000s",
+          "claim": "Tokyo Metropolitan Housing Supply Corporation adopted Skeleton-Infill principles for public housing in the 2000s",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find primary sources about Tokyo Metropolitan Housing Supply Corporation's adoption of SI principles.",
+        "detail": "Web search tools were unavailable to verify this claim. The Skeleton-Infill (SI) housing concept originated in Japan and was promoted by Japan's Open Building movement, making the claim plausible. However, without access to search for official Tokyo Metropolitan Housing Supply Corporation documents or academic sources on Japanese public housing policy, the specific claim about adoption in the 2000s cannot be confirmed or denied.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "residents reported higher satisfaction and longer tenures than in conventional stock, and the corporation documented lower lifecycle costs because interior renovations required no structural permits and no demolition waste",
+          "claim": "Tokyo Metropolitan Housing Supply Corporation documented higher resident satisfaction, longer tenures, and lower lifecycle costs for SI housing compared to conventional stock",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search permissions not being granted.",
+        "detail": "Web search tool was unavailable during this verification session. The claim references specific findings from the Tokyo Metropolitan Housing Supply Corporation regarding SI (Skeleton-Infill) housing performance metrics. This would require searching Japanese government housing authority records, academic papers on SI housing, or translated official reports to verify. The concept of SI housing in Japan is well-documented in housing literature, but the specific attribution to this corporation and these particular outcomes cannot be confirmed without search access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A conventional wall relocation in Edmonton — removing a 3-metre partition, reframing an opening, patching drywall, repainting — costs $3,000 to $8,000 and takes two to four weeks when scheduled through a contractor",
+          "claim": "Conventional wall relocation in Edmonton costs $3,000-$8,000 and takes 2-4 weeks through a contractor",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The cost range of $3,000-$8,000 CAD and timeline of 2-4 weeks for interior wall relocation through a contractor appears plausible based on general knowledge of renovation costs, but I could not access current Edmonton-specific pricing data or contractor quotes to confirm these specific figures.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A demountable partition system adds 10–15% to initial construction cost but reduces reconfiguration to a one-day task costing under $500 in labour",
+          "claim": "Demountable partition systems add 10-15% to initial construction cost and reduce reconfiguration to one day costing under $500 in labour",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification of the claimed 10-15% cost premium and $500/one-day reconfiguration figures. These are specific industry statistics that would require access to construction cost databases, manufacturer specifications, or industry publications to verify.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Over a fifty-year building life with three major household transitions, the demountable approach saves $10,000–$20,000 per unit and eliminates six to twelve weeks of construction disruption",
+          "claim": "Demountable approach saves $10,000-$20,000 per unit over 50 years with three major transitions and eliminates 6-12 weeks of disruption",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search was unavailable during this verification attempt. The claim makes specific assertions about lifecycle cost savings ($10,000-$20,000 per unit over 50 years) and construction disruption reduction (6-12 weeks) for demountable wall systems, but I could not search for primary sources such as lifecycle cost analyses, construction industry studies, or housing research to verify these figures.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

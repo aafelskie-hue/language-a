@@ -1,0 +1,55 @@
+{
+  "programs": [
+    {
+      "name": "ENERGY STAR for New Homes",
+      "location": "Canada (Natural Resources Canada)",
+      "year": "2012+",
+      "outcome": "Requires blower door testing; homes must achieve ≤2.5 ACH50 for certification",
+      "source": "Natural Resources Canada - ENERGY STAR program requirements (NEEDS VERIFICATION)"
+    },
+    {
+      "name": "R-2000 Standard",
+      "location": "Canada",
+      "year": "1982, updated ongoing",
+      "outcome": "Pioneered airtightness testing in North America; requires ≤1.5 ACH50",
+      "source": "Natural Resources Canada (NEEDS VERIFICATION)"
+    },
+    {
+      "name": "Passive House Standard",
+      "location": "Germany/International",
+      "year": "1991+",
+      "outcome": "Requires ≤0.6 ACH50; buildings typically achieve 75-90% energy reduction vs conventional",
+      "source": "Passivhaus Institut (NEEDS VERIFICATION)"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Air leakage can account for 25-40% of heating energy loss in buildings",
+      "source": "Building Science Corporation / various energy agencies",
+      "year": "NEEDS VERIFICATION"
+    },
+    {
+      "claim": "Typical new construction without air sealing focus: 3-7 ACH50; older homes: 10-25 ACH50",
+      "source": "Home energy audit data aggregates",
+      "year": "NEEDS VERIFICATION"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "NEEDS VERIFICATION",
+      "title": "ASHRAE research on building envelope air leakage",
+      "year": "Various",
+      "finding": "Quantified relationship between ACH50 and energy consumption; basis for code requirements"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Various Passive House certified buildings in Canada",
+      "description": "Achieve 0.6 ACH50 or better through continuous air barrier strategies",
+      "source": "NEEDS VERIFICATION - search for Canadian Passive House database"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "CRITICAL: I was unable to perform web searches to verify this evidence. The information above is based on my training knowledge of building science principles, which are well-established. However, specific statistics, program details, and citations MUST be verified through actual web searches before publication. The underlying science of air sealing is robust and well-documented in building science literature. Please re-run this research task with web search permissions enabled."
+}

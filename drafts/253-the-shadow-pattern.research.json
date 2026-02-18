@@ -1,0 +1,32 @@
+{
+  "programs": [],
+  "statistics": [],
+  "studies": [
+    {
+      "authors": "Junichiro Tanizaki",
+      "title": "In Praise of Shadows",
+      "year": "1933",
+      "finding": "Classic essay on Japanese aesthetics arguing that shadow and darkness are essential to creating depth and beauty in architecture, contrasting with Western preferences for brightness - widely cited in architectural theory but is philosophical rather than empirical research"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Church of the Light, Ibaraki, Osaka, Japan",
+      "description": "Tadao Ando's 1989 church uses a cruciform slit in concrete walls to create dramatic light/shadow contrast. Widely documented in architectural literature as exemplar of shadow-focused design",
+      "source": "Widely published - verify via Tadao Ando monographs or Pritzker Prize documentation"
+    },
+    {
+      "location": "Pantheon, Rome, Italy",
+      "description": "The oculus creates a moving beam of light that creates shadow play throughout the day - historical example of deliberate shadow design from 126 AD",
+      "source": "Historical architecture documentation - requires verification"
+    },
+    {
+      "location": "Louis Kahn buildings (Salk Institute, Kimbell Art Museum)",
+      "description": "Kahn's architecture is documented as using precise shadow and light relationships - his quotes on light and architecture are well-documented",
+      "source": "Requires verification via Kahn scholarship"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 1,
+  "notes": "UNABLE TO VERIFY - Web search was not available. The examples cited are well-known in architectural discourse but I cannot provide verified URLs, specific statistics, or confirmed program details. The pattern concept is well-established in architectural theory (Tanizaki, Ando, Kahn, Plummer) but finding quantified outcomes or government programs specifically about 'shadow design' is challenging even with search. Most evidence would be qualitative/aesthetic rather than measured outcomes. Recommend manual verification of all citations before use."
+}

@@ -1,0 +1,33 @@
+{
+  "patternId": 98,
+  "patternName": "The Four-Story Maximum",
+  "timestamp": "2026-02-16T22:15:22.369Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "Research on residential satisfaction consistently shows a threshold: above four stories, satisfaction with the building and the neighborhood declines",
+        "claim": "Research shows residential satisfaction declines above four stories",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Research does show residential satisfaction declining with building height, but the specific four-story threshold is an approximation from various studies rather than a single definitive finding.",
+      "detail": "This claim appears to reference classic environmental psychology research, particularly work by Oscar Newman on defensible space and studies by Clare Cooper Marcus on housing satisfaction. Research does consistently show negative correlations between building height and residential satisfaction, particularly in family housing. However, the exact threshold varies by study - some cite 3 stories, others 5-6 stories, and the effect depends heavily on factors like family composition (families with children show stronger effects), building design, and neighborhood context. The 'four stories' figure is a reasonable synthesis but not a precise universal threshold from any single definitive study.",
+      "sources": [
+        "Unable to verify via web search - assessment based on knowledge of Newman's Defensible Space (1972), Cooper Marcus housing research, and environmental psychology literature on building height and satisfaction"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ★☆ until additional sources are found."
+  }
+}

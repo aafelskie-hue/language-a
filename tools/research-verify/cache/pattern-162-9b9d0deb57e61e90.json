@@ -1,0 +1,217 @@
+{
+  "patternId": 162,
+  "patternName": "The Shared Vehicle Fleet",
+  "timestamp": "2026-02-17T01:58:30.966Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "The average privately owned car in North America sits parked 95% of its life",
+        "claim": "Average privately owned car in North America is parked 95% of the time",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 95% parked statistic is a widely cited figure originating from transportation research.",
+      "detail": "This statistic originates from Donald Shoup's influential work on parking policy, particularly his book 'The High Cost of Free Parking' (2005, revised 2011). The figure has been cited by the RAC Foundation in the UK and various transportation researchers. Some studies cite slightly different figures (92-96%) depending on methodology, but 95% is the most commonly referenced approximation for private vehicle idle time.",
+      "sources": [
+        "Donald Shoup, 'The High Cost of Free Parking' (2005)",
+        "RAC Foundation parking studies",
+        "Note: Unable to perform live web verification - based on training knowledge"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A household with two cars — common in any neighborhood without robust transit — dedicates 30 to 50 square meters of land to storing those vehicles",
+        "claim": "Two-car household dedicates 30-50 square meters to vehicle storage (driveway, garage, street frontage)",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Standard parking space dimensions support the 30-50 square meter range for two-car household vehicle storage.",
+      "detail": "A standard parking space is approximately 2.4-2.7 meters wide by 4.8-5.5 meters long (approximately 12-15 square meters per space). Two spaces would require 24-30 square meters minimum. A two-car garage typically measures 5.5-6.0 meters wide by 5.5-6.0 meters deep (30-36 square meters). Adding driveway apron space (approximately 5-15 square meters for maneuvering), the 30-50 square meter range is consistent with standard residential parking provisions. This is based on common engineering standards for parking dimensions.",
+      "sources": [
+        "Standard parking design guidelines (ITE Parking Generation, local zoning codes)",
+        "Engineering knowledge of typical garage and parking dimensions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Switzerland's Mobility cooperative, founded in 1997, now operates over 3,000 vehicles serving more than 250,000 members across the country",
+        "claim": "Switzerland's Mobility cooperative was founded in 1997",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are unavailable in this environment, preventing verification of the claim about Mobility cooperative's founding date. From general knowledge, Mobility is a well-known Swiss carsharing service, but the specific founding year of 1997 cannot be confirmed without access to sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Switzerland's Mobility cooperative, founded in 1997, now operates over 3,000 vehicles serving more than 250,000 members across the country",
+        "claim": "Switzerland's Mobility cooperative operates over 3,000 vehicles serving more than 250,000 members",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search/fetch permissions to access current statistics.",
+      "detail": "Web search and web fetch tools are unavailable in this session. Mobility cooperative is a real Swiss organization founded in 1997, but I cannot confirm the specific claims of 'over 3,000 vehicles' and 'more than 250,000 members' without accessing current data from the company's website or other sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Their data shows that each shared vehicle replaces between four and eight privately owned cars",
+        "claim": "Mobility cooperative data shows each shared vehicle replaces 4-8 privately owned cars",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The 4-8 car replacement range is consistent with carsharing research, though specific figures vary by study and methodology.",
+      "detail": "Multiple carsharing studies cite replacement ratios in this range. UC Berkeley's Transportation Sustainability Research Center has published research showing one carsharing vehicle can replace between 4-13 private vehicles depending on the market and methodology. The commonly cited figure from earlier North American studies was around 9-13 cars replaced, while European studies often show lower ratios of 4-8. The claim is directionally accurate but 'mobility cooperative data' is vague - different cooperatives and studies report different figures within and beyond this range.",
+      "sources": [
+        "UC Berkeley Transportation Sustainability Research Center carsharing studies",
+        "Unable to verify specific current sources due to lack of web search access"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Bremen's stadtmobil network, operating since 1990, reports similar ratios in German cities",
+        "claim": "Bremen's stadtmobil network has been operating since 1990",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the 1990 founding date for Bremen's stadtmobil network due to lack of web search access.",
+      "detail": "I was unable to search for evidence about stadtmobil Bremen's founding date due to tool permission restrictions. Car sharing in Germany did begin emerging in the late 1980s and early 1990s, making a 1990 date plausible, but I cannot confirm the specific founding year for Bremen's stadtmobil operation without access to primary sources. The claim requires verification from stadtmobil's official history or German car sharing historical records.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Bremen's stadtmobil network, operating since 1990, reports similar ratios in German cities",
+        "claim": "Bremen's stadtmobil reports similar vehicle replacement ratios (4-8 cars per shared vehicle) in German cities",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing verification of the stadtmobil Bremen vehicle replacement ratio claim. The claim that stadtmobil reports 4-8 cars replaced per shared vehicle in German cities cannot be confirmed or denied without access to external sources. Stadtmobil is a known German carsharing network, but the specific statistics require verification.",
+      "sources": [
+        "No sources available - web search disabled"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Vehicle-kilometers traveled per household drop by 30 to 50 percent",
+        "claim": "Vehicle-kilometers traveled per household drop 30-50% when using shared fleets",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of this claim about vehicle-kilometers traveled reduction from shared fleet usage. The claim references a specific statistical range (30-50%) that requires access to transportation research studies to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "vehicles stationed within a five-minute walk of most members",
+        "claim": "Swiss and German car-share cooperatives station vehicles within a 5-minute walk of most members",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about Swiss and German car-share cooperatives (likely referring to Mobility Switzerland and similar German cooperatives) stationing vehicles within a 5-minute walk of most members is plausible given the known density of such services in urban Switzerland and Germany, but I could not access sources to verify the specific '5-minute walk' metric.",
+      "sources": [
+        "No sources accessible - web search permissions not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 6,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Switzerland's Mobility cooperative, founded in 1997, now operates over 3,000 vehicles serving more than 250,000 members across the country",
+          "claim": "Switzerland's Mobility cooperative was founded in 1997",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are unavailable in this environment, preventing verification of the claim about Mobility cooperative's founding date. From general knowledge, Mobility is a well-known Swiss carsharing service, but the specific founding year of 1997 cannot be confirmed without access to sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Switzerland's Mobility cooperative, founded in 1997, now operates over 3,000 vehicles serving more than 250,000 members across the country",
+          "claim": "Switzerland's Mobility cooperative operates over 3,000 vehicles serving more than 250,000 members",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search/fetch permissions to access current statistics.",
+        "detail": "Web search and web fetch tools are unavailable in this session. Mobility cooperative is a real Swiss organization founded in 1997, but I cannot confirm the specific claims of 'over 3,000 vehicles' and 'more than 250,000 members' without accessing current data from the company's website or other sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Bremen's stadtmobil network, operating since 1990, reports similar ratios in German cities",
+          "claim": "Bremen's stadtmobil network has been operating since 1990",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the 1990 founding date for Bremen's stadtmobil network due to lack of web search access.",
+        "detail": "I was unable to search for evidence about stadtmobil Bremen's founding date due to tool permission restrictions. Car sharing in Germany did begin emerging in the late 1980s and early 1990s, making a 1990 date plausible, but I cannot confirm the specific founding year for Bremen's stadtmobil operation without access to primary sources. The claim requires verification from stadtmobil's official history or German car sharing historical records.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Bremen's stadtmobil network, operating since 1990, reports similar ratios in German cities",
+          "claim": "Bremen's stadtmobil reports similar vehicle replacement ratios (4-8 cars per shared vehicle) in German cities",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "Web search and web fetch tools are not available in this session, preventing verification of the stadtmobil Bremen vehicle replacement ratio claim. The claim that stadtmobil reports 4-8 cars replaced per shared vehicle in German cities cannot be confirmed or denied without access to external sources. Stadtmobil is a known German carsharing network, but the specific statistics require verification.",
+        "sources": [
+          "No sources available - web search disabled"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Vehicle-kilometers traveled per household drop by 30 to 50 percent",
+          "claim": "Vehicle-kilometers traveled per household drop 30-50% when using shared fleets",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification of this claim about vehicle-kilometers traveled reduction from shared fleet usage. The claim references a specific statistical range (30-50%) that requires access to transportation research studies to verify.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

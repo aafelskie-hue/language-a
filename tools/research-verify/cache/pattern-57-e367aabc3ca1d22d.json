@@ -1,0 +1,131 @@
+{
+  "patternId": 57,
+  "patternName": "The Community Workshop",
+  "timestamp": "2026-02-18T04:43:33.610Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "Australia's Men's Shed movement, begun in the 1990s, now counts over 1,000 sheds serving more than 150,000 members",
+        "claim": "Australia's Men's Shed movement began in the 1990s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access limitations",
+      "detail": "Web search tools were not authorized for this session, preventing verification of the claim. Based on background knowledge, the 1990s origin claim appears plausible as the first community Men's Shed is commonly cited as opening in Tongala, Victoria in 1998, but this cannot be confirmed through current sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Australia's Men's Shed movement, begun in the 1990s, now counts over 1,000 sheds serving more than 150,000 members",
+        "claim": "Australia has over 1,000 Men's Sheds serving more than 150,000 members",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions required for fact-checking.",
+      "detail": "Web search and web fetch tools were not granted permission in this session, preventing verification of current statistics. Based on training data, the claim appears plausible as the Men's Shed movement in Australia has grown significantly since the 1990s, with AMSA reporting similar figures in past years, but exact current numbers cannot be confirmed without live search access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Tool libraries like the one in Portland, Oregon, circulate thousands of items annually",
+        "claim": "Portland, Oregon has a tool library that circulates thousands of items annually",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check current statistics.",
+      "detail": "Portland, Oregon does have a well-known tool library called the Northeast Portland Tool Library (NEPTL), which is one of the oldest and most established tool libraries in the United States. However, I cannot verify the specific claim of 'thousands of items annually' without access to current circulation statistics from the organization's website or reports. The existence of the tool library is well-documented, but the specific circulation numbers require verification.",
+      "sources": [
+        "Unable to access web sources - verification requires web search capability"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Hackerspaces like Noisebridge in San Francisco run on membership dues and volunteer labor, offering 24-hour access to CNC routers, laser cutters, and 3D printers",
+        "claim": "Noisebridge in San Francisco is a hackerspace that operates on membership dues and volunteer labor",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Noisebridge is a well-documented hackerspace in San Francisco that operates on a donation/membership model with volunteer labor.",
+      "detail": "Noisebridge is a well-known hackerspace founded in 2007 in San Francisco's Mission District. It operates as a 501(c)(3) nonprofit that relies on member donations (they use a 'do-ocracy' model where members contribute what they can) and volunteer labor. The space does offer access to various maker equipment including laser cutters and 3D printers. They historically offered 24-hour access to members. The claim about 'membership dues' is technically accurate though Noisebridge uses a more flexible donation model rather than strict mandatory dues.",
+      "sources": [
+        "Unable to perform live web search - assessment based on established knowledge of Noisebridge as a prominent hackerspace"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Hackerspaces like Noisebridge in San Francisco run on membership dues and volunteer labor, offering 24-hour access to CNC routers, laser cutters, and 3D printers",
+        "claim": "Noisebridge offers 24-hour access",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing verification of Noisebridge's current access policies. Historical knowledge suggests Noisebridge has offered 24-hour access to members, but current policies cannot be confirmed without accessing their website or recent sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Good lighting matters: 500 lux at the work surface, shadow-free",
+        "claim": "500 lux is the appropriate lighting level for workshop work surfaces",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "500 lux is the widely accepted standard for workshop work surfaces according to international lighting standards.",
+      "detail": "ISO 8995-1:2002 (CIE S 008/E:2001) and the European standard EN 12464-1 specify 500 lux as the maintained illuminance for workshops and general assembly areas. This is a well-established ergonomic and safety standard. The claim aligns with these international occupational lighting guidelines.",
+      "sources": [
+        "ISO 8995-1:2002 / CIE S 008 (Lighting of indoor work places)",
+        "EN 12464-1 (Light and lighting - Lighting of work places)",
+        "Note: Web search was unavailable to verify against current online sources"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Australia's Men's Shed movement, begun in the 1990s, now counts over 1,000 sheds serving more than 150,000 members",
+          "claim": "Australia's Men's Shed movement began in the 1990s",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access limitations",
+        "detail": "Web search tools were not authorized for this session, preventing verification of the claim. Based on background knowledge, the 1990s origin claim appears plausible as the first community Men's Shed is commonly cited as opening in Tongala, Victoria in 1998, but this cannot be confirmed through current sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Australia's Men's Shed movement, begun in the 1990s, now counts over 1,000 sheds serving more than 150,000 members",
+          "claim": "Australia has over 1,000 Men's Sheds serving more than 150,000 members",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions required for fact-checking.",
+        "detail": "Web search and web fetch tools were not granted permission in this session, preventing verification of current statistics. Based on training data, the claim appears plausible as the Men's Shed movement in Australia has grown significantly since the 1990s, with AMSA reporting similar figures in past years, but exact current numbers cannot be confirmed without live search access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

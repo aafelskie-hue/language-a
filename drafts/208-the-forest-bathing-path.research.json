@@ -1,0 +1,70 @@
+{
+  "programs": [
+    {
+      "name": "Forest Therapy Base Certification Program",
+      "location": "Japan (nationwide)",
+      "year": "2004",
+      "outcome": "62 certified Forest Therapy Bases established by 2012; program originated by Japan's Forestry Agency and Forest Therapy Society",
+      "source": "Japan Forest Therapy Society (cannot verify current URL without web search)"
+    },
+    {
+      "name": "Healing Forest Program",
+      "location": "South Korea (Korea Forest Service)",
+      "year": "2009",
+      "outcome": "Network of designated healing forests with trained 'forest healing instructors'; reported expansion to multiple sites nationally",
+      "source": "Korea Forest Service (cannot verify specific current statistics without web search)"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "A 15-minute forest walk reduces cortisol levels by approximately 12-16% compared to urban walking",
+      "source": "Multiple Japanese studies including work by Qing Li et al. - specific numbers require verification",
+      "year": "2007-2010"
+    },
+    {
+      "claim": "Forest environments increase natural killer (NK) cell activity by 50% with effects lasting up to 30 days",
+      "source": "Li Q. et al., research published in International Journal of Immunopathology and Pharmacology - requires verification",
+      "year": "2008"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Li Q, Morimoto K, Nakadai A, et al.",
+      "title": "Forest bathing enhances human natural killer activity and expression of anti-cancer proteins",
+      "year": "2007",
+      "finding": "Two-hour forest walks increased NK cell activity and expression of anti-cancer proteins; effects measurable 7 days later"
+    },
+    {
+      "authors": "Park BJ, Tsunetsugu Y, Kasetani T, et al.",
+      "title": "The physiological effects of Shinrin-yoku",
+      "year": "2010",
+      "finding": "Forest environments lower cortisol, pulse rate, blood pressure, and sympathetic nervous system activity compared to urban environments"
+    },
+    {
+      "authors": "Miyazaki Y, Lee J, Park BJ, et al.",
+      "title": "Various studies on physiological effects of forest therapy",
+      "year": "2011",
+      "finding": "Systematic documentation of reduced stress hormones and improved mood states from forest walking"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Akasawa Natural Recreation Forest, Nagano Prefecture, Japan",
+      "description": "One of Japan's first certified Forest Therapy Bases; features multiple designated walking paths with varying difficulty levels designed for slow, contemplative movement",
+      "source": "Japan Forest Therapy Society certification"
+    },
+    {
+      "location": "Saneum Healing Forest, South Korea",
+      "description": "Government-operated healing forest with designated therapy trails, meditation areas, and forest therapy programs",
+      "source": "Korea Forest Service"
+    },
+    {
+      "location": "Whinfell Forest, Cumbria, UK",
+      "description": "Forest Holidays site offering shinrin-yoku guided experiences as part of wellness tourism",
+      "source": "Requires verification - this is from general knowledge"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT CAVEAT: I was unable to access web search to verify current statistics, URLs, and recent developments. The evidence base for forest bathing/shinrin-yoku is genuinely strong in academic literature - Japan and Korea have invested significantly in research since the 1980s-2000s. However, the specific numbers and citations I've provided should be verified through actual web searches before use. The core science (stress reduction, immune function improvement) appears well-documented in peer-reviewed literature, but I cannot confirm exact figures or current program status without search access. Recommend re-running this research with web search enabled to get verifiable URLs and current statistics."
+}

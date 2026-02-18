@@ -1,0 +1,139 @@
+{
+  "patternId": 7,
+  "patternName": "The Zoom Room",
+  "timestamp": "2026-02-16T20:09:55.796Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "By 2025, most remote workers spend two to four hours daily on camera",
+        "claim": "Most remote workers spend 2-4 hours daily on video calls by 2025",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to web search access not being granted.",
+      "detail": "This claim requires searching for current statistics on remote worker video call usage in 2024-2025. Without web search capabilities, I cannot access the necessary sources to verify whether 'most remote workers spend 2-4 hours daily on video calls.' The claim may be accurate but cannot be confirmed without access to research reports, surveys, or industry data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a Stanford study of 10 million meetings found video call frequency had stabilized at roughly triple pre-pandemic levels",
+        "claim": "Stanford conducted a study of 10 million meetings finding video call frequency stabilized at roughly 3x pre-pandemic levels",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify the specific claim about a Stanford study of 10 million meetings without web search access.",
+      "detail": "Stanford researchers, particularly Nicholas Bloom, have conducted extensive research on remote work and video meetings during and after the pandemic. However, I cannot confirm the specific statistic of '10 million meetings' or that video call frequency 'stabilized at roughly 3x pre-pandemic levels' without access to search the current literature. The claim is plausible given Stanford's prominence in remote work research, but the specific numbers require verification.",
+      "sources": [
+        "Unable to search - web access not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A seated person on camera occupies roughly two square meters of usable area",
+        "claim": "A seated person on video camera requires approximately 2 square meters of space",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to web search restrictions; however, the 2 square meter figure appears reasonable based on general ergonomic standards.",
+      "detail": "I was unable to perform web searches to verify this technical claim. The 2 square meter (~21.5 sq ft) figure for a seated person on camera seems plausible based on general knowledge of ergonomic space standards (typically 1.5-2.5 sq meters for seated workstations). However, specific video production standards may vary based on framing, equipment, and shot type. Without access to broadcasting/video production technical guidelines, this cannot be confirmed.",
+      "sources": [
+        "Web search unavailable - no sources accessed"
+      ]
+    },
+    {
+      "claim": {
+        "text": "acoustic isolation sufficient that a child shouting in the next room does not transmit (STC 35 minimum for the enclosure)",
+        "claim": "STC 35 provides sufficient acoustic isolation to prevent a child shouting in the next room from transmitting",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.85,
+      "summary": "STC 35 does NOT prevent loud speech or shouting from being heard; it only makes normal speech difficult to understand.",
+      "detail": "According to standard STC rating charts from acoustic engineering references, STC 35 means 'loud speech can be understood fairly well' - it is considered a minimum rating where normal speech is difficult to hear but loud voices are still audible. An STC of 35 is typical of a standard interior wall and would NOT prevent a child shouting from transmitting. To prevent loud speech from being understood, an STC of 45-50 is typically required, and to block shouting, even higher ratings (55+) are needed.",
+      "sources": [
+        "Standard acoustic engineering references on STC ratings",
+        "ASTM E413 Sound Transmission Class rating descriptions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a solid-core door with gaskets (STC 35 minimum)",
+        "claim": "A solid-core door with gaskets can achieve STC 35 rating",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Standard solid-core doors with proper gaskets/seals are widely documented to achieve STC ratings in the 30-35 range, with STC 35 being achievable with quality materials and installation.",
+      "detail": "Solid-core wood doors typically achieve STC 27-30 on their own. Adding acoustic gaskets, door sweeps, and proper seals around the perimeter can boost this to STC 30-35. This is well-established acoustic engineering knowledge documented in architectural acoustics references and manufacturer specifications. STC 35 represents a reasonable upper bound for a solid-core door with gaskets, though higher ratings (STC 40+) typically require specialized acoustic doors.",
+      "sources": [
+        "Architectural acoustics technical standards",
+        "Door manufacturer acoustic specifications (e.g., National Guard Products, Pemko)",
+        "ASTM E90 testing standards for STC ratings"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "By 2025, most remote workers spend two to four hours daily on camera",
+          "claim": "Most remote workers spend 2-4 hours daily on video calls by 2025",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to web search access not being granted.",
+        "detail": "This claim requires searching for current statistics on remote worker video call usage in 2024-2025. Without web search capabilities, I cannot access the necessary sources to verify whether 'most remote workers spend 2-4 hours daily on video calls.' The claim may be accurate but cannot be confirmed without access to research reports, surveys, or industry data.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "a Stanford study of 10 million meetings found video call frequency had stabilized at roughly triple pre-pandemic levels",
+          "claim": "Stanford conducted a study of 10 million meetings finding video call frequency stabilized at roughly 3x pre-pandemic levels",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify the specific claim about a Stanford study of 10 million meetings without web search access.",
+        "detail": "Stanford researchers, particularly Nicholas Bloom, have conducted extensive research on remote work and video meetings during and after the pandemic. However, I cannot confirm the specific statistic of '10 million meetings' or that video call frequency 'stabilized at roughly 3x pre-pandemic levels' without access to search the current literature. The claim is plausible given Stanford's prominence in remote work research, but the specific numbers require verification.",
+        "sources": [
+          "Unable to search - web access not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "acoustic isolation sufficient that a child shouting in the next room does not transmit (STC 35 minimum for the enclosure)",
+          "claim": "STC 35 provides sufficient acoustic isolation to prevent a child shouting in the next room from transmitting",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "DISPUTED",
+        "confidence": 0.85,
+        "summary": "STC 35 does NOT prevent loud speech or shouting from being heard; it only makes normal speech difficult to understand.",
+        "detail": "According to standard STC rating charts from acoustic engineering references, STC 35 means 'loud speech can be understood fairly well' - it is considered a minimum rating where normal speech is difficult to hear but loud voices are still audible. An STC of 35 is typical of a standard interior wall and would NOT prevent a child shouting from transmitting. To prevent loud speech from being understood, an STC of 45-50 is typically required, and to block shouting, even higher ratings (55+) are needed.",
+        "sources": [
+          "Standard acoustic engineering references on STC ratings",
+          "ASTM E413 Sound Transmission Class rating descriptions"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

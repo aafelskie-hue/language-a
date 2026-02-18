@@ -1,0 +1,60 @@
+{
+  "programs": [
+    {
+      "name": "Pollinator Pathway (Seattle)",
+      "location": "Seattle, Washington, USA",
+      "year": "2007",
+      "outcome": "One-mile corridor along Columbia Street connecting Seattle University to Nora's Woods; expanded model replicated in other cities",
+      "source": "pollinatorpathway.com - NEEDS VERIFICATION"
+    },
+    {
+      "name": "B-Lines Initiative",
+      "location": "United Kingdom",
+      "year": "2011",
+      "outcome": "Buglife's network of 'insect pathways' connecting wildlife areas across UK; approximately 3,000 km of B-Lines mapped",
+      "source": "buglife.org.uk - NEEDS VERIFICATION"
+    },
+    {
+      "name": "Pollinator Partnership programs",
+      "location": "United States/Canada",
+      "year": "Various",
+      "outcome": "Bee City USA and Bee Campus USA certification programs for municipalities committing to pollinator habitat",
+      "source": "pollinator.org - NEEDS VERIFICATION"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Wild bee populations have declined by approximately 25% since the 1990s",
+      "source": "Various studies - NEEDS PRIMARY SOURCE VERIFICATION",
+      "year": "Estimated from pre-2024 research"
+    },
+    {
+      "claim": "Urban lawns cover approximately 40 million acres in the United States",
+      "source": "NASA/USGS satellite studies - NEEDS VERIFICATION",
+      "year": "~2005"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify without search",
+      "title": "Unable to verify without search",
+      "year": "N/A",
+      "finding": "N/A"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Seattle, Washington",
+      "description": "Original Pollinator Pathway by artist Sarah Bergmann - one-mile planted corridor",
+      "source": "NEEDS VERIFICATION"
+    },
+    {
+      "location": "Oslo, Norway",
+      "description": "Reported 'bee highway' through the city with rooftop gardens and plantings",
+      "source": "NEEDS VERIFICATION"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL: I was unable to search the web or fetch current sources. All information above is from my training data and MUST be independently verified before use. The pollinator pathway concept is well-documented in my training, but I cannot provide current URLs, exact statistics, or verified citations without web access. Please grant WebSearch or WebFetch permissions, or manually verify each claim above."
+}

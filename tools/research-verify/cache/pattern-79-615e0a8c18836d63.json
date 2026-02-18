@@ -1,0 +1,89 @@
+{
+  "patternId": 79,
+  "patternName": "Walkable Healthcare",
+  "timestamp": "2026-02-18T04:48:05.576Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "The distance should be under 800 meters, or roughly ten minutes at a slow walking pace.",
+        "claim": "800 meters equals roughly ten minutes at a slow walking pace",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "800 meters in 10 minutes corresponds to 80 meters per minute (4.8 km/h), which is consistent with a slow-to-moderate walking pace.",
+      "detail": "Standard walking speeds range from 3-5 km/h for slow walkers to 5-6 km/h for brisk walkers. At 4.8 km/h (80 m/min), 800 meters takes exactly 10 minutes. This is a well-established benchmark in urban planning, where '10-minute walk' and '800 meters' are often used interchangeably for walkability assessments. The claim accurately describes a slow walking pace.",
+      "sources": [
+        "Standard biomechanics and urban planning conventions",
+        "Transit-oriented development guidelines commonly cite 800m/10-min equivalence"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A primary care clinic of 150–300 square meters can house two to four examination rooms, a small lab for blood draws and urinalysis, a dispensary or adjacent pharmacy, and space for allied services",
+        "claim": "150-300 square meters is sufficient space for a primary care clinic with 2-4 exam rooms, small lab, dispensary/pharmacy, and allied services",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify against authoritative sources due to lack of web search access, though the claim appears plausible based on general healthcare facility design knowledge.",
+      "detail": "Without web search access, I cannot verify this claim against WHO guidelines, healthcare facility design standards, or government health department specifications. Based on general knowledge, 150-300 square meters (approximately 1,600-3,200 square feet) is within a plausible range for a small primary care clinic with the described facilities, as individual exam rooms typically require 9-14 square meters each, but I cannot confirm this against authoritative primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "These clinics handle 80% of healthcare needs: checkups, chronic disease management, minor injuries, vaccinations, mental health.",
+        "claim": "Primary care clinics handle 80% of healthcare needs",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The 80% figure is a commonly cited approximation in healthcare policy discussions, though the exact percentage varies by source and methodology.",
+      "detail": "This statistic is frequently referenced in primary care advocacy and policy documents. The World Health Organization and various national health bodies have cited similar figures suggesting primary care addresses the majority of health needs. However, the exact '80%' figure is more of a widely-used approximation than a rigorously measured statistic, with some sources citing figures ranging from 70-90% depending on how 'healthcare needs' are defined and measured. The American Academy of Family Physicians and similar organizations have promoted this general claim.",
+      "sources": [
+        "Unable to verify via web search - based on training knowledge of commonly cited healthcare statistics"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Community health center models in the U.S. show emergency room visit reductions of 20–40% in the populations they serve.",
+        "claim": "U.S. community health centers reduce emergency room visits by 20-40% in the populations they serve",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence due to lack of web search permissions.",
+      "detail": "The WebSearch tool was not authorized for this session, preventing verification of the claim about community health centers reducing emergency room visits by 20-40%. This claim requires access to research studies, government reports, or academic papers to verify.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Community health center models in the U.S. show emergency room visit reductions of 20–40% in the populations they serve.",
+          "claim": "U.S. community health centers reduce emergency room visits by 20-40% in the populations they serve",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to search for evidence due to lack of web search permissions.",
+        "detail": "The WebSearch tool was not authorized for this session, preventing verification of the claim about community health centers reducing emergency room visits by 20-40%. This claim requires access to research studies, government reports, or academic papers to verify.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

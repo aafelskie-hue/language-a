@@ -1,0 +1,49 @@
+{
+  "patternId": 63,
+  "patternName": "The Covered Connection",
+  "timestamp": "2026-02-16T16:33:03.585Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "the Swedish gångbro (covered walkway between farmstead buildings)",
+        "claim": "Swedish term 'gångbro' refers to covered walkways between farmstead buildings in traditional Swedish architecture",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "The Swedish word 'gångbro' exists but primarily means 'footbridge' or 'pedestrian bridge', not specifically covered walkways between farmstead buildings.",
+      "detail": "In Swedish, 'gångbro' is a compound word from 'gång' (walking/passage) and 'bro' (bridge), and it typically refers to a footbridge or pedestrian walkway/bridge. While covered walkways between farm buildings did exist in traditional Scandinavian architecture (sometimes called 'svalgång' or similar terms), the specific claim that 'gångbro' refers to covered walkways between farmstead buildings appears to be either a regional usage or a conflation with other architectural terms. Without web search access, I cannot definitively verify whether 'gångbro' has this specific meaning in traditional Swedish farmstead architecture contexts.",
+      "sources": [
+        "Unable to access web sources - verdict based on linguistic knowledge of Swedish compound words"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the Japanese engawa (covered veranda)",
+        "claim": "Japanese term 'engawa' refers to a covered veranda in traditional Japanese architecture",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Engawa is indeed a traditional Japanese architectural term referring to a covered wooden veranda or porch that runs along the outside of a building.",
+      "detail": "The engawa (縁側) is a well-documented feature of traditional Japanese residential architecture. It refers to a wooden-floored, often covered, transitional space between the interior rooms and the garden, functioning as a veranda or porch. The term is widely used in architectural literature and Japanese culture studies. While some engawa may be uncovered or partially covered, the characterization as a 'covered veranda' is accurate for many traditional examples.",
+      "sources": [
+        "Standard architectural terminology in Japanese residential architecture",
+        "Japanese cultural and architectural references"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "programs": [
+    {
+      "name": "Arizona Greywater Regulations",
+      "location": "Arizona, USA",
+      "year": "2001 (updated 2015)",
+      "outcome": "Allows residential greywater systems up to 400 gallons/day without permit; constructed wetlands are an approved treatment method",
+      "source": "Arizona Department of Environmental Quality - Graywater Guidelines"
+    },
+    {
+      "name": "Texas Greywater Use Regulations",
+      "location": "Texas, USA",
+      "year": "2013",
+      "outcome": "Authorizes greywater systems for irrigation with constructed wetlands as treatment option; systems under 400 gallons/day exempt from permitting",
+      "source": "Texas Commission on Environmental Quality Chapter 210"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Constructed wetlands can remove 80-95% of BOD (biochemical oxygen demand) from greywater",
+      "source": "EPA Office of Research and Development - constructed wetland studies",
+      "year": "Various studies 2000-2020"
+    },
+    {
+      "claim": "Horizontal subsurface flow constructed wetlands achieve nitrogen removal rates of 40-55%",
+      "source": "IWA (International Water Association) - Treatment Wetlands textbook by Kadlec & Wallace",
+      "year": "2009"
+    },
+    {
+      "claim": "Constructed wetlands have 85-95% lower energy requirements than conventional treatment",
+      "source": "UN-Habitat reports on nature-based solutions for wastewater",
+      "year": "2018"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Kadlec, R.H. & Wallace, S.",
+      "title": "Treatment Wetlands (2nd Edition)",
+      "year": "2009",
+      "finding": "Comprehensive reference establishing constructed wetlands as effective low-energy treatment systems; documents performance data from hundreds of systems worldwide"
+    },
+    {
+      "authors": "Vymazal, J.",
+      "title": "Constructed Wetlands for Wastewater Treatment: Five Decades of Experience",
+      "year": "2011",
+      "finding": "Review of 50 years of constructed wetland research showing consistent pollutant removal across varied climates and scales; published in Environmental Science & Technology"
+    },
+    {
+      "authors": "Ghaitidak, D.M. & Yadav, K.D.",
+      "title": "Characteristics and treatment of greywater: A review",
+      "year": "2013",
+      "finding": "Evaluated multiple greywater treatment technologies; constructed wetlands identified as cost-effective for developing regions; published in Environmental Science and Pollution Research"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Earthship Biotecture, Taos, New Mexico, USA",
+      "description": "Indoor constructed wetlands (botanical cells) integrated into building design; greywater flows through plant beds for treatment and reuse in toilet flushing",
+      "source": "Earthship Biotecture documentation; multiple academic case studies"
+    },
+    {
+      "location": "BedZED (Beddington Zero Energy Development), London, UK",
+      "description": "82-home eco-development with Living Machine constructed wetland system for on-site water treatment; reduced potable water use by approximately 50%",
+      "source": "BioRegional case studies; UK Building Research Establishment documentation"
+    },
+    {
+      "location": "Kibbutz communities, Israel",
+      "description": "Multiple kibbutzim have implemented constructed wetlands for greywater treatment for agricultural reuse since 1990s",
+      "source": "Israeli Water Authority documentation; various academic papers on Israeli water reuse"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "Constructed wetlands for greywater treatment are well-documented in academic literature and have regulatory frameworks in several jurisdictions. However, I could not perform live web searches to verify current statistics or find the most recent studies. The evidence cited is from my training data and should be verified against current sources. Most robust evidence is at community/development scale rather than individual building scale. Cold-climate performance data exists but is more limited. The pattern has solid technical foundation but building-scale residential applications are less common than larger community systems."
+}

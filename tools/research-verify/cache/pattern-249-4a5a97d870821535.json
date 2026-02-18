@@ -1,0 +1,174 @@
+{
+  "patternId": 249,
+  "patternName": "The Contrast Marking",
+  "timestamp": "2026-02-17T06:45:10.303Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "The UK Building Regulations Approved Document M specifies a minimum LRV difference of 30 points between nosing and tread, and between critical surfaces and their surroundings",
+        "claim": "UK Building Regulations Approved Document M specifies minimum 30-point LRV difference between nosing and tread",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "UK Building Regulations Approved Document M does specify a minimum 30-point LRV difference for visual contrast on stairs and critical surfaces.",
+      "detail": "Approved Document M (Access to and use of buildings) is part of the UK Building Regulations and does contain guidance on visual contrast using Light Reflectance Values (LRV). The document specifies that a minimum difference of 30 points LRV should be provided between adjacent surfaces including stair nosings and treads, and between critical surfaces and their surroundings to aid people with visual impairments. This is well-documented guidance used by architects and building designers in the UK.",
+      "sources": [
+        "UK Building Regulations Approved Document M (Volume 1 and 2)",
+        "Based on training data - unable to perform live web search to confirm current document version"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a number derived from clinical studies of visual detection thresholds in populations with low vision",
+        "claim": "The 30-point LRV difference requirement was derived from clinical studies of visual detection thresholds in low vision populations",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify the specific claim that the 30-point LRV threshold was derived from clinical studies of low vision populations without access to web search.",
+      "detail": "The 30-point LRV (Light Reflectance Value) difference is a common accessibility standard used in building codes and accessibility guidelines (such as in the UK's Building Regulations Approved Document M and similar standards). However, I cannot access web resources to verify whether this specific threshold was derived from clinical studies of visual detection thresholds in low vision populations, or whether it emerged from other sources such as practical testing, expert consensus, or adaptation from other standards. The claim is plausible given accessibility standards are often informed by research, but verification requires access to primary sources.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Australia's AS 1428.1 requires a 30% luminance contrast at stair nosings and recommends 45-75mm strips for maximum detectability",
+        "claim": "Australian Standard AS 1428.1 requires 30% luminance contrast at stair nosings and recommends 45-75mm strips",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "AS 1428.1 does require 30% luminance contrast at stair nosings, but the strip width specification differs from the claim.",
+      "detail": "Australian Standard AS 1428.1 (Design for access and mobility) does require a minimum 30% luminance contrast at stair nosings. However, the standard specifies that stair nosing strips should be 50-75mm wide, not 45-75mm as claimed. The 50mm minimum (not 45mm) is the documented requirement in the standard. Unable to verify with web search due to permission restrictions.",
+      "sources": [
+        "Knowledge of AS 1428.1:2021 Design for access and mobility - General requirements for access - New building work"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The US Access Board's ADA guidelines call for visually contrasting stair nosings throughout regulated facilities",
+        "claim": "US Access Board ADA guidelines require visually contrasting stair nosings in regulated facilities",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The US Access Board ADA guidelines address stair nosings but do not universally require visual contrast throughout all regulated facilities.",
+      "detail": "The ADA Accessibility Guidelines (ADAAG) from the US Access Board specify requirements for stair nosings including that they must have a curved or beveled leading edge, but visual contrast requirements are more limited. The ADA standards require visual contrast strips on stairs primarily in specific contexts such as certain transit facilities. The claim that contrasting nosings are required 'throughout regulated facilities' overstates the scope of the requirement. Some state and local codes may have broader requirements.",
+      "sources": [
+        "US Access Board ADA Standards for Accessible Design",
+        "ADA Accessibility Guidelines (ADAAG) Chapter 5 - Stairways"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The UK's Royal Society for the Prevention of Accidents reports that falls on stairs account for over 700 deaths annually in Britain",
+        "claim": "UK Royal Society for the Prevention of Accidents reports over 700 annual deaths from stair falls in Britain",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about RoSPA reporting over 700 annual stair fall deaths in Britain could not be checked against primary sources. RoSPA (Royal Society for the Prevention of Accidents) is a real organization that does publish accident statistics, but the specific figure needs verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the majority among those over 65",
+        "claim": "Majority of UK stair fall deaths occur among people over 65",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search for evidence to verify or refute this claim because web search permissions were not granted. The claim that the majority of UK stair fall deaths occur among people over 65 is plausible given general patterns of fall-related mortality in elderly populations, but without access to UK Office for National Statistics data, RoSPA reports, or NHS statistics, I cannot confirm the specific assertion.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A study published in *Injury Prevention* (Jacobs 2016) found that high-contrast edge markings reduced stair missteps by over 60% in controlled trials with older adults",
+        "claim": "Jacobs 2016 study in Injury Prevention journal found high-contrast edge markings reduced stair missteps by over 60% in controlled trials with older adults",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing verification of whether a Jacobs 2016 study exists in Injury Prevention journal with the claimed findings about high-contrast edge markings reducing stair missteps by 60% in older adults. This claim requires database access to verify the paper's existence and its actual findings.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Canadian National Institute for the Blind recommends extending contrast markings to light switches, handrails, and grab bars",
+        "claim": "Canadian National Institute for the Blind recommends contrast markings on light switches, handrails, and grab bars",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not currently available, preventing verification of CNIB recommendations. The Canadian National Institute for the Blind (CNIB) is a real organization that provides accessibility guidelines, but without access to their website or other sources, the specific claim about contrast marking recommendations for light switches, handrails, and grab bars cannot be confirmed or denied.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "his Pattern 134 (Zen View) speaks of thresholds and transitions",
+        "claim": "Christopher Alexander's Pattern 134 is titled 'Zen View' and addresses thresholds and transitions",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "Pattern 134 is correctly titled 'Zen View' but it addresses views/glimpses rather than thresholds and transitions.",
+      "detail": "In Christopher Alexander's 'A Pattern Language' (1977), Pattern 134 is indeed titled 'Zen View'. However, the pattern is about restricting views of nature or architectural features to small glimpses or narrow openings to intensify their impact—not about thresholds and transitions. The pattern that addresses transitions is actually Pattern 112 'Entrance Transition'. The claim correctly identifies the pattern number and title but mischaracterizes its subject matter.",
+      "sources": [
+        "Christopher Alexander, A Pattern Language (1977), Oxford University Press"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 3,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The UK's Royal Society for the Prevention of Accidents reports that falls on stairs account for over 700 deaths annually in Britain",
+          "claim": "UK Royal Society for the Prevention of Accidents reports over 700 annual deaths from stair falls in Britain",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about RoSPA reporting over 700 annual stair fall deaths in Britain could not be checked against primary sources. RoSPA (Royal Society for the Prevention of Accidents) is a real organization that does publish accident statistics, but the specific figure needs verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A study published in *Injury Prevention* (Jacobs 2016) found that high-contrast edge markings reduced stair missteps by over 60% in controlled trials with older adults",
+          "claim": "Jacobs 2016 study in Injury Prevention journal found high-contrast edge markings reduced stair missteps by over 60% in controlled trials with older adults",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools are not available in this session, preventing verification of whether a Jacobs 2016 study exists in Injury Prevention journal with the claimed findings about high-contrast edge markings reducing stair missteps by 60% in older adults. This claim requires database access to verify the paper's existence and its actual findings.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

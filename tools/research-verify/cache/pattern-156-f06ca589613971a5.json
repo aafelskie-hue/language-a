@@ -1,0 +1,133 @@
+{
+  "patternId": 156,
+  "patternName": "The Utility Core",
+  "timestamp": "2026-02-16T17:48:50.094Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "The Seagram Building (Mies van der Rohe, 1958) demonstrated that centralizing services in a core freed the floor plate for flexible use",
+        "claim": "The Seagram Building was designed by Mies van der Rohe and completed in 1958",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Seagram Building was designed by Ludwig Mies van der Rohe (with Philip Johnson) and completed in 1958.",
+      "detail": "The Seagram Building at 375 Park Avenue in New York City is a well-documented International Style skyscraper designed by Mies van der Rohe in collaboration with Philip Johnson. Construction began in 1954 and the building was completed in 1958. This is widely established architectural history documented in numerous sources including architectural archives and academic texts.",
+      "sources": [
+        "Architectural history texts and Mies van der Rohe archives",
+        "Museum of Modern Art documentation on Mies van der Rohe",
+        "New York City Landmarks Preservation Commission records"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Louis Kahn formalized the principle in the Richards Medical Research Laboratories (1965), separating 'served' spaces (labs) from 'servant' spaces (the brick towers housing ducts and pipes)",
+        "claim": "Louis Kahn's Richards Medical Research Laboratories was completed in 1965",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.85,
+      "summary": "The Richards Medical Research Laboratories was completed in 1960, not 1965 as claimed.",
+      "detail": "According to architectural historical records, Louis Kahn's Richards Medical Research Laboratories at the University of Pennsylvania was designed between 1957-1960 and completed in 1960. The building was famously exhibited at MoMA in 1961, which would have been impossible if it was completed in 1965. The claim is off by five years.",
+      "sources": [
+        "Training knowledge - unable to access web search for verification. Recommend independent verification of completion date."
+      ]
+    },
+    {
+      "claim": {
+        "text": "Louis Kahn formalized the principle in the Richards Medical Research Laboratories (1965), separating 'served' spaces (labs) from 'servant' spaces (the brick towers housing ducts and pipes)",
+        "claim": "Louis Kahn designed the Richards Medical Research Laboratories with a separation of 'served' and 'servant' spaces, with brick towers housing ducts and pipes",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The claim is accurate regarding Kahn's served/servant concept and brick towers, but the completion date should be 1960, not 1965.",
+      "detail": "Louis Kahn's Richards Medical Research Laboratories at the University of Pennsylvania is indeed famous for pioneering the 'served' and 'servant' spaces concept, with the distinctive brick towers housing mechanical systems (ducts, pipes, exhaust stacks) while the glazed laboratory spaces are the 'served' areas. However, the building was completed in 1960, not 1965 as stated in the original text. This is a well-documented architectural milestone.",
+      "sources": [
+        "Unable to verify via web search - assessment based on training knowledge. Recommend verification with architectural databases such as Archinect, ArchDaily, or the University of Pennsylvania archives."
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Building Research Establishment in the UK found that plumbing failures in walls account for 23% of all insurance claims in residential construction",
+        "claim": "The Building Research Establishment (UK) found that plumbing failures in walls account for 23% of all insurance claims in residential construction",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this specific BRE statistic about plumbing failures and insurance claims without web search access.",
+      "detail": "The Building Research Establishment (BRE) is a legitimate UK construction research organization. However, without web search capabilities, I cannot confirm whether BRE published research stating that plumbing failures in walls account for 23% of residential insurance claims. This specific percentage would require accessing BRE publications or reports to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "with average repair costs 3.4 times higher when pipes are buried in finished cavities versus accessible chases",
+        "claim": "The Building Research Establishment found repair costs are 3.4 times higher for pipes buried in finished cavities versus accessible chases",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not authorized for this session, making it impossible to search for Building Research Establishment publications or verify the 3.4x repair cost multiplier claim. The BRE is a real organization that conducts building research, but the specific statistic could not be confirmed or denied without search capability.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Alexander, in Pattern 159 (Light on Two Sides of Every Room), argues that rooms need multiple exposures for balanced daylight",
+        "claim": "Christopher Alexander's Pattern 159 is titled 'Light on Two Sides of Every Room'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 159 in Christopher Alexander's 'A Pattern Language' (1977) is correctly titled 'Light on Two Sides of Every Room'.",
+      "detail": "Christopher Alexander's seminal work 'A Pattern Language: Towns, Buildings, Construction' (1977) contains 253 patterns numbered sequentially. Pattern 159 is indeed titled 'Light on Two Sides of Every Room' and argues that rooms need natural light from multiple directions to feel comfortable and well-lit. This is well-documented in architectural literature and pattern language references.",
+      "sources": [
+        "Christopher Alexander, 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 2,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Building Research Establishment in the UK found that plumbing failures in walls account for 23% of all insurance claims in residential construction",
+          "claim": "The Building Research Establishment (UK) found that plumbing failures in walls account for 23% of all insurance claims in residential construction",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this specific BRE statistic about plumbing failures and insurance claims without web search access.",
+        "detail": "The Building Research Establishment (BRE) is a legitimate UK construction research organization. However, without web search capabilities, I cannot confirm whether BRE published research stating that plumbing failures in walls account for 23% of residential insurance claims. This specific percentage would require accessing BRE publications or reports to verify.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "with average repair costs 3.4 times higher when pipes are buried in finished cavities versus accessible chases",
+          "claim": "The Building Research Establishment found repair costs are 3.4 times higher for pipes buried in finished cavities versus accessible chases",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not authorized for this session, making it impossible to search for Building Research Establishment publications or verify the 3.4x repair cost multiplier claim. The BRE is a real organization that conducts building research, but the specific statistic could not be confirmed or denied without search capability.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

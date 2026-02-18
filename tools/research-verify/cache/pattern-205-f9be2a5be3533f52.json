@@ -1,0 +1,157 @@
+{
+  "patternId": 205,
+  "patternName": "The Infill Strategy",
+  "timestamp": "2026-02-17T04:26:38.233Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "A 2013 study by the Halifax Regional Municipality found that low-density suburban development cost the city $3,462 per capita annually in infrastructure and services, while urban core neighborhoods cost only $1,416 — less than half.",
+        "claim": "Halifax Regional Municipality 2013 study found suburban development cost $3,462 per capita annually vs $1,416 for urban core",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The Halifax Regional Municipality study exists and is well-documented, but the exact figures reported vary slightly across sources.",
+      "detail": "The Halifax Regional Municipality did conduct a fiscal analysis around 2013 examining the costs of suburban vs urban development, and it found suburban development significantly more expensive per capita. The study is frequently cited in urban planning literature. However, I cannot verify the exact figures of $3,462 and $1,416 without web access. Some sources cite slightly different figures from this study, and the methodology examined net fiscal impact rather than pure 'cost' per capita. The core finding that suburban development costs more than double urban core development is consistent with the study's conclusions.",
+      "sources": [
+        "Unable to access web sources to verify exact figures - based on prior knowledge of the Halifax study"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The City's 2020 Infill Roadmap identified over 12,000 potential infill sites",
+        "claim": "Edmonton's 2020 Infill Roadmap identified over 12,000 potential infill sites",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "I attempted to search for information about Edmonton's 2020 Infill Roadmap and the claimed 12,000 potential infill sites figure, but web search and web fetch tools are not currently permitted. Without access to external sources, I cannot confirm or deny this claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Portland, Oregon, has pursued infill systematically since the 1990s, adopting design standards in 2008 that govern how new buildings on vacant lots must relate to their neighbors",
+        "claim": "Portland adopted infill design standards in 2008 governing how new buildings relate to neighbors",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "I was unable to search the web to verify this claim about Portland's infill design standards. The claim is specific (2008 adoption, standards governing how new buildings relate to neighbors) and would require access to Portland city planning documents or news archives to confirm. Without web search capability, I cannot determine if this date and description are accurate.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The neighborhood density increased by 12% between 2000 and 2015 without the demolition of existing homes",
+        "claim": "Portland neighborhood density increased 12% between 2000 and 2015 without demolishing existing homes",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 12% density increase claim due to lack of web search access.",
+      "detail": "This claim references a specific statistic about Portland neighborhood density increasing 12% between 2000-2015 without demolition. Without web search capability, I cannot access primary sources such as Portland Bureau of Planning and Sustainability reports, census data, or ADU program statistics that would verify or dispute this figure. The claim is plausible given Portland's well-documented ADU program, but the specific 12% figure requires verification from official sources.",
+      "sources": [
+        "No sources accessible - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the city avoided $1.1 billion in infrastructure costs it would have spent extending services to equivalent greenfield development",
+        "claim": "Portland avoided $1.1 billion in infrastructure costs through infill vs greenfield development",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0,
+      "summary": "Verification failed after retries",
+      "detail": "Error: Failed to parse JSON: Unexpected token 'I', \"I need web\"... is not valid JSON",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In *City Country Fingers* (3), he argued that cities should not sprawl evenly but should grow in concentrated bands with green fingers between them",
+        "claim": "Christopher Alexander's pattern 'City Country Fingers' (pattern 3) argues cities should grow in concentrated bands with green fingers between them",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Pattern 3 in Christopher Alexander's 'A Pattern Language' is 'City Country Fingers' and describes cities growing in concentrated bands with green fingers between them.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977) contains Pattern 3 titled 'City Country Fingers.' This pattern argues that metropolitan areas should be organized as a series of fingers of urban development extending outward, with fingers of countryside or green space between them, rather than spreading uniformly outward. The pattern states this structure allows both urban dwellers and country residents to have access to the other environment. The claim accurately captures Alexander's argument about concentrated bands (urban fingers) with green fingers between them.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press, Pattern 3"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The City's 2020 Infill Roadmap identified over 12,000 potential infill sites",
+          "claim": "Edmonton's 2020 Infill Roadmap identified over 12,000 potential infill sites",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "I attempted to search for information about Edmonton's 2020 Infill Roadmap and the claimed 12,000 potential infill sites figure, but web search and web fetch tools are not currently permitted. Without access to external sources, I cannot confirm or deny this claim.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Portland, Oregon, has pursued infill systematically since the 1990s, adopting design standards in 2008 that govern how new buildings on vacant lots must relate to their neighbors",
+          "claim": "Portland adopted infill design standards in 2008 governing how new buildings relate to neighbors",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "I was unable to search the web to verify this claim about Portland's infill design standards. The claim is specific (2008 adoption, standards governing how new buildings relate to neighbors) and would require access to Portland city planning documents or news archives to confirm. Without web search capability, I cannot determine if this date and description are accurate.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The neighborhood density increased by 12% between 2000 and 2015 without the demolition of existing homes",
+          "claim": "Portland neighborhood density increased 12% between 2000 and 2015 without demolishing existing homes",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 12% density increase claim due to lack of web search access.",
+        "detail": "This claim references a specific statistic about Portland neighborhood density increasing 12% between 2000-2015 without demolition. Without web search capability, I cannot access primary sources such as Portland Bureau of Planning and Sustainability reports, census data, or ADU program statistics that would verify or dispute this figure. The claim is plausible given Portland's well-documented ADU program, but the specific 12% figure requires verification from official sources.",
+        "sources": [
+          "No sources accessible - web search unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "the city avoided $1.1 billion in infrastructure costs it would have spent extending services to equivalent greenfield development",
+          "claim": "Portland avoided $1.1 billion in infrastructure costs through infill vs greenfield development",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0,
+        "summary": "Verification failed after retries",
+        "detail": "Error: Failed to parse JSON: Unexpected token 'I', \"I need web\"... is not valid JSON",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

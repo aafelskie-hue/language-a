@@ -1,0 +1,25 @@
+{
+  "programs": [],
+  "statistics": [],
+  "studies": [],
+  "examples": [
+    {
+      "location": "Holland, Michigan, USA",
+      "description": "Downtown snowmelt system using waste heat from a power plant, covering approximately 600,000 square feet of sidewalks and streets. One of the most well-known examples in North America.",
+      "source": "UNVERIFIED - requires web search confirmation"
+    },
+    {
+      "location": "Reykjavik, Iceland",
+      "description": "Geothermal-heated sidewalks in downtown area using naturally available geothermal energy",
+      "source": "UNVERIFIED - requires web search confirmation"
+    },
+    {
+      "location": "Sapporo, Japan",
+      "description": "Heated sidewalks in underground passages and some street-level areas in city center",
+      "source": "UNVERIFIED - requires web search confirmation"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL: Web search and web fetch tools are not available. All examples listed are from training data and could not be verified through current searches. This pattern likely has moderate-to-strong real-world evidence, but I cannot confirm citations, statistics, or specific program details without web access. Please grant WebSearch or WebFetch permissions to gather proper evidence, or verify these examples manually before use."
+}

@@ -1,0 +1,147 @@
+{
+  "patternId": 232,
+  "patternName": "The Cold Porch",
+  "timestamp": "2026-02-17T05:39:15.334Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "Norwegian farmhouses featured the \"svalgangen\" — an unheated enclosed gallery wrapping the house, used for storing preserved fish, hanging meat, and keeping milk cold",
+        "claim": "Norwegian farmhouses traditionally featured 'svalgangen' - unheated enclosed galleries used for food storage",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools are not available in this session. The term 'svalgang' (or 'svalgangen' in definite form) does appear to be a genuine Norwegian architectural term referring to an external gallery or covered walkway on traditional buildings, but I cannot verify the specific claim about food storage use without access to authoritative sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Finnish farms maintained \"aitta\" outbuildings — uninsulated structures where food froze solid in winter and gear waited ready for outdoor work",
+        "claim": "Finnish farms traditionally used 'aitta' outbuildings as uninsulated cold storage structures",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to perform web search to verify this historical claim about Finnish aitta buildings.",
+      "detail": "Web search tools are not currently available. Based on training knowledge, 'aitta' is a genuine Finnish term for traditional farm outbuildings used for storage. However, without being able to search for primary sources on Finnish vernacular architecture, I cannot confirm the specific claims about them being uninsulated cold storage where food froze in winter.",
+      "sources": [
+        "Unable to search - tools require permission"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Quebec farmhouses often included an unheated \"tambour\" or enclosed porch that served as a natural refrigerator from November to April",
+        "claim": "Quebec farmhouses traditionally included unheated 'tambour' porches used as natural refrigeration",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources due to tool access restrictions in this session.",
+      "detail": "Web search and web fetch tools are not currently available, preventing verification of this architectural/historical claim about Quebec farmhouse traditions. The claim involves specific cultural and architectural terminology ('tambour') that would require access to sources on Quebec vernacular architecture or French-Canadian building traditions to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Edmonton, the average temperature from November through March ranges from -7°C to -13°C",
+        "claim": "Edmonton's average temperature November through March is -7°C to -13°C",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The temperature range is approximately correct but the specific values and presentation may differ slightly from official climate data.",
+      "detail": "Edmonton's winter climate is well-documented. According to Environment Canada climate normals, average temperatures for the November-March period typically range from around -7°C (November) to coldest in January at approximately -10°C to -14°C. The claim's range of -7°C to -13°C is reasonable and directionally correct, though official climate normals may show slightly different specific values (e.g., January averages closer to -10°C or -11°C depending on the reference period). The warmest months in the range (November, March) are typically around -4°C to -7°C, not -7°C.",
+      "sources": [
+        "Environment Canada Climate Normals (not accessed - web search unavailable)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "This temperature range is colder than any refrigerator (-1°C to 4°C)",
+        "claim": "Standard refrigerator temperature range is -1°C to 4°C",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The upper bound is correct but the lower bound and framing differ from official guidelines.",
+      "detail": "The FDA and USDA recommend keeping refrigerators at or below 40°F (4°C), which matches the upper bound. However, official guidelines typically specify the range as 32°F to 40°F (0°C to 4°C), not -1°C to 4°C. A refrigerator at -1°C would be below freezing and could freeze some foods. The standard recommendation focuses on staying below 4°C rather than specifying a lower bound at -1°C.",
+      "sources": [
+        "FDA food safety guidelines (unable to fetch - based on established food safety knowledge)",
+        "USDA refrigerator temperature recommendations"
+      ]
+    },
+    {
+      "claim": {
+        "text": "comparable to a chest freezer (-15°C to -18°C)",
+        "claim": "Standard chest freezer temperature range is -15°C to -18°C",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The temperature range is directionally correct but the standard recommendation is typically -18°C (0°F), not a range of -15°C to -18°C.",
+      "detail": "The FDA and USDA recommend freezers be set at 0°F (-18°C) or below for safe food storage. The claim of -15°C to -18°C suggests -15°C is within normal operating range, but -15°C (5°F) is actually warmer than the recommended standard. Most sources cite -18°C as the target temperature, not -15°C as a normal operating minimum. The upper bound of -18°C is correct, but -15°C would be considered insufficiently cold by food safety standards.",
+      "sources": [
+        "Unable to verify via web search - based on standard food safety knowledge (FDA recommends 0°F/-18°C)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 3,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Norwegian farmhouses featured the \"svalgangen\" — an unheated enclosed gallery wrapping the house, used for storing preserved fish, hanging meat, and keeping milk cold",
+          "claim": "Norwegian farmhouses traditionally featured 'svalgangen' - unheated enclosed galleries used for food storage",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools are not available in this session. The term 'svalgang' (or 'svalgangen' in definite form) does appear to be a genuine Norwegian architectural term referring to an external gallery or covered walkway on traditional buildings, but I cannot verify the specific claim about food storage use without access to authoritative sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Finnish farms maintained \"aitta\" outbuildings — uninsulated structures where food froze solid in winter and gear waited ready for outdoor work",
+          "claim": "Finnish farms traditionally used 'aitta' outbuildings as uninsulated cold storage structures",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to perform web search to verify this historical claim about Finnish aitta buildings.",
+        "detail": "Web search tools are not currently available. Based on training knowledge, 'aitta' is a genuine Finnish term for traditional farm outbuildings used for storage. However, without being able to search for primary sources on Finnish vernacular architecture, I cannot confirm the specific claims about them being uninsulated cold storage where food froze in winter.",
+        "sources": [
+          "Unable to search - tools require permission"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Quebec farmhouses often included an unheated \"tambour\" or enclosed porch that served as a natural refrigerator from November to April",
+          "claim": "Quebec farmhouses traditionally included unheated 'tambour' porches used as natural refrigeration",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources due to tool access restrictions in this session.",
+        "detail": "Web search and web fetch tools are not currently available, preventing verification of this architectural/historical claim about Quebec farmhouse traditions. The claim involves specific cultural and architectural terminology ('tambour') that would require access to sources on Quebec vernacular architecture or French-Canadian building traditions to verify.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

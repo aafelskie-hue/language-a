@@ -1,0 +1,82 @@
+{
+  "programs": [
+    {
+      "name": "FEMA Hazard Mitigation Grant Program (HMGP) - Safe Room Funding",
+      "location": "United States (nationwide)",
+      "year": "1988 (program established), ongoing",
+      "outcome": "Has funded thousands of residential and community safe rooms; exact numbers vary by state and year. Oklahoma alone has received substantial funding for safe room construction post-tornado events.",
+      "source": "FEMA.gov - Hazard Mitigation Assistance programs"
+    },
+    {
+      "name": "Oklahoma Safe Room Rebate Program",
+      "location": "Oklahoma, USA",
+      "year": "1999 onward (expanded after May 1999 tornado outbreak)",
+      "outcome": "State and local programs have provided rebates/grants for residential safe room construction; Moore, OK and other tornado-prone communities have installed thousands of residential safe rooms",
+      "source": "Oklahoma Department of Emergency Management"
+    },
+    {
+      "name": "FEMA Pre-Disaster Mitigation (PDM) Grant Program",
+      "location": "United States",
+      "year": "Ongoing",
+      "outcome": "Funds community safe rooms in schools, community centers, and manufactured housing parks in tornado-prone regions",
+      "source": "FEMA.gov"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "FEMA estimates that safe rooms built to ICC 500/FEMA P-361 standards provide near-absolute protection from tornado winds up to EF5 intensity (250+ mph)",
+      "source": "FEMA P-361 Safe Rooms for Tornadoes and Hurricanes",
+      "year": "2015 (third edition)"
+    },
+    {
+      "claim": "The United States averages approximately 1,200 tornadoes per year, with significant casualties in years with major outbreaks",
+      "source": "NOAA Storm Prediction Center",
+      "year": "Historical averages, updated annually"
+    },
+    {
+      "claim": "Mobile homes account for a disproportionate share of tornado fatalities despite being a smaller percentage of housing stock",
+      "source": "NOAA/National Weather Service tornado fatality statistics",
+      "year": "Multiple years of data"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "FEMA",
+      "title": "FEMA P-361: Safe Rooms for Tornadoes and Hurricanes - Guidance for Community and Residential Safe Rooms",
+      "year": "2015 (3rd edition)",
+      "finding": "Establishes engineering standards for safe room construction that can withstand EF5 tornado winds and hurricane-force winds; provides design specifications for residential and community shelters"
+    },
+    {
+      "authors": "International Code Council",
+      "title": "ICC 500: ICC/NSSA Standard for the Design and Construction of Storm Shelters",
+      "year": "2014 (with subsequent updates)",
+      "finding": "National consensus standard for storm shelter design, construction, and performance criteria"
+    },
+    {
+      "authors": "National Institute of Standards and Technology (NIST)",
+      "title": "Technical Investigation of the May 22, 2011 Tornado in Joplin, Missouri",
+      "year": "2014",
+      "finding": "Investigation of the Joplin tornado (EF5, 158 deaths) recommended improved building codes and wider adoption of safe rooms, particularly in schools and critical facilities"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Moore, Oklahoma, USA",
+      "description": "After devastating EF5 tornadoes in 1999, 2003, and 2013, Moore implemented aggressive safe room programs. Thousands of residential safe rooms have been installed with FEMA and local funding. The 2013 tornado prompted additional investment in school safe rooms.",
+      "source": "City of Moore Emergency Management; FEMA case studies"
+    },
+    {
+      "location": "Joplin, Missouri, USA",
+      "description": "Following the 2011 EF5 tornado, Joplin rebuilt with enhanced shelter requirements including safe rooms in new school construction and community shelter programs",
+      "source": "NIST Joplin Tornado Investigation; local government recovery plans"
+    },
+    {
+      "location": "Alabama (statewide)",
+      "description": "Alabama has implemented safe room programs following multiple deadly tornado outbreaks, including community safe rooms in manufactured housing communities where residents are most vulnerable",
+      "source": "Alabama Emergency Management Agency"
+    }
+  ],
+  "evidenceStrength": "strong",
+  "suggestedConfidence": 2,
+  "notes": "IMPORTANT CAVEAT: I was unable to perform live web searches to verify current statistics and find the most recent data. The evidence cited here is based on my training knowledge through early 2025. FEMA P-361 and ICC 500 are well-established standards that I'm confident exist. The programs mentioned are real federal and state initiatives. However, I cannot provide specific current outcome numbers (e.g., exact count of safe rooms built, specific lives saved) without live search verification. For final publication, recommend verifying: (1) Current FEMA HMGP safe room funding totals, (2) Post-tornado survival statistics from structures with safe rooms vs. those without, (3) Current state-level program outcomes. The pattern itself has STRONG conceptual support - safe rooms are proven technology with federal standards - but the specific statistics I could cite would need verification."
+}

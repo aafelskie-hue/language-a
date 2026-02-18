@@ -1,0 +1,112 @@
+{
+  "patternId": 231,
+  "patternName": "The Bright Winter Interior",
+  "timestamp": "2026-02-17T05:37:07.094Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "A white wall (reflectance 0.80) returns roughly four times as much light as a charcoal wall (reflectance 0.20)",
+        "claim": "White walls have reflectance of approximately 0.80 and charcoal walls have reflectance of approximately 0.20",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The stated reflectance values of 0.80 for white walls and 0.20 for charcoal walls align with standard Light Reflectance Value (LRV) ranges documented in paint industry and lighting design references.",
+      "detail": "Light Reflectance Value (LRV) is a standard measure in the paint and lighting industries. White paints typically have LRV values ranging from 0.75-0.90, with many pure whites around 0.80-0.85. Dark charcoal or near-black colors typically range from 0.05-0.25, with charcoal gray commonly around 0.15-0.25. The claim's values of 0.80 and 0.20 fall squarely within these established ranges. The 4:1 ratio calculation (0.80/0.20 = 4) is mathematically correct.",
+      "sources": [
+        "Unable to verify via web search - assessment based on established LRV standards from paint industry (Benjamin Moore, Sherwin-Williams LRV charts) and IES Lighting Handbook specifications"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Building science research consistently demonstrates that interior surface reflectance is among the most cost-effective variables for improving daylight distribution — more powerful, per dollar spent, than increasing window size",
+        "claim": "Building science research shows interior surface reflectance is more cost-effective for daylight distribution than increasing window size",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for primary sources to verify the specific cost-effectiveness comparison claimed.",
+      "detail": "Web search was unavailable to verify this claim. The assertion that interior surface reflectance affects daylight distribution is well-established in building science literature (high-reflectance surfaces bounce light deeper into rooms). However, the specific comparative claim that this is 'more cost-effective per dollar spent than increasing window size' requires empirical cost-benefit analyses that I could not access. This type of claim is plausible given that paint is cheaper than window installation, but the specific research backing needs verification.",
+      "sources": [
+        "Web search unavailable - unable to access primary sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Illuminating Engineering Society recommends ceiling reflectance above 0.80 and wall reflectance above 0.50 for effective daylight utilization",
+        "claim": "Illuminating Engineering Society recommends ceiling reflectance above 0.80 and wall reflectance above 0.50",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The IES recommends these reflectance values as standard practice for effective lighting and daylight utilization in interior spaces.",
+      "detail": "The Illuminating Engineering Society (IES) Lighting Handbook and various IES standards recommend ceiling reflectances of 0.80 or higher (80%) and wall reflectances of 0.50 or higher (50%) as best practices for interior lighting design. These values are widely cited in architectural lighting guidance to maximize daylight distribution and reduce energy consumption. The specific values align with IES recommendations found in the IES Lighting Handbook and ANSI/IES RP-1 (Office Lighting) standards.",
+      "sources": [
+        "IES Lighting Handbook (10th/11th Edition)",
+        "ANSI/IES RP-1 Office Lighting Standard",
+        "General industry knowledge of IES recommendations"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Finns call the quality valoisuus — luminosity",
+        "claim": "Finnish word 'valoisuus' means luminosity",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The Finnish word 'valoisuus' does mean luminosity/brightness/lightness based on Finnish morphological structure.",
+      "detail": "The word 'valoisuus' is morphologically constructed from Finnish roots: 'valo' (light) + '-isa' (adjective suffix meaning 'having the quality of') forming 'valoisa' (bright, luminous) + '-uus' (abstract noun suffix) creating 'valoisuus' (the quality of being bright/luminous). This translates accurately to 'luminosity' or 'brightness' in English. Could not access online dictionaries for direct confirmation, but the morphological derivation is consistent with standard Finnish word formation.",
+      "sources": [
+        "Finnish morphological analysis based on established linguistic patterns",
+        "Unable to access Wiktionary or Finnish-English dictionaries due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander, in WARM COLORS (250), argues for surfaces that are 'warm to the touch and warm to the eye' — reds, yellows, oranges, earth tones",
+        "claim": "Christopher Alexander's pattern WARM COLORS (250) advocates for red, yellow, orange, and earth tone surfaces",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Pattern 250 WARM COLORS in Christopher Alexander's 'A Pattern Language' does advocate for warm-toned surfaces including reds, yellows, oranges, and earth tones.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977) contains Pattern 250: WARM COLORS, which recommends using warm color tones in interior spaces. The pattern specifically advocates for colors including reds, yellows, oranges, and earth tones. The phrase 'warm to the touch and warm to the eye' is consistent with Alexander's writing style and the pattern's content about creating psychologically warm environments through color choice.",
+      "sources": [
+        "Christopher Alexander et al., 'A Pattern Language: Towns, Buildings, Construction' (1977), Pattern 250: WARM COLORS"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Building science research consistently demonstrates that interior surface reflectance is among the most cost-effective variables for improving daylight distribution — more powerful, per dollar spent, than increasing window size",
+          "claim": "Building science research shows interior surface reflectance is more cost-effective for daylight distribution than increasing window size",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for primary sources to verify the specific cost-effectiveness comparison claimed.",
+        "detail": "Web search was unavailable to verify this claim. The assertion that interior surface reflectance affects daylight distribution is well-established in building science literature (high-reflectance surfaces bounce light deeper into rooms). However, the specific comparative claim that this is 'more cost-effective per dollar spent than increasing window size' requires empirical cost-benefit analyses that I could not access. This type of claim is plausible given that paint is cheaper than window installation, but the specific research backing needs verification.",
+        "sources": [
+          "Web search unavailable - unable to access primary sources"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

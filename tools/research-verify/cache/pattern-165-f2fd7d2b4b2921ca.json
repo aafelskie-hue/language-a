@@ -1,0 +1,101 @@
+{
+  "patternId": 165,
+  "patternName": "The Childcare Cooperative",
+  "timestamp": "2026-02-17T02:04:08.502Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "The first parent cooperative preschools in North America appeared in the 1910s and 1920s, growing out of the progressive education movement.",
+        "claim": "First parent cooperative preschools in North America appeared in the 1910s and 1920s, emerging from the progressive education movement",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search permissions were not granted, so I could not search for primary or secondary sources about the history of parent cooperative preschools in North America. The claim about 1910s-1920s origins and connection to the progressive education movement cannot be confirmed or refuted without access to historical sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "By 2020, Parent Cooperative Preschools International (PCPI) represented over 50,000 families across the United States and Canada.",
+        "claim": "Parent Cooperative Preschools International (PCPI) represented over 50,000 families across the US and Canada by 2020",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and fetch tools were not available to verify this claim about PCPI membership statistics. The claim references a specific organization and specific membership number (50,000 families by 2020) that would require searching the organization's website or other credible sources to confirm. Without access to these tools, I cannot determine whether this statistic is accurate.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A 2019 survey of PCPI member schools found average monthly tuition of $350–$500 for part-time programs, compared to $800–$1,500 for equivalent commercial programs in the same regions.",
+        "claim": "2019 PCPI survey found cooperative preschool tuition averaged $350–$500/month for part-time vs $800–$1,500 for commercial programs in same regions",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification of the PCPI 2019 survey claim due to lack of web access permissions.",
+      "detail": "This claim references a specific 2019 survey by PCPI (Parent Cooperative Preschool International) with precise tuition ranges. Without web search access, I cannot verify whether this survey exists, whether PCPI published such data, or whether the cited figures are accurate. The specificity of the claim (exact ranges, specific year, named organization) makes it either well-sourced or potentially fabricated, but determination requires web access.",
+      "sources": [
+        "No sources accessible - web search permissions not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The first parent cooperative preschools in North America appeared in the 1910s and 1920s, growing out of the progressive education movement.",
+          "claim": "First parent cooperative preschools in North America appeared in the 1910s and 1920s, emerging from the progressive education movement",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search permissions were not granted, so I could not search for primary or secondary sources about the history of parent cooperative preschools in North America. The claim about 1910s-1920s origins and connection to the progressive education movement cannot be confirmed or refuted without access to historical sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "By 2020, Parent Cooperative Preschools International (PCPI) represented over 50,000 families across the United States and Canada.",
+          "claim": "Parent Cooperative Preschools International (PCPI) represented over 50,000 families across the US and Canada by 2020",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and fetch tools were not available to verify this claim about PCPI membership statistics. The claim references a specific organization and specific membership number (50,000 families by 2020) that would require searching the organization's website or other credible sources to confirm. Without access to these tools, I cannot determine whether this statistic is accurate.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A 2019 survey of PCPI member schools found average monthly tuition of $350–$500 for part-time programs, compared to $800–$1,500 for equivalent commercial programs in the same regions.",
+          "claim": "2019 PCPI survey found cooperative preschool tuition averaged $350–$500/month for part-time vs $800–$1,500 for commercial programs in same regions",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification of the PCPI 2019 survey claim due to lack of web access permissions.",
+        "detail": "This claim references a specific 2019 survey by PCPI (Parent Cooperative Preschool International) with precise tuition ranges. Without web search access, I cannot verify whether this survey exists, whether PCPI published such data, or whether the cited figures are accurate. The specificity of the claim (exact ranges, specific year, named organization) makes it either well-sourced or potentially fabricated, but determination requires web access.",
+        "sources": [
+          "No sources accessible - web search permissions not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "patternId": 31,
+  "patternName": "Air Quality by Design",
+  "timestamp": "2026-02-16T20:53:06.723Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Indoor air is typically two to five times more polluted than outdoor air",
+        "claim": "Indoor air pollution levels are 2-5 times higher than outdoor air pollution levels",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The EPA has consistently stated that indoor air pollutant levels are typically 2-5 times higher than outdoor levels.",
+      "detail": "This is a well-established statistic from the U.S. Environmental Protection Agency (EPA). The EPA's indoor air quality program has cited this figure for decades, noting that indoor concentrations of some pollutants can be 2-5 times higher than outdoor concentrations, and occasionally up to 100 times higher. This statistic appears in multiple EPA publications on indoor air quality.",
+      "sources": [
+        "EPA Indoor Air Quality overview page (epa.gov/indoor-air-quality-iaq)",
+        "EPA Report to Congress on Indoor Air Quality (1989)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "People spend 90% of their time indoors",
+        "claim": "People spend 90% of their time indoors",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 90% indoor time statistic is a well-established figure from the U.S. EPA that has been widely cited in indoor air quality research and policy.",
+      "detail": "The U.S. Environmental Protection Agency has long stated that Americans, on average, spend approximately 90% of their time indoors. This figure comes from EPA's indoor air quality research and has been cited in their 'Inside Story: A Guide to Indoor Air Quality' document and numerous other sources. The statistic is often referenced in discussions of indoor environmental quality, sick building syndrome, and building design.",
+      "sources": [
+        "EPA Indoor Air Quality - The Inside Story: A Guide to Indoor Air Quality",
+        "EPA Report to Congress on Indoor Air Quality (1989)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "heat recovery ventilation (HRV) provides continuous fresh air while recovering 80–90% of the heat",
+        "claim": "Heat recovery ventilation systems recover 80-90% of heat from exhausted air",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access restrictions.",
+      "detail": "Web search and web fetch tools are not currently available to verify this claim. The 80-90% heat recovery efficiency range for HRV systems is a commonly cited technical specification in the HVAC industry, but without access to search for current sources from manufacturers, DOE, or technical standards bodies, I cannot provide independent verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "design a continuous ventilation system — preferably heat recovery ventilation — that provides at least 0.3 air changes per hour of filtered fresh air",
+        "claim": "0.3 air changes per hour is an appropriate/standard ventilation rate for dwellings",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "0.3 ACH is within the range of acceptable residential ventilation rates, though modern standards often express requirements differently.",
+      "detail": "ASHRAE Standard 62.2 (Ventilation and Acceptable Indoor Air Quality in Residential Buildings) is the primary U.S. standard for residential ventilation. However, ASHRAE 62.2 typically specifies ventilation rates in CFM based on floor area and number of bedrooms, not as a fixed ACH value. The 0.3 ACH figure has been cited in various building codes and energy standards as a reasonable continuous ventilation rate for dwellings. Some energy codes (like IECC) and programs (like Passive House) reference similar rates. The claim is directionally appropriate but 'standard' is slightly imprecise since the primary standard uses a different calculation method.",
+      "sources": [
+        "ASHRAE Standard 62.2 (knowledge-based)",
+        "Building energy codes (knowledge-based)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "heat recovery ventilation (HRV) provides continuous fresh air while recovering 80–90% of the heat",
+          "claim": "Heat recovery ventilation systems recover 80-90% of heat from exhausted air",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access restrictions.",
+        "detail": "Web search and web fetch tools are not currently available to verify this claim. The 80-90% heat recovery efficiency range for HRV systems is a commonly cited technical specification in the HVAC industry, but without access to search for current sources from manufacturers, DOE, or technical standards bodies, I cannot provide independent verification.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ★☆ until additional sources are found."
+  }
+}

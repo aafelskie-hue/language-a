@@ -1,0 +1,60 @@
+{
+  "programs": [
+    {
+      "name": "Cottage Housing Ordinance",
+      "location": "Langley, Washington, USA",
+      "year": "1995",
+      "outcome": "One of the first US municipalities to adopt cottage housing regulations, enabling pocket neighborhood development",
+      "source": "City of Langley Municipal Code - needs verification"
+    },
+    {
+      "name": "Cottage Housing Development Standards",
+      "location": "Seattle, Washington, USA",
+      "year": "2006",
+      "outcome": "Allowed cottage housing as permitted use in single-family zones with density bonuses for smaller units",
+      "source": "Seattle Municipal Code 23.43.009 - needs verification"
+    },
+    {
+      "name": "Cottage Housing Regulations",
+      "location": "Kirkland, Washington, USA",
+      "year": "2000s",
+      "outcome": "Permitted cottage clusters in residential zones",
+      "source": "Kirkland Municipal Code - needs verification"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to verify specific statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Ross Chapin",
+      "title": "Pocket Neighborhoods: Creating Small-Scale Community in a Large-Scale World",
+      "year": "2011",
+      "finding": "Book documenting pocket neighborhood design principles and case studies - primary source but practitioner-authored, not peer-reviewed research"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Langley, Washington, USA",
+      "description": "Third Street Cottages - 8 cottages around shared commons, designed by Ross Chapin Architects",
+      "source": "Ross Chapin Architects portfolio - needs verification"
+    },
+    {
+      "location": "Shoreline, Washington, USA",
+      "description": "Danielson Grove - pocket neighborhood development",
+      "source": "Ross Chapin Architects - needs verification"
+    },
+    {
+      "location": "Cottage Company developments, Pacific Northwest",
+      "description": "Multiple pocket neighborhood projects in greater Seattle area",
+      "source": "The Cottage Company - needs verification"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT: I was unable to access web search to verify this information. The evidence provided is based on my training knowledge but could not be fact-checked against current sources. Key limitations: (1) No verified statistics on social outcomes or resident satisfaction, (2) Most documented examples come from one architect/firm (Ross Chapin) in one region (Pacific Northwest), (3) Limited peer-reviewed academic research on pocket neighborhoods specifically, (4) Municipal code citations need verification. The concept has a clear origin point and documented examples, but independent evaluation of outcomes is sparse. Recommend conducting actual web searches to verify all claims and find current data."
+}

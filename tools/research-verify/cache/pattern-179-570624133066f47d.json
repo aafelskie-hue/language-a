@@ -1,0 +1,159 @@
+{
+  "patternId": 179,
+  "patternName": "The Parcel Locker Network",
+  "timestamp": "2026-02-17T02:39:34.350Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "InPost, which operates over 40,000 parcel lockers across Poland, the UK, and France",
+        "claim": "InPost operates over 40,000 parcel lockers across Poland, the UK, and France",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "InPost operates a large parcel locker network across these countries, but the exact number of 40,000+ may be outdated or imprecise.",
+      "detail": "Based on my knowledge through May 2025, InPost is indeed a major parcel locker operator in Poland, UK, and France. By late 2023/early 2024, InPost reported operating approximately 38,000-42,000 lockers across their European network, with the majority in Poland (around 20,000+), significant presence in UK, and growing operations in France. The 'over 40,000' figure is plausible but should be verified against their most recent investor reports for exact current numbers.",
+      "sources": [
+        "Unable to verify - web search tools not available. Assessment based on prior knowledge of InPost investor communications and press releases through early 2024."
+      ]
+    },
+    {
+      "claim": {
+        "text": "locker pickups generate approximately 75 percent less CO₂ per parcel than home delivery",
+        "claim": "InPost reports that locker pickups generate approximately 75% less CO₂ per parcel than home delivery",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot verify InPost's CO2 emissions claims without access to search engines or InPost's official sustainability reports. This claim requires external verification that I cannot currently perform.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Poland now leads Europe in parcel locker adoption",
+        "claim": "Poland leads Europe in parcel locker adoption",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though claim aligns with known trends.",
+      "detail": "Web search and fetch permissions were not granted, preventing verification against current sources. Based on training data, Poland has been reported as a European leader in parcel locker adoption due to InPost's extensive Paczkomat network, but I cannot confirm current statistics or rankings without access to search tools.",
+      "sources": [
+        "Unable to access - web tools not permitted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "in some urban areas, lockers handle more than half of all e-commerce deliveries",
+        "claim": "In some Polish urban areas, parcel lockers handle more than 50% of all e-commerce deliveries",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Poland is a global leader in parcel locker adoption, though the 50%+ figure for urban areas specifically is hard to verify precisely.",
+      "detail": "Poland is widely recognized as having the highest parcel locker penetration in Europe, with InPost operating over 20,000 lockers. Industry reports consistently cite Poland's overall parcel locker share of e-commerce deliveries at around 30-40% nationally, with higher concentrations in major cities like Warsaw. The claim that 'some urban areas' exceed 50% is plausible given urban density and InPost's dominance, but I could not access current sources to verify this specific threshold without web search capabilities.",
+      "sources": [
+        "Unable to verify - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A locker pickup takes ninety seconds",
+        "claim": "A parcel locker pickup takes approximately 90 seconds",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "The 90-second claim is plausible but I could not search for specific sources to verify the exact duration.",
+      "detail": "Parcel locker pickups are generally designed to be quick transactions - entering a code, waiting for the door to unlock, and retrieving the package. The 90-second figure is within a reasonable range for this type of transaction, but without access to web search, I cannot locate industry studies, locker manufacturer specifications, or operational data that would confirm this specific number. The claim may come from Amazon Locker, InPost, Parcel Pending, or similar services' promotional materials or internal metrics.",
+      "sources": [
+        "Unable to search - web access not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "these achieve pickup rates above 80 percent within twenty-four hours of notification",
+        "claim": "Well-placed parcel lockers achieve pickup rates above 80% within 24 hours of notification",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search for evidence about parcel locker pickup rates because web search and web fetch permissions were not granted. This claim about 80% pickup rates within 24 hours would require access to logistics industry reports, academic studies on last-mile delivery, or parcel locker operator data to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A delivery driver completing thirty door-to-door stops in a neighborhood drives roughly twelve to fifteen kilometers of local streets",
+        "claim": "A delivery driver completing 30 door-to-door stops drives approximately 12-15 kilometers of local streets",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to web search permissions not being granted.",
+      "detail": "I attempted to search for delivery route statistics and average distances per stop for local delivery drivers, but web search and web fetch permissions were not available. The claim that 30 stops equals 12-15km (averaging 0.4-0.5km per stop) sounds plausible for urban/suburban door-to-door delivery, but I cannot verify this without access to industry data or logistics research.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 2,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "locker pickups generate approximately 75 percent less CO₂ per parcel than home delivery",
+          "claim": "InPost reports that locker pickups generate approximately 75% less CO₂ per parcel than home delivery",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot verify InPost's CO2 emissions claims without access to search engines or InPost's official sustainability reports. This claim requires external verification that I cannot currently perform.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Poland now leads Europe in parcel locker adoption",
+          "claim": "Poland leads Europe in parcel locker adoption",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access, though claim aligns with known trends.",
+        "detail": "Web search and fetch permissions were not granted, preventing verification against current sources. Based on training data, Poland has been reported as a European leader in parcel locker adoption due to InPost's extensive Paczkomat network, but I cannot confirm current statistics or rankings without access to search tools.",
+        "sources": [
+          "Unable to access - web tools not permitted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "these achieve pickup rates above 80 percent within twenty-four hours of notification",
+          "claim": "Well-placed parcel lockers achieve pickup rates above 80% within 24 hours of notification",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search for evidence about parcel locker pickup rates because web search and web fetch permissions were not granted. This claim about 80% pickup rates within 24 hours would require access to logistics industry reports, academic studies on last-mile delivery, or parcel locker operator data to verify.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "programs": [
+    {
+      "name": "Federal Historic Preservation Tax Incentives Program",
+      "location": "United States",
+      "year": "1976 (ongoing)",
+      "outcome": "Provides 20% tax credit for certified rehabilitation of historic structures; has supported conversion of thousands of industrial buildings",
+      "source": "National Park Service - UNABLE TO VERIFY CURRENT STATISTICS WITHOUT WEB ACCESS"
+    },
+    {
+      "name": "SoHo Artist Certification (Loft Law)",
+      "location": "New York City, USA",
+      "year": "1971/1982",
+      "outcome": "Legalized artist live-work spaces in former industrial lofts; established model for adaptive reuse zoning",
+      "source": "NYC Department of Buildings - UNABLE TO VERIFY CURRENT DETAILS WITHOUT WEB ACCESS"
+    }
+  ],
+  "statistics": [],
+  "studies": [],
+  "examples": [
+    {
+      "name": "SoHo Cast-Iron District",
+      "location": "New York City, USA",
+      "description": "Pioneer district for loft conversions; former textile manufacturing buildings converted to artist studios and residences starting in 1960s",
+      "source": "Historic district designation 1973 - UNABLE TO VERIFY CURRENT SOURCE"
+    },
+    {
+      "name": "Tate Modern",
+      "location": "London, UK",
+      "description": "Bankside Power Station converted to major art museum (2000); demonstrates large-scale industrial adaptive reuse",
+      "source": "UNABLE TO VERIFY WITHOUT WEB ACCESS"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL CAVEAT: I was unable to access web search or fetch tools to verify any of this information. The items listed above are based on my training knowledge but I CANNOT confirm current accuracy, provide specific statistics, or cite verifiable URLs. This research task requires web access to complete properly. The pattern concept (industrial loft conversion) is well-documented historically, but I cannot provide the verifiable citations, specific statistics, or academic studies required for a rigorous evidence assessment. Please re-run this task with web search permissions enabled."
+}

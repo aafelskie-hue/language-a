@@ -1,0 +1,144 @@
+{
+  "patternId": 91,
+  "patternName": "The Tool Library",
+  "timestamp": "2026-02-16T16:36:47.546Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "A typical homeowner owns $5,000–$10,000 in tools used fewer than ten times each",
+        "claim": "Typical homeowner owns $5,000-$10,000 worth of tools, each used fewer than ten times",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "This claim requires web search to verify against primary sources, but web search tools are not available. The statistic about underused homeowner tools is commonly cited in sharing economy contexts, but the specific dollar range and usage frequency cannot be confirmed without access to original research or surveys.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "most tools spend 99% of their life in storage",
+        "claim": "Most tools spend 99% of their life in storage",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; this is a commonly repeated claim in sharing economy discussions but its original source is unclear.",
+      "detail": "This statistic is frequently cited in sharing economy and tool library advocacy materials, but I cannot search for the primary source without web access. The 99% figure may be an approximation or rhetorical device rather than a rigorously measured statistic. Similar claims have been made about cars (used only 4-5% of the time) with better documentation.",
+      "sources": [
+        "Unable to search - no web access granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Toronto's tool library, founded in 2013, circulates thousands of tools to members for a small annual fee",
+        "claim": "Toronto Tool Library was founded in 2013",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were requested but not granted. Without access to external sources, I cannot confirm or deny when the Toronto Tool Library was founded. The claim cannot be evaluated without the ability to search for evidence.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Toronto's tool library, founded in 2013, circulates thousands of tools to members for a small annual fee",
+        "claim": "Toronto Tool Library circulates thousands of tools to members",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current sources.",
+      "detail": "Web search and web fetch permissions were not granted, preventing me from accessing current information about the Toronto Tool Library. From training data, the Toronto Tool Library does exist and was founded in 2013, and tool libraries typically circulate thousands of tools, but I cannot confirm current numbers or operational status without live web access.",
+      "sources": [
+        "Unable to access web sources - permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Sacramento, Berkeley, and dozens of other cities have followed",
+        "claim": "Sacramento and Berkeley have tool libraries modeled after Toronto's",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0,
+      "summary": "Verification failed after retries",
+      "detail": "Error: Failed to parse JSON: Unexpected token 'I', \"I need per\"... is not valid JSON",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Sacramento, Berkeley, and dozens of other cities have followed",
+        "claim": "Dozens of cities have established tool libraries",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the exact number of cities with tool libraries due to lack of web search access.",
+      "detail": "I was unable to search the web to verify this claim. Tool libraries are a known concept and cities like Sacramento and Berkeley are commonly cited as having them, but the claim of 'dozens of other cities' requires verification of actual numbers. The claim uses intentionally vague language ('dozens') which would require checking databases or directories of tool libraries to confirm.",
+      "sources": [
+        "No sources available - web search access was not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 6,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A typical homeowner owns $5,000–$10,000 in tools used fewer than ten times each",
+          "claim": "Typical homeowner owns $5,000-$10,000 worth of tools, each used fewer than ten times",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this environment.",
+        "detail": "This claim requires web search to verify against primary sources, but web search tools are not available. The statistic about underused homeowner tools is commonly cited in sharing economy contexts, but the specific dollar range and usage frequency cannot be confirmed without access to original research or surveys.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "most tools spend 99% of their life in storage",
+          "claim": "Most tools spend 99% of their life in storage",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; this is a commonly repeated claim in sharing economy discussions but its original source is unclear.",
+        "detail": "This statistic is frequently cited in sharing economy and tool library advocacy materials, but I cannot search for the primary source without web access. The 99% figure may be an approximation or rhetorical device rather than a rigorously measured statistic. Similar claims have been made about cars (used only 4-5% of the time) with better documentation.",
+        "sources": [
+          "Unable to search - no web access granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Toronto's tool library, founded in 2013, circulates thousands of tools to members for a small annual fee",
+          "claim": "Toronto Tool Library was founded in 2013",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were requested but not granted. Without access to external sources, I cannot confirm or deny when the Toronto Tool Library was founded. The claim cannot be evaluated without the ability to search for evidence.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

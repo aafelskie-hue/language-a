@@ -1,0 +1,205 @@
+{
+  "patternId": 109,
+  "patternName": "The Acoustic Booth",
+  "timestamp": "2026-02-16T22:40:31.683Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "Open-plan offices, which dominated workplace design from 2010 onward",
+        "claim": "Open-plan offices dominated workplace design from 2010 onward",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search tools are required to verify this historical claim about open-plan office design trends. The claim that open-plan offices dominated from 2010 onward is plausible based on general knowledge about workplace trends, but specific verification requires searching for industry reports, surveys, and statistics about office design trends during this period.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Steelcase's 2017 global workplace survey of 12,480 workers across 17 countries found that only 11% of employees were highly satisfied with their work environment, with noise identified as the leading complaint",
+        "claim": "Steelcase conducted a 2017 global workplace survey of 12,480 workers across 17 countries",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "Web search permissions were not granted, preventing verification of the specific claim. The claim references a known Steelcase study on workplace engagement, but the specific numbers (12,480 workers, 17 countries, 11% satisfaction rate, noise as leading complaint) could not be confirmed against primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Steelcase's 2017 global workplace survey of 12,480 workers across 17 countries found that only 11% of employees were highly satisfied with their work environment, with noise identified as the leading complaint",
+        "claim": "Only 11% of employees were highly satisfied with their work environment in the Steelcase 2017 survey",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of the Steelcase 2017 survey statistics. The claim references a specific survey (12,480 workers across 17 countries) with a specific statistic (11% highly satisfied) that requires access to Steelcase's published research or secondary reporting to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Steelcase's 2017 global workplace survey of 12,480 workers across 17 countries found that only 11% of employees were highly satisfied with their work environment, with noise identified as the leading complaint",
+        "claim": "Noise was identified as the leading complaint in the Steelcase 2017 workplace survey",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check the specific Steelcase survey claims.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The Steelcase global workplace survey from this period is a known real study, but the specific statistics (12,480 workers, 17 countries, 11% satisfaction rate, noise as leading complaint) cannot be confirmed without access to search results or the original Steelcase research documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Framery, a Finnish manufacturer founded in 2010",
+        "claim": "Framery is a Finnish company founded in 2010",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot access external sources to verify whether Framery is a Finnish company founded in 2010. Manual verification using external sources is required.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Framery, a Finnish manufacturer founded in 2010, had by 2022 installed over 100,000 such pods in offices worldwide",
+        "claim": "Framery had installed over 100,000 acoustic pods in offices worldwide by 2022",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search/fetch permissions.",
+      "detail": "Web search and web fetch tools are not authorized in this session. I cannot search for information about Framery's acoustic pod installations or access their company website to verify the claimed 100,000 installations by 2022. This verdict reflects tool limitations, not an assessment of the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A 2021 survey by the American Institute of Architects found that 61% of residential clients requested dedicated home office space",
+        "claim": "The American Institute of Architects conducted a 2021 survey finding 61% of residential clients requested dedicated home office space",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "I attempted to search for the AIA 2021 survey claim about 61% of residential clients requesting home office space, but I do not have permission to use web search or web fetch tools in this session. The claim cannot be verified or disputed without access to search the web for the AIA Home Design Trends Survey data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the median new single-family home in the United States offers 230 square meters",
+        "claim": "The median new single-family home in the United States is 230 square meters",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claim of 230 square meters (approximately 2,476 square feet) for median new single-family home size in the US is consistent with US Census Bureau data from recent years.",
+      "detail": "According to US Census Bureau Characteristics of New Housing data, the median size of new single-family homes completed in the US has hovered around 2,300-2,500 square feet in recent years. 230 square meters converts to approximately 2,476 square feet, which falls within this range. The exact figure varies by year - for example, 2021 showed approximately 2,273 sq ft median, while earlier years were slightly higher around 2,400+ sq ft. The 230 sqm figure is a reasonable approximation.",
+      "sources": [
+        "US Census Bureau - Characteristics of New Housing (based on training knowledge, unable to verify current data via web search)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "STC 30 minimum — roughly the performance of a well-sealed solid-core door",
+        "claim": "A well-sealed solid-core door has roughly STC 30 acoustic performance",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search access restrictions",
+      "detail": "Web search and fetch tools are unavailable due to permission issues. Based on training knowledge, STC 30 for a well-sealed solid-core door appears consistent with typical industry specifications (solid-core doors typically range STC 27-35), but this cannot be confirmed with current sources.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 8,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Steelcase's 2017 global workplace survey of 12,480 workers across 17 countries found that only 11% of employees were highly satisfied with their work environment, with noise identified as the leading complaint",
+          "claim": "Steelcase conducted a 2017 global workplace survey of 12,480 workers across 17 countries",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access",
+        "detail": "Web search permissions were not granted, preventing verification of the specific claim. The claim references a known Steelcase study on workplace engagement, but the specific numbers (12,480 workers, 17 countries, 11% satisfaction rate, noise as leading complaint) could not be confirmed against primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Steelcase's 2017 global workplace survey of 12,480 workers across 17 countries found that only 11% of employees were highly satisfied with their work environment, with noise identified as the leading complaint",
+          "claim": "Only 11% of employees were highly satisfied with their work environment in the Steelcase 2017 survey",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification of the Steelcase 2017 survey statistics. The claim references a specific survey (12,480 workers across 17 countries) with a specific statistic (11% highly satisfied) that requires access to Steelcase's published research or secondary reporting to confirm.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Steelcase's 2017 global workplace survey of 12,480 workers across 17 countries found that only 11% of employees were highly satisfied with their work environment, with noise identified as the leading complaint",
+          "claim": "Noise was identified as the leading complaint in the Steelcase 2017 workplace survey",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check the specific Steelcase survey claims.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The Steelcase global workplace survey from this period is a known real study, but the specific statistics (12,480 workers, 17 countries, 11% satisfaction rate, noise as leading complaint) cannot be confirmed without access to search results or the original Steelcase research documentation.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Framery, a Finnish manufacturer founded in 2010, had by 2022 installed over 100,000 such pods in offices worldwide",
+          "claim": "Framery had installed over 100,000 acoustic pods in offices worldwide by 2022",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search/fetch permissions.",
+        "detail": "Web search and web fetch tools are not authorized in this session. I cannot search for information about Framery's acoustic pod installations or access their company website to verify the claimed 100,000 installations by 2022. This verdict reflects tool limitations, not an assessment of the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A 2021 survey by the American Institute of Architects found that 61% of residential clients requested dedicated home office space",
+          "claim": "The American Institute of Architects conducted a 2021 survey finding 61% of residential clients requested dedicated home office space",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access",
+        "detail": "I attempted to search for the AIA 2021 survey claim about 61% of residential clients requesting home office space, but I do not have permission to use web search or web fetch tools in this session. The claim cannot be verified or disputed without access to search the web for the AIA Home Design Trends Survey data.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

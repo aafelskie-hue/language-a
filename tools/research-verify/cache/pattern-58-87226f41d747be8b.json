@@ -1,0 +1,60 @@
+{
+  "patternId": 58,
+  "patternName": "The Winter City Street",
+  "timestamp": "2026-02-16T21:20:53.765Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "Nordic cities — Oulu, Finland; Tromsø, Norway; Luleå, Sweden — have demonstrated that winter cities can be vibrant twelve months a year",
+        "claim": "Oulu (Finland), Tromsø (Norway), and Luleå (Sweden) have implemented winter city design strategies that maintain year-round urban vibrancy",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0,
+      "summary": "Verification failed after retries",
+      "detail": "Error: Failed to parse JSON: Unexpected token 'I', \"I need per\"... is not valid JSON",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The design moves: heated sidewalks at key intersections, wind-breaking building placement, south-facing building faces along pedestrian routes, covered walkways at transit stops, and snow storage designed into the streetscape",
+        "claim": "Nordic cities (Oulu, Tromsø, Luleå) use these specific design features: heated sidewalks at intersections, wind-breaking building placement, south-facing pedestrian routes, covered transit stop walkways, and integrated snow storage",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.5,
+      "summary": "Nordic cities do employ various winter-friendly design features, but the specific claim aggregates practices that may not all exist in each named city.",
+      "detail": "Oulu, Finland is indeed known as a 'winter cycling city' and uses some winter-adapted infrastructure. Nordic cities generally do incorporate wind protection in building placement, snow storage planning, and transit shelter design. However, heated sidewalks are expensive and typically limited to specific high-traffic areas (like central squares) rather than 'key intersections' broadly. Without web access to verify current implementations in Tromsø and Luleå specifically, I cannot confirm all five design features are present across all three cities as claimed.",
+      "sources": [
+        "Unable to verify - web search/fetch permissions not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Nordic cities — Oulu, Finland; Tromsø, Norway; Luleå, Sweden — have demonstrated that winter cities can be vibrant twelve months a year",
+          "claim": "Oulu (Finland), Tromsø (Norway), and Luleå (Sweden) have implemented winter city design strategies that maintain year-round urban vibrancy",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0,
+        "summary": "Verification failed after retries",
+        "detail": "Error: Failed to parse JSON: Unexpected token 'I', \"I need per\"... is not valid JSON",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

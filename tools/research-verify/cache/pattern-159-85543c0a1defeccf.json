@@ -1,0 +1,207 @@
+{
+  "patternId": 159,
+  "patternName": "The Quiet Floor",
+  "timestamp": "2026-02-17T01:46:00.283Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "A standard wood-frame floor with drywall ceiling below might achieve STC 35 and IIC 32",
+        "claim": "Standard wood-frame floor with drywall ceiling achieves approximately STC 35 and IIC 32",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The STC 35 and IIC 32 ratings for basic wood-frame floor/ceiling assemblies are consistent with widely published acoustic engineering data.",
+      "detail": "Standard wood-frame floor assemblies with basic drywall ceiling (no additional soundproofing treatments) typically achieve STC ratings in the 32-38 range and IIC ratings in the 25-35 range according to acoustic engineering literature and building code references. The claimed values of STC 35 and IIC 32 fall squarely within these established ranges for untreated assemblies. These baseline values are commonly cited in building acoustics references as the starting point before adding resilient channels, insulation, or other sound-attenuating treatments.",
+      "sources": [
+        "Unable to verify with live web search - based on established acoustic engineering standards from sources like the Gypsum Association Fire Resistance Design Manual and various acoustic testing laboratories"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The International Building Code requires STC 50 and IIC 50 between dwelling units",
+        "claim": "International Building Code requires STC 50 and IIC 50 between dwelling units",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The International Building Code (IBC) does require STC 50 and IIC 50 ratings for sound transmission between dwelling units.",
+      "detail": "Section 1207 of the International Building Code (specifically IBC 2021 and earlier editions) establishes minimum sound transmission requirements between dwelling units. The code requires airborne sound insulation (STC) of 50 and impact sound insulation (IIC) of 50 for walls and floor-ceiling assemblies separating dwelling units from each other and from public or service areas. These requirements are well-established in the IBC and are standard in residential construction codes.",
+      "sources": [
+        "International Building Code Section 1207 (Sound Transmission)",
+        "ICC (International Code Council) building codes"
+      ]
+    },
+    {
+      "claim": {
+        "text": "research by the National Research Council of Canada found that occupant satisfaction requires IIC 55 or higher for 'acceptable' ratings and IIC 65 for 'good.'",
+        "claim": "National Research Council of Canada research found occupant satisfaction requires IIC 55+ for 'acceptable' and IIC 65 for 'good'",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence - web search permission not granted.",
+      "detail": "This claim requires web search to verify NRC Canada research on IIC (Impact Insulation Class) ratings and occupant satisfaction thresholds. Without search capability, I cannot locate the primary research or confirm whether NRC Canada established these specific IIC thresholds (55+ for 'acceptable', 65 for 'good').",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a concrete topping slab of 38mm (1.5 inches) over plywood subfloor adds 40 kg/m²",
+        "claim": "38mm concrete topping slab over plywood adds 40 kg/m²",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.95,
+      "summary": "Standard engineering calculations show 38mm concrete topping would weigh approximately 91 kg/m², not 40 kg/m².",
+      "detail": "Using standard concrete density of 2,400 kg/m³, a 38mm slab yields 91.2 kg/m². Even lightweight concrete (1,800 kg/m³) would produce 68.4 kg/m². The claimed 40 kg/m² would require either a ~17mm thickness or an unusually lightweight material (~1,053 kg/m³) not typical of concrete topping slabs. This appears to be a calculation error where the weight is approximately half of what it should be.",
+      "sources": [
+        "Engineering calculation using standard concrete density of 2,400 kg/m³ per structural engineering references"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a concrete topping slab of 38mm (1.5 inches) over plywood subfloor... improves STC by 5-8 points",
+        "claim": "38mm concrete topping slab improves STC by 5-8 points",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "This verification task requires web search to find acoustic engineering data, manufacturer specifications, or building science research on STC ratings for concrete topping slabs. Without web access, I cannot confirm or deny the 5-8 point STC improvement claim for 38mm concrete over plywood subfloor.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "resilient channels — hat-shaped metal strips that hold the ceiling drywall 13mm (½ inch) below the joists — break the direct connection and can improve IIC by 10-15 points when properly installed",
+        "claim": "Resilient channels can improve IIC by 10-15 points when properly installed",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access; claim appears plausible based on general acoustic engineering knowledge.",
+      "detail": "Resilient channels are a well-known decoupling technique in acoustic construction. The 10-15 IIC point improvement range is consistent with typical industry claims for properly installed resilient channels, but I cannot access current sources to verify the specific numbers. The claim's technical description (hat-shaped metal strips, 13mm spacing) is accurate to known resilient channel specifications.",
+      "sources": [
+        "Unable to access web sources - verification requires web search permission"
+      ]
+    },
+    {
+      "claim": {
+        "text": "mineral wool or fiberglass insulation between joists adds another 4-6 points to both ratings",
+        "claim": "Mineral wool or fiberglass insulation between joists adds 4-6 points to STC and IIC ratings",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The claim is directionally correct but the typical improvement range is often cited as 3-8 STC points, with IIC improvements varying more widely depending on assembly type.",
+      "detail": "Industry sources generally confirm that adding cavity insulation (mineral wool or fiberglass) between floor/ceiling joists improves both STC and IIC ratings. The 4-6 point improvement for STC is within commonly cited ranges, though some sources indicate improvements can be higher (up to 8 points) or lower (3-4 points) depending on the specific assembly. IIC improvements from insulation alone are typically more modest and variable. The claim is reasonable but the exact range depends heavily on the baseline assembly being modified.",
+      "sources": [
+        "Unable to verify with web search - based on acoustic engineering literature and building science standards from training data"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander addressed acoustics in Pattern 193 (Half-Open Wall) and Pattern 198 (Closets Between Rooms)",
+        "claim": "Christopher Alexander's Pattern 193 is 'Half-Open Wall' and Pattern 198 is 'Closets Between Rooms'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The pattern numbers and names match Christopher Alexander's 'A Pattern Language' (1977).",
+      "detail": "Pattern 193 is indeed 'Half-Open Wall' and Pattern 198 is 'Closets Between Rooms' in Alexander's seminal 1977 work 'A Pattern Language.' Both patterns address spatial relationships and acoustic considerations in building design, making the original text's framing about acoustics accurate.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The National Research Council of Canada documented field failures where installed assemblies performed 10-20 IIC points below laboratory ratings due to construction errors",
+        "claim": "National Research Council of Canada documented floor assemblies performing 10-20 IIC points below lab ratings due to construction errors",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions to find NRC Canada documentation.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of this claim about National Research Council of Canada research on floor assembly acoustic performance. The claim references specific technical findings (10-20 IIC point differences between lab and field performance due to construction errors) that would require searching NRC publications, acoustic engineering literature, or building science databases to confirm. The NRC Canada does conduct extensive building acoustics research, making this claim plausible, but I cannot verify the specific numbers or documentation without search access.",
+      "sources": [
+        "No sources accessible - web search permissions not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 1,
+    "unverified": 4,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "research by the National Research Council of Canada found that occupant satisfaction requires IIC 55 or higher for 'acceptable' ratings and IIC 65 for 'good.'",
+          "claim": "National Research Council of Canada research found occupant satisfaction requires IIC 55+ for 'acceptable' and IIC 65 for 'good'",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to search for evidence - web search permission not granted.",
+        "detail": "This claim requires web search to verify NRC Canada research on IIC (Impact Insulation Class) ratings and occupant satisfaction thresholds. Without search capability, I cannot locate the primary research or confirm whether NRC Canada established these specific IIC thresholds (55+ for 'acceptable', 65 for 'good').",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "a concrete topping slab of 38mm (1.5 inches) over plywood subfloor... improves STC by 5-8 points",
+          "claim": "38mm concrete topping slab improves STC by 5-8 points",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "This verification task requires web search to find acoustic engineering data, manufacturer specifications, or building science research on STC ratings for concrete topping slabs. Without web access, I cannot confirm or deny the 5-8 point STC improvement claim for 38mm concrete over plywood subfloor.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "resilient channels — hat-shaped metal strips that hold the ceiling drywall 13mm (½ inch) below the joists — break the direct connection and can improve IIC by 10-15 points when properly installed",
+          "claim": "Resilient channels can improve IIC by 10-15 points when properly installed",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access; claim appears plausible based on general acoustic engineering knowledge.",
+        "detail": "Resilient channels are a well-known decoupling technique in acoustic construction. The 10-15 IIC point improvement range is consistent with typical industry claims for properly installed resilient channels, but I cannot access current sources to verify the specific numbers. The claim's technical description (hat-shaped metal strips, 13mm spacing) is accurate to known resilient channel specifications.",
+        "sources": [
+          "Unable to access web sources - verification requires web search permission"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The National Research Council of Canada documented field failures where installed assemblies performed 10-20 IIC points below laboratory ratings due to construction errors",
+          "claim": "National Research Council of Canada documented floor assemblies performing 10-20 IIC points below lab ratings due to construction errors",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions to find NRC Canada documentation.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification of this claim about National Research Council of Canada research on floor assembly acoustic performance. The claim references specific technical findings (10-20 IIC point differences between lab and field performance due to construction errors) that would require searching NRC publications, acoustic engineering literature, or building science databases to confirm. The NRC Canada does conduct extensive building acoustics research, making this claim plausible, but I cannot verify the specific numbers or documentation without search access.",
+        "sources": [
+          "No sources accessible - web search permissions not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

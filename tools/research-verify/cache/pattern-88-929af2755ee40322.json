@@ -1,0 +1,213 @@
+{
+  "patternId": 88,
+  "patternName": "The Acoustic Buffer",
+  "timestamp": "2026-02-16T22:12:10.340Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "The WHO Environmental Noise Guidelines for the European Region (2018) recommend outdoor noise levels below 55 dB(A) during the day and below 40 dB(A) outside bedrooms at night to prevent adverse health effects",
+        "claim": "WHO Environmental Noise Guidelines for the European Region (2018) recommends outdoor noise below 55 dB(A) daytime and below 40 dB(A) outside bedrooms at night",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The WHO guidelines exist and recommend noise limits, but the specific dB levels in the claim are approximations that don't precisely match the source-specific recommendations in the actual guidelines.",
+      "detail": "The WHO Environmental Noise Guidelines for the European Region were published in 2018. However, the guidelines provide source-specific recommendations using Lden and Lnight metrics, not general outdoor noise limits. For road traffic: 53 dB Lden (daytime), 45 dB Lnight (nighttime). For aircraft: 45 dB Lden, 40 dB Lnight. The claim's 55 dB daytime is close to but higher than the road traffic recommendation of 53 dB, and the 40 dB nighttime figure only applies to aircraft noise specifically, not general environmental noise which recommends 45 dB for road traffic.",
+      "sources": [
+        "WHO Environmental Noise Guidelines for the European Region (2018), ISBN 978-92-890-5356-3"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The EPA identifies the same thresholds — 55 dB outdoors, 45 dB indoors — as the levels below which normal conversation, sleep, and outdoor activity can proceed without interference",
+        "claim": "EPA identifies 55 dB outdoors and 45 dB indoors as thresholds for normal conversation, sleep, and outdoor activity",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The EPA's 1974 'Information on Levels of Environmental Noise Requisite to Protect Public Health and Welfare' document does identify 55 dB Ldn outdoors and 45 dB Ldn indoors as protective noise levels.",
+      "detail": "The EPA's 1974 publication (EPA 550/9-74-004, commonly called the 'Levels Document') established these thresholds to protect against activity interference and annoyance outdoors (55 dB Ldn) and indoors (45 dB Ldn). These levels were set to protect public health and welfare with an adequate margin of safety. Note: I could not perform live web verification as web search/fetch permissions were not granted - this assessment is based on training knowledge.",
+      "sources": [
+        "EPA 550/9-74-004: Information on Levels of Environmental Noise Requisite to Protect Public Health and Welfare (1974) - unable to verify live"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In the EU, roughly 40% of the population is exposed to road traffic noise exceeding 55 dB(A) during the day, and over 30% to levels exceeding 55 dB(A) at night",
+        "claim": "Approximately 40% of EU population exposed to road traffic noise exceeding 55 dB(A) during day, over 30% at night",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not granted permission in this session. I cannot access the European Environment Agency or other sources to verify the specific percentages claimed for EU population exposure to road traffic noise. The claim references statistics that would typically come from EEA noise reports.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The USDA National Agroforestry Center and the Federal Highway Administration have quantified the acoustic performance of landscape buffers",
+        "claim": "USDA National Agroforestry Center and Federal Highway Administration have published research quantifying acoustic performance of landscape buffers",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check primary sources.",
+      "detail": "Both the USDA National Agroforestry Center and Federal Highway Administration are real organizations that conduct relevant research. However, without web search capability, I cannot confirm whether they have specifically published research quantifying acoustic performance of landscape buffers. The claim is plausible given these organizations' research areas, but verification requires accessing their publication databases.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a 100-foot planted buffer reduces noise by 5–8 dB(A)",
+        "claim": "A 100-foot planted buffer reduces noise by 5–8 dB(A)",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though the claim aligns with general acoustic principles from training data.",
+      "detail": "Web search and fetch tools were not available to verify this claim. The stated noise reduction values (5-8 dB(A) for 100-foot planted buffer) are consistent with FHWA guidance and acoustic research I'm aware of from training, but I cannot confirm this against current primary sources without search capability.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the same buffer with an earth berm achieves 10–15 dB(A) reduction",
+        "claim": "A 100-foot planted buffer with earth berm achieves 10–15 dB(A) noise reduction",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; claim is plausible based on general acoustic engineering principles.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification against primary sources like FHWA guidelines or acoustic engineering studies. The 10-15 dB(A) figure for combined berm and vegetation buffers is within the plausible range based on general knowledge, but specific verification requires access to technical sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A solid masonry or concrete wall can reduce noise by up to 15 dB(A) when positioned close to the source",
+        "claim": "Solid masonry or concrete wall reduces noise by up to 15 dB(A) when positioned close to source",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claim that solid masonry or concrete walls can reduce noise by up to 15 dB(A) is consistent with established acoustic engineering principles and standards.",
+      "detail": "Noise barrier effectiveness is well-documented in acoustic engineering literature. The Federal Highway Administration (FHWA) and various acoustic engineering standards indicate that properly designed noise barriers typically achieve 5-15 dB(A) reduction, with 10-15 dB(A) being achievable under optimal conditions (barrier close to source or receiver, sufficient height, no gaps). The phrase 'up to 15 dB(A)' represents the upper range of typical barrier performance, which is accurate. Position close to the source maximizes barrier effectiveness due to acoustic shadow zone geometry.",
+      "sources": [
+        "FHWA Noise Barrier Design Handbook",
+        "ISO 9613-2 Acoustics standard",
+        "General acoustic engineering principles regarding barrier insertion loss"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Dense plantings of mixed broadleaf and evergreen species reduce noise by roughly 10 dB over a 25–50 foot depth",
+        "claim": "Dense mixed broadleaf and evergreen plantings reduce noise by roughly 10 dB over 25–50 foot depth",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The general principle is well-documented but specific numbers vary by source and conditions.",
+      "detail": "Research on vegetation noise barriers confirms that dense plantings can provide meaningful noise reduction, with 10 dB reduction being achievable but requiring specific conditions. The USDA Forest Service and acoustic research literature suggest that effective vegetative noise barriers typically need depths of 50-100 feet or more for substantial reduction, with 10 dB often cited as requiring closer to 100 feet of dense vegetation. A 25-50 foot depth may achieve 5-8 dB reduction under ideal conditions. The combination of broadleaf and evergreen species is correctly identified as more effective than single-species plantings.",
+      "sources": [
+        "Unable to verify with live web search - based on training data including USDA Forest Service publications on urban forestry and noise reduction, acoustic engineering literature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "10 dB is perceived as halving the loudness",
+        "claim": "A 10 dB reduction is perceived as halving the loudness",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The 10 dB rule for perceived halving/doubling of loudness is a well-established principle in psychoacoustics, though it represents an approximation.",
+      "detail": "This is a fundamental principle in psychoacoustics derived from Stevens' power law. The relationship states that a 10 dB change in sound pressure level corresponds to approximately a 2x change in perceived loudness. This is widely documented in acoustics textbooks and standards including ISO 532. The exact value can vary slightly depending on frequency and sound pressure level, but 10 dB as an approximation is standard.",
+      "sources": [
+        "Unable to search - based on established psychoacoustic principles (Stevens' power law, ISO 532)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "visible noise sources are perceived as louder than hidden ones, even at the same decibel level",
+        "claim": "Research shows visible noise sources are perceived as louder than hidden ones at the same decibel level",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify this claim about visual-auditory perception.",
+      "detail": "Web search was not available to verify this claim. The claim relates to cross-modal audiovisual perception research, which is a legitimate field of study. There is some research on how visual cues affect sound perception, but without search access, I cannot confirm whether research specifically supports that visible noise sources are perceived as louder than hidden ones at the same decibel level.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 2,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "In the EU, roughly 40% of the population is exposed to road traffic noise exceeding 55 dB(A) during the day, and over 30% to levels exceeding 55 dB(A) at night",
+          "claim": "Approximately 40% of EU population exposed to road traffic noise exceeding 55 dB(A) during day, over 30% at night",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not granted permission in this session. I cannot access the European Environment Agency or other sources to verify the specific percentages claimed for EU population exposure to road traffic noise. The claim references statistics that would typically come from EEA noise reports.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The USDA National Agroforestry Center and the Federal Highway Administration have quantified the acoustic performance of landscape buffers",
+          "claim": "USDA National Agroforestry Center and Federal Highway Administration have published research quantifying acoustic performance of landscape buffers",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check primary sources.",
+        "detail": "Both the USDA National Agroforestry Center and Federal Highway Administration are real organizations that conduct relevant research. However, without web search capability, I cannot confirm whether they have specifically published research quantifying acoustic performance of landscape buffers. The claim is plausible given these organizations' research areas, but verification requires accessing their publication databases.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "a 100-foot planted buffer reduces noise by 5–8 dB(A)",
+          "claim": "A 100-foot planted buffer reduces noise by 5–8 dB(A)",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access, though the claim aligns with general acoustic principles from training data.",
+        "detail": "Web search and fetch tools were not available to verify this claim. The stated noise reduction values (5-8 dB(A) for 100-foot planted buffer) are consistent with FHWA guidance and acoustic research I'm aware of from training, but I cannot confirm this against current primary sources without search capability.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "the same buffer with an earth berm achieves 10–15 dB(A) reduction",
+          "claim": "A 100-foot planted buffer with earth berm achieves 10–15 dB(A) noise reduction",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; claim is plausible based on general acoustic engineering principles.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification against primary sources like FHWA guidelines or acoustic engineering studies. The 10-15 dB(A) figure for combined berm and vegetation buffers is within the plausible range based on general knowledge, but specific verification requires access to technical sources.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "patternId": 188,
+  "patternName": "The Firebreak Landscape",
+  "timestamp": "2026-02-17T03:11:48.118Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "California's Community Wildfire Protection Plans (CWPPs), mandated by federal law since 2003",
+        "claim": "Community Wildfire Protection Plans (CWPPs) were mandated by federal law in 2003",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "CWPPs were authorized (not mandated) by the Healthy Forests Restoration Act of 2003.",
+      "detail": "The Healthy Forests Restoration Act (HFRA) of 2003 authorized and encouraged Community Wildfire Protection Plans but did not mandate them. CWPPs are voluntary plans that communities can develop to prioritize areas for hazardous fuel reduction treatments. The law provides incentives for communities with CWPPs (such as priority for federal hazardous fuel reduction funding) but does not require communities to create them. The claim incorrectly characterizes CWPPs as 'mandated' when they are actually incentivized and authorized.",
+      "sources": [
+        "Healthy Forests Restoration Act of 2003 (P.L. 108-148)",
+        "USDA Forest Service CWPP program documentation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The 2018 Camp Fire in Paradise, California",
+        "claim": "The Camp Fire in Paradise, California occurred in 2018",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.99,
+      "summary": "The Camp Fire in Paradise, California did occur in 2018, specifically from November 8-25, 2018.",
+      "detail": "The Camp Fire was the deadliest and most destructive wildfire in California history at the time. It started on November 8, 2018, and was fully contained on November 25, 2018. It destroyed the town of Paradise, killing 85 people and destroying nearly 19,000 structures. This is an extremely well-documented historical event.",
+      "sources": [
+        "Knowledge from training data - this is a major historical event widely documented by CAL FIRE, FEMA, and national news organizations"
+      ]
+    },
+    {
+      "claim": {
+        "text": "some fuel breaks slowed the fire's advance and allowed firefighters to defend structures behind them, while others were overwhelmed because they were too narrow, too close to the fire's origin, or unmaintained",
+        "claim": "Post-fire analysis of the Camp Fire found that some fuel breaks slowed fire advance while others were overwhelmed due to inadequate width, proximity to origin, or poor maintenance",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources on Camp Fire fuel break analysis.",
+      "detail": "The claim references post-fire analysis of the 2018 Camp Fire regarding fuel break effectiveness. NIST and CAL FIRE conducted extensive post-fire analyses of the Camp Fire, which would likely contain this information. Without web search access, I cannot confirm whether the specific findings about fuel breaks being overwhelmed due to inadequate width, proximity to origin, or poor maintenance are accurately stated in official reports.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Post-fire analysis suggested that fuel breaks of 60-100 meters width, combined with irrigated green space, provided meaningful protection",
+        "claim": "Post-fire analysis of the Camp Fire suggested fuel breaks of 60-100 meters width with irrigated green space provided meaningful protection",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; specific fuel break width recommendations from Camp Fire post-fire analysis could not be confirmed.",
+      "detail": "The Camp Fire (November 2018) in Paradise, California was extensively studied, and post-fire analyses did examine defensible space and fuel management. However, I cannot verify the specific claim about 60-100 meter fuel break widths with irrigated green space without access to search tools. The claim references specific technical parameters that would require primary source verification from Cal Fire reports, academic studies, or official post-fire assessments.",
+      "sources": [
+        "Unable to search - no sources retrieved"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Medieval cities maintained open ground outside their walls not just for defense against armies but against the fire that followed them",
+        "claim": "Medieval cities maintained open ground outside walls partly for fire defense purposes",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "Medieval cities did maintain open ground outside walls primarily for military defense (clear fields of fire, preventing siege approaches), with fire prevention being a secondary or incidental benefit rather than a co-equal purpose.",
+      "detail": "The claim conflates two distinct practices. The glacis (open sloping ground outside walls) was primarily designed for military purposes: preventing enemies from approaching unseen, providing clear fields of fire for defenders, and making siege works difficult. Fire breaks within medieval cities were sometimes mandated after major fires (like London's building codes after various fires), but open ground outside walls was not primarily designed as fire defense against armies. The claim that cities maintained this space against 'fire that followed' armies overstates the intentionality of fire prevention in wall-adjacent open spaces.",
+      "sources": [
+        "Unable to verify with web sources due to permission restrictions - assessment based on training knowledge of medieval fortification practices"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Modern fire science has formalized this into the concept of the shaded fuel break — a strip of land where vegetation is thinned or replaced with fire-resistant species, wide enough to slow a fire's advance and reduce ember generation, while remaining ecologically and aesthetically intact",
+        "claim": "The 'shaded fuel break' is an established concept in modern fire science involving thinned or fire-resistant vegetation strips",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though the concept appears consistent with established fire science terminology.",
+      "detail": "Web search and web fetch permissions were not granted, preventing independent verification of this technical claim. Based on training knowledge, 'shaded fuel break' is a recognized term in wildfire management referring to thinned vegetation strips that retain some canopy cover. However, without current web sources, this cannot be formally verified.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Alexander's Green Streets (51)",
+        "claim": "Christopher Alexander's 'A Pattern Language' contains a pattern called 'Green Streets' numbered 51",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 51 in Christopher Alexander's 'A Pattern Language' is indeed titled 'Green Streets'.",
+      "detail": "Christopher Alexander's 1977 book 'A Pattern Language' contains 253 patterns numbered from 1 to 253. Pattern 51 is 'Green Streets', which describes the importance of tree-lined streets and greenery in urban design. This is a well-documented pattern in the architectural pattern language literature.",
+      "sources": [
+        "Christopher Alexander et al., 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)",
+        "General knowledge of the book's contents confirmed by standard architectural references"
+      ]
+    },
+    {
+      "claim": {
+        "text": "no accumulated duff deeper than 5 centimeters",
+        "claim": "5 centimeters is a standard threshold for maximum duff depth in firebreak maintenance",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify whether 5 centimeters is a standard threshold for maximum duff depth in firebreak maintenance due to search limitations.",
+      "detail": "Web search functionality was not available to verify this technical claim. Firebreak and fuel break maintenance standards do vary by jurisdiction, agency, and local conditions. While specific duff depth thresholds do exist in various fire management guidelines, I could not confirm whether 5 cm is an established standard versus a reasonable specification created for this document. This claim requires verification against actual fire management agency guidelines (USFS, CAL FIRE, etc.).",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 2,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "some fuel breaks slowed the fire's advance and allowed firefighters to defend structures behind them, while others were overwhelmed because they were too narrow, too close to the fire's origin, or unmaintained",
+          "claim": "Post-fire analysis of the Camp Fire found that some fuel breaks slowed fire advance while others were overwhelmed due to inadequate width, proximity to origin, or poor maintenance",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find primary sources on Camp Fire fuel break analysis.",
+        "detail": "The claim references post-fire analysis of the 2018 Camp Fire regarding fuel break effectiveness. NIST and CAL FIRE conducted extensive post-fire analyses of the Camp Fire, which would likely contain this information. Without web search access, I cannot confirm whether the specific findings about fuel breaks being overwhelmed due to inadequate width, proximity to origin, or poor maintenance are accurately stated in official reports.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Post-fire analysis suggested that fuel breaks of 60-100 meters width, combined with irrigated green space, provided meaningful protection",
+          "claim": "Post-fire analysis of the Camp Fire suggested fuel breaks of 60-100 meters width with irrigated green space provided meaningful protection",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; specific fuel break width recommendations from Camp Fire post-fire analysis could not be confirmed.",
+        "detail": "The Camp Fire (November 2018) in Paradise, California was extensively studied, and post-fire analyses did examine defensible space and fuel management. However, I cannot verify the specific claim about 60-100 meter fuel break widths with irrigated green space without access to search tools. The claim references specific technical parameters that would require primary source verification from Cal Fire reports, academic studies, or official post-fire assessments.",
+        "sources": [
+          "Unable to search - no sources retrieved"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Modern fire science has formalized this into the concept of the shaded fuel break — a strip of land where vegetation is thinned or replaced with fire-resistant species, wide enough to slow a fire's advance and reduce ember generation, while remaining ecologically and aesthetically intact",
+          "claim": "The 'shaded fuel break' is an established concept in modern fire science involving thinned or fire-resistant vegetation strips",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access, though the concept appears consistent with established fire science terminology.",
+        "detail": "Web search and web fetch permissions were not granted, preventing independent verification of this technical claim. Based on training knowledge, 'shaded fuel break' is a recognized term in wildfire management referring to thinned vegetation strips that retain some canopy cover. However, without current web sources, this cannot be formally verified.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "no accumulated duff deeper than 5 centimeters",
+          "claim": "5 centimeters is a standard threshold for maximum duff depth in firebreak maintenance",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify whether 5 centimeters is a standard threshold for maximum duff depth in firebreak maintenance due to search limitations.",
+        "detail": "Web search functionality was not available to verify this technical claim. Firebreak and fuel break maintenance standards do vary by jurisdiction, agency, and local conditions. While specific duff depth thresholds do exist in various fire management guidelines, I could not confirm whether 5 cm is an established standard versus a reasonable specification created for this document. This claim requires verification against actual fire management agency guidelines (USFS, CAL FIRE, etc.).",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "patternId": 1,
+  "patternName": "The Fifteen-Minute Neighborhood",
+  "timestamp": "2026-02-16T20:02:08.595Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "Paris, Melbourne, and Portland have restructured planning around the principle that essential services should be reachable within fifteen minutes by walking or cycling",
+        "claim": "Paris has restructured city planning around the fifteen-minute neighborhood principle",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search web sources to verify, though the claim aligns with known policy direction.",
+      "detail": "Web search is unavailable. Based on training data, Paris has adopted the 15-minute city concept as a guiding principle under Mayor Hidalgo's administration, but I cannot verify current implementation status or confirm 'restructured city planning' with authoritative sources.",
+      "sources": [
+        "Unable to access web search - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Paris, Melbourne, and Portland have restructured planning around the principle that essential services should be reachable within fifteen minutes by walking or cycling",
+        "claim": "Melbourne has restructured city planning around the fifteen-minute neighborhood principle",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Melbourne has adopted the concept but uses '20-minute neighbourhood' terminology, not 'fifteen-minute'.",
+      "detail": "Melbourne's Plan Melbourne metropolitan planning strategy includes the '20-minute neighbourhood' as a key principle, aiming for residents to access daily needs within 20 minutes of home. The claim is directionally correct but the specific timeframe differs (20 minutes vs 15 minutes). Unable to verify current implementation status without web search access.",
+      "sources": [
+        "Prior knowledge only - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Paris, Melbourne, and Portland have restructured planning around the principle that essential services should be reachable within fifteen minutes by walking or cycling",
+        "claim": "Portland has restructured city planning around the fifteen-minute neighborhood principle",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to perform web search to verify current Portland planning policies.",
+      "detail": "Web search tools were not available to verify this claim. From prior knowledge, Portland has long emphasized walkable neighborhoods and transit-oriented development through its Urban Growth Boundary and comprehensive planning. However, whether Portland has formally 'restructured city planning around the fifteen-minute neighborhood principle' specifically would require verification of current planning documents. The claim may conflate Portland's traditional walkability focus with the more recent '15-minute city' concept popularized by Carlos Moreno.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Carlos Moreno's research at the Sorbonne demonstrated that neighborhoods meeting this threshold show higher social cohesion, lower carbon emissions, and stronger local economies",
+        "claim": "Carlos Moreno conducted research on fifteen-minute neighborhoods at the Sorbonne",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search web sources to verify this claim about Carlos Moreno's Sorbonne research.",
+      "detail": "Web search and fetch tools are not available in this session. From training knowledge, Carlos Moreno is associated with the Sorbonne and the 15-minute city concept, but I cannot verify the specific research claims about social cohesion, carbon emissions, and local economies without accessing current sources.",
+      "sources": [
+        "No sources accessible - web tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Carlos Moreno's research at the Sorbonne demonstrated that neighborhoods meeting this threshold show higher social cohesion, lower carbon emissions, and stronger local economies",
+        "claim": "Carlos Moreno's research demonstrated that fifteen-minute neighborhoods show higher social cohesion, lower carbon emissions, and stronger local economies",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Carlos Moreno is a real researcher at the Sorbonne who developed the 15-minute city concept, but the specific claim about his research 'demonstrating' these outcomes oversimplifies his work.",
+      "detail": "Carlos Moreno is a genuine urban planning scholar at Université Paris 1 Panthéon-Sorbonne who popularized the 15-minute city concept, particularly through his work with Paris Mayor Anne Hidalgo. However, his work is primarily conceptual and advocacy-based rather than empirical research that 'demonstrated' measurable outcomes. The claimed benefits (social cohesion, lower emissions, stronger local economies) are theoretical benefits he proposes rather than findings from controlled studies he conducted. Without web search access, I cannot verify if he has published specific empirical studies with these measured outcomes.",
+      "sources": [
+        "Unable to search - based on prior knowledge of Carlos Moreno's academic profile"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 2,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Paris, Melbourne, and Portland have restructured planning around the principle that essential services should be reachable within fifteen minutes by walking or cycling",
+          "claim": "Paris has restructured city planning around the fifteen-minute neighborhood principle",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search web sources to verify, though the claim aligns with known policy direction.",
+        "detail": "Web search is unavailable. Based on training data, Paris has adopted the 15-minute city concept as a guiding principle under Mayor Hidalgo's administration, but I cannot verify current implementation status or confirm 'restructured city planning' with authoritative sources.",
+        "sources": [
+          "Unable to access web search - verification incomplete"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Paris, Melbourne, and Portland have restructured planning around the principle that essential services should be reachable within fifteen minutes by walking or cycling",
+          "claim": "Portland has restructured city planning around the fifteen-minute neighborhood principle",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to perform web search to verify current Portland planning policies.",
+        "detail": "Web search tools were not available to verify this claim. From prior knowledge, Portland has long emphasized walkable neighborhoods and transit-oriented development through its Urban Growth Boundary and comprehensive planning. However, whether Portland has formally 'restructured city planning around the fifteen-minute neighborhood principle' specifically would require verification of current planning documents. The claim may conflate Portland's traditional walkability focus with the more recent '15-minute city' concept popularized by Carlos Moreno.",
+        "sources": [
+          "Unable to access web sources - verification incomplete"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Carlos Moreno's research at the Sorbonne demonstrated that neighborhoods meeting this threshold show higher social cohesion, lower carbon emissions, and stronger local economies",
+          "claim": "Carlos Moreno conducted research on fifteen-minute neighborhoods at the Sorbonne",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search web sources to verify this claim about Carlos Moreno's Sorbonne research.",
+        "detail": "Web search and fetch tools are not available in this session. From training knowledge, Carlos Moreno is associated with the Sorbonne and the 15-minute city concept, but I cannot verify the specific research claims about social cohesion, carbon emissions, and local economies without accessing current sources.",
+        "sources": [
+          "No sources accessible - web tools unavailable"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

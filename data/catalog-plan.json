@@ -1,0 +1,5130 @@
+[
+  {
+    "id": 1,
+    "name": "The Fifteen-Minute Neighborhood",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "existing",
+    "brief": "When daily needs — groceries, school, a park, a café, a doctor — require a car to reach, people spen...",
+    "tension": "When daily needs — groceries, school, a park, a café, a doctor — require a car to reach, people spend hours each week in transit, neighborhoods lose t",
+    "connections": [
+      40,
+      41,
+      4,
+      2,
+      43,
+      4,
+      12
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 2,
+    "name": "The Third Place Network",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "existing",
+    "brief": "When homes are only for sleeping and workplaces are only for working, and there is no informal publi...",
+    "tension": "When homes are only for sleeping and workplaces are only for working, and there is no informal public life between them, people become isolated, commu",
+    "connections": [
+      1,
+      43,
+      42,
+      50,
+      52,
+      57,
+      41,
+      104
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 3,
+    "name": "Dark Sky Neighborhood",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "existing",
+    "brief": "When outdoor lighting is unshielded, excessive, or always on, the night sky disappears, human circad...",
+    "tension": "When outdoor lighting is unshielded, excessive, or always on, the night sky disappears, human circadian rhythms are disrupted, wildlife is harmed, and",
+    "connections": [
+      44,
+      43,
+      1,
+      83,
+      82,
+      86,
+      33
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 4,
+    "name": "The Mobility Hub",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "existing",
+    "brief": "When each mode of transportation — bus, bike, scooter, car-share, ride-hail — operates as a separate...",
+    "tension": "When each mode of transportation — bus, bike, scooter, car-share, ride-hail — operates as a separate system with its own infrastructure, transfers bet",
+    "connections": [
+      1,
+      40,
+      43,
+      11,
+      2,
+      59,
+      43
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 5,
+    "name": "The Remote Work Walk",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "planned",
+    "brief": "A daily walking circuit that separates remote work from home life through physical movement and environmental change",
+    "tension": "When remote workers lack a commute, the boundary between work and home dissolves, leading to burnout and reduced productivity without the mental reset that physical transition provides",
+    "connections": [
+      1,
+      2,
+      4
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 6,
+    "name": "The Fifteen-Minute Shed",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "existing",
+    "brief": "In cold climates, the psychological and physical separation between a home-based workspace and livin...",
+    "tension": "In cold climates, the psychological and physical separation between a home-based workspace and living space must be dramatic to be real — but it must ...",
+    "connections": [
+      5,
+      35,
+      22,
+      5,
+      22,
+      38,
+      34,
+      63
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 7,
+    "name": "The Zoom Room",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "existing",
+    "brief": "When video calls happen in living spaces, the household loses its privacy, the caller is anxious abo...",
+    "tension": "When video calls happen in living spaces, the household loses its privacy, the caller is anxious about what's visible in the background, and the rest ",
+    "connections": [
+      5,
+      39,
+      5,
+      46,
+      32,
+      90
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 8,
+    "name": "The Screen-Free Hearth",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "existing",
+    "brief": "When every room contains a screen, there is no place in the dwelling where the family is actually to...",
+    "tension": "When every room contains a screen, there is no place in the dwelling where the family is actually together — present, undistracted, in shared experien",
+    "connections": [
+      39,
+      38,
+      39,
+      9,
+      83,
+      30
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 9,
+    "name": "The Quiet Zone",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "existing",
+    "brief": "The Screen-Free Hearth is about shared presence — the room where the family gathers without distract...",
+    "tension": "The Screen-Free Hearth is about shared presence — the room where the family gathers without distraction",
+    "connections": [
+      8,
+      46,
+      32,
+      46,
+      32,
+      10,
+      8
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 10,
+    "name": "Signal Architecture",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "existing",
+    "brief": "When wireless connectivity is treated as an afterthought, some rooms have excellent signal and other...",
+    "tension": "When wireless connectivity is treated as an afterthought, some rooms have excellent signal and others have dead zones. As buildings become tighter and",
+    "connections": [
+      22,
+      5,
+      46,
+      5,
+      9,
+      22,
+      46
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 11,
+    "name": "The Charging Threshold",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "existing",
+    "brief": "The shift to electric vehicles is restructuring the arrival sequence. You arrive home, your vehicle ...",
+    "tension": "The shift to electric vehicles is restructuring the arrival sequence",
+    "connections": [
+      35,
+      39,
+      35,
+      4,
+      8
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 12,
+    "name": "The Missing Middle",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "existing",
+    "brief": "When zoning allows only detached single-family homes or large apartment buildings, a vast range of h...",
+    "tension": "When zoning allows only detached single-family homes or large apartment buildings, a vast range of housing types — duplexes, triplexes, fourplexes, co",
+    "connections": [
+      40,
+      41,
+      13,
+      14,
+      29,
+      50,
+      96
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 13,
+    "name": "The Laneway House",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "existing",
+    "brief": "On most single-family lots, the backyard is underused, the lane or alley is neglected, and there is ...",
+    "tension": "On most single-family lots, the backyard is underused, the lane or alley is neglected, and there is no way to add a small dwelling without subdividing...",
+    "connections": [
+      12,
+      35,
+      12,
+      35,
+      38,
+      34
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 14,
+    "name": "The Multigenerational Suite",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "existing",
+    "brief": "Housing designed for a single life stage — the young couple, the growing family, the empty nesters, ...",
+    "tension": "Housing designed for a single life stage — the young couple, the growing family, the empty nesters, the elderly — forces people to move every time the...",
+    "connections": [
+      12,
+      39,
+      13,
+      15,
+      77,
+      80
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 15,
+    "name": "The Lifetime Home",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "existing",
+    "brief": "When homes are designed for the able-bodied adult, every inhabitant who is young, old, pregnant, inj...",
+    "tension": "When homes are designed for the able-bodied adult, every inhabitant who is young, old, pregnant, injured, or disabled must adapt to the building rathe",
+    "connections": [
+      35,
+      14,
+      14,
+      81,
+      47,
+      77
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 16,
+    "name": "Heat Refuge Room",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "existing",
+    "brief": "As extreme heat events become more frequent and more lethal, every dwelling needs at least one room ...",
+    "tension": "As extreme heat events become more frequent and more lethal, every dwelling needs at least one room that stays habitable without mechanical cooling — ...",
+    "connections": [
+      34,
+      37,
+      22,
+      22,
+      46,
+      45,
+      48,
+      37
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 17,
+    "name": "Flood-Adaptive Ground Floor",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "existing",
+    "brief": "In flood-prone areas, conventional ground floors — with finished surfaces, electrical outlets at ank...",
+    "tension": "In flood-prone areas, conventional ground floors — with finished surfaces, electrical outlets at ankle height, and mechanical equipment in the basemen...",
+    "connections": [
+      36,
+      47,
+      47,
+      49,
+      19
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 18,
+    "name": "Defensible Space (Wildfire)",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "existing",
+    "brief": "As wildfire risk extends into suburban and exurban areas, the thirty-meter zone around every buildin...",
+    "tension": "As wildfire risk extends into suburban and exurban areas, the thirty-meter zone around every building becomes the difference between survival and tota...",
+    "connections": [
+      36,
+      33,
+      33,
+      25,
+      36,
+      19
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 19,
+    "name": "The Rain Garden",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "existing",
+    "brief": "When stormwater runs off hard surfaces into storm drains and directly into rivers, it carries pollut...",
+    "tension": "When stormwater runs off hard surfaces into storm drains and directly into rivers, it carries pollutants, overwhelms infrastructure during heavy rain,",
+    "connections": [
+      44,
+      25,
+      20,
+      25,
+      44,
+      26
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 20,
+    "name": "The Permeable Lot",
+    "scale": "construction",
+    "category": "climate-resilience",
+    "status": "existing",
+    "brief": "When every driveway, walkway, and patio is paved with impervious material, the lot sheds water like ...",
+    "tension": "When every driveway, walkway, and patio is paved with impervious material, the lot sheds water like a roof, creating flooding downstream, starving tre",
+    "connections": [
+      19,
+      43,
+      19,
+      43,
+      44,
+      112,
+      113,
+      114,
+      184,
+      185,
+      192,
+      242,
+      243,
+      245
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 21,
+    "name": "Neighborhood Energy Commons",
+    "scale": "neighborhood",
+    "category": "energy-envelope",
+    "status": "existing",
+    "brief": "When every building generates and consumes energy independently, the system is fragile — one househo...",
+    "tension": "When every building generates and consumes energy independently, the system is fragile — one household's solar surplus goes to waste while the neighbo",
+    "connections": [
+      41,
+      42,
+      1,
+      42,
+      41,
+      22,
+      38
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 22,
+    "name": "Building Envelope as Climate System",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "existing",
+    "brief": "When the building envelope — walls, roof, windows, and floor — is treated as an afterthought to be h...",
+    "tension": "When the building envelope — walls, roof, windows, and floor — is treated as an afterthought to be heated and cooled by mechanical systems, the buildi",
+    "connections": [
+      37,
+      38,
+      34,
+      37,
+      38,
+      46,
+      45,
+      31,
+      16
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 23,
+    "name": "The Solar Gain Room",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "existing",
+    "brief": "In northern climates with long, dark winters, a room that captures and holds solar heat transforms t...",
+    "tension": "In northern climates with long, dark winters, a room that captures and holds solar heat transforms the experience of the season",
+    "connections": [
+      38,
+      22,
+      24,
+      38,
+      24,
+      45,
+      47,
+      22
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 24,
+    "name": "The Four-Season Greenhouse",
+    "scale": "building",
+    "category": "food-water",
+    "status": "existing",
+    "brief": "In cold climates with short growing seasons, food production stops for six to eight months of the ye...",
+    "tension": "In cold climates with short growing seasons, food production stops for six to eight months of the year",
+    "connections": [
+      23,
+      25,
+      38,
+      23,
+      25,
+      22,
+      63
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 25,
+    "name": "The Edible Landscape",
+    "scale": "building",
+    "category": "food-water",
+    "status": "existing",
+    "brief": "When ornamental landscaping and food production are treated as separate activities — one in the fron...",
+    "tension": "When ornamental landscaping and food production are treated as separate activities — one in the front yard for appearance, the other in the back yard ...",
+    "connections": [
+      24,
+      33,
+      24,
+      33,
+      19,
+      44
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 26,
+    "name": "Rainwater as Resource",
+    "scale": "building",
+    "category": "food-water",
+    "status": "existing",
+    "brief": "In most buildings, rainwater that falls on the roof — clean, soft, and free — is treated as waste an...",
+    "tension": "In most buildings, rainwater that falls on the roof — clean, soft, and free — is treated as waste and sent to the storm drain, while the building draw...",
+    "connections": [
+      19,
+      20,
+      19,
+      20,
+      65,
+      70
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 27,
+    "name": "Office-to-Housing Conversion",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "existing",
+    "brief": "As remote work empties office buildings, millions of square feet sit vacant in city centers that des...",
+    "tension": "As remote work empties office buildings, millions of square feet sit vacant in city centers that desperately need housing",
+    "connections": [
+      12,
+      34,
+      34,
+      37,
+      48,
+      12
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 28,
+    "name": "Heritage Retrofit",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "existing",
+    "brief": "When improving energy performance in older buildings, the standard approach — wrapping the exterior ...",
+    "tension": "When improving energy performance in older buildings, the standard approach — wrapping the exterior in foam and replacing all windows — destroys the t",
+    "connections": [
+      22,
+      49,
+      46,
+      22,
+      46,
+      47,
+      49,
+      56
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 29,
+    "name": "Suburban Densification",
+    "scale": "neighborhood",
+    "category": "adaptive-reuse",
+    "status": "existing",
+    "brief": "Established single-family neighborhoods have infrastructure, schools, parks, and mature trees — but ...",
+    "tension": "Established single-family neighborhoods have infrastructure, schools, parks, and mature trees — but they house fewer people than they did in the 1960s...",
+    "connections": [
+      12,
+      41,
+      13,
+      12,
+      13,
+      41,
+      97,
+      96
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 30,
+    "name": "Nature in Every Room",
+    "scale": "building",
+    "category": "health-biophilia",
+    "status": "existing",
+    "brief": "When the connection between interior spaces and living nature is broken — no plants, no view of gree...",
+    "tension": "When the connection between interior spaces and living nature is broken — no plants, no view of greenery, no natural materials — people experience mea",
+    "connections": [
+      34,
+      33,
+      38,
+      34,
+      33,
+      47,
+      83,
+      56
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 31,
+    "name": "Air Quality by Design",
+    "scale": "building",
+    "category": "health-biophilia",
+    "status": "existing",
+    "brief": "Indoor air is typically two to five times more polluted than outdoor air. When buildings are sealed ...",
+    "tension": "Indoor air is typically two to five times more polluted than outdoor air",
+    "connections": [
+      22,
+      48,
+      34,
+      22,
+      48,
+      56
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 32,
+    "name": "Acoustic Refuge",
+    "scale": "construction",
+    "category": "health-biophilia",
+    "status": "existing",
+    "brief": "There is a kind of silence that heals — not the absence of all sound, but the absence of *unwanted* ...",
+    "tension": "There is a kind of silence that heals — not the absence of all sound, but the absence of *unwanted* sound",
+    "connections": [
+      46,
+      9,
+      46,
+      9,
+      90,
+      45,
+      144,
+      209,
+      211
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 33,
+    "name": "The Healing Garden",
+    "scale": "building",
+    "category": "health-biophilia",
+    "status": "existing",
+    "brief": "When outdoor spaces are designed only for appearance — mowed lawns, ornamental beds, decorative hard...",
+    "tension": "When outdoor spaces are designed only for appearance — mowed lawns, ornamental beds, decorative hardscape — they become backdrops rather than particip",
+    "connections": [
+      36,
+      25,
+      30,
+      36,
+      30,
+      25,
+      87
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 34,
+    "name": "Light on Two Sides",
+    "scale": "building",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "A room lit from only one side has a harsh gradient — bright near the window, dark at the back — that...",
+    "tension": "A room lit from only one side has a harsh gradient — bright near the window, dark at the back — that makes the space feel like a corridor rather than ...",
+    "connections": [
+      39,
+      38,
+      38,
+      39,
+      84,
+      85,
+      23,
+      41,
+      42,
+      43
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 35,
+    "name": "The Entrance Sequence",
+    "scale": "building",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When the transition from public street to private interior is abrupt — a door directly on the sidewa...",
+    "tension": "When the transition from public street to private interior is abrupt — a door directly on the sidewalk, a parking lot leading to a foyer — neither arr",
+    "connections": [
+      41,
+      43,
+      11,
+      13,
+      59,
+      43
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 36,
+    "name": "Positive Outdoor Space",
+    "scale": "building",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When outdoor space is merely the area left over between buildings — the gaps, the setbacks, the left...",
+    "tension": "When outdoor space is merely the area left over between buildings — the gaps, the setbacks, the leftover corners — it has no shape, no enclosure, and ",
+    "connections": [
+      41,
+      33,
+      33,
+      96,
+      18,
+      25
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 37,
+    "name": "The Sheltering Roof",
+    "scale": "building",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When the roof is merely a lid — flat, invisible, serving only to keep rain out — the building loses ...",
+    "tension": "When the roof is merely a lid — flat, invisible, serving only to keep rain out — the building loses its most powerful gesture of shelter. The roof is ",
+    "connections": [
+      22,
+      22,
+      16,
+      23,
+      56
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 38,
+    "name": "South-Facing Living",
+    "scale": "building",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "In the Northern Hemisphere, south-facing rooms receive the most consistent, warmest daylight through...",
+    "tension": "In the Northern Hemisphere, south-facing rooms receive the most consistent, warmest daylight throughout the year",
+    "connections": [
+      22,
+      34,
+      34,
+      23,
+      24,
+      22,
+      86
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 39,
+    "name": "Connected Rooms",
+    "scale": "building",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When rooms are sealed boxes connected only by corridors, the dwelling feels institutional — a hotel,...",
+    "tension": "When rooms are sealed boxes connected only by corridors, the dwelling feels institutional — a hotel, not a home. But when rooms are entirely open to e",
+    "connections": [
+      5,
+      14,
+      5,
+      14,
+      8,
+      90,
+      85
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 40,
+    "name": "Walkable Density Gradient",
+    "scale": "neighborhood",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When density is uniform across a neighborhood — either all low-density or all high-density — it eith...",
+    "tension": "When density is uniform across a neighborhood — either all low-density or all high-density — it either can't support walkable services (too few people...",
+    "connections": [
+      1,
+      12,
+      1,
+      12,
+      98,
+      99,
+      41
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 41,
+    "name": "The Identifiable Neighborhood",
+    "scale": "neighborhood",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When residential areas are too large to know and too anonymous to care about, nobody takes responsib...",
+    "tension": "When residential areas are too large to know and too anonymous to care about, nobody takes responsibility for the public spaces, nobody recognizes the",
+    "connections": [
+      1,
+      2,
+      1,
+      2,
+      40,
+      29,
+      50,
+      34
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 42,
+    "name": "Common Ground",
+    "scale": "neighborhood",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When all land in a neighborhood is privately owned and individually fenced, there is nowhere for the...",
+    "tension": "When all land in a neighborhood is privately owned and individually fenced, there is nowhere for the community to gather, garden, play, or maintain sh",
+    "connections": [
+      41,
+      21,
+      41,
+      21,
+      57,
+      91,
+      71,
+      34
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 43,
+    "name": "The Local Street",
+    "scale": "neighborhood",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When streets are designed for cars moving at 50 km/h, they are hostile to everyone else — pedestrian...",
+    "tension": "When streets are designed for cars moving at 50 km/h, they are hostile to everyone else — pedestrians, cyclists, children, elderly, people in wheelcha",
+    "connections": [
+      1,
+      41,
+      1,
+      44,
+      20,
+      72,
+      4,
+      34
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 44,
+    "name": "Green Corridors",
+    "scale": "neighborhood",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When natural areas exist only as isolated patches — a park here, a garden there — wildlife cannot mo...",
+    "tension": "When natural areas exist only as isolated patches — a park here, a garden there — wildlife cannot move between them, stormwater has no continuous path",
+    "connections": [
+      43,
+      19,
+      3,
+      43,
+      19,
+      20,
+      3,
+      89
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 45,
+    "name": "Thermal Mass",
+    "scale": "construction",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "Lightweight buildings — timber frame with drywall — respond instantly to temperature changes: hot wh...",
+    "tension": "Lightweight buildings — timber frame with drywall — respond instantly to temperature changes: hot when the sun shines, cold when it sets, overheated i...",
+    "connections": [
+      22,
+      23,
+      16,
+      23,
+      16,
+      22,
+      46,
+      47,
+      213,
+      215
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 46,
+    "name": "Deep Walls",
+    "scale": "construction",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "Thin walls — the standard 2×4 or 2×6 stud wall with drywall — provide minimal insulation, no thermal...",
+    "tension": "Thin walls — the standard 2×4 or 2×6 stud wall with drywall — provide minimal insulation, no thermal mass, no acoustic isolation, and no depth",
+    "connections": [
+      22,
+      32,
+      22,
+      32,
+      84,
+      45,
+      28
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 47,
+    "name": "Living Surfaces",
+    "scale": "construction",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When floors, walls, and ceilings are finished with synthetic materials — vinyl, laminate, painted dr...",
+    "tension": "When floors, walls, and ceilings are finished with synthetic materials — vinyl, laminate, painted drywall — they look their best the day they're insta",
+    "connections": [
+      46,
+      56,
+      46,
+      56,
+      49,
+      45,
+      28
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 48,
+    "name": "Natural Ventilation",
+    "scale": "construction",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When ventilation is entirely mechanical — sealed windows, ducted air, thermostat-controlled — the oc...",
+    "tension": "When ventilation is entirely mechanical — sealed windows, ducted air, thermostat-controlled — the occupant has no relationship with the weather, no co",
+    "connections": [
+      22,
+      16,
+      31,
+      22,
+      16,
+      31,
+      34,
+      84
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 49,
+    "name": "The Repaired Building",
+    "scale": "construction",
+    "category": "foundation",
+    "status": "existing",
+    "brief": "When buildings are designed to be replaced rather than repaired — sealed systems, proprietary compon...",
+    "tension": "When buildings are designed to be replaced rather than repaired — sealed systems, proprietary components, inaccessible structure — they become disposa",
+    "connections": [
+      28,
+      47,
+      56,
+      28,
+      47,
+      56,
+      54,
+      55
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 50,
+    "name": "Community Land Trust",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "existing",
+    "brief": "When land and buildings are sold together on the open market, every transaction inflates the land va...",
+    "tension": "When land and buildings are sold together on the open market, every transaction inflates the land value, housing becomes unaffordable within a generat",
+    "connections": [
+      41,
+      42,
+      12,
+      41,
+      42,
+      12,
+      53,
+      97
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 51,
+    "name": "Participatory Budgeting Space",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "existing",
+    "brief": "When community decisions about shared resources happen behind closed doors — in council chambers, in...",
+    "tension": "When community decisions about shared resources happen behind closed doors — in council chambers, in committee rooms — most residents never participat",
+    "connections": [
+      42,
+      2,
+      42,
+      2,
+      50,
+      52,
+      222
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 52,
+    "name": "The Maintenance Commons",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "existing",
+    "brief": "Shared infrastructure — community gardens, common courtyards, shared solar arrays, tool libraries — ...",
+    "tension": "Shared infrastructure — community gardens, common courtyards, shared solar arrays, tool libraries — requires shared maintenance",
+    "connections": [
+      42,
+      57,
+      42,
+      57,
+      91,
+      54,
+      21,
+      222
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 53,
+    "name": "The Neighborhood Agreement",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "existing",
+    "brief": "When adjacent property owners have no framework for negotiating shared concerns — noise, trees, fenc...",
+    "tension": "When adjacent property owners have no framework for negotiating shared concerns — noise, trees, fences, drainage, views, parking — every issue becomes",
+    "connections": [
+      41,
+      50,
+      41,
+      50,
+      52,
+      29,
+      222
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 54,
+    "name": "Repair Culture",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When buildings, tools, and objects are designed to be replaced rather than repaired, every breakdown...",
+    "tension": "When buildings, tools, and objects are designed to be replaced rather than repaired, every breakdown generates waste, every failure requires a special",
+    "connections": [
+      49,
+      52,
+      49,
+      52,
+      56,
+      55,
+      91
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 55,
+    "name": "The Owner-Builder",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When building codes, financing systems, and construction methods assume professional contractors for...",
+    "tension": "When building codes, financing systems, and construction methods assume professional contractors for every task, the resident is alienated from their ",
+    "connections": [
+      54,
+      49,
+      54,
+      49,
+      56,
+      57,
+      47
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 56,
+    "name": "Honest Materials",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When materials pretend to be something they're not — vinyl that imitates wood, concrete stamped to l...",
+    "tension": "When materials pretend to be something they're not — vinyl that imitates wood, concrete stamped to look like stone, plastic trim shaped like carved ti",
+    "connections": [
+      47,
+      46,
+      49,
+      47,
+      46,
+      49,
+      54,
+      28
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 57,
+    "name": "The Community Workshop",
+    "scale": "neighborhood",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When making, repairing, and building require expensive tools that each household owns individually (...",
+    "tension": "When making, repairing, and building require expensive tools that each household owns individually (or doesn't own at all), most people can't afford t...",
+    "connections": [
+      2,
+      42,
+      91,
+      2,
+      42,
+      91,
+      54,
+      55,
+      92,
+      104
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 58,
+    "name": "The Winter City Street",
+    "scale": "neighborhood",
+    "category": "northern-living",
+    "status": "existing",
+    "brief": "When streets are designed for summer and then endured in winter, the city dies for five months of th...",
+    "tension": "When streets are designed for summer and then endured in winter, the city dies for five months of the year. Snow narrows roads, ice makes sidewalks da",
+    "connections": [
+      43,
+      1,
+      43,
+      59,
+      63,
+      4,
+      62
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 59,
+    "name": "The Heated Threshold",
+    "scale": "building",
+    "category": "northern-living",
+    "status": "existing",
+    "brief": "In cold climates, the transition from outdoors to indoors is an assault — a blast of cold air, a flo...",
+    "tension": "In cold climates, the transition from outdoors to indoors is an assault — a blast of cold air, a floor covered in slush, boots to remove, coats to han...",
+    "connections": [
+      35,
+      58,
+      35,
+      58,
+      11,
+      47,
+      149,
+      229
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 60,
+    "name": "Snow as Resource",
+    "scale": "neighborhood",
+    "category": "northern-living",
+    "status": "existing",
+    "brief": "Snow is treated as waste — plowed, salted, trucked away. But snow is also insulation, water storage,...",
+    "tension": "Snow is treated as waste — plowed, salted, trucked away",
+    "connections": [
+      19,
+      58,
+      19,
+      26,
+      58,
+      62
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 61,
+    "name": "The Dark Season Room",
+    "scale": "building",
+    "category": "northern-living",
+    "status": "existing",
+    "brief": "North of 50° latitude, winter daylight drops below eight hours. The psychological toll is measurable...",
+    "tension": "North of 50° latitude, winter daylight drops below eight hours",
+    "connections": [
+      34,
+      23,
+      83,
+      34,
+      23,
+      83,
+      86,
+      8
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 62,
+    "name": "Ice Management by Design",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "existing",
+    "brief": "Ice is the invisible hazard of cold climates — more dangerous than cold itself. Falls on ice cause m...",
+    "tension": "Ice is the invisible hazard of cold climates — more dangerous than cold itself",
+    "connections": [
+      58,
+      35,
+      47,
+      58,
+      59,
+      35,
+      47,
+      11,
+      153,
+      154
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 63,
+    "name": "The Covered Connection",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "existing",
+    "brief": "In cold climates, the distance between buildings — even short distances — becomes a barrier for five...",
+    "tension": "In cold climates, the distance between buildings — even short distances — becomes a barrier for five months of the year",
+    "connections": [
+      6,
+      24,
+      35,
+      6,
+      24,
+      35,
+      59,
+      64
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 64,
+    "name": "Frost-Protected Foundation",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "existing",
+    "brief": "In cold climates, conventional foundations must extend below the frost line — often 1.5 to 2 meters ...",
+    "tension": "In cold climates, conventional foundations must extend below the frost line — often 1",
+    "connections": [
+      22,
+      45,
+      22,
+      45,
+      6,
+      13,
+      24
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 65,
+    "name": "Greywater Loop",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "existing",
+    "brief": "In a typical household, clean drinking water is used once — for a shower, a load of laundry, a sink ...",
+    "tension": "In a typical household, clean drinking water is used once — for a shower, a load of laundry, a sink full of dishes — and then sent to the sewer",
+    "connections": [
+      26,
+      70,
+      26,
+      70,
+      25,
+      19
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 66,
+    "name": "The Composting System",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "existing",
+    "brief": "When organic waste — food scraps, garden trimmings, leaves — is sent to landfill, it generates metha...",
+    "tension": "When organic waste — food scraps, garden trimmings, leaves — is sent to landfill, it generates methane (a potent greenhouse gas), the nutrients are lo",
+    "connections": [
+      25,
+      24,
+      25,
+      24,
+      19,
+      33
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 67,
+    "name": "Separated Stormwater",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "existing",
+    "brief": "In most older cities, stormwater and sewage share the same pipes. During heavy rain, the combined sy...",
+    "tension": "In most older cities, stormwater and sewage share the same pipes",
+    "connections": [
+      19,
+      20,
+      44,
+      19,
+      20,
+      26,
+      44
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 68,
+    "name": "The Visible Utility",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "existing",
+    "brief": "When infrastructure is hidden — pipes buried in walls, wires sealed behind drywall, ducts in inacces...",
+    "tension": "When infrastructure is hidden — pipes buried in walls, wires sealed behind drywall, ducts in inaccessible cavities — it becomes invisible until it fai",
+    "connections": [
+      49,
+      56,
+      49,
+      56,
+      54,
+      31
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 69,
+    "name": "Freeze-Proof Plumbing",
+    "scale": "construction",
+    "category": "water-infrastructure",
+    "status": "existing",
+    "brief": "In cold climates, frozen pipes are the most common and most expensive winter building failure. A sin...",
+    "tension": "In cold climates, frozen pipes are the most common and most expensive winter building failure",
+    "connections": [
+      22,
+      64,
+      22,
+      64,
+      68,
+      16
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 70,
+    "name": "The Water Budget",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "existing",
+    "brief": "Most households have no idea how much water they use, where it comes from, or where it goes. Without...",
+    "tension": "Most households have no idea how much water they use, where it comes from, or where it goes",
+    "connections": [
+      26,
+      65,
+      26,
+      65,
+      19,
+      66
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 71,
+    "name": "The Adventure Playground",
+    "scale": "neighborhood",
+    "category": "children-play",
+    "status": "existing",
+    "brief": "When playgrounds are designed by adults for safety compliance rather than for children's development...",
+    "tension": "When playgrounds are designed by adults for safety compliance rather than for children's developmental needs, they produce identical equipment on rubb...",
+    "connections": [
+      42,
+      72,
+      42,
+      72,
+      74,
+      75
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 72,
+    "name": "Safe Streets for Children",
+    "scale": "neighborhood",
+    "category": "children-play",
+    "status": "existing",
+    "brief": "When streets are designed for vehicle speed and throughput, children cannot safely walk, bike, or pl...",
+    "tension": "When streets are designed for vehicle speed and throughput, children cannot safely walk, bike, or play outside without adult supervision. The child's ",
+    "connections": [
+      43,
+      41,
+      43,
+      41,
+      76,
+      71,
+      73
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 73,
+    "name": "The Doorstep Play Space",
+    "scale": "building",
+    "category": "children-play",
+    "status": "existing",
+    "brief": "The most important play space is not the park or the playground — it is the space immediately outsid...",
+    "tension": "The most important play space is not the park or the playground — it is the space immediately outside the front door",
+    "connections": [
+      36,
+      72,
+      36,
+      72,
+      74,
+      39,
+      75,
+      76
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 74,
+    "name": "Nature Play",
+    "scale": "building",
+    "category": "children-play",
+    "status": "existing",
+    "brief": "When children's outdoor experience is limited to mowed grass and manufactured equipment, they develo...",
+    "tension": "When children's outdoor experience is limited to mowed grass and manufactured equipment, they develop no relationship with the natural world — no unde",
+    "connections": [
+      33,
+      71,
+      33,
+      71,
+      73,
+      25
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 75,
+    "name": "The Teenage Territory",
+    "scale": "neighborhood",
+    "category": "children-play",
+    "status": "existing",
+    "brief": "Teenagers need a place that is neither home nor school — a territory they control, where adults are ...",
+    "tension": "Teenagers need a place that is neither home nor school — a territory they control, where adults are present but not dominant, where they can be loud, ...",
+    "connections": [
+      2,
+      41,
+      2,
+      41,
+      71,
+      42,
+      73
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 76,
+    "name": "Schools in Walking Distance",
+    "scale": "neighborhood",
+    "category": "children-play",
+    "status": "existing",
+    "brief": "When schools are consolidated into large campuses on cheap land at the edge of town, every child mus...",
+    "tension": "When schools are consolidated into large campuses on cheap land at the edge of town, every child must be driven or bused, the school has no relationsh",
+    "connections": [
+      1,
+      72,
+      1,
+      72,
+      42,
+      41,
+      73
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 77,
+    "name": "The Aging-in-Community Network",
+    "scale": "neighborhood",
+    "category": "aging-accessibility",
+    "status": "existing",
+    "brief": "When aging in place depends entirely on the individual dwelling, isolated elders become prisoners in...",
+    "tension": "When aging in place depends entirely on the individual dwelling, isolated elders become prisoners in their own homes — technically housed but function",
+    "connections": [
+      41,
+      1,
+      15,
+      1,
+      15,
+      14,
+      79,
+      78
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 78,
+    "name": "The Visible Elder",
+    "scale": "neighborhood",
+    "category": "aging-accessibility",
+    "status": "existing",
+    "brief": "When elders are concentrated in age-segregated facilities — nursing homes, retirement communities, s...",
+    "tension": "When elders are concentrated in age-segregated facilities — nursing homes, retirement communities, seniors' residences — they disappear from daily lif",
+    "connections": [
+      41,
+      2,
+      41,
+      2,
+      77,
+      76,
+      80
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 79,
+    "name": "Walkable Healthcare",
+    "scale": "neighborhood",
+    "category": "aging-accessibility",
+    "status": "existing",
+    "brief": "When healthcare is concentrated in large hospitals on the periphery of the city, every appointment r...",
+    "tension": "When healthcare is concentrated in large hospitals on the periphery of the city, every appointment requires a car, a bus ride, or an ambulance. Preven",
+    "connections": [
+      1,
+      77,
+      1,
+      77,
+      15,
+      43
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 80,
+    "name": "The Care Suite",
+    "scale": "building",
+    "category": "aging-accessibility",
+    "status": "existing",
+    "brief": "When a family member requires daily care — after surgery, during illness, in advanced age — the opti...",
+    "tension": "When a family member requires daily care — after surgery, during illness, in advanced age — the options are institutional care (expensive, impersonal)",
+    "connections": [
+      14,
+      15,
+      14,
+      15,
+      77,
+      34,
+      78
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 81,
+    "name": "Universal Wayfinding",
+    "scale": "building",
+    "category": "aging-accessibility",
+    "status": "existing",
+    "brief": "When buildings and neighborhoods rely on small printed signs, low-contrast markings, and complex spa...",
+    "tension": "When buildings and neighborhoods rely on small printed signs, low-contrast markings, and complex spatial layouts for navigation, they exclude everyone",
+    "connections": [
+      15,
+      43,
+      15,
+      43,
+      35,
+      77
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 82,
+    "name": "The Winter Light Room",
+    "scale": "building",
+    "category": "light-darkness",
+    "status": "existing",
+    "brief": "In northern climates, the quality of winter light is fundamentally different from summer light — low...",
+    "tension": "In northern climates, the quality of winter light is fundamentally different from summer light — lower angle, warmer color, present for fewer hours, a...",
+    "connections": [
+      61,
+      34,
+      23,
+      61,
+      34,
+      23,
+      84,
+      86
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 83,
+    "name": "Circadian Architecture",
+    "scale": "building",
+    "category": "light-darkness",
+    "status": "existing",
+    "brief": "Artificial lighting at constant color temperature and constant intensity disrupts the body's circadi...",
+    "tension": "Artificial lighting at constant color temperature and constant intensity disrupts the body's circadian rhythm — the 24-hour biological clock that regu...",
+    "connections": [
+      34,
+      61,
+      3,
+      34,
+      61,
+      3,
+      86
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 84,
+    "name": "The Deep Reveal",
+    "scale": "construction",
+    "category": "light-darkness",
+    "status": "existing",
+    "brief": "When windows are flush with the wall surface — as in standard stud-frame construction — light enters...",
+    "tension": "When windows are flush with the wall surface — as in standard stud-frame construction — light enters as a flat plane",
+    "connections": [
+      46,
+      34,
+      46,
+      34,
+      82,
+      28,
+      251
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 85,
+    "name": "Borrowed Light",
+    "scale": "building",
+    "category": "light-darkness",
+    "status": "existing",
+    "brief": "Interior rooms — bathrooms, hallways, closets, stairwells — often have no direct access to exterior ...",
+    "tension": "Interior rooms — bathrooms, hallways, closets, stairwells — often have no direct access to exterior walls and therefore no natural light",
+    "connections": [
+      34,
+      39,
+      34,
+      39,
+      84,
+      90
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 86,
+    "name": "Seasonal Light Shift",
+    "scale": "building",
+    "category": "light-darkness",
+    "status": "existing",
+    "brief": "When a building's relationship to sunlight is fixed — the same shading, the same glazing, the same o...",
+    "tension": "When a building's relationship to sunlight is fixed — the same shading, the same glazing, the same orientation year-round — it is optimized for one se",
+    "connections": [
+      82,
+      38,
+      83,
+      38,
+      82,
+      23,
+      37,
+      83
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 87,
+    "name": "The Sound Garden",
+    "scale": "building",
+    "category": "sound-silence",
+    "status": "existing",
+    "brief": "When the only sounds in an outdoor space are traffic, HVAC equipment, and the neighbor's leaf blower...",
+    "tension": "When the only sounds in an outdoor space are traffic, HVAC equipment, and the neighbor's leaf blower, the space is acoustically hostile — a place peop",
+    "connections": [
+      33,
+      36,
+      33,
+      36,
+      30,
+      89,
+      88
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 88,
+    "name": "Neighborhood Quiet Hours",
+    "scale": "neighborhood",
+    "category": "sound-silence",
+    "status": "existing",
+    "brief": "When there is no shared understanding about noise — construction at 7 AM, leaf blowers at dinner, mu...",
+    "tension": "When there is no shared understanding about noise — construction at 7 AM, leaf blowers at dinner, music at midnight — every neighbor-to-neighbor confl",
+    "connections": [
+      41,
+      53,
+      41,
+      53,
+      32,
+      89,
+      87
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 89,
+    "name": "The Buffer Landscape",
+    "scale": "neighborhood",
+    "category": "sound-silence",
+    "status": "existing",
+    "brief": "When residential spaces directly abut noise sources — arterial roads, rail lines, commercial distric...",
+    "tension": "When residential spaces directly abut noise sources — arterial roads, rail lines, commercial districts — no amount of interior acoustic design can com",
+    "connections": [
+      44,
+      43,
+      32,
+      44,
+      43,
+      32,
+      33,
+      87
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 90,
+    "name": "Sound Gradient",
+    "scale": "building",
+    "category": "sound-silence",
+    "status": "existing",
+    "brief": "When every room in a dwelling has similar acoustic properties — same wall thickness, same door weigh...",
+    "tension": "When every room in a dwelling has similar acoustic properties — same wall thickness, same door weight, same floor construction — there is no acoustic ",
+    "connections": [
+      39,
+      32,
+      46,
+      39,
+      32,
+      46,
+      85,
+      5
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 91,
+    "name": "The Tool Library",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "existing",
+    "brief": "A typical homeowner owns $5,000–$10,000 in tools used fewer than ten times each. A typical apartment...",
+    "tension": "A typical homeowner owns $5,000–$10,000 in tools used fewer than ten times each",
+    "connections": [
+      42,
+      57,
+      52,
+      42,
+      57,
+      52,
+      54,
+      55,
+      93
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 92,
+    "name": "The Repair Café",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "existing",
+    "brief": "When a toaster breaks, a zipper jams, or a chair leg cracks, the default response is replacement. Th...",
+    "tension": "When a toaster breaks, a zipper jams, or a chair leg cracks, the default response is replacement. The cost of professional repair exceeds the cost of ",
+    "connections": [
+      2,
+      54,
+      57,
+      2,
+      54,
+      57,
+      91,
+      52,
+      93
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 93,
+    "name": "Shared Laundry",
+    "scale": "building",
+    "category": "the-commons",
+    "status": "existing",
+    "brief": "In apartment buildings, in-unit laundry is a prized amenity — but it means every unit has its own $2...",
+    "tension": "In apartment buildings, in-unit laundry is a prized amenity — but it means every unit has its own $2,000 machine running a handful of loads per week",
+    "connections": [
+      41,
+      42,
+      41,
+      42,
+      2,
+      91,
+      92,
+      164
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 94,
+    "name": "The Community Kitchen",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "existing",
+    "brief": "Cooking alone is the modern default — every household has a full kitchen used for an hour or two a d...",
+    "tension": "Cooking alone is the modern default — every household has a full kitchen used for an hour or two a day",
+    "connections": [
+      2,
+      42,
+      2,
+      42,
+      25,
+      24,
+      57
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 95,
+    "name": "Common Storage",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "existing",
+    "brief": "As housing units get smaller — especially in missing-middle and multi-unit buildings — personal stor...",
+    "tension": "As housing units get smaller — especially in missing-middle and multi-unit buildings — personal storage becomes a luxury",
+    "connections": [
+      12,
+      41,
+      12,
+      41,
+      13
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 96,
+    "name": "The Courtyard Cluster",
+    "scale": "neighborhood",
+    "category": "density-done-right",
+    "status": "existing",
+    "brief": "When multiple dwellings are arranged along a corridor or a street frontage, residents share a wall b...",
+    "tension": "When multiple dwellings are arranged along a corridor or a street frontage, residents share a wall but not a life. They pass each other in the hallway",
+    "connections": [
+      12,
+      36,
+      41,
+      12,
+      36,
+      41,
+      97,
+      73
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 97,
+    "name": "Shared Garden Density",
+    "scale": "neighborhood",
+    "category": "density-done-right",
+    "status": "existing",
+    "brief": "When every dwelling on a lot has its own private garden — fenced, separate, individually maintained ...",
+    "tension": "When every dwelling on a lot has its own private garden — fenced, separate, individually maintained — the total land devoted to private outdoor space ",
+    "connections": [
+      96,
+      12,
+      29,
+      96,
+      12,
+      29,
+      52,
+      25
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 98,
+    "name": "The Four-Story Maximum",
+    "scale": "building",
+    "category": "density-done-right",
+    "status": "existing",
+    "brief": "When buildings exceed four stories, something changes: residents can no longer see the faces of peop...",
+    "tension": "When buildings exceed four stories, something changes: residents can no longer see the faces of people on the street, children can no longer be called",
+    "connections": [
+      40,
+      12,
+      40,
+      12,
+      34,
+      96
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 99,
+    "name": "The Mixed-Use Ground Floor",
+    "scale": "building",
+    "category": "density-done-right",
+    "status": "existing",
+    "brief": "When residential buildings have residential ground floors, the street frontage is dead — closed blin...",
+    "tension": "When residential buildings have residential ground floors, the street frontage is dead — closed blinds, private spaces, nothing to attract or engage p",
+    "connections": [
+      40,
+      1,
+      2,
+      40,
+      1,
+      2,
+      43
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 100,
+    "name": "Incremental Development",
+    "scale": "neighborhood",
+    "category": "density-done-right",
+    "status": "existing",
+    "brief": "When development happens all at once — a master-planned subdivision, a block demolished and rebuilt,...",
+    "tension": "When development happens all at once — a master-planned subdivision, a block demolished and rebuilt, a tower inserted into a neighborhood — the result",
+    "connections": [
+      29,
+      12,
+      41,
+      29,
+      12,
+      41,
+      49,
+      28
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 101,
+    "name": "The Permanent Frame, The Changeable Skin",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When all building layers — structure, cladding, insulation, wiring, plumbing, kitchens, finishes — a...",
+    "tension": "When all building layers — structure, cladding, insulation, wiring, plumbing, kitchens, finishes — are entangled in construction so that changing one "
+  },
+  {
+    "id": 102,
+    "name": "Visible Structure",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When the structure of a building is hidden behind drywall and dropped ceilings, the inhabitants live...",
+    "tension": "When the structure of a building is hidden behind drywall and dropped ceilings, the inhabitants live inside a decorated box with no idea how their bui"
+  },
+  {
+    "id": 103,
+    "name": "Local Material Radius",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When building materials are sourced globally — granite shipped from China, lumber from Brazil, tile ...",
+    "tension": "When building materials are sourced globally — granite shipped from China, lumber from Brazil, tile from Italy, steel from wherever it trades cheapest"
+  },
+  {
+    "id": 104,
+    "name": "Materials That Age",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "Some materials get better with time. Wood darkens and gains character. Copper develops a green patin...",
+    "tension": "Some materials get better with time. Wood darkens and gains character. Copper develops a green patina. Stone weathers to reveal its grain. Brick mello"
+  },
+  {
+    "id": 105,
+    "name": "Honest Joinery",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When the connections between materials are concealed — caulked shut, taped over, covered with trim, ...",
+    "tension": "When the connections between materials are concealed — caulked shut, taped over, covered with trim, hidden behind reveals — the building becomes a sea"
+  },
+  {
+    "id": 106,
+    "name": "The Hand-Made Detail",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "In an age of CNC precision, laser-cut profiles, and factory prefabrication, every building detail ca...",
+    "tension": "In an age of CNC precision, laser-cut profiles, and factory prefabrication, every building detail can be perfectly identical, perfectly smooth, perfec"
+  },
+  {
+    "id": 107,
+    "name": "The Tool Wall",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "When the household's repair tools live in a closed cabinet in the garage, or in a plastic bin in the...",
+    "tension": "When the household's repair tools live in a closed cabinet in the garage, or in a plastic bin in the basement behind the seasonal decorations, or scat"
+  },
+  {
+    "id": 108,
+    "name": "Seasonal Maintenance Ritual",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "existing",
+    "brief": "Modern buildings are designed as if maintenance is an emergency rather than a rhythm. Gutters clog u...",
+    "tension": "Modern buildings are designed as if maintenance is an emergency rather than a rhythm. Gutters clog until ice dams form and water backs up under the sh"
+  },
+  {
+    "id": 109,
+    "name": "The Acoustic Booth",
+    "scale": "construction",
+    "category": "digital-age-dwelling",
+    "status": "planned",
+    "brief": "A small, heavily insulated enclosure for video calls and focused work without disturbing others",
+    "tension": "When video calls happen in shared spaces, household members must tiptoe around work schedules, and professional calls are interrupted by domestic life",
+    "connections": [
+      7,
+      90,
+      106,
+      5,
+      107,
+      108,
+      180,
+      181
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 110,
+    "name": "The Charging Station",
+    "scale": "construction",
+    "category": "digital-age-dwelling",
+    "status": "planned",
+    "brief": "A dedicated location with multiple outlets and cable management for charging all household devices",
+    "tension": "When devices charge wherever there's an outlet, cables sprawl across surfaces, outlets are always occupied, and the dwelling feels cluttered with technology",
+    "connections": [
+      11,
+      8,
+      68,
+      156,
+      110
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 111,
+    "name": "The Pocket Neighborhood",
+    "scale": "neighborhood",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A cluster of small houses arranged around a shared common space on a single lot",
+    "tension": "When small houses are scattered on individual lots, they lack the shared amenities and social connection that make small living viable",
+    "connections": [
+      12,
+      96,
+      42,
+      97,
+      13,
+      176
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      37
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 112,
+    "name": "The Courtyard House",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A dwelling organized around a private central courtyard that brings light and outdoor space to every room",
+    "tension": "When houses are boxes on lots, interior rooms are dark and outdoor space is relegated to front and back yards that lack privacy",
+    "connections": [
+      36,
+      34,
+      30,
+      96,
+      38,
+      114,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      115
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 113,
+    "name": "The Stacked Townhouse",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "Townhouse units stacked vertically with separate entrances, combining density with ground-related housing",
+    "tension": "When density requires high-rise construction, families with children lose access to private outdoor space and direct ground-floor access",
+    "connections": [
+      12,
+      98,
+      73,
+      35,
+      99,
+      176,
+      111,
+      20
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 114,
+    "name": "The Garden Suite",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A small secondary dwelling integrated into the main house's garden with its own entrance and utilities",
+    "tension": "When secondary suites are only allowed in basements or above garages, they are dark, isolated, and feel like afterthoughts rather than dignified homes",
+    "connections": [
+      13,
+      14,
+      112,
+      36,
+      30,
+      80,
+      111,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      109
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 115,
+    "name": "The Convertible Floor Plan",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A dwelling layout that allows walls to be moved and rooms to be reconfigured without major renovation",
+    "tension": "When walls are load-bearing and fixed, households must choose between living in spaces that don't fit their needs or undertaking expensive renovations",
+    "connections": [
+      15,
+      107,
+      14,
+      39,
+      49,
+      169,
+      111
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      205
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 116,
+    "name": "The Resilience Network",
+    "scale": "neighborhood",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A distributed system of community resilience hubs with backup power, water, and shelter capacity",
+    "tension": "When every household must be individually resilient to power outages, extreme weather, and emergencies, the most vulnerable are left without support",
+    "connections": [
+      16,
+      21,
+      51,
+      2,
+      121,
+      79
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 117,
+    "name": "The Smoke-Sealed Room",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A room with enhanced air sealing and filtration to provide refuge during wildfire smoke events",
+    "tension": "When wildfire smoke infiltrates every room of a dwelling, vulnerable residents have no escape from hazardous air quality that can last for weeks",
+    "connections": [
+      16,
+      18,
+      31,
+      118,
+      155,
+      157,
+      116
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 118,
+    "name": "The Air Lock Entry",
+    "scale": "construction",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A double-door entry system that prevents outdoor air infiltration during extreme weather or smoke events",
+    "tension": "When a single door separates inside from outside, every entry and exit floods the dwelling with smoke, cold, or heat",
+    "connections": [
+      59,
+      117,
+      35,
+      155,
+      157,
+      63,
+      147
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      130
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 119,
+    "name": "The Bioswale Network",
+    "scale": "neighborhood",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A connected system of vegetated channels that slow, filter, and absorb stormwater across the neighborhood",
+    "tension": "When stormwater runs directly into pipes and sewers, it overwhelms infrastructure during heavy rain and carries pollutants into waterways",
+    "connections": [
+      19,
+      44,
+      67,
+      20,
+      120,
+      25
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      51
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 120,
+    "name": "The Infiltration Basin",
+    "scale": "construction",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A landscaped depression designed to capture and slowly infiltrate stormwater into the ground",
+    "tension": "When every lot drains to the street, the cumulative runoff creates flooding downstream and depletes groundwater upstream",
+    "connections": [
+      19,
+      20,
+      119,
+      26,
+      67,
+      25
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 121,
+    "name": "The Battery Bank",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Distributed energy storage that captures solar generation and provides backup power during outages",
+    "tension": "When solar panels have no storage, energy is exported during the day and imported at night, and the building goes dark when the grid fails",
+    "connections": [
+      21,
+      22,
+      116,
+      11,
+      126,
+      127,
+      125
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 122,
+    "name": "Cross Ventilation",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Operable windows positioned to create airflow through the building, reducing cooling loads",
+    "tension": "When windows are placed for view rather than airflow, summer heat builds up and mechanical cooling becomes the only option",
+    "connections": [
+      48,
+      34,
+      38,
+      123,
+      124,
+      125,
+      21
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      107
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 123,
+    "name": "The Thermal Chimney",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A vertical shaft that uses stack effect to draw hot air up and out, pulling cool air through the building",
+    "tension": "When buildings rely solely on mechanical ventilation, they consume energy to move air that could flow naturally through temperature differences",
+    "connections": [
+      48,
+      122,
+      37,
+      124,
+      125,
+      21
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 124,
+    "name": "The Night Flush",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A ventilation strategy that uses cool night air to purge heat from thermal mass before the next day",
+    "tension": "When buildings are sealed at night, heat accumulated in walls and floors radiates inward, making mornings uncomfortably warm",
+    "connections": [
+      45,
+      122,
+      123,
+      125,
+      16,
+      21
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 125,
+    "name": "The Wind Scoop",
+    "scale": "construction",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A roof or wall element designed to catch prevailing breezes and direct them into the building",
+    "tension": "When buildings ignore wind patterns, natural ventilation is weak and inconsistent even when windows are open",
+    "connections": [
+      122,
+      123,
+      124,
+      37,
+      121,
+      127,
+      131,
+      194
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 126,
+    "name": "Passive Solar Design",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Building orientation, glazing, and thermal mass configured to capture winter sun and reject summer heat",
+    "tension": "When buildings ignore solar geometry, they require mechanical heating and cooling to maintain comfort that the sun could provide for free",
+    "connections": [
+      23,
+      38,
+      45,
+      127,
+      128,
+      129,
+      21
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      105,
+      106
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 127,
+    "name": "The Solar Roof",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A roof designed from the start to integrate photovoltaic panels as the primary roofing material",
+    "tension": "When solar panels are added to existing roofs, they are expensive, aesthetically awkward, and create maintenance and leak problems",
+    "connections": [
+      37,
+      21,
+      121,
+      126,
+      22,
+      131,
+      125
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 128,
+    "name": "Thermal Bridge Elimination",
+    "scale": "construction",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Construction details that prevent continuous paths of conductive material through the insulated envelope",
+    "tension": "When structural elements like studs, joists, and beams penetrate insulation, they create cold spots, condensation, and energy loss",
+    "connections": [
+      46,
+      22,
+      126,
+      129,
+      155,
+      157
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 129,
+    "name": "The Super-Insulated Envelope",
+    "scale": "construction",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Wall and roof assemblies with R-values of 40+ that reduce heating loads to near zero",
+    "tension": "When insulation meets only code minimum, heating costs remain high and comfort suffers during extreme cold",
+    "connections": [
+      46,
+      22,
+      126,
+      128,
+      64,
+      155
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 130,
+    "name": "Air Sealing Strategy",
+    "scale": "construction",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A continuous air barrier that prevents uncontrolled air leakage through the building envelope",
+    "tension": "When air can leak through cracks and gaps, insulation becomes ineffective and humidity control becomes impossible",
+    "connections": [
+      22,
+      129,
+      128,
+      155,
+      157,
+      118
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 131,
+    "name": "The Living Roof",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A roof covered with vegetation that provides insulation, stormwater management, and habitat",
+    "tension": "When roofs are barren surfaces, they radiate heat, shed water instantly, and contribute nothing to the ecosystem",
+    "connections": [
+      37,
+      127,
+      19,
+      26,
+      30,
+      25,
+      21,
+      125
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 132,
+    "name": "The Food Forest",
+    "scale": "neighborhood",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "A multi-layered perennial food system that mimics forest structure on public or common land",
+    "tension": "When food production requires annual planting, tilling, and intensive labor, most people cannot sustain it and land sits unused",
+    "connections": [
+      25,
+      42,
+      44,
+      24,
+      133,
+      134
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      51
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 133,
+    "name": "The Root Cellar",
+    "scale": "building",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "A below-grade or earth-bermed space that maintains cool, humid conditions for storing root vegetables and preserves",
+    "tension": "When food storage depends on refrigeration, power outages mean food loss and the energy cost of preservation is high",
+    "connections": [
+      24,
+      25,
+      132,
+      134,
+      64,
+      45
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 134,
+    "name": "The Preserving Kitchen",
+    "scale": "building",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "A kitchen workspace designed for canning, fermenting, and preserving food in quantity",
+    "tension": "When kitchens are designed only for daily meal preparation, preserving seasonal abundance becomes impractical and food is wasted",
+    "connections": [
+      24,
+      25,
+      132,
+      133,
+      94,
+      136
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      139
+    ],
+    "priority": "low"
+  },
+  {
+    "id": 135,
+    "name": "The Greywater Garden",
+    "scale": "building",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "A planted area that receives and filters greywater from sinks, showers, and laundry",
+    "tension": "When greywater goes to the sewer, clean water must be used for irrigation and the nutrient value of greywater is lost",
+    "connections": [
+      65,
+      25,
+      19,
+      26,
+      67,
+      120,
+      132
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 136,
+    "name": "The Cistern",
+    "scale": "construction",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "Above-ground or below-ground water storage that captures rainwater for irrigation and non-potable uses",
+    "tension": "When rainwater is not stored, summer droughts require municipal water for gardens while spring runoff overwhelms drainage systems",
+    "connections": [
+      26,
+      19,
+      135,
+      120,
+      70,
+      68,
+      134
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 137,
+    "name": "The Aquaponics Loop",
+    "scale": "building",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "An integrated system where fish waste fertilizes plants and plants filter water for fish",
+    "tension": "When food production and water management are separate systems, both require external inputs and generate waste",
+    "connections": [
+      24,
+      26,
+      65,
+      70,
+      136,
+      132
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 138,
+    "name": "The Convertible Structure",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "A building designed from the start for future conversion to different uses through reversible systems and adaptable floor plates",
+    "tension": "When buildings are designed for only one use with fixed systems and optimized layouts, they become obsolete and face demolition when that use ends, wasting embodied energy and materials",
+    "connections": [
+      27,
+      28,
+      139,
+      140,
+      143
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 139,
+    "name": "The Mall Transformation",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Converting dead or dying shopping malls into mixed-use neighborhoods with housing, services, and public space",
+    "tension": "When malls fail, they become vast dead zones of parking and empty retail that blight neighborhoods for decades",
+    "connections": [
+      27,
+      29,
+      138,
+      1,
+      99,
+      100,
+      143
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 140,
+    "name": "The Church Conversion",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Adapting underused religious buildings into community centers, housing, or cultural spaces while respecting heritage",
+    "tension": "When congregations shrink, beautiful buildings with excellent bones sit empty or are demolished because adaptive reuse is too difficult",
+    "connections": [
+      28,
+      138,
+      2,
+      51,
+      141,
+      143
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      21
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 141,
+    "name": "The Industrial Loft",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Converting old factories and warehouses into live-work spaces that preserve industrial character",
+    "tension": "When industrial buildings are demolished for new construction, we lose high-ceilinged, column-free spaces with character that cannot be replicated",
+    "connections": [
+      27,
+      28,
+      138,
+      5,
+      34,
+      39,
+      143
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 142,
+    "name": "The Schoolhouse Neighborhood",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Converting closed schools into mixed-use buildings with housing, community space, and small businesses",
+    "tension": "When school enrollment declines, buildings designed for community use become vacant while neighborhoods need housing and gathering spaces",
+    "connections": [
+      27,
+      138,
+      76,
+      2,
+      51,
+      140,
+      143
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 143,
+    "name": "The Retrofit Sequence",
+    "scale": "construction",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "A staged approach to energy retrofits that prioritizes air sealing, insulation, and windows before mechanical systems",
+    "tension": "When retrofits start with new furnaces and air conditioners, the building still leaks energy and the equipment is oversized and inefficient",
+    "connections": [
+      28,
+      22,
+      139,
+      140,
+      141,
+      142,
+      204,
+      206
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 144,
+    "name": "The Biophilic Workplace",
+    "scale": "building",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "A work environment with abundant natural light, living plants, natural materials, and views to nature",
+    "tension": "When workplaces are sealed boxes with artificial light and synthetic surfaces, workers experience stress, fatigue, and reduced productivity",
+    "connections": [
+      30,
+      31,
+      34,
+      33,
+      5,
+      7,
+      208,
+      32
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      134
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 145,
+    "name": "The Breathing Wall",
+    "scale": "construction",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "A wall assembly that allows water vapor to diffuse outward while blocking liquid water and air infiltration",
+    "tension": "When walls are sealed with vapor barriers, moisture gets trapped inside, causing mold, rot, and indoor air quality problems",
+    "connections": [
+      31,
+      47,
+      46,
+      130,
+      155,
+      157
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 146,
+    "name": "The Outdoor Room",
+    "scale": "building",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "A covered, partially enclosed outdoor space that extends living area into the landscape",
+    "tension": "When outdoor spaces are fully exposed to weather, they are unusable during rain, wind, or intense sun, limiting time spent outside",
+    "connections": [
+      36,
+      37,
+      30,
+      33,
+      112,
+      63,
+      208
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      163
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 147,
+    "name": "The Winter Vestibule",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "An enclosed entry with double doors, boot storage, and space to remove winter gear before entering the main dwelling",
+    "tension": "When winter clothing must be removed in the main living space, snow and mud are tracked throughout and cold air floods the home",
+    "connections": [
+      59,
+      118,
+      35,
+      63,
+      102,
+      103
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      130
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 148,
+    "name": "The Heated Sidewalk",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Snow-melting infrastructure in high-traffic pedestrian areas to maintain safe, ice-free walking surfaces",
+    "tension": "When sidewalks depend on manual shoveling and salting, they become impassable for weeks and dangerous for the elderly and disabled",
+    "connections": [
+      58,
+      103,
+      62,
+      101,
+      104,
+      43
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 149,
+    "name": "The Snow Storage Landscape",
+    "scale": "neighborhood",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Designated areas designed to receive and slowly melt snow without blocking circulation or damaging plants",
+    "tension": "When snow is piled wherever there's space, it blocks sightlines, kills vegetation, and creates flooding when it melts",
+    "connections": [
+      60,
+      58,
+      119,
+      120,
+      43,
+      44,
+      59
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 150,
+    "name": "The Thermal Break Window",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Triple-glazed windows with insulated frames that prevent condensation and heat loss in extreme cold",
+    "tension": "When windows are the weak point in the envelope, they frost over, drip condensation, and create cold zones that make rooms unusable",
+    "connections": [
+      46,
+      129,
+      128,
+      34,
+      84,
+      157
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 151,
+    "name": "Snow Load Design",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Roof structures engineered for the weight of accumulated snow and ice over long winters",
+    "tension": "When roofs are designed for minimum snow loads, they sag, leak, or collapse during heavy snow years",
+    "connections": [
+      37,
+      62,
+      152,
+      127,
+      131
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 152,
+    "name": "Ice Dam Prevention",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Roof and attic design that prevents heat loss and melting that creates ice dams at the eaves",
+    "tension": "When warm air leaks into attics, snow melts and refreezes at the eaves, backing water under shingles and causing interior damage",
+    "connections": [
+      62,
+      37,
+      129,
+      130,
+      151
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 153,
+    "name": "The Sunspace",
+    "scale": "building",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "A south-facing glass room that captures solar heat in winter and can be isolated from the main dwelling",
+    "tension": "When solar gain is distributed throughout the house, it overheats some rooms while others remain cold, and summer overheating becomes a problem",
+    "connections": [
+      23,
+      126,
+      24,
+      61,
+      38,
+      146,
+      58,
+      62
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      161
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 154,
+    "name": "The Midnight Sun Room",
+    "scale": "building",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "A bedroom with blackout capability for summer nights when daylight extends past midnight",
+    "tension": "When bedrooms cannot block summer light, sleep is disrupted and circadian rhythms are thrown off during the long days of northern summer",
+    "connections": [
+      61,
+      82,
+      86,
+      83,
+      9,
+      58,
+      62
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 155,
+    "name": "The Blower Door Test",
+    "scale": "construction",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Pressure testing to verify air sealing and identify leaks before finishes are installed",
+    "tension": "When air sealing is not verified, hidden gaps and cracks undermine insulation performance and are expensive to fix after construction",
+    "connections": [
+      130,
+      22,
+      128,
+      129,
+      117,
+      145
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 156,
+    "name": "The Utility Core",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "planned",
+    "brief": "A vertical shaft containing all plumbing, electrical, and HVAC systems for easy access and efficient distribution",
+    "tension": "When utilities are scattered throughout the building, maintenance is difficult, efficiency suffers, and renovations are complicated",
+    "connections": [
+      68,
+      108,
+      65,
+      69,
+      66,
+      110,
+      236
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      159
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 157,
+    "name": "The Thermal Imaging Survey",
+    "scale": "construction",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Infrared imaging to identify heat loss, air leakage, and insulation gaps in existing or new buildings",
+    "tension": "When thermal defects are invisible, energy is wasted and comfort problems persist without anyone knowing where the problems are",
+    "connections": [
+      128,
+      129,
+      130,
+      143,
+      145,
+      150,
+      22
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 158,
+    "name": "The Sound Lock",
+    "scale": "construction",
+    "category": "sound-silence",
+    "status": "planned",
+    "brief": "A double-wall or double-door construction that creates an acoustic buffer between noisy and quiet spaces",
+    "tension": "When only a single wall separates loud and quiet spaces, sound transmission makes concentration and rest impossible",
+    "connections": [
+      32,
+      90,
+      109,
+      9,
+      118
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 159,
+    "name": "The Quiet Floor",
+    "scale": "construction",
+    "category": "sound-silence",
+    "status": "planned",
+    "brief": "Floor assemblies with mass, resilient channels, and insulation to block impact and airborne sound between levels",
+    "tension": "When floors are lightweight and directly connected, every footstep and dropped object is heard in the room below",
+    "connections": [
+      32,
+      90,
+      98,
+      45,
+      158
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 160,
+    "name": "The Sound-Absorbing Surface",
+    "scale": "construction",
+    "category": "sound-silence",
+    "status": "planned",
+    "brief": "Textured, porous, or fabric-covered surfaces that absorb sound rather than reflecting it",
+    "tension": "When all surfaces are hard and smooth, sound bounces endlessly, creating harsh acoustics and making conversation difficult",
+    "connections": [
+      47,
+      32,
+      90,
+      87,
+      159
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 161,
+    "name": "The Shared Workshop",
+    "scale": "building",
+    "category": "the-commons",
+    "status": "planned",
+    "brief": "A well-equipped workspace in a multi-unit building for woodworking, repair, and making projects",
+    "tension": "When every household needs its own tools and workspace, most tools sit unused and apartments have no room for projects",
+    "connections": [
+      57,
+      91,
+      92,
+      93,
+      95,
+      54
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      157
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 162,
+    "name": "The Shared Vehicle Fleet",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "planned",
+    "brief": "A neighborhood-owned collection of cars, cargo bikes, and trucks available for occasional use",
+    "tension": "When every household owns vehicles for occasional needs, parking consumes land and most vehicles sit idle most of the time",
+    "connections": [
+      4,
+      91,
+      95,
+      11,
+      102
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 163,
+    "name": "The Guest Suite Commons",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "planned",
+    "brief": "A shared guest room or suite available for residents' visitors, reducing the need for spare bedrooms",
+    "tension": "When every dwelling must have a guest room for occasional visitors, space is wasted and housing costs increase",
+    "connections": [
+      95,
+      93,
+      107,
+      14,
+      80
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 164,
+    "name": "The Lending Library",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "planned",
+    "brief": "A neighborhood system for sharing not just books but camping gear, party supplies, and seasonal equipment",
+    "tension": "When every household buys items used once or twice a year, money is wasted and storage space is consumed",
+    "connections": [
+      91,
+      92,
+      95,
+      2,
+      163,
+      93
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 165,
+    "name": "The Childcare Cooperative",
+    "scale": "neighborhood",
+    "category": "the-commons",
+    "status": "planned",
+    "brief": "A parent-run childcare arrangement in a dedicated space where families share supervision responsibilities",
+    "tension": "When childcare is entirely commercial or entirely private, it is either unaffordable or isolating for parents and children",
+    "connections": [
+      2,
+      51,
+      76,
+      71,
+      73,
+      94
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      86
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 166,
+    "name": "The Narrow Frontage",
+    "scale": "building",
+    "category": "density-done-right",
+    "status": "planned",
+    "brief": "Buildings with 15-20 foot frontages that create fine-grained streetscapes and enable incremental development",
+    "tension": "When every building requires a wide lot, streets become monotonous, development is all-or-nothing, and density feels overwhelming",
+    "connections": [
+      100,
+      43,
+      99,
+      113,
+      176,
+      12,
+      169
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      109
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 167,
+    "name": "The Mews",
+    "scale": "neighborhood",
+    "category": "density-done-right",
+    "status": "planned",
+    "brief": "A narrow shared street lined with small houses or townhouses, closed to through traffic",
+    "tension": "When density requires wide streets for fire access, the street dominates and the sense of enclosure is lost",
+    "connections": [
+      96,
+      43,
+      13,
+      111,
+      166,
+      97
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      100
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 168,
+    "name": "The Density Transition",
+    "scale": "neighborhood",
+    "category": "density-done-right",
+    "status": "planned",
+    "brief": "A gradual shift in building height and setback between high-density corridors and low-density neighborhoods",
+    "tension": "When tall buildings abruptly meet single-family homes, the contrast creates conflict and makes density politically impossible",
+    "connections": [
+      40,
+      98,
+      29,
+      100,
+      166,
+      12
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      29
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 169,
+    "name": "The Demountable Partition",
+    "scale": "construction",
+    "category": "density-done-right",
+    "status": "planned",
+    "brief": "Interior walls designed to be moved without demolition, allowing units to be combined or subdivided",
+    "tension": "When walls are permanent, buildings cannot adapt to changing household sizes and market demands",
+    "connections": [
+      115,
+      49,
+      107,
+      27,
+      12,
+      166,
+      170,
+      176
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      205
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 170,
+    "name": "The Shopfront Dwelling",
+    "scale": "building",
+    "category": "density-done-right",
+    "status": "planned",
+    "brief": "A live-work building type with commercial space at street level and dwelling above, owned by the same household",
+    "tension": "When residential and commercial ownership are separated, small businesses cannot afford rent and residents cannot participate in street life",
+    "connections": [
+      99,
+      104,
+      5,
+      101,
+      166,
+      176,
+      169
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      87
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 171,
+    "name": "Universal Design Standard",
+    "scale": "building",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "Design principles that make buildings usable by people of all abilities without special adaptation",
+    "tension": "When buildings are designed for able-bodied adults, anyone with mobility limitations, vision impairment, or cognitive differences is excluded",
+    "connections": [
+      15,
+      80,
+      81,
+      77,
+      172,
+      173
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 172,
+    "name": "The Zero-Step Entry",
+    "scale": "building",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "An entrance with no steps or thresholds, accessible to wheelchairs, walkers, and strollers",
+    "tension": "When entries require steps, anyone using a wheelchair or walker is excluded, and parents with strollers struggle daily",
+    "connections": [
+      35,
+      171,
+      15,
+      80,
+      147,
+      173,
+      77
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      53
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 173,
+    "name": "The Wide Doorway",
+    "scale": "construction",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "Doorways at least 36 inches wide to accommodate wheelchairs, walkers, and people carrying objects",
+    "tension": "When doorways are narrow, wheelchair users cannot pass through and even able-bodied people struggle with furniture and equipment",
+    "connections": [
+      171,
+      172,
+      15,
+      80,
+      39,
+      248
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 174,
+    "name": "The Accessible Bathroom",
+    "scale": "building",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "A bathroom with grab bars, roll-in shower, and space for assisted care without feeling institutional",
+    "tension": "When bathrooms are designed only for independent able-bodied use, they become dangerous and unusable as people age or become injured",
+    "connections": [
+      15,
+      80,
+      171,
+      173,
+      172,
+      77
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      144
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 175,
+    "name": "The Seated Kitchen",
+    "scale": "building",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "A kitchen with varied counter heights and knee clearance so cooking can be done while seated",
+    "tension": "When kitchens require standing for all tasks, people with mobility limitations cannot cook independently",
+    "connections": [
+      15,
+      171,
+      80,
+      173,
+      134,
+      77
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      139
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 176,
+    "name": "The Corner Building",
+    "scale": "building",
+    "category": "density-done-right",
+    "status": "planned",
+    "brief": "A building that addresses the corner with entries on both streets and active uses at the intersection",
+    "tension": "When corner buildings turn blank walls to one street, they waste the most prominent site and deaden the intersection",
+    "connections": [
+      99,
+      101,
+      104,
+      111,
+      166,
+      170,
+      169
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      165
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 177,
+    "name": "The Pedestrian Shortcut",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "planned",
+    "brief": "Mid-block pathways that allow pedestrians to cut through blocks while cars must follow the street grid",
+    "tension": "When pedestrians must follow the same routes as cars, walking distances are longer and less pleasant than necessary",
+    "connections": [
+      1,
+      43,
+      72,
+      44,
+      102,
+      71,
+      104
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      52
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 178,
+    "name": "The Farmers Market Square",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "planned",
+    "brief": "A public space designed to host weekly markets, festivals, and community gatherings",
+    "tension": "When public space is designed only for passive use, communities lack venues for the regular exchange of food, goods, and culture",
+    "connections": [
+      2,
+      42,
+      101,
+      25,
+      132,
+      51
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      61
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 179,
+    "name": "The Parcel Locker Network",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "planned",
+    "brief": "Distributed secure lockers for package pickup and drop-off, reducing delivery vehicle trips",
+    "tension": "When every package is delivered to individual doors, delivery vehicles clog streets and missed deliveries create frustration",
+    "connections": [
+      4,
+      105,
+      1,
+      101,
+      104
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 180,
+    "name": "The Separated Workspace",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "planned",
+    "brief": "A home office with its own entrance, allowing clients or colleagues to visit without entering the dwelling",
+    "tension": "When work-from-home means clients entering private family space, professional boundaries are violated and household privacy is lost",
+    "connections": [
+      5,
+      6,
+      35,
+      107,
+      170,
+      114,
+      1,
+      109
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      157
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 181,
+    "name": "The Digital Archive",
+    "scale": "building",
+    "category": "digital-age-dwelling",
+    "status": "planned",
+    "brief": "A dedicated backup system and physical storage for digital files, photos, and important documents",
+    "tension": "When digital files exist only in the cloud or on single devices, they are vulnerable to service failures, hacking, and loss",
+    "connections": [
+      10,
+      108,
+      68,
+      156,
+      1,
+      109
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 182,
+    "name": "The Modular Furniture System",
+    "scale": "construction",
+    "category": "digital-age-dwelling",
+    "status": "planned",
+    "brief": "Built-in furniture that can be reconfigured as rooms change function from work to rest to play",
+    "tension": "When furniture is fixed or freestanding, rooms cannot easily transform and households accumulate excess furniture",
+    "connections": [
+      107,
+      115,
+      169,
+      5,
+      7
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      201
+    ],
+    "priority": "low"
+  },
+  {
+    "id": 183,
+    "name": "The Co-Housing Cluster",
+    "scale": "neighborhood",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A group of private dwellings with shared common facilities, designed and managed by residents",
+    "tension": "When housing is entirely private, residents must duplicate kitchens, workshops, and guest rooms, and social isolation increases",
+    "connections": [
+      12,
+      96,
+      94,
+      93,
+      95,
+      111
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      37
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 184,
+    "name": "The Accessory Commercial Unit",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A small commercial space integrated into a residential building for home-based business or neighborhood service",
+    "tension": "When zoning prohibits commercial uses in residential areas, home businesses operate in legal grey zones and neighborhoods lack services",
+    "connections": [
+      13,
+      104,
+      170,
+      101,
+      5,
+      180,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      87
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 185,
+    "name": "The Aging-in-Place Suite",
+    "scale": "building",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A main-floor bedroom and bathroom designed for accessibility, allowing residents to age without moving",
+    "tension": "When all bedrooms are upstairs, aging residents must move or undertake expensive renovations to remain in their homes",
+    "connections": [
+      15,
+      14,
+      80,
+      171,
+      172,
+      174,
+      111,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      159
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 186,
+    "name": "The Tiny House Village",
+    "scale": "neighborhood",
+    "category": "housing-diversity",
+    "status": "planned",
+    "brief": "A cluster of very small dwellings with shared amenities, providing affordable housing and community",
+    "tension": "When minimum dwelling sizes are mandated, the most affordable housing option is illegal and homelessness increases",
+    "connections": [
+      12,
+      111,
+      183,
+      93,
+      95,
+      94
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      37
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 187,
+    "name": "The Flood-Ready Neighborhood",
+    "scale": "neighborhood",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A community designed to accommodate periodic flooding without catastrophic damage or displacement",
+    "tension": "When neighborhoods are built as if flooding will never happen, inevitable floods cause billions in damage and displace thousands",
+    "connections": [
+      17,
+      119,
+      120,
+      116,
+      67,
+      19
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 188,
+    "name": "The Firebreak Landscape",
+    "scale": "neighborhood",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "Strategic placement of parks, roads, and low-fuel zones to slow or stop wildfire spread",
+    "tension": "When development extends into fire-prone areas without firebreaks, entire neighborhoods are at risk of total loss",
+    "connections": [
+      18,
+      44,
+      42,
+      116,
+      189
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      51
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 189,
+    "name": "The Fire-Resistant Envelope",
+    "scale": "construction",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "Non-combustible siding, roofing, and vents that resist ignition from embers and radiant heat",
+    "tension": "When buildings use combustible materials in fire-prone areas, they ignite from embers that arrive before the fire front",
+    "connections": [
+      18,
+      188,
+      56,
+      37,
+      47
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 190,
+    "name": "The Drought-Adapted Landscape",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "Landscaping with native and drought-tolerant plants that requires minimal irrigation",
+    "tension": "When landscapes require constant watering, they consume scarce water and die during droughts or water restrictions",
+    "connections": [
+      25,
+      18,
+      26,
+      135,
+      136,
+      70,
+      116
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      171
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 191,
+    "name": "The Extreme Weather Shelter",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A reinforced room or basement space that provides protection during tornadoes or severe storms",
+    "tension": "When dwellings have no hardened shelter space, residents are vulnerable to increasingly frequent severe weather events",
+    "connections": [
+      16,
+      116,
+      117,
+      64,
+      45
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 192,
+    "name": "The Microclimate Garden",
+    "scale": "building",
+    "category": "climate-resilience",
+    "status": "planned",
+    "brief": "A garden designed to create cool, humid microclimates during heat waves through shade and evapotranspiration",
+    "tension": "When outdoor spaces are paved and treeless, they become heat islands that are unusable during summer and increase cooling loads",
+    "connections": [
+      16,
+      33,
+      25,
+      19,
+      190,
+      146,
+      116,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      171,
+      172
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 193,
+    "name": "The District Heating Loop",
+    "scale": "neighborhood",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A shared heating system that distributes heat from a central source to multiple buildings",
+    "tension": "When every building has its own furnace, efficiency is low, maintenance is duplicated, and renewable heat sources are impractical",
+    "connections": [
+      21,
+      116,
+      126,
+      194,
+      58
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 194,
+    "name": "The Heat Pump System",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Electric heating and cooling that moves heat rather than burning fuel, enabling renewable energy use",
+    "tension": "When buildings rely on fossil fuel combustion, they cannot be powered by renewable electricity and continue emitting carbon",
+    "connections": [
+      22,
+      121,
+      193,
+      126,
+      195,
+      125
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 195,
+    "name": "The Thermal Storage Tank",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "A large insulated water tank that stores heat or cooling for use when needed",
+    "tension": "When heating and cooling must be generated on demand, systems are oversized and cannot take advantage of off-peak electricity rates",
+    "connections": [
+      45,
+      194,
+      121,
+      126,
+      193
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 196,
+    "name": "The Radiant Floor",
+    "scale": "construction",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "Hydronic tubing embedded in floor slabs that provides even, comfortable heat from below",
+    "tension": "When heat comes from forced air, it stratifies with hot air at the ceiling and cold air at the floor, wasting energy and reducing comfort",
+    "connections": [
+      45,
+      194,
+      195,
+      126,
+      64
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 197,
+    "name": "The Operable Shading",
+    "scale": "building",
+    "category": "energy-envelope",
+    "status": "planned",
+    "brief": "External shutters, awnings, or louvers that block summer sun while allowing winter solar gain",
+    "tension": "When shading is fixed or internal, it either blocks winter sun or allows summer overheating, requiring mechanical cooling",
+    "connections": [
+      86,
+      126,
+      23,
+      38,
+      84,
+      21
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      202
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 198,
+    "name": "The Community Orchard",
+    "scale": "neighborhood",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "Fruit and nut trees planted on public land and maintained collectively for shared harvest",
+    "tension": "When food production is limited to private yards, public land produces nothing edible and food security depends entirely on supply chains",
+    "connections": [
+      25,
+      42,
+      132,
+      44,
+      178,
+      199
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      51,
+      170
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 199,
+    "name": "The Pollinator Pathway",
+    "scale": "neighborhood",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "A connected network of pollinator-friendly plantings that supports bees, butterflies, and other beneficial insects",
+    "tension": "When landscapes are dominated by lawns and ornamentals, pollinators decline and food production suffers",
+    "connections": [
+      44,
+      25,
+      198,
+      132,
+      190
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      51
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 200,
+    "name": "The Seasonal Pond",
+    "scale": "building",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "A shallow depression that holds water during wet seasons and dries out in summer, supporting diverse wildlife",
+    "tension": "When stormwater is immediately drained away, seasonal wetland habitat is lost and water tables drop",
+    "connections": [
+      19,
+      120,
+      119,
+      26,
+      67
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      64
+    ],
+    "priority": "low"
+  },
+  {
+    "id": 201,
+    "name": "The Seed Library",
+    "scale": "neighborhood",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "A community collection of locally adapted seeds that can be borrowed, grown, and returned",
+    "tension": "When seeds must be purchased annually from distant suppliers, local adaptation is lost and food security depends on corporate supply chains",
+    "connections": [
+      25,
+      132,
+      91,
+      164,
+      198
+    ],
+    "coldClimate": true,
+    "priority": "low"
+  },
+  {
+    "id": 202,
+    "name": "The Constructed Wetland",
+    "scale": "building",
+    "category": "food-water",
+    "status": "planned",
+    "brief": "An engineered wetland that treats greywater through biological processes before release or reuse",
+    "tension": "When greywater requires mechanical treatment, it is expensive and energy-intensive, making reuse impractical",
+    "connections": [
+      65,
+      135,
+      67,
+      120,
+      200,
+      132
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 203,
+    "name": "The Adaptive Reuse District",
+    "scale": "neighborhood",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "A zoning overlay that encourages creative reuse of existing buildings with flexible regulations",
+    "tension": "When regulations treat all buildings as either compliant or non-compliant, older buildings cannot be adapted and sit vacant",
+    "connections": [
+      138,
+      27,
+      28,
+      29,
+      100,
+      139
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 204,
+    "name": "The Warehouse Conversion",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Transforming single-story industrial buildings into housing, workspaces, or mixed-use with minimal structural change",
+    "tension": "When warehouses are demolished for new construction, we lose flexible, affordable space with excellent bones and embodied carbon",
+    "connections": [
+      27,
+      141,
+      138,
+      5,
+      180,
+      203,
+      143
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 205,
+    "name": "The Infill Strategy",
+    "scale": "neighborhood",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Building on vacant lots and parking lots within existing neighborhoods rather than expanding at the edges",
+    "tension": "When development always happens at the periphery, infrastructure is duplicated and established neighborhoods decline",
+    "connections": [
+      29,
+      100,
+      13,
+      111,
+      203,
+      168
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      3
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 206,
+    "name": "The Parking Conversion",
+    "scale": "building",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Transforming surface parking lots and parking structures into housing, parks, or mixed-use development",
+    "tension": "When parking is permanent infrastructure, vast areas of valuable urban land sit empty most of the time",
+    "connections": [
+      139,
+      203,
+      205,
+      29,
+      162,
+      143
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 207,
+    "name": "The Embodied Carbon Audit",
+    "scale": "construction",
+    "category": "adaptive-reuse",
+    "status": "planned",
+    "brief": "Calculating the carbon emissions from demolition and new construction versus renovation and reuse",
+    "tension": "When only operating energy is considered, buildings are demolished and replaced when renovation would have lower total carbon impact",
+    "connections": [
+      28,
+      143,
+      49,
+      203,
+      138
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 208,
+    "name": "The Forest Bathing Path",
+    "scale": "neighborhood",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "A walking trail through natural or naturalized woodland designed for slow, contemplative movement",
+    "tension": "When trails are designed for speed and exercise, there is no place for the slow, sensory immersion that provides psychological restoration",
+    "connections": [
+      44,
+      33,
+      30,
+      177,
+      87,
+      74
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      51,
+      171
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 209,
+    "name": "The Daylit Stair",
+    "scale": "building",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "A stairway with natural light and views that encourages use over elevators",
+    "tension": "When stairs are dark, enclosed, and institutional, everyone takes the elevator and daily movement opportunities are lost",
+    "connections": [
+      34,
+      30,
+      85,
+      98,
+      81,
+      208,
+      32
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      133
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 210,
+    "name": "The Biophilic Material Palette",
+    "scale": "construction",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "A selection of natural materials — wood, stone, clay, fiber — that connect occupants to nature",
+    "tension": "When buildings use only synthetic materials, occupants are disconnected from natural patterns and textures that support wellbeing",
+    "connections": [
+      47,
+      56,
+      30,
+      145,
+      160
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      207
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 211,
+    "name": "The Water Feature",
+    "scale": "building",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "A fountain, stream, or pond that provides the sound and sight of moving water",
+    "tension": "When outdoor spaces lack water, they miss the calming, masking sound and the visual focus that water provides",
+    "connections": [
+      33,
+      87,
+      30,
+      26,
+      200,
+      208,
+      32
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      64,
+      171
+    ],
+    "priority": "low"
+  },
+  {
+    "id": 212,
+    "name": "The Circadian Window",
+    "scale": "construction",
+    "category": "health-biophilia",
+    "status": "planned",
+    "brief": "Windows positioned to provide morning east light and evening west light to support natural sleep rhythms",
+    "tension": "When windows face only one direction, occupants miss the daily arc of sunlight that regulates circadian rhythms",
+    "connections": [
+      34,
+      83,
+      38,
+      82,
+      154
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      134,
+      159
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 213,
+    "name": "The Stoop",
+    "scale": "building",
+    "category": "foundation",
+    "status": "planned",
+    "brief": "A raised platform at the entrance where residents can sit and watch the street",
+    "tension": "When entrances have no place to pause, residents move directly from private to public with no intermediate territory",
+    "connections": [
+      35,
+      73,
+      36,
+      172,
+      213,
+      40,
+      45
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      125
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 214,
+    "name": "The Human-Scaled Street",
+    "scale": "neighborhood",
+    "category": "foundation",
+    "status": "planned",
+    "brief": "A street where building heights relate to street width in proportions that feel comfortable to pedestrians",
+    "tension": "When streets are too wide for their buildings or buildings too tall for their streets, the space feels either empty or oppressive",
+    "connections": [
+      43,
+      98,
+      40,
+      168,
+      166
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      97,
+      98
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 215,
+    "name": "The Prospect and Refuge",
+    "scale": "building",
+    "category": "foundation",
+    "status": "planned",
+    "brief": "Spaces that provide both open views outward and protected enclosure, satisfying deep human needs",
+    "tension": "When rooms are either entirely exposed or entirely enclosed, they fail to provide the combination of safety and awareness humans seek",
+    "connections": [
+      36,
+      34,
+      146,
+      112,
+      213,
+      40,
+      45
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      134
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 216,
+    "name": "The Thick Wall",
+    "scale": "construction",
+    "category": "foundation",
+    "status": "planned",
+    "brief": "Walls deep enough to contain window seats, shelving, and storage within their thickness",
+    "tension": "When walls are thin planes, they divide space but add nothing to it, and storage must consume floor area",
+    "connections": [
+      46,
+      84,
+      215,
+      47,
+      128
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      197
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 217,
+    "name": "The Compression and Release",
+    "scale": "building",
+    "category": "foundation",
+    "status": "planned",
+    "brief": "A sequence of lower, smaller spaces that make larger spaces feel more expansive by contrast",
+    "tension": "When all spaces are uniformly sized, there is no drama, no emphasis, and no sense of arrival",
+    "connections": [
+      35,
+      39,
+      215,
+      213,
+      147,
+      40
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      112
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 218,
+    "name": "The Inhabited Wall",
+    "scale": "building",
+    "category": "foundation",
+    "status": "planned",
+    "brief": "A thick wall that contains functions — shelving, seating, storage — rather than just dividing space",
+    "tension": "When walls are only barriers, they consume space without adding function and rooms feel empty",
+    "connections": [
+      216,
+      39,
+      46,
+      115,
+      169,
+      40
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      197
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 219,
+    "name": "The Cooperative Governance",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "planned",
+    "brief": "A resident-controlled organization that owns and manages housing or land collectively",
+    "tension": "When housing is owned by distant landlords or corporations, residents have no voice and no stake in their community's future",
+    "connections": [
+      50,
+      52,
+      183,
+      53,
+      220,
+      222
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      12
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 220,
+    "name": "The Consensus Process",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "planned",
+    "brief": "A decision-making method that seeks agreement from all rather than majority rule",
+    "tension": "When decisions are made by simple majority, minorities are perpetually overruled and community cohesion breaks down",
+    "connections": [
+      51,
+      53,
+      219,
+      183,
+      52,
+      222
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 221,
+    "name": "The Owner-Builder Toolkit",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "planned",
+    "brief": "A coordinated system of permits, training, and inspection support that enables homeowners to legally perform their own construction work",
+    "tension": "When building codes assume professional contractors for all work, homeowners who could safely perform repairs and improvements are forced to hire contractors or work illegally, raising costs and eroding construction knowledge in communities",
+    "connections": [
+      55,
+      54,
+      57,
+      222,
+      223
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 222,
+    "name": "The Conflict Resolution Space",
+    "scale": "building",
+    "category": "community-governance",
+    "status": "planned",
+    "brief": "A neutral room designed for difficult conversations with comfortable seating and good acoustics",
+    "tension": "When communities have no appropriate space for resolving disputes, conflicts escalate or go unaddressed",
+    "connections": [
+      51,
+      2,
+      220,
+      53,
+      32,
+      52,
+      219,
+      221
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 223,
+    "name": "The Visible Budget",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "planned",
+    "brief": "A public display showing how community funds are collected and spent in real time",
+    "tension": "When finances are opaque, residents distrust leadership and participation in governance declines",
+    "connections": [
+      51,
+      52,
+      219,
+      220,
+      68
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 224,
+    "name": "The Material Library",
+    "scale": "neighborhood",
+    "category": "construction-making",
+    "status": "planned",
+    "brief": "A community collection of salvaged and surplus building materials available for reuse",
+    "tension": "When demolition materials go to landfill and builders always buy new, embodied carbon is wasted and costs are higher",
+    "connections": [
+      54,
+      49,
+      57,
+      91,
+      92,
+      207,
+      104
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 225,
+    "name": "The Pattern Language Workshop",
+    "scale": "neighborhood",
+    "category": "construction-making",
+    "status": "planned",
+    "brief": "A recurring gathering where community members learn design patterns and apply them to local projects",
+    "tension": "When design knowledge is held only by professionals, communities cannot shape their own environments",
+    "connections": [
+      55,
+      57,
+      51,
+      221,
+      224,
+      104
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 226,
+    "name": "The Joinery Tradition",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "planned",
+    "brief": "Wood connections that use interlocking joints rather than metal fasteners, enabling disassembly and reuse",
+    "tension": "When wood is joined only with nails and screws, connections weaken over time and disassembly destroys the material",
+    "connections": [
+      54,
+      49,
+      56,
+      210,
+      169,
+      5
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 227,
+    "name": "The Apprentice Program",
+    "scale": "neighborhood",
+    "category": "construction-making",
+    "status": "planned",
+    "brief": "A structured system where experienced builders train the next generation through hands-on work",
+    "tension": "When construction skills are learned only in schools, practical knowledge is lost and young people cannot enter the trades",
+    "connections": [
+      55,
+      57,
+      221,
+      225,
+      54,
+      104
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 228,
+    "name": "The Documented Process",
+    "scale": "construction",
+    "category": "construction-making",
+    "status": "planned",
+    "brief": "Detailed records of how a building was made, stored with the building for future repair and modification",
+    "tension": "When construction details are lost, repairs require guesswork and modifications risk damaging hidden systems",
+    "connections": [
+      49,
+      54,
+      68,
+      156,
+      181
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 229,
+    "name": "The Winter Walking Network",
+    "scale": "neighborhood",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "A prioritized system of pedestrian routes that are cleared first and maintained throughout winter",
+    "tension": "When snow clearing prioritizes cars over pedestrians, walking becomes dangerous and the fifteen-minute neighborhood collapses",
+    "connections": [
+      58,
+      148,
+      103,
+      177,
+      1,
+      72,
+      59
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      52
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 230,
+    "name": "The Thermal Curtain",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Heavy insulated curtains or shutters that reduce window heat loss during long winter nights",
+    "tension": "When windows are unshuttered at night, they radiate heat outward even with good glazing, wasting energy and creating cold zones",
+    "connections": [
+      150,
+      84,
+      197,
+      129,
+      61
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      202
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 231,
+    "name": "The Bright Winter Interior",
+    "scale": "building",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Light-colored surfaces and strategic mirrors that maximize the distribution of scarce winter daylight",
+    "tension": "When interiors are dark-colored, winter daylight is absorbed rather than reflected and spaces feel dim and depressing",
+    "connections": [
+      61,
+      82,
+      85,
+      34,
+      212,
+      58
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      250
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 232,
+    "name": "The Cold Porch",
+    "scale": "building",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "An unheated enclosed space for storing winter gear, frozen goods, and items that benefit from cold storage",
+    "tension": "When there is no cold storage space, winter clothing clutters living areas and frozen food requires energy-intensive freezers",
+    "connections": [
+      147,
+      133,
+      59,
+      63,
+      153,
+      58
+    ],
+    "coldClimate": true,
+    "priority": "medium"
+  },
+  {
+    "id": 233,
+    "name": "The Warm Floor",
+    "scale": "construction",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Insulation under floor slabs and above crawlspaces to prevent cold floors and heat loss to the ground",
+    "tension": "When floors are uninsulated, they are cold to walk on and heat is lost continuously to the earth below",
+    "connections": [
+      64,
+      196,
+      45,
+      129,
+      128,
+      59
+    ],
+    "coldClimate": true,
+    "priority": "high"
+  },
+  {
+    "id": 234,
+    "name": "The Windbreak",
+    "scale": "neighborhood",
+    "category": "northern-living",
+    "status": "planned",
+    "brief": "Strategic placement of trees, berms, or structures to block prevailing winter winds",
+    "tension": "When sites are exposed to wind, heat loss increases dramatically and outdoor spaces are unusable in winter",
+    "connections": [
+      44,
+      58,
+      89,
+      125,
+      37
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      105
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 235,
+    "name": "The Permeable Paving",
+    "scale": "construction",
+    "category": "water-infrastructure",
+    "status": "planned",
+    "brief": "Paving materials that allow water to infiltrate while supporting vehicle and pedestrian loads",
+    "tension": "When all paving is impermeable, stormwater runoff overwhelms systems and groundwater is not recharged",
+    "connections": [
+      20,
+      119,
+      120,
+      67,
+      148
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 236,
+    "name": "The Greywater Wetland",
+    "scale": "neighborhood",
+    "category": "water-infrastructure",
+    "status": "planned",
+    "brief": "A shared constructed wetland that treats greywater from multiple buildings through natural processes",
+    "tension": "When every building must treat greywater independently, the systems are expensive and many buildings cannot accommodate them",
+    "connections": [
+      65,
+      202,
+      119,
+      67,
+      21
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 237,
+    "name": "The Sump Backup",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "planned",
+    "brief": "A battery-powered backup system that keeps sump pumps running during power outages",
+    "tension": "When sump pumps fail during storms, basements flood and cause tens of thousands in damage",
+    "connections": [
+      17,
+      116,
+      121,
+      69,
+      156
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 238,
+    "name": "The Overflow Path",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "planned",
+    "brief": "A designed route for water to flow safely away from the building when drainage systems are overwhelmed",
+    "tension": "When overflow is not planned, water flows toward foundations, into basements, or across neighboring properties",
+    "connections": [
+      17,
+      19,
+      120,
+      67,
+      187
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 239,
+    "name": "The Water Meter Dashboard",
+    "scale": "building",
+    "category": "water-infrastructure",
+    "status": "planned",
+    "brief": "A real-time display of water consumption that makes usage visible and enables leak detection",
+    "tension": "When water use is invisible until the bill arrives, leaks go undetected and conservation is abstract",
+    "connections": [
+      70,
+      68,
+      26,
+      136,
+      223
+    ],
+    "coldClimate": false,
+    "priority": "low"
+  },
+  {
+    "id": 240,
+    "name": "The Backflow Preventer",
+    "scale": "construction",
+    "category": "water-infrastructure",
+    "status": "planned",
+    "brief": "A valve that prevents contaminated water from flowing back into the municipal supply during pressure changes",
+    "tension": "When backflow is not prevented, irrigation systems, boilers, and other connections can contaminate drinking water",
+    "connections": [
+      69,
+      65,
+      26,
+      156,
+      68
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 241,
+    "name": "The Play Street",
+    "scale": "neighborhood",
+    "category": "children-play",
+    "status": "planned",
+    "brief": "A residential street periodically closed to vehicles so children can play safely",
+    "tension": "When streets are always open to cars, children have no safe place to play near home and are confined indoors",
+    "connections": [
+      72,
+      43,
+      71,
+      73,
+      177
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      57
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 242,
+    "name": "The Climbing Structure",
+    "scale": "building",
+    "category": "children-play",
+    "status": "planned",
+    "brief": "Trees, rocks, or structures that allow children to climb and take measured risks",
+    "tension": "When play equipment eliminates all risk, children do not develop physical confidence and seek danger elsewhere",
+    "connections": [
+      71,
+      74,
+      73,
+      30,
+      208,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      203
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 243,
+    "name": "The Secret Place",
+    "scale": "building",
+    "category": "children-play",
+    "status": "planned",
+    "brief": "A small enclosed space where children can hide, build forts, and create their own world",
+    "tension": "When every space is designed and supervised by adults, children have no territory of their own and no privacy",
+    "connections": [
+      74,
+      71,
+      75,
+      36,
+      215,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      203
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 244,
+    "name": "The Visible School Route",
+    "scale": "neighborhood",
+    "category": "children-play",
+    "status": "planned",
+    "brief": "A walking route to school that passes many windows and doorsteps where adults can casually supervise",
+    "tension": "When school routes pass through empty spaces or behind buildings, children are isolated and parents fear for their safety",
+    "connections": [
+      76,
+      72,
+      177,
+      213,
+      78
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      57
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 245,
+    "name": "The Messy Play Zone",
+    "scale": "building",
+    "category": "children-play",
+    "status": "planned",
+    "brief": "An outdoor area where children can dig, build, and make mud without concern for cleanliness",
+    "tension": "When all outdoor space must be kept neat and clean, children cannot engage in the messy, creative play they need",
+    "connections": [
+      73,
+      74,
+      71,
+      25,
+      242,
+      20
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      203
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 246,
+    "name": "The Elder Bench",
+    "scale": "neighborhood",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "Frequent seating along walking routes so elders can rest and watch neighborhood life",
+    "tension": "When benches are rare or absent, elders cannot walk far from home and become isolated",
+    "connections": [
+      78,
+      77,
+      213,
+      43,
+      244
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      88
+    ],
+    "priority": "high"
+  },
+  {
+    "id": 247,
+    "name": "The Grab Bar Blocking",
+    "scale": "construction",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "Reinforced framing in bathroom walls that allows grab bars to be installed anywhere they are needed",
+    "tension": "When grab bars can only be installed where studs happen to be, they are not positioned where they are most useful",
+    "connections": [
+      174,
+      171,
+      173,
+      46,
+      218
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 248,
+    "name": "The Aging-in-Place Checklist",
+    "scale": "building",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "A design standard that ensures new housing can accommodate aging without major renovation",
+    "tension": "When housing is designed only for current needs, aging requires expensive modifications or relocation",
+    "connections": [
+      15,
+      171,
+      185,
+      172,
+      174,
+      77,
+      173
+    ],
+    "coldClimate": false,
+    "priority": "high"
+  },
+  {
+    "id": 249,
+    "name": "The Contrast Marking",
+    "scale": "construction",
+    "category": "aging-accessibility",
+    "status": "planned",
+    "brief": "High-contrast edges on stairs, doors, and level changes to aid those with low vision",
+    "tension": "When all surfaces are similar in color and tone, people with vision impairment cannot distinguish edges and fall",
+    "connections": [
+      81,
+      171,
+      173,
+      209,
+      172
+    ],
+    "coldClimate": false,
+    "priority": "medium"
+  },
+  {
+    "id": 250,
+    "name": "The Light Shelf",
+    "scale": "construction",
+    "category": "light-darkness",
+    "status": "planned",
+    "brief": "A horizontal surface above eye level that reflects daylight deep into rooms while shading lower windows",
+    "tension": "When windows have no light shelf, daylight penetrates only a few feet and the back of the room remains dark",
+    "connections": [
+      34,
+      84,
+      85,
+      231,
+      197
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      194
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 251,
+    "name": "The Dimmable Lighting",
+    "scale": "building",
+    "category": "light-darkness",
+    "status": "planned",
+    "brief": "Lighting controls that allow adjustment of intensity to match task, time of day, and mood",
+    "tension": "When lights are only on or off, they are either too bright for evening or too dim for tasks, and energy is wasted",
+    "connections": [
+      83,
+      86,
+      82,
+      61,
+      154,
+      1,
+      84
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      135
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 252,
+    "name": "The Task Light",
+    "scale": "construction",
+    "category": "light-darkness",
+    "status": "planned",
+    "brief": "Focused lighting for specific activities rather than uniform illumination of entire rooms",
+    "tension": "When rooms are lit uniformly, energy is wasted lighting areas not in use and the quality of light is poor for detailed work",
+    "connections": [
+      34,
+      251,
+      83,
+      85,
+      250
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      135,
+      252
+    ],
+    "priority": "low"
+  },
+  {
+    "id": 253,
+    "name": "The Shadow Pattern",
+    "scale": "building",
+    "category": "light-darkness",
+    "status": "planned",
+    "brief": "Deliberate use of shadow and contrast to create depth, mystery, and visual interest",
+    "tension": "When spaces are uniformly lit, they feel flat and institutional, lacking the depth that makes spaces feel alive",
+    "connections": [
+      84,
+      34,
+      215,
+      217,
+      251,
+      1
+    ],
+    "coldClimate": false,
+    "alexanderRef": [
+      135
+    ],
+    "priority": "low"
+  },
+  {
+    "id": 254,
+    "name": "The Seasonal Celebration",
+    "scale": "neighborhood",
+    "category": "community-governance",
+    "status": "planned",
+    "brief": "Regular festivals marking solstices, harvests, and seasonal transitions that build community identity",
+    "tension": "When communities have no shared rituals, residents remain strangers and neighborhood identity never forms",
+    "connections": [
+      41,
+      42,
+      178,
+      51,
+      2,
+      198,
+      222
+    ],
+    "coldClimate": true,
+    "alexanderRef": [
+      1
+    ],
+    "priority": "medium"
+  },
+  {
+    "id": 255,
+    "name": "The Market Street",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "planned",
+    "brief": "A street where small-scale commerce, food vendors, and daily services cluster within walking distance",
+    "tension": "When commercial activity is concentrated in car-dependent power centers, daily errands require driving and neighborhoods lose economic vitality"
+  },
+  {
+    "id": 256,
+    "name": "The Micro-Mobility Lane",
+    "scale": "neighborhood",
+    "category": "fifteen-minute-life",
+    "status": "planned",
+    "brief": "Dedicated infrastructure for e-bikes, scooters, and small electric vehicles separate from both cars and pedestrians",
+    "tension": "When bike lanes must accommodate 50 km/h e-bikes alongside 15 km/h cyclists, neither feels safe, and when they share sidewalks, pedestrians are endangered"
+  },
+  {
+    "id": 257,
+    "name": "The Corner Store Building",
+    "scale": "building",
+    "category": "fifteen-minute-life",
+    "status": "planned",
+    "brief": "A building type that combines ground-floor retail with residential above at neighborhood scale",
+    "tension": "When zoning separates residential from commercial uses, neighborhoods lack the small shops that make daily life walkable"
+  }
+]

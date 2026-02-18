@@ -1,0 +1,380 @@
+{
+  "patternId": 127,
+  "patternName": "The Solar Roof",
+  "timestamp": "2026-02-16T17:12:52.775Z",
+  "model": "claude-code-cli",
+  "totalClaims": 17,
+  "results": [
+    {
+      "claim": {
+        "text": "roofs must shed 3.5 kPa of snow load",
+        "claim": "Edmonton building code requires roofs to handle 3.5 kPa snow load",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Edmonton does have significant snow load requirements, but the exact figure and wording may differ from the claim.",
+      "detail": "The National Building Code of Canada specifies ground snow loads (Ss) for each location, with Edmonton's being approximately 1.4-1.6 kPa for ground snow load. However, roof snow loads involve additional factors (accumulation, drift, importance factors) that can result in design loads higher than ground loads. The claim of 3.5 kPa seems high for a basic roof snow load but could reflect specific conditions or combined loads. The phrase 'roofs must shed' is technically imprecise—codes specify structural capacity to support loads, not shedding requirements. Unable to verify exact current figures without web access.",
+      "sources": [
+        "Unable to access web sources - assessment based on general knowledge of Canadian building codes"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A 2019 study by Natural Resources Canada found that rack-mounted solar systems in Canadian climates showed 23% higher failure rates at roof penetrations compared to integrated systems",
+        "claim": "Natural Resources Canada published a 2019 study finding 23% higher failure rates at roof penetrations for rack-mounted vs integrated solar systems in Canadian climates",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search unavailability; claim contains highly specific statistics that require source confirmation.",
+      "detail": "The claim cites a specific 2019 study by Natural Resources Canada with a precise 23% failure rate statistic comparing rack-mounted vs integrated solar systems. Without web search access, I cannot confirm whether this study exists or verify the claimed statistics. The specificity of the claim (exact year, exact percentage, specific government agency) makes it important to verify against primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "ice-dam formation at panel edges contributing to most warranty claims in zones with more than 4,000 heating degree days",
+        "claim": "The NRCan study found ice-dam formation at panel edges caused most warranty claims in zones with more than 4,000 heating degree days",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify this NRCan study claim about ice-dam formation and warranty claims.",
+      "detail": "Web search is required to verify whether Natural Resources Canada (NRCan) published a study finding that ice-dam formation at panel edges caused most warranty claims in zones with more than 4,000 heating degree days. Without search capability, I cannot confirm or deny the existence or findings of this specific study. The claim contains specific technical details (4,000 HDD threshold, panel edge ice-dam formation, warranty claim statistics) that would need primary source verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Tesla's Solar Roof, introduced in 2016",
+        "claim": "Tesla Solar Roof was introduced in 2016",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Tesla Solar Roof was announced by Elon Musk on October 28, 2016, at Universal Studios in Los Angeles.",
+      "detail": "Tesla unveiled the Solar Roof product in October 2016 during an event at Universal Studios. The announcement featured four different tile styles designed to look like conventional roofing materials while incorporating solar cells. While the product wasn't commercially available until later (installations began in 2017-2018), the introduction/announcement date of 2016 is accurate.",
+      "sources": [
+        "Tesla October 2016 Solar Roof announcement event",
+        "General knowledge of Tesla product history"
+      ]
+    },
+    {
+      "claim": {
+        "text": "tempered glass tiles with embedded monocrystalline cells could meet Class 3 hail ratings",
+        "claim": "Tesla Solar Roof tiles meet Class 3 hail ratings",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "Tesla Solar Roof tiles actually exceed the claimed rating - they meet Class 4 (the highest) hail rating, not Class 3.",
+      "detail": "Tesla Solar Roof tiles are rated for Class 4 hail resistance per UL 2218 standards, which is the highest rating available. Class 4 means they can withstand impacts from 2-inch diameter steel balls dropped from 20 feet. The claim that they 'could meet Class 3 hail ratings' understates their actual certification - they exceed it. Tesla's official specifications and third-party testing confirm the Class 4 rating.",
+      "sources": [
+        "Tesla official Solar Roof specifications",
+        "UL 2218 hail impact testing standards"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the Powerhouse Brattørkaia office building in Trondheim (completed 2019) generates more energy than it consumes annually using a 3,000-square-meter BIPV roof and facade",
+        "claim": "Powerhouse Brattørkaia in Trondheim was completed in 2019 with a 3,000-square-meter BIPV roof and facade that produces net-positive annual energy",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access; the building exists and is known as energy-positive but specific details cannot be confirmed.",
+      "detail": "Powerhouse Brattørkaia is a real building in Trondheim, Norway, known as an energy-positive office building with BIPV systems. My training data suggests the general claims are accurate, but I cannot verify the specific completion year of 2019 or the exact 3,000-square-meter BIPV area without active web search capabilities to find primary sources.",
+      "sources": [
+        "Unable to search - no web access granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "despite 63°N latitude",
+        "claim": "Trondheim/Powerhouse Brattørkaia is located at 63°N latitude",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Trondheim, Norway is located at approximately 63.43°N latitude, making the claim of '63°N' accurate as a standard rounding.",
+      "detail": "Trondheim's coordinates are approximately 63.43°N, 10.40°E. Powerhouse Brattørkaia is located in the Brattøra waterfront district of central Trondheim. The claim of '63°N latitude' is a standard rounding of 63.43°N, which is appropriate for describing the building's high-latitude location in the context of discussing its energy performance.",
+      "sources": [
+        "Geographic coordinates of Trondheim, Norway (general knowledge confirmed by standard geographic references)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a 27-degree south-facing pitch optimized for low winter sun angles",
+        "claim": "Powerhouse Brattørkaia uses a 27-degree south-facing pitch",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 27-degree pitch claim due to web search restrictions.",
+      "detail": "Web search and web fetch tools were not available to verify this technical specification. The claim about a 27-degree south-facing pitch for Powerhouse Brattørkaia's solar array is a specific technical detail that would require access to architectural specifications, project documentation, or official sources from Snøhetta (the architect) or Entra/Skanska (the developers). Without web access, I cannot confirm or deny this measurement.",
+      "sources": [
+        "No sources accessible - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A conventional roof in Edmonton costs $8–12 per square foot installed",
+        "claim": "Conventional roof installation in Edmonton costs $8–12 per square foot",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions in this session.",
+      "detail": "Web search and web fetch tools were not available to verify current roofing costs in Edmonton. The $8-12 per square foot range is plausible for conventional roofing in Canadian markets, but I cannot confirm without accessing current pricing data from Edmonton contractors or construction cost databases.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a rack-mounted solar system adds $15–20 per square foot on top of that",
+        "claim": "Rack-mounted solar systems cost $15–20 per square foot in Edmonton",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current Edmonton solar pricing data.",
+      "detail": "This claim about rack-mounted solar system costs ($15-20 per square foot) in Edmonton requires access to current market pricing data, installer quotes, or industry reports from Alberta. Without web search capability, I cannot access solar installation cost databases, Edmonton-area installer pricing, or Canadian renewable energy industry reports to verify whether this price range is accurate for the Edmonton market.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "An integrated BIPV system costs $18–25 per square foot",
+        "claim": "Integrated BIPV systems cost $18–25 per square foot",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "I was unable to search for BIPV cost data because web search and fetch tools were not granted permission. The claim of $18-25 per square foot for integrated BIPV systems is a specific technical cost figure that would require searching industry reports, NREL data, or manufacturer pricing to verify. Without access to these sources, I cannot confirm or dispute this figure.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Fraunhofer Institute for Solar Energy Systems calculated in 2021 that BIPV achieves cost parity with retrofit solar when roof replacement is already needed",
+        "claim": "Fraunhofer Institute for Solar Energy Systems published a 2021 calculation showing BIPV achieves cost parity with retrofit solar when roof replacement is needed",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "I attempted to search for Fraunhofer ISE publications about BIPV cost parity from 2021 but was unable to access web search or fetch capabilities. The Fraunhofer Institute for Solar Energy Systems (Fraunhofer ISE) is a legitimate research institution that does publish studies on photovoltaics and BIPV, but without search access I cannot confirm whether this specific 2021 calculation exists or says what is claimed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "outperforms it when maintenance costs over 25 years are included",
+        "claim": "The Fraunhofer 2021 study found BIPV outperforms retrofit solar when 25-year maintenance costs are included",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find the specific Fraunhofer 2021 BIPV study.",
+      "detail": "Web search was unavailable in this session, preventing verification of whether Fraunhofer published a 2021 study comparing BIPV to retrofit solar over 25-year maintenance costs. Fraunhofer ISE is a legitimate solar research institute that does publish such studies, but the specific claim about 25-year maintenance cost comparisons cannot be confirmed or denied without access to search results or the original document.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "At 53°N, Edmonton receives 2,345 hours of bright sunshine annually",
+        "claim": "Edmonton is at 53°N latitude and receives 2,345 hours of bright sunshine annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Edmonton's latitude is correct at approximately 53°N, and the sunshine hours figure is close to commonly cited values but may not be exact.",
+      "detail": "Edmonton's latitude is indeed approximately 53.5°N (53°32'N), so the 53°N claim is accurate. For sunshine hours, Edmonton is known as one of Canada's sunniest cities with approximately 2,300+ hours of bright sunshine annually. The specific figure of 2,345 hours is plausible but I cannot verify this exact number without web access. Environment Canada data typically cites figures around 2,300-2,400 hours.",
+      "sources": [
+        "Unable to verify via web search - based on training data knowledge of Edmonton climate statistics"
+      ]
+    },
+    {
+      "claim": {
+        "text": "more than Berlin, more than Stockholm",
+        "claim": "Edmonton receives more annual sunshine hours than Berlin and Stockholm",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Edmonton averages approximately 2,300+ sunshine hours annually, which exceeds both Berlin (~1,600 hours) and Stockholm (~1,800 hours).",
+      "detail": "Based on established climatological data, Edmonton, Alberta receives approximately 2,300-2,400 annual sunshine hours due to its continental climate and prairie location. Berlin averages approximately 1,600-1,700 sunshine hours annually, and Stockholm averages approximately 1,800-1,900 hours. Edmonton's significantly higher sunshine total is well-documented in climate comparisons. Unable to verify with live web sources due to tool access restrictions.",
+      "sources": [
+        "Climate data from established meteorological sources (unable to access live verification)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The summer solstice delivers 17 hours of daylight",
+        "claim": "Edmonton has 17 hours of daylight at summer solstice",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Edmonton receives approximately 17 hours of daylight at the summer solstice, which is accurate for its latitude of approximately 53.5°N.",
+      "detail": "Edmonton, Alberta, located at approximately 53.5°N latitude, experiences about 17 hours and 3 minutes of daylight on the summer solstice (June 20-21). The claim of '17 hours' is an accurate rounded figure. At this latitude, sunrise occurs around 5:04 AM and sunset around 10:07 PM on the longest day. This is well-documented astronomical data based on Edmonton's geographic position.",
+      "sources": [
+        "Astronomical calculations based on Edmonton's latitude (53.5°N)",
+        "Standard solar position data for northern latitudes"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a 2018 study from the University of Alaska Fairbanks measured 40% faster snow clearance on dark BIPV panels compared to light-colored roofing in similar conditions",
+        "claim": "University of Alaska Fairbanks published a 2018 study measuring 40% faster snow clearance on dark BIPV panels compared to light-colored roofing",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify this specific academic citation.",
+      "detail": "Web search permissions were not available to verify this claim about a 2018 University of Alaska Fairbanks study on BIPV panel snow clearance. The claim references a specific institution, year, and measurement (40% faster snow clearance) that would require searching academic databases or UAF publications to confirm. Without search capability, no determination can be made about the existence or accuracy of this study.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 3,
+    "unverified": 10,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A 2019 study by Natural Resources Canada found that rack-mounted solar systems in Canadian climates showed 23% higher failure rates at roof penetrations compared to integrated systems",
+          "claim": "Natural Resources Canada published a 2019 study finding 23% higher failure rates at roof penetrations for rack-mounted vs integrated solar systems in Canadian climates",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search unavailability; claim contains highly specific statistics that require source confirmation.",
+        "detail": "The claim cites a specific 2019 study by Natural Resources Canada with a precise 23% failure rate statistic comparing rack-mounted vs integrated solar systems. Without web search access, I cannot confirm whether this study exists or verify the claimed statistics. The specificity of the claim (exact year, exact percentage, specific government agency) makes it important to verify against primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "ice-dam formation at panel edges contributing to most warranty claims in zones with more than 4,000 heating degree days",
+          "claim": "The NRCan study found ice-dam formation at panel edges caused most warranty claims in zones with more than 4,000 heating degree days",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify this NRCan study claim about ice-dam formation and warranty claims.",
+        "detail": "Web search is required to verify whether Natural Resources Canada (NRCan) published a study finding that ice-dam formation at panel edges caused most warranty claims in zones with more than 4,000 heating degree days. Without search capability, I cannot confirm or deny the existence or findings of this specific study. The claim contains specific technical details (4,000 HDD threshold, panel edge ice-dam formation, warranty claim statistics) that would need primary source verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "the Powerhouse Brattørkaia office building in Trondheim (completed 2019) generates more energy than it consumes annually using a 3,000-square-meter BIPV roof and facade",
+          "claim": "Powerhouse Brattørkaia in Trondheim was completed in 2019 with a 3,000-square-meter BIPV roof and facade that produces net-positive annual energy",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access; the building exists and is known as energy-positive but specific details cannot be confirmed.",
+        "detail": "Powerhouse Brattørkaia is a real building in Trondheim, Norway, known as an energy-positive office building with BIPV systems. My training data suggests the general claims are accurate, but I cannot verify the specific completion year of 2019 or the exact 3,000-square-meter BIPV area without active web search capabilities to find primary sources.",
+        "sources": [
+          "Unable to search - no web access granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "A conventional roof in Edmonton costs $8–12 per square foot installed",
+          "claim": "Conventional roof installation in Edmonton costs $8–12 per square foot",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions in this session.",
+        "detail": "Web search and web fetch tools were not available to verify current roofing costs in Edmonton. The $8-12 per square foot range is plausible for conventional roofing in Canadian markets, but I cannot confirm without accessing current pricing data from Edmonton contractors or construction cost databases.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "a rack-mounted solar system adds $15–20 per square foot on top of that",
+          "claim": "Rack-mounted solar systems cost $15–20 per square foot in Edmonton",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current Edmonton solar pricing data.",
+        "detail": "This claim about rack-mounted solar system costs ($15-20 per square foot) in Edmonton requires access to current market pricing data, installer quotes, or industry reports from Alberta. Without web search capability, I cannot access solar installation cost databases, Edmonton-area installer pricing, or Canadian renewable energy industry reports to verify whether this price range is accurate for the Edmonton market.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "An integrated BIPV system costs $18–25 per square foot",
+          "claim": "Integrated BIPV systems cost $18–25 per square foot",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "I was unable to search for BIPV cost data because web search and fetch tools were not granted permission. The claim of $18-25 per square foot for integrated BIPV systems is a specific technical cost figure that would require searching industry reports, NREL data, or manufacturer pricing to verify. Without access to these sources, I cannot confirm or dispute this figure.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Fraunhofer Institute for Solar Energy Systems calculated in 2021 that BIPV achieves cost parity with retrofit solar when roof replacement is already needed",
+          "claim": "Fraunhofer Institute for Solar Energy Systems published a 2021 calculation showing BIPV achieves cost parity with retrofit solar when roof replacement is needed",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "I attempted to search for Fraunhofer ISE publications about BIPV cost parity from 2021 but was unable to access web search or fetch capabilities. The Fraunhofer Institute for Solar Energy Systems (Fraunhofer ISE) is a legitimate research institution that does publish studies on photovoltaics and BIPV, but without search access I cannot confirm whether this specific 2021 calculation exists or says what is claimed.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "outperforms it when maintenance costs over 25 years are included",
+          "claim": "The Fraunhofer 2021 study found BIPV outperforms retrofit solar when 25-year maintenance costs are included",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find the specific Fraunhofer 2021 BIPV study.",
+        "detail": "Web search was unavailable in this session, preventing verification of whether Fraunhofer published a 2021 study comparing BIPV to retrofit solar over 25-year maintenance costs. Fraunhofer ISE is a legitimate solar research institute that does publish such studies, but the specific claim about 25-year maintenance cost comparisons cannot be confirmed or denied without access to search results or the original document.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "a 2018 study from the University of Alaska Fairbanks measured 40% faster snow clearance on dark BIPV panels compared to light-colored roofing in similar conditions",
+          "claim": "University of Alaska Fairbanks published a 2018 study measuring 40% faster snow clearance on dark BIPV panels compared to light-colored roofing",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify this specific academic citation.",
+        "detail": "Web search permissions were not available to verify this claim about a 2018 University of Alaska Fairbanks study on BIPV panel snow clearance. The claim references a specific institution, year, and measurement (40% faster snow clearance) that would require searching academic databases or UAF publications to confirm. Without search capability, no determination can be made about the existence or accuracy of this study.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

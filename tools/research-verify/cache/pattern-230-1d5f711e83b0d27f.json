@@ -1,0 +1,177 @@
+{
+  "patternId": 230,
+  "patternName": "The Thermal Curtain",
+  "timestamp": "2026-02-16T19:18:39.915Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "A window with a U-value of 0.85 W/m²K — excellent by current standards — still loses roughly three times more heat per square meter than an R-40 wall",
+        "claim": "A window with U-value 0.85 W/m²K loses approximately three times more heat per square meter than an R-40 wall",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.95,
+      "summary": "The mathematical calculation shows a U-0.85 window loses approximately 6 times more heat than an R-40 wall, not 3 times as claimed.",
+      "detail": "Using standard R-value to U-value conversion formulas: R-40 (imperial) equals RSI-7.04, giving a U-value of approximately 0.142 W/m²K. Dividing the window U-value (0.85) by the wall U-value (0.142) yields a ratio of approximately 6:1, not 3:1 as stated. The claim significantly understates the thermal performance gap between the window and wall. This is based on well-established building physics conversion factors (1 R-value imperial = 0.176 RSI).",
+      "sources": [
+        "Standard building physics R-value to U-value conversion formulas",
+        "ASHRAE Fundamentals thermal conversion factors"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Passivhaus Institut in Darmstadt has measured the difference: interior window surface temperatures drop 3-5°C lower on uncovered windows than on those with insulated coverings, even with identical glazing",
+        "claim": "Passivhaus Institut in Darmstadt measured that interior window surface temperatures drop 3-5°C lower on uncovered windows compared to those with insulated coverings",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to permission restrictions.",
+      "detail": "Web search permission was not granted, so I could not look up whether the Passivhaus Institut in Darmstadt published measurements regarding interior window surface temperatures with and without insulated coverings. The claim is specific and technical enough that it would require searching PHI publications, technical papers, or official documentation to verify the 3-5°C figure.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Russian izbas had double windows with the outer pane removed in summer — and heavy drapes drawn between them in winter",
+        "claim": "Russian izbas traditionally used double windows with removable outer panes and heavy drapes between them in winter",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find authoritative sources on traditional Russian izba window construction.",
+      "detail": "Web search tools are not available in this session. While Russian izbas are known for traditional insulation methods and double windows were common in cold-climate vernacular architecture, I cannot verify the specific claim about removable outer panes and heavy drapes between window panes without accessing academic sources or architectural documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The settlers who built Edmonton's earliest frame houses hung quilts over windows at night, a practice that persisted into the 1950s in rural Alberta",
+        "claim": "Early Edmonton settlers hung quilts over windows at night, a practice continuing into the 1950s in rural Alberta",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search permissions not being granted.",
+      "detail": "I attempted multiple searches to verify this claim about Edmonton settlers hanging quilts over windows at night and the practice continuing into the 1950s in rural Alberta, but web search permissions were not available. The claim describes a plausible folk practice for insulation in cold climates, but without access to historical archives, museum records, or oral history collections, I cannot confirm the specific details about Edmonton settlers or the 1950s timeframe.",
+      "sources": [
+        "No sources accessed - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Insulated cellular shades with edge seals can reduce window heat loss by 40% according to testing by the U.S. Department of Energy's Lawrence Berkeley National Laboratory",
+        "claim": "Lawrence Berkeley National Laboratory (for U.S. DOE) tested that insulated cellular shades with edge seals reduce window heat loss by 40%",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing verification of whether Lawrence Berkeley National Laboratory conducted testing on insulated cellular shades showing 40% heat loss reduction. The claim involves a specific research finding that requires accessing DOE or LBNL sources to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "quilted curtains with batting reach R-3 to R-5",
+        "claim": "Quilted curtains with batting achieve R-values of R-3 to R-5",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The R-value range is directionally correct but common sources cite slightly different ranges, typically R-3 to R-4 or up to R-5 for multi-layer insulated curtains.",
+      "detail": "Window treatment R-values vary significantly by construction. Standard insulated curtains typically achieve R-3 to R-4. The claim of R-5 for quilted curtains with batting is at the high end of what's achievable and may require multiple layers or specialized construction. The Department of Energy and window treatment manufacturers generally cite R-values in the R-2 to R-5 range for various insulated curtain designs, with quilted or multi-layer constructions at the higher end.",
+      "sources": [
+        "Department of Energy Energy Saver guidance on window treatments (general knowledge)",
+        "Window treatment manufacturer specifications (general industry knowledge)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Interior insulating shutters, hinged or sliding, can achieve R-10 or higher when properly fitted and gasketed",
+        "claim": "Interior insulating shutters can achieve R-10 or higher when properly fitted and gasketed",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for verification due to permission restrictions; claim is plausible based on general knowledge of insulating shutters.",
+      "detail": "Web search permissions were not granted, preventing direct verification. Based on training data, interior insulating shutters with foam cores (such as EPS or polyiso) can achieve significant R-values, and R-10 is within the plausible range for well-designed products with proper edge sealing. However, without current sources, this cannot be definitively verified.",
+      "sources": [
+        "Unable to access web sources due to permission restrictions"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 5,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A window with a U-value of 0.85 W/m²K — excellent by current standards — still loses roughly three times more heat per square meter than an R-40 wall",
+          "claim": "A window with U-value 0.85 W/m²K loses approximately three times more heat per square meter than an R-40 wall",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "DISPUTED",
+        "confidence": 0.95,
+        "summary": "The mathematical calculation shows a U-0.85 window loses approximately 6 times more heat than an R-40 wall, not 3 times as claimed.",
+        "detail": "Using standard R-value to U-value conversion formulas: R-40 (imperial) equals RSI-7.04, giving a U-value of approximately 0.142 W/m²K. Dividing the window U-value (0.85) by the wall U-value (0.142) yields a ratio of approximately 6:1, not 3:1 as stated. The claim significantly understates the thermal performance gap between the window and wall. This is based on well-established building physics conversion factors (1 R-value imperial = 0.176 RSI).",
+        "sources": [
+          "Standard building physics R-value to U-value conversion formulas",
+          "ASHRAE Fundamentals thermal conversion factors"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Passivhaus Institut in Darmstadt has measured the difference: interior window surface temperatures drop 3-5°C lower on uncovered windows than on those with insulated coverings, even with identical glazing",
+          "claim": "Passivhaus Institut in Darmstadt measured that interior window surface temperatures drop 3-5°C lower on uncovered windows compared to those with insulated coverings",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to permission restrictions.",
+        "detail": "Web search permission was not granted, so I could not look up whether the Passivhaus Institut in Darmstadt published measurements regarding interior window surface temperatures with and without insulated coverings. The claim is specific and technical enough that it would require searching PHI publications, technical papers, or official documentation to verify the 3-5°C figure.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Insulated cellular shades with edge seals can reduce window heat loss by 40% according to testing by the U.S. Department of Energy's Lawrence Berkeley National Laboratory",
+          "claim": "Lawrence Berkeley National Laboratory (for U.S. DOE) tested that insulated cellular shades with edge seals reduce window heat loss by 40%",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "Web search and web fetch tools are not available in this session, preventing verification of whether Lawrence Berkeley National Laboratory conducted testing on insulated cellular shades showing 40% heat loss reduction. The claim involves a specific research finding that requires accessing DOE or LBNL sources to confirm.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Interior insulating shutters, hinged or sliding, can achieve R-10 or higher when properly fitted and gasketed",
+          "claim": "Interior insulating shutters can achieve R-10 or higher when properly fitted and gasketed",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for verification due to permission restrictions; claim is plausible based on general knowledge of insulating shutters.",
+        "detail": "Web search permissions were not granted, preventing direct verification. Based on training data, interior insulating shutters with foam cores (such as EPS or polyiso) can achieve significant R-values, and R-10 is within the plausible range for well-designed products with proper edge sealing. However, without current sources, this cannot be definitively verified.",
+        "sources": [
+          "Unable to access web sources due to permission restrictions"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

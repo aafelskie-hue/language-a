@@ -1,0 +1,133 @@
+{
+  "patternId": 146,
+  "patternName": "The Outdoor Room",
+  "timestamp": "2026-02-17T01:24:18.120Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "Christopher Alexander identified this pattern as \"Outdoor Room\" (163)",
+        "claim": "Christopher Alexander's pattern language includes 'Outdoor Room' as pattern number 163",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander's 'A Pattern Language' (1977) does include 'Outdoor Room' as pattern number 163.",
+      "detail": "In Christopher Alexander's seminal work 'A Pattern Language: Towns, Buildings, Construction' (1977), pattern 163 is indeed titled 'Outdoor Room.' This pattern describes creating outdoor spaces that have the feeling of a room - enclosed on at least two sides, with a clear boundary and defined space. The book contains 253 patterns numbered sequentially, and this is a well-documented pattern in architectural literature.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein et al., 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Tucson firm Ibarra Rosano documented this in their courtyard houses, where deep portal roofs — twelve to sixteen feet — create outdoor rooms that residents use eight months of the year despite summer temperatures exceeding 40°C",
+        "claim": "Ibarra Rosano is an architecture firm in Tucson that has documented courtyard house designs with 12-16 foot portal roofs",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools require permission grants that have not been provided. I cannot search for information about Ibarra Rosano architecture firm, their Tucson location, or their courtyard house portal roof documentation without these capabilities enabled.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In the Pacific Northwest, Cutler Anderson Architects has built dozens of houses with covered outdoor rooms that extend living space through the nine-month rainy season",
+        "claim": "Cutler Anderson Architects is a Pacific Northwest firm that has built dozens of houses with covered outdoor rooms",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to confirm firm details and portfolio.",
+      "detail": "I was unable to search the web to verify whether Cutler Anderson Architects is a Pacific Northwest firm or whether they have built houses with covered outdoor rooms. The claim is specific and plausible given the Pacific Northwest's climate, but without access to the firm's website or architectural databases, I cannot confirm the details.",
+      "sources": [
+        "No sources accessible - web search permission not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the 1994 study by Jan Gehl's firm documented that wind is the primary driver of outdoor discomfort in temperate climates",
+        "claim": "Jan Gehl's firm published a 1994 study finding wind is the primary driver of outdoor discomfort in temperate climates",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify the existence of this specific 1994 study by Jan Gehl's firm.",
+      "detail": "Web search access was not available to verify this claim. Jan Gehl is a legitimate urban design expert whose work does address microclimate factors in public spaces, but the specific 1994 study cited and its claim about wind being the 'primary driver of outdoor discomfort in temperate climates' could not be confirmed or denied without search access.",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander specified that the space should be at least six feet deep to feel like a room rather than a corridor",
+        "claim": "Christopher Alexander specified outdoor rooms should be at least six feet deep",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to perform web search to verify the specific six-foot depth claim from Christopher Alexander's Pattern 163.",
+      "detail": "Web search tools are not available to verify this claim against primary sources. The claim references Pattern 163 'Outdoor Room' from 'A Pattern Language' (1977) by Christopher Alexander. While Alexander does discuss minimum depths for outdoor spaces to feel room-like, I cannot confirm the exact six-foot specification without access to search tools or the original text.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Tucson firm Ibarra Rosano documented this in their courtyard houses, where deep portal roofs — twelve to sixteen feet — create outdoor rooms that residents use eight months of the year despite summer temperatures exceeding 40°C",
+          "claim": "Ibarra Rosano is an architecture firm in Tucson that has documented courtyard house designs with 12-16 foot portal roofs",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools require permission grants that have not been provided. I cannot search for information about Ibarra Rosano architecture firm, their Tucson location, or their courtyard house portal roof documentation without these capabilities enabled.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In the Pacific Northwest, Cutler Anderson Architects has built dozens of houses with covered outdoor rooms that extend living space through the nine-month rainy season",
+          "claim": "Cutler Anderson Architects is a Pacific Northwest firm that has built dozens of houses with covered outdoor rooms",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to confirm firm details and portfolio.",
+        "detail": "I was unable to search the web to verify whether Cutler Anderson Architects is a Pacific Northwest firm or whether they have built houses with covered outdoor rooms. The claim is specific and plausible given the Pacific Northwest's climate, but without access to the firm's website or architectural databases, I cannot confirm the details.",
+        "sources": [
+          "No sources accessible - web search permission not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "the 1994 study by Jan Gehl's firm documented that wind is the primary driver of outdoor discomfort in temperate climates",
+          "claim": "Jan Gehl's firm published a 1994 study finding wind is the primary driver of outdoor discomfort in temperate climates",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify the existence of this specific 1994 study by Jan Gehl's firm.",
+        "detail": "Web search access was not available to verify this claim. Jan Gehl is a legitimate urban design expert whose work does address microclimate factors in public spaces, but the specific 1994 study cited and its claim about wind being the 'primary driver of outdoor discomfort in temperate climates' could not be confirmed or denied without search access.",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

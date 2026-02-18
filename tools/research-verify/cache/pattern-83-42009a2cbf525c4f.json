@@ -1,0 +1,127 @@
+{
+  "patternId": 83,
+  "patternName": "Circadian Architecture",
+  "timestamp": "2026-02-16T22:02:52.223Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "cool, bright light (5000K+) in the morning suppresses melatonin and promotes alertness",
+        "claim": "Light at 5000K or higher color temperature suppresses melatonin production and promotes alertness",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence due to tool permission restrictions",
+      "detail": "Web search and web fetch tools are not available in this session. The claim about 5000K+ color temperature suppressing melatonin and promoting alertness could not be independently verified against current scientific literature or primary sources. This is a technical limitation, not a judgment on the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "warm, dim light (2700K or less) in the evening allows melatonin production and prepares for sleep",
+        "claim": "Light at 2700K or lower color temperature allows melatonin production",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The claim is directionally correct but oversimplified; the relationship between color temperature and melatonin suppression is more nuanced than a simple 2700K threshold.",
+      "detail": "Research confirms that blue light (short wavelength, ~460-480nm) suppresses melatonin more than red/orange light. Lower color temperatures (like 2700K) contain less blue light and are generally better for evening use. However, melatonin suppression depends on multiple factors including light intensity (lux), duration of exposure, individual sensitivity, and prior light exposure history—not just color temperature alone. The 2700K threshold is a useful heuristic rather than a precise scientific cutoff. Some studies suggest even lower temperatures (1800-2200K) may be preferable for minimal melatonin suppression.",
+      "sources": [
+        "Unable to search - based on established circadian biology literature on melanopsin sensitivity and light spectrum effects on melatonin"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the standard 4000K fluorescent",
+        "claim": "4000K is the standard color temperature for fluorescent lighting",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "4000K is one common color temperature for fluorescent lighting but not the single 'standard' — fluorescents are widely available in multiple standard temperatures.",
+      "detail": "Fluorescent lighting is commonly manufactured in several standard color temperatures including 3000K (warm white), 3500K (neutral), 4000K (cool white), 5000K (daylight), and 6500K (full spectrum daylight). While 4000K is indeed very common in commercial and office settings and could be called 'standard' in those contexts, there is no single universal standard. The characterization of 4000K as 'the' standard overstates its exclusivity. 3500K and 4100K are also extremely common in commercial applications.",
+      "sources": [
+        "General lighting industry knowledge - unable to perform live web verification due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "cool and bright (5000K, 500+ lux) in morning-occupied spaces",
+        "claim": "500+ lux is the recommended illumination level for circadian-appropriate morning lighting",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current authoritative sources.",
+      "detail": "Web search and web fetch tools were not available to verify this technical claim. The 500+ lux threshold for morning circadian lighting is consistent with general knowledge about circadian lighting design from training data, but I could not access current primary sources like the WELL Building Standard, IES recommendations, or peer-reviewed circadian research to confirm the specific threshold.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "warm and dim (2700K, 100 lux or less) in evening-occupied spaces",
+        "claim": "100 lux or less is the recommended illumination level for circadian-appropriate evening lighting",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search web sources to verify the specific 100 lux threshold for evening circadian lighting.",
+      "detail": "Web search was unavailable during verification. The 100 lux threshold is consistent with general circadian lighting research principles, but without access to primary sources such as peer-reviewed studies, WELL Building Standard documentation, or medical organization guidelines, the specific number cannot be confirmed. Manual verification recommended.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 2,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "cool, bright light (5000K+) in the morning suppresses melatonin and promotes alertness",
+          "claim": "Light at 5000K or higher color temperature suppresses melatonin production and promotes alertness",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to search for evidence due to tool permission restrictions",
+        "detail": "Web search and web fetch tools are not available in this session. The claim about 5000K+ color temperature suppressing melatonin and promoting alertness could not be independently verified against current scientific literature or primary sources. This is a technical limitation, not a judgment on the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "cool and bright (5000K, 500+ lux) in morning-occupied spaces",
+          "claim": "500+ lux is the recommended illumination level for circadian-appropriate morning lighting",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current authoritative sources.",
+        "detail": "Web search and web fetch tools were not available to verify this technical claim. The 500+ lux threshold for morning circadian lighting is consistent with general knowledge about circadian lighting design from training data, but I could not access current primary sources like the WELL Building Standard, IES recommendations, or peer-reviewed circadian research to confirm the specific threshold.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "warm and dim (2700K, 100 lux or less) in evening-occupied spaces",
+          "claim": "100 lux or less is the recommended illumination level for circadian-appropriate evening lighting",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search web sources to verify the specific 100 lux threshold for evening circadian lighting.",
+        "detail": "Web search was unavailable during verification. The 100 lux threshold is consistent with general circadian lighting research principles, but without access to primary sources such as peer-reviewed studies, WELL Building Standard documentation, or medical organization guidelines, the specific number cannot be confirmed. Manual verification recommended.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "patternId": 53,
+  "patternName": "The Shared Boundary",
+  "timestamp": "2026-02-16T21:17:24.614Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "The five-foot side setback in most residential zoning codes was established for fire separation, not for livability.",
+        "claim": "Five-foot side setbacks in most residential zoning codes were established primarily for fire separation purposes",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify the historical claim about side setback origins.",
+      "detail": "Web search tools were unavailable to verify this claim about zoning history. The claim that five-foot side setbacks originated primarily for fire separation purposes is a specific historical assertion that would require access to zoning history literature, building code archives, or urban planning historical documents to confirm. Without search capability, I cannot determine whether this is accurate, partially accurate, or incorrect.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "It creates a ten-foot zone between buildings that belongs to no one and serves no one",
+        "claim": "Standard five-foot setbacks on each side create a ten-foot zone between buildings",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The math is correct (5+5=10), but calling five-foot setbacks 'standard' is imprecise since setback requirements vary by jurisdiction.",
+      "detail": "The arithmetic is sound: two adjacent 5-foot side setbacks create a 10-foot gap between buildings. Five-foot side setbacks are indeed common in many U.S. residential zoning codes, though they are not universal. Some jurisdictions require 3-foot minimums, others require 10+ feet, and commercial/industrial zones often differ. The claim is practically accurate for illustrating how setbacks create unused space, even if 'standard' oversimplifies jurisdictional variation.",
+      "sources": [
+        "General knowledge of U.S. municipal zoning codes - unable to access web search for specific verification"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The five-foot side setback in most residential zoning codes was established for fire separation, not for livability.",
+          "claim": "Five-foot side setbacks in most residential zoning codes were established primarily for fire separation purposes",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify the historical claim about side setback origins.",
+        "detail": "Web search tools were unavailable to verify this claim about zoning history. The claim that five-foot side setbacks originated primarily for fire separation purposes is a specific historical assertion that would require access to zoning history literature, building code archives, or urban planning historical documents to confirm. Without search capability, I cannot determine whether this is accurate, partially accurate, or incorrect.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

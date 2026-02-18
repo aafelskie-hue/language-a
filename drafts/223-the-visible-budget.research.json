@@ -1,0 +1,66 @@
+{
+  "programs": [
+    {
+      "name": "Participatory Budgeting",
+      "location": "Porto Alegre, Brazil",
+      "year": "1989",
+      "outcome": "Pioneered citizen participation in municipal budgeting; reported increase in water/sewage connections from 75% to 98% between 1989-1997 in participating neighborhoods",
+      "source": "World Bank documentation - REQUIRES VERIFICATION"
+    },
+    {
+      "name": "Participatory Budgeting NYC",
+      "location": "New York City, USA",
+      "year": "2011",
+      "outcome": "Over $300 million allocated through PB by 2020s across 30+ council districts",
+      "source": "PBNYC / NYC Council - REQUIRES VERIFICATION"
+    },
+    {
+      "name": "Open Budget Survey",
+      "location": "Global (120+ countries)",
+      "year": "2006-ongoing",
+      "outcome": "International Budget Partnership tracks budget transparency scores",
+      "source": "International Budget Partnership - REQUIRES VERIFICATION"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Over 11,000 participatory budgeting programs exist worldwide as of 2020",
+      "source": "PB Network estimates - REQUIRES VERIFICATION",
+      "year": "2020"
+    },
+    {
+      "claim": "Countries with higher budget transparency scores tend to have lower corruption perception indices",
+      "source": "Multiple academic studies correlating Open Budget Index with Transparency International data - REQUIRES VERIFICATION",
+      "year": "various"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Wampler, Brian",
+      "title": "Participatory Budgeting in Brazil: Contestation, Cooperation, and Accountability",
+      "year": "2007",
+      "finding": "Documented how visible budget processes increased civic engagement and government accountability in Brazilian municipalities - REQUIRES VERIFICATION"
+    },
+    {
+      "authors": "Touchton, Michael; Wampler, Brian",
+      "title": "Improving Social Well-Being Through New Democratic Institutions",
+      "year": "2014",
+      "finding": "Found participatory budgeting associated with decreased infant mortality rates in Brazilian municipalities - REQUIRES VERIFICATION"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Porto Alegre, Brazil",
+      "description": "Public assemblies where budget priorities are debated; visible tracking of approved projects",
+      "source": "Municipal documentation - REQUIRES VERIFICATION"
+    },
+    {
+      "location": "Paris, France",
+      "description": "Budget Participatif launched 2014, allocates portion of city investment budget through citizen voting with online tracking",
+      "source": "City of Paris - REQUIRES VERIFICATION"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT: I was unable to verify any of this evidence through web search or fetch - these tools were not available. All citations are from training data and marked as REQUIRING VERIFICATION. The pattern concept (visible/transparent budgets increasing trust) has substantial backing in participatory budgeting literature, but specific current statistics, URLs, and outcomes need to be verified through actual web research. The concept of 'real-time public display' specifically (vs. participatory budgeting generally) may have thinner direct evidence. I recommend re-running this research with web access enabled."
+}

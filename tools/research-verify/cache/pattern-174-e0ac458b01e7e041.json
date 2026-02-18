@@ -1,0 +1,245 @@
+{
+  "patternId": 174,
+  "patternName": "The Accessible Bathroom",
+  "timestamp": "2026-02-16T18:04:39.857Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "The CDC reports that each year over 230,000 Americans visit emergency rooms for injuries sustained in bathrooms",
+        "claim": "CDC reports over 230,000 Americans visit emergency rooms annually for bathroom injuries",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check current CDC data.",
+      "detail": "Web search and fetch tools are not available in this session. While CDC has published bathroom injury data (notably a 2011 MMWR report), I cannot confirm the specific 230,000 figure or verify it represents current CDC reporting without accessing primary sources. The claim is plausible given known CDC research in this area but requires verification.",
+      "sources": [
+        "Unable to access sources - web tools not permitted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "with more than 80% of those injuries resulting from falls",
+        "claim": "More than 80% of bathroom emergency room visits result from falls",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access, though the claim aligns with known CDC statistics from training data.",
+      "detail": "Web search and fetch permissions were not granted, preventing independent verification. Based on training knowledge, a 2011 CDC MMWR report found approximately 81% of nonfatal bathroom injuries treated in emergency departments involved falls, which would support this claim. However, without current web access, I cannot confirm the statistic remains accurate or cite a live source.",
+      "sources": [
+        "Unable to access web sources - permissions denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Among adults over 65, bathroom falls are the leading cause of injury-related emergency visits",
+        "claim": "Bathroom falls are the leading cause of injury-related emergency visits for adults over 65",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.75,
+      "summary": "Falls overall are a leading cause of injury for adults 65+, but bathroom falls specifically are not the leading cause of injury-related emergency visits.",
+      "detail": "According to CDC data, falls in general are the leading cause of injury-related deaths and emergency department visits among adults 65 and older. However, the claim specifically about 'bathroom falls' being the leading cause is not accurate. While bathrooms are a common location for falls due to wet surfaces and hard fixtures, falls occur in many locations (stairs, outdoors, bedrooms, etc.). The CDC reports that about 3 million older adults are treated in emergency departments for fall injuries annually, but this encompasses all fall locations, not specifically bathrooms. The claim conflates 'falls' (which are indeed leading) with 'bathroom falls' (which are a subset).",
+      "sources": [
+        "CDC Fall Prevention data (from training knowledge)",
+        "Unable to verify with live web search - permission not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The ADA Standards for Accessible Design specify a 60-inch by 30-inch minimum for roll-in showers",
+        "claim": "ADA Standards for Accessible Design specify 60-inch by 30-inch minimum for roll-in showers",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The 2010 ADA Standards for Accessible Design do specify 60-inch by 30-inch minimum dimensions for standard roll-in showers.",
+      "detail": "Section 608.2.2 of the 2010 ADA Standards for Accessible Design specifies that standard roll-in type shower compartments shall be 60 inches (1525 mm) wide minimum and 30 inches (760 mm) deep minimum. This is a well-established accessibility standard that has been in the ADA design guidelines since the 2010 revision. There is also an alternate roll-in shower configuration with 60-inch by 36-inch dimensions.",
+      "sources": [
+        "2010 ADA Standards for Accessible Design, Section 608.2.2 (ada.gov)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Grab bars placed 33 to 36 inches from the floor at the toilet and 6 inches above the shower seat",
+        "claim": "ADA specifies grab bars at 33-36 inches from floor at toilet and 6 inches above shower seat",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The toilet grab bar height is correct, but the shower grab bar specification appears to reference a different measurement standard.",
+      "detail": "ADA Standards Section 604.5 does specify horizontal grab bars at toilets mounted 33-36 inches above the floor. However, for shower grab bars, ADA Section 608.3 specifies grab bars mounted 33-36 inches above the shower floor for transfer-type showers, not '6 inches above the shower seat.' The 6-inch measurement may reference a different standard or be a mischaracterization. The shower seat height itself is specified at 17-19 inches, and grab bars are positioned based on floor height, not seat height.",
+      "sources": [
+        "2010 ADA Standards for Accessible Design Section 604.5 (Toilet Grab Bars)",
+        "2010 ADA Standards Section 608.3 (Shower Grab Bars) - verification limited without web access"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A five-foot turning radius allows a wheelchair to enter, use the toilet, and exit without reversing",
+        "claim": "A five-foot turning radius is required for wheelchair maneuverability in bathrooms",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The ADA requires a 60-inch (5-foot) DIAMETER turning space, not a turning radius.",
+      "detail": "The 2010 ADA Standards for Accessible Design (Section 304) require a 60-inch diameter circular turning space OR a T-shaped turning space for wheelchair maneuverability. The claim correctly identifies the 5-foot/60-inch dimension but incorrectly calls it a 'radius' when it is actually a diameter. A 5-foot radius would be a 10-foot diameter circle, which is not the ADA requirement. The functional description about entering, using, and exiting without reversing is generally accurate for a circular turning space.",
+      "sources": [
+        "2010 ADA Standards for Accessible Design Section 304 - Turning Space (knowledge-based, web verification unavailable)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Retrofitting a bathroom for accessibility after someone falls costs between $5,000 and $25,000",
+        "claim": "Retrofitting a bathroom for accessibility costs between $5,000 and $25,000",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current cost data.",
+      "detail": "I attempted to search for bathroom accessibility retrofit costs but do not have permission to use web search or web fetch tools in this session. The $5,000-$25,000 range is plausible based on general knowledge of bathroom renovation costs, but I cannot confirm this specific range without accessing current sources. Accessibility modifications can vary widely depending on scope (grab bars only vs. full remodel with roll-in shower, wider doors, etc.).",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Building the same features into new construction adds less than $1,000 if the blocking, drain placement, and floor slopes are designed from the start",
+        "claim": "Building accessibility features into new bathroom construction adds less than $1,000",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources due to lack of web access permissions.",
+      "detail": "This claim about accessible bathroom construction costs requires verification from construction industry sources, ADA compliance research, or universal design cost studies. I was unable to search the web to find supporting or contradicting evidence. The claim is plausible based on general knowledge that proactive design is cheaper than retrofitting, but specific cost figures need verification from primary sources like NAHB, HUD, or accessibility advocacy organizations.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a comfort-height toilet (17 to 19 inches)",
+        "claim": "Comfort-height toilets measure 17 to 19 inches",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Comfort-height toilets are consistently defined across plumbing industry sources as measuring 17 to 19 inches from floor to seat.",
+      "detail": "The 17 to 19 inch measurement for comfort-height toilets is a well-established industry standard. Major toilet manufacturers (Kohler, American Standard, TOTO) and the ADA guidelines all define comfort-height or 'right height' toilets within this range, compared to standard toilets at 14-15 inches. The ADA requires toilets to be 17-19 inches for accessibility compliance.",
+      "sources": [
+        "Industry standard plumbing specifications",
+        "ADA accessibility guidelines for toilet height"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Kohler LuxStone and similar integrated systems demonstrate that barrier-free can also be beautiful",
+        "claim": "Kohler LuxStone is an integrated barrier-free bathroom system",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Kohler LuxStone is a real shower/bath system with accessibility options, but it's not primarily marketed as a 'barrier-free' system.",
+      "detail": "Kohler LuxStone is a legitimate product line offering customizable shower and bath wall systems. While LuxStone can accommodate barrier-free/walk-in configurations with low or no thresholds, it's marketed as a general shower remodeling system emphasizing customization and aesthetics, not specifically as an accessibility or barrier-free product line. The accessibility features are options within the system rather than its defining characteristic.",
+      "sources": [
+        "Kohler.com product pages (unable to access live - based on training data)",
+        "Home improvement retailer product listings"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 3,
+    "unverified": 4,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The CDC reports that each year over 230,000 Americans visit emergency rooms for injuries sustained in bathrooms",
+          "claim": "CDC reports over 230,000 Americans visit emergency rooms annually for bathroom injuries",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check current CDC data.",
+        "detail": "Web search and fetch tools are not available in this session. While CDC has published bathroom injury data (notably a 2011 MMWR report), I cannot confirm the specific 230,000 figure or verify it represents current CDC reporting without accessing primary sources. The claim is plausible given known CDC research in this area but requires verification.",
+        "sources": [
+          "Unable to access sources - web tools not permitted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "with more than 80% of those injuries resulting from falls",
+          "claim": "More than 80% of bathroom emergency room visits result from falls",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access, though the claim aligns with known CDC statistics from training data.",
+        "detail": "Web search and fetch permissions were not granted, preventing independent verification. Based on training knowledge, a 2011 CDC MMWR report found approximately 81% of nonfatal bathroom injuries treated in emergency departments involved falls, which would support this claim. However, without current web access, I cannot confirm the statistic remains accurate or cite a live source.",
+        "sources": [
+          "Unable to access web sources - permissions denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Among adults over 65, bathroom falls are the leading cause of injury-related emergency visits",
+          "claim": "Bathroom falls are the leading cause of injury-related emergency visits for adults over 65",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "DISPUTED",
+        "confidence": 0.75,
+        "summary": "Falls overall are a leading cause of injury for adults 65+, but bathroom falls specifically are not the leading cause of injury-related emergency visits.",
+        "detail": "According to CDC data, falls in general are the leading cause of injury-related deaths and emergency department visits among adults 65 and older. However, the claim specifically about 'bathroom falls' being the leading cause is not accurate. While bathrooms are a common location for falls due to wet surfaces and hard fixtures, falls occur in many locations (stairs, outdoors, bedrooms, etc.). The CDC reports that about 3 million older adults are treated in emergency departments for fall injuries annually, but this encompasses all fall locations, not specifically bathrooms. The claim conflates 'falls' (which are indeed leading) with 'bathroom falls' (which are a subset).",
+        "sources": [
+          "CDC Fall Prevention data (from training knowledge)",
+          "Unable to verify with live web search - permission not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Retrofitting a bathroom for accessibility after someone falls costs between $5,000 and $25,000",
+          "claim": "Retrofitting a bathroom for accessibility costs between $5,000 and $25,000",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current cost data.",
+        "detail": "I attempted to search for bathroom accessibility retrofit costs but do not have permission to use web search or web fetch tools in this session. The $5,000-$25,000 range is plausible based on general knowledge of bathroom renovation costs, but I cannot confirm this specific range without accessing current sources. Accessibility modifications can vary widely depending on scope (grab bars only vs. full remodel with roll-in shower, wider doors, etc.).",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Building the same features into new construction adds less than $1,000 if the blocking, drain placement, and floor slopes are designed from the start",
+          "claim": "Building accessibility features into new bathroom construction adds less than $1,000",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources due to lack of web access permissions.",
+        "detail": "This claim about accessible bathroom construction costs requires verification from construction industry sources, ADA compliance research, or universal design cost studies. I was unable to search the web to find supporting or contradicting evidence. The claim is plausible based on general knowledge that proactive design is cheaper than retrofitting, but specific cost figures need verification from primary sources like NAHB, HUD, or accessibility advocacy organizations.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

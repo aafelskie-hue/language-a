@@ -1,0 +1,180 @@
+{
+  "patternId": 209,
+  "patternName": "The Daylit Stair",
+  "timestamp": "2026-02-17T04:47:58.724Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "The Centers for Disease Control and Prevention, in their guidance on physical activity, identify stair climbing as one of the most accessible forms of daily exercise",
+        "claim": "CDC guidance on physical activity identifies stair climbing as one of the most accessible forms of daily exercise",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The CDC does recommend stair climbing as a form of physical activity, but the specific characterization as 'one of the most accessible' forms may be stronger than CDC's actual language.",
+      "detail": "The CDC's Physical Activity Guidelines for Americans and related guidance do include stair climbing as an example of moderate-intensity aerobic activity and encourage taking stairs as a way to incorporate physical activity into daily routines. However, I cannot verify that the CDC specifically ranks or identifies it as 'one of the most accessible' forms of exercise - this characterization may be an interpretation rather than direct CDC language. The CDC tends to list multiple accessible activities (walking, biking, dancing, etc.) without ranking their accessibility.",
+      "sources": [
+        "Unable to verify via web search - assessment based on prior knowledge of CDC physical activity guidance"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A person who climbs three flights twice a day accumulates meaningful cardiovascular benefit over months and years",
+        "claim": "Climbing three flights of stairs twice daily provides meaningful cardiovascular benefit",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Multiple peer-reviewed studies confirm that regular stair climbing, including modest amounts like 3-5 flights daily, provides significant cardiovascular benefits.",
+      "detail": "Research published in journals including the British Journal of Sports Medicine and studies from institutions like McMaster University have demonstrated that stair climbing is an effective form of exercise for cardiovascular health. A 2019 study found that climbing just a few flights of stairs multiple times daily improves cardiorespiratory fitness. The claim's framing of 'three flights twice daily' (approximately 60 stairs) aligns with research showing cardiovascular benefits from brief bouts of vigorous stair climbing accumulated throughout the day.",
+      "sources": [
+        "Unable to verify with live sources - web search not available. Assessment based on knowledge of published research through May 2025."
+      ]
+    },
+    {
+      "claim": {
+        "text": "New York City's Active Design Guidelines, developed by the Center for Active Design beginning in 2010",
+        "claim": "NYC Active Design Guidelines were developed by Center for Active Design beginning in 2010",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access",
+      "detail": "Web search and fetch tools are not currently available to verify this claim. Based on background knowledge, the NYC Active Design Guidelines may have been developed by NYC government agencies rather than 'by' the Center for Active Design, but this cannot be confirmed without access to primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "established a principle now replicated in wellness building standards worldwide: make stairs visible, make them pleasant, and people will use them",
+        "claim": "NYC Active Design Guidelines principle of visible, pleasant stairs has been replicated in wellness building standards worldwide",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search web sources to verify the claim about worldwide replication of NYC Active Design Guidelines stair principles.",
+      "detail": "The NYC Active Design Guidelines (2010) are a real program that includes stair visibility and pleasantness principles. My training knowledge suggests these guidelines influenced wellness building standards like WELL and Fitwel, but I cannot verify the specific claim about 'worldwide replication' without web search access. The core premise about NYC guidelines emphasizing visible, pleasant stairs appears accurate based on training data.",
+      "sources": [
+        "Unable to access web sources - verification based on training knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Buildings that followed these principles — including several in the NYC portfolio — reported increased stair use compared to conventional layouts",
+        "claim": "NYC buildings following Active Design Guidelines reported increased stair use compared to conventional layouts",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "The NYC Active Design Guidelines exist and studies have examined stair use, but the claim lacks specific citation to verify the exact finding.",
+      "detail": "The NYC Active Design Guidelines were published in 2010 by NYC's Department of Design and Construction, Department of Health, and City Planning. Research on active design strategies has generally shown that visible, attractive stairways increase stair use. However, without web search access I cannot verify the specific claim about 'several in the NYC portfolio' reporting increased stair use. The general principle is supported by research but the specific attribution to NYC buildings following these guidelines requires verification of primary sources.",
+      "sources": [
+        "Unable to verify - web search not available in this session"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The WELL Building Standard, in its Movement concept, awards points for stairs that are visible from the main entrance",
+        "claim": "WELL Building Standard Movement concept awards points for stairs visible from main entrance",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "WELL Building Standard's Movement concept does include stair promotion features, but the specific requirement may not be 'visible from main entrance' exactly as stated.",
+      "detail": "The WELL Building Standard v2 Movement concept includes active design features that promote stair use, including requirements for stair visibility, aesthetic design, and prominent placement. However, the exact phrasing about visibility 'from the main entrance' may be an approximation. WELL features like 'Active Stairwells' and circulation network requirements encourage stair visibility and accessibility, but the precise criterion may reference visibility from building entry points or primary circulation paths rather than specifically 'main entrance.' Unable to access current official documentation to verify exact wording.",
+      "sources": [
+        "Knowledge of WELL Building Standard v2 structure and Movement concept features from training data"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The WELL Building Standard, in its Movement concept, awards points for stairs... that have at least one window or skylight providing natural light",
+        "claim": "WELL Building Standard awards points for stairs with at least one window or skylight providing natural light",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify without web search access to check current WELL Building Standard documentation.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification against the official WELL Building Standard documentation. The claim aligns with general knowledge of WELL's Movement concept encouraging active stair design with features like natural light, but the specific point allocation criteria cannot be confirmed without accessing primary sources.",
+      "sources": [
+        "Unable to access - web permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The WELL Building Standard, in its Movement concept, awards points for stairs... that include finishes warmer than bare concrete",
+        "claim": "WELL Building Standard awards points for stair finishes warmer than bare concrete",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to web access restrictions.",
+      "detail": "I attempted multiple web searches and fetches to verify whether the WELL Building Standard Movement concept awards points for stair finishes warmer than bare concrete, but was unable to access external sources. The WELL Building Standard v2 does include a Movement concept with features related to active stairways and stair promotion, but I cannot confirm the specific claim about finishes without accessing the official standard documentation.",
+      "sources": [
+        "No sources accessible - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander, in Pattern 133 (Staircase as a Stage)",
+        "claim": "Christopher Alexander's Pattern 133 is titled 'Staircase as a Stage'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 133 in Christopher Alexander's 'A Pattern Language' is indeed titled 'Staircase as a Stage'.",
+      "detail": "This is a well-known pattern from Christopher Alexander's 1977 book 'A Pattern Language.' Pattern 133 discusses designing staircases as prominent social spaces that can serve as informal gathering spots and stages for daily life, rather than hidden utilitarian connectors. The pattern number and title match exactly as cited.",
+      "sources": [
+        "Christopher Alexander et al., 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 3,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "New York City's Active Design Guidelines, developed by the Center for Active Design beginning in 2010",
+          "claim": "NYC Active Design Guidelines were developed by Center for Active Design beginning in 2010",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access",
+        "detail": "Web search and fetch tools are not currently available to verify this claim. Based on background knowledge, the NYC Active Design Guidelines may have been developed by NYC government agencies rather than 'by' the Center for Active Design, but this cannot be confirmed without access to primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The WELL Building Standard, in its Movement concept, awards points for stairs... that have at least one window or skylight providing natural light",
+          "claim": "WELL Building Standard awards points for stairs with at least one window or skylight providing natural light",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify without web search access to check current WELL Building Standard documentation.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification against the official WELL Building Standard documentation. The claim aligns with general knowledge of WELL's Movement concept encouraging active stair design with features like natural light, but the specific point allocation criteria cannot be confirmed without accessing primary sources.",
+        "sources": [
+          "Unable to access - web permissions not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

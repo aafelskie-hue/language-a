@@ -1,0 +1,71 @@
+{
+  "programs": [
+    {
+      "name": "Visitability Movement / Concrete Change",
+      "location": "United States (originated Atlanta, Georgia)",
+      "year": "1986",
+      "outcome": "Pioneered 'visitability' concept requiring zero-step entrance, wide doors, accessible bathroom on main floor. Over 60 US jurisdictions adopted some form of visitability ordinance.",
+      "source": "Concrete Change organization / Eleanor Smith - NEEDS VERIFICATION"
+    },
+    {
+      "name": "Lifetime Homes Standard",
+      "location": "United Kingdom",
+      "year": "1999 onward",
+      "outcome": "Required level or gently sloping approach to entrance with no steps. Became part of building regulations requiring accessible entrances in new housing.",
+      "source": "UK Government Building Regulations / Habinteg - NEEDS VERIFICATION"
+    },
+    {
+      "name": "Norway Building Regulations (TEK17)",
+      "location": "Norway",
+      "year": "2017",
+      "outcome": "Requires level access entrance for all new residential buildings. Universal design mandated at national level.",
+      "source": "Norwegian Building Authority (Direktoratet for byggkvalitet) - NEEDS VERIFICATION"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Only 5% of US housing stock is accessible to wheelchair users",
+      "source": "Joint Center for Housing Studies, Harvard University",
+      "year": "2014 estimate - NEEDS VERIFICATION"
+    },
+    {
+      "claim": "Over 20% of Canadian population will be 65+ by 2024, increasing demand for accessible housing",
+      "source": "Statistics Canada population projections",
+      "year": "2019 - NEEDS VERIFICATION"
+    },
+    {
+      "claim": "Cost of adding zero-step entry during construction is minimal (<$100) vs. retrofit costs of $5,000-$10,000+",
+      "source": "Multiple accessibility advocacy organizations",
+      "year": "Various - NEEDS VERIFICATION"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Smith, S.K., Rayer, S., Smith, E.A.",
+      "title": "Aging and Disability: Implications for the Housing Industry and Housing Policy in the United States",
+      "year": "2008",
+      "finding": "Documented growing mismatch between aging population needs and housing stock accessibility - NEEDS VERIFICATION"
+    },
+    {
+      "authors": "Maisel, J., Smith, E., Steinfeld, E.",
+      "title": "Increasing Home Access: Designing for Visitability",
+      "year": "2008",
+      "finding": "AARP report documenting visitability standards and their implementation - NEEDS VERIFICATION"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Poundbury, Dorset, UK",
+      "description": "Prince Charles's model village requires Lifetime Homes standards including level access entrances",
+      "source": "Duchy of Cornwall development guidelines - NEEDS VERIFICATION"
+    },
+    {
+      "location": "Various Norwegian municipalities",
+      "description": "New housing construction universally includes level entrances per TEK17 regulations",
+      "source": "Norwegian building code compliance - NEEDS VERIFICATION"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT CAVEAT: This evidence is drawn from training knowledge without live web verification. All citations marked 'NEEDS VERIFICATION' should be independently confirmed before publication. The visitability movement and Scandinavian universal design regulations are well-documented topics, but specific statistics and dates require verification. Cold-climate specific evidence (Edmonton, northern Canada) was not found in training data - this is a gap that web search could address. Evidence strength marked 'moderate' because while zero-step entry is a recognized accessibility standard, I cannot confirm current program status or recent statistics without search access."
+}

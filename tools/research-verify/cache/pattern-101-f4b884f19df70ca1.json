@@ -1,0 +1,78 @@
+{
+  "patternId": 101,
+  "patternName": "The Permanent Frame, The Changeable Skin",
+  "timestamp": "2026-02-16T16:38:22.120Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Stewart Brand, in *How Buildings Learn* (1994), formalized what builders have always known",
+        "claim": "Stewart Brand published 'How Buildings Learn' in 1994",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Stewart Brand's 'How Buildings Learn: What Happens After They're Built' was published in 1994 by Viking Press.",
+      "detail": "This is a well-documented publication. Stewart Brand's book 'How Buildings Learn: What Happens After They're Built' was published in 1994 by Viking Press. It was later adapted into a BBC television series in 1997. This publication date is widely cited in architectural and design literature. Unable to perform live web verification due to tool permission constraints, but this is established bibliographic fact.",
+      "sources": [
+        "Standard bibliographic records - unable to fetch live sources due to permission constraints"
+      ]
+    },
+    {
+      "claim": {
+        "text": "He identified six: site (eternal), structure (30–300 years), skin (20+ years), services (7–15 years), space plan (3–30 years), and stuff (daily)",
+        "claim": "Stewart Brand's 'How Buildings Learn' identifies six building layers with these specific lifespans: site (eternal), structure (30–300 years), skin (20+ years), services (7–15 years), space plan (3–30 years), and stuff (daily)",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The six layers are correct, but some specific lifespans differ slightly from Brand's original formulation.",
+      "detail": "Stewart Brand does identify six 'shearing layers' in How Buildings Learn (1994): Site, Structure, Skin, Services, Space Plan, and Stuff. However, Brand's original lifespans vary slightly in some sources: Structure is typically cited as 30-300 years (correct), Skin as 20 years (the claim says '20+'), Services as 7-15 years (correct), Space Plan as 3-30 years (though some sources cite 3-7 years for commercial, longer for domestic). The 'eternal' for site and 'daily' for stuff are accurate characterizations. The claim is substantially correct but without web verification I cannot confirm exact wording from the primary source.",
+      "sources": [
+        "Unable to verify via web search - based on prior knowledge of Stewart Brand's How Buildings Learn (1994)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Dutch architect John Habraken arrived at the same principle from the opposite direction. His 1961 book *Supports: An Alternative to Mass Housing*",
+        "claim": "John Habraken is a Dutch architect who published 'Supports: An Alternative to Mass Housing' in 1961",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "John Habraken is Dutch and wrote the book, but the original Dutch publication was 1961 while the English translation was 1972.",
+      "detail": "N. John Habraken is indeed a Dutch architect. His book 'De dragers en de mensen' was published in Dutch in 1961. The English translation 'Supports: An Alternative to Mass Housing' was published in 1972. The claim conflates the original Dutch publication year with the English title. Habraken is correctly identified as Dutch.",
+      "sources": [
+        "Training knowledge - unable to access web sources due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "His solution — separate the 'support' (structure, shared services, envelope) from the 'infill' (partitions, kitchens, bathrooms, finishes) — has been built and tested across the Netherlands, Japan, and elsewhere for over sixty years",
+        "claim": "Habraken's support/infill approach has been implemented in the Netherlands, Japan, and other countries for over sixty years",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Habraken's approach has been implemented for approximately 60 years since his 1961 publication, but 'over sixty years' slightly overstates the timeline as of typical document dates.",
+      "detail": "N. John Habraken published 'De dragers en de mensen' (Supports: An Alternative to Mass Housing) in 1961 in the Netherlands, introducing the support/infill concept. The approach was tested through SAR (Stichting Architecten Research) in the Netherlands in the 1960s-70s and later influenced Japanese housing through the SI (Skeleton-Infill) housing movement. As of 2024-2025, this would be approximately 63-64 years since the original publication, making 'over sixty years' accurate. However, actual built implementations came several years after the 1961 publication, so 'built and tested for over sixty years' may slightly overstate the timeline by a few years depending on when the first implementations were completed.",
+      "sources": [
+        "Unable to verify with current web search - based on architectural history knowledge of Habraken's 1961 publication and subsequent SAR/Open Building movement"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 3,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ★☆ until additional sources are found."
+  }
+}

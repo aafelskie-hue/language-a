@@ -1,0 +1,92 @@
+{
+  "patternId": 84,
+  "patternName": "The Deep Reveal",
+  "timestamp": "2026-02-16T22:04:23.633Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "A deep window reveal — 200mm or more from the exterior face of the wall to the glass",
+        "claim": "200mm is the threshold depth for a window reveal to achieve the described architectural effects",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "The 200mm threshold appears to be a reasonable architectural convention but I cannot verify it as an established standard without web search access.",
+      "detail": "The 200mm (approximately 8 inches) figure for deep window reveals is consistent with traditional masonry construction where thick walls naturally create deep reveals, and with contemporary passive house and high-performance building standards. However, I cannot access current sources to confirm whether 200mm is specifically cited as a threshold in architectural literature or building standards. This may be a practical guideline derived from experience rather than a codified standard.",
+      "sources": [
+        "Unable to search - web tools not permitted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "set windows deep in the wall — at least 200mm from the exterior face",
+        "claim": "200mm minimum depth recommended for deep window reveals",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find architectural standards or guidelines.",
+      "detail": "This claim about 200mm minimum depth for deep window reveals is a technical architectural specification. Without web search capability, I cannot access building codes, architectural guidelines, or passive house standards that might specify recommended window reveal depths. The 200mm figure is plausible for thick-wall construction (e.g., Passivhaus with high insulation), but I cannot confirm this is a recognized standard or recommendation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Splay the reveal (angling the sides outward) to increase the spread of light into the room",
+        "claim": "Splayed (angled outward) window reveals increase light spread into the room",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Splayed window reveals increasing light spread is a well-documented architectural principle found in traditional and modern daylighting design literature.",
+      "detail": "This is an established principle in architectural daylighting design. Splayed reveals (angled outward from the window toward the room interior) allow light entering at oblique angles to reflect off the reveal surfaces and penetrate deeper into the room. This technique is documented in historic architecture (medieval churches, traditional vernacular buildings) and modern daylighting manuals. The physics is straightforward: angled surfaces reflect light at angles that direct it further into the room rather than absorbing it on perpendicular surfaces.",
+      "sources": [
+        "Architectural daylighting design principles (general knowledge)",
+        "Historic building conservation literature on window design",
+        "Unable to provide specific URLs without web search access"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A deep window reveal — 200mm or more from the exterior face of the wall to the glass",
+          "claim": "200mm is the threshold depth for a window reveal to achieve the described architectural effects",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "The 200mm threshold appears to be a reasonable architectural convention but I cannot verify it as an established standard without web search access.",
+        "detail": "The 200mm (approximately 8 inches) figure for deep window reveals is consistent with traditional masonry construction where thick walls naturally create deep reveals, and with contemporary passive house and high-performance building standards. However, I cannot access current sources to confirm whether 200mm is specifically cited as a threshold in architectural literature or building standards. This may be a practical guideline derived from experience rather than a codified standard.",
+        "sources": [
+          "Unable to search - web tools not permitted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "set windows deep in the wall — at least 200mm from the exterior face",
+          "claim": "200mm minimum depth recommended for deep window reveals",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find architectural standards or guidelines.",
+        "detail": "This claim about 200mm minimum depth for deep window reveals is a technical architectural specification. Without web search capability, I cannot access building codes, architectural guidelines, or passive house standards that might specify recommended window reveal depths. The 200mm figure is plausible for thick-wall construction (e.g., Passivhaus with high insulation), but I cannot confirm this is a recognized standard or recommendation.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

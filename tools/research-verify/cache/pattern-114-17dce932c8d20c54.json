@@ -1,0 +1,172 @@
+{
+  "patternId": 114,
+  "patternName": "The Garden Suite",
+  "timestamp": "2026-02-16T23:00:42.032Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "Vancouver's laneway housing program, which had produced over 4,000 units by 2022",
+        "claim": "Vancouver's laneway housing program had produced over 4,000 units by 2022",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search/fetch permissions.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. From training knowledge, Vancouver's laneway housing program exists and has been successful, but the specific figure of 'over 4,000 units by 2022' cannot be confirmed without accessing current sources. The program began in 2009 and has produced thousands of units, but exact numbers require verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Toronto's 2022 Garden Suites Zoning By-law Amendment permitted garden suites city-wide on lots with detached, semi-detached, and townhouses, allowing structures up to 4 meters (one storey) or 6 meters (two storeys with conditions)",
+        "claim": "Toronto passed a Garden Suites Zoning By-law Amendment in 2022 permitting garden suites city-wide on lots with detached, semi-detached, and townhouses",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search permissions were not granted, preventing verification of this claim about Toronto's 2022 Garden Suites Zoning By-law Amendment. The claim contains specific details about eligible property types and height restrictions that would require checking against official City of Toronto sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Toronto's 2022 Garden Suites Zoning By-law Amendment permitted garden suites city-wide on lots with detached, semi-detached, and townhouses, allowing structures up to 4 meters (one storey) or 6 meters (two storeys with conditions)",
+        "claim": "Toronto's garden suites by-law allows structures up to 4 meters (one storey) or 6 meters (two storeys with conditions)",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check current Toronto by-law specifications.",
+      "detail": "I was unable to search for or fetch current information about Toronto's garden suites zoning by-law to verify the specific height requirements of 4 meters (one storey) or 6 meters (two storeys with conditions). The claim references specific technical requirements that would need to be verified against Toronto's official planning documents or by-law text.",
+      "sources": [
+        "No sources consulted - web access unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Portland's ADU survey (2018) found that 65% of accessory dwelling occupants were family members or friends of property owners",
+        "claim": "A Portland ADU survey in 2018 found that 65% of accessory dwelling occupants were family members or friends of property owners",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search the web to verify this claim about Portland's 2018 ADU survey. The claim references a specific survey with a specific statistic (65% family/friends), but I cannot confirm whether this survey exists or whether the percentage is accurate without web access. Portland has been known to conduct ADU research, but the specific claim cannot be evaluated.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Wegmann and Chapple (2014) studied backyard cottages across California",
+        "claim": "Wegmann and Chapple published a study on backyard cottages in California in 2014",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this citation due to lack of web search access.",
+      "detail": "I attempted to search for 'Wegmann Chapple backyard cottages California 2014' but web search was not available. Jake Wegmann and Karen Chapple are known UC Berkeley researchers who have published on accessory dwelling units (ADUs/backyard cottages), but I cannot confirm the specific 2014 publication without access to search tools or academic databases.",
+      "sources": [
+        "Unable to access web search"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Wegmann and Chapple (2014) studied backyard cottages across California and found they provided affordable housing without changing neighborhood character",
+        "claim": "Wegmann and Chapple (2014) found that backyard cottages provided affordable housing without changing neighborhood character",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; the researchers and topic are plausible but specific claims cannot be confirmed.",
+      "detail": "Web search tools are not available in this session. Wegmann and Chapple are known urban planning researchers who have studied accessory dwelling units in California, making this citation plausible. However, without search access, I cannot confirm the 2014 date, verify the specific findings about affordable housing and neighborhood character, or locate the actual publication.",
+      "sources": [
+        "Unable to search - no tool access granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 6,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Vancouver's laneway housing program, which had produced over 4,000 units by 2022",
+          "claim": "Vancouver's laneway housing program had produced over 4,000 units by 2022",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search/fetch permissions.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. From training knowledge, Vancouver's laneway housing program exists and has been successful, but the specific figure of 'over 4,000 units by 2022' cannot be confirmed without accessing current sources. The program began in 2009 and has produced thousands of units, but exact numbers require verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Toronto's 2022 Garden Suites Zoning By-law Amendment permitted garden suites city-wide on lots with detached, semi-detached, and townhouses, allowing structures up to 4 meters (one storey) or 6 meters (two storeys with conditions)",
+          "claim": "Toronto passed a Garden Suites Zoning By-law Amendment in 2022 permitting garden suites city-wide on lots with detached, semi-detached, and townhouses",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search permissions were not granted, preventing verification of this claim about Toronto's 2022 Garden Suites Zoning By-law Amendment. The claim contains specific details about eligible property types and height restrictions that would require checking against official City of Toronto sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Portland's ADU survey (2018) found that 65% of accessory dwelling occupants were family members or friends of property owners",
+          "claim": "A Portland ADU survey in 2018 found that 65% of accessory dwelling occupants were family members or friends of property owners",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search the web to verify this claim about Portland's 2018 ADU survey. The claim references a specific survey with a specific statistic (65% family/friends), but I cannot confirm whether this survey exists or whether the percentage is accurate without web access. Portland has been known to conduct ADU research, but the specific claim cannot be evaluated.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Wegmann and Chapple (2014) studied backyard cottages across California",
+          "claim": "Wegmann and Chapple published a study on backyard cottages in California in 2014",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this citation due to lack of web search access.",
+        "detail": "I attempted to search for 'Wegmann Chapple backyard cottages California 2014' but web search was not available. Jake Wegmann and Karen Chapple are known UC Berkeley researchers who have published on accessory dwelling units (ADUs/backyard cottages), but I cannot confirm the specific 2014 publication without access to search tools or academic databases.",
+        "sources": [
+          "Unable to access web search"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Wegmann and Chapple (2014) studied backyard cottages across California and found they provided affordable housing without changing neighborhood character",
+          "claim": "Wegmann and Chapple (2014) found that backyard cottages provided affordable housing without changing neighborhood character",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; the researchers and topic are plausible but specific claims cannot be confirmed.",
+        "detail": "Web search tools are not available in this session. Wegmann and Chapple are known urban planning researchers who have studied accessory dwelling units in California, making this citation plausible. However, without search access, I cannot confirm the 2014 date, verify the specific findings about affordable housing and neighborhood character, or locate the actual publication.",
+        "sources": [
+          "Unable to search - no tool access granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

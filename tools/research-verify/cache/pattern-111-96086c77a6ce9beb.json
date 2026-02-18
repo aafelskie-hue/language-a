@@ -1,0 +1,185 @@
+{
+  "patternId": 111,
+  "patternName": "The Pocket Neighborhood",
+  "timestamp": "2026-02-16T22:50:25.892Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "The City of Langley, Washington (population 1,100), adopted one of the first cottage housing ordinances in 1995",
+        "claim": "City of Langley, Washington adopted a cottage housing ordinance in 1995, one of the first in the U.S.",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify through web search due to tool permission restrictions.",
+      "detail": "Langley, Washington on Whidbey Island is known in urban planning circles as an early adopter of cottage housing regulations. The claim that they were among the first in the U.S. to adopt such an ordinance in 1995 is consistent with general knowledge about cottage housing history, but I could not access web sources to confirm the specific year and 'first in U.S.' status.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The City of Langley, Washington (population 1,100)",
+        "claim": "City of Langley, Washington has a population of approximately 1,100",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions to check current population data.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. Based on training knowledge, Langley is a small city on Whidbey Island with a population in the approximate range stated, but the exact current figure cannot be confirmed without accessing census data or official sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Seattle followed in 2006, allowing cottage housing developments in single-family zones with a density bonus",
+        "claim": "Seattle adopted cottage housing regulations in 2006 with density bonuses in single-family zones",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources.",
+      "detail": "Web search and fetch tools were not available to verify this claim. Seattle is known to have cottage housing provisions in its land use code, but I cannot confirm the specific 2006 adoption date or density bonus details without accessing current sources. The claim is plausible but requires verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "builders could exceed base density if individual units stayed below 92 square meters",
+        "claim": "Seattle's cottage housing ordinance set a unit size limit of 92 square meters for density bonus eligibility",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 92 square meter unit size limit in Seattle's cottage housing ordinance due to lack of web search access.",
+      "detail": "The claim specifies that Seattle's cottage housing ordinance set a 92 square meter (approximately 1,000 square feet) unit size limit for density bonus eligibility. Without web search capabilities, I cannot access Seattle's municipal code, SDCI regulations, or other official sources to verify this specific size threshold. Note that 92 square meters converts to approximately 990 square feet, which is a common cottage housing size limit in various jurisdictions, but the exact figure for Seattle cannot be confirmed.",
+      "sources": [
+        "No external sources accessible - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The regulations required that at least 50% of dwelling units face a common open space of at least 280 square meters",
+        "claim": "Seattle's cottage housing regulations required 50% of units face common open space of at least 280 square meters",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search/fetch permissions to access Seattle municipal code or housing regulations.",
+      "detail": "This claim references specific Seattle cottage housing regulations with precise requirements (50% of units facing common open space of at least 280 square meters/approximately 3,000 square feet). I was unable to search the web or access Seattle's municipal code to verify these specific numbers. The claim contains plausible details consistent with cottage housing ordinances, but verification requires accessing Seattle's land use code.",
+      "sources": [
+        "No sources accessible - web search/fetch permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Third Street Cottages in Langley, completed in 1997 and designed by Ross Chapin Architects",
+        "claim": "Third Street Cottages in Langley, Washington was completed in 1997 and designed by Ross Chapin Architects",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were not granted permissions to verify this claim. I cannot access external sources to confirm or deny the completion date of 1997 or the attribution to Ross Chapin Architects for Third Street Cottages in Langley, Washington.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "arranged eight cottages of 65 to 90 square meters around a 200-square-meter central green",
+        "claim": "Third Street Cottages consists of eight cottages of 65-90 square meters around a 200-square-meter central green",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification as web access permissions have not been granted.",
+      "detail": "This claim references Third Street Cottages, a well-known pocket neighborhood project by Ross Chapin Architects in Langley, Washington. To verify the specific measurements (eight cottages of 65-90 square meters around a 200-square-meter central green), I would need to access the architect's website or other primary sources. The metric measurements (65-90 sq m ≈ 700-970 sq ft; 200 sq m ≈ 2,150 sq ft) seem plausible for cottage-style pocket neighborhoods, but I cannot confirm without web access.",
+      "sources": [
+        "No sources accessible - web permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "His 2011 book *Pocket Neighborhoods: Creating Small-Scale Community in a Large-Scale World*",
+        "claim": "Ross Chapin published 'Pocket Neighborhoods: Creating Small-Scale Community in a Large-Scale World' in 2011",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify claim due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not currently available in this session. I cannot access external sources to confirm the publication date and authorship of this book. The claim appears plausible but cannot be independently verified without access to bibliographic databases, publisher websites, or retail book listings.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 8,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The City of Langley, Washington (population 1,100), adopted one of the first cottage housing ordinances in 1995",
+          "claim": "City of Langley, Washington adopted a cottage housing ordinance in 1995, one of the first in the U.S.",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify through web search due to tool permission restrictions.",
+        "detail": "Langley, Washington on Whidbey Island is known in urban planning circles as an early adopter of cottage housing regulations. The claim that they were among the first in the U.S. to adopt such an ordinance in 1995 is consistent with general knowledge about cottage housing history, but I could not access web sources to confirm the specific year and 'first in U.S.' status.",
+        "sources": [
+          "Unable to access web sources for verification"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Seattle followed in 2006, allowing cottage housing developments in single-family zones with a density bonus",
+          "claim": "Seattle adopted cottage housing regulations in 2006 with density bonuses in single-family zones",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find primary sources.",
+        "detail": "Web search and fetch tools were not available to verify this claim. Seattle is known to have cottage housing provisions in its land use code, but I cannot confirm the specific 2006 adoption date or density bonus details without accessing current sources. The claim is plausible but requires verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Third Street Cottages in Langley, completed in 1997 and designed by Ross Chapin Architects",
+          "claim": "Third Street Cottages in Langley, Washington was completed in 1997 and designed by Ross Chapin Architects",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were not granted permissions to verify this claim. I cannot access external sources to confirm or deny the completion date of 1997 or the attribution to Ross Chapin Architects for Third Street Cottages in Langley, Washington.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "His 2011 book *Pocket Neighborhoods: Creating Small-Scale Community in a Large-Scale World*",
+          "claim": "Ross Chapin published 'Pocket Neighborhoods: Creating Small-Scale Community in a Large-Scale World' in 2011",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify claim due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not currently available in this session. I cannot access external sources to confirm the publication date and authorship of this book. The claim appears plausible but cannot be independently verified without access to bibliographic databases, publisher websites, or retail book listings.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

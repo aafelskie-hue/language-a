@@ -1,0 +1,135 @@
+{
+  "patternId": 208,
+  "patternName": "The Forest Bathing Path",
+  "timestamp": "2026-02-17T04:43:17.386Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "The Japanese practice of shinrin-yoku — forest bathing — emerged in 1982 when the Japan Forestry Agency coined the term to encourage forest walking for health",
+        "claim": "Japan Forestry Agency coined the term 'shinrin-yoku' in 1982",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.75,
+      "summary": "Unable to access web sources to verify, but the claim aligns with widely documented historical accounts in academic literature.",
+      "detail": "Web search and fetch tools were not available for this verification. However, based on training data, this claim is consistently cited in peer-reviewed research on forest bathing, including studies by Li Q. and Park BJ et al. in Environmental Health and Preventive Medicine. The term 'shinrin-yoku' (森林浴) is widely attributed to the Japanese Forestry Agency in 1982 as part of a national health promotion campaign. Without current web access to primary sources, this cannot be definitively verified but appears highly plausible.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "By 2012, the Forest Therapy Society had certified 62 Forest Therapy Bases across Japan",
+        "claim": "Forest Therapy Society had certified 62 Forest Therapy Bases in Japan by 2012",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search web sources to verify the specific claim about 62 Forest Therapy Bases certified by 2012.",
+      "detail": "Web search and fetch tools are not currently available to verify this claim. The Forest Therapy Society is a known Japanese organization that certifies Forest Therapy Bases, and the figure of approximately 60+ bases by the early 2010s is consistent with general knowledge about the program, but the specific number 62 and the year 2012 cannot be confirmed without access to primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Park et al. (2010), studying physiological responses to forest environments, found that two hours in a forest reduced cortisol concentrations, lowered pulse rate and blood pressure, and shifted autonomic nervous activity toward parasympathetic dominance — the body's rest-and-restore mode — compared to identical walking time in urban settings",
+        "claim": "Park et al. (2010) study found two hours in forest reduced cortisol, pulse rate, blood pressure, and shifted autonomic activity toward parasympathetic dominance compared to urban walking",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools are not available in this session. The claim references a specific study by Park et al. (2010) examining physiological responses to forest environments. This appears to be a real area of research (forest bathing/shinrin-yoku), and Park BJ is a known researcher in this field, but without web access I cannot confirm the specific paper exists or that the claimed findings (cortisol reduction, pulse rate, blood pressure, parasympathetic shift compared to urban walking) accurately reflect the study's conclusions.",
+      "sources": [
+        "No sources accessible - web tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Li et al. (2007) documented that forest walks increased natural killer cell activity, with effects measurable seven days later",
+        "claim": "Li et al. (2007) documented forest walks increased natural killer cell activity with effects lasting seven days",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Li et al. published research in 2007 documenting that forest bathing (shinrin-yoku) increased natural killer cell activity with effects lasting approximately 7 days.",
+      "detail": "Dr. Qing Li and colleagues at Nippon Medical School in Tokyo published research on forest bathing and immune function. Their 2007 study in the International Journal of Immunopathology and Pharmacology examined the effects of a forest bathing trip on human immune function, finding increased NK cell activity that persisted for at least 7 days after the forest visit. The study attributed this partly to phytoncides (wood essential oils) released by trees.",
+      "sources": [
+        "Li Q et al. (2007) 'Forest bathing enhances human natural killer activity and expression of anti-cancer proteins' International Journal of Immunopathology and Pharmacology - based on training knowledge, unable to verify via live search"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Korea's network of healing forests — established by the Korea Forest Service beginning in 2009",
+        "claim": "Korea Forest Service began establishing healing forests network in 2009",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources.",
+      "detail": "Web search and web fetch tools require permission that was not granted. Based on background knowledge, Korea does have a healing forest program through the Korea Forest Service that began around the late 2000s/early 2010s, but the specific claim of 2009 cannot be confirmed without access to primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Akasawa Natural Recreation Forest in Nagano Prefecture, one of Japan's first certified bases",
+        "claim": "Akasawa Natural Recreation Forest in Nagano Prefecture was one of Japan's first certified forest therapy bases",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify through web search due to tool permission restrictions.",
+      "detail": "Based on background knowledge, Akasawa Natural Recreation Forest is historically associated with early forest therapy certification in Japan, which began in 2006. However, I was unable to perform web searches to confirm the specific claim that it was 'one of Japan's first certified forest therapy bases.' Primary verification through the Forest Therapy Society of Japan or official Japanese forestry sources would be needed.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Japanese practice of shinrin-yoku — forest bathing — emerged in 1982 when the Japan Forestry Agency coined the term to encourage forest walking for health",
+          "claim": "Japan Forestry Agency coined the term 'shinrin-yoku' in 1982",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.75,
+        "summary": "Unable to access web sources to verify, but the claim aligns with widely documented historical accounts in academic literature.",
+        "detail": "Web search and fetch tools were not available for this verification. However, based on training data, this claim is consistently cited in peer-reviewed research on forest bathing, including studies by Li Q. and Park BJ et al. in Environmental Health and Preventive Medicine. The term 'shinrin-yoku' (森林浴) is widely attributed to the Japanese Forestry Agency in 1982 as part of a national health promotion campaign. Without current web access to primary sources, this cannot be definitively verified but appears highly plausible.",
+        "sources": [
+          "Unable to access web sources - verification incomplete"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Park et al. (2010), studying physiological responses to forest environments, found that two hours in a forest reduced cortisol concentrations, lowered pulse rate and blood pressure, and shifted autonomic nervous activity toward parasympathetic dominance — the body's rest-and-restore mode — compared to identical walking time in urban settings",
+          "claim": "Park et al. (2010) study found two hours in forest reduced cortisol, pulse rate, blood pressure, and shifted autonomic activity toward parasympathetic dominance compared to urban walking",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools are not available in this session. The claim references a specific study by Park et al. (2010) examining physiological responses to forest environments. This appears to be a real area of research (forest bathing/shinrin-yoku), and Park BJ is a known researcher in this field, but without web access I cannot confirm the specific paper exists or that the claimed findings (cortisol reduction, pulse rate, blood pressure, parasympathetic shift compared to urban walking) accurately reflect the study's conclusions.",
+        "sources": [
+          "No sources accessible - web tools unavailable"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "patternId": 113,
+  "patternName": "The Stacked Townhouse",
+  "timestamp": "2026-02-16T22:55:13.870Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "Montreal's characteristic triplex — three flats stacked, each with its own exterior iron stair — has housed working families since the 1850s",
+        "claim": "Montreal's triplex housing form with exterior stairs dates back to the 1850s",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; claim requires historical architectural research to confirm.",
+      "detail": "The claim that Montreal's triplex form dates to the 1850s could not be independently verified because web search tools were not available. Based on general knowledge, Montreal's distinctive plex housing with exterior iron stairs is typically associated with the late 19th century urban expansion, roughly 1870s-1920s. The 1850s date may be slightly early, but architectural historians would need to be consulted for precise dating. Without access to primary sources or academic architectural history, this remains unverified.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Vancouver's laneway house policy, adopted in 2009",
+        "claim": "Vancouver adopted its laneway house policy in 2009",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search web sources to verify the claim about Vancouver's laneway house policy adoption date.",
+      "detail": "Web search and fetch tools were not available to verify this claim. The claim that Vancouver adopted its laneway house policy in 2009 is commonly cited in urban planning literature, but I cannot confirm this without accessing current sources. A proper verification would require checking Vancouver city records or official planning documents.",
+      "sources": [
+        "No sources accessed - web tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "by 2019, the city had permitted over 4,000 laneway houses",
+        "claim": "Vancouver permitted over 4,000 laneway houses by 2019",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim as web search tools are not currently available.",
+      "detail": "I attempted to search for evidence about Vancouver's laneway house permits but do not have access to web search or web fetch capabilities in this session. The claim that Vancouver permitted over 4,000 laneway houses by 2019 cannot be confirmed or denied without access to primary sources such as the City of Vancouver's official statistics or news reports from that period.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Alexander, in *A Pattern Language*, identified the problem but not this solution. His pattern 116, *Cascade of Roofs*",
+        "claim": "Pattern 116 in A Pattern Language is titled 'Cascade of Roofs'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 116 in Christopher Alexander's 'A Pattern Language' is indeed titled 'Cascade of Roofs'.",
+      "detail": "Based on my knowledge of Christopher Alexander's 'A Pattern Language' (1977), pattern 116 is correctly identified as 'Cascade of Roofs'. This pattern addresses the design principle of creating roofs that step down in a cascading manner, relating to how buildings should have roofs at multiple levels that create sheltered outdoor spaces. The pattern numbers and titles in A Pattern Language are well-documented and consistent across sources.",
+      "sources": [
+        "Christopher Alexander et al., 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press"
+      ]
+    },
+    {
+      "claim": {
+        "text": "his pattern 117, *Sheltering Roof*",
+        "claim": "Pattern 117 in A Pattern Language is titled 'Sheltering Roof'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 117 in Christopher Alexander's 'A Pattern Language' is indeed titled 'Sheltering Roof'.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977) contains 253 patterns numbered sequentially. Pattern 117 is 'Sheltering Roof', which discusses the importance of roofs that provide shelter and psychological comfort, with the roof being a prominent, visible element that creates a sense of protection. This is well-documented in the original book and numerous online references to the pattern language.",
+      "sources": [
+        "Christopher Alexander et al., 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press"
+      ]
+    },
+    {
+      "claim": {
+        "text": "appears in his discussion of *Main Entrance* (110)",
+        "claim": "Pattern 110 in A Pattern Language is titled 'Main Entrance'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 110 in A Pattern Language is indeed titled 'Main Entrance'.",
+      "detail": "Based on established knowledge of Christopher Alexander's 'A Pattern Language' (1977), pattern 110 is titled 'Main Entrance.' This pattern discusses making the main entry to a building or complex visible and creating appropriate transitions. The book contains 253 patterns numbered sequentially, and this pattern falls in the section dealing with building design.",
+      "sources": [
+        "A Pattern Language: Towns, Buildings, Construction by Christopher Alexander et al. (1977), Oxford University Press"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Vancouver's laneway house policy, adopted in 2009",
+          "claim": "Vancouver adopted its laneway house policy in 2009",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search web sources to verify the claim about Vancouver's laneway house policy adoption date.",
+        "detail": "Web search and fetch tools were not available to verify this claim. The claim that Vancouver adopted its laneway house policy in 2009 is commonly cited in urban planning literature, but I cannot confirm this without accessing current sources. A proper verification would require checking Vancouver city records or official planning documents.",
+        "sources": [
+          "No sources accessed - web tools unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "by 2019, the city had permitted over 4,000 laneway houses",
+          "claim": "Vancouver permitted over 4,000 laneway houses by 2019",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim as web search tools are not currently available.",
+        "detail": "I attempted to search for evidence about Vancouver's laneway house permits but do not have access to web search or web fetch capabilities in this session. The claim that Vancouver permitted over 4,000 laneway houses by 2019 cannot be confirmed or denied without access to primary sources such as the City of Vancouver's official statistics or news reports from that period.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

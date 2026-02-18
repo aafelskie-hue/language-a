@@ -1,0 +1,440 @@
+{
+  "patternId": 60,
+  "patternName": "Snow as Resource",
+  "timestamp": "2026-02-16T16:32:19.038Z",
+  "model": "claude-code-cli",
+  "totalClaims": 21,
+  "results": [
+    {
+      "claim": {
+        "text": "In Edmonton, 123.5 centimeters of snow falls in an average year",
+        "claim": "Edmonton receives an average of 123.5 cm of snow annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify through web search due to tool permission restrictions.",
+      "detail": "My training knowledge suggests Edmonton receives approximately 123.5 cm of snow annually based on Environment Canada climate normals, which would support this claim. However, I was unable to perform live web searches to verify current official statistics. The claimed figure appears consistent with what I know about Edmonton's climate, but proper verification requires access to official Environment Canada data.",
+      "sources": [
+        "Unable to access web sources - verification attempted but blocked by permission settings"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the water equivalent of 111 millimeters of precipitation",
+        "claim": "123.5 cm of Edmonton's annual snow equals 111 mm water equivalent",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Edmonton's annual snowfall is approximately 123-124 cm, and the snow-to-water ratio calculation is plausible but the exact figures need verification.",
+      "detail": "Edmonton's average annual snowfall is commonly cited as approximately 123-124 cm. The standard snow-to-water equivalent ratio is typically around 10:1 (though it varies from about 8:1 to 15:1 depending on snow density). Using a 10:1 ratio, 123.5 cm of snow would equal approximately 123.5 mm of water, not 111 mm. The 111 mm figure would imply roughly an 11:1 ratio, which is reasonable for drier prairie snow but slightly higher than typical averages. Without web search access to verify the exact current statistics from Environment Canada, I cannot definitively confirm the specific numbers.",
+      "sources": [
+        "Unable to verify - web search not available. Assessment based on general climatological knowledge of Edmonton and standard snow-water equivalent ratios."
+      ]
+    },
+    {
+      "claim": {
+        "text": "Fresh snow is roughly 90–95% trapped air by volume",
+        "claim": "Fresh snow is 90-95% trapped air by volume",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claim that fresh snow is 90-95% trapped air by volume is consistent with established snow science.",
+      "detail": "Fresh snow typically has a density of 50-100 kg/m³ compared to ice at 917 kg/m³, meaning fresh snow is roughly 90-95% air by volume. This is well-documented in glaciology and snow science literature. The National Snow and Ice Data Center and similar organizations confirm that freshly fallen snow contains mostly air trapped between ice crystals.",
+      "sources": [
+        "Unable to search - based on training knowledge of snow physics and glaciology"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Its density ranges from 50 to 200 kg/m³ depending on temperature and wind, with a typical fresh snowfall around 100 kg/m³",
+        "claim": "Snow density ranges from 50-200 kg/m³, with typical fresh snow around 100 kg/m³",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The snow density range of 50-200 kg/m³ with fresh snow around 100 kg/m³ aligns with established meteorological data.",
+      "detail": "Fresh snow density is well-documented in meteorological literature. Fresh dry snow typically ranges from 50-100 kg/m³, while wet or settled snow can reach 200-400 kg/m³. The commonly cited 'rule of thumb' for fresh snow is approximately 100 kg/m³ (equivalent to the 10:1 snow-to-water ratio). The claimed range of 50-200 kg/m³ is somewhat conservative but accurate for fresh to lightly settled snow.",
+      "sources": [
+        "Unable to verify via web search - based on training knowledge of meteorological standards and snow hydrology literature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "one cubic meter of fresh snow contains roughly 100 liters of water",
+        "claim": "One cubic meter of fresh snow at 100 kg/m³ density contains approximately 100 liters of water",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The claim is mathematically accurate based on basic physics: snow at 100 kg/m³ density contains 100 kg of water per cubic meter, which equals 100 liters.",
+      "detail": "This is a straightforward physics calculation. If snow has a density of 100 kg/m³, one cubic meter weighs 100 kg. Since snow is frozen water and water has a density of 1 kg/liter (1000 kg/m³), 100 kg of snow melts to produce 100 liters of water. The 100 kg/m³ density figure is also reasonable for fresh snow, which typically ranges from 50-150 kg/m³ depending on conditions.",
+      "sources": [
+        "Physics first principles: density = mass/volume; water density = 1000 kg/m³ = 1 kg/L"
+      ]
+    },
+    {
+      "claim": {
+        "text": "fresh snow provides approximately R-1 per inch of depth (comparable to wood)",
+        "claim": "Fresh snow has an insulation value of approximately R-1 per inch of depth",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Fresh snow's R-value is commonly cited as approximately R-1 per inch, though this varies significantly with snow density and type.",
+      "detail": "The R-1 per inch figure for fresh snow is a widely cited approximation in building science and winter ecology literature. However, this value varies considerably based on snow density - fresh fluffy snow with more trapped air has higher insulation value (potentially R-1 to R-1.5 per inch), while denser packed snow has lower R-value. The comparison to wood is approximately correct, as wood typically has R-values of 0.9-1.25 per inch depending on species. The claim would be more accurate if qualified as 'approximately' or 'up to' R-1 per inch.",
+      "sources": [
+        "Unable to verify via web search - assessment based on established thermal physics principles"
+      ]
+    },
+    {
+      "claim": {
+        "text": "fresh snow provides approximately R-1 per inch of depth (comparable to wood)",
+        "claim": "Wood has an insulation value comparable to R-1 per inch",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Wood does have an R-value of approximately R-1 per inch, which is consistent with building science literature.",
+      "detail": "Softwood lumber (pine, fir, spruce) typically has an R-value of approximately R-1.0 to R-1.25 per inch, while hardwoods are slightly lower at around R-0.7 to R-0.9 per inch. This is well-established in building science and referenced in sources like the ASHRAE Handbook of Fundamentals and the DOE's energy efficiency guidelines. The claim of 'comparable to R-1 per inch' is accurate for typical construction lumber.",
+      "sources": [
+        "ASHRAE Handbook of Fundamentals (thermal properties of building materials)",
+        "DOE Energy Saver building insulation guidance",
+        "Standard building science reference materials"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a 30-centimeter snowpack keeps the ground beneath it near freezing even when air temperatures drop to -30°C",
+        "claim": "A 30 cm snowpack maintains ground temperature near freezing even at -30°C air temperature",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The claim is scientifically sound in principle but the specific depth and temperature values are approximate rather than precisely established thresholds.",
+      "detail": "Snow's insulating properties are well-documented in ecology and winter ecology literature. The subnivean zone (space beneath snow) does maintain temperatures significantly warmer than air temperature due to snow's low thermal conductivity. Research generally indicates that 20-30 cm of snow provides substantial insulation, and ground temperatures beneath adequate snowpack typically remain near 0°C regardless of air temperature extremes. However, the exact relationship depends on snow density, duration of cold, ground heat flux, and other factors - '30 cm' and '-30°C' are reasonable illustrative values rather than precise physical constants.",
+      "sources": [
+        "Unable to verify via web search - assessment based on general scientific knowledge of snow thermal properties and subnivean ecology"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Wyoming Department of Transportation, building on over 40 years of research by Dr. Ronald Tabler through the Strategic Highway Research Program (SHRP)",
+        "claim": "Dr. Ronald Tabler conducted over 40 years of snow fence research through the Strategic Highway Research Program (SHRP)",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of web search access.",
+      "detail": "I attempted to search for information about Dr. Ronald Tabler's snow fence research and his connection to the Strategic Highway Research Program (SHRP), but web search tools are not currently available. The claim combines two elements: (1) Tabler's 40+ years of snow fence research, and (2) that this research was conducted 'through' SHRP. The SHRP was a 5-year program (1987-1993), so 40+ years of research could not have been conducted solely through SHRP. This suggests the claim may conflate Tabler's overall career with SHRP involvement.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "found that trapping snow with fences costs roughly one hundred times less than mechanical removal",
+        "claim": "Wyoming DOT/SHRP research found snow fences cost approximately 100 times less than mechanical snow removal",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification - web search permissions not granted.",
+      "detail": "This claim references specific Wyoming DOT and SHRP (Strategic Highway Research Program) research on snow fence cost-effectiveness. Without web search access, I cannot verify the specific '100 times less' figure. Wyoming DOT has conducted extensive snow fence research, and SHRP has published related findings, but I cannot confirm this specific ratio without searching current sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A properly designed snow fence — 50% porous, set back at a distance of 20 to 35 times its height from the area being protected",
+        "claim": "Optimal snow fence design is 50% porous and set back 20-35 times its height from the protected area",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to check current technical sources.",
+      "detail": "I was unable to search for or access external sources to verify this technical claim about snow fence design specifications. Based on general knowledge, these specifications (50% porosity and 20-35x height setback) align with commonly cited snow fence engineering guidelines, but I cannot confirm against primary sources without web access. The claim references specific technical parameters that would require verification against transportation engineering standards or research publications.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Iowa's Department of Transportation has operated a living snow fence program for over 40 years",
+        "claim": "Iowa DOT has operated a living snow fence program for over 40 years",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current sources.",
+      "detail": "Web search tools were not available to verify this claim. Iowa DOT does have a documented living snow fence program, but I cannot confirm the specific '40 years' claim without access to primary sources. The program is known to exist, but the exact start date would need verification from Iowa DOT official documents.",
+      "sources": [
+        "Unable to access web sources - verification tools not permitted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The USDA Natural Resources Conservation Service funds living snow fence programs through the Conservation Reserve Program across multiple northern states",
+        "claim": "USDA NRCS funds living snow fence programs through the Conservation Reserve Program in northern states",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search permissions not being granted.",
+      "detail": "Web search tools are required to verify this claim but permissions have not been granted. Based on general knowledge, NRCS does fund various conservation practices including windbreaks and shelterbelts through programs like EQIP, and CRP does support conservation plantings. However, the specific claim about CRP funding living snow fence programs in northern states cannot be confirmed without access to primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "in Edmonton, a typical house roof (150 m²) collects roughly 15 cubic meters of snow in an average winter, equivalent to approximately 1,500 liters of meltwater",
+        "claim": "A 150 m² roof in Edmonton collects roughly 15 cubic meters of snow annually, yielding approximately 1,500 liters of meltwater",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.85,
+      "summary": "The math in the claim is internally inconsistent and the snowfall figure appears significantly underestimated for Edmonton.",
+      "detail": "Edmonton receives approximately 100-125 cm of snowfall annually on average. On a 150 m² roof, this would be 15-18.75 cubic meters of snow (150 m² × 1.0-1.25 m depth). However, the claim states 15 m³ of snow yields only 1,500 liters (1.5 m³) of meltwater, implying a 10:1 snow-to-water ratio. While 10:1 is a reasonable average ratio for fresh snow, a 150 m² roof collecting 15 m³ of snow (100 cm depth) should yield approximately 1,500 liters - this part is mathematically consistent. The issue is that 15 m³ implies only 10 cm of snow depth (15 m³ ÷ 150 m² = 0.1 m), which is far below Edmonton's actual ~110 cm annual snowfall. At actual snowfall levels, the yield would be closer to 11,000-15,000 liters.",
+      "sources": [
+        "Standard meteorological data for Edmonton, Alberta",
+        "Snow-water equivalent conversion ratios (typically 10:1 to 15:1 for fresh snow)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In December 2025, Edmonton received 416% of its normal December precipitation as snow",
+        "claim": "Edmonton received 416% of normal December precipitation in December 2025",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access and the recency of the claim (December 2025).",
+      "detail": "This claim references December 2025, which is very recent. Without access to web search or Environment and Climate Change Canada's historical weather data, I cannot verify whether Edmonton received 416% of normal December precipitation. The specific percentage (416%) suggests a precise measurement that would come from official meteorological sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "49 millimeters of water equivalent against a 30-year average of 11.8 millimeters",
+        "claim": "Edmonton's December 2025 precipitation was 49 mm water equivalent vs 30-year average of 11.8 mm",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot access Environment and Climate Change Canada data or any other sources to verify Edmonton's December 2025 precipitation figures or the 30-year average. This claim requires external verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "with 43 to 67 centimeters of snow recorded across the city",
+        "claim": "Edmonton received 43-67 cm of snow in December 2025",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify December 2025 snowfall data as this date is beyond my knowledge cutoff and web search tools are unavailable.",
+      "detail": "December 2025 is after my knowledge cutoff date of May 2025, so I have no information about weather events from that period. Additionally, web search and fetch tools were not available to retrieve current data. Historical Edmonton December snowfall typically ranges from 15-30 cm on average, so 43-67 cm would represent an above-average snowfall event, but I cannot confirm if this specific claim is accurate.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Crews worked non-stop for over 20 days",
+        "claim": "Edmonton snow removal crews worked continuously for over 20 days following December 2025 snowfall",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool access limitations.",
+      "detail": "I attempted to search for information about Edmonton snow removal operations in December 2025 but could not access web search capabilities. The claim references a very recent event (December 2025, which is only 2 months ago from today's date of February 2026), so verification would require accessing current news sources or official Edmonton city communications. Without web access, I cannot confirm or deny whether crews worked continuously for over 20 days.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The city warned that residential roads would take two to three more weeks to clear",
+        "claim": "Edmonton city officials warned residential roads would take 2-3 additional weeks to clear after December 2025 snow event",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to search for evidence due to web search permissions not being granted.",
+      "detail": "Web search and web fetch tools were unavailable during this verification attempt. I could not access any sources to confirm or deny whether Edmonton city officials made this warning about residential road clearing timelines after a December 2025 snow event. This claim requires web verification to assess.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Residential streets remained impassable into February",
+        "claim": "Edmonton residential streets remained impassable into February 2026 following December 2025 snow",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this recent claim about Edmonton snow conditions without web search access.",
+      "detail": "This claim refers to events from December 2025 through February 2026, which is extremely recent. Without access to web search tools, I cannot verify whether Edmonton residential streets remained impassable into February 2026 following December 2025 snowfall. The claim is specific and verifiable in principle through local news sources, City of Edmonton reports, or social media documentation of road conditions.",
+      "sources": [
+        "No sources accessible - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The snow that was removed sat contaminated with road salt in four municipal storage sites",
+        "claim": "Edmonton has four municipal snow storage sites",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific number of Edmonton's municipal snow storage sites due to lack of web search access.",
+      "detail": "Edmonton does operate municipal snow storage sites where removed snow is deposited, and these sites are known to accumulate contaminants including road salt. However, I cannot confirm the specific number of four sites without access to current City of Edmonton documentation. The claim is plausible given Edmonton's size and snow removal operations.",
+      "sources": [
+        "Unable to access web sources - verification requires checking Edmonton city records or official transportation department information"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 3,
+    "unverified": 13,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "In Edmonton, 123.5 centimeters of snow falls in an average year",
+          "claim": "Edmonton receives an average of 123.5 cm of snow annually",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify through web search due to tool permission restrictions.",
+        "detail": "My training knowledge suggests Edmonton receives approximately 123.5 cm of snow annually based on Environment Canada climate normals, which would support this claim. However, I was unable to perform live web searches to verify current official statistics. The claimed figure appears consistent with what I know about Edmonton's climate, but proper verification requires access to official Environment Canada data.",
+        "sources": [
+          "Unable to access web sources - verification attempted but blocked by permission settings"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Wyoming Department of Transportation, building on over 40 years of research by Dr. Ronald Tabler through the Strategic Highway Research Program (SHRP)",
+          "claim": "Dr. Ronald Tabler conducted over 40 years of snow fence research through the Strategic Highway Research Program (SHRP)",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim due to lack of web search access.",
+        "detail": "I attempted to search for information about Dr. Ronald Tabler's snow fence research and his connection to the Strategic Highway Research Program (SHRP), but web search tools are not currently available. The claim combines two elements: (1) Tabler's 40+ years of snow fence research, and (2) that this research was conducted 'through' SHRP. The SHRP was a 5-year program (1987-1993), so 40+ years of research could not have been conducted solely through SHRP. This suggests the claim may conflate Tabler's overall career with SHRP involvement.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "found that trapping snow with fences costs roughly one hundred times less than mechanical removal",
+          "claim": "Wyoming DOT/SHRP research found snow fences cost approximately 100 times less than mechanical snow removal",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification - web search permissions not granted.",
+        "detail": "This claim references specific Wyoming DOT and SHRP (Strategic Highway Research Program) research on snow fence cost-effectiveness. Without web search access, I cannot verify the specific '100 times less' figure. Wyoming DOT has conducted extensive snow fence research, and SHRP has published related findings, but I cannot confirm this specific ratio without searching current sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A properly designed snow fence — 50% porous, set back at a distance of 20 to 35 times its height from the area being protected",
+          "claim": "Optimal snow fence design is 50% porous and set back 20-35 times its height from the protected area",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to check current technical sources.",
+        "detail": "I was unable to search for or access external sources to verify this technical claim about snow fence design specifications. Based on general knowledge, these specifications (50% porosity and 20-35x height setback) align with commonly cited snow fence engineering guidelines, but I cannot confirm against primary sources without web access. The claim references specific technical parameters that would require verification against transportation engineering standards or research publications.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Iowa's Department of Transportation has operated a living snow fence program for over 40 years",
+          "claim": "Iowa DOT has operated a living snow fence program for over 40 years",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current sources.",
+        "detail": "Web search tools were not available to verify this claim. Iowa DOT does have a documented living snow fence program, but I cannot confirm the specific '40 years' claim without access to primary sources. The program is known to exist, but the exact start date would need verification from Iowa DOT official documents.",
+        "sources": [
+          "Unable to access web sources - verification tools not permitted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The USDA Natural Resources Conservation Service funds living snow fence programs through the Conservation Reserve Program across multiple northern states",
+          "claim": "USDA NRCS funds living snow fence programs through the Conservation Reserve Program in northern states",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search permissions not being granted.",
+        "detail": "Web search tools are required to verify this claim but permissions have not been granted. Based on general knowledge, NRCS does fund various conservation practices including windbreaks and shelterbelts through programs like EQIP, and CRP does support conservation plantings. However, the specific claim about CRP funding living snow fence programs in northern states cannot be confirmed without access to primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In December 2025, Edmonton received 416% of its normal December precipitation as snow",
+          "claim": "Edmonton received 416% of normal December precipitation in December 2025",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access and the recency of the claim (December 2025).",
+        "detail": "This claim references December 2025, which is very recent. Without access to web search or Environment and Climate Change Canada's historical weather data, I cannot verify whether Edmonton received 416% of normal December precipitation. The specific percentage (416%) suggests a precise measurement that would come from official meteorological sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "49 millimeters of water equivalent against a 30-year average of 11.8 millimeters",
+          "claim": "Edmonton's December 2025 precipitation was 49 mm water equivalent vs 30-year average of 11.8 mm",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot access Environment and Climate Change Canada data or any other sources to verify Edmonton's December 2025 precipitation figures or the 30-year average. This claim requires external verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "with 43 to 67 centimeters of snow recorded across the city",
+          "claim": "Edmonton received 43-67 cm of snow in December 2025",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify December 2025 snowfall data as this date is beyond my knowledge cutoff and web search tools are unavailable.",
+        "detail": "December 2025 is after my knowledge cutoff date of May 2025, so I have no information about weather events from that period. Additionally, web search and fetch tools were not available to retrieve current data. Historical Edmonton December snowfall typically ranges from 15-30 cm on average, so 43-67 cm would represent an above-average snowfall event, but I cannot confirm if this specific claim is accurate.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

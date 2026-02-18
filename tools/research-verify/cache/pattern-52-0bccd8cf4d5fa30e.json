@@ -1,0 +1,241 @@
+{
+  "patternId": 52,
+  "patternName": "The Maintenance Commons",
+  "timestamp": "2026-02-16T21:16:37.076Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "The average power drill is used for approximately 13 minutes over its entire lifetime.",
+        "claim": "Average power drill is used for approximately 13 minutes over its entire lifetime",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "This is a widely-cited statistic in sharing economy literature, but the exact number varies between sources (6-13 minutes) and no rigorous primary research has been identified as the original source.",
+      "detail": "The '13 minutes' figure appears frequently in sustainability and sharing economy discussions, often attributed to various sources. However, the number varies across citations — some say 6 minutes, some say 13 minutes, some say 'less than 15 minutes.' The statistic is often traced to a statement by sustainability advocates or sharing economy proponents, but a peer-reviewed primary study establishing this figure has not been definitively identified. The claim is directionally correct (power drills are indeed rarely used) but the specific '13 minutes' figure should be treated as an approximation or illustrative estimate rather than a rigorously measured statistic.",
+      "sources": [
+        "Various sharing economy and sustainability publications cite this statistic, commonly attributed to cooperative/sharing economy advocates. No definitive primary research source verified."
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Berkeley Tool Lending Library, operating since 1979 as part of the public library system, is the oldest continuously running example in North America.",
+        "claim": "Berkeley Tool Lending Library has operated since 1979 as part of the public library system and is the oldest continuously running tool library in North America",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search/fetch permissions.",
+      "detail": "I was unable to access web search or web fetch tools to verify this claim. The Berkeley Tool Lending Library is commonly cited as one of the oldest tool libraries in North America with a founding date around 1979, but I cannot confirm the specific details or the 'oldest continuously running' claim without searching current sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Toronto Tool Library, founded in 2011, now provides access to over 7,000 tools",
+        "claim": "Toronto Tool Library was founded in 2011 and provides access to over 7,000 tools",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot access external sources to confirm or deny the claim about the Toronto Tool Library's founding date (2011) or collection size (over 7,000 tools). Manual verification using web resources is required.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "has demonstrated that 80–90% of its active members live within a 5-kilometer radius",
+        "claim": "80–90% of Toronto Tool Library's active members live within a 5-kilometer radius",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for primary sources to verify this specific membership statistic about the Toronto Tool Library.",
+      "detail": "This claim about 80-90% of active members living within a 5-kilometer radius is a specific operational statistic that would require access to Toronto Tool Library's published reports, academic studies about tool libraries, or news coverage citing their data. The Toronto Tool Library is a real organization founded in 2013, but I cannot confirm this specific geographic distribution statistic without web search access to find primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Tool libraries across North America grew from roughly 40 to over 100 between 2013 and 2020",
+        "claim": "Tool libraries in North America grew from approximately 40 to over 100 between 2013 and 2020",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search access to find primary sources on tool library counts.",
+      "detail": "Web search tools were unavailable during this verification attempt. Tool library growth statistics would require access to sources like localtools.org directories, academic studies on sharing economies, or news articles documenting the tool library movement. Without search capability, I cannot confirm the specific numbers (40 in 2013, 100+ in 2020) or the growth trajectory claimed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A 2014 survey of the Northeast Portland Tool Library found that two-thirds of members would have purchased new tools for projects if the library did not exist",
+        "claim": "A 2014 survey of the Northeast Portland Tool Library found two-thirds of members would have purchased new tools if the library did not exist",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for this claim due to web access restrictions.",
+      "detail": "I attempted to search for information about the Northeast Portland Tool Library's 2014 survey but was unable to access web search or web fetch tools. The claim references a specific survey with specific findings (two-thirds of members would have purchased new tools), but I cannot verify whether this survey exists or what its actual findings were without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the library's tool loans prevented an estimated 143–200 metric tons of CO2 equivalent in upstream manufacturing impacts",
+        "claim": "Northeast Portland Tool Library prevented an estimated 143–200 metric tons of CO2 equivalent in upstream manufacturing impacts",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this specific statistic about the Northeast Portland Tool Library's CO2 impact through web search.",
+      "detail": "The Northeast Portland Tool Library is a real organization (part of the broader tool library movement in Portland, Oregon), but I could not find primary sources documenting the specific claim of 143-200 metric tons of CO2 equivalent prevented. This type of environmental impact assessment would typically come from a commissioned study or internal report, which may not be widely indexed online. The specificity of the range (143-200 metric tons) suggests it may come from a legitimate calculation or study, but without access to search results, I cannot confirm its existence or accuracy.",
+      "sources": [
+        "Unable to access web search to verify sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Studies of tool library communities report that average households save $300–500 annually.",
+        "claim": "Studies report tool library member households save $300–500 annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; the $300-500 figure appears to be a commonly cited but poorly sourced estimate in tool library advocacy materials.",
+      "detail": "Tool libraries (also called tool lending libraries) do exist and claim economic benefits for members, but rigorous academic studies quantifying precise household savings are scarce. The $300-500 annual savings figure appears in various tool library promotional materials and news articles, but I cannot confirm whether it originates from a formal study or is an informal estimate. Without web search access, I cannot locate primary research to verify or dispute this specific range.",
+      "sources": [
+        "Unable to search - web access not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Ostrom's principles for commons governance apply directly: clear membership, agreed rules, participatory management, graduated sanctions for misuse, and accessible conflict resolution.",
+        "claim": "Elinor Ostrom's principles for commons governance include clear membership, agreed rules, participatory management, graduated sanctions, and accessible conflict resolution",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The claim correctly identifies core themes from Ostrom's principles but uses paraphrased language rather than her exact terminology.",
+      "detail": "Elinor Ostrom's 8 design principles for managing commons (from 'Governing the Commons', 1990) include: (1) clearly defined boundaries (similar to 'clear membership'), (2) congruence between rules and local conditions, (3) collective-choice arrangements (similar to 'participatory management'), (4) monitoring, (5) graduated sanctions (exact match), (6) conflict-resolution mechanisms (similar to 'accessible conflict resolution'), (7) minimal recognition of rights to organize, and (8) nested enterprises. The claim captures the spirit of Ostrom's principles but 'agreed rules' is a simplification of her more nuanced principles about rule congruence and collective choice arrangements. The claim omits monitoring, recognition of rights, and nested enterprises.",
+      "sources": [
+        "Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press."
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Japanese practice of mottainai — a cultural ethic against wastefulness that extends to the shared maintenance of neighborhood infrastructure",
+        "claim": "Mottainai is a Japanese cultural ethic against wastefulness that extends to shared maintenance of neighborhood infrastructure",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "Mottainai is indeed a Japanese cultural ethic against wastefulness, but the claim that it specifically extends to 'shared maintenance of neighborhood infrastructure' appears to be an extrapolation.",
+      "detail": "Mottainai (もったいない) is a well-documented Japanese term expressing a sense of regret over waste, rooted in Buddhist concepts of respect for resources. It is widely recognized as a cultural ethic promoting conservation and minimal waste. However, while Japan does have strong traditions of community maintenance (such as neighborhood cleaning days called 'souji'), the direct connection of mottainai specifically to 'shared maintenance of neighborhood infrastructure' is not a standard description of the term. This appears to be a reasonable but unverified extension of the concept. Unable to perform web searches to verify current scholarly sources.",
+      "sources": [
+        "Unable to access web sources - based on training knowledge only"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 3,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Berkeley Tool Lending Library, operating since 1979 as part of the public library system, is the oldest continuously running example in North America.",
+          "claim": "Berkeley Tool Lending Library has operated since 1979 as part of the public library system and is the oldest continuously running tool library in North America",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search/fetch permissions.",
+        "detail": "I was unable to access web search or web fetch tools to verify this claim. The Berkeley Tool Lending Library is commonly cited as one of the oldest tool libraries in North America with a founding date around 1979, but I cannot confirm the specific details or the 'oldest continuously running' claim without searching current sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Toronto Tool Library, founded in 2011, now provides access to over 7,000 tools",
+          "claim": "Toronto Tool Library was founded in 2011 and provides access to over 7,000 tools",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot access external sources to confirm or deny the claim about the Toronto Tool Library's founding date (2011) or collection size (over 7,000 tools). Manual verification using web resources is required.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "has demonstrated that 80–90% of its active members live within a 5-kilometer radius",
+          "claim": "80–90% of Toronto Tool Library's active members live within a 5-kilometer radius",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for primary sources to verify this specific membership statistic about the Toronto Tool Library.",
+        "detail": "This claim about 80-90% of active members living within a 5-kilometer radius is a specific operational statistic that would require access to Toronto Tool Library's published reports, academic studies about tool libraries, or news coverage citing their data. The Toronto Tool Library is a real organization founded in 2013, but I cannot confirm this specific geographic distribution statistic without web search access to find primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A 2014 survey of the Northeast Portland Tool Library found that two-thirds of members would have purchased new tools for projects if the library did not exist",
+          "claim": "A 2014 survey of the Northeast Portland Tool Library found two-thirds of members would have purchased new tools if the library did not exist",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for this claim due to web access restrictions.",
+        "detail": "I attempted to search for information about the Northeast Portland Tool Library's 2014 survey but was unable to access web search or web fetch tools. The claim references a specific survey with specific findings (two-thirds of members would have purchased new tools), but I cannot verify whether this survey exists or what its actual findings were without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "the library's tool loans prevented an estimated 143–200 metric tons of CO2 equivalent in upstream manufacturing impacts",
+          "claim": "Northeast Portland Tool Library prevented an estimated 143–200 metric tons of CO2 equivalent in upstream manufacturing impacts",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this specific statistic about the Northeast Portland Tool Library's CO2 impact through web search.",
+        "detail": "The Northeast Portland Tool Library is a real organization (part of the broader tool library movement in Portland, Oregon), but I could not find primary sources documenting the specific claim of 143-200 metric tons of CO2 equivalent prevented. This type of environmental impact assessment would typically come from a commissioned study or internal report, which may not be widely indexed online. The specificity of the range (143-200 metric tons) suggests it may come from a legitimate calculation or study, but without access to search results, I cannot confirm its existence or accuracy.",
+        "sources": [
+          "Unable to access web search to verify sources"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Studies of tool library communities report that average households save $300–500 annually.",
+          "claim": "Studies report tool library member households save $300–500 annually",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; the $300-500 figure appears to be a commonly cited but poorly sourced estimate in tool library advocacy materials.",
+        "detail": "Tool libraries (also called tool lending libraries) do exist and claim economic benefits for members, but rigorous academic studies quantifying precise household savings are scarce. The $300-500 annual savings figure appears in various tool library promotional materials and news articles, but I cannot confirm whether it originates from a formal study or is an informal estimate. Without web search access, I cannot locate primary research to verify or dispute this specific range.",
+        "sources": [
+          "Unable to search - web access not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

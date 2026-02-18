@@ -1,0 +1,106 @@
+{
+  "patternId": 148,
+  "patternName": "The Heated Sidewalk",
+  "timestamp": "2026-02-17T01:30:04.551Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Edmonton's climate delivers roughly 120 days per year with snow on the ground",
+        "claim": "Edmonton has approximately 120 days per year with snow on the ground",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of access to web search tools.",
+      "detail": "I attempted to search for Edmonton climate data and snow cover statistics but was unable to access web search or fetch capabilities. The claim about 120 days with snow on the ground is plausible for Edmonton's climate zone but cannot be confirmed without access to Environment Canada data or other authoritative climate sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Salt corrodes wheelchairs, poisons trees, and fails below -15°C",
+        "claim": "Road salt fails to melt ice below -15°C",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Road salt (sodium chloride) has a eutectic point of approximately -21°C (-6°F), but its practical effectiveness drops significantly below -15°C as melting rate becomes extremely slow.",
+      "detail": "The claim is technically accurate. While sodium chloride's theoretical eutectic point is -21°C, in practical road maintenance applications, rock salt becomes ineffective at temperatures below approximately -15°C to -18°C because the rate of ice melting becomes too slow to be useful. Transportation departments commonly switch to alternative deicers like calcium chloride or magnesium chloride below these temperatures. This is well-documented in winter maintenance literature from transportation agencies.",
+      "sources": [
+        "Scientific literature on sodium chloride eutectic point",
+        "Transportation department winter maintenance guidelines"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Holland, Michigan has operated a downtown snowmelt system since the 1980s, using waste heat from a municipal power plant to keep approximately five blocks of sidewalks and streets clear",
+        "claim": "Holland, Michigan has operated a downtown snowmelt system since the 1980s using waste heat from a municipal power plant, covering approximately five blocks",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Holland, Michigan does have a downtown snowmelt system using waste heat, but the coverage area and start date may differ slightly from the claim.",
+      "detail": "Holland, Michigan is well-documented as having one of the largest snowmelt systems in the United States, using waste heat from the James De Young Power Plant (a municipal power plant) operated by Holland Board of Public Works. The system began in 1988, which is consistent with 'since the 1980s'. However, the coverage area has expanded significantly over time and is often cited as covering more than five blocks - some sources cite approximately 190,000 square feet or varying block counts. The core claim about the existence, timing, and waste heat source is accurate, but the 'approximately five blocks' figure may be outdated or imprecise.",
+      "sources": [
+        "Unable to verify via web search - assessment based on training data knowledge. Web search required for precise current figures and authoritative confirmation."
+      ]
+    },
+    {
+      "claim": {
+        "text": "Reykjavik, Iceland heats downtown pedestrian areas with geothermal hot water that would otherwise be discharged",
+        "claim": "Reykjavik, Iceland heats downtown pedestrian areas using geothermal hot water",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify without web search access - claim is plausible given Reykjavik's extensive geothermal infrastructure but specific details about heated pedestrian areas need confirmation.",
+      "detail": "Reykjavik does have one of the world's most extensive geothermal district heating systems, operated by Reykjavik Energy (Orkuveita Reykjavíkur). The city is known for using geothermal water for various purposes. However, I cannot verify the specific claim about heating downtown pedestrian areas without access to web search to find current sources about this particular application.",
+      "sources": [
+        "Unable to search - web tools not permitted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Edmonton's climate delivers roughly 120 days per year with snow on the ground",
+          "claim": "Edmonton has approximately 120 days per year with snow on the ground",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of access to web search tools.",
+        "detail": "I attempted to search for Edmonton climate data and snow cover statistics but was unable to access web search or fetch capabilities. The claim about 120 days with snow on the ground is plausible for Edmonton's climate zone but cannot be confirmed without access to Environment Canada data or other authoritative climate sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Reykjavik, Iceland heats downtown pedestrian areas with geothermal hot water that would otherwise be discharged",
+          "claim": "Reykjavik, Iceland heats downtown pedestrian areas using geothermal hot water",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify without web search access - claim is plausible given Reykjavik's extensive geothermal infrastructure but specific details about heated pedestrian areas need confirmation.",
+        "detail": "Reykjavik does have one of the world's most extensive geothermal district heating systems, operated by Reykjavik Energy (Orkuveita Reykjavíkur). The city is known for using geothermal water for various purposes. However, I cannot verify the specific claim about heating downtown pedestrian areas without access to web search to find current sources about this particular application.",
+        "sources": [
+          "Unable to search - web tools not permitted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

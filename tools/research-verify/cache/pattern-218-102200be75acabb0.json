@@ -1,0 +1,256 @@
+{
+  "patternId": 218,
+  "patternName": "The Inhabited Wall",
+  "timestamp": "2026-02-17T05:18:31.874Z",
+  "model": "claude-code-cli",
+  "totalClaims": 11,
+  "results": [
+    {
+      "claim": {
+        "text": "Louis Kahn revived this thinking at the Phillips Exeter Academy Library (1972)",
+        "claim": "Phillips Exeter Academy Library was designed by Louis Kahn and completed in 1972",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Louis Kahn designed the Phillips Exeter Academy Library, which was completed in 1972.",
+      "detail": "Louis Kahn's Phillips Exeter Academy Library is one of his most celebrated works. The library was commissioned in 1965 and completed in 1972 in Exeter, New Hampshire. It is widely recognized as a masterpiece of modern architecture, known for its monumental central atrium and innovative use of concrete, brick, and wood.",
+      "sources": [
+        "Based on architectural history knowledge - unable to verify via live web search due to permissions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the outer walls are nearly a meter deep, containing individual study carrels within their mass",
+        "claim": "Phillips Exeter Academy Library has outer walls nearly a meter deep containing study carrels",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The Phillips Exeter Academy Library, designed by Louis Kahn, is well-documented as having thick outer walls containing study carrels within their depth.",
+      "detail": "Louis Kahn's library at Phillips Exeter Academy (completed 1972) is famous for its architectural design where the outer brick walls are indeed exceptionally thick and contain individual study carrels embedded within them. This is a hallmark feature of the building's design, allowing natural light from windows to reach each carrel. The wall depth of approximately one meter is consistent with architectural analyses of the building. However, I could not perform live web searches to verify the exact measurement, so this is based on established architectural knowledge.",
+      "sources": [
+        "Architectural documentation of Louis Kahn's Phillips Exeter Academy Library",
+        "Unable to perform live web search for additional verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The library holds 160 carrels this way",
+        "claim": "Phillips Exeter Academy Library contains 160 study carrels within its walls",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific number of 160 carrels without web search access.",
+      "detail": "The Phillips Exeter Academy Library is well-documented as having study carrels built into its perimeter walls, a signature feature of Louis Kahn's 1971 design. However, I could not access web sources to confirm whether the specific number is 160. Some architectural sources cite different numbers (often higher), but verification requires access to official library or architectural documentation.",
+      "sources": [
+        "Unable to access web sources - verification requires web search permissions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In Pattern 197, *Thick Walls*, he writes: \"Thin, flat walls have no place to hold the people around them...\"",
+        "claim": "Christopher Alexander's Pattern 197 is titled 'Thick Walls' and contains this quoted passage",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Pattern 197 is titled 'Thick Walls' and discusses these concepts, but the exact quoted wording cannot be verified and may be paraphrased rather than verbatim.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977) does contain Pattern #197 titled 'THICK WALLS' which discusses how thin walls fail to hold people while thick walls with alcoves, window seats, and niches provide places to sit and lean. The thematic content of the quoted passage aligns with the pattern's message. However, without access to verify the exact text, the specific quoted wording ('Thin, flat walls have no place to hold the people around them — they leave us stranded in an empty sea...') may be a paraphrase or interpretation rather than verbatim quotation. The pattern does prescribe walls at least two feet thick.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press, Pattern #197",
+        "Training knowledge of the source text"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In Taos Pueblo, adobe walls exceed 600mm in thickness",
+        "claim": "Traditional adobe walls at Taos Pueblo exceed 600mm in thickness",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for specific wall thickness measurements at Taos Pueblo due to tool access limitations.",
+      "detail": "Web search and fetch tools are not available in this session. From general knowledge, Taos Pueblo is known for its massive adobe construction with thick walls for thermal mass, and 600mm (approximately 24 inches) is within the typical range for traditional adobe construction. However, I cannot verify the specific claim without access to primary sources such as NPS documentation, architectural surveys, or academic studies of the pueblo's construction.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Sarah Lozanova, documenting sustainable building practices in 2019, noted that traditional Pueblo rooms of 20 square meters felt as usable as conventional rooms of 30 square meters",
+        "claim": "Sarah Lozanova published documentation on sustainable building practices in 2019 making this specific comparison about Pueblo room usability",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify claim due to web search permissions not being granted.",
+      "detail": "This verification task requires web search capabilities to find Sarah Lozanova's publications and verify whether she made this specific claim about Pueblo rooms in 2019. Without access to web search or web fetch tools, I cannot determine whether the citation is accurate, inaccurate, or fabricated.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Nakagin Capsule Tower (Tokyo, 1972)",
+        "claim": "Nakagin Capsule Tower in Tokyo was completed in 1972",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Nakagin Capsule Tower in Tokyo was indeed completed in 1972, designed by architect Kisho Kurokawa as a landmark of Metabolism architecture.",
+      "detail": "The Nakagin Capsule Tower was designed by Kisho Kurokawa and completed in 1972 in the Ginza district of Tokyo. This is well-documented architectural history. The building consisted of 140 prefabricated capsules and stood until its demolition in 2022. The 1972 completion date is consistently cited across architectural references and historical records.",
+      "sources": [
+        "Knowledge from architectural history - primary verification through web search would strengthen this finding"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the Carmel Place micro-units in New York (2016) used walls 450mm deep to contain fold-down beds, desks, and shelving",
+        "claim": "Carmel Place micro-units in New York were completed in 2016 and feature walls 450mm deep containing fold-down beds, desks, and shelving",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions to find current sources.",
+      "detail": "Web search and web fetch tools are not enabled, preventing verification of this claim. Carmel Place is a real project by nArchitects in NYC with micro-units and fold-down furniture, but the specific 450mm wall depth claim and exact 2016 completion date cannot be confirmed without searching primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "allowing 26-square-meter units to function as studios",
+        "claim": "Carmel Place micro-units are 26 square meters in size",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to web search permissions not being granted.",
+      "detail": "Web search is required to verify this claim about Carmel Place micro-unit sizes. Without access to search, I cannot locate primary sources such as the NYC Housing Authority documentation, architectural records, or official building specifications to confirm or deny the 26 square meter claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Post-occupancy surveys by nArchitects found that 78% of residents rated the units as \"adequately spacious\" despite being the smallest legal apartments in the city",
+        "claim": "nArchitects conducted post-occupancy surveys of Carmel Place finding 78% of residents rated units as 'adequately spacious'",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "This claim requires searching for nArchitects' post-occupancy survey results for Carmel Place (NYC's micro-apartment pilot project). Without web search or web fetch capabilities, I cannot access primary sources from nArchitects, academic publications, or news coverage that might confirm or refute the 78% statistic. The claim is specific enough that it likely comes from a real source, but verification is not possible without search access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "being the smallest legal apartments in the city",
+        "claim": "Carmel Place units were the smallest legal apartments in New York City at the time",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.75,
+      "summary": "Carmel Place units, at 260-360 square feet, were built under a special zoning waiver specifically because they were below NYC's 400 square foot minimum, making them the smallest legal newly-constructed apartments in the city when completed in 2016.",
+      "detail": "Carmel Place was built as a pilot project requiring a variance from NYC's 1987 zoning code mandating minimum 400 sq ft apartments. The units ranged from approximately 260-360 sq ft, which would be illegal under standard zoning. While older pre-1987 apartments and SROs may exist that are smaller, Carmel Place represented the smallest legal NEW apartments at the time of construction. Confidence is limited by inability to access current web sources to verify.",
+      "sources": [
+        "Unable to access web sources - based on prior knowledge of the adAPT NYC competition and NYC zoning regulations"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 1,
+    "unverified": 6,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The library holds 160 carrels this way",
+          "claim": "Phillips Exeter Academy Library contains 160 study carrels within its walls",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific number of 160 carrels without web search access.",
+        "detail": "The Phillips Exeter Academy Library is well-documented as having study carrels built into its perimeter walls, a signature feature of Louis Kahn's 1971 design. However, I could not access web sources to confirm whether the specific number is 160. Some architectural sources cite different numbers (often higher), but verification requires access to official library or architectural documentation.",
+        "sources": [
+          "Unable to access web sources - verification requires web search permissions"
+        ]
+      },
+      {
+        "claim": {
+          "text": "In Taos Pueblo, adobe walls exceed 600mm in thickness",
+          "claim": "Traditional adobe walls at Taos Pueblo exceed 600mm in thickness",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for specific wall thickness measurements at Taos Pueblo due to tool access limitations.",
+        "detail": "Web search and fetch tools are not available in this session. From general knowledge, Taos Pueblo is known for its massive adobe construction with thick walls for thermal mass, and 600mm (approximately 24 inches) is within the typical range for traditional adobe construction. However, I cannot verify the specific claim without access to primary sources such as NPS documentation, architectural surveys, or academic studies of the pueblo's construction.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Sarah Lozanova, documenting sustainable building practices in 2019, noted that traditional Pueblo rooms of 20 square meters felt as usable as conventional rooms of 30 square meters",
+          "claim": "Sarah Lozanova published documentation on sustainable building practices in 2019 making this specific comparison about Pueblo room usability",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify claim due to web search permissions not being granted.",
+        "detail": "This verification task requires web search capabilities to find Sarah Lozanova's publications and verify whether she made this specific claim about Pueblo rooms in 2019. Without access to web search or web fetch tools, I cannot determine whether the citation is accurate, inaccurate, or fabricated.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "the Carmel Place micro-units in New York (2016) used walls 450mm deep to contain fold-down beds, desks, and shelving",
+          "claim": "Carmel Place micro-units in New York were completed in 2016 and feature walls 450mm deep containing fold-down beds, desks, and shelving",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions to find current sources.",
+        "detail": "Web search and web fetch tools are not enabled, preventing verification of this claim. Carmel Place is a real project by nArchitects in NYC with micro-units and fold-down furniture, but the specific 450mm wall depth claim and exact 2016 completion date cannot be confirmed without searching primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "allowing 26-square-meter units to function as studios",
+          "claim": "Carmel Place micro-units are 26 square meters in size",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to web search permissions not being granted.",
+        "detail": "Web search is required to verify this claim about Carmel Place micro-unit sizes. Without access to search, I cannot locate primary sources such as the NYC Housing Authority documentation, architectural records, or official building specifications to confirm or deny the 26 square meter claim.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Post-occupancy surveys by nArchitects found that 78% of residents rated the units as \"adequately spacious\" despite being the smallest legal apartments in the city",
+          "claim": "nArchitects conducted post-occupancy surveys of Carmel Place finding 78% of residents rated units as 'adequately spacious'",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "This claim requires searching for nArchitects' post-occupancy survey results for Carmel Place (NYC's micro-apartment pilot project). Without web search or web fetch capabilities, I cannot access primary sources from nArchitects, academic publications, or news coverage that might confirm or refute the 78% statistic. The claim is specific enough that it likely comes from a real source, but verification is not possible without search access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "patternId": 32,
+  "patternName": "Acoustic Refuge",
+  "timestamp": "2026-02-16T20:56:12.876Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "The World Health Organization recommends indoor noise levels below 35 dB(A) for sleeping and 40 dB(A) for concentrated work",
+        "claim": "WHO recommends indoor noise levels below 35 dB(A) for sleeping and 40 dB(A) for concentrated work",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The WHO does provide noise guidelines but the specific values cited may not be exact matches to the official recommendations.",
+      "detail": "The WHO Guidelines for Community Noise (1999) and Environmental Noise Guidelines for the European Region (2018) do provide indoor noise recommendations. The 1999 guidelines recommend 30 dB LAeq for bedrooms during sleep (not 35 dB), and 35 dB LAeq for classrooms/schools. The 40 dB figure for concentrated work is approximately correct for some settings. Without web access to verify current WHO publications, I cannot confirm the exact figures claimed. The values 35 dB for sleeping and 40 dB for work are commonly cited approximations but may differ from official WHO documentation.",
+      "sources": [
+        "Unable to access web sources - based on prior knowledge of WHO Guidelines for Community Noise (1999) and WHO Environmental Noise Guidelines for European Region (2018)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a person walking on the floor above generates 60–70 dB(A) in the room below",
+        "claim": "Footsteps on floor above generate 60–70 dB(A) in room below in typical lightweight timber-frame house",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search permission not being granted.",
+      "detail": "This technical claim about impact noise levels in timber-frame construction could not be verified because web search tools were unavailable. The 60-70 dB(A) range is plausible based on general acoustic knowledge, but specific verification requires access to building acoustics research papers, measurement studies, or building code documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A television at normal volume in the next room transmits 45–55 dB(A) through a standard interior wall",
+        "claim": "Television at normal volume transmits 45–55 dB(A) through standard interior wall",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "The claim conflates two different measurements - source sound level vs transmitted sound level through walls.",
+      "detail": "A television at normal volume typically produces 60-70 dB(A) at the source. Standard interior walls (single-layer drywall) have an STC rating of 30-35, meaning they reduce sound by approximately 30-35 dB. This would result in transmitted sound levels of roughly 25-40 dB(A) through the wall, not 45-55 dB(A). The 45-55 dB(A) figure is closer to the source level of a TV at moderate volume, not the transmitted level. Without web access to verify current acoustic engineering sources, this assessment is based on standard acoustical principles.",
+      "sources": [
+        "Unable to access web sources - assessment based on acoustical engineering principles"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Traffic on a residential street reaches 55–65 dB(A) at the facade",
+        "claim": "Traffic on residential street reaches 55–65 dB(A) at building facade",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 55-65 dB(A) range for residential street traffic noise at building facades is consistent with established acoustic engineering standards and WHO guidelines.",
+      "detail": "This range aligns with well-documented acoustic measurements. The WHO Environmental Noise Guidelines for the European Region (2018) and various national standards (such as those from the UK, Germany, and US EPA) consistently report that moderate residential street traffic produces noise levels in the 55-70 dB(A) range at facades. Light residential traffic is typically 50-60 dB(A), while busier residential streets reach 60-70 dB(A), making 55-65 dB(A) a reasonable middle estimate.",
+      "sources": [
+        "WHO Environmental Noise Guidelines for the European Region (2018)",
+        "Standard acoustic engineering references for urban traffic noise",
+        "Unable to verify via live web search - permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Chronic noise exposure elevates cortisol, fragments sleep architecture, impairs reading comprehension in children, and increases cardiovascular risk",
+        "claim": "Chronic noise exposure elevates cortisol, fragments sleep, impairs reading comprehension in children, and increases cardiovascular risk",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions, though claim aligns with well-documented scientific consensus.",
+      "detail": "Web search and web fetch tools were not available to verify this claim against current sources. The claim describes four well-established health effects of chronic noise exposure that are documented in WHO guidelines, the RANCH study, and extensive peer-reviewed literature. However, without active search capability, I cannot confirm specific sources or check for any recent updates to this scientific consensus.",
+      "sources": [
+        "Unable to access web sources - permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The evidence is extensive (WHO Environmental Noise Guidelines for the European Region, 2018)",
+        "claim": "WHO Environmental Noise Guidelines for the European Region published in 2018",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The WHO Environmental Noise Guidelines for the European Region was indeed published in 2018.",
+      "detail": "The WHO Regional Office for Europe published the 'Environmental Noise Guidelines for the European Region' in October 2018. This document provides evidence-based recommendations on protecting human health from exposure to environmental noise from transportation, wind turbines, and leisure activities. The guidelines are well-documented and widely cited in public health literature.",
+      "sources": [
+        "WHO Regional Office for Europe official publication (ISBN: 978-92-890-5356-3)",
+        "Based on training data knowledge - web verification was not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Mass stops airborne sound — concrete, masonry, and dense plaster outperform lightweight framing by 15–20 dB for the same wall thickness",
+        "claim": "Concrete, masonry, and dense plaster outperform lightweight framing by 15–20 dB for same wall thickness in stopping airborne sound",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 15-20 dB advantage claim due to lack of web search access.",
+      "detail": "Web search tools are not currently available to verify this claim. The general principle that mass improves airborne sound transmission loss (following the Mass Law in acoustics) is well-established in acoustic engineering. The Mass Law suggests approximately 6 dB improvement per doubling of surface mass. However, the specific claim of 15-20 dB advantage for concrete/masonry over lightweight framing at same wall thickness requires source verification that I cannot perform without web access.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 2,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "a person walking on the floor above generates 60–70 dB(A) in the room below",
+          "claim": "Footsteps on floor above generate 60–70 dB(A) in room below in typical lightweight timber-frame house",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search permission not being granted.",
+        "detail": "This technical claim about impact noise levels in timber-frame construction could not be verified because web search tools were unavailable. The 60-70 dB(A) range is plausible based on general acoustic knowledge, but specific verification requires access to building acoustics research papers, measurement studies, or building code documentation.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Chronic noise exposure elevates cortisol, fragments sleep architecture, impairs reading comprehension in children, and increases cardiovascular risk",
+          "claim": "Chronic noise exposure elevates cortisol, fragments sleep, impairs reading comprehension in children, and increases cardiovascular risk",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions, though claim aligns with well-documented scientific consensus.",
+        "detail": "Web search and web fetch tools were not available to verify this claim against current sources. The claim describes four well-established health effects of chronic noise exposure that are documented in WHO guidelines, the RANCH study, and extensive peer-reviewed literature. However, without active search capability, I cannot confirm specific sources or check for any recent updates to this scientific consensus.",
+        "sources": [
+          "Unable to access web sources - permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Mass stops airborne sound — concrete, masonry, and dense plaster outperform lightweight framing by 15–20 dB for the same wall thickness",
+          "claim": "Concrete, masonry, and dense plaster outperform lightweight framing by 15–20 dB for same wall thickness in stopping airborne sound",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 15-20 dB advantage claim due to lack of web search access.",
+        "detail": "Web search tools are not currently available to verify this claim. The general principle that mass improves airborne sound transmission loss (following the Mass Law in acoustics) is well-established in acoustic engineering. The Mass Law suggests approximately 6 dB improvement per doubling of surface mass. However, the specific claim of 15-20 dB advantage for concrete/masonry over lightweight framing at same wall thickness requires source verification that I cannot perform without web access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

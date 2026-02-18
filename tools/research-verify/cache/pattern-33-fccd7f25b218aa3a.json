@@ -1,0 +1,90 @@
+{
+  "patternId": 33,
+  "patternName": "The Healing Garden",
+  "timestamp": "2026-02-16T20:57:48.653Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Roger Ulrich's foundational 1984 study demonstrated that hospital patients recovering from surgery with a view of trees recovered faster, required less pain medication, and had fewer complications than patients with a view of a brick wall",
+        "claim": "Roger Ulrich published a 1984 study showing surgical patients with tree views recovered faster, needed less pain medication, and had fewer complications than those viewing a brick wall",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The study exists and core findings are accurate, but the claim about 'fewer complications' requires clarification.",
+      "detail": "Roger Ulrich's 1984 study 'View through a window may influence recovery from surgery' was published in Science (Vol. 224, pp. 420-421). The study of cholecystectomy patients did find that those with tree views had shorter hospital stays, took fewer analgesics, and had fewer negative evaluative comments from nurses compared to those with brick wall views. However, the original study specifically measured 'negative evaluative comments in nurses' notes' rather than 'complications' in the clinical sense. The claim slightly overstates by using the term 'complications.'",
+      "sources": [
+        "Ulrich, R.S. (1984). View through a window may influence recovery from surgery. Science, 224(4647), 420-421 - based on training knowledge, web search unavailable to verify current access"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Systematic reviews confirm that direct contact with nature — not merely viewing it — produces measurable physiological benefits: reduced cortisol, lower blood pressure, improved immune function, accelerated healing",
+        "claim": "Systematic reviews show direct nature contact reduces cortisol, lowers blood pressure, improves immune function, and accelerates healing",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; cannot search for systematic reviews on this topic.",
+      "detail": "Web search and web fetch tools are currently unavailable, preventing verification of this claim about systematic reviews. The claim references well-known research areas (nature exposure and physiological health markers), but without search access I cannot confirm that systematic reviews specifically support all four claimed benefits (cortisol reduction, blood pressure lowering, immune function improvement, accelerated healing) nor verify the distinction about 'direct contact' vs. viewing.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Kaplan and Kaplan's attention restoration theory (1989) established that natural environments restore directed attention in ways that built environments cannot",
+        "claim": "Kaplan and Kaplan published attention restoration theory in 1989",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Rachel and Stephen Kaplan published their foundational work on attention restoration theory in their 1989 book 'The Experience of Nature: A Psychological Perspective'.",
+      "detail": "The 1989 date is accurate for the Kaplans' seminal book that established attention restoration theory. This book synthesized their research on how natural environments restore directed attention capacity. The theory has been widely cited with this 1989 date in academic literature.",
+      "sources": [
+        "Training knowledge - unable to perform live web search due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Japanese practice of shinrin-yoku (forest bathing) is therapeutic precisely because the forest surrounds you",
+        "claim": "Shinrin-yoku (forest bathing) is an established Japanese therapeutic practice",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Shinrin-yoku (forest bathing) is a well-documented therapeutic practice that was formally introduced by Japan's Ministry of Agriculture, Forestry and Fisheries in 1982.",
+      "detail": "Shinrin-yoku was officially introduced as a public health initiative by the Japanese government in 1982 to encourage citizens to spend time in forests for health benefits. It has since been extensively studied by Japanese researchers, with designated 'Forest Therapy Bases' certified throughout Japan. The practice is widely recognized in academic literature and by health organizations as an established Japanese therapeutic modality.",
+      "sources": [
+        "Unable to verify via web search - assessment based on established knowledge. Recommend verifying with: Japan's Ministry of Agriculture, Forestry and Fisheries records, academic publications on forest medicine by Dr. Qing Li"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Systematic reviews confirm that direct contact with nature — not merely viewing it — produces measurable physiological benefits: reduced cortisol, lower blood pressure, improved immune function, accelerated healing",
+          "claim": "Systematic reviews show direct nature contact reduces cortisol, lowers blood pressure, improves immune function, and accelerates healing",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; cannot search for systematic reviews on this topic.",
+        "detail": "Web search and web fetch tools are currently unavailable, preventing verification of this claim about systematic reviews. The claim references well-known research areas (nature exposure and physiological health markers), but without search access I cannot confirm that systematic reviews specifically support all four claimed benefits (cortisol reduction, blood pressure lowering, immune function improvement, accelerated healing) nor verify the distinction about 'direct contact' vs. viewing.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

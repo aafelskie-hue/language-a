@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language A — Brand Sheet</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Beachhead Foundation */
+    --navy-deep: #0F1F33;
+    --navy: #1E3A5F;
+    --charcoal: #111827;
+    --cloud: #F3F4F6;
+    --slate: #374151;
+    --steel: #6B7280;
+    --silver: #9CA3AF;
+    --white: #FFFFFF;
+    --error: #B91C1C;
+
+    /* Language A Accent — Copper */
+    --copper: #B5734A;
+    --copper-light: #D4956A;
+    --copper-dark: #8B5A3A;
+    --copper-muted: #C49A7A;
+    --copper-pale: #F0E4DA;
+
+    /* App Surface Colors */
+    --surface-warm: #FAF7F4;
+    --surface-card: #FFFFFF;
+    --surface-dark: #0F1F33;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cloud);
+    color: var(--charcoal);
+    line-height: 1.6;
+  }
+
+  /* Page Structure */
+  .page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 48px 32px;
+  }
+
+  .header {
+    margin-bottom: 64px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #E5E7EB;
+  }
+
+  .header-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--steel);
+    margin-bottom: 16px;
+  }
+
+  .header h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--charcoal);
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .header h1 span {
+    color: var(--copper);
+  }
+
+  .header p {
+    font-size: 16px;
+    color: var(--slate);
+    max-width: 520px;
+  }
+
+  /* Sections */
+  .section {
+    margin-bottom: 64px;
+  }
+
+  .section-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+
+  .section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--charcoal);
+  }
+
+  .section-desc {
+    font-size: 14px;
+    color: var(--slate);
+    max-width: 600px;
+    margin-bottom: 32px;
+    line-height: 1.7;
+  }
+
+  /* Icon Display */
+  .icon-row {
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .icon-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .icon-demo span {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--steel);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+  }
+
+  .icon-box.light {
+    background: var(--white);
+    border: 1px solid #E5E7EB;
+  }
+
+  .icon-box.dark {
+    background: var(--navy-deep);
+  }
+
+  .icon-box.copper-bg {
+    background: var(--copper);
+  }
+
+  .icon-box.lg { width: 120px; height: 120px; }
+  .icon-box.md { width: 80px; height: 80px; }
+  .icon-box.sm { width: 48px; height: 48px; border-radius: 10px; }
+  .icon-box.xs { width: 32px; height: 32px; border-radius: 8px; }
+
+  /* The A Icon — structural frame */
+  .a-icon {
+    position: relative;
+  }
+
+  .a-icon svg {
+    display: block;
+  }
+
+  /* Lockup Variants */
+  .lockup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .lockup-card {
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+  }
+
+  .lockup-card.light {
+    background: var(--white);
+    border: 1px solid #E5E7EB;
+  }
+
+  .lockup-card.dark {
+    background: var(--navy-deep);
+  }
+
+  .lockup-card.warm {
+    background: var(--surface-warm);
+    border: 1px solid #E8E0D8;
+  }
+
+  .lockup-card.copper-bg {
+    background: var(--copper);
+  }
+
+  .lockup-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--steel);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+  }
+
+  /* Horizontal lockup */
+  .lockup-h {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .lockup-h .wordmark {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: -0.01em;
+  }
+
+  .lockup-h .wordmark.dark-text { color: var(--charcoal); }
+  .lockup-h .wordmark.light-text { color: var(--white); }
+
+  /* Stacked lockup */
+  .lockup-s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .lockup-s .wordmark {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+  }
+
+  /* Color Palette */
+  .palette-section {
+    margin-bottom: 40px;
+  }
+
+  .palette-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--charcoal);
+  }
+
+  .palette-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .swatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .swatch-color {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .swatch-color.outline {
+    border: 1px solid #D1D5DB;
+  }
+
+  .swatch-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--slate);
+    text-align: center;
+  }
+
+  .swatch-hex {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--silver);
+    text-align: center;
+  }
+
+  /* Typography Specimen */
+  .type-specimen {
+    margin-bottom: 32px;
+    padding: 32px;
+    background: var(--white);
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+  }
+
+  .type-family {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--copper);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
+  }
+
+  .type-sample-heading {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--charcoal);
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+
+  .type-sample-body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--slate);
+    max-width: 560px;
+    line-height: 1.7;
+  }
+
+  .type-sample-mono {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--steel);
+    margin-top: 8px;
+  }
+
+  .type-sample-italic {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: var(--slate);
+    margin-top: 8px;
+  }
+
+  .type-role {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--silver);
+    margin-top: 4px;
+  }
+
+  /* Endorsement Pattern */
+  .endorsement-demo {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .endorsement-card {
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 220px;
+    flex: 1;
+    min-width: 280px;
+  }
+
+  .endorsement-line {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    opacity: 0.5;
+  }
+
+  .endorsement-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  /* App Preview */
+  .app-preview {
+    background: var(--surface-warm);
+    border-radius: 12px;
+    border: 1px solid #E8E0D8;
+    overflow: hidden;
+    margin-top: 16px;
+  }
+
+  .app-nav {
+    background: var(--navy-deep);
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .app-nav .nav-wordmark {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white);
+  }
+
+  .app-nav .nav-pipe {
+    color: var(--steel);
+    font-size: 16px;
+  }
+
+  .app-nav .nav-link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--silver);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .app-nav .nav-link.active {
+    color: var(--copper-light);
+  }
+
+  .app-body {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 40px;
+  }
+
+  .app-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .sidebar-section {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--copper);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 8px 0;
+    margin-top: 12px;
+  }
+
+  .sidebar-section:first-child {
+    margin-top: 0;
+  }
+
+  .sidebar-item {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    color: var(--slate);
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: default;
+  }
+
+  .sidebar-item.active {
+    background: rgba(181, 115, 74, 0.1);
+    color: var(--copper-dark);
+    font-weight: 500;
+  }
+
+  .sidebar-item .num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--silver);
+    margin-right: 6px;
+  }
+
+  .sidebar-item.active .num {
+    color: var(--copper);
+  }
+
+  .app-content h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--charcoal);
+    letter-spacing: -0.01em;
+    margin-bottom: 4px;
+  }
+
+  .app-content .pattern-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--steel);
+    margin-bottom: 20px;
+  }
+
+  .app-content .pattern-meta .copper {
+    color: var(--copper);
+  }
+
+  .app-content .problem {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--charcoal);
+    line-height: 1.6;
+    padding: 16px 20px;
+    background: rgba(181, 115, 74, 0.06);
+    border-left: 3px solid var(--copper);
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 20px;
+  }
+
+  .app-content .body-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: var(--slate);
+    line-height: 1.75;
+    max-width: 600px;
+  }
+
+  .connections-bar {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .connection-chip {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: var(--white);
+    border: 1px solid #E5E7EB;
+    color: var(--slate);
+  }
+
+  .connection-chip .chip-num {
+    color: var(--copper);
+    font-weight: 500;
+  }
+
+  /* Favicon strip */
+  .favicon-strip {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .favicon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .favicon.parent { background: var(--navy); }
+  .favicon.bim { background: #E8651A; }
+  .favicon.osim { background: #2D8A56; }
+  .favicon.bc { background: #0E7490; }
+  .favicon.muni { background: #B45309; }
+  .favicon.lang-a { background: var(--copper); }
+
+  .favicon svg { display: block; }
+
+  .favicon-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--silver);
+    margin-left: 8px;
+  }
+
+  /* Divider */
+  .divider {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 48px 0;
+  }
+
+  /* Notes */
+  .note {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--steel);
+    line-height: 1.7;
+    max-width: 600px;
+    padding: 16px 20px;
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+  }
+
+  .note strong {
+    color: var(--charcoal);
+  }
+
+  @media (max-width: 768px) {
+    .lockup-grid { grid-template-columns: 1fr; }
+    .app-body { grid-template-columns: 1fr; }
+    .icon-row { gap: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-meta">Beachhead Systems — Product Brand Sheet</div>
+    <h1><span>Language A</span></h1>
+    <p>A pattern language for contemporary living. Brand identity within the Beachhead Systems family.</p>
+  </div>
+
+  <!-- 01: Icon -->
+  <div class="section">
+    <div class="section-label">01 — Product Icon</div>
+    <div class="section-title">The Structural A</div>
+    <div class="section-desc">
+      The letter A as a structural frame — two angled members meeting at a peak with a horizontal tie. It's a roof truss, a building section, and the product's initial. Simple geometry, honest structure.
+    </div>
+
+    <div class="icon-row">
+      <div class="icon-demo">
+        <div class="icon-box light lg">
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26 6L6 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M26 6L46 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M14 30H38" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span>Light / Large</span>
+      </div>
+
+      <div class="icon-demo">
+        <div class="icon-box dark lg">
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26 6L6 46" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M26 6L46 46" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M14 30H38" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span>Dark / Large</span>
+      </div>
+
+      <div class="icon-demo">
+        <div class="icon-box light md">
+          <svg width="36" height="36" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26 6L6 46" stroke="#B5734A" stroke-width="4" stroke-linecap="round"/>
+            <path d="M26 6L46 46" stroke="#B5734A" stroke-width="4" stroke-linecap="round"/>
+            <path d="M14 30H38" stroke="#B5734A" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span>Medium</span>
+      </div>
+
+      <div class="icon-demo">
+        <div class="icon-box copper-bg sm">
+          <svg width="24" height="24" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26 6L6 46" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+            <path d="M26 6L46 46" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+            <path d="M14 30H38" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span>Favicon</span>
+      </div>
+
+      <div class="icon-demo">
+        <div class="icon-box copper-bg xs">
+          <svg width="16" height="16" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26 6L6 46" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+            <path d="M26 6L46 46" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+            <path d="M14 30H38" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span>16×16</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 02: Lockups -->
+  <div class="section">
+    <div class="section-label">02 — Lockup Variants</div>
+
+    <div class="lockup-grid">
+      <div>
+        <div class="lockup-label">Horizontal — Default</div>
+        <div class="lockup-card light">
+          <div class="lockup-h">
+            <svg width="32" height="32" viewBox="0 0 52 52" fill="none">
+              <path d="M26 6L6 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M26 6L46 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M14 30H38" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+            </svg>
+            <div class="wordmark dark-text">Language A</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="lockup-label">Horizontal — Dark</div>
+        <div class="lockup-card dark">
+          <div class="lockup-h">
+            <svg width="32" height="32" viewBox="0 0 52 52" fill="none">
+              <path d="M26 6L6 46" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M26 6L46 46" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M14 30H38" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+            </svg>
+            <div class="wordmark light-text">Language A</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="lockup-label">Stacked — App icon / Social</div>
+        <div class="lockup-card warm">
+          <div class="lockup-s">
+            <svg width="40" height="40" viewBox="0 0 52 52" fill="none">
+              <path d="M26 6L6 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M26 6L46 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M14 30H38" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+            </svg>
+            <div class="wordmark dark-text" style="font-size:15px; letter-spacing:0.04em;">LANGUAGE A</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="lockup-label">Wordmark Only</div>
+        <div class="lockup-card light">
+          <div class="wordmark dark-text" style="font-family:'DM Sans',sans-serif; font-weight:700; font-size:26px; letter-spacing:-0.01em; color:var(--charcoal);">Language <span style="color:var(--copper)">A</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 03: Endorsement Pattern -->
+  <div class="section">
+    <div class="section-label">03 — Endorsement Pattern</div>
+    <div class="section-desc">Product leads, parent endorses. The Beachhead horizon mark appears small and at reduced opacity beneath the product logo.</div>
+
+    <div class="endorsement-demo">
+      <div class="endorsement-card" style="background:var(--white); border:1px solid #E5E7EB;">
+        <div class="lockup-h">
+          <svg width="32" height="32" viewBox="0 0 52 52" fill="none">
+            <path d="M26 6L6 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M26 6L46 46" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M14 30H38" stroke="#B5734A" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+          <div class="wordmark dark-text">Language A</div>
+        </div>
+        <div class="endorsement-line">
+          <svg width="16" height="10" viewBox="0 0 24 14" fill="none">
+            <rect x="0" y="0" width="8" height="2.5" rx="1" fill="#1E3A5F"/>
+            <rect x="0" y="5.5" width="14" height="2.5" rx="1" fill="#1E3A5F"/>
+            <rect x="0" y="11" width="22" height="2.5" rx="1" fill="#1E3A5F"/>
+          </svg>
+          <span class="endorsement-text" style="color:var(--steel);">A Beachhead Systems Product</span>
+        </div>
+      </div>
+
+      <div class="endorsement-card" style="background:var(--navy-deep);">
+        <div class="lockup-h">
+          <svg width="32" height="32" viewBox="0 0 52 52" fill="none">
+            <path d="M26 6L6 46" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M26 6L46 46" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M14 30H38" stroke="#D4956A" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+          <div class="wordmark light-text">Language A</div>
+        </div>
+        <div class="endorsement-line">
+          <svg width="16" height="10" viewBox="0 0 24 14" fill="none">
+            <rect x="0" y="0" width="8" height="2.5" rx="1" fill="#FFFFFF"/>
+            <rect x="0" y="5.5" width="14" height="2.5" rx="1" fill="#FFFFFF"/>
+            <rect x="0" y="11" width="22" height="2.5" rx="1" fill="#FFFFFF"/>
+          </svg>
+          <span class="endorsement-text" style="color:var(--silver);">A Beachhead Systems Product</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 04: Color Palette -->
+  <div class="section">
+    <div class="section-label">04 — Color Palette</div>
+
+    <div class="palette-section">
+      <div class="palette-title">Language A — Copper Accent</div>
+      <div class="palette-row">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#8B5A3A"></div>
+          <div class="swatch-name">Copper Dark</div>
+          <div class="swatch-hex">#8B5A3A</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#B5734A"></div>
+          <div class="swatch-name">Copper</div>
+          <div class="swatch-hex">#B5734A</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#D4956A"></div>
+          <div class="swatch-name">Copper Light</div>
+          <div class="swatch-hex">#D4956A</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#C49A7A"></div>
+          <div class="swatch-name">Copper Muted</div>
+          <div class="swatch-hex">#C49A7A</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color outline" style="background:#F0E4DA"></div>
+          <div class="swatch-name">Copper Pale</div>
+          <div class="swatch-hex">#F0E4DA</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="palette-section">
+      <div class="palette-title">Beachhead Foundation — Inherited</div>
+      <div class="palette-row">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#0F1F33"></div>
+          <div class="swatch-name">Navy Deep</div>
+          <div class="swatch-hex">#0F1F33</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#1E3A5F"></div>
+          <div class="swatch-name">Navy</div>
+          <div class="swatch-hex">#1E3A5F</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#111827"></div>
+          <div class="swatch-name">Charcoal</div>
+          <div class="swatch-hex">#111827</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#374151"></div>
+          <div class="swatch-name">Slate</div>
+          <div class="swatch-hex">#374151</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#6B7280"></div>
+          <div class="swatch-name">Steel</div>
+          <div class="swatch-hex">#6B7280</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#9CA3AF"></div>
+          <div class="swatch-name">Silver</div>
+          <div class="swatch-hex">#9CA3AF</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color outline" style="background:#F3F4F6"></div>
+          <div class="swatch-name">Cloud</div>
+          <div class="swatch-hex">#F3F4F6</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color outline" style="background:#FFFFFF"></div>
+          <div class="swatch-name">White</div>
+          <div class="swatch-hex">#FFFFFF</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="palette-section">
+      <div class="palette-title">App Surfaces — Language A Specific</div>
+      <div class="palette-row">
+        <div class="swatch">
+          <div class="swatch-color outline" style="background:#FAF7F4"></div>
+          <div class="swatch-name">Warm Surface</div>
+          <div class="swatch-hex">#FAF7F4</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color outline" style="background:#FFFFFF"></div>
+          <div class="swatch-name">Card</div>
+          <div class="swatch-hex">#FFFFFF</div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#0F1F33"></div>
+          <div class="swatch-name">Nav / Dark</div>
+          <div class="swatch-hex">#0F1F33</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="note" style="margin-top:24px;">
+      <strong>Why Copper?</strong> The existing family uses Orange, Green, Teal, and Amber. Copper sits in its own territory — warm enough for a product about homes and living, material enough for an engineering product (copper roofs, copper pipes, copper patina in northern climates). Distinct from BIM Inspector's orange by temperature and saturation.
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 05: Typography -->
+  <div class="section">
+    <div class="section-label">05 — Typography</div>
+    <div class="section-desc">Using the Beachhead Systems type families in their assigned roles.</div>
+
+    <div class="type-specimen">
+      <div class="type-family">DM Sans Bold — Headlines & Wordmark</div>
+      <div class="type-sample-heading">The Fifteen-Minute Shed</div>
+      <div class="type-role">Headings, pattern names, navigation, wordmark</div>
+    </div>
+
+    <div class="type-specimen">
+      <div class="type-family">DM Sans Regular — Body Text</div>
+      <div class="type-sample-body">In cold climates, the psychological and physical separation between a home-based workspace and living space must be dramatic to be real — but it must also be reachable in pajamas, in February, in the dark.</div>
+      <div class="type-role">Pattern evidence, discussion, UI copy</div>
+    </div>
+
+    <div class="type-specimen">
+      <div class="type-family">IBM Plex Mono — Technical & Metadata</div>
+      <div class="type-sample-mono">PATTERN 06 · ★★ HIGH CONFIDENCE · BUILDING SCALE · CANDIDATE</div>
+      <div class="type-role">Pattern numbers, ratings, scale tags, section labels, data</div>
+    </div>
+
+    <div class="type-specimen">
+      <div class="type-family">Instrument Serif Italic — Tagline & Pull Quotes</div>
+      <div class="type-sample-italic">A pattern language for contemporary living.</div>
+      <div class="type-role">Taglines, pitch decks, marketing pull quotes only — never in product UI</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 06: Favicon Family -->
+  <div class="section">
+    <div class="section-label">06 — Favicon Family Position</div>
+    <div class="section-desc">Language A's copper favicon alongside the existing Beachhead product family. Each product is instantly distinguishable by accent color.</div>
+
+    <div class="favicon-strip">
+      <div class="favicon parent">
+        <svg width="16" height="10" viewBox="0 0 24 14" fill="none">
+          <rect x="0" y="0" width="8" height="2.5" rx="1" fill="#FFFFFF"/>
+          <rect x="0" y="5.5" width="14" height="2.5" rx="1" fill="#FFFFFF"/>
+          <rect x="0" y="11" width="22" height="2.5" rx="1" fill="#FFFFFF"/>
+        </svg>
+      </div>
+      <div class="favicon bim">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><text x="2" y="11" font-family="DM Sans" font-weight="700" font-size="11" fill="white">B</text></svg>
+      </div>
+      <div class="favicon osim">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><text x="2" y="11" font-family="DM Sans" font-weight="700" font-size="11" fill="white">O</text></svg>
+      </div>
+      <div class="favicon bc">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><text x="1.5" y="11" font-family="DM Sans" font-weight="700" font-size="10" fill="white">BC</text></svg>
+      </div>
+      <div class="favicon muni">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><text x="2" y="11" font-family="DM Sans" font-weight="700" font-size="11" fill="white">M</text></svg>
+      </div>
+      <div class="favicon lang-a">
+        <svg width="16" height="16" viewBox="0 0 52 52" fill="none">
+          <path d="M26 6L6 46" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+          <path d="M26 6L46 46" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+          <path d="M14 30H38" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="favicon-label">Beachhead · BIM · OSIM · BC · Municipal · Language A</span>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 07: App Preview -->
+  <div class="section">
+    <div class="section-label">07 — App Preview</div>
+    <div class="section-title">Pattern Detail — In-Product Application</div>
+    <div class="section-desc">How the brand system feels inside the actual product. Navy navigation bar (inherited from Beachhead), warm surface background (Language A specific), copper accents throughout.</div>
+
+    <div class="app-preview">
+      <div class="app-nav">
+        <svg width="20" height="20" viewBox="0 0 52 52" fill="none">
+          <path d="M26 6L6 46" stroke="#D4956A" stroke-width="4" stroke-linecap="round"/>
+          <path d="M26 6L46 46" stroke="#D4956A" stroke-width="4" stroke-linecap="round"/>
+          <path d="M14 30H38" stroke="#D4956A" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <span class="nav-wordmark">Language A</span>
+        <span class="nav-pipe">|</span>
+        <span class="nav-link active">Patterns</span>
+        <span class="nav-link">Network</span>
+        <span class="nav-link">Projects</span>
+        <span class="nav-link">Guide</span>
+      </div>
+
+      <div class="app-body">
+        <div class="app-sidebar">
+          <div class="sidebar-section">Neighborhood</div>
+          <div class="sidebar-item"><span class="num">01</span> Fifteen-Minute Neighborhood</div>
+          <div class="sidebar-item"><span class="num">02</span> Third Place Network</div>
+          <div class="sidebar-item"><span class="num">03</span> Dark Sky Neighborhood</div>
+          <div class="sidebar-item"><span class="num">04</span> Mobility Hub</div>
+          <div class="sidebar-section">Building</div>
+          <div class="sidebar-item"><span class="num">05</span> Home Office Threshold</div>
+          <div class="sidebar-item active"><span class="num">06</span> Fifteen-Minute Shed</div>
+          <div class="sidebar-item"><span class="num">07</span> Zoom Room</div>
+          <div class="sidebar-item"><span class="num">08</span> Screen-Free Hearth</div>
+          <div class="sidebar-section">Construction</div>
+          <div class="sidebar-item"><span class="num">22</span> Building Envelope</div>
+          <div class="sidebar-item"><span class="num">23</span> Solar Gain Room</div>
+        </div>
+
+        <div class="app-content">
+          <h2>The Fifteen-Minute Shed</h2>
+          <div class="pattern-meta"><span class="copper">PATTERN 06</span> · ★★ HIGH CONFIDENCE · BUILDING SCALE · CANDIDATE</div>
+          <div class="problem">In cold climates, the psychological and physical separation between a home-based workspace and living space must be dramatic to be real — but it must also be reachable in pajamas, in February, in the dark.</div>
+          <div class="body-text">
+            The traditional outbuilding — workshop, studio, writing shed — has a long history as a creative refuge. What's new is the necessity: when the commute disappears, the shed becomes essential infrastructure, not a luxury.
+            <br><br>
+            In Edmonton, where winter temperatures reach -30°C and daylight drops to fewer than eight hours, the "fifteen-minute" criterion is literal: you need to be able to reach the workspace within fifteen minutes of waking, before you're fully dressed, in any weather.
+          </div>
+          <div class="connections-bar">
+            <div class="connection-chip">↑ <span class="chip-num">05</span> Home Office Threshold</div>
+            <div class="connection-chip">↓ <span class="chip-num">22</span> Building Envelope</div>
+            <div class="connection-chip">↓ <span class="chip-num">23</span> Solar Gain Room</div>
+            <div class="connection-chip">↓ <span class="chip-num">36</span> Light on Two Sides</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 08: Domain -->
+  <div class="section">
+    <div class="section-label">08 — Domain & Identity Decisions</div>
+    <div class="note">
+      <strong>Product name:</strong> Language A<br>
+      <strong>Accent color:</strong> Copper #B5734A<br>
+      <strong>Icon:</strong> Structural A — line-drawn letter as roof truss<br>
+      <strong>Domain (suggested):</strong> language-a.com or languagea.ca<br>
+      <strong>Tagline:</strong> <em style="font-family:'Instrument Serif',serif;">A pattern language for contemporary living.</em><br>
+      <strong>Parent relationship:</strong> "A Beachhead Systems Product"<br>
+      <strong>Typography:</strong> DM Sans / IBM Plex Mono / Instrument Serif (Italic) — per Beachhead guidelines<br>
+      <strong>Favicon:</strong> Copper square with white structural A
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

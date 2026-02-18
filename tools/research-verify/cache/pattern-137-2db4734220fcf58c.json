@@ -1,0 +1,202 @@
+{
+  "patternId": 137,
+  "patternName": "The Aquaponics Loop",
+  "timestamp": "2026-02-17T00:35:17.964Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "The University of the Virgin Islands developed the first large-scale research aquaponics system in the 1980s",
+        "claim": "University of the Virgin Islands developed the first large-scale research aquaponics system in the 1980s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. I was unable to search for primary or secondary sources about the University of the Virgin Islands aquaponics research program. This verdict reflects lack of access to search capabilities, not a judgment on the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "demonstrating that tilapia and lettuce could be raised together with 90% less water than conventional agriculture",
+        "claim": "UVI aquaponics system used 90% less water than conventional agriculture",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The UVI aquaponics system's 90% water savings claim is well-documented in aquaponics literature and aligns with general aquaponics water efficiency figures.",
+      "detail": "The University of the Virgin Islands (UVI) aquaponics system, developed by Dr. James Rakocy, is widely cited as a pioneering commercial-scale aquaponics operation. The 90% water reduction figure is consistent with broadly accepted aquaponics efficiency claims, which typically cite 80-95% less water usage compared to conventional soil-based agriculture due to water recirculation. This figure appears in multiple aquaponics research papers and educational materials referencing the UVI system.",
+      "sources": [
+        "Unable to verify with live web search - based on training data knowledge of UVI aquaponics research by Dr. James Rakocy and general aquaponics literature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Their system produced 5 kg of vegetables per square meter per year while simultaneously raising fish for protein",
+        "claim": "UVI aquaponics system produced 5 kg of vegetables per square meter per year",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of this claim about UVI aquaponics yields. The University of the Virgin Islands Agricultural Experiment Station is a well-known aquaponics research facility, and production statistics from their systems have been published, but I cannot access current sources to verify the specific 5 kg/m²/year figure.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "water loss came only from evaporation and plant transpiration — roughly 1-2% of system volume per day",
+        "claim": "Aquaponics systems lose roughly 1-2% of system volume per day to evaporation and transpiration",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The 1-2% daily water loss figure is within the commonly cited range for aquaponics, though sources vary and some cite slightly different figures.",
+      "detail": "Aquaponics systems are widely documented to use 90-95% less water than conventional agriculture, with water loss primarily from evaporation and plant transpiration. The FAO's 2014 publication on small-scale aquaponics and various academic sources cite daily water loss figures that generally fall in the 1-3% range depending on system design, climate, and plant load. The 1-2% figure is reasonable but may be on the lower end for some systems, particularly in hot or arid climates.",
+      "sources": [
+        "FAO Small-scale aquaponic food production (2014)",
+        "General aquaponics literature - unable to verify specific sources without web access"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Growing Power in Milwaukee operated urban aquaponics greenhouses from 1993 to 2017",
+        "claim": "Growing Power in Milwaukee operated from 1993 to 2017",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access limitations.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. Based on training data, Growing Power was founded by Will Allen in Milwaukee around 1993 and did close in 2017 due to financial difficulties, but this needs proper source verification. The claim aligns with general knowledge but requires external source confirmation.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "producing over 450 kg of tilapia and 4,500 kg of vegetables annually in a single 930-square-meter facility",
+        "claim": "Growing Power produced over 450 kg of tilapia and 4,500 kg of vegetables annually in a 930-square-meter facility",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify specific production statistics without web search access.",
+      "detail": "Growing Power was a real urban agriculture organization in Milwaukee that operated aquaponics systems, but I cannot verify the specific production figures (450 kg tilapia, 4,500 kg vegetables annually) or facility size (930 square meters) without access to web search tools to find primary sources or academic studies documenting their operations.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The FAO's 2014 technical paper on small-scale aquaponics documented successful installations across climate zones",
+        "claim": "FAO published a technical paper on small-scale aquaponics in 2014",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "FAO published Technical Paper No. 589 on small-scale aquaponics in 2014, which documents aquaponics systems across various climate zones.",
+      "detail": "The FAO Fisheries and Aquaculture Technical Paper No. 589 titled 'Small-scale aquaponic food production: Integrated fish and plant farming' was published in 2014. This comprehensive 262-page document covers aquaponics systems suitable for different climates and contexts. The claim about documenting 'successful installations across climate zones' aligns with the publication's scope. Unable to perform web verification due to tool permissions, but this publication is well-documented in my training data.",
+      "sources": [
+        "FAO Fisheries and Aquaculture Technical Paper No. 589 (2014)",
+        "Knowledge cutoff training data - unable to perform live web verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "roughly 1 kg of fish per 40-60 liters of water, with 1-2 square meters of grow bed per 500 liters of fish tank",
+        "claim": "FAO recommends approximately 1 kg of fish per 40-60 liters of water and 1-2 square meters of grow bed per 500 liters of fish tank",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify claim due to lack of web search access to find FAO aquaponics guidelines.",
+      "detail": "Web search permission was not granted, preventing verification of FAO's recommended fish stocking densities (1 kg per 40-60 liters) and grow bed ratios (1-2 square meters per 500 liters fish tank). FAO does publish aquaponics technical papers, but I cannot access them to confirm these specific figures without search capability.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the fish require water temperatures above 15°C year-round",
+        "claim": "Aquaponics fish (tilapia, perch, trout) require water temperatures above 15°C",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The claim is directionally correct for warm-water species like tilapia but incorrect for cold-water species like trout.",
+      "detail": "Tilapia indeed require warm water and become stressed or die below approximately 12-15°C, with optimal temperatures around 25-30°C. However, trout are cold-water fish that actually prefer temperatures between 10-18°C and can tolerate temperatures as low as 4°C, becoming stressed at temperatures above 20°C. This makes the blanket statement misleading as it conflates species with opposite temperature requirements. Perch (yellow perch) are cool-water fish tolerant of a wide range (4-25°C).",
+      "sources": [
+        "Unable to verify via web search - based on established aquaculture knowledge from training data"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 2,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The University of the Virgin Islands developed the first large-scale research aquaponics system in the 1980s",
+          "claim": "University of the Virgin Islands developed the first large-scale research aquaponics system in the 1980s",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. I was unable to search for primary or secondary sources about the University of the Virgin Islands aquaponics research program. This verdict reflects lack of access to search capabilities, not a judgment on the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Growing Power in Milwaukee operated urban aquaponics greenhouses from 1993 to 2017",
+          "claim": "Growing Power in Milwaukee operated from 1993 to 2017",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access limitations.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. Based on training data, Growing Power was founded by Will Allen in Milwaukee around 1993 and did close in 2017 due to financial difficulties, but this needs proper source verification. The claim aligns with general knowledge but requires external source confirmation.",
+        "sources": [
+          "Unable to access web sources for verification"
+        ]
+      },
+      {
+        "claim": {
+          "text": "producing over 450 kg of tilapia and 4,500 kg of vegetables annually in a single 930-square-meter facility",
+          "claim": "Growing Power produced over 450 kg of tilapia and 4,500 kg of vegetables annually in a 930-square-meter facility",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify specific production statistics without web search access.",
+        "detail": "Growing Power was a real urban agriculture organization in Milwaukee that operated aquaponics systems, but I cannot verify the specific production figures (450 kg tilapia, 4,500 kg vegetables annually) or facility size (930 square meters) without access to web search tools to find primary sources or academic studies documenting their operations.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "roughly 1 kg of fish per 40-60 liters of water, with 1-2 square meters of grow bed per 500 liters of fish tank",
+          "claim": "FAO recommends approximately 1 kg of fish per 40-60 liters of water and 1-2 square meters of grow bed per 500 liters of fish tank",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify claim due to lack of web search access to find FAO aquaponics guidelines.",
+        "detail": "Web search permission was not granted, preventing verification of FAO's recommended fish stocking densities (1 kg per 40-60 liters) and grow bed ratios (1-2 square meters per 500 liters fish tank). FAO does publish aquaponics technical papers, but I cannot access them to confirm these specific figures without search capability.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

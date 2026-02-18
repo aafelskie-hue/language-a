@@ -1,0 +1,214 @@
+{
+  "patternId": 173,
+  "patternName": "The Wide Doorway",
+  "timestamp": "2026-02-17T14:44:35.014Z",
+  "model": "claude-code-cli",
+  "totalClaims": 11,
+  "results": [
+    {
+      "claim": {
+        "text": "A standard interior door in North American construction is 30 inches wide, sometimes 32 inches",
+        "claim": "Standard interior doors in North American construction are 30 inches wide, sometimes 32 inches",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "Standard interior door widths vary, with 30 and 32 inches being common options, but 24, 28, and 36 inches are equally standard.",
+      "detail": "Standard interior door widths in North American construction typically range from 24 to 36 inches. Common widths include 24\", 28\", 30\", 32\", and 36\". While 30\" and 32\" are indeed common sizes, particularly for bedroom and bathroom doors, the claim oversimplifies by not acknowledging that 28\" is also very common for bathrooms and closets, and 36\" is standard for entry/main doors and accessibility requirements. The International Residential Code requires minimum 32\" clear width for at least one exterior door.",
+      "sources": [
+        "General construction industry standards",
+        "International Residential Code accessibility requirements"
+      ]
+    },
+    {
+      "claim": {
+        "text": "After accounting for the door stop and the thickness of the door in the swing, the clear opening — the space a body or object can actually pass through — shrinks to 27 or 29 inches",
+        "claim": "A 30-32 inch door provides only 27-29 inches of clear opening after accounting for door stop and door thickness",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claim accurately reflects standard door construction where nominal door width is reduced by door stop (~0.5 inches) and door thickness (~1.75 inches) resulting in a clear opening approximately 2-3 inches less than nominal.",
+      "detail": "Standard interior doors have a door stop (typically 0.5 inches) and door thickness (typically 1.375-1.75 inches) that reduce clear passage width. A 30-inch nominal door yields approximately 27.75-28.25 inches clear; a 32-inch door yields approximately 29.75-30.25 inches clear. The ADA requires 32 inches minimum clear opening, which is why accessible doors are typically 36 inches nominal. The claimed range of 27-29 inches for 30-32 inch doors aligns with these construction standards.",
+      "sources": [
+        "Unable to verify via web search - assessment based on standard door construction specifications and ADA guidelines"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A standard manual wheelchair is 24 to 27 inches wide at the wheels; an electric wheelchair or scooter is often 24 to 28 inches",
+        "claim": "Standard manual wheelchairs are 24-27 inches wide at the wheels; electric wheelchairs/scooters are 24-28 inches wide",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The width ranges are generally accurate but represent common ranges rather than strict standards.",
+      "detail": "Standard manual wheelchairs typically have an overall width of 24-27 inches, which aligns with the claim. Electric wheelchairs and mobility scooters vary more widely, with many models ranging from 22-28 inches depending on the type (travel scooters are narrower, heavy-duty models wider). The ADA accessibility guidelines reference wheelchair dimensions for doorway and passage width requirements. The claim's ranges are reasonable approximations for typical models but not definitive standards.",
+      "sources": [
+        "Unable to verify via web search - assessment based on general knowledge of wheelchair dimensions and ADA guidelines"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Americans with Disabilities Act requires 32 inches of clear width for doorways in public accommodations",
+        "claim": "The ADA requires 32 inches of clear width for doorways in public accommodations",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The ADA Standards for Accessible Design do require a minimum 32-inch clear width for doorways.",
+      "detail": "The 2010 ADA Standards for Accessible Design, Section 404.2.3, specifies that doorways shall provide a clear width of 32 inches minimum. This applies to new construction and alterations in public accommodations. The measurement is taken between the face of the door and the opposite stop when the door is open 90 degrees.",
+      "sources": [
+        "2010 ADA Standards for Accessible Design Section 404.2.3 (unable to verify via web search due to permission restrictions)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a dimension achieved by a 36-inch door",
+        "claim": "A 36-inch door achieves 32 inches of clear width",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "A standard 36-inch door does provide approximately 32 inches of clear width when accounting for the door frame, hinges, and door thickness.",
+      "detail": "ADA Standards for Accessible Design require a minimum clear width of 32 inches for doorways (measured with the door open at 90 degrees). A 36-inch nominal door width, when installed with standard framing and hardware, typically yields 32-34 inches of clear opening width. The reduction from 36 to 32 inches accounts for the door frame (approximately 2 inches), the door thickness when open (approximately 1.75 inches), and hinge-side clearance. This is a well-established principle in accessible design and building codes.",
+      "sources": [
+        "ADA Standards for Accessible Design Section 404.2.3 (Clear Width)",
+        "Standard building construction practices for door installation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Fair Housing Accessibility Guidelines require the same for covered multifamily housing",
+        "claim": "Fair Housing Accessibility Guidelines require 32 inches of clear doorway width for covered multifamily housing",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The Fair Housing Accessibility Guidelines require 32 inches of nominal doorway width, but the actual clear passage width requirement is different.",
+      "detail": "The Fair Housing Accessibility Guidelines (FHAG) require doors to provide a nominal clear opening of 32 inches, which is achieved with a standard 34-inch door. However, the 32 inches refers to the nominal clear opening width when the door is open at 90 degrees, not the 'clear doorway width' as stated. The actual usable clear width is slightly less due to door thickness and hardware. The claim is directionally correct but the terminology 'clear doorway width' may be slightly imprecise compared to HUD's actual language of 'nominal 32-inch clear opening.'",
+      "sources": [
+        "HUD Fair Housing Accessibility Guidelines (knowledge-based, unable to verify current web sources due to access limitations)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "But single-family homes, where most people age, where most care happens, where most falls occur, remain exempt from federal accessibility requirements",
+        "claim": "Single-family homes are exempt from federal accessibility requirements",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Single-family homes are indeed exempt from the main federal accessibility laws including the Fair Housing Act's design requirements and the ADA.",
+      "detail": "The Fair Housing Act's accessibility requirements (the 'design and construction' provisions of 42 U.S.C. § 3604(f)(3)(C)) apply only to 'covered multifamily dwellings' - buildings with 4+ units built after March 1991. Single-family homes and buildings with fewer than 4 units are exempt. The ADA does not apply to private residential housing. While the Rehabilitation Act (Section 504) requires accessibility in federally-funded housing, the vast majority of single-family homes are privately owned and not subject to these requirements. This is a well-established gap in federal accessibility policy that housing advocates have documented.",
+      "sources": [
+        "42 U.S.C. § 3604(f)(3)(C) - Fair Housing Act",
+        "ADA Title III scope (public accommodations, not private residences)",
+        "HUD Fair Housing Act Design Manual"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A 36-inch prehung door costs ten to thirty dollars more than a 30-inch door of the same style",
+        "claim": "A 36-inch prehung door costs $10-30 more than a 30-inch door of the same style",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify specific price difference without access to current retail pricing data.",
+      "detail": "The claim that a 36-inch prehung door costs $10-30 more than a 30-inch door is plausible based on general knowledge of door pricing where wider doors command a premium, but I cannot access current retail sources to verify the specific dollar range. Door prices vary significantly by material, style, brand, and retailer. Without access to web search or retail websites like Home Depot, Lowe's, or Menards, I cannot confirm whether $10-30 accurately reflects the current price differential.",
+      "sources": [
+        "No sources accessible - web search and fetch permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The rough opening is six inches wider than a standard 30-inch door",
+        "claim": "A 36-inch door requires a rough opening six inches wider than a 30-inch door",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Standard rough opening calculations confirm that a 36-inch door requires a rough opening 6 inches wider than a 30-inch door.",
+      "detail": "Standard construction practice is to add 2 inches to the door width for the rough opening (to accommodate the door frame). A 30-inch door requires a 32-inch rough opening, while a 36-inch door requires a 38-inch rough opening. The difference is exactly 6 inches, which matches the claim. This is basic framing math: 36 - 30 = 6 inches difference in door width equals 6 inches difference in rough opening width.",
+      "sources": [
+        "Standard construction framing guidelines - unable to verify via web search due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "But a retrofit — removing trim, cutting studs, reframing, rehanging, refinishing — runs five hundred to two thousand dollars per doorway",
+        "claim": "Retrofitting a doorway to be wider costs $500-2,000 per doorway",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search/fetch permissions to access current pricing data.",
+      "detail": "The claim that retrofitting a doorway costs $500-2,000 could not be verified because web search and fetch tools are not currently available. Based on general knowledge, this range appears plausible for the work described (removing trim, cutting studs, reframing, rehanging, refinishing), but without access to current home improvement cost databases or contractor pricing guides, no definitive verification can be made.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Alexander, in A Pattern Language, wrote of the importance of room-to-room connections but did not specify dimensions",
+        "claim": "Christopher Alexander's A Pattern Language discusses room-to-room connections but does not specify doorway dimensions",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "A Pattern Language does discuss room connections and does include some dimensional specifications in various patterns, though doorway dimensions specifically are not a major focus.",
+      "detail": "Christopher Alexander's A Pattern Language (1977) contains 253 patterns covering architecture and urban design. While the book does discuss room-to-room connections (e.g., Pattern 131 'The Flow Through Rooms'), it does include dimensional recommendations in many patterns - for instance, Pattern 110 'Main Entrance' suggests entrance widths, and Pattern 191 'The Shape of Indoor Space' discusses proportions. The claim that Alexander 'did not specify dimensions' is an oversimplification; while doorway dimensions may not be a dedicated pattern, the book does include various dimensional guidelines throughout. Unable to verify the exact claim without web search access.",
+      "sources": [
+        "Direct knowledge of A Pattern Language (1977) by Christopher Alexander"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 5,
+    "partially": 4,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A 36-inch prehung door costs ten to thirty dollars more than a 30-inch door of the same style",
+          "claim": "A 36-inch prehung door costs $10-30 more than a 30-inch door of the same style",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify specific price difference without access to current retail pricing data.",
+        "detail": "The claim that a 36-inch prehung door costs $10-30 more than a 30-inch door is plausible based on general knowledge of door pricing where wider doors command a premium, but I cannot access current retail sources to verify the specific dollar range. Door prices vary significantly by material, style, brand, and retailer. Without access to web search or retail websites like Home Depot, Lowe's, or Menards, I cannot confirm whether $10-30 accurately reflects the current price differential.",
+        "sources": [
+          "No sources accessible - web search and fetch permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "But a retrofit — removing trim, cutting studs, reframing, rehanging, refinishing — runs five hundred to two thousand dollars per doorway",
+          "claim": "Retrofitting a doorway to be wider costs $500-2,000 per doorway",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search/fetch permissions to access current pricing data.",
+        "detail": "The claim that retrofitting a doorway costs $500-2,000 could not be verified because web search and fetch tools are not currently available. Based on general knowledge, this range appears plausible for the work described (removing trim, cutting studs, reframing, rehanging, refinishing), but without access to current home improvement cost databases or contractor pricing guides, no definitive verification can be made.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

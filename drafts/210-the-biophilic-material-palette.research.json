@@ -1,0 +1,70 @@
+{
+  "programs": [
+    {
+      "name": "Mass Timber Construction Program",
+      "location": "British Columbia, Canada",
+      "year": "2009",
+      "outcome": "Wood First Act mandated wood as primary material in publicly-funded buildings; led to projects like Brock Commons (18-story mass timber)",
+      "source": "BC Ministry of Forests - Wood First Act legislation"
+    },
+    {
+      "name": "National Wood Innovation Program",
+      "location": "France",
+      "year": "2022",
+      "outcome": "RE2020 regulations require 50% bio-based materials in new public buildings by 2030",
+      "source": "French Ministry of Ecological Transition"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Wood interiors associated with reduced blood pressure and stress responses compared to white-painted surfaces",
+      "source": "University of British Columbia / FPInnovations collaborative research",
+      "year": "2011"
+    },
+    {
+      "claim": "Office workers in environments with wood elements reported higher satisfaction and wellbeing scores",
+      "source": "Human Spaces Report (Interface/Terrapin Bright Green)",
+      "year": "2015"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Fell, D.R.",
+      "title": "Wood in the Human Environment: Restorative Properties of Wood in the Built Indoor Environment",
+      "year": "2010",
+      "finding": "Physiological stress recovery was faster in rooms with wood interiors than in rooms without wood elements"
+    },
+    {
+      "authors": "Nyrud, A.Q., Bringslimark, T.",
+      "title": "Is interior wood use psychologically beneficial? A review of psychological responses toward wood",
+      "year": "2010",
+      "finding": "Review found consistent evidence that wood interiors evoke positive emotional responses and perceived naturalness"
+    },
+    {
+      "authors": "Tsunetsugu, Y., Miyazaki, Y., Sato, H.",
+      "title": "Physiological effects in humans induced by the visual stimulation of room interiors with different wood quantities",
+      "year": "2007",
+      "finding": "Moderate wood coverage (45%) in rooms produced optimal physiological responses; both no wood and excessive wood coverage were less beneficial"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Brock Commons Tallwood House, Vancouver, Canada",
+      "description": "18-story mass timber student residence (2017); exposed wood in common areas designed for biophilic benefit",
+      "source": "University of British Columbia / Naturally Wood"
+    },
+    {
+      "location": "Maggie's Centre Leeds, UK",
+      "description": "Cancer care center using extensive exposed timber structure to create calming environment for patients",
+      "source": "Maggie's Centres charity"
+    },
+    {
+      "location": "Bullitt Center, Seattle, USA",
+      "description": "Net-zero office building (2013) using FSC-certified wood, designed for occupant health and biophilic connection",
+      "source": "Bullitt Foundation / Living Building Challenge documentation"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT CAVEAT: I was unable to perform live web searches to verify current sources. The evidence cited above is based on my training knowledge through early 2025. The wood/health connection is reasonably well-documented in academic literature (particularly from Japanese 'shinrin-yoku' research tradition and Canadian forestry research). However, specific statistics should be independently verified. The broader 'biophilic material palette' concept (including stone, clay, fiber) has less direct research than wood specifically. Programs and policies cited may have evolved since my knowledge cutoff. Recommend verification of all citations before use."
+}

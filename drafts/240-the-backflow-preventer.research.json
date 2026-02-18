@@ -1,0 +1,43 @@
+{
+  "programs": [
+    {
+      "name": "Cross-Connection Control Program",
+      "location": "Required by most U.S. states and municipalities",
+      "year": "Varies by jurisdiction, many since 1970s-1980s",
+      "outcome": "Mandatory annual testing of backflow prevention assemblies; certification requirements for testers",
+      "source": "State plumbing codes and local water utility regulations - specific programs vary by jurisdiction"
+    },
+    {
+      "name": "Safe Drinking Water Act (SDWA) provisions",
+      "location": "United States",
+      "year": "1974, amended 1986 and 1996",
+      "outcome": "Federal framework requiring public water systems to protect against contamination, including cross-connections",
+      "source": "EPA - 42 U.S.C. §300f et seq."
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to verify specific backflow incident statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify without search access",
+      "title": "N/A",
+      "year": "N/A",
+      "finding": "CDC and EPA have published guidance on cross-connection control, but I cannot cite specific papers without verification"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Commercial and industrial facilities across North America",
+      "description": "Reduced Pressure Zone (RPZ) backflow preventers are standard requirements for high-hazard connections including irrigation systems, boilers, fire suppression systems, and medical facilities",
+      "source": "Building codes (IPC, UPC) and AWWA standards"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT: Web search was not available for this research. The pattern itself is well-established in plumbing practice and building codes - backflow prevention is a mature, widely-mandated technology. However, I cannot provide verified statistics, specific academic citations, or documented incident data without search access. The evidence strength is marked 'thin' not because the practice lacks support, but because I cannot provide properly sourced citations. Recommend re-running this research with web search enabled to gather specific EPA reports, AWWA studies, and documented contamination incidents that would demonstrate strong evidence."
+}

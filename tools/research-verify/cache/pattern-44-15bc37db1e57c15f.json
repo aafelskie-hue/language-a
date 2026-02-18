@@ -1,0 +1,60 @@
+{
+  "patternId": 44,
+  "patternName": "Green Corridors",
+  "timestamp": "2026-02-16T21:02:36.726Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "Ecological research is clear: a network of narrow green corridors connecting larger natural areas supports more biodiversity than the same total area in isolated patches.",
+        "claim": "Ecological research shows connected green corridors support more biodiversity than equivalent area in isolated patches",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search web sources to verify this ecological claim due to permission restrictions.",
+      "detail": "Web search and web fetch tools are currently unavailable. The claim aligns with well-known ecological principles including island biogeography and corridor connectivity research, but without the ability to search current sources, I cannot provide proper verification with citations. The claim appears scientifically plausible based on training data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "planted strips at least five meters wide",
+        "claim": "Five meters is a meaningful minimum width for effective green corridors",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Five meters is at the low end of recommended corridor widths; scientific literature typically recommends wider corridors for effective wildlife movement.",
+      "detail": "Ecological corridor width recommendations vary significantly based on purpose and target species. For hedgerows and basic wildlife movement, 3-5 meters can provide some habitat value for invertebrates and small mammals. However, most ecological guidelines recommend minimum widths of 10-30 meters for effective wildlife corridors, with some studies suggesting 50-100+ meters for larger fauna. The 5-meter figure may be appropriate for urban green infrastructure or pollinator pathways but is narrow for general 'effective green corridors.'",
+      "sources": [
+        "Unable to search - based on general ecological corridor literature and guidelines from organizations like Natural England and European Environment Agency"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Ecological research is clear: a network of narrow green corridors connecting larger natural areas supports more biodiversity than the same total area in isolated patches.",
+          "claim": "Ecological research shows connected green corridors support more biodiversity than equivalent area in isolated patches",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search web sources to verify this ecological claim due to permission restrictions.",
+        "detail": "Web search and web fetch tools are currently unavailable. The claim aligns with well-known ecological principles including island biogeography and corridor connectivity research, but without the ability to search current sources, I cannot provide proper verification with citations. The claim appears scientifically plausible based on training data.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "name": "Fair Housing Act Accessibility Guidelines",
+      "location": "United States",
+      "year": "1991",
+      "outcome": "Requires accessible kitchen design in covered multifamily housing including knee clearance at sinks",
+      "source": "HUD/Department of Justice - NEEDS VERIFICATION"
+    },
+    {
+      "name": "Lifetime Homes Standard",
+      "location": "United Kingdom",
+      "year": "2010",
+      "outcome": "16-point design criteria including adaptable kitchens with adjustable worktops",
+      "source": "UK Building Regulations - NEEDS VERIFICATION"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "ADA requires knee clearance of 27 inches high minimum, 30 inches wide, and 19 inches deep for accessible work surfaces",
+      "source": "ADA Standards for Accessible Design",
+      "year": "2010 - NEEDS VERIFICATION"
+    }
+  ],
+  "studies": [],
+  "examples": [
+    {
+      "location": "Various - Universal Design demonstration homes",
+      "description": "Adjustable-height counters and pull-out work surfaces at seated heights",
+      "source": "NEEDS VERIFICATION"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL: I was unable to perform web searches to verify evidence. The information above is based on my training knowledge and MUST be independently verified before use. The ADA and Fair Housing requirements are well-established but specific statistics and outcomes need confirmation. I recommend running this search again with web search permissions enabled to gather properly verified citations."
+}

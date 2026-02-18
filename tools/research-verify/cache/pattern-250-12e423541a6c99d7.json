@@ -1,0 +1,121 @@
+{
+  "patternId": 250,
+  "patternName": "The Light Shelf",
+  "timestamp": "2026-02-17T06:47:12.426Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "The Lawrence Berkeley National Laboratory's daylighting studies measured the effect: a properly designed light shelf can increase illumination at the back of a 9-meter-deep room by 20 to 40 percent compared to the same window without one",
+        "claim": "Lawrence Berkeley National Laboratory conducted daylighting studies finding light shelves increase illumination at back of 9-meter-deep rooms by 20-40%",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to find LBNL daylighting study sources.",
+      "detail": "Web search and fetch permissions were not granted, preventing verification of this specific LBNL daylighting research claim. Lawrence Berkeley National Laboratory does conduct extensive building science research including daylighting studies, but the specific statistic of 20-40% illumination increase at the back of 9-meter-deep rooms from light shelves cannot be confirmed without access to LBNL publications or databases.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "white paint at 85% reflectance minimum; specular aluminum reaches 95%",
+        "claim": "White paint has minimum 85% reflectance; specular aluminum reaches 95% reflectance",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Both reflectance values align with established technical specifications for these materials.",
+      "detail": "White paint reflectance of 85% minimum is consistent with cool roof standards - ENERGY STAR requires minimum 65% initial solar reflectance for low-slope roofs, while high-quality white coatings typically achieve 80-90%. Specular (polished) aluminum mirrors typically achieve 90-95% reflectance across visible wavelengths, with high-quality first-surface aluminum mirrors reaching up to 95%. These are well-established material science values.",
+      "sources": [
+        "Technical knowledge of material reflectance properties",
+        "ENERGY STAR cool roof specifications",
+        "Standard optical properties of metals"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Edwardian schools in England used external light shelves to push daylight across deep classrooms",
+        "claim": "Edwardian-era schools in England used external light shelves for daylighting deep classrooms",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access to find historical architectural sources about Edwardian school design features.",
+      "detail": "Web search and fetch permissions are not enabled, preventing verification of this specific historical claim about light shelf use in Edwardian-era English schools. While Edwardian schools were known for daylighting features like high windows, the specific claim about 'external light shelves' requires access to architectural history sources to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Pacific Gas and Electric daylighting guidelines (1999) documented their use in California commercial buildings, noting energy savings of 30 to 50 percent in perimeter zones when combined with daylight-responsive dimming",
+        "claim": "Pacific Gas and Electric published daylighting guidelines in 1999 documenting 30-50% energy savings in perimeter zones with light shelves and daylight-responsive dimming",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify due to lack of web search access; however, PG&E did publish daylighting resources in the late 1990s through their Pacific Energy Center.",
+      "detail": "PG&E's Pacific Energy Center was known for publishing technical resources on daylighting and energy efficiency in the 1990s. The claimed 30-50% energy savings for perimeter zones with daylight-responsive dimming is consistent with industry findings from that era. However, without web search access, I cannot confirm the specific 1999 publication date, exact savings figures, or whether light shelves were specifically mentioned.",
+      "sources": [
+        "Unable to search - web tools not permitted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Edmonton's latitude (53°N) offers low winter sun angles ideal for light-shelf geometry — the December noon sun at 13° above the horizon",
+        "claim": "Edmonton is at latitude 53°N and December noon sun angle is 13° above horizon",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Edmonton's latitude of approximately 53°N and the December noon sun angle of 13° are both accurate based on astronomical calculation.",
+      "detail": "Edmonton's latitude is approximately 53.5°N (often rounded to 53°N), which is accurate. The winter solstice noon sun altitude can be calculated using the formula: altitude = 90° - latitude + declination. At 53.5°N with winter solstice declination of -23.5°, this yields 90 - 53.5 - 23.5 = 13°. The claim is mathematically correct and consistent with standard solar geometry.",
+      "sources": [
+        "Astronomical calculation using standard solar altitude formula",
+        "Geographic coordinates of Edmonton, Alberta, Canada (approximately 53.5°N, 113.5°W)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Lawrence Berkeley National Laboratory's daylighting studies measured the effect: a properly designed light shelf can increase illumination at the back of a 9-meter-deep room by 20 to 40 percent compared to the same window without one",
+          "claim": "Lawrence Berkeley National Laboratory conducted daylighting studies finding light shelves increase illumination at back of 9-meter-deep rooms by 20-40%",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to find LBNL daylighting study sources.",
+        "detail": "Web search and fetch permissions were not granted, preventing verification of this specific LBNL daylighting research claim. Lawrence Berkeley National Laboratory does conduct extensive building science research including daylighting studies, but the specific statistic of 20-40% illumination increase at the back of 9-meter-deep rooms from light shelves cannot be confirmed without access to LBNL publications or databases.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Pacific Gas and Electric daylighting guidelines (1999) documented their use in California commercial buildings, noting energy savings of 30 to 50 percent in perimeter zones when combined with daylight-responsive dimming",
+          "claim": "Pacific Gas and Electric published daylighting guidelines in 1999 documenting 30-50% energy savings in perimeter zones with light shelves and daylight-responsive dimming",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify due to lack of web search access; however, PG&E did publish daylighting resources in the late 1990s through their Pacific Energy Center.",
+        "detail": "PG&E's Pacific Energy Center was known for publishing technical resources on daylighting and energy efficiency in the 1990s. The claimed 30-50% energy savings for perimeter zones with daylight-responsive dimming is consistent with industry findings from that era. However, without web search access, I cannot confirm the specific 1999 publication date, exact savings figures, or whether light shelves were specifically mentioned.",
+        "sources": [
+          "Unable to search - web tools not permitted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "patternId": 223,
+  "patternName": "The Visible Budget",
+  "timestamp": "2026-02-16T18:56:30.138Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "Porto Alegre, Brazil began its participatory budgeting process in 1989",
+        "claim": "Porto Alegre, Brazil initiated participatory budgeting in 1989",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool permission restrictions.",
+      "detail": "I attempted to search for information about Porto Alegre's participatory budgeting program using web search and web fetch tools, but permission was not granted for these tools in this session. Without access to web sources, I cannot verify or dispute this claim. Based on general knowledge, this claim appears consistent with widely reported history of participatory budgeting, but I cannot confirm the specific year without source verification.",
+      "sources": [
+        "No sources accessible due to tool permissions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "By 1997, water and sewage connections in participating neighborhoods had risen from 75% to 98%, according to World Bank documentation",
+        "claim": "World Bank documented that water and sewage connections in Porto Alegre's participating neighborhoods increased from 75% to 98% by 1997",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access; the general claim about Porto Alegre participatory budgeting improving infrastructure is plausible but specific numbers cannot be confirmed.",
+      "detail": "Porto Alegre's participatory budgeting program (started 1989) is well-documented as having improved water and sanitation access significantly. The World Bank has published studies on this program. However, without web search access, I cannot verify the specific figures (75% to 98% by 1997) or confirm this exact statistic appears in World Bank documentation. These numbers are frequently cited in academic literature about participatory budgeting, but their original source requires verification.",
+      "sources": [
+        "Unable to access web sources - search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Today, more than 11,000 participatory budgeting programs operate worldwide, according to the Participatory Budgeting Network",
+        "claim": "Participatory Budgeting Network reports more than 11,000 participatory budgeting programs operate worldwide",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "I was unable to search for evidence to verify this claim because web search permissions were not granted. The claim references the Participatory Budgeting Network as a source for the statistic of more than 11,000 programs worldwide, but I could not access their website or search for corroborating sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Paris, the Budget Participatif launched in 2014",
+        "claim": "Paris launched its Budget Participatif (participatory budgeting program) in 2014",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access restrictions.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing proper fact-checking. From training knowledge, Paris did launch Budget Participatif around 2014, but this cannot be independently verified with current sources without tool access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In The Visible Utility (68), he argued that pipes and wires hidden in walls guarantee expensive repairs",
+        "claim": "Christopher Alexander's pattern 68 is called 'The Visible Utility' and argues hidden pipes and wires guarantee expensive repairs",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.95,
+      "summary": "Pattern 68 in 'A Pattern Language' is called 'Connected Play' about children's play areas, not 'The Visible Utility' about pipes and wires.",
+      "detail": "In Christopher Alexander's 'A Pattern Language' (1977), Pattern 68 is titled 'Connected Play' and discusses connecting children's play areas with paths. The pattern about exposed infrastructure with visible pipes and wires to facilitate repairs is actually Pattern 82, titled 'Office Connections' (which discusses utility connections) or more accurately relates to discussions in other patterns. There is no pattern titled 'The Visible Utility' in the book. The concept of visible/accessible utilities appears in the book but not under this name or number.",
+      "sources": [
+        "Christopher Alexander, 'A Pattern Language: Towns, Buildings, Construction' (1977), Oxford University Press"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Porto Alegre, Brazil began its participatory budgeting process in 1989",
+          "claim": "Porto Alegre, Brazil initiated participatory budgeting in 1989",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool permission restrictions.",
+        "detail": "I attempted to search for information about Porto Alegre's participatory budgeting program using web search and web fetch tools, but permission was not granted for these tools in this session. Without access to web sources, I cannot verify or dispute this claim. Based on general knowledge, this claim appears consistent with widely reported history of participatory budgeting, but I cannot confirm the specific year without source verification.",
+        "sources": [
+          "No sources accessible due to tool permissions"
+        ]
+      },
+      {
+        "claim": {
+          "text": "By 1997, water and sewage connections in participating neighborhoods had risen from 75% to 98%, according to World Bank documentation",
+          "claim": "World Bank documented that water and sewage connections in Porto Alegre's participating neighborhoods increased from 75% to 98% by 1997",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access; the general claim about Porto Alegre participatory budgeting improving infrastructure is plausible but specific numbers cannot be confirmed.",
+        "detail": "Porto Alegre's participatory budgeting program (started 1989) is well-documented as having improved water and sanitation access significantly. The World Bank has published studies on this program. However, without web search access, I cannot verify the specific figures (75% to 98% by 1997) or confirm this exact statistic appears in World Bank documentation. These numbers are frequently cited in academic literature about participatory budgeting, but their original source requires verification.",
+        "sources": [
+          "Unable to access web sources - search permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Today, more than 11,000 participatory budgeting programs operate worldwide, according to the Participatory Budgeting Network",
+          "claim": "Participatory Budgeting Network reports more than 11,000 participatory budgeting programs operate worldwide",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access",
+        "detail": "I was unable to search for evidence to verify this claim because web search permissions were not granted. The claim references the Participatory Budgeting Network as a source for the statistic of more than 11,000 programs worldwide, but I could not access their website or search for corroborating sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In Paris, the Budget Participatif launched in 2014",
+          "claim": "Paris launched its Budget Participatif (participatory budgeting program) in 2014",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access restrictions.",
+        "detail": "Web search and web fetch tools are not available in this session, preventing proper fact-checking. From training knowledge, Paris did launch Budget Participatif around 2014, but this cannot be independently verified with current sources without tool access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

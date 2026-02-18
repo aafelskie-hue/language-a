@@ -1,0 +1,228 @@
+{
+  "patternId": 204,
+  "patternName": "The Warehouse Conversion",
+  "timestamp": "2026-02-17T04:22:50.925Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "The Preservation Green Lab's 2011 study \"The Greenest Building\" found that converting a warehouse to multifamily housing in Chicago's climate takes forty-two years to break even on carbon compared to demolition and replacement",
+        "claim": "Preservation Green Lab's 2011 study 'The Greenest Building' found 42-year carbon payback period for warehouse-to-multifamily conversion vs. demolition in Chicago climate",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim as web search tools are not available for this verification.",
+      "detail": "The Preservation Green Lab's 'The Greenest Building' study from 2011 is a real and widely-cited report that examined lifecycle carbon impacts of building reuse vs. new construction. The study did examine various building conversion scenarios across different climate zones. However, without access to web search, I cannot confirm the specific 42-year carbon payback figure for warehouse-to-multifamily conversion in Chicago's climate. The claim is plausible given the study's scope and methodology.",
+      "sources": [
+        "Unable to access sources - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Carbon Leadership Forum's 2020 analysis confirms the scale: embodied carbon accounts for thirty to fifty percent of a building's total lifecycle emissions over sixty years",
+        "claim": "Carbon Leadership Forum 2020 analysis found embodied carbon accounts for 30-50% of building lifecycle emissions over 60 years",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check Carbon Leadership Forum publications.",
+      "detail": "Web search and fetch tools were not available to verify this claim. The Carbon Leadership Forum is a known organization at the University of Washington that publishes research on embodied carbon in buildings. The 30-50% range for embodied carbon's share of lifecycle emissions is a commonly cited figure in the field, but I cannot confirm the specific 2020 analysis or the exact numbers without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "deep retrofits release only 100–200 kilograms of CO₂ equivalent per square meter compared to 500 kilograms for new construction",
+        "claim": "Deep retrofits release 100-200 kg CO₂e per square meter vs. 500 kg for new construction",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are not available for this verification task. The claim about embodied carbon emissions (100-200 kg CO₂e/m² for deep retrofits vs 500 kg/m² for new construction) could not be verified against current sources. These figures are plausible based on general knowledge of embodied carbon research, but without access to search tools, no primary sources can be consulted.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A ten-thousand-square-foot masonry warehouse represents roughly two hundred tonnes of CO₂ already embedded in its walls",
+        "claim": "A 10,000 sq ft masonry warehouse contains approximately 200 tonnes of embodied CO₂",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for sources to verify the specific embodied carbon calculation for a masonry warehouse.",
+      "detail": "The claim asserts 200 tonnes CO2 for 10,000 sq ft equals approximately 20 kg CO2/sq ft (or roughly 215 kg CO2/m²). Typical embodied carbon values for masonry buildings range from 300-800 kg CO2/m² depending on construction type, which would suggest the figure could be in the right ballpark for a warehouse with substantial masonry walls. However, without access to search tools, I cannot verify this specific calculation against primary sources like life cycle assessment databases or building carbon benchmarks.",
+      "sources": [
+        "Unable to access web search or web fetch tools to verify"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Their floor slabs, typically six-inch reinforced concrete designed for pallet loads of 250 pounds per square foot",
+        "claim": "Warehouse floor slabs are typically 6-inch reinforced concrete designed for 250 psf pallet loads",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The 6-inch thickness is common but on the lower end of typical warehouse specifications; 250 psf is reasonable for light warehouse use but varies significantly based on warehouse type.",
+      "detail": "Standard warehouse floor slabs range from 5-8 inches, with 6 inches being common for lighter-duty applications. However, modern distribution centers often use 6-8+ inches. The 250 psf figure is reasonable for light to medium warehouse loading but actual specifications vary widely: light warehouse use may be 125-250 psf, while heavy industrial warehouses can require 400-600+ psf. The claim represents valid but not universal specifications - these numbers fit certain warehouse types but aren't definitive 'typical' values across all warehouses.",
+      "sources": [
+        "Unable to verify via web search - assessment based on general engineering knowledge"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The American Tobacco Campus in Durham, North Carolina, converted over one million square feet of tobacco warehouses beginning in 2004",
+        "claim": "American Tobacco Campus in Durham, NC converted over 1 million sq ft of tobacco warehouses starting in 2004",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are currently unavailable. The American Tobacco Campus is a well-known adaptive reuse project in Durham, NC, but I cannot confirm the specific square footage or start date without access to current sources. The claim's general premise about the campus being a converted tobacco warehouse complex is consistent with general knowledge.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Los Angeles's Adaptive Reuse Ordinance, adopted in 1999, enabled conversion of industrial buildings by eliminating parking minimums and accepting existing conditions where they met the original building code or provided equivalent safety",
+        "claim": "Los Angeles Adaptive Reuse Ordinance adopted in 1999 eliminated parking minimums and accepted original code compliance for industrial building conversions",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools were not granted permission to execute. I cannot verify claims about the Los Angeles Adaptive Reuse Ordinance without the ability to search for and access relevant sources online.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "By 2020, the ordinance had produced over twelve thousand housing units in formerly vacant commercial and industrial buildings across downtown",
+        "claim": "LA Adaptive Reuse Ordinance produced over 12,000 housing units by 2020",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 12,000 housing units figure without access to web search.",
+      "detail": "The LA Adaptive Reuse Ordinance is a real program enacted in 1999 that has converted vacant commercial buildings to residential use in downtown LA. However, I cannot verify the specific claim of 'over 12,000 housing units by 2020' without access to search tools to find current statistics from LA City Planning or other authoritative sources. The ordinance is well-documented as successful, but the exact number requires verification.",
+      "sources": [
+        "Unable to search - web permissions not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Preservation Green Lab's 2011 study \"The Greenest Building\" found that converting a warehouse to multifamily housing in Chicago's climate takes forty-two years to break even on carbon compared to demolition and replacement",
+          "claim": "Preservation Green Lab's 2011 study 'The Greenest Building' found 42-year carbon payback period for warehouse-to-multifamily conversion vs. demolition in Chicago climate",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim as web search tools are not available for this verification.",
+        "detail": "The Preservation Green Lab's 'The Greenest Building' study from 2011 is a real and widely-cited report that examined lifecycle carbon impacts of building reuse vs. new construction. The study did examine various building conversion scenarios across different climate zones. However, without access to web search, I cannot confirm the specific 42-year carbon payback figure for warehouse-to-multifamily conversion in Chicago's climate. The claim is plausible given the study's scope and methodology.",
+        "sources": [
+          "Unable to access sources - web search permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Carbon Leadership Forum's 2020 analysis confirms the scale: embodied carbon accounts for thirty to fifty percent of a building's total lifecycle emissions over sixty years",
+          "claim": "Carbon Leadership Forum 2020 analysis found embodied carbon accounts for 30-50% of building lifecycle emissions over 60 years",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check Carbon Leadership Forum publications.",
+        "detail": "Web search and fetch tools were not available to verify this claim. The Carbon Leadership Forum is a known organization at the University of Washington that publishes research on embodied carbon in buildings. The 30-50% range for embodied carbon's share of lifecycle emissions is a commonly cited figure in the field, but I cannot confirm the specific 2020 analysis or the exact numbers without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "deep retrofits release only 100–200 kilograms of CO₂ equivalent per square meter compared to 500 kilograms for new construction",
+          "claim": "Deep retrofits release 100-200 kg CO₂e per square meter vs. 500 kg for new construction",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are not available for this verification task. The claim about embodied carbon emissions (100-200 kg CO₂e/m² for deep retrofits vs 500 kg/m² for new construction) could not be verified against current sources. These figures are plausible based on general knowledge of embodied carbon research, but without access to search tools, no primary sources can be consulted.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A ten-thousand-square-foot masonry warehouse represents roughly two hundred tonnes of CO₂ already embedded in its walls",
+          "claim": "A 10,000 sq ft masonry warehouse contains approximately 200 tonnes of embodied CO₂",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for sources to verify the specific embodied carbon calculation for a masonry warehouse.",
+        "detail": "The claim asserts 200 tonnes CO2 for 10,000 sq ft equals approximately 20 kg CO2/sq ft (or roughly 215 kg CO2/m²). Typical embodied carbon values for masonry buildings range from 300-800 kg CO2/m² depending on construction type, which would suggest the figure could be in the right ballpark for a warehouse with substantial masonry walls. However, without access to search tools, I cannot verify this specific calculation against primary sources like life cycle assessment databases or building carbon benchmarks.",
+        "sources": [
+          "Unable to access web search or web fetch tools to verify"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The American Tobacco Campus in Durham, North Carolina, converted over one million square feet of tobacco warehouses beginning in 2004",
+          "claim": "American Tobacco Campus in Durham, NC converted over 1 million sq ft of tobacco warehouses starting in 2004",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are currently unavailable. The American Tobacco Campus is a well-known adaptive reuse project in Durham, NC, but I cannot confirm the specific square footage or start date without access to current sources. The claim's general premise about the campus being a converted tobacco warehouse complex is consistent with general knowledge.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Los Angeles's Adaptive Reuse Ordinance, adopted in 1999, enabled conversion of industrial buildings by eliminating parking minimums and accepting existing conditions where they met the original building code or provided equivalent safety",
+          "claim": "Los Angeles Adaptive Reuse Ordinance adopted in 1999 eliminated parking minimums and accepted original code compliance for industrial building conversions",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools were not granted permission to execute. I cannot verify claims about the Los Angeles Adaptive Reuse Ordinance without the ability to search for and access relevant sources online.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "By 2020, the ordinance had produced over twelve thousand housing units in formerly vacant commercial and industrial buildings across downtown",
+          "claim": "LA Adaptive Reuse Ordinance produced over 12,000 housing units by 2020",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 12,000 housing units figure without access to web search.",
+        "detail": "The LA Adaptive Reuse Ordinance is a real program enacted in 1999 that has converted vacant commercial buildings to residential use in downtown LA. However, I cannot verify the specific claim of 'over 12,000 housing units by 2020' without access to search tools to find current statistics from LA City Planning or other authoritative sources. The ordinance is well-documented as successful, but the exact number requires verification.",
+        "sources": [
+          "Unable to search - web permissions not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

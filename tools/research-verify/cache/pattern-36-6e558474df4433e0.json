@@ -1,0 +1,35 @@
+{
+  "patternId": 36,
+  "patternName": "Positive Outdoor Space",
+  "timestamp": "2026-02-16T21:00:30.507Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "A courtyard is positive space. A strip of grass between two parking lots is negative space. People gather in positive outdoor space; they walk through negative outdoor space without stopping.",
+        "claim": "Research or observation demonstrates that people gather in enclosed/convex outdoor spaces but only pass through shapeless leftover spaces",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "This claim reflects a well-established concept from Christopher Alexander's 'A Pattern Language' (1977), specifically Pattern 106: Positive Outdoor Space.",
+      "detail": "The concept of positive vs negative outdoor space is foundational in urban design theory, originating from Christopher Alexander's work. Alexander defines positive outdoor space as convex, enclosed spaces that feel like rooms (courtyards, plazas) where people linger, versus negative/shapeless leftover spaces that people merely pass through. This distinction has been validated through decades of urban design observation and practice, including the work of Jan Gehl and William H. Whyte's 'Street Life Project' studies.",
+      "sources": [
+        "Christopher Alexander et al., 'A Pattern Language' (1977), Pattern 106",
+        "Jan Gehl, 'Life Between Buildings' (1971)",
+        "William H. Whyte, 'The Social Life of Small Urban Spaces' (1980)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Current ★★ is supported by the evidence."
+  }
+}

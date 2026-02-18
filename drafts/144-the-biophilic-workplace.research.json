@@ -1,0 +1,59 @@
+{
+  "programs": [
+    {
+      "name": "WELL Building Standard v2 - Biophilia Preconditions",
+      "location": "International (IWBI)",
+      "year": "2018",
+      "outcome": "Requires nature incorporation in certified buildings; over 4,000 projects registered globally by 2023",
+      "source": "International WELL Building Institute (wellcertified.com) - UNVERIFIED, requires web access to confirm current numbers"
+    },
+    {
+      "name": "Singapore Green Building Masterplan",
+      "location": "Singapore",
+      "year": "2021",
+      "outcome": "Target 80% of buildings green-certified by 2030, includes biophilic design requirements",
+      "source": "Building and Construction Authority Singapore - UNVERIFIED"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Workers in offices with natural elements reported 15% higher wellbeing",
+      "source": "Human Spaces Report (Interface/Terrapin Bright Green)",
+      "year": "2015"
+    },
+    {
+      "claim": "Views of nature from workplace associated with 6% higher productivity",
+      "source": "Human Spaces Global Report",
+      "year": "2015"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Browning, W., Ryan, C., Clancy, J.",
+      "title": "14 Patterns of Biophilic Design",
+      "year": "2014",
+      "finding": "Identified 14 patterns linking nature exposure in buildings to stress reduction, cognitive performance, and mood enhancement"
+    },
+    {
+      "authors": "Kellert, S., Calabrese, E.",
+      "title": "The Practice of Biophilic Design",
+      "year": "2015",
+      "finding": "Framework connecting biophilic design elements to documented health outcomes including reduced blood pressure and improved attention"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Seattle, Washington, USA",
+      "description": "Amazon Spheres - 40,000 plants from 30 countries, workplace designed around living plant systems",
+      "source": "Amazon corporate communications - outcome data not independently verified"
+    },
+    {
+      "location": "Cupertino, California, USA",
+      "description": "Apple Park - 9,000 trees, natural ventilation, extensive daylight access in workplace design",
+      "source": "Apple Inc. - outcome data not independently verified"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "IMPORTANT CAVEAT: I was unable to perform web searches or fetch current sources in this session. The citations above are from my training data and could not be verified as current or accurate. The biophilic workplace pattern has substantial research support in my training data (Terrapin Bright Green, Human Spaces, WELL Standard), but specific statistics and outcomes should be independently verified before inclusion in a published pattern. The 2015 Human Spaces report is frequently cited but is now dated. More recent studies may exist but could not be searched."
+}

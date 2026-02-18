@@ -1,0 +1,252 @@
+{
+  "patternId": 257,
+  "patternName": "The Corner Store Building",
+  "timestamp": "2026-02-17T07:10:36.753Z",
+  "model": "claude-code-cli",
+  "totalClaims": 11,
+  "results": [
+    {
+      "claim": {
+        "text": "Before Euclidean zoning spread across the continent in the 1920s and 1930s, mixed-use buildings were the default on neighborhood corners",
+        "claim": "Euclidean zoning spread across North America in the 1920s and 1930s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Euclidean zoning did spread across North America following the 1926 Supreme Court decision, primarily during the 1920s and 1930s.",
+      "detail": "The Village of Euclid v. Ambler Realty Co. Supreme Court case in 1926 upheld single-use zoning as constitutional. Following this landmark decision, Euclidean zoning (named after the Euclid, Ohio case) rapidly spread across American cities. By 1930, hundreds of municipalities had adopted zoning ordinances, and the trend continued through the 1930s. The Standard State Zoning Enabling Act (1924) and Standard City Planning Enabling Act (1928) provided model legislation that facilitated this spread.",
+      "sources": [
+        "Historical knowledge of U.S. zoning law - unable to verify via web search due to tool permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A 2019 study by the Congress for New Urbanism found that in pre-1940 streetcar neighborhoods across 12 American cities, corner lots were 3.4 times more likely to contain mixed-use buildings than mid-block lots",
+        "claim": "Congress for New Urbanism published a 2019 study examining pre-1940 streetcar neighborhoods across 12 American cities that found corner lots were 3.4 times more likely to contain mixed-use buildings than mid-block lots",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check CNU publications.",
+      "detail": "I was unable to access web search tools to verify whether the Congress for New Urbanism published a 2019 study with these specific findings about corner lots in streetcar neighborhoods. The claim contains very specific details (12 cities, 3.4x multiplier, pre-1940 neighborhoods) that would require checking CNU's publication database or academic sources. Without web access, I cannot confirm or deny the existence of this study.",
+      "sources": [
+        "No sources accessible - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Edmonton's own Highlands neighborhood, platted in 1910",
+        "claim": "Edmonton's Highlands neighborhood was platted in 1910",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for verification due to lack of web access permissions.",
+      "detail": "Web search and web fetch tools are not enabled for this session, preventing any verification of the claim about Edmonton's Highlands neighborhood being platted in 1910. This is a technical limitation, not a judgment on the accuracy of the claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The 1960 Henderson's Directory lists 23 such buildings in Highlands alone: grocers, druggists, cobblers, barbers",
+        "claim": "The 1960 Henderson's Directory lists 23 mixed-use commercial buildings in Edmonton's Highlands neighborhood",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to web search tool being unavailable.",
+      "detail": "Web search functionality was not available during this verification attempt. Henderson's Directories are historical city directories that would require access to archival databases or digitized historical records to verify. The specific claim about 23 mixed-use commercial buildings in Edmonton's Highlands neighborhood from the 1960 edition cannot be confirmed or denied without access to search tools or archival sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "By 1990, zoning changes had reduced that number to 7",
+        "claim": "By 1990, the number of mixed-use commercial buildings in Highlands had been reduced to 7 due to zoning changes",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search permission was not granted, so I could not search for evidence about Highlands mixed-use commercial buildings or zoning changes in 1990. The claim is specific enough (naming a place, year, and exact number) that it would require searching municipal records, planning documents, or historical accounts to verify. Without search capability, no verification is possible.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "like the one at 6519 112th Avenue, built in 1912",
+        "claim": "The building at 6519 112th Avenue in Edmonton's Highlands was built in 1912",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check Edmonton property records or historic building databases.",
+      "detail": "This claim references a specific address and construction date in Edmonton's Highlands neighborhood. Verification would require access to Edmonton property records, the City of Edmonton Historic Resources inventory, or Alberta heritage databases. Without web search capability, I cannot confirm whether this building exists, is located in Highlands, or was built in 1912.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Alexander, in Pattern 89 (The Corner Grocery), argued that 'the small store, at the corner, is the most basic element in the public life of a neighborhood.'",
+        "claim": "Christopher Alexander's Pattern 89 (The Corner Grocery) states that 'the small store, at the corner, is the most basic element in the public life of a neighborhood'",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check the exact quote from Pattern 89.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977) does contain Pattern 89 'The Corner Grocery,' and the quoted language is stylistically consistent with Alexander's writing. However, without web search or web fetch permissions, I cannot access the primary source to verify the exact wording of the quote. The claim is plausible but requires source verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "He specified that such stores should be within three-minute walks of every home",
+        "claim": "Alexander's Pattern 89 specified that corner stores should be within three-minute walks of every home",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Pattern 89 is titled 'Corner Grocery' and addresses walking distance, but Alexander's exact wording may differ from 'three-minute walk'",
+      "detail": "Christopher Alexander's Pattern 89 in 'A Pattern Language' (1977) is indeed titled 'Corner Grocery' and discusses the importance of having small stores within walking distance of homes. However, Alexander's exact specification uses 'two or three blocks' rather than explicitly stating 'three-minute walk.' The claim captures the spirit correctly but may not reflect Alexander's precise wording. Unable to access web sources to verify the exact text from the original 1977 publication.",
+      "sources": [
+        "A Pattern Language (Christopher Alexander, 1977) - Pattern 89: Corner Grocery - based on general knowledge, unable to verify exact text via web search"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A 2021 analysis by Incremental Development Alliance found that mixed-use corner buildings of 300-600 square meters generate 2.5 to 4 times the property tax revenue per hectare of single-family lots, while requiring less infrastructure per dollar of assessment",
+        "claim": "Incremental Development Alliance published a 2021 analysis finding that mixed-use corner buildings of 300-600 square meters generate 2.5 to 4 times the property tax revenue per hectare of single-family lots with less infrastructure required per dollar of assessment",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; the organization exists but the specific 2021 study with these exact figures could not be confirmed.",
+      "detail": "The Incremental Development Alliance is a real organization known for promoting small-scale development and fiscal analysis. However, without web search capability, I cannot confirm whether they published a 2021 analysis with the specific finding that mixed-use corner buildings of 300-600 square meters generate 2.5-4x property tax revenue per hectare compared to single-family lots. The claim's specificity (exact building size range, revenue multiplier, infrastructure comparison) would require verification against the original source.",
+      "sources": [
+        "Unable to search - web access not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In Montreal, the classic 'plex' building — dépanneur below, flats above — remains legal in most residential zones, and the city has over 5,000 such buildings still operating",
+        "claim": "Montreal has over 5,000 mixed-use 'plex' buildings (dépanneur below, flats above) still operating",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about Montreal having over 5,000 mixed-use plex buildings with dépanneurs below and flats above cannot be confirmed or denied without access to external sources such as City of Montreal statistics, urban planning documents, or academic research on Montreal housing stock.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Montreal, the classic 'plex' building — dépanneur below, flats above — remains legal in most residential zones",
+        "claim": "Montreal's zoning permits mixed-use 'plex' buildings in most residential zones",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools were not available in this session, preventing verification of Montreal's zoning regulations regarding plex buildings and mixed-use residential zones. This claim would require checking Montreal's official zoning bylaws or urban planning documentation to verify whether dépanneurs and similar commercial uses remain legal in most residential zones.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 9,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A 2019 study by the Congress for New Urbanism found that in pre-1940 streetcar neighborhoods across 12 American cities, corner lots were 3.4 times more likely to contain mixed-use buildings than mid-block lots",
+          "claim": "Congress for New Urbanism published a 2019 study examining pre-1940 streetcar neighborhoods across 12 American cities that found corner lots were 3.4 times more likely to contain mixed-use buildings than mid-block lots",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check CNU publications.",
+        "detail": "I was unable to access web search tools to verify whether the Congress for New Urbanism published a 2019 study with these specific findings about corner lots in streetcar neighborhoods. The claim contains very specific details (12 cities, 3.4x multiplier, pre-1940 neighborhoods) that would require checking CNU's publication database or academic sources. Without web access, I cannot confirm or deny the existence of this study.",
+        "sources": [
+          "No sources accessible - web search permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The 1960 Henderson's Directory lists 23 such buildings in Highlands alone: grocers, druggists, cobblers, barbers",
+          "claim": "The 1960 Henderson's Directory lists 23 mixed-use commercial buildings in Edmonton's Highlands neighborhood",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to web search tool being unavailable.",
+        "detail": "Web search functionality was not available during this verification attempt. Henderson's Directories are historical city directories that would require access to archival databases or digitized historical records to verify. The specific claim about 23 mixed-use commercial buildings in Edmonton's Highlands neighborhood from the 1960 edition cannot be confirmed or denied without access to search tools or archival sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "By 1990, zoning changes had reduced that number to 7",
+          "claim": "By 1990, the number of mixed-use commercial buildings in Highlands had been reduced to 7 due to zoning changes",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search permission was not granted, so I could not search for evidence about Highlands mixed-use commercial buildings or zoning changes in 1990. The claim is specific enough (naming a place, year, and exact number) that it would require searching municipal records, planning documents, or historical accounts to verify. Without search capability, no verification is possible.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Alexander, in Pattern 89 (The Corner Grocery), argued that 'the small store, at the corner, is the most basic element in the public life of a neighborhood.'",
+          "claim": "Christopher Alexander's Pattern 89 (The Corner Grocery) states that 'the small store, at the corner, is the most basic element in the public life of a neighborhood'",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check the exact quote from Pattern 89.",
+        "detail": "Christopher Alexander's 'A Pattern Language' (1977) does contain Pattern 89 'The Corner Grocery,' and the quoted language is stylistically consistent with Alexander's writing. However, without web search or web fetch permissions, I cannot access the primary source to verify the exact wording of the quote. The claim is plausible but requires source verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A 2021 analysis by Incremental Development Alliance found that mixed-use corner buildings of 300-600 square meters generate 2.5 to 4 times the property tax revenue per hectare of single-family lots, while requiring less infrastructure per dollar of assessment",
+          "claim": "Incremental Development Alliance published a 2021 analysis finding that mixed-use corner buildings of 300-600 square meters generate 2.5 to 4 times the property tax revenue per hectare of single-family lots with less infrastructure required per dollar of assessment",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; the organization exists but the specific 2021 study with these exact figures could not be confirmed.",
+        "detail": "The Incremental Development Alliance is a real organization known for promoting small-scale development and fiscal analysis. However, without web search capability, I cannot confirm whether they published a 2021 analysis with the specific finding that mixed-use corner buildings of 300-600 square meters generate 2.5-4x property tax revenue per hectare compared to single-family lots. The claim's specificity (exact building size range, revenue multiplier, infrastructure comparison) would require verification against the original source.",
+        "sources": [
+          "Unable to search - web access not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "In Montreal, the classic 'plex' building — dépanneur below, flats above — remains legal in most residential zones, and the city has over 5,000 such buildings still operating",
+          "claim": "Montreal has over 5,000 mixed-use 'plex' buildings (dépanneur below, flats above) still operating",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools were not available during this verification attempt. The claim about Montreal having over 5,000 mixed-use plex buildings with dépanneurs below and flats above cannot be confirmed or denied without access to external sources such as City of Montreal statistics, urban planning documents, or academic research on Montreal housing stock.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

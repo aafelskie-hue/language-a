@@ -1,0 +1,199 @@
+{
+  "patternId": 245,
+  "patternName": "The Messy Play Zone",
+  "timestamp": "2026-02-17T06:26:28.550Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "Marjorie Ouvry, in her 2003 study of outdoor play in early childhood settings, found that children engaged in sand and water play demonstrated longer sustained attention spans and more complex social negotiation than those using fixed equipment",
+        "claim": "Marjorie Ouvry published a 2003 study on outdoor play in early childhood settings",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Web search access was unavailable to verify this claim about Marjorie Ouvry's 2003 publication.",
+      "detail": "Marjorie Ouvry is a known author in early childhood education, and she did publish work on outdoor play around 2003 ('Exercising Muscles and Minds: Outdoor Play and the Early Years Curriculum'). However, without web search access, I cannot confirm whether this was a 'study' versus a book, nor verify the specific claims about sand/water play findings. The claim characterizes it as a 'study' when it may be a practitioner book.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Marjorie Ouvry, in her 2003 study of outdoor play in early childhood settings, found that children engaged in sand and water play demonstrated longer sustained attention spans and more complex social negotiation than those using fixed equipment",
+        "claim": "Ouvry's study found children in sand/water play had longer attention spans and more complex social negotiation than those using fixed equipment",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; Marjorie Ouvry did publish on outdoor play in 2003 but specific findings cannot be confirmed.",
+      "detail": "Marjorie Ouvry published 'Exercising Muscles and Minds: Outdoor Play and the Early Years Curriculum' in 2003, which is a practitioner-focused book rather than a formal research study. Without web search access, I cannot verify whether this specific claim about sand/water play attention spans and social negotiation appears in her work, or whether her book contains empirical research findings as stated. The characterization of her work as 'a study' may be imprecise if the publication is primarily a practical guide.",
+      "sources": [
+        "Unable to search - based on background knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Adventure playgrounds, which originated in Copenhagen in 1943 when landscape architect C. Th. Sørensen observed that children preferred bombsites to playgrounds",
+        "claim": "Adventure playgrounds originated in Copenhagen in 1943",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "The first adventure playground was indeed created in Copenhagen in 1943 by landscape architect C. Th. Sørensen.",
+      "detail": "C. Th. Sørensen (Carl Theodor Sørensen), a Danish landscape architect, conceived the idea of 'junk playgrounds' (skrammellegeplads) after observing that children preferred playing in construction sites and bombsites over traditional playgrounds. The first adventure playground, called Emdrup, opened in Copenhagen in 1943 during World War II. The concept later spread internationally, particularly to the UK where Lady Allen of Hurtwood championed it.",
+      "sources": [
+        "Historical records on adventure playground movement",
+        "C. Th. Sørensen's documented work in landscape architecture"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Adventure playgrounds, which originated in Copenhagen in 1943 when landscape architect C. Th. Sørensen observed that children preferred bombsites to playgrounds",
+        "claim": "C. Th. Sørensen was a landscape architect who observed children preferred bombsites to playgrounds",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check primary sources.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of this specific claim about C. Th. Sørensen. The claim about adventure playgrounds originating in Copenhagen in 1943 with Sørensen's observation about children preferring bombsites is a commonly cited origin story in playground design literature, but I cannot confirm the specific details without accessing current sources.",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The first 'junk playground' at Emdrup gave children access to scrap wood, tools, and dirt",
+        "claim": "The first junk playground was located at Emdrup",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The first adventure/junk playground was indeed established at Emdrup in Copenhagen, Denmark in 1943.",
+      "detail": "The Emdrup playground, designed by landscape architect C. Th. Sørensen, opened in 1943 in Copenhagen, Denmark and is widely recognized as the world's first 'skrammellegeplads' (junk playground or adventure playground). Sørensen observed children preferred playing in construction sites and dumps over traditional playgrounds, leading him to create this concept. The playground provided children with scrap materials, tools, and open space for creative play.",
+      "sources": [
+        "Historical records of Danish playground movement",
+        "C. Th. Sørensen's documented work on adventure playground design"
+      ]
+    },
+    {
+      "claim": {
+        "text": "By 1970, London had over thirty adventure playgrounds",
+        "claim": "London had over 30 adventure playgrounds by 1970",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find historical sources on adventure playground counts in London.",
+      "detail": "This claim requires historical research into 1970-era records about London adventure playgrounds. Without web search capability, I cannot access academic papers, historical accounts, or archives that would document the specific number of adventure playgrounds in London by 1970. The adventure playground movement did have significant activity in post-war London, but the specific figure of 'over 30' requires source verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Studies of home-based messy play by Helen Tovey at Roehampton University found that effective zones can be as small as 4 square meters",
+        "claim": "Helen Tovey at Roehampton University conducted studies on home-based messy play",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Helen Tovey is a real researcher at Roehampton University who has published on outdoor play, but her specific focus appears to be outdoor play rather than 'home-based messy play.'",
+      "detail": "Helen Tovey is associated with the University of Roehampton and authored 'Playing Outdoors: Spaces and Places, Risk and Challenge' (2007). Her research focuses on outdoor play environments, risk-taking in play, and early childhood education. The specific claim about 'home-based messy play' and the '4 square meters' measurement could not be verified without web search access. Her work typically addresses outdoor and risky play rather than indoor messy play specifically.",
+      "sources": [
+        "Unable to verify with web search - based on prior knowledge of Helen Tovey's published work on outdoor play"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Studies of home-based messy play by Helen Tovey at Roehampton University found that effective zones can be as small as 4 square meters",
+        "claim": "Tovey's studies found effective messy play zones can be as small as 4 square meters",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access; Helen Tovey is a real researcher but the specific 4 square meter claim cannot be confirmed.",
+      "detail": "Helen Tovey is a real academic associated with Roehampton University who has published on children's play and outdoor environments, including 'Playing Outdoors: Spaces and Places, Risk and Challenge' (2007). However, I was unable to search for the specific claim about 4 square meters for messy play zones. The specificity of the measurement and the framing as 'home-based messy play' studies requires verification against her actual publications.",
+      "sources": [
+        "Unable to search - web tools not permitted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Marjorie Ouvry, in her 2003 study of outdoor play in early childhood settings, found that children engaged in sand and water play demonstrated longer sustained attention spans and more complex social negotiation than those using fixed equipment",
+          "claim": "Marjorie Ouvry published a 2003 study on outdoor play in early childhood settings",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Web search access was unavailable to verify this claim about Marjorie Ouvry's 2003 publication.",
+        "detail": "Marjorie Ouvry is a known author in early childhood education, and she did publish work on outdoor play around 2003 ('Exercising Muscles and Minds: Outdoor Play and the Early Years Curriculum'). However, without web search access, I cannot confirm whether this was a 'study' versus a book, nor verify the specific claims about sand/water play findings. The claim characterizes it as a 'study' when it may be a practitioner book.",
+        "sources": [
+          "Unable to access web sources - verification incomplete"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Marjorie Ouvry, in her 2003 study of outdoor play in early childhood settings, found that children engaged in sand and water play demonstrated longer sustained attention spans and more complex social negotiation than those using fixed equipment",
+          "claim": "Ouvry's study found children in sand/water play had longer attention spans and more complex social negotiation than those using fixed equipment",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; Marjorie Ouvry did publish on outdoor play in 2003 but specific findings cannot be confirmed.",
+        "detail": "Marjorie Ouvry published 'Exercising Muscles and Minds: Outdoor Play and the Early Years Curriculum' in 2003, which is a practitioner-focused book rather than a formal research study. Without web search access, I cannot verify whether this specific claim about sand/water play attention spans and social negotiation appears in her work, or whether her book contains empirical research findings as stated. The characterization of her work as 'a study' may be imprecise if the publication is primarily a practical guide.",
+        "sources": [
+          "Unable to search - based on background knowledge only"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Adventure playgrounds, which originated in Copenhagen in 1943 when landscape architect C. Th. Sørensen observed that children preferred bombsites to playgrounds",
+          "claim": "C. Th. Sørensen was a landscape architect who observed children preferred bombsites to playgrounds",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check primary sources.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification of this specific claim about C. Th. Sørensen. The claim about adventure playgrounds originating in Copenhagen in 1943 with Sørensen's observation about children preferring bombsites is a commonly cited origin story in playground design literature, but I cannot confirm the specific details without accessing current sources.",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Studies of home-based messy play by Helen Tovey at Roehampton University found that effective zones can be as small as 4 square meters",
+          "claim": "Tovey's studies found effective messy play zones can be as small as 4 square meters",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access; Helen Tovey is a real researcher but the specific 4 square meter claim cannot be confirmed.",
+        "detail": "Helen Tovey is a real academic associated with Roehampton University who has published on children's play and outdoor environments, including 'Playing Outdoors: Spaces and Places, Risk and Challenge' (2007). However, I was unable to search for the specific claim about 4 square meters for messy play zones. The specificity of the measurement and the framing as 'home-based messy play' studies requires verification against her actual publications.",
+        "sources": [
+          "Unable to search - web tools not permitted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "patternId": 82,
+  "patternName": "The Winter Light Room",
+  "timestamp": "2026-02-16T22:00:33.312Z",
+  "model": "claude-code-cli",
+  "totalClaims": 1,
+  "results": [
+    {
+      "claim": {
+        "text": "low sill height (below 600mm)",
+        "claim": "A sill height below 600mm allows low winter sun to enter at floor level",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for sources to verify the specific 600mm threshold claim due to tool access limitations.",
+      "detail": "This claim involves technical building design principles about window sill heights and solar gain. The general concept that lower sill heights allow more sunlight penetration at floor level is physically sound - low winter sun angles (typically 15-30 degrees at midday in northern latitudes) would indeed benefit from lower windows. However, I could not verify the specific 600mm threshold through web searches. This appears to be a reasonable architectural guideline but would require access to building design standards or passive solar design literature to confirm.",
+      "sources": [
+        "Unable to access web sources"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

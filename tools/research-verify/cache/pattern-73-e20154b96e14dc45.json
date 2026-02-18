@@ -1,0 +1,79 @@
+{
+  "patternId": 73,
+  "patternName": "The Doorstep Play Space",
+  "timestamp": "2026-02-16T21:36:41.149Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "Studies of children's outdoor play consistently find that proximity and visibility are the primary determinants — children play most where parents can see them from inside the home.",
+        "claim": "Studies of children's outdoor play find proximity and visibility are primary determinants of where children play",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find specific studies.",
+      "detail": "This claim is consistent with general research findings in environmental psychology and children's play behavior literature. Studies by researchers like Roger Hart (Children's Experience of Place) and work on parental supervision and outdoor play do discuss visibility and proximity as factors. However, without web search access, I cannot verify specific studies that use the exact framing of 'primary determinants' or confirm current research consensus.",
+      "sources": [
+        "Unable to search - assessment based on training knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A semi-enclosed space within 10 meters of the front door, visible from the kitchen or living room, is used ten times more than a park three blocks away.",
+        "claim": "A semi-enclosed space within 10 meters of the front door is used ten times more than a park three blocks away",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to find primary source for this specific '10 times more' statistic comparing semi-enclosed spaces to parks.",
+      "detail": "This claim aligns with themes from Christopher Alexander's 'A Pattern Language' and general environmental psychology research about children's outdoor play preferences and proximity. The concept that children prefer to play close to home in visible, semi-enclosed spaces is well-established in environmental design literature. However, I could not locate a specific study that provides the exact '10 times more' usage ratio cited. The specific measurements (10 meters, three blocks) and the precise multiplier suggest a specific source that I was unable to verify through web search.",
+      "sources": [
+        "Web search unavailable - could not verify primary sources"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Studies of children's outdoor play consistently find that proximity and visibility are the primary determinants — children play most where parents can see them from inside the home.",
+          "claim": "Studies of children's outdoor play find proximity and visibility are primary determinants of where children play",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find specific studies.",
+        "detail": "This claim is consistent with general research findings in environmental psychology and children's play behavior literature. Studies by researchers like Roger Hart (Children's Experience of Place) and work on parental supervision and outdoor play do discuss visibility and proximity as factors. However, without web search access, I cannot verify specific studies that use the exact framing of 'primary determinants' or confirm current research consensus.",
+        "sources": [
+          "Unable to search - assessment based on training knowledge only"
+        ]
+      },
+      {
+        "claim": {
+          "text": "A semi-enclosed space within 10 meters of the front door, visible from the kitchen or living room, is used ten times more than a park three blocks away.",
+          "claim": "A semi-enclosed space within 10 meters of the front door is used ten times more than a park three blocks away",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to find primary source for this specific '10 times more' statistic comparing semi-enclosed spaces to parks.",
+        "detail": "This claim aligns with themes from Christopher Alexander's 'A Pattern Language' and general environmental psychology research about children's outdoor play preferences and proximity. The concept that children prefer to play close to home in visible, semi-enclosed spaces is well-established in environmental design literature. However, I could not locate a specific study that provides the exact '10 times more' usage ratio cited. The specific measurements (10 meters, three blocks) and the precise multiplier suggest a specific source that I was unable to verify through web search.",
+        "sources": [
+          "Web search unavailable - could not verify primary sources"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

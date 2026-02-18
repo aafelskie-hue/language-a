@@ -1,0 +1,105 @@
+{
+  "patternId": 106,
+  "patternName": "The Hand-Made Detail",
+  "timestamp": "2026-02-16T22:26:47.670Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Research in neuroaesthetics suggests the brain processes handmade irregularity differently from machine regularity — not as error, but as evidence of intention.",
+        "claim": "Neuroaesthetics research shows the brain processes handmade irregularity differently from machine regularity, interpreting it as evidence of intention rather than error",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Neuroaesthetics research does study aesthetic responses to handmade vs. machine-made objects, but the specific framing of 'intention vs. error' interpretation is an inference rather than a directly verified finding.",
+      "detail": "Neuroaesthetics is a legitimate field studying brain responses to aesthetic stimuli. Research by Semir Zeki and others has examined how the brain responds to art and craftsmanship. Studies have shown that people perceive handmade items differently from machine-made ones, often attributing greater value and authenticity to irregularities in handmade objects. However, the specific claim that the brain interprets handmade irregularity 'as evidence of intention rather than error' is a reasonable interpretation of broader research rather than a directly quoted finding. Without web access, I cannot verify specific papers making this exact claim.",
+      "sources": [
+        "Unable to verify specific sources without web access - assessment based on general knowledge of neuroaesthetics field"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A hand-forged door pull costs no more than a high-end factory pull — often less.",
+        "claim": "Hand-forged door pulls cost no more than high-end factory pulls, often less",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify pricing claim due to tool access limitations preventing web searches.",
+      "detail": "I was unable to search for pricing comparisons between hand-forged and high-end factory door pulls because web search and fetch tools were not available. This claim is plausible given that artisan blacksmiths often price competitively with luxury hardware brands, but without access to actual pricing data from retailers like Etsy (for hand-forged items) or luxury hardware suppliers, I cannot confirm or deny the specific assertion. The claim makes a comparative economic argument that would require current market pricing to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A hand-thrown tile backsplash costs roughly the same as a designer ceramic import.",
+        "claim": "Hand-thrown tile backsplashes cost roughly the same as designer ceramic imports",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for current pricing data to compare hand-thrown tile and designer ceramic import costs.",
+      "detail": "This claim requires comparing current market prices for two categories of tile products. Without access to web search, I cannot retrieve current pricing from tile retailers, artisan tile makers, or home improvement cost databases. The claim is plausible in principle—artisan hand-thrown tiles and high-end imported designer ceramics both occupy premium price tiers—but specific cost comparisons would vary significantly by region, source, and specific product.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A carved house number costs less than a backlit LED sign.",
+        "claim": "Carved house numbers cost less than backlit LED signs",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Carved house numbers are generally less expensive than backlit LED address signs based on typical retail pricing.",
+      "detail": "Carved house numbers (wood, stone, or similar materials) typically range from $30-150 for standard residential sizes, while backlit LED house number signs generally start around $50-100 for basic models and commonly range from $100-400+ for quality illuminated address signs due to the additional components required (LEDs, wiring, power supply, weatherproofing). This is a commonsense comparison based on typical retail pricing structures for these product categories.",
+      "sources": [
+        "General retail pricing knowledge for home address signage products"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A hand-forged door pull costs no more than a high-end factory pull — often less.",
+          "claim": "Hand-forged door pulls cost no more than high-end factory pulls, often less",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify pricing claim due to tool access limitations preventing web searches.",
+        "detail": "I was unable to search for pricing comparisons between hand-forged and high-end factory door pulls because web search and fetch tools were not available. This claim is plausible given that artisan blacksmiths often price competitively with luxury hardware brands, but without access to actual pricing data from retailers like Etsy (for hand-forged items) or luxury hardware suppliers, I cannot confirm or deny the specific assertion. The claim makes a comparative economic argument that would require current market pricing to verify.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A hand-thrown tile backsplash costs roughly the same as a designer ceramic import.",
+          "claim": "Hand-thrown tile backsplashes cost roughly the same as designer ceramic imports",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for current pricing data to compare hand-thrown tile and designer ceramic import costs.",
+        "detail": "This claim requires comparing current market prices for two categories of tile products. Without access to web search, I cannot retrieve current pricing from tile retailers, artisan tile makers, or home improvement cost databases. The claim is plausible in principle—artisan hand-thrown tiles and high-end imported designer ceramics both occupy premium price tiers—but specific cost comparisons would vary significantly by region, source, and specific product.",
+        "sources": [
+          "Unable to access web sources for verification"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

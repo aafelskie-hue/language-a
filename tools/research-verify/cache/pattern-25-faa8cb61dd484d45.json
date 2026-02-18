@@ -1,0 +1,90 @@
+{
+  "patternId": 25,
+  "patternName": "The Edible Landscape",
+  "timestamp": "2026-02-16T20:46:18.483Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "The idea that food plants are ugly or inappropriate for public view is a suburban convention from the mid-twentieth century, when the front lawn became a status signal of leisure",
+        "claim": "The front lawn as status signal of leisure emerged as a suburban convention in the mid-twentieth century",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claim about front lawns becoming suburban status symbols in the mid-twentieth century aligns with well-documented lawn history scholarship.",
+      "detail": "This claim is consistent with established scholarship on American lawn culture. Historian Virginia Scott Jenkins' book 'The Lawn: A History of an American Obsession' (1994) and Ted Steinberg's 'American Green' (2006) document how the front lawn became a widespread suburban convention after WWII, driven by Levittown-style developments, the availability of lawn care technology, and cultural norms that associated manicured grass with middle-class respectability and leisure. The timing 'mid-twentieth century' accurately captures the post-WWII suburban boom (1945-1960s) when these conventions solidified.",
+      "sources": [
+        "Knowledge from training data - unable to perform live web search to verify with current sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Todmorden, England's 'Incredible Edible' project replaced ornamental public plantings with food-producing ones — herbs in traffic roundabouts, fruit trees in parks, vegetable beds outside the police station",
+        "claim": "Todmorden, England has an 'Incredible Edible' project that replaced ornamental public plantings with food-producing plants including herbs in traffic roundabouts, fruit trees in parks, and vegetable beds outside the police station",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Incredible Edible Todmorden is a well-documented project that began in 2008, planting edible food in public spaces throughout the town including the specific locations mentioned.",
+      "detail": "Incredible Edible Todmorden is a widely documented community initiative that started in 2008. The project is known for replacing ornamental plantings with edible ones across the town, including herbs at the train station and health center, vegetables outside the police station, fruit trees in parks, and food plants in various public spaces. The police station vegetable garden is one of the most frequently cited examples in media coverage of the project. The movement has since spread to hundreds of communities worldwide.",
+      "sources": [
+        "Unable to access web sources - verification based on training data knowledge of this well-documented project. Recommend confirming via incredible-edible-todmorden.co.uk or BBC/Guardian coverage of the initiative."
+      ]
+    },
+    {
+      "claim": {
+        "text": "and found that both social engagement and the visual quality of public spaces increased",
+        "claim": "The Todmorden Incredible Edible project found that social engagement and visual quality of public spaces increased",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "The Incredible Edible Todmorden project is well-documented as improving community engagement and beautifying public spaces, though formal research measuring these specific outcomes varies in methodology.",
+      "detail": "Incredible Edible Todmorden, started in 2008, is a real and widely-cited urban agriculture initiative that has been documented as increasing community interaction and improving the aesthetic appeal of public spaces through edible plantings. Multiple sources reference community surveys and anecdotal evidence of increased social cohesion. However, the specific framing 'found that' suggests a formal study with measured outcomes, while much of the evidence comes from community observations, media reports, and case study analyses rather than controlled research with quantified metrics. The directional claim is well-supported but the precision of formal 'findings' may overstate the rigor of available evidence.",
+      "sources": [
+        "Unable to verify with live web search - assessment based on training knowledge of the Incredible Edible movement and Todmorden project documentation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Front-yard food gardens, where legal, generate more neighbourhood interaction than front-yard lawns",
+        "claim": "Front-yard food gardens generate more neighborhood interaction than front-yard lawns",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "I attempted to search for research on front-yard food gardens and neighborhood interaction but did not have web search permissions enabled. This claim is plausible and aligns with general research on urban gardening and social capital, but without access to primary sources, I cannot confirm the specific comparison between food gardens and lawns.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Front-yard food gardens, where legal, generate more neighbourhood interaction than front-yard lawns",
+          "claim": "Front-yard food gardens generate more neighborhood interaction than front-yard lawns",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "I attempted to search for research on front-yard food gardens and neighborhood interaction but did not have web search permissions enabled. This claim is plausible and aligns with general research on urban gardening and social capital, but without access to primary sources, I cannot confirm the specific comparison between food gardens and lawns.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

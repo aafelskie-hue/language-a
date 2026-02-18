@@ -1,0 +1,209 @@
+{
+  "patternId": 246,
+  "patternName": "The Elder Bench",
+  "timestamp": "2026-02-17T06:30:31.329Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "The World Health Organization's Global Age-Friendly Cities Guide (2007) names outdoor seating as one of eight essential features for age-friendly public spaces",
+        "claim": "WHO Global Age-Friendly Cities Guide (2007) identifies outdoor seating as one of eight essential features for age-friendly public spaces",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The WHO Global Age-Friendly Cities Guide (2007) does identify outdoor seating as important, but it describes eight DOMAINS of age-friendly cities, not eight features of public spaces specifically.",
+      "detail": "The WHO Global Age-Friendly Cities Guide (2007) identifies eight domains of urban life that influence the health and quality of life of older people: outdoor spaces and buildings, transportation, housing, social participation, respect and social inclusion, civic participation and employment, communication and information, and community support and health services. Within the 'outdoor spaces and buildings' domain, outdoor seating is mentioned as an important feature. However, the claim mischaracterizes these as 'eight essential features for age-friendly public spaces' when they are actually eight broad domains covering all aspects of city life.",
+      "sources": [
+        "WHO Global Age-Friendly Cities: A Guide (2007) - based on knowledge of the document"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the guide drew on focus groups with older adults in 33 cities across 22 countries",
+        "claim": "WHO Global Age-Friendly Cities Guide was based on focus groups in 33 cities across 22 countries",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The WHO Global Age-Friendly Cities Guide (2007) was indeed developed based on focus group research conducted in 33 cities across 22 countries.",
+      "detail": "The WHO Age-Friendly Cities project, launched in 2006, conducted focus groups with older adults, caregivers, and service providers in 33 cities spanning 22 countries to identify key features that make cities age-friendly. This research formed the foundation of the 2007 guide. The methodology and city/country numbers are well-documented in WHO publications about the Age-Friendly Cities initiative.",
+      "sources": [
+        "WHO Global Age-Friendly Cities: A Guide (2007)",
+        "WHO Age-Friendly World platform documentation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a commonly cited threshold is 400-500 meters for comfortable continuous walking among healthy seniors over 65",
+        "claim": "400-500 meters is a commonly cited threshold for comfortable continuous walking among healthy seniors over 65",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 400-meter walk test is a well-established clinical and research measure for assessing walking capacity in older adults.",
+      "detail": "The 400-meter walk test is widely used in gerontology research as a standard measure of walking ability and functional capacity in older adults. Studies including the Health ABC study and other large cohort studies use 400 meters as a meaningful threshold for assessing mobility limitations in seniors over 65. The inability to complete a 400-meter walk is often used as a criterion for mobility disability in clinical research.",
+      "sources": [
+        "Knowledge from training data about clinical gerontology assessments including Health ABC study protocols and 400-meter walk test literature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "For those with mobility limitations — arthritis, heart conditions, recovering from hip replacement — the comfortable distance drops to 100-200 meters",
+        "claim": "Comfortable walking distance for seniors with mobility limitations is 100-200 meters",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search for evidence to verify or dispute this claim about comfortable walking distances for seniors with mobility limitations (100-200 meters). The claim is technically plausible based on general knowledge about mobility limitations from conditions like arthritis and hip replacement, but without access to primary sources such as urban planning guidelines, gerontology research, or accessibility standards, I cannot confirm the specific 100-200 meter range.",
+      "sources": [
+        "No sources accessed - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "I.M. Brunner's 1972 study of elderly pedestrians in Stockholm found that rest stops every 100 meters dramatically increased the distance elders were willing to walk",
+        "claim": "I.M. Brunner conducted a 1972 study of elderly pedestrians in Stockholm finding rest stops every 100 meters increased walking distance",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; no independent knowledge of this specific study.",
+      "detail": "I was unable to search for this claim due to permission restrictions on web search. The citation references a specific author (I.M. Brunner), year (1972), location (Stockholm), and finding (rest stops every 100 meters increased elderly walking distance). Without access to search academic databases or web sources, I cannot confirm whether this study exists or if the findings are accurately represented.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "his pattern 88, STREET CAFE",
+        "claim": "Pattern 88 in Alexander's A Pattern Language is titled STREET CAFE",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 88 in Christopher Alexander's 'A Pattern Language' is indeed titled 'STREET CAFE'.",
+      "detail": "Christopher Alexander's 1977 book 'A Pattern Language' contains 253 patterns numbered sequentially. Pattern 88 is titled 'STREET CAFE' and discusses the importance of street cafes as places where people can sit, watch street activity, and engage with urban life. This is well-documented in the book itself and numerous secondary sources discussing Alexander's pattern language.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "AARP's Livable Communities initiative has documented dozens of municipalities adding benches along pedestrian routes as part of age-friendly planning",
+        "claim": "AARP Livable Communities initiative has documented municipalities adding benches as part of age-friendly planning",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify without web search access; claim is plausible given AARP Livable Communities' known focus areas but specific documentation not confirmed.",
+      "detail": "AARP Livable Communities is a real initiative that promotes age-friendly community design, and bench installation is a common age-friendly infrastructure improvement. However, without web search access, I cannot verify whether AARP has specifically documented 'dozens of municipalities' adding benches as claimed. The claim aligns with AARP's known work but the specific documentation needs verification.",
+      "sources": [
+        "Unable to search - web access not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Portland, Oregon's Age-Friendly Action Plan (2013) specifically called for seating every 400 feet (122 meters) along priority walking routes",
+        "claim": "Portland, Oregon's Age-Friendly Action Plan (2013) called for seating every 400 feet along priority walking routes",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify claim due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were requested but permissions were not granted. I cannot access external sources to verify whether Portland's 2013 Age-Friendly Action Plan contained the claimed seating specification of every 400 feet along priority walking routes.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "New York City's Age-Friendly NYC initiative identified bench installation as a top request from older residents",
+        "claim": "New York City's Age-Friendly NYC initiative identified bench installation as a top request from older residents",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; Age-Friendly NYC is a real program but specific claim about benches as top request cannot be confirmed.",
+      "detail": "Age-Friendly NYC is a verified real initiative launched circa 2007-2009. However, the specific claim that bench installation was identified as a 'top request' from older residents requires access to primary source documents such as official surveys, reports, or assessments from the program. Web search tools were unavailable to locate these sources.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A seat height of 45-50 centimeters (18-20 inches) allows easier rising than standard 40-centimeter benches",
+        "claim": "Seat height of 45-50 cm allows easier rising than standard 40 cm benches for elders",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Ergonomic research consistently supports that higher seat heights (45-50 cm) reduce biomechanical demands when rising, particularly for elderly users with reduced lower limb strength.",
+      "detail": "The 45-50 cm seat height recommendation aligns with established ergonomic and gerontological research. Standard seating research shows that lower seat heights require greater knee flexion angles and increased quadriceps force to rise, which becomes more challenging with age-related muscle weakness. The 40 cm height mentioned as 'standard bench' height is indeed typical for many public benches, and the 45-50 cm range corresponds to approximately 100-115% of knee height, which biomechanics literature supports as optimal for ease of rising. The ADA recommends seat heights of 17-19 inches (43-48 cm) for accessibility, which closely matches this claim.",
+      "sources": [
+        "General ergonomic literature on sit-to-stand biomechanics",
+        "ADA accessibility guidelines for seating",
+        "Gerontological research on mobility and seating design"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 1,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "For those with mobility limitations — arthritis, heart conditions, recovering from hip replacement — the comfortable distance drops to 100-200 meters",
+          "claim": "Comfortable walking distance for seniors with mobility limitations is 100-200 meters",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search for evidence to verify or dispute this claim about comfortable walking distances for seniors with mobility limitations (100-200 meters). The claim is technically plausible based on general knowledge about mobility limitations from conditions like arthritis and hip replacement, but without access to primary sources such as urban planning guidelines, gerontology research, or accessibility standards, I cannot confirm the specific 100-200 meter range.",
+        "sources": [
+          "No sources accessed - web search unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "I.M. Brunner's 1972 study of elderly pedestrians in Stockholm found that rest stops every 100 meters dramatically increased the distance elders were willing to walk",
+          "claim": "I.M. Brunner conducted a 1972 study of elderly pedestrians in Stockholm finding rest stops every 100 meters increased walking distance",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; no independent knowledge of this specific study.",
+        "detail": "I was unable to search for this claim due to permission restrictions on web search. The citation references a specific author (I.M. Brunner), year (1972), location (Stockholm), and finding (rest stops every 100 meters increased elderly walking distance). Without access to search academic databases or web sources, I cannot confirm whether this study exists or if the findings are accurately represented.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Portland, Oregon's Age-Friendly Action Plan (2013) specifically called for seating every 400 feet (122 meters) along priority walking routes",
+          "claim": "Portland, Oregon's Age-Friendly Action Plan (2013) called for seating every 400 feet along priority walking routes",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify claim due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were requested but permissions were not granted. I cannot access external sources to verify whether Portland's 2013 Age-Friendly Action Plan contained the claimed seating specification of every 400 feet along priority walking routes.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

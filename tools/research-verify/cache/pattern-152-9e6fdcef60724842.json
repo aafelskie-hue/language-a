@@ -1,0 +1,226 @@
+{
+  "patternId": 152,
+  "patternName": "Ice Dam Prevention",
+  "timestamp": "2026-02-17T01:34:44.240Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "The Canada Mortgage and Housing Corporation identifies three conditions that must coincide for ice dams: interior heat reaching the roof deck, snow on the roof providing meltwater, and eaves cold enough to refreeze that water.",
+        "claim": "CMHC identifies these three specific conditions as necessary for ice dam formation",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check CMHC's official documentation.",
+      "detail": "Web search and web fetch tools were unavailable for this verification. The three conditions described (interior heat reaching roof deck, snow providing meltwater, cold eaves for refreezing) are consistent with established building science explanations of ice dam formation. However, I cannot confirm whether CMHC specifically identifies these exact three conditions in their official publications without accessing their website or documents.",
+      "sources": [
+        "Unable to access web sources - verification tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "CMHC's research into cold-roof assemblies, developed through the Building Envelope Performance program, establishes that maintaining the roof deck within 5°C of outdoor temperature eliminates the differential that drives melting.",
+        "claim": "CMHC has a Building Envelope Performance program that researched cold-roof assemblies",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "Web search and web fetch tools are not available in the current session. CMHC is a real organization known to conduct building science research, but I cannot verify the specific existence of a 'Building Envelope Performance program' or the claimed research findings about cold-roof assemblies maintaining roof deck temperature within 5°C of outdoor temperature. Manual verification required.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "CMHC's research into cold-roof assemblies, developed through the Building Envelope Performance program, establishes that maintaining the roof deck within 5°C of outdoor temperature eliminates the differential that drives melting.",
+        "claim": "CMHC research establishes that maintaining roof deck within 5°C of outdoor temperature eliminates ice dam conditions",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 5°C temperature threshold claim from CMHC research due to lack of web search access.",
+      "detail": "The claim references a specific technical standard (5°C differential) from CMHC's Building Envelope Performance program. While CMHC is a real organization (Canada Mortgage and Housing Corporation) that does conduct building science research, I could not access web sources to verify whether this specific temperature threshold is documented in their research. Cold roof design principles are well-established in building science, but the exact 5°C figure requires verification from primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Building America research program, operated by the U.S. Department of Energy through Oak Ridge National Laboratory, measured ice dam formation across roof types in Minnesota",
+        "claim": "Building America is a research program operated by U.S. DOE through Oak Ridge National Laboratory",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "Building America is a DOE program, but it is not operated 'through' Oak Ridge National Laboratory specifically.",
+      "detail": "Building America is indeed a research program operated by the U.S. Department of Energy's Building Technologies Office. However, it works with multiple national laboratories and industry partners, not exclusively or primarily through Oak Ridge National Laboratory. Oak Ridge is one of several labs that participate in Building America research, alongside NREL (National Renewable Energy Laboratory), Lawrence Berkeley National Laboratory, and Pacific Northwest National Laboratory. The claim incorrectly suggests ORNL is the primary or sole operator of the program.",
+      "sources": [
+        "DOE Building Technologies Office (knowledge-based, unable to verify via web search due to permission restrictions)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Building America research program, operated by the U.S. Department of Energy through Oak Ridge National Laboratory, measured ice dam formation across roof types in Minnesota and found that air leakage, not conduction through insulation, accounts for the majority of heat reaching attic spaces.",
+        "claim": "Building America/Oak Ridge research found air leakage accounts for majority of heat reaching attic spaces (more than conduction through insulation)",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify claim due to lack of web search access; however, the claim aligns with known building science principles.",
+      "detail": "The Building America program is a real DOE research program, and Oak Ridge National Laboratory does conduct building energy research. The principle that air leakage often contributes more heat transfer than conduction through insulation is well-established in building science literature. However, without web search capability, I cannot verify the specific Minnesota ice dam study or confirm the exact findings claimed. The claim is technically plausible but the specific source attribution cannot be confirmed.",
+      "sources": [
+        "Unable to search - based on training knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Sealing the 50 to 100 penetrations in a typical ceiling — the 'attic bypass' locations — reduces heat transfer to the roof deck more effectively than adding insulation alone.",
+        "claim": "A typical ceiling has 50 to 100 penetrations (attic bypass locations)",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I attempted to search for information about attic bypass penetrations and ceiling penetration counts in typical homes, but web search and web fetch tools are not currently available. The claim about 50 to 100 penetrations sounds plausible for building science literature but cannot be confirmed without access to primary sources like Department of Energy guidance, building performance studies, or weatherization program documentation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The University of Minnesota Extension documented that homes with air-sealed attics and R-50 insulation showed no ice dam formation even in winters with sustained -25°C temperatures, while neighboring homes with R-38 insulation but unsealed bypasses showed significant damming.",
+        "claim": "University of Minnesota Extension documented this specific comparison between air-sealed R-50 attics vs unsealed R-38 attics regarding ice dam formation",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch permissions were not granted, preventing any verification of this claim. The claim references a specific University of Minnesota Extension study comparing R-50 air-sealed attics vs R-38 unsealed attics with precise temperature data (-25°C), which would require accessing academic or extension service databases to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Canadian Wood Council specifies a minimum of 1 square foot of net free ventilation area per 150 square feet of attic floor, balanced between intake and exhaust.",
+        "claim": "Canadian Wood Council specifies 1 sq ft net free ventilation per 150 sq ft of attic floor",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check Canadian Wood Council specifications.",
+      "detail": "Web search is required to verify this technical building specification claim. The 1:150 ventilation ratio is a common standard in North American building codes (including the International Residential Code), but I cannot confirm without search access whether the Canadian Wood Council specifically uses this ratio or different specifications.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Edmonton's climate, with 5,200 heating degree days",
+        "claim": "Edmonton has 5,200 heating degree days",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Edmonton's heating degree days are approximately 5,200, consistent with Environment Canada climate normals.",
+      "detail": "Environment and Climate Change Canada's climate normals for Edmonton report approximately 5,000-5,200 heating degree days (base 18°C) annually. The Edmonton International Airport station reports around 5,200 HDD, while other Edmonton stations may vary slightly. The claimed figure of 5,200 is within the accurate range for Edmonton's climate.",
+      "sources": [
+        "Environment and Climate Change Canada Climate Normals (knowledge-based, web search unavailable)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Canada Mortgage and Housing Corporation identifies three conditions that must coincide for ice dams: interior heat reaching the roof deck, snow on the roof providing meltwater, and eaves cold enough to refreeze that water.",
+          "claim": "CMHC identifies these three specific conditions as necessary for ice dam formation",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check CMHC's official documentation.",
+        "detail": "Web search and web fetch tools were unavailable for this verification. The three conditions described (interior heat reaching roof deck, snow providing meltwater, cold eaves for refreezing) are consistent with established building science explanations of ice dam formation. However, I cannot confirm whether CMHC specifically identifies these exact three conditions in their official publications without accessing their website or documents.",
+        "sources": [
+          "Unable to access web sources - verification tools unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "CMHC's research into cold-roof assemblies, developed through the Building Envelope Performance program, establishes that maintaining the roof deck within 5°C of outdoor temperature eliminates the differential that drives melting.",
+          "claim": "CMHC has a Building Envelope Performance program that researched cold-roof assemblies",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this environment.",
+        "detail": "Web search and web fetch tools are not available in the current session. CMHC is a real organization known to conduct building science research, but I cannot verify the specific existence of a 'Building Envelope Performance program' or the claimed research findings about cold-roof assemblies maintaining roof deck temperature within 5°C of outdoor temperature. Manual verification required.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "CMHC's research into cold-roof assemblies, developed through the Building Envelope Performance program, establishes that maintaining the roof deck within 5°C of outdoor temperature eliminates the differential that drives melting.",
+          "claim": "CMHC research establishes that maintaining roof deck within 5°C of outdoor temperature eliminates ice dam conditions",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 5°C temperature threshold claim from CMHC research due to lack of web search access.",
+        "detail": "The claim references a specific technical standard (5°C differential) from CMHC's Building Envelope Performance program. While CMHC is a real organization (Canada Mortgage and Housing Corporation) that does conduct building science research, I could not access web sources to verify whether this specific temperature threshold is documented in their research. Cold roof design principles are well-established in building science, but the exact 5°C figure requires verification from primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Building America research program, operated by the U.S. Department of Energy through Oak Ridge National Laboratory, measured ice dam formation across roof types in Minnesota and found that air leakage, not conduction through insulation, accounts for the majority of heat reaching attic spaces.",
+          "claim": "Building America/Oak Ridge research found air leakage accounts for majority of heat reaching attic spaces (more than conduction through insulation)",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify claim due to lack of web search access; however, the claim aligns with known building science principles.",
+        "detail": "The Building America program is a real DOE research program, and Oak Ridge National Laboratory does conduct building energy research. The principle that air leakage often contributes more heat transfer than conduction through insulation is well-established in building science literature. However, without web search capability, I cannot verify the specific Minnesota ice dam study or confirm the exact findings claimed. The claim is technically plausible but the specific source attribution cannot be confirmed.",
+        "sources": [
+          "Unable to search - based on training knowledge only"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The University of Minnesota Extension documented that homes with air-sealed attics and R-50 insulation showed no ice dam formation even in winters with sustained -25°C temperatures, while neighboring homes with R-38 insulation but unsealed bypasses showed significant damming.",
+          "claim": "University of Minnesota Extension documented this specific comparison between air-sealed R-50 attics vs unsealed R-38 attics regarding ice dam formation",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch permissions were not granted, preventing any verification of this claim. The claim references a specific University of Minnesota Extension study comparing R-50 air-sealed attics vs R-38 unsealed attics with precise temperature data (-25°C), which would require accessing academic or extension service databases to confirm.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Canadian Wood Council specifies a minimum of 1 square foot of net free ventilation area per 150 square feet of attic floor, balanced between intake and exhaust.",
+          "claim": "Canadian Wood Council specifies 1 sq ft net free ventilation per 150 sq ft of attic floor",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check Canadian Wood Council specifications.",
+        "detail": "Web search is required to verify this technical building specification claim. The 1:150 ventilation ratio is a common standard in North American building codes (including the International Residential Code), but I cannot confirm without search access whether the Canadian Wood Council specifically uses this ratio or different specifications.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

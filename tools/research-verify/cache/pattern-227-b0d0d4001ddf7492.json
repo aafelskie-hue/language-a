@@ -1,0 +1,194 @@
+{
+  "patternId": 227,
+  "patternName": "The Apprentice Program",
+  "timestamp": "2026-02-17T05:34:31.413Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "The German dual-training system, formalized since 1969 under the Vocational Training Act (Berufsbildungsgesetz)",
+        "claim": "Germany's Vocational Training Act (Berufsbildungsgesetz) was enacted in 1969",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available to verify this claim. Based on my training knowledge, the Berufsbildungsgesetz was indeed enacted in 1969, but I cannot confirm this with current sources. The claim appears consistent with historical records of German vocational education reform, but independent verification is required.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "requires three to four years of combined workplace training and classroom instruction for construction trades",
+        "claim": "German apprenticeships in construction trades require 3-4 years of combined workplace and classroom training",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current primary sources.",
+      "detail": "Web search permissions were not granted, preventing verification against current German government or trade organization sources. Based on training knowledge, German dual-system apprenticeships typically last 2-3.5 years, with construction trades potentially at the higher end, but this cannot be confirmed against primary sources without search capability.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Apprentices spend roughly 70 percent of their time on job sites under a master craftsperson (Meister) and 30 percent in vocational school",
+        "claim": "German construction apprentices spend approximately 70% of time on job sites and 30% in vocational school",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources on German apprenticeship time allocation.",
+      "detail": "I attempted to search for information about the German dual vocational training (duales Ausbildungssystem) time split between workplace and vocational school, but web search permissions were not granted. The 70/30 split is a commonly cited approximation for the German dual system, but I cannot verify the exact percentages without access to official sources such as BIBB (Federal Institute for Vocational Education and Training) or the German Federal Ministry of Education.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Germany's construction sector maintains a 92 percent completion rate for apprenticeships",
+        "claim": "Germany's construction sector has a 92% apprenticeship completion rate",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence to verify this claim due to permission restrictions.",
+      "detail": "Web search functionality was not available during this verification attempt. I could not search for primary sources such as German Federal Institute for Vocational Education and Training (BIBB) statistics, construction industry reports, or official government data on apprenticeship completion rates. The 92% figure for Germany's construction sector apprenticeship completion rate cannot be confirmed or disputed without access to search results.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "journeypersons earn wages comparable to university graduates within five years of certification",
+        "claim": "German journeypersons in construction earn wages comparable to university graduates within 5 years of certification",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify specific claim about German journeyperson wages reaching university graduate parity within 5 years due to lack of web access.",
+      "detail": "This claim requires access to German labor statistics from sources like Destatis (Federal Statistical Office) or BIBB (Federal Institute for Vocational Education and Training) to verify wage comparisons. While German skilled trades (particularly in construction) are known for relatively high wages compared to other countries, the specific assertion about reaching university graduate wage parity within 5 years of journeyperson certification requires empirical verification. The claim is plausible given Germany's strong vocational education system, but the exact timeframe and wage comparison need primary source confirmation.",
+      "sources": [
+        "Unable to access web sources - verification requires Destatis earnings data or BIBB vocational training statistics"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The U.S. Bureau of Labor Statistics reports that in 2022, only 3.1 percent of construction workers were registered apprentices",
+        "claim": "U.S. Bureau of Labor Statistics reported 3.1% of construction workers were registered apprentices in 2022",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check BLS data.",
+      "detail": "This claim cites a specific BLS statistic from 2022 about apprenticeship rates in construction. Without web search or web fetch capabilities, I cannot access the Bureau of Labor Statistics website or other sources to confirm whether this 3.1% figure was actually reported. The claim is plausible given known concerns about workforce development in construction, but the specific number requires verification against primary BLS data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Canada's numbers are similar",
+        "claim": "Canada's registered apprentice percentage in construction is similar to the U.S. 3.1%",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify specific apprenticeship percentage for Canada's construction workforce without web search access.",
+      "detail": "I was unable to search for current statistics on Canada's registered apprentice percentage in construction. Canada does track apprenticeship data through Statistics Canada and the Canadian Apprenticeship Forum, but I cannot confirm whether their construction apprenticeship rate is similar to the U.S. figure of 3.1% without access to current data. The comparison would require data on registered apprentices as a percentage of total construction workforce.",
+      "sources": [
+        "Unable to access web sources - search tools not available"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The German dual-training system, formalized since 1969 under the Vocational Training Act (Berufsbildungsgesetz)",
+          "claim": "Germany's Vocational Training Act (Berufsbildungsgesetz) was enacted in 1969",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not available to verify this claim. Based on my training knowledge, the Berufsbildungsgesetz was indeed enacted in 1969, but I cannot confirm this with current sources. The claim appears consistent with historical records of German vocational education reform, but independent verification is required.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "requires three to four years of combined workplace training and classroom instruction for construction trades",
+          "claim": "German apprenticeships in construction trades require 3-4 years of combined workplace and classroom training",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find current primary sources.",
+        "detail": "Web search permissions were not granted, preventing verification against current German government or trade organization sources. Based on training knowledge, German dual-system apprenticeships typically last 2-3.5 years, with construction trades potentially at the higher end, but this cannot be confirmed against primary sources without search capability.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Apprentices spend roughly 70 percent of their time on job sites under a master craftsperson (Meister) and 30 percent in vocational school",
+          "claim": "German construction apprentices spend approximately 70% of time on job sites and 30% in vocational school",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find primary sources on German apprenticeship time allocation.",
+        "detail": "I attempted to search for information about the German dual vocational training (duales Ausbildungssystem) time split between workplace and vocational school, but web search permissions were not granted. The 70/30 split is a commonly cited approximation for the German dual system, but I cannot verify the exact percentages without access to official sources such as BIBB (Federal Institute for Vocational Education and Training) or the German Federal Ministry of Education.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Germany's construction sector maintains a 92 percent completion rate for apprenticeships",
+          "claim": "Germany's construction sector has a 92% apprenticeship completion rate",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence to verify this claim due to permission restrictions.",
+        "detail": "Web search functionality was not available during this verification attempt. I could not search for primary sources such as German Federal Institute for Vocational Education and Training (BIBB) statistics, construction industry reports, or official government data on apprenticeship completion rates. The 92% figure for Germany's construction sector apprenticeship completion rate cannot be confirmed or disputed without access to search results.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "journeypersons earn wages comparable to university graduates within five years of certification",
+          "claim": "German journeypersons in construction earn wages comparable to university graduates within 5 years of certification",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify specific claim about German journeyperson wages reaching university graduate parity within 5 years due to lack of web access.",
+        "detail": "This claim requires access to German labor statistics from sources like Destatis (Federal Statistical Office) or BIBB (Federal Institute for Vocational Education and Training) to verify wage comparisons. While German skilled trades (particularly in construction) are known for relatively high wages compared to other countries, the specific assertion about reaching university graduate wage parity within 5 years of journeyperson certification requires empirical verification. The claim is plausible given Germany's strong vocational education system, but the exact timeframe and wage comparison need primary source confirmation.",
+        "sources": [
+          "Unable to access web sources - verification requires Destatis earnings data or BIBB vocational training statistics"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The U.S. Bureau of Labor Statistics reports that in 2022, only 3.1 percent of construction workers were registered apprentices",
+          "claim": "U.S. Bureau of Labor Statistics reported 3.1% of construction workers were registered apprentices in 2022",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check BLS data.",
+        "detail": "This claim cites a specific BLS statistic from 2022 about apprenticeship rates in construction. Without web search or web fetch capabilities, I cannot access the Bureau of Labor Statistics website or other sources to confirm whether this 3.1% figure was actually reported. The claim is plausible given known concerns about workforce development in construction, but the specific number requires verification against primary BLS data.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

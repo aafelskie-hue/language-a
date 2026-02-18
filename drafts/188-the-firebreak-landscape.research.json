@@ -1,0 +1,48 @@
+{
+  "programs": [
+    {
+      "name": "California Strategic Fire Prevention Project",
+      "location": "California, USA",
+      "year": "2018-ongoing",
+      "outcome": "Unable to verify specific outcomes without web access",
+      "source": "CAL FIRE - requires verification"
+    },
+    {
+      "name": "Firewise USA Program",
+      "location": "United States (nationwide)",
+      "year": "2002 (NFPA takeover)",
+      "outcome": "Over 1,900 recognized communities as of ~2023 - requires verification",
+      "source": "NFPA - requires verification"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to provide verified statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify",
+      "title": "Strategic Fuel Breaks and vegetation management studies exist in literature",
+      "year": "Various",
+      "finding": "Cannot provide specific citations without verification access"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Santa Rosa, California",
+      "description": "Post-2017 Tubbs Fire reconstruction incorporated defensible space requirements - requires verification",
+      "source": "Requires verification"
+    },
+    {
+      "location": "Paradise, California",
+      "description": "Post-Camp Fire (2018) rebuilding plans included fuel break considerations - requires verification",
+      "source": "Requires verification"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL: Web search and fetch permissions were not granted. I cannot provide verified, sourced evidence without these tools. The information above is based on general knowledge but URLs, statistics, and specific outcomes MUST be verified before use. Please either grant web access permissions or consider this research incomplete. Firebreak landscape planning is a well-documented field with substantial evidence, but I cannot responsibly provide specific citations without verification capability."
+}

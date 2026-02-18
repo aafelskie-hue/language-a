@@ -1,0 +1,60 @@
+{
+  "programs": [
+    {
+      "name": "Berkeley Tool Lending Library",
+      "location": "Berkeley, California, USA",
+      "year": "1979",
+      "outcome": "One of the first public tool lending libraries in the US, operated by Berkeley Public Library, lending thousands of tools annually",
+      "source": "Berkeley Public Library - requires web verification for current statistics"
+    },
+    {
+      "name": "Library of Things - Sacramento Public Library",
+      "location": "Sacramento, California, USA",
+      "year": "2015",
+      "outcome": "Expanded lending to include non-traditional items like sewing machines, musical instruments, and camping equipment",
+      "source": "Sacramento Public Library - requires web verification for current statistics"
+    },
+    {
+      "name": "Toronto Tool Library",
+      "location": "Toronto, Ontario, Canada",
+      "year": "2013",
+      "outcome": "Community-run tool library with multiple locations, membership-based model",
+      "source": "Toronto Tool Library organization - requires web verification"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to provide verified statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify without web search",
+      "title": "N/A",
+      "year": "N/A",
+      "finding": "Academic research on tool libraries and sharing economy exists but I cannot cite specific papers without verification"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Berkeley, California",
+      "description": "Berkeley Tool Lending Library - public library branch dedicated to tool lending since 1979",
+      "source": "Berkeley Public Library system"
+    },
+    {
+      "location": "Portland, Oregon",
+      "description": "Northeast Portland Tool Library - community tool sharing cooperative",
+      "source": "Requires web verification"
+    },
+    {
+      "location": "London, UK",
+      "description": "Library of Things locations in multiple London neighborhoods lending household items, DIY tools, and party supplies",
+      "source": "Library of Things UK organization - requires web verification"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "I have knowledge of several tool lending libraries and 'library of things' programs from my training data, but without web search access I cannot verify current statistics, outcomes, or cite specific academic studies. The programs listed (Berkeley, Sacramento, Toronto, London Library of Things) are real and well-documented, but I cannot provide up-to-date numbers or recent research findings. The pattern concept has strong real-world precedent - tool libraries have existed since the 1970s and the 'library of things' model has expanded significantly in the 2010s-2020s. I recommend re-running this research with web search enabled to get verified statistics and academic citations."
+}

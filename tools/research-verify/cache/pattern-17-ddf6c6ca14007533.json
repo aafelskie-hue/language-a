@@ -1,0 +1,75 @@
+{
+  "patternId": 17,
+  "patternName": "Flood-Adaptive Ground Floor",
+  "timestamp": "2026-02-16T20:31:18.050Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "FEMA estimates that even one inch of floodwater causes $25,000 in damage to a typical home",
+        "claim": "FEMA estimates one inch of floodwater causes $25,000 in damage to a typical home",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access in this environment.",
+      "detail": "This claim about FEMA estimating $25,000 in damage from one inch of floodwater is a commonly cited statistic that appears in FEMA educational materials and flood insurance outreach. However, without web search access, I cannot confirm the exact current figure or verify it against FEMA's official sources. The claim is plausible and consistent with FEMA messaging I'm aware of from training data.",
+      "sources": [
+        "Unable to search - verification tools not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Flooding is the costliest natural disaster worldwide",
+        "claim": "Flooding is the costliest natural disaster worldwide",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "Web search and web fetch tools are required to verify this statistical claim about flooding being the costliest natural disaster worldwide. Without access to external sources like EM-DAT, Munich Re, Swiss Re, NOAA, or academic databases, I cannot confirm or deny this claim. The claim is plausible given that floods affect large populations globally, but verification requires access to actual disaster cost data.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "FEMA estimates that even one inch of floodwater causes $25,000 in damage to a typical home",
+          "claim": "FEMA estimates one inch of floodwater causes $25,000 in damage to a typical home",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access in this environment.",
+        "detail": "This claim about FEMA estimating $25,000 in damage from one inch of floodwater is a commonly cited statistic that appears in FEMA educational materials and flood insurance outreach. However, without web search access, I cannot confirm the exact current figure or verify it against FEMA's official sources. The claim is plausible and consistent with FEMA messaging I'm aware of from training data.",
+        "sources": [
+          "Unable to search - verification tools not available"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Flooding is the costliest natural disaster worldwide",
+          "claim": "Flooding is the costliest natural disaster worldwide",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "Web search and web fetch tools are required to verify this statistical claim about flooding being the costliest natural disaster worldwide. Without access to external sources like EM-DAT, Munich Re, Swiss Re, NOAA, or academic databases, I cannot confirm or deny this claim. The claim is plausible given that floods affect large populations globally, but verification requires access to actual disaster cost data.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

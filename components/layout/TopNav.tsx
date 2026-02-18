@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Logo } from '@/components/shared/Logo';
+import { UserMenu } from '@/components/auth/UserMenu';
 import { useState } from 'react';
 import { getRandomPattern } from '@/lib/patterns';
 
@@ -65,6 +66,8 @@ export function TopNav() {
               </svg>
               Random
             </button>
+            <span className="text-steel mx-2 select-none" aria-hidden="true">|</span>
+            <UserMenu />
           </div>
 
           {/* Mobile Menu Button */}
@@ -117,6 +120,9 @@ export function TopNav() {
               </svg>
               Random
             </button>
+            <div className="mt-4 pt-4 border-t border-steel/20">
+              <UserMenu />
+            </div>
           </div>
         )}
       </div>

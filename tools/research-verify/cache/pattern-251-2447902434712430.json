@@ -1,0 +1,131 @@
+{
+  "patternId": 251,
+  "patternName": "The Dimmable Lighting",
+  "timestamp": "2026-02-17T06:50:34.511Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "The Lighting Research Center at Rensselaer Polytechnic Institute has documented that light exposure above 100 lux at the eye in the two hours before sleep suppresses melatonin production and delays sleep onset by 30 to 60 minutes",
+        "claim": "Lighting Research Center at Rensselaer Polytechnic Institute documented that light exposure above 100 lux at the eye in the two hours before sleep suppresses melatonin production and delays sleep onset by 30 to 60 minutes",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "The Lighting Research Center has researched light and melatonin, but the specific 100 lux threshold and 30-60 minute delay figures need verification.",
+      "detail": "The Lighting Research Center at Rensselaer Polytechnic Institute is a legitimate research institution that has extensively studied the effects of light on circadian rhythms and melatonin. They have documented that evening light exposure suppresses melatonin. However, the specific claim of '100 lux' as the threshold and '30-60 minutes' delay requires source verification. Research in this field typically shows melatonin suppression begins at lower light levels and the relationship is complex, involving light spectrum (particularly blue light) and duration, not just intensity alone. Without web access, I cannot confirm the exact figures cited.",
+      "sources": [
+        "Unable to access web sources - verification limited to knowledge cutoff"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Yet standard North American residential lighting delivers 150 to 300 lux throughout the evening",
+        "claim": "Standard North American residential lighting delivers 150 to 300 lux throughout the evening",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find current primary sources.",
+      "detail": "Web search and web fetch tools are unavailable. From training knowledge, typical residential lighting ranges from 100-500 lux depending on room and activity, with living rooms often in the 150-300 lux range, but I cannot cite current authoritative sources to verify this specific claim about 'standard North American' evening lighting.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "California's Title 24 energy code, updated in 2019, requires dimmable controls on all residential lighting",
+        "claim": "California's Title 24 energy code was updated in 2019 to require dimmable controls on all residential lighting",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of web search access to check current Title 24 requirements.",
+      "detail": "I was unable to access web search or web fetch tools to verify this claim. From general knowledge, California's 2019 Title 24 Building Energy Efficiency Standards did include enhanced lighting control requirements for residential buildings, but I cannot confirm whether the specific claim that 'dimmable controls on all residential lighting' is accurate without accessing official California Energy Commission documentation. The 2019 standards took effect January 1, 2020.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a fixture dimmed to 50% consumes roughly 40% of full power (the relationship is not linear due to driver efficiency)",
+        "claim": "LED fixtures dimmed to 50% brightness consume approximately 40% of full power due to non-linear driver efficiency",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are not available in this session. The claim about non-linear LED dimming power consumption is technically plausible based on general knowledge of LED driver efficiency characteristics, but I cannot locate specific sources to verify the exact figures (50% brightness = ~40% power consumption).",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Reading demands 500 lux at the page",
+        "claim": "Reading tasks require 500 lux illumination at the reading surface",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "500 lux is a well-established standard for reading task illumination based on international lighting standards.",
+      "detail": "The claim aligns with EN 12464-1 (European lighting standard) and ISO 8995-1/CIE S 008, which specify 500 lux as the recommended illuminance for typical office tasks including reading and writing. The Illuminating Engineering Society (IES) also recommends 300-500 lux for reading tasks, with 500 lux at the higher end for detailed reading. This is a widely accepted technical standard in lighting design.",
+      "sources": [
+        "EN 12464-1:2021 - Light and lighting - Lighting of work places",
+        "ISO 8995-1:2002/CIE S 008:2001 - Lighting of work places",
+        "IES Lighting Handbook"
+      ]
+    },
+    {
+      "claim": {
+        "text": "conversation wants 100 lux diffused across faces",
+        "claim": "Conversation lighting requires approximately 100 lux diffused illumination",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify due to lack of web search access, though the claim aligns with general lighting standards in my training data.",
+      "detail": "Web search and fetch permissions were not granted, preventing verification against current lighting standards (IES, CIBSE, or ISO documents). The 100 lux figure for conversation/social lighting appears plausible based on training knowledge but requires source verification. Typical recommendations for living spaces and conversation areas range from 100-300 lux.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the hour before sleep wants less than 50 lux in warm amber",
+        "claim": "Pre-sleep lighting should be less than 50 lux in warm color temperatures",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Research supports that pre-sleep lighting below 50 lux with warm (amber/red-shifted) color temperatures minimizes melatonin suppression and supports healthy sleep.",
+      "detail": "Multiple studies on circadian lighting demonstrate that light above 50-100 lux, particularly with blue wavelengths, suppresses melatonin production. The recommendation for <50 lux in warm/amber tones aligns with guidelines from sleep researchers and organizations like the American Academy of Sleep Medicine. Warm color temperatures (lower Kelvin values, around 2700K or below) filter out blue light wavelengths that are most disruptive to circadian rhythms. The specific 50 lux threshold is a commonly cited boundary in sleep hygiene literature.",
+      "sources": [
+        "Unable to access web sources - verdict based on established circadian lighting research principles from sleep science literature"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "California's Title 24 energy code, updated in 2019, requires dimmable controls on all residential lighting",
+          "claim": "California's Title 24 energy code was updated in 2019 to require dimmable controls on all residential lighting",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the claim due to lack of web search access to check current Title 24 requirements.",
+        "detail": "I was unable to access web search or web fetch tools to verify this claim. From general knowledge, California's 2019 Title 24 Building Energy Efficiency Standards did include enhanced lighting control requirements for residential buildings, but I cannot confirm whether the specific claim that 'dimmable controls on all residential lighting' is accurate without accessing official California Energy Commission documentation. The 2019 standards took effect January 1, 2020.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

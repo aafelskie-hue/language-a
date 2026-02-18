@@ -1,0 +1,202 @@
+{
+  "patternId": 124,
+  "patternName": "The Night Flush",
+  "timestamp": "2026-02-16T17:03:16.168Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "outdoor air temperature typically drops 10-15°C between afternoon peak and pre-dawn low",
+        "claim": "Typical diurnal temperature swing is 10-15°C between afternoon peak and pre-dawn low",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "A diurnal temperature range of 10-15°C is consistent with typical values reported in meteorological literature for continental and semi-arid climates.",
+      "detail": "Diurnal temperature variation (the difference between daily maximum and minimum temperatures) varies significantly by climate and geography. In continental interiors, semi-arid regions, and areas with low humidity, diurnal ranges of 10-15°C are typical and well-documented. Humid coastal areas tend to have smaller ranges (5-10°C), while deserts can exceed 20°C. The 10-15°C figure represents a reasonable mid-range estimate for many temperate continental locations. Unable to access web sources for verification due to tool permissions.",
+      "sources": [
+        "Unable to access web sources - assessment based on standard meteorological principles"
+      ]
+    },
+    {
+      "claim": {
+        "text": "even in continental climates like Edmonton's, where July afternoons reach 25°C but nights fall to 12°C",
+        "claim": "Edmonton July afternoons reach 25°C and nights fall to 12°C",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The nighttime low is accurate, but the daytime high is slightly overstated.",
+      "detail": "Edmonton's average July high is approximately 23°C, not 25°C as claimed. The nighttime low of 12°C is accurate. The claim overstates the daytime temperature by about 2°C, though 25°C days certainly occur frequently in Edmonton during July heat waves. Based on Environment Canada climate normals for Edmonton.",
+      "sources": [
+        "Environment Canada climate normals (from training data, not live search - web tools unavailable)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The California Energy Commission's Title 24 standards recognize this strategy for commercial buildings, allowing reduced cooling equipment sizing when night flush is incorporated with exposed thermal mass",
+        "claim": "California Title 24 energy standards allow reduced cooling equipment sizing for commercial buildings using night flush with exposed thermal mass",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify this claim through web search due to tool permission restrictions.",
+      "detail": "California Title 24 does include provisions for night ventilation precooling and thermal mass as energy efficiency strategies for commercial buildings, and the code generally allows performance-based compliance paths that can credit such strategies. However, I could not search to verify the specific claim about 'reduced cooling equipment sizing' allowances. The claim is plausible given Title 24's comprehensive approach to passive cooling strategies, but verification of the specific sizing reduction provision requires access to the current Title 24 Nonresidential Compliance Manual.",
+      "sources": [
+        "Unable to search - tool permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Givoni's landmark work on passive cooling (1994) documented that buildings with night ventilation and thermal mass maintained indoor temperatures 3-6°C below outdoor peaks in hot-dry climates",
+        "claim": "Givoni (1994) documented that buildings with night ventilation and thermal mass maintained indoor temperatures 3-6°C below outdoor peaks in hot-dry climates",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify without web search access; Givoni's 1994 work exists but specific figures need confirmation.",
+      "detail": "Baruch Givoni's 1994 book 'Passive and Low Energy Cooling of Buildings' is a real and widely-cited academic source in building science. The general claim about night ventilation and thermal mass reducing indoor temperatures in hot-dry climates is consistent with passive cooling principles. However, I could not search to confirm the specific 3-6°C figure cited. Web search permission was denied.",
+      "sources": [
+        "Unable to search - permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Santamouris et al., studying Greek office buildings in the 1990s, found that effective night cooling required air change rates of 8-12 per hour",
+        "claim": "Santamouris et al. study of Greek office buildings in the 1990s found effective night cooling required 8-12 air changes per hour",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify without web search access; Santamouris is a legitimate researcher in this field but specific ACH figures cannot be confirmed.",
+      "detail": "M. Santamouris is a well-known researcher at the University of Athens who has published extensively on passive cooling and night ventilation in Mediterranean climates since the 1990s. The claim about 8-12 ACH for effective night cooling is plausible and consistent with the general literature on night ventilation strategies. However, without web search access, I cannot verify the specific study, exact figures, or whether this was published in the 1990s as claimed.",
+      "sources": [
+        "Unable to search - based on general knowledge of Santamouris's research profile"
+      ]
+    },
+    {
+      "claim": {
+        "text": "far above the 0.5-1.0 typical of sealed buildings",
+        "claim": "Sealed buildings typically have air change rates of 0.5-1.0 per hour",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 0.5-1.0 ACH range for sealed buildings is consistent with established HVAC engineering standards and building science literature.",
+      "detail": "Air change rates of 0.5-1.0 per hour are well-documented as typical for modern sealed/tight commercial and residential buildings. ASHRAE standards and building science literature consistently cite this range for buildings with mechanical ventilation systems and tight envelopes. Older or leaky buildings typically have higher infiltration rates (1-3+ ACH), while highly efficient buildings (Passive House standard) target even lower rates around 0.3-0.6 ACH. The claim accurately represents the technical consensus.",
+      "sources": [
+        "ASHRAE Handbook - Fundamentals (general knowledge)",
+        "Building science literature on air infiltration rates (general knowledge)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "the badgirs of Yazd, the malqafs of Cairo",
+        "claim": "Badgirs (wind scoops) are a traditional architectural feature of Yazd; malqafs are a traditional feature of Cairo",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Badgirs are well-documented as traditional wind catchers of Yazd, Iran, and malqafs are the traditional Egyptian equivalent found prominently in Cairo.",
+      "detail": "Badgirs (Persian: بادگیر, meaning 'wind catcher') are iconic architectural features of Yazd, Iran, a desert city famous for having the highest concentration of these structures. Malqafs (Arabic: ملقف) are the Egyptian variant of wind catchers, historically used in traditional Cairo architecture, particularly in medieval Islamic buildings. Both are passive ventilation systems designed for hot, arid climates. This is well-established in architectural and historical literature.",
+      "sources": [
+        "Standard architectural and historical knowledge about traditional Middle Eastern ventilation systems",
+        "Unable to verify via web search due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander did not address night flush directly, though his pattern for Cross Ventilation (Alexander 162) lays the groundwork",
+        "claim": "Christopher Alexander's A Pattern Language includes a pattern numbered 162 called Cross Ventilation",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander's Pattern 162 in A Pattern Language is titled 'North Face', not 'Cross Ventilation'.",
+      "detail": "The claim incorrectly attributes the pattern number. According to A Pattern Language (1977) by Christopher Alexander et al., Pattern 162 is 'North Face', which deals with the challenges of cold, dark north-facing spaces and maximizing southern exposure for warmth and light. The pattern number for Cross Ventilation in Alexander's work appears to be different (the claim has the wrong number). The book A Pattern Language does contain patterns about ventilation, but 162 specifically is 'North Face'.",
+      "sources": [
+        "Christopher Alexander et al., A Pattern Language: Towns, Buildings, Construction (1977), Oxford University Press",
+        "Repository quality-gate verification reports (tools/quality-gate/reports/quality-gate-full-2026-02-15.txt)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "writing from Berkeley, where summers are mild",
+        "claim": "Christopher Alexander wrote A Pattern Language from Berkeley, California",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander was a professor at UC Berkeley and the Center for Environmental Structure was based in Berkeley, California, where A Pattern Language was developed.",
+      "detail": "Christopher Alexander was a professor of architecture at the University of California, Berkeley from 1963 until his retirement in the 2000s. The Center for Environmental Structure, which he founded and which produced A Pattern Language (1977), was based in Berkeley, California. This is well-documented in architectural history and Alexander's own biographical information.",
+      "sources": [
+        "Unable to access web sources in this session - verdict based on established historical record in training data"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 1,
+    "unverified": 3,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The California Energy Commission's Title 24 standards recognize this strategy for commercial buildings, allowing reduced cooling equipment sizing when night flush is incorporated with exposed thermal mass",
+          "claim": "California Title 24 energy standards allow reduced cooling equipment sizing for commercial buildings using night flush with exposed thermal mass",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify this claim through web search due to tool permission restrictions.",
+        "detail": "California Title 24 does include provisions for night ventilation precooling and thermal mass as energy efficiency strategies for commercial buildings, and the code generally allows performance-based compliance paths that can credit such strategies. However, I could not search to verify the specific claim about 'reduced cooling equipment sizing' allowances. The claim is plausible given Title 24's comprehensive approach to passive cooling strategies, but verification of the specific sizing reduction provision requires access to the current Title 24 Nonresidential Compliance Manual.",
+        "sources": [
+          "Unable to search - tool permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Givoni's landmark work on passive cooling (1994) documented that buildings with night ventilation and thermal mass maintained indoor temperatures 3-6°C below outdoor peaks in hot-dry climates",
+          "claim": "Givoni (1994) documented that buildings with night ventilation and thermal mass maintained indoor temperatures 3-6°C below outdoor peaks in hot-dry climates",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify without web search access; Givoni's 1994 work exists but specific figures need confirmation.",
+        "detail": "Baruch Givoni's 1994 book 'Passive and Low Energy Cooling of Buildings' is a real and widely-cited academic source in building science. The general claim about night ventilation and thermal mass reducing indoor temperatures in hot-dry climates is consistent with passive cooling principles. However, I could not search to confirm the specific 3-6°C figure cited. Web search permission was denied.",
+        "sources": [
+          "Unable to search - permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Santamouris et al., studying Greek office buildings in the 1990s, found that effective night cooling required air change rates of 8-12 per hour",
+          "claim": "Santamouris et al. study of Greek office buildings in the 1990s found effective night cooling required 8-12 air changes per hour",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify without web search access; Santamouris is a legitimate researcher in this field but specific ACH figures cannot be confirmed.",
+        "detail": "M. Santamouris is a well-known researcher at the University of Athens who has published extensively on passive cooling and night ventilation in Mediterranean climates since the 1990s. The claim about 8-12 ACH for effective night cooling is plausible and consistent with the general literature on night ventilation strategies. However, without web search access, I cannot verify the specific study, exact figures, or whether this was published in the 1990s as claimed.",
+        "sources": [
+          "Unable to search - based on general knowledge of Santamouris's research profile"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

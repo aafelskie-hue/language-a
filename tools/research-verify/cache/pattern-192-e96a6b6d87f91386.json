@@ -1,0 +1,200 @@
+{
+  "patternId": 192,
+  "patternName": "The Microclimate Garden",
+  "timestamp": "2026-02-17T03:29:17.597Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "A single mature shade tree transpires 100-150 litres of water on a hot day, releasing roughly 70 kWh of cooling energy — equivalent to running two small air conditioners for ten hours",
+        "claim": "A mature shade tree transpires 100-150 litres of water per hot day and releases approximately 70 kWh of cooling energy",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools are not available in the current session, preventing verification of the transpiration rate (100-150 litres) and cooling energy (70 kWh) claims. These specific figures require cross-referencing with forestry research, USDA publications, or peer-reviewed studies on tree physiology and urban heat island mitigation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The EPA's Heat Island Reduction Program documents that shaded surfaces can be 11-25°C cooler than surfaces in full sun",
+        "claim": "EPA Heat Island Reduction Program documents shaded surfaces are 11-25°C cooler than surfaces in full sun",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The EPA Heat Island Reduction Program does document that shaded surfaces are significantly cooler than unshaded surfaces, with the 11-25°C (20-45°F) range being consistent with EPA publications.",
+      "detail": "The EPA's Heat Islands website, specifically the section on trees and vegetation, states that shaded surfaces can be 20-45°F (approximately 11-25°C) cooler than surfaces in full sun. This statistic appears in EPA guidance documents on urban heat island mitigation. The Heat Island Reduction Program is a real EPA initiative focused on reducing urban heat through strategies including tree canopy, cool roofs, and cool pavements.",
+      "sources": [
+        "EPA Heat Islands - Using Trees and Vegetation to Reduce Heat Islands (epa.gov/heatislands)",
+        "Unable to verify with live web search - based on training data"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Akbari et al. (2001) at Lawrence Berkeley National Laboratory found that strategic tree placement reduces residential cooling costs by 25-40% in hot climates",
+        "claim": "Akbari et al. (2001) at Lawrence Berkeley National Laboratory found strategic tree placement reduces residential cooling costs by 25-40% in hot climates",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. Hashem Akbari is a well-known researcher at Lawrence Berkeley National Laboratory who has published extensively on urban heat islands and tree shading effects on energy use, so the attribution is plausible. However, without access to search the specific paper and verify the 25-40% figure and 2001 date, I cannot confirm this claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Melbourne's urban heat mapping, conducted during the 2009 heat wave that killed 374 people",
+        "claim": "Melbourne's 2009 heat wave killed 374 people",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The 2009 Melbourne heat wave death toll was reported as 374 excess deaths in Victoria, not specifically Melbourne alone.",
+      "detail": "The January 2009 southeastern Australia heat wave did result in significant excess deaths. Victorian authorities reported 374 excess deaths during the heat wave period (January 26 - February 1, 2009), but this figure represents Victoria state-wide, not just Melbourne specifically. The claim conflates Melbourne with Victoria, though Melbourne as the major urban center would have accounted for the majority of these deaths.",
+      "sources": [
+        "Unable to verify via web search - based on training knowledge. Victorian Department of Health reports from 2009 documented excess mortality during this period."
+      ]
+    },
+    {
+      "claim": {
+        "text": "Melbourne's urban heat mapping... showed that temperature differences of 5-7°C existed within single residential lots — between north-facing paved areas and south-facing garden beds with tree canopy",
+        "claim": "Melbourne urban heat mapping found 5-7°C temperature differences within single residential lots",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify this claim due to tool permission restrictions.",
+      "detail": "Web search was not available to verify this claim about Melbourne urban heat mapping finding 5-7°C temperature differences within single residential lots. The claim is specific and plausible given urban heat island research generally, but without access to primary sources (Melbourne city reports, academic studies) I cannot confirm the specific figures or methodology.",
+      "sources": [
+        "No sources accessible - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "he wrote from Berkeley, where summer highs rarely exceed 30°C",
+        "claim": "Berkeley, California summer high temperatures rarely exceed 30°C",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Berkeley's Mediterranean climate features moderate summer temperatures due to marine influence and fog, with average highs typically in the 20-24°C range and rarely exceeding 30°C.",
+      "detail": "Berkeley's location on San Francisco Bay with exposure to Pacific Ocean fog and marine air keeps summer temperatures moderate. Average summer highs are approximately 20-24°C (68-75°F). While heat waves occasionally push temperatures above 30°C (86°F), these events are infrequent, making 'rarely exceeds 30°C' an accurate characterization. The claim reflects Berkeley's well-documented mild Mediterranean climate.",
+      "sources": [
+        "General climatological knowledge of San Francisco Bay Area climate patterns",
+        "Unable to verify with current web sources due to tool permissions - confidence would be higher with live search"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Phoenix's Tree and Shade Master Plan (2010) established that 25% tree canopy coverage reduces neighbourhood temperatures by 3-5°C",
+        "claim": "Phoenix Tree and Shade Master Plan (2010) found 25% tree canopy coverage reduces neighbourhood temperatures by 3-5°C",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of the Phoenix Tree and Shade Master Plan claim. The Phoenix Tree and Shade Master Plan does exist as a real city program, but the specific statistic about 25% canopy coverage reducing temperatures by 3-5°C could not be confirmed without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Sacramento's Shade Tree Program, which planted 500,000 trees over two decades, measured a 1.8°C reduction in peak summer temperatures across participating neighbourhoods",
+        "claim": "Sacramento's Shade Tree Program planted 500,000 trees over two decades and measured 1.8°C reduction in peak summer temperatures",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search permission was not granted, preventing verification of the claim about Sacramento's Shade Tree Program. I could not search for primary sources from Sacramento city government, SMUD (Sacramento Municipal Utility District), or academic studies measuring the program's outcomes. This verdict reflects inability to search, not judgment on the claim's accuracy.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A single mature shade tree transpires 100-150 litres of water on a hot day, releasing roughly 70 kWh of cooling energy — equivalent to running two small air conditioners for ten hours",
+          "claim": "A mature shade tree transpires 100-150 litres of water per hot day and releases approximately 70 kWh of cooling energy",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools are not available in the current session, preventing verification of the transpiration rate (100-150 litres) and cooling energy (70 kWh) claims. These specific figures require cross-referencing with forestry research, USDA publications, or peer-reviewed studies on tree physiology and urban heat island mitigation.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Akbari et al. (2001) at Lawrence Berkeley National Laboratory found that strategic tree placement reduces residential cooling costs by 25-40% in hot climates",
+          "claim": "Akbari et al. (2001) at Lawrence Berkeley National Laboratory found strategic tree placement reduces residential cooling costs by 25-40% in hot climates",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not available during this verification attempt. Hashem Akbari is a well-known researcher at Lawrence Berkeley National Laboratory who has published extensively on urban heat islands and tree shading effects on energy use, so the attribution is plausible. However, without access to search the specific paper and verify the 25-40% figure and 2001 date, I cannot confirm this claim.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Melbourne's urban heat mapping... showed that temperature differences of 5-7°C existed within single residential lots — between north-facing paved areas and south-facing garden beds with tree canopy",
+          "claim": "Melbourne urban heat mapping found 5-7°C temperature differences within single residential lots",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify this claim due to tool permission restrictions.",
+        "detail": "Web search was not available to verify this claim about Melbourne urban heat mapping finding 5-7°C temperature differences within single residential lots. The claim is specific and plausible given urban heat island research generally, but without access to primary sources (Melbourne city reports, academic studies) I cannot confirm the specific figures or methodology.",
+        "sources": [
+          "No sources accessible - web search permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Phoenix's Tree and Shade Master Plan (2010) established that 25% tree canopy coverage reduces neighbourhood temperatures by 3-5°C",
+          "claim": "Phoenix Tree and Shade Master Plan (2010) found 25% tree canopy coverage reduces neighbourhood temperatures by 3-5°C",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification of the Phoenix Tree and Shade Master Plan claim. The Phoenix Tree and Shade Master Plan does exist as a real city program, but the specific statistic about 25% canopy coverage reducing temperatures by 3-5°C could not be confirmed without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Sacramento's Shade Tree Program, which planted 500,000 trees over two decades, measured a 1.8°C reduction in peak summer temperatures across participating neighbourhoods",
+          "claim": "Sacramento's Shade Tree Program planted 500,000 trees over two decades and measured 1.8°C reduction in peak summer temperatures",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search permission was not granted, preventing verification of the claim about Sacramento's Shade Tree Program. I could not search for primary sources from Sacramento city government, SMUD (Sacramento Municipal Utility District), or academic studies measuring the program's outcomes. This verdict reflects inability to search, not judgment on the claim's accuracy.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

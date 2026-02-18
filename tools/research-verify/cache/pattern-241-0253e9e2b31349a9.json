@@ -1,0 +1,211 @@
+{
+  "patternId": 241,
+  "patternName": "The Play Street",
+  "timestamp": "2026-02-17T06:14:37.677Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "In Bristol, UK, a resident named Alice Ferguson founded Playing Out in 2009",
+        "claim": "Alice Ferguson founded the organization Playing Out in Bristol, UK in 2009",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search the web to verify this claim about Alice Ferguson founding Playing Out in Bristol in 2009.",
+      "detail": "Web search and web fetch tools are not currently available to verify this claim. Playing Out is a known UK organization that promotes temporary street closures for children's play, and it did originate in Bristol. The organization and its Bristol origins are well-documented, but I cannot confirm the specific founder name or exact founding year without web access.",
+      "sources": [
+        "Unable to access web sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "after watching her daughters grow up without the street play she remembered from her own childhood",
+        "claim": "Alice Ferguson founded Playing Out motivated by her daughters lacking street play opportunities",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool access restrictions.",
+      "detail": "Web search and web fetch tools are not currently available to verify this claim about Alice Ferguson founding Playing Out. The claim involves specific biographical details about the founder's motivation that would require access to Playing Out's official website, news articles, or interviews to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "By the organization's own account, over 2,000 streets across the UK had registered by the early 2020s",
+        "claim": "Playing Out reported over 2,000 streets registered in the UK by the early 2020s",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to check Playing Out's statistics.",
+      "detail": "This claim requires checking Playing Out's official website or reports for their stated number of registered streets in the UK by the early 2020s. Without web search capability, I cannot access current statistics from playingout.net or other sources that would confirm or deny the '2,000 streets' figure. The claim references the organization's own account, so primary verification would require accessing their official materials.",
+      "sources": [
+        "Unable to access sources - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "New York City designated play streets as early as 1914",
+        "claim": "New York City designated play streets as early as 1914",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to confirm historical records.",
+      "detail": "I was unable to search for primary or secondary sources about New York City's play streets history. My general knowledge suggests NYC did have early play street programs in the 1910s-1920s, but I cannot confirm the specific 1914 date without access to historical records or web search. The claim is plausible but requires verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Dutch woonerven have given legal priority to pedestrians since the 1970s",
+        "claim": "Dutch woonerven (living streets) have given legal priority to pedestrians since the 1970s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions",
+      "detail": "Web search and web fetch tools were not available to verify this claim. Based on training knowledge, the claim appears directionally accurate (woonerven were legally established in Netherlands in 1976), but I cannot confirm specific details about pedestrian priority or provide source citations without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A University of Bristol study found that children on play streets were significantly more likely to play outdoors and engage in physical activity than children on comparable streets without closures",
+        "claim": "University of Bristol conducted a study finding children on play streets were significantly more likely to play outdoors and engage in physical activity compared to children on streets without closures",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were not granted permission, preventing any verification of the University of Bristol play streets study claim. This is a technical limitation, not a judgment on the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "residents reported knowing more neighbors by name, feeling safer, wanting to stay in the neighborhood longer",
+        "claim": "The University of Bristol study found residents on play streets reported knowing more neighbors by name, feeling safer, and wanting to stay in the neighborhood longer",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I was unable to search for the University of Bristol play streets study because web search permissions were not granted. The claim references a specific academic institution and specific findings about social cohesion, safety perceptions, and residential stability, but I cannot confirm whether this study exists or whether it found what the claim asserts without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Alexander, in Pattern 57 (Children in the City), argued that children need access to the whole city, not just designated play areas",
+        "claim": "Christopher Alexander's Pattern 57 in A Pattern Language is titled 'Children in the City' and argues children need access to the whole city, not just designated play areas",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Pattern 57 in A Pattern Language is correctly titled 'Children in the City' and argues children need access throughout the city, not just playgrounds.",
+      "detail": "Christopher Alexander's Pattern 57 'Children in the City' in A Pattern Language (1977) argues that children are harmed when relegated only to playgrounds and designated areas, and instead need presence and access throughout the urban environment - on streets, in shops, in workplaces. The claim accurately represents both the pattern title and its core argument that children need 'access to the whole city, not just designated play areas.'",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, and Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (1977), Pattern 57"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "In Bristol, UK, a resident named Alice Ferguson founded Playing Out in 2009",
+          "claim": "Alice Ferguson founded the organization Playing Out in Bristol, UK in 2009",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search the web to verify this claim about Alice Ferguson founding Playing Out in Bristol in 2009.",
+        "detail": "Web search and web fetch tools are not currently available to verify this claim. Playing Out is a known UK organization that promotes temporary street closures for children's play, and it did originate in Bristol. The organization and its Bristol origins are well-documented, but I cannot confirm the specific founder name or exact founding year without web access.",
+        "sources": [
+          "Unable to access web sources"
+        ]
+      },
+      {
+        "claim": {
+          "text": "By the organization's own account, over 2,000 streets across the UK had registered by the early 2020s",
+          "claim": "Playing Out reported over 2,000 streets registered in the UK by the early 2020s",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to check Playing Out's statistics.",
+        "detail": "This claim requires checking Playing Out's official website or reports for their stated number of registered streets in the UK by the early 2020s. Without web search capability, I cannot access current statistics from playingout.net or other sources that would confirm or deny the '2,000 streets' figure. The claim references the organization's own account, so primary verification would require accessing their official materials.",
+        "sources": [
+          "Unable to access sources - web search permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "New York City designated play streets as early as 1914",
+          "claim": "New York City designated play streets as early as 1914",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to confirm historical records.",
+        "detail": "I was unable to search for primary or secondary sources about New York City's play streets history. My general knowledge suggests NYC did have early play street programs in the 1910s-1920s, but I cannot confirm the specific 1914 date without access to historical records or web search. The claim is plausible but requires verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Dutch woonerven have given legal priority to pedestrians since the 1970s",
+          "claim": "Dutch woonerven (living streets) have given legal priority to pedestrians since the 1970s",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions",
+        "detail": "Web search and web fetch tools were not available to verify this claim. Based on training knowledge, the claim appears directionally accurate (woonerven were legally established in Netherlands in 1976), but I cannot confirm specific details about pedestrian priority or provide source citations without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A University of Bristol study found that children on play streets were significantly more likely to play outdoors and engage in physical activity than children on comparable streets without closures",
+          "claim": "University of Bristol conducted a study finding children on play streets were significantly more likely to play outdoors and engage in physical activity compared to children on streets without closures",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were not granted permission, preventing any verification of the University of Bristol play streets study claim. This is a technical limitation, not a judgment on the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "residents reported knowing more neighbors by name, feeling safer, wanting to stay in the neighborhood longer",
+          "claim": "The University of Bristol study found residents on play streets reported knowing more neighbors by name, feeling safer, and wanting to stay in the neighborhood longer",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I was unable to search for the University of Bristol play streets study because web search permissions were not granted. The claim references a specific academic institution and specific findings about social cohesion, safety perceptions, and residential stability, but I cannot confirm whether this study exists or whether it found what the claim asserts without web access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

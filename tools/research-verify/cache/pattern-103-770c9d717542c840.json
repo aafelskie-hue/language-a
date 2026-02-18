@@ -1,0 +1,165 @@
+{
+  "patternId": 103,
+  "patternName": "Local Material Radius",
+  "timestamp": "2026-02-16T22:20:05.349Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "Cotswold buildings are Cotswold-coloured because they are made of Cotswold limestone",
+        "claim": "Cotswold buildings are traditionally made of Cotswold limestone",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Cotswold buildings are indeed traditionally constructed from local Cotswold limestone, which gives the region its distinctive honey-colored appearance.",
+      "detail": "The Cotswolds is renowned for its distinctive architecture built from local oolitic limestone, commonly called Cotswold stone. This honey-golden limestone has been quarried locally for centuries and is the defining characteristic of villages throughout the region. The stone varies slightly in color depending on the exact quarry location, ranging from pale cream to deep honey gold.",
+      "sources": [
+        "General architectural and geological knowledge of the Cotswolds region, UK"
+      ]
+    },
+    {
+      "claim": {
+        "text": "New England buildings are clapboard and granite because those are what the forests and quarries yield",
+        "claim": "New England's traditional building materials are clapboard and granite, sourced from local forests and quarries",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to perform web search to verify this claim due to tool permission restrictions.",
+      "detail": "Web search tools were not available in this session, preventing proper verification. Based on general knowledge, the claim is historically plausible - New England is known for clapboard (wooden siding) construction using local timber and granite quarrying (particularly in Vermont, New Hampshire, and Massachusetts). However, without access to primary sources, I cannot confirm the specific historical accuracy of this claim.",
+      "sources": [
+        "No web sources accessed - tool permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Prairie towns are brick because the river-clay brickyards were the first industry",
+        "claim": "Prairie towns historically used brick because river-clay brickyards were among the first local industries",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify this historical claim about prairie town brickmaking.",
+      "detail": "Web search permissions were not granted, preventing verification of this claim. The assertion that river-clay brickyards were among the first industries in prairie towns and led to widespread brick construction is a plausible historical pattern consistent with 19th century settlement, but I could not access sources to confirm or deny the specifics. This claim would require access to regional histories, industrial archaeology sources, or architectural surveys of Midwestern towns.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "spruce-pine-fir dimensional and structural lumber from Alberta sawmills",
+        "claim": "Alberta sawmills produce spruce-pine-fir dimensional and structural lumber",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Alberta is a major producer of spruce-pine-fir (SPF) dimensional and structural lumber, a well-documented fact about Canadian forestry.",
+      "detail": "Spruce-pine-fir (SPF) is the standard lumber grade designation for softwood lumber produced across Canada's boreal forest regions, including Alberta. Alberta has a significant forestry sector with numerous sawmills producing dimensional lumber (2x4, 2x6, etc.) and structural lumber graded as SPF. This is standard industry terminology and practice throughout Western Canada.",
+      "sources": [
+        "General knowledge of Canadian forestry industry standards",
+        "SPF is an established lumber species grouping recognized by grading agencies like NLGA (National Lumber Grades Authority)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "concrete with local limestone aggregate",
+        "claim": "Limestone aggregate for concrete is available locally in the Edmonton/Alberta region",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Alberta, including the Edmonton region, has well-documented limestone deposits and active aggregate quarrying operations.",
+      "detail": "Alberta's geology includes significant carbonate rock formations, particularly in the central and western portions of the province. The Devonian-era limestone formations are extensively quarried for aggregate and cement production. Major aggregate suppliers operate in the Edmonton region, and limestone is a commonly available construction material in Alberta. This is well-established geological and industrial fact.",
+      "sources": [
+        "General geological knowledge of Alberta's Devonian limestone formations",
+        "Alberta construction industry common practice"
+      ]
+    },
+    {
+      "claim": {
+        "text": "clay brick from historical regional kilns (now limited but culturally significant)",
+        "claim": "Historical clay brick kilns existed in the Alberta region, now with limited production",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify claim due to lack of web search access, though historical brick production in Alberta is plausible given the region's clay deposits.",
+      "detail": "Alberta does have clay deposits and historical industrial activity that would support brick-making, particularly around the Medicine Hat area which was known for clay products. However, without access to web search or historical archives, I cannot confirm specific details about historical kilns, their cultural significance, or current production status. The claim is plausible but requires verification from primary sources such as Alberta heritage registries or provincial industrial history records.",
+      "sources": [
+        "Unable to access web sources - verification inconclusive"
+      ]
+    },
+    {
+      "claim": {
+        "text": "locally quarried sandstone and fieldstone",
+        "claim": "Sandstone and fieldstone are quarried locally in the Edmonton/Alberta region",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool access restrictions.",
+      "detail": "Web search and web fetch tools were unavailable during verification. From general knowledge, Alberta does have sandstone deposits, particularly in areas like the Calgary region (Paskapoo Formation), but I cannot verify specific claims about Edmonton-area quarrying or fieldstone availability without conducting actual searches. Local quarrying practices require current, specific sources to confirm.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The 150-kilometre radius is a pragmatic threshold... roughly the distance a heavy truck can deliver in a half-day round trip",
+        "claim": "150 kilometres is approximately the distance a heavy truck can complete a round-trip delivery in half a day",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for verification, but the claim appears plausible based on trucking logistics principles.",
+      "detail": "Web search tools are unavailable for verification. However, the claim is logically plausible: a 150km round trip (300km total) at typical heavy truck speeds of 60-80 km/h on regional roads would take approximately 4-5 hours of driving time, plus loading/unloading time, fitting within a half-day (~4-6 hour) operational window. This aligns with common regional distribution patterns. Without access to industry sources or logistics research, I cannot definitively confirm this specific threshold is a recognized standard.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 0,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "locally quarried sandstone and fieldstone",
+          "claim": "Sandstone and fieldstone are quarried locally in the Edmonton/Alberta region",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool access restrictions.",
+        "detail": "Web search and web fetch tools were unavailable during verification. From general knowledge, Alberta does have sandstone deposits, particularly in areas like the Calgary region (Paskapoo Formation), but I cannot verify specific claims about Edmonton-area quarrying or fieldstone availability without conducting actual searches. Local quarrying practices require current, specific sources to confirm.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The 150-kilometre radius is a pragmatic threshold... roughly the distance a heavy truck can deliver in a half-day round trip",
+          "claim": "150 kilometres is approximately the distance a heavy truck can complete a round-trip delivery in half a day",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for verification, but the claim appears plausible based on trucking logistics principles.",
+        "detail": "Web search tools are unavailable for verification. However, the claim is logically plausible: a 150km round trip (300km total) at typical heavy truck speeds of 60-80 km/h on regional roads would take approximately 4-5 hours of driving time, plus loading/unloading time, fitting within a half-day (~4-6 hour) operational window. This aligns with common regional distribution patterns. Without access to industry sources or logistics research, I cannot definitively confirm this specific threshold is a recognized standard.",
+        "sources": [
+          "Unable to access web sources for verification"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

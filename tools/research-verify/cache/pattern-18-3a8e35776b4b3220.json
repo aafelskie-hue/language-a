@@ -1,0 +1,127 @@
+{
+  "patternId": 18,
+  "patternName": "Defensible Space (Wildfire)",
+  "timestamp": "2026-02-16T20:33:50.427Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "The Firewise USA program and similar international standards have established clear zones: Zone 1 (0–5 feet) uses noncombustible materials only; Zone 2 (5–30 feet) uses fire-resistant plants with spacing to prevent fire spread; Zone 3 (30–100 feet) thins vegetation to reduce fire intensity.",
+        "claim": "Firewise USA program specifies Zone 1 (0–5 feet) for noncombustible materials only",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "Web search and web fetch tools are not available in this session. To properly verify this claim about Firewise USA Zone 1 specifications, I would need to search NFPA's official Firewise USA documentation and compare the stated zone requirements against the claim. Without this capability, I cannot confirm or deny the claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Firewise USA program and similar international standards have established clear zones: Zone 1 (0–5 feet) uses noncombustible materials only; Zone 2 (5–30 feet) uses fire-resistant plants with spacing to prevent fire spread; Zone 3 (30–100 feet) thins vegetation to reduce fire intensity.",
+        "claim": "Firewise USA program specifies Zone 2 (5–30 feet) for fire-resistant plants with spacing",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access limitations.",
+      "detail": "I was unable to access web search or fetch capabilities to verify the Firewise USA zone specifications. The claim references specific zone distances (Zone 2 at 5-30 feet with fire-resistant plants and spacing requirements) from the NFPA's Firewise USA program. This program is a real program administered by NFPA, but I cannot verify the specific zone measurements and requirements without web access to current Firewise documentation.",
+      "sources": [
+        "No sources accessible - verification tools unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Firewise USA program and similar international standards have established clear zones: Zone 1 (0–5 feet) uses noncombustible materials only; Zone 2 (5–30 feet) uses fire-resistant plants with spacing to prevent fire spread; Zone 3 (30–100 feet) thins vegetation to reduce fire intensity.",
+        "claim": "Firewise USA program specifies Zone 3 (30–100 feet) for thinned vegetation",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were blocked, preventing verification of this claim. Based on prior knowledge, the Firewise USA program does define defensible space zones including Zone 3 at 30-100 feet with thinning recommendations, but this cannot be confirmed against current official sources without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the thirty-meter zone around every building becomes the difference between survival and total loss",
+        "claim": "Thirty meters (approximately 100 feet) is the critical defensible space distance for building survival in wildfires",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions required to check authoritative sources.",
+      "detail": "Web search and web fetch tools were not granted permission to execute. The 100-foot/30-meter defensible space guideline appears in my training data as a common reference point from agencies like CAL FIRE, but I cannot confirm current guidelines or whether the specific framing of this distance as 'the difference between survival and total loss' is accurate without accessing authoritative sources.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The Firewise USA program and similar international standards have established clear zones: Zone 1 (0–5 feet) uses noncombustible materials only; Zone 2 (5–30 feet) uses fire-resistant plants with spacing to prevent fire spread; Zone 3 (30–100 feet) thins vegetation to reduce fire intensity.",
+          "claim": "Firewise USA program specifies Zone 1 (0–5 feet) for noncombustible materials only",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access in this environment.",
+        "detail": "Web search and web fetch tools are not available in this session. To properly verify this claim about Firewise USA Zone 1 specifications, I would need to search NFPA's official Firewise USA documentation and compare the stated zone requirements against the claim. Without this capability, I cannot confirm or deny the claim.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Firewise USA program and similar international standards have established clear zones: Zone 1 (0–5 feet) uses noncombustible materials only; Zone 2 (5–30 feet) uses fire-resistant plants with spacing to prevent fire spread; Zone 3 (30–100 feet) thins vegetation to reduce fire intensity.",
+          "claim": "Firewise USA program specifies Zone 2 (5–30 feet) for fire-resistant plants with spacing",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access limitations.",
+        "detail": "I was unable to access web search or fetch capabilities to verify the Firewise USA zone specifications. The claim references specific zone distances (Zone 2 at 5-30 feet with fire-resistant plants and spacing requirements) from the NFPA's Firewise USA program. This program is a real program administered by NFPA, but I cannot verify the specific zone measurements and requirements without web access to current Firewise documentation.",
+        "sources": [
+          "No sources accessible - verification tools unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Firewise USA program and similar international standards have established clear zones: Zone 1 (0–5 feet) uses noncombustible materials only; Zone 2 (5–30 feet) uses fire-resistant plants with spacing to prevent fire spread; Zone 3 (30–100 feet) thins vegetation to reduce fire intensity.",
+          "claim": "Firewise USA program specifies Zone 3 (30–100 feet) for thinned vegetation",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were blocked, preventing verification of this claim. Based on prior knowledge, the Firewise USA program does define defensible space zones including Zone 3 at 30-100 feet with thinning recommendations, but this cannot be confirmed against current official sources without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "the thirty-meter zone around every building becomes the difference between survival and total loss",
+          "claim": "Thirty meters (approximately 100 feet) is the critical defensible space distance for building survival in wildfires",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions required to check authoritative sources.",
+        "detail": "Web search and web fetch tools were not granted permission to execute. The 100-foot/30-meter defensible space guideline appears in my training data as a common reference point from agencies like CAL FIRE, but I cannot confirm current guidelines or whether the specific framing of this distance as 'the difference between survival and total loss' is accurate without accessing authoritative sources.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

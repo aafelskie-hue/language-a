@@ -1,0 +1,231 @@
+{
+  "patternId": 149,
+  "patternName": "The Snow Storage Landscape",
+  "timestamp": "2026-02-16T17:38:48.748Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "Edmonton clears approximately 10,000 lane-kilometers of roads after major snow events",
+        "claim": "Edmonton clears approximately 10,000 lane-kilometers of roads after major snow events",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to find Edmonton snow clearing statistics.",
+      "detail": "This claim requires searching Edmonton city government sources or news reports about their snow clearing operations. Without web search or fetch capabilities, I cannot access current municipal data about Edmonton's road clearing statistics. The claim is specific enough (10,000 lane-kilometers) that it could be verified against official City of Edmonton transportation data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The City's 2023 Snow and Ice Control Policy identifies 'snow storage' as a key design consideration for new developments",
+        "claim": "Edmonton's 2023 Snow and Ice Control Policy identifies snow storage as a key design consideration for new developments",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this claim as web search tools are not available in this session.",
+      "detail": "I attempted to search for Edmonton's 2023 Snow and Ice Control Policy to verify whether it identifies snow storage as a key design consideration for new developments, but web search and fetch capabilities are not currently accessible. Edmonton does have a Snow and Ice Control Policy and snow storage is a known consideration in winter city planning, but I cannot confirm the specific 2023 policy language or whether 'snow storage' is explicitly called out as a 'key design consideration for new developments' as claimed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the City's Urban Forest Management Plan documents repeated shrub mortality along collector roads where plow operators have no alternative to burying vegetation",
+        "claim": "Edmonton's Urban Forest Management Plan documents shrub mortality along collector roads due to snow burial",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access limitations.",
+      "detail": "I was unable to perform web searches or fetch Edmonton's Urban Forest Management Plan document to verify whether it contains documentation about shrub mortality along collector roads from snow burial. The claim is specific and plausible given Edmonton's climate and urban forestry challenges, but cannot be confirmed without accessing the actual document or related sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "snow piles at corners reduce pedestrian visibility to below the 2.4-meter sightline triangle required by Transportation Association of Canada guidelines",
+        "claim": "Transportation Association of Canada guidelines require a 2.4-meter sightline triangle for pedestrian visibility at corners",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for TAC guidelines due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are not available in this environment, preventing verification of the specific 2.4-meter sightline triangle requirement in TAC guidelines. The claim is technical and specific enough that it may be accurate, but without access to TAC publications or secondary sources discussing these standards, I cannot confirm or deny it.",
+      "sources": [
+        "No sources accessible - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Public Works data shows that spring melt events generate peak flows in the storm system that exceed design capacity, contributing to combined sewer overflows in older neighborhoods",
+        "claim": "Edmonton Public Works data shows spring melt events exceed storm system design capacity and contribute to combined sewer overflows",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify the specific claim about Edmonton Public Works data due to lack of web search access.",
+      "detail": "Edmonton does have combined sewer systems in older neighborhoods, and spring melt events are known to cause capacity issues in northern cities with combined sewer infrastructure. However, I cannot verify that Edmonton Public Works has published specific data showing spring melt events exceed storm system design capacity. The claim is plausible given Edmonton's climate and urban infrastructure challenges, but without access to search tools, I cannot confirm the specific data attribution to Public Works.",
+      "sources": [
+        "Unable to access web sources - verification requires web search capability"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Trondheim, Norway, designates 'snødeponi' zones in every neighborhood — graded depressions, typically 50 to 200 square meters, located downslope from cleared areas and planted with salt-tolerant willows and sedges",
+        "claim": "Trondheim, Norway designates 'snødeponi' (snow depot) zones in every neighborhood, typically 50 to 200 square meters, planted with salt-tolerant willows and sedges",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; claim contains highly specific details that require primary source verification.",
+      "detail": "The claim describes a very specific municipal program in Trondheim, Norway with precise details about zone sizes (50-200 square meters), presence in 'every neighborhood,' and specific plantings (salt-tolerant willows and sedges). While 'snødeponi' is a legitimate Norwegian term for snow storage/depot areas, I could not verify whether Trondheim has a systematic neighborhood-level program with these exact specifications. Norwegian municipal snow management programs exist, but the specific claims about universal neighborhood coverage and bioengineering elements require verification from Trondheim kommune sources.",
+      "sources": [
+        "Unable to access web sources - verification requires search permission"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Helsinki's 2019 snow management plan requires all new developments over 1,000 square meters of impervious surface to demonstrate on-site snow storage capacity equal to 150 millimeters of snow water equivalent",
+        "claim": "Helsinki's 2019 snow management plan requires developments over 1,000 square meters of impervious surface to have on-site snow storage capacity equal to 150mm snow water equivalent",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to web search being unavailable.",
+      "detail": "Web search access was not granted, preventing verification of this specific claim about Helsinki's 2019 snow management plan. The claim contains very specific technical details (1,000 sqm threshold, 150mm snow water equivalent) that would require access to Helsinki city planning documents or Finnish municipal regulations to verify. Without search capability, I cannot confirm whether this plan exists or contains these specific requirements.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "150 millimeters of snow water equivalent — roughly a 40-centimeter snowfall",
+        "claim": "150 millimeters of snow water equivalent equals roughly 40 centimeters of snowfall",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "The conversion implies an unusually dense snow ratio of approximately 2.7:1, far below the standard 10:1 average ratio.",
+      "detail": "Standard meteorological practice uses a 10:1 snow-to-water ratio as the average, meaning 150mm SWE would typically produce approximately 150cm of snowfall, not 40cm. A 40cm snowfall from 150mm SWE implies a ratio of ~2.7:1, which represents extremely dense, wet snow that is atypical. While snow density varies widely (5:1 for very wet snow to 20:1+ for powder), the 2.7:1 ratio stated here is at the extreme end. The claim may be technically possible in very specific wet snow conditions but misrepresents typical SWE-to-snowfall conversions.",
+      "sources": [
+        "Standard meteorological snow-water equivalent ratios (10:1 average, range 5:1 to 20:1)",
+        "National Weather Service snow measurement guidelines"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A single 20-centimeter snowfall on a 500-square-meter parking lot produces roughly 10 cubic meters of snow",
+        "claim": "A 20-centimeter snowfall on a 500-square-meter area produces roughly 10 cubic meters of snow",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.99,
+      "summary": "The mathematical calculation shows the volume should be 100 cubic meters, not 10 cubic meters — a factor of 10 error.",
+      "detail": "Basic volume calculation: 500 m² × 0.20 m = 100 m³. The claim is off by exactly one order of magnitude. This appears to be an arithmetic error, possibly from miscalculating 20 cm as 0.02 m instead of 0.20 m, or simply a typo (10 instead of 100). The formula used is correct; only the numerical result is wrong.",
+      "sources": [
+        "Mathematical calculation: Volume = Length × Width × Height (or Area × Depth)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 7,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The City's 2023 Snow and Ice Control Policy identifies 'snow storage' as a key design consideration for new developments",
+          "claim": "Edmonton's 2023 Snow and Ice Control Policy identifies snow storage as a key design consideration for new developments",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this claim as web search tools are not available in this session.",
+        "detail": "I attempted to search for Edmonton's 2023 Snow and Ice Control Policy to verify whether it identifies snow storage as a key design consideration for new developments, but web search and fetch capabilities are not currently accessible. Edmonton does have a Snow and Ice Control Policy and snow storage is a known consideration in winter city planning, but I cannot confirm the specific 2023 policy language or whether 'snow storage' is explicitly called out as a 'key design consideration for new developments' as claimed.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "the City's Urban Forest Management Plan documents repeated shrub mortality along collector roads where plow operators have no alternative to burying vegetation",
+          "claim": "Edmonton's Urban Forest Management Plan documents shrub mortality along collector roads due to snow burial",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool access limitations.",
+        "detail": "I was unable to perform web searches or fetch Edmonton's Urban Forest Management Plan document to verify whether it contains documentation about shrub mortality along collector roads from snow burial. The claim is specific and plausible given Edmonton's climate and urban forestry challenges, but cannot be confirmed without accessing the actual document or related sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "snow piles at corners reduce pedestrian visibility to below the 2.4-meter sightline triangle required by Transportation Association of Canada guidelines",
+          "claim": "Transportation Association of Canada guidelines require a 2.4-meter sightline triangle for pedestrian visibility at corners",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for TAC guidelines due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are not available in this environment, preventing verification of the specific 2.4-meter sightline triangle requirement in TAC guidelines. The claim is technical and specific enough that it may be accurate, but without access to TAC publications or secondary sources discussing these standards, I cannot confirm or deny it.",
+        "sources": [
+          "No sources accessible - web search unavailable"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Public Works data shows that spring melt events generate peak flows in the storm system that exceed design capacity, contributing to combined sewer overflows in older neighborhoods",
+          "claim": "Edmonton Public Works data shows spring melt events exceed storm system design capacity and contribute to combined sewer overflows",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify the specific claim about Edmonton Public Works data due to lack of web search access.",
+        "detail": "Edmonton does have combined sewer systems in older neighborhoods, and spring melt events are known to cause capacity issues in northern cities with combined sewer infrastructure. However, I cannot verify that Edmonton Public Works has published specific data showing spring melt events exceed storm system design capacity. The claim is plausible given Edmonton's climate and urban infrastructure challenges, but without access to search tools, I cannot confirm the specific data attribution to Public Works.",
+        "sources": [
+          "Unable to access web sources - verification requires web search capability"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Trondheim, Norway, designates 'snødeponi' zones in every neighborhood — graded depressions, typically 50 to 200 square meters, located downslope from cleared areas and planted with salt-tolerant willows and sedges",
+          "claim": "Trondheim, Norway designates 'snødeponi' (snow depot) zones in every neighborhood, typically 50 to 200 square meters, planted with salt-tolerant willows and sedges",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; claim contains highly specific details that require primary source verification.",
+        "detail": "The claim describes a very specific municipal program in Trondheim, Norway with precise details about zone sizes (50-200 square meters), presence in 'every neighborhood,' and specific plantings (salt-tolerant willows and sedges). While 'snødeponi' is a legitimate Norwegian term for snow storage/depot areas, I could not verify whether Trondheim has a systematic neighborhood-level program with these exact specifications. Norwegian municipal snow management programs exist, but the specific claims about universal neighborhood coverage and bioengineering elements require verification from Trondheim kommune sources.",
+        "sources": [
+          "Unable to access web sources - verification requires search permission"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Helsinki's 2019 snow management plan requires all new developments over 1,000 square meters of impervious surface to demonstrate on-site snow storage capacity equal to 150 millimeters of snow water equivalent",
+          "claim": "Helsinki's 2019 snow management plan requires developments over 1,000 square meters of impervious surface to have on-site snow storage capacity equal to 150mm snow water equivalent",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to web search being unavailable.",
+        "detail": "Web search access was not granted, preventing verification of this specific claim about Helsinki's 2019 snow management plan. The claim contains very specific technical details (1,000 sqm threshold, 150mm snow water equivalent) that would require access to Helsinki city planning documents or Finnish municipal regulations to verify. Without search capability, I cannot confirm whether this plan exists or contains these specific requirements.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ☆☆ should be reviewed and potentially downgraded."
+  }
+}

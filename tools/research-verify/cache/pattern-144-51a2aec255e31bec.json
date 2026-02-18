@@ -1,0 +1,248 @@
+{
+  "patternId": 144,
+  "patternName": "The Biophilic Workplace",
+  "timestamp": "2026-02-17T01:18:19.047Z",
+  "model": "claude-code-cli",
+  "totalClaims": 11,
+  "results": [
+    {
+      "claim": {
+        "text": "The 2015 Human Spaces Report, a global study of 7,600 office workers across 16 countries conducted by Interface and Terrapin Bright Green",
+        "claim": "Human Spaces Report (2015) surveyed 7,600 office workers across 16 countries and was conducted by Interface and Terrapin Bright Green",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access.",
+      "detail": "I was unable to search the web to verify the details of the Human Spaces Report 2015, including the number of office workers surveyed (7,600), the number of countries (16), or the organizations involved (Interface and Terrapin Bright Green). This claim requires web search access to verify against primary sources from Interface or Terrapin Bright Green.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "employees in offices with natural elements — plants, daylight, views of nature — reported 15% higher wellbeing scores than those in environments without",
+        "claim": "Human Spaces Report found 15% higher wellbeing scores for employees in offices with natural elements",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify the specific 15% wellbeing figure without web search access to confirm against the original Human Spaces Report.",
+      "detail": "The Human Spaces Report (2015) by Interface is a real study that examined biophilic design in workplaces across 16 countries with 7,600 respondents. The study did find significant wellbeing benefits from natural elements in offices. However, I cannot confirm the exact 15% figure without access to web search to verify against the primary source. The claim is plausible given the study's known findings about biophilic design impacts.",
+      "sources": [
+        "Unable to access web sources - verification requires web search permission"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The same study found a 6% increase in self-reported productivity",
+        "claim": "Human Spaces Report found 6% increase in self-reported productivity for workers with natural light and greenery",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access; however, the Human Spaces Report is a real study by Interface that examined biophilic design in workplaces.",
+      "detail": "The Human Spaces Report (conducted by Interface with research partner Robertson Cooper) is a legitimate global study on workplace design. It did find that biophilic design elements like natural light and plants improved well-being and productivity. However, without active web search, I cannot confirm the specific 6% productivity figure. My prior knowledge suggests the report found approximately 6% productivity improvement and 15% well-being improvement, but I cannot verify the exact statistic.",
+      "sources": [
+        "Unable to access web sources - verification requires web search permission"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a 15% increase in creativity among workers with access to natural light and greenery",
+        "claim": "Human Spaces Report found 15% increase in creativity among workers with access to natural light and greenery",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The Human Spaces Report is a real study conducted by Interface in partnership with research organizations, examining biophilic design in workplaces. Based on prior knowledge, this report does exist and contains statistics about creativity and natural elements, but I cannot confirm the exact 15% figure without access to search tools.",
+      "sources": [
+        "Unable to search - verification tools not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Browning, Ryan, and Clancy's 2014 framework '14 Patterns of Biophilic Design'",
+        "claim": "Browning, Ryan, and Clancy authored '14 Patterns of Biophilic Design' in 2014",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The 14 Patterns of Biophilic Design was authored by Browning, Ryan, and Clancy and published by Terrapin Bright Green in 2014.",
+      "detail": "This is a well-documented publication in the biophilic design field. The full author names are William Browning, Catherine Ryan, and Joseph Clancy. The document was published by Terrapin Bright Green, a sustainability consulting firm. This framework is widely cited in academic and professional literature on biophilic design.",
+      "sources": [
+        "Terrapin Bright Green - 14 Patterns of Biophilic Design (2014)",
+        "Training knowledge - unable to perform live web search to confirm"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Kellert and Calabrese's 2015 'Practice of Biophilic Design'",
+        "claim": "Kellert and Calabrese authored 'Practice of Biophilic Design' in 2015",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Stephen Kellert and Elizabeth Calabrese co-authored 'The Practice of Biophilic Design' in 2015.",
+      "detail": "Stephen R. Kellert and Elizabeth F. Calabrese published 'The Practice of Biophilic Design' in 2015. This is a well-known foundational text in the biophilic design field. Kellert was a professor at Yale University and a leading scholar on biophilia and nature-human connections until his death in 2016. The document is widely cited in academic and professional literature on biophilic design.",
+      "sources": [
+        "Kellert, S.R. and Calabrese, E.F. (2015). The Practice of Biophilic Design. www.biophilic-design.com"
+      ]
+    },
+    {
+      "claim": {
+        "text": "views of vegetation reduce systolic blood pressure by 3-5 mmHg",
+        "claim": "Views of vegetation reduce systolic blood pressure by 3-5 mmHg",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources due to tool permission restrictions.",
+      "detail": "This claim about vegetation views reducing systolic blood pressure by 3-5 mmHg is plausible based on the broader body of research on nature exposure and cardiovascular health. Studies by researchers like Roger Ulrich and others have documented physiological benefits of nature views, including stress reduction and cardiovascular effects. However, without the ability to search for the specific source of this statistic, I cannot confirm the exact 3-5 mmHg figure.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Amazon's Spheres in Seattle house 40,000 plants from 30 countries within three interconnected glass domes",
+        "claim": "Amazon's Spheres in Seattle contain 40,000 plants from 30 countries in three interconnected glass domes",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "The claim references specific statistics about the Amazon Spheres (40,000 plants, 30 countries, 3 glass domes) that require verification against official Amazon sources or credible reporting. Web search tools are not available in this session to confirm these figures. Based on general knowledge, the Amazon Spheres do exist and are known for housing thousands of plants, but exact numbers cannot be confirmed without source access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Apple Park in Cupertino planted 9,000 trees",
+        "claim": "Apple Park in Cupertino has 9,000 trees planted",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The claim about 9,000 trees at Apple Park is a commonly cited figure that would need to be verified against Apple's official documentation or credible reporting. Without search capability, I cannot confirm or deny the accuracy of this specific number.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The WELL Building Standard, now with over 4,000 registered projects globally",
+        "claim": "WELL Building Standard has over 4,000 registered projects globally",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the claim due to lack of web search access to find current WELL Building Standard statistics.",
+      "detail": "Web search and fetch permissions were not available to check current WELL Building Standard project counts. The International WELL Building Institute (IWBI) publishes project statistics, but without access to their website or recent reports, I cannot confirm whether the 4,000+ registered projects figure is accurate. This claim requires verification against IWBI's official data.",
+      "sources": [
+        "Unable to access sources - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "includes biophilia as one of its core preconditions",
+        "claim": "WELL Building Standard includes biophilia as a core precondition",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "WELL Building Standard includes biophilia features but they are optimizations, not preconditions.",
+      "detail": "The WELL Building Standard v2 includes biophilia-related features under the 'Mind' concept (specifically features like 'Biophilia I - Qualitative' and 'Biophilia II - Quantitative'), but these are classified as 'optimizations' rather than 'preconditions.' In WELL terminology, preconditions are mandatory requirements while optimizations are optional point-earning features. The claim overstates biophilia's status within the certification framework.",
+      "sources": [
+        "Knowledge of WELL v2 certification structure - requires web verification for current status"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 8,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The 2015 Human Spaces Report, a global study of 7,600 office workers across 16 countries conducted by Interface and Terrapin Bright Green",
+          "claim": "Human Spaces Report (2015) surveyed 7,600 office workers across 16 countries and was conducted by Interface and Terrapin Bright Green",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access.",
+        "detail": "I was unable to search the web to verify the details of the Human Spaces Report 2015, including the number of office workers surveyed (7,600), the number of countries (16), or the organizations involved (Interface and Terrapin Bright Green). This claim requires web search access to verify against primary sources from Interface or Terrapin Bright Green.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "employees in offices with natural elements — plants, daylight, views of nature — reported 15% higher wellbeing scores than those in environments without",
+          "claim": "Human Spaces Report found 15% higher wellbeing scores for employees in offices with natural elements",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify the specific 15% wellbeing figure without web search access to confirm against the original Human Spaces Report.",
+        "detail": "The Human Spaces Report (2015) by Interface is a real study that examined biophilic design in workplaces across 16 countries with 7,600 respondents. The study did find significant wellbeing benefits from natural elements in offices. However, I cannot confirm the exact 15% figure without access to web search to verify against the primary source. The claim is plausible given the study's known findings about biophilic design impacts.",
+        "sources": [
+          "Unable to access web sources - verification requires web search permission"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The same study found a 6% increase in self-reported productivity",
+          "claim": "Human Spaces Report found 6% increase in self-reported productivity for workers with natural light and greenery",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access; however, the Human Spaces Report is a real study by Interface that examined biophilic design in workplaces.",
+        "detail": "The Human Spaces Report (conducted by Interface with research partner Robertson Cooper) is a legitimate global study on workplace design. It did find that biophilic design elements like natural light and plants improved well-being and productivity. However, without active web search, I cannot confirm the specific 6% productivity figure. My prior knowledge suggests the report found approximately 6% productivity improvement and 15% well-being improvement, but I cannot verify the exact statistic.",
+        "sources": [
+          "Unable to access web sources - verification requires web search permission"
+        ]
+      },
+      {
+        "claim": {
+          "text": "a 15% increase in creativity among workers with access to natural light and greenery",
+          "claim": "Human Spaces Report found 15% increase in creativity among workers with access to natural light and greenery",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The Human Spaces Report is a real study conducted by Interface in partnership with research organizations, examining biophilic design in workplaces. Based on prior knowledge, this report does exist and contains statistics about creativity and natural elements, but I cannot confirm the exact 15% figure without access to search tools.",
+        "sources": [
+          "Unable to search - verification tools not available"
+        ]
+      },
+      {
+        "claim": {
+          "text": "views of vegetation reduce systolic blood pressure by 3-5 mmHg",
+          "claim": "Views of vegetation reduce systolic blood pressure by 3-5 mmHg",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources due to tool permission restrictions.",
+        "detail": "This claim about vegetation views reducing systolic blood pressure by 3-5 mmHg is plausible based on the broader body of research on nature exposure and cardiovascular health. Studies by researchers like Roger Ulrich and others have documented physiological benefits of nature views, including stress reduction and cardiovascular effects. However, without the ability to search for the specific source of this statistic, I cannot confirm the exact 3-5 mmHg figure.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

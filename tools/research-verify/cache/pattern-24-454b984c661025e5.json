@@ -1,0 +1,75 @@
+{
+  "patternId": 24,
+  "patternName": "The Four-Season Greenhouse",
+  "timestamp": "2026-02-16T20:44:38.876Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "In Edmonton, with a frost-free growing season of roughly 120 days",
+        "claim": "Edmonton has a frost-free growing season of approximately 120 days",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions in this environment.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The claim of approximately 120 frost-free days for Edmonton is plausible given the city's northern continental climate, but I cannot confirm the specific number without access to authoritative sources like Environment Canada or Edmonton city data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "winter temperatures reaching -30°C",
+        "claim": "Edmonton winter temperatures reach -30°C",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Edmonton, Alberta regularly experiences winter temperatures reaching -30°C or below.",
+      "detail": "Edmonton is known for its extreme continental climate with very cold winters. Based on historical climate data, temperatures of -30°C are not uncommon during winter months (December-February), with record lows reaching well below -40°C. Environment Canada climate normals show Edmonton experiences multiple days per winter below -30°C. This is a well-established fact about Edmonton's climate.",
+      "sources": [
+        "Unable to verify via web search - assessment based on training knowledge of Edmonton climate data from Environment Canada"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Insulate the north, east, and west walls to R-40 or better",
+        "claim": "R-40 is an appropriate/recommended insulation level for passive solar greenhouse walls in cold climates",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "R-40 is at the high end of recommendations for passive solar greenhouse walls; typical recommendations range from R-20 to R-40 depending on climate severity.",
+      "detail": "Passive solar greenhouse design literature generally recommends R-20 to R-30 for insulated walls (north, east, west) in cold climates, with R-40 representing best practice for extremely cold climates (USDA zones 3-4 or colder). The USDA and various extension services typically cite R-19 to R-30 as adequate for most cold climate greenhouses. R-40 is appropriate for very cold regions but stating it as the baseline recommendation may be overly stringent for moderately cold climates. The claim is directionally correct but R-40 represents the upper range rather than a standard recommendation.",
+      "sources": [
+        "Unable to verify with live web search - assessment based on training data knowledge of passive solar greenhouse design standards"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "In Edmonton, with a frost-free growing season of roughly 120 days",
+          "claim": "Edmonton has a frost-free growing season of approximately 120 days",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions in this environment.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The claim of approximately 120 frost-free days for Edmonton is plausible given the city's northern continental climate, but I cannot confirm the specific number without access to authoritative sources like Environment Canada or Edmonton city data.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ★☆ until additional sources are found."
+  }
+}

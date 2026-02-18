@@ -1,0 +1,75 @@
+{
+  "patternId": 42,
+  "patternName": "Common Ground",
+  "timestamp": "2026-02-16T21:01:42.515Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "reserve at least 10% of the land area as common ground",
+        "claim": "10% of land area is the recommended minimum for common ground in neighborhoods",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for corroborating sources due to web search being unavailable.",
+      "detail": "The 10% figure is consistent with Christopher Alexander's 'A Pattern Language' Pattern #67 (Common Land), which recommends this minimum. However, without web search access, I cannot verify whether this figure is supported by current urban planning standards, research, or other authoritative sources. The claim may be accurate but requires external verification.",
+      "sources": [
+        "Unable to search - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "every resident should be within a two-minute walk of at least one common space",
+        "claim": "Two-minute walk is the recommended maximum distance to common space",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find authoritative urban planning standards.",
+      "detail": "Web search was unavailable to check this claim. While urban planning does have various walkability standards (like 10-minute walk to parks), I could not confirm whether 'two-minute walk' is a specific recommended maximum for common spaces. This claim may originate from cohousing literature, New Urbanist principles, or Christopher Alexander's Pattern Language, but verification requires searching current sources.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "reserve at least 10% of the land area as common ground",
+          "claim": "10% of land area is the recommended minimum for common ground in neighborhoods",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for corroborating sources due to web search being unavailable.",
+        "detail": "The 10% figure is consistent with Christopher Alexander's 'A Pattern Language' Pattern #67 (Common Land), which recommends this minimum. However, without web search access, I cannot verify whether this figure is supported by current urban planning standards, research, or other authoritative sources. The claim may be accurate but requires external verification.",
+        "sources": [
+          "Unable to search - web search permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "every resident should be within a two-minute walk of at least one common space",
+          "claim": "Two-minute walk is the recommended maximum distance to common space",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find authoritative urban planning standards.",
+        "detail": "Web search was unavailable to check this claim. While urban planning does have various walkability standards (like 10-minute walk to parks), I could not confirm whether 'two-minute walk' is a specific recommended maximum for common spaces. This claim may originate from cohousing literature, New Urbanist principles, or Christopher Alexander's Pattern Language, but verification requires searching current sources.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

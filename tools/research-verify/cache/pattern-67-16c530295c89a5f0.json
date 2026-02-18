@@ -1,0 +1,101 @@
+{
+  "patternId": 67,
+  "patternName": "Separated Stormwater",
+  "timestamp": "2026-02-16T21:31:10.598Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "Philadelphia, Copenhagen, and Melbourne have all demonstrated that lot-level separation is more cost-effective than pipe replacement",
+        "claim": "Philadelphia has demonstrated that lot-level stormwater separation is more cost-effective than pipe replacement",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to web search permission not being granted.",
+      "detail": "Web search was required but not authorized during this verification session. Philadelphia does have a Green City, Clean Waters program that emphasizes green infrastructure over traditional gray infrastructure, which is directionally related to this claim, but the specific assertion about 'lot-level separation' versus 'pipe replacement' cost-effectiveness could not be verified against primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Philadelphia, Copenhagen, and Melbourne have all demonstrated that lot-level separation is more cost-effective than pipe replacement",
+        "claim": "Copenhagen has demonstrated that lot-level stormwater separation is more cost-effective than pipe replacement",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to find primary sources on Copenhagen's stormwater management economics.",
+      "detail": "Copenhagen is known for its 2012 Cloudburst Management Plan which does incorporate green infrastructure and surface water management as alternatives to expanded sewer capacity. However, I could not search for specific studies or official reports comparing lot-level separation costs to pipe replacement costs. The claim uses the specific term 'lot-level stormwater separation' which may or may not align with Copenhagen's actual approach terminology.",
+      "sources": [
+        "Unable to access web search to verify sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Philadelphia, Copenhagen, and Melbourne have all demonstrated that lot-level separation is more cost-effective than pipe replacement",
+        "claim": "Melbourne has demonstrated that lot-level stormwater separation is more cost-effective than pipe replacement",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search permissions were not granted, preventing verification of the claim about Melbourne's stormwater separation cost-effectiveness. The claim cannot be confirmed or denied without access to search for Melbourne Water reports, Australian government documents, or academic studies on stormwater infrastructure economics.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Philadelphia, Copenhagen, and Melbourne have all demonstrated that lot-level separation is more cost-effective than pipe replacement",
+          "claim": "Philadelphia has demonstrated that lot-level stormwater separation is more cost-effective than pipe replacement",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to web search permission not being granted.",
+        "detail": "Web search was required but not authorized during this verification session. Philadelphia does have a Green City, Clean Waters program that emphasizes green infrastructure over traditional gray infrastructure, which is directionally related to this claim, but the specific assertion about 'lot-level separation' versus 'pipe replacement' cost-effectiveness could not be verified against primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Philadelphia, Copenhagen, and Melbourne have all demonstrated that lot-level separation is more cost-effective than pipe replacement",
+          "claim": "Copenhagen has demonstrated that lot-level stormwater separation is more cost-effective than pipe replacement",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to find primary sources on Copenhagen's stormwater management economics.",
+        "detail": "Copenhagen is known for its 2012 Cloudburst Management Plan which does incorporate green infrastructure and surface water management as alternatives to expanded sewer capacity. However, I could not search for specific studies or official reports comparing lot-level separation costs to pipe replacement costs. The claim uses the specific term 'lot-level stormwater separation' which may or may not align with Copenhagen's actual approach terminology.",
+        "sources": [
+          "Unable to access web search to verify sources"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Philadelphia, Copenhagen, and Melbourne have all demonstrated that lot-level separation is more cost-effective than pipe replacement",
+          "claim": "Melbourne has demonstrated that lot-level stormwater separation is more cost-effective than pipe replacement",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search permissions were not granted, preventing verification of the claim about Melbourne's stormwater separation cost-effectiveness. The claim cannot be confirmed or denied without access to search for Melbourne Water reports, Australian government documents, or academic studies on stormwater infrastructure economics.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

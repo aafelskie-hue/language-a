@@ -1,0 +1,95 @@
+{
+  "patternId": 4,
+  "patternName": "The Mobility Hub",
+  "timestamp": "2026-02-16T20:07:51.079Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Bremen's mobil.punkt stations — sheltered transfer points with transit, bike parking, car-share, and real-time information in a single location — reduced car ownership by 15% in surrounding blocks",
+        "claim": "Bremen's mobil.punkt stations reduced car ownership by 15% in surrounding blocks",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific 15% car ownership reduction statistic due to lack of web search access.",
+      "detail": "Bremen's mobil.punkt program is a real mobility hub initiative that has been studied and documented. However, without access to web search, I cannot verify the specific claim that car ownership decreased by 15% in surrounding blocks. The mobil.punkt concept exists and is associated with positive mobility outcomes, but the precise statistic requires confirmation from primary sources such as city reports or academic studies.",
+      "sources": [
+        "Unable to search - web tools not authorized"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Bremen's mobil.punkt stations — sheltered transfer points with transit, bike parking, car-share, and real-time information in a single location",
+        "claim": "Bremen has a program called mobil.punkt stations that combine transit, bike parking, car-share, and real-time information",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Bremen's mobil.punkt program is a well-documented mobility hub initiative that integrates car-sharing with public transit, and has been studied as a European best practice since its inception around 2003.",
+      "detail": "The mobil.punkt program in Bremen is extensively documented in European transport literature. The core elements described (transit proximity, car-share integration, and multimodal design) are accurate. The program was pioneered by Bremen and has been featured in ELTIS case studies and academic research on mobility hubs. While the exact combination of features may vary by station (bike parking and real-time information availability differs across locations), the program's design intent matches the claim. Confidence is 0.85 rather than higher because web search was unavailable to confirm current program details.",
+      "sources": [
+        "Training knowledge based on ELTIS case studies and European mobility hub research",
+        "Academic literature on German Mobilitätsstationen"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Oslo, Vienna, and Singapore have implemented similar programs",
+        "claim": "Oslo, Vienna, and Singapore have implemented mobility hub programs similar to Bremen's mobil.punkt",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Bremen's mobil.punkt exists and several European cities have mobility hubs, but the specific claim about Oslo, Vienna, and Singapore needs verification.",
+      "detail": "Bremen's mobil.punkt is a well-documented mobility hub program started in 2003 that integrates carsharing with public transit. Vienna has WienMobil stations and Oslo has explored mobility hubs, but whether these are explicitly modeled on Bremen's program is unclear. Singapore has multimodal transport integration but 'mobility hub' terminology may differ. Without web search, I cannot verify current program status or direct Bremen connections.",
+      "sources": [
+        "Unable to verify - web search not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander's WEB OF PUBLIC TRANSPORTATION (16) imagined fixed-route systems connecting a coherent network",
+        "claim": "Christopher Alexander's pattern WEB OF PUBLIC TRANSPORTATION (pattern 16) described fixed-route systems connecting a coherent network",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Christopher Alexander's 'A Pattern Language' does contain pattern 16 'Web of Public Transportation' which describes fixed-route transit systems forming a coherent network.",
+      "detail": "The book 'A Pattern Language' (1977) by Christopher Alexander et al. includes pattern 16 titled 'Web of Public Transportation.' This pattern advocates for public transit systems that form an interconnected web rather than isolated lines, emphasizing that transit routes should connect to create comprehensive network coverage. The claim accurately characterizes the pattern's core concept of fixed-route systems creating a coherent network. Note: This verification is based on training knowledge as web search was unavailable.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein et al., 'A Pattern Language: Towns, Buildings, Construction' (1977), pattern 16"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Bremen's mobil.punkt stations — sheltered transfer points with transit, bike parking, car-share, and real-time information in a single location — reduced car ownership by 15% in surrounding blocks",
+          "claim": "Bremen's mobil.punkt stations reduced car ownership by 15% in surrounding blocks",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific 15% car ownership reduction statistic due to lack of web search access.",
+        "detail": "Bremen's mobil.punkt program is a real mobility hub initiative that has been studied and documented. However, without access to web search, I cannot verify the specific claim that car ownership decreased by 15% in surrounding blocks. The mobil.punkt concept exists and is associated with positive mobility outcomes, but the precise statistic requires confirmation from primary sources such as city reports or academic studies.",
+        "sources": [
+          "Unable to search - web tools not authorized"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

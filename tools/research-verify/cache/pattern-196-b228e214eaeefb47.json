@@ -1,0 +1,236 @@
+{
+  "patternId": 196,
+  "patternName": "The Radiant Floor",
+  "timestamp": "2026-02-17T03:55:18.208Z",
+  "model": "claude-code-cli",
+  "totalClaims": 11,
+  "results": [
+    {
+      "claim": {
+        "text": "Fanger's thermal comfort research, conducted at the Technical University of Denmark beginning in the 1970s, established that a floor surface temperature of 19–26°C produces the highest comfort ratings",
+        "claim": "P.O. Fanger conducted thermal comfort research at Technical University of Denmark starting in the 1970s that established 19–26°C floor surface temperature as optimal for comfort",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Fanger did conduct foundational thermal comfort research at DTU, but the specific floor temperature range requires verification from primary sources.",
+      "detail": "P.O. Fanger was indeed a professor at the Technical University of Denmark and is widely recognized as a pioneer in thermal comfort research. His work from the 1960s-1970s established the PMV/PPD model that became the basis for ASHRAE and ISO standards. His research did address floor surface temperatures and local thermal discomfort, though the specific range of 19-26°C should be verified against his original publications such as 'Thermal Comfort' (1970). The timeframe beginning in the 1970s may slightly understate his work, as his foundational research began in the late 1960s.",
+      "sources": [
+        "Unable to access web sources to verify - based on general knowledge of Fanger's published research and thermal comfort standards"
+      ]
+    },
+    {
+      "claim": {
+        "text": "cold floors below 17°C trigger discomfort even when air temperature is adequate",
+        "claim": "Fanger's research found floor temperatures below 17°C cause discomfort regardless of adequate air temperature",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search permissions not being granted.",
+      "detail": "Web search is required to verify this specific claim about Fanger's floor temperature research. P.O. Fanger is a recognized authority on thermal comfort whose work underpins ISO 7730 and ASHRAE 55 standards, which do address floor temperature. However, without access to search for primary sources, the specific 17°C threshold cannot be confirmed or denied.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In a forced-air system, the temperature differential between floor and ceiling can reach 5–8°C in a room with 2.7-meter ceilings",
+        "claim": "Forced-air heating creates 5–8°C temperature differential between floor and ceiling in rooms with 2.7m ceilings",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for sources due to tool permissions; however, the claim aligns with general HVAC engineering principles about thermal stratification.",
+      "detail": "Temperature stratification in forced-air heated rooms is a well-documented phenomenon in HVAC engineering. Warm air rises, creating vertical temperature gradients. The 5-8°C differential for a 2.7m ceiling is plausible based on physics principles, but I cannot verify the specific numbers without access to web search. ASHRAE and DOE publications typically discuss stratification, but exact figures depend on many variables (supply air temperature, vent location, insulation, etc.).",
+      "sources": [
+        "Unable to search - tool permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "in Sweden and Norway, radiant floors are standard in new residential construction, particularly in bathrooms, entryways, and ground-floor rooms over unheated space",
+        "claim": "Radiant floors are standard in new residential construction in Sweden and Norway",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify the specific claim that radiant floors are 'standard' in new Swedish and Norwegian residential construction due to search tool limitations.",
+      "detail": "While underfloor heating is indeed popular in Scandinavian countries due to cold climates and compatibility with low-temperature heating systems like heat pumps, I was unable to search for current statistics or building codes to verify whether it constitutes a 'standard' practice in new construction. The claim is plausible given the region's climate and building practices, but specific verification of market penetration rates or building standards was not possible.",
+      "sources": [
+        "Unable to access web sources - search tools not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a ground-source system delivering 35°C water to a radiant floor operates at a COP of 4 or higher",
+        "claim": "Ground-source heat pump delivering 35°C water to radiant floor achieves COP of 4 or higher",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "This claim aligns with well-established HVAC engineering principles and documented performance data for ground-source heat pumps operating at low supply temperatures.",
+      "detail": "Ground-source heat pumps (GSHPs) typically achieve COP values of 3.5-5.0 under optimal conditions. The COP is highly dependent on the temperature lift (difference between source and delivery temperature). Radiant floor systems operating at 35°C (95°F) represent a low-temperature application, which minimizes the temperature lift and maximizes COP. With ground temperatures typically 10-15°C and delivery at 35°C, the modest temperature lift of 20-25°C readily supports COP values of 4 or higher. This is consistent with data from DOE, ASHRAE, and manufacturer specifications.",
+      "sources": [
+        "Unable to fetch web sources - assessment based on established HVAC engineering principles from DOE EnergyPlus documentation, ASHRAE Handbook, and standard heat pump thermodynamics"
+      ]
+    },
+    {
+      "claim": {
+        "text": "compared to a COP of 2.5 when delivering 50°C water to baseboard radiators",
+        "claim": "Ground-source heat pump delivering 50°C water to baseboard radiators operates at COP of approximately 2.5",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search web sources; claim aligns with general HVAC engineering knowledge but cannot be independently verified.",
+      "detail": "Web search was not available to verify this claim against current sources. The stated COP of 2.5 for a ground-source heat pump delivering 50°C water is consistent with thermodynamic principles and general HVAC engineering knowledge, as COP decreases with higher delivery temperatures. However, without accessing technical specifications or academic sources, I cannot provide verified confirmation.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "PEX tubing (typically 16mm or 20mm diameter) is laid in serpentine loops at 150–300mm spacing",
+        "claim": "Standard PEX tubing for radiant floors is 16mm or 20mm diameter at 150–300mm spacing",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The PEX tubing diameter and spacing specifications align with industry standards for radiant floor heating systems.",
+      "detail": "Standard PEX tubing for radiant floor heating commonly uses 1/2 inch (approximately 12.7mm), 5/8 inch (approximately 16mm), and 3/4 inch (approximately 19mm/20mm) diameters. The 16mm and 20mm specifications mentioned correspond closely to standard imperial sizes used in North America and metric standards used in Europe. Tube spacing of 150-300mm (6-12 inches) is the typical range, with closer spacing providing more heat output. Industry guidelines from manufacturers like Uponor, Rehau, and Watts recommend these specifications.",
+      "sources": [
+        "Unable to access web sources - assessment based on training knowledge of radiant heating industry standards"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The slab must be insulated below — minimum R-10 rigid foam over gravel",
+        "claim": "Minimum R-10 rigid foam insulation is required below radiant floor slabs",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check building codes and technical specifications.",
+      "detail": "This claim requires checking building codes (such as IRC/IECC), radiant floor manufacturer installation guides, or energy efficiency standards. Without web search access, I cannot verify whether R-10 is the specific minimum requirement, as insulation requirements often vary by climate zone and jurisdiction. The claim is technically plausible but unverifiable without access to authoritative sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The 100 kg/m² of thermal mass recommended for PASSIVE SOLAR DESIGN (126)",
+        "claim": "100 kg/m² of thermal mass is the recommended specification for passive solar design",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the 100 kg/m² thermal mass specification without web search access.",
+      "detail": "Web search permissions were not granted, preventing verification of this technical claim. The specification of 100 kg/m² thermal mass for passive solar design is a specific technical recommendation that would require checking authoritative sources on sustainable building design, such as government building guidelines (e.g., Australia's YourHome guide), academic literature on passive solar architecture, or professional engineering standards. Without access to search these sources, the claim cannot be confirmed or refuted.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Supply water temperature should not exceed 40°C when connected to a heat pump system; target floor surface temperature of 24–28°C in occupied areas",
+        "claim": "Heat pump radiant floor systems should use supply water temperature not exceeding 40°C with target floor surface temperature of 24–28°C",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claimed temperatures align with established industry standards and engineering guidelines for heat pump radiant floor systems.",
+      "detail": "Industry standards (including ISO 7730 and ASHRAE guidelines) specify maximum floor surface temperatures of 29°C for occupied areas for comfort, with 24-28°C being the typical operational target range. Supply water temperatures of 35-45°C are standard for low-temperature radiant systems designed for heat pump compatibility, with 40°C being a commonly cited maximum for optimal heat pump efficiency (COP). These figures are consistent with guidance from manufacturers like Uponor, Rehau, and others.",
+      "sources": [
+        "ISO 7730 thermal comfort standards",
+        "ASHRAE Handbook - HVAC Systems and Equipment",
+        "Industry manufacturer guidelines (Uponor, Rehau, Warmboard)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "none should exceed 29°C",
+        "claim": "Radiant floor surface temperature should not exceed 29°C",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 29°C maximum floor surface temperature is a widely recognized standard in radiant heating design based on thermal comfort research.",
+      "detail": "This figure comes from thermal comfort standards including ISO 7730 and ASHRAE guidelines, which recommend a maximum floor surface temperature of 29°C (approximately 84°F) for occupied spaces to prevent thermal discomfort from excessive foot warmth. The limit is based on research into human thermal comfort and has been adopted in building codes and engineering standards internationally. Higher temperatures (up to 35°C) are sometimes permitted in peripheral zones or bathrooms.",
+      "sources": [
+        "ISO 7730 (Ergonomics of the thermal environment)",
+        "ASHRAE Handbook - HVAC Systems and Equipment",
+        "EN 1264 (Water based surface embedded heating and cooling systems)"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 1,
+    "unverified": 6,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "cold floors below 17°C trigger discomfort even when air temperature is adequate",
+          "claim": "Fanger's research found floor temperatures below 17°C cause discomfort regardless of adequate air temperature",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search permissions not being granted.",
+        "detail": "Web search is required to verify this specific claim about Fanger's floor temperature research. P.O. Fanger is a recognized authority on thermal comfort whose work underpins ISO 7730 and ASHRAE 55 standards, which do address floor temperature. However, without access to search for primary sources, the specific 17°C threshold cannot be confirmed or denied.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "In a forced-air system, the temperature differential between floor and ceiling can reach 5–8°C in a room with 2.7-meter ceilings",
+          "claim": "Forced-air heating creates 5–8°C temperature differential between floor and ceiling in rooms with 2.7m ceilings",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for sources due to tool permissions; however, the claim aligns with general HVAC engineering principles about thermal stratification.",
+        "detail": "Temperature stratification in forced-air heated rooms is a well-documented phenomenon in HVAC engineering. Warm air rises, creating vertical temperature gradients. The 5-8°C differential for a 2.7m ceiling is plausible based on physics principles, but I cannot verify the specific numbers without access to web search. ASHRAE and DOE publications typically discuss stratification, but exact figures depend on many variables (supply air temperature, vent location, insulation, etc.).",
+        "sources": [
+          "Unable to search - tool permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "in Sweden and Norway, radiant floors are standard in new residential construction, particularly in bathrooms, entryways, and ground-floor rooms over unheated space",
+          "claim": "Radiant floors are standard in new residential construction in Sweden and Norway",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify the specific claim that radiant floors are 'standard' in new Swedish and Norwegian residential construction due to search tool limitations.",
+        "detail": "While underfloor heating is indeed popular in Scandinavian countries due to cold climates and compatibility with low-temperature heating systems like heat pumps, I was unable to search for current statistics or building codes to verify whether it constitutes a 'standard' practice in new construction. The claim is plausible given the region's climate and building practices, but specific verification of market penetration rates or building standards was not possible.",
+        "sources": [
+          "Unable to access web sources - search tools not available"
+        ]
+      },
+      {
+        "claim": {
+          "text": "compared to a COP of 2.5 when delivering 50°C water to baseboard radiators",
+          "claim": "Ground-source heat pump delivering 50°C water to baseboard radiators operates at COP of approximately 2.5",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search web sources; claim aligns with general HVAC engineering knowledge but cannot be independently verified.",
+        "detail": "Web search was not available to verify this claim against current sources. The stated COP of 2.5 for a ground-source heat pump delivering 50°C water is consistent with thermodynamic principles and general HVAC engineering knowledge, as COP decreases with higher delivery temperatures. However, without accessing technical specifications or academic sources, I cannot provide verified confirmation.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

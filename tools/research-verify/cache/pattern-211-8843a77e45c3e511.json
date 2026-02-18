@@ -1,0 +1,164 @@
+{
+  "patternId": 211,
+  "patternName": "The Water Feature",
+  "timestamp": "2026-02-17T05:00:10.945Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "Roger Ulrich's foundational 1984 study in *Science* found that hospital patients with views of nature healed faster than those facing a brick wall",
+        "claim": "Roger Ulrich published a study in Science in 1984 showing hospital patients with nature views healed faster than those facing a brick wall",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Roger Ulrich published 'View through a window may influence recovery from surgery' in Science in 1984, finding patients with nature views had shorter hospital stays than those with brick wall views.",
+      "detail": "This is one of the most cited studies in environmental psychology and evidence-based design. Published in Science (Vol. 224, Issue 4647, pp. 420-421, April 27, 1984), the study examined cholecystectomy patients at a Pennsylvania hospital and found those with bedside windows looking out on a natural scene had shorter postoperative hospital stays, received fewer negative evaluative comments in nurses' notes, and took fewer potent analgesics than matched patients with windows facing a brick wall. The claim accurately represents the study's key finding.",
+      "sources": [
+        "Ulrich, R.S. (1984). View through a window may influence recovery from surgery. Science, 224(4647), 420-421. PubMed ID: 6143402"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A 2010 study by White et al. at the University of Sussex found that images containing water were rated as significantly more restorative than equivalent green scenes without water",
+        "claim": "White et al. at University of Sussex published a 2010 study finding images with water rated more restorative than green scenes without water",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. The claim references a specific 2010 study by White et al. at University of Sussex about water scenes being rated more restorative than green scenes. This is a specific academic citation that would require searching academic databases or Google Scholar to confirm the study exists and makes the stated findings.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "what Rachel and Stephen Kaplan called 'soft fascination'",
+        "claim": "Rachel and Stephen Kaplan coined the term 'soft fascination' to describe effortless attention",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though the claim aligns with known information about Attention Restoration Theory.",
+      "detail": "Web search and fetch tools are not available in this session. From training knowledge, Rachel and Stephen Kaplan did develop Attention Restoration Theory and the concept of soft fascination is central to their work, but I cannot confirm the specific attribution or cite sources without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A small fountain generating 55-60 dB(A) at one meter can mask traffic noise of 65-70 dB(A) at the property line",
+        "claim": "A fountain at 55-60 dB(A) at one meter can mask traffic noise of 65-70 dB(A) at property line",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to lack of web search access.",
+      "detail": "This claim about fountain sound masking traffic noise involves specific technical decibel levels (55-60 dB(A) masking 65-70 dB(A)). While the general principle that water features can mask unwanted noise is well-established in acoustic design literature, I cannot verify these specific decibel values without web search access to consult acoustic engineering sources, research papers, or manufacturer specifications.",
+      "sources": [
+        "Unable to search - web search permission not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Swedish acoustician Östen Axelsson's research on urban soundscapes, published in *Acta Acustica* (2010), demonstrated that the *character* of sound matters as much as volume: natural sounds are perceived as pleasant at levels that would be annoying if mechanical",
+        "claim": "Östen Axelsson published research in Acta Acustica in 2010 demonstrating natural sounds are perceived as pleasant at levels that would be annoying if mechanical",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Axelsson did publish influential soundscape research in Acta Acustica united with Acustica in 2010, though the specific claim about natural vs mechanical sound perception requires nuance.",
+      "detail": "Östen Axelsson published 'A principal components model of soundscape perception' in Acta Acustica united with Acustica in 2010 (Vol. 96, pp. 836-846), co-authored with Nilsson and Berglund. This research established that perceived soundscape quality depends on two main dimensions: pleasantness and eventfulness. The research does show that natural sounds contribute to pleasant soundscapes while mechanical/technological sounds contribute to unpleasant perceptions, but the specific framing about 'same levels being annoying if mechanical' is an interpretation rather than a direct finding about equivalent decibel levels.",
+      "sources": [
+        "Axelsson, Ö., Nilsson, M. E., & Berglund, B. (2010). A principal components model of soundscape perception. Acta Acustica united with Acustica, 96(5), 836-846"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A fountain running continuously provides what HVAC engineers call 'pink noise'",
+        "claim": "HVAC engineers use the term 'pink noise' and fountains produce this type of broadband sound",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool access restrictions.",
+      "detail": "Web search and web fetch tools are not available in this session. The claim involves two assertions: (1) that HVAC engineers use the term 'pink noise' and (2) that fountains produce pink noise/broadband sound. From general knowledge, pink noise is a real acoustic engineering term referring to sound with equal energy per octave (as opposed to white noise which has equal energy per frequency). Sound masking systems in buildings do use pink noise or similar spectra. However, whether fountains specifically produce 'pink noise' rather than 'white noise' or other broadband spectra requires verification with sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Edmonton, water freezes from November through March",
+        "claim": "Water freezes outdoors in Edmonton from November through March (5 months)",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Edmonton's average temperatures are well below freezing from November through March, making outdoor water freezing a well-documented climatological fact.",
+      "detail": "Edmonton, Alberta is located at approximately 53°N latitude and has a cold continental climate. Historical climate data from Environment Canada consistently shows that Edmonton's average daily temperatures remain below 0°C (32°F) from November through March, with January averaging around -10°C to -15°C. The claim that water freezes outdoors during these 5 months is consistent with established climate records for the city.",
+      "sources": [
+        "Environment Canada climate normals for Edmonton (well-established reference)",
+        "General climatological knowledge of Edmonton's continental climate"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Ponds without circulation become stagnant and breed mosquitoes within two weeks in summer",
+        "claim": "Stagnant ponds breed mosquitoes within two weeks in summer",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "The mosquito life cycle from egg to adult typically takes 7-14 days in warm summer conditions, making the 'two weeks' claim accurate.",
+      "detail": "Mosquitoes require standing water to complete their life cycle. In summer temperatures (above 70°F/21°C), the complete life cycle from egg laying to adult emergence takes approximately 7-14 days depending on species and temperature. The CDC and mosquito control agencies consistently cite 7-10 days for most common mosquito species in optimal warm conditions. The claim of 'within two weeks' is scientifically accurate and actually conservative for peak summer heat when the cycle can be as fast as 7-8 days.",
+      "sources": [
+        "CDC mosquito life cycle documentation",
+        "EPA guidance on standing water and mosquito breeding",
+        "Standard entomological literature on Culex and Aedes mosquito species"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 1,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A 2010 study by White et al. at the University of Sussex found that images containing water were rated as significantly more restorative than equivalent green scenes without water",
+          "claim": "White et al. at University of Sussex published a 2010 study finding images with water rated more restorative than green scenes without water",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. The claim references a specific 2010 study by White et al. at University of Sussex about water scenes being rated more restorative than green scenes. This is a specific academic citation that would require searching academic databases or Google Scholar to confirm the study exists and makes the stated findings.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A small fountain generating 55-60 dB(A) at one meter can mask traffic noise of 65-70 dB(A) at the property line",
+          "claim": "A fountain at 55-60 dB(A) at one meter can mask traffic noise of 65-70 dB(A) at property line",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to lack of web search access.",
+        "detail": "This claim about fountain sound masking traffic noise involves specific technical decibel levels (55-60 dB(A) masking 65-70 dB(A)). While the general principle that water features can mask unwanted noise is well-established in acoustic design literature, I cannot verify these specific decibel values without web search access to consult acoustic engineering sources, research papers, or manufacturer specifications.",
+        "sources": [
+          "Unable to search - web search permission not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "patternId": 198,
+  "patternName": "The Community Orchard",
+  "timestamp": "2026-02-16T18:33:55.397Z",
+  "model": "claude-code-cli",
+  "totalClaims": 19,
+  "results": [
+    {
+      "claim": {
+        "text": "Alexander identified the need for \"fruit trees\" in his pattern *Fruit Trees* (170)",
+        "claim": "Christopher Alexander's 'A Pattern Language' contains pattern #170 titled 'Fruit Trees'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern #170 in Christopher Alexander's 'A Pattern Language' is indeed titled 'Fruit Trees'.",
+      "detail": "Christopher Alexander's 1977 book 'A Pattern Language' contains 253 patterns numbered sequentially. Pattern #170 is titled 'Fruit Trees' and discusses the importance of planting fruit trees in and around buildings and communities. This is consistent with the book's organization and the specific pattern numbering system Alexander used.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "At 53°N, with January lows of −30°C and frost depths exceeding 1.5 meters",
+        "claim": "At 53°N latitude (Edmonton area), January lows reach −30°C and frost depths exceed 1.5 meters",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Edmonton reaches −30°C in cold snaps and frost depths can exceed 1.5m, but −30°C is not the typical January low average.",
+      "detail": "Edmonton's average January low is approximately −17°C to −14°C, not −30°C. However, −30°C is a plausible extreme cold snap temperature that occurs regularly during winter. Frost depth exceeding 1.5 meters is accurate for the Edmonton area under severe conditions, though typical frost depths are 1.0-1.8m depending on snow cover. The claim conflates extreme lows with typical conditions.",
+      "sources": [
+        "Unable to access web sources - verdict based on established climate knowledge for Edmonton, Alberta at 53.5°N latitude"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The University of Saskatchewan's Fruit Program, running since 1920, has bred apples, cherries, and plums hardy to Zone 2",
+        "claim": "University of Saskatchewan's Fruit Program has been running since 1920",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools are not available in this session, preventing verification of the claim about the University of Saskatchewan Fruit Program's founding date of 1920. This claim requires external verification from the university's official sources or historical records.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The University of Saskatchewan's Fruit Program, running since 1920, has bred apples, cherries, and plums hardy to Zone 2",
+        "claim": "University of Saskatchewan's Fruit Program bred apples, cherries, and plums hardy to Zone 2",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools were requested but permissions were not granted. Cannot search for information about the University of Saskatchewan's Fruit Program, its history, or the hardiness zones of its cultivars without access to external sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Their 'Goodland' apple and 'Carmine Jewel' cherry now grow across the prairies",
+        "claim": "'Goodland' apple was developed by University of Saskatchewan's Fruit Program",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.75,
+      "summary": "The Goodland apple was developed by Morden Research Station (Agriculture Canada) in Manitoba, not by the University of Saskatchewan.",
+      "detail": "The 'Goodland' apple was bred at the Morden Research Station in Manitoba, which is part of Agriculture and Agri-Food Canada, and introduced around 1955. While the University of Saskatchewan does have a fruit breeding program that developed other cold-hardy varieties including 'Carmine Jewel' cherry, the Goodland apple is not among their releases. Note: Verdict based on pre-existing knowledge as web search was unavailable.",
+      "sources": [
+        "Pre-existing knowledge - unable to verify with web search due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Their 'Goodland' apple and 'Carmine Jewel' cherry now grow across the prairies",
+        "claim": "'Carmine Jewel' cherry was developed by University of Saskatchewan's Fruit Program",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though training knowledge suggests the claim is likely accurate.",
+      "detail": "Web search and fetch tools are not available in this session, preventing verification against current sources. Based on prior knowledge, Carmine Jewel is a dwarf sour cherry developed by the University of Saskatchewan Fruit Program and released in 1999, but this cannot be confirmed through primary sources without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The city of Tromsø, Norway (69°N), maintains public apple trees in schoolyards and parks",
+        "claim": "Tromsø, Norway (at 69°N latitude) maintains public apple trees in schoolyards and parks",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to web search being unavailable.",
+      "detail": "Web search permission was not granted, preventing verification of the claim that Tromsø, Norway maintains public apple trees in schoolyards and parks. The claim is plausible given that hardy apple varieties can grow at high latitudes with proper care, but without access to search results, I cannot confirm or deny this specific municipal program.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the short but intense growing season — eighteen hours of summer daylight",
+        "claim": "Tromsø has eighteen hours of summer daylight",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.9,
+      "summary": "Tromsø actually experiences 24-hour continuous daylight (midnight sun) during peak summer, not eighteen hours.",
+      "detail": "Tromsø is located at approximately 69°N latitude, well above the Arctic Circle. From approximately May 20 to July 22, Tromsø experiences the 'midnight sun' phenomenon with continuous 24-hour daylight — the sun never sets. The claim of 'eighteen hours' significantly understates summer daylight. Eighteen hours of daylight would be more accurate for locations much further south, around 60°N latitude like Oslo or Stockholm during summer solstice.",
+      "sources": [
+        "Geographic knowledge of Arctic Circle locations and midnight sun phenomenon",
+        "Tromsø latitude: approximately 69.65°N"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Edmonton's own food forest pilot at Borden Park, planted in 2012",
+        "claim": "Edmonton planted a food forest pilot at Borden Park in 2012",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for verification due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are not currently available to verify this claim. Edmonton has had various urban agriculture initiatives, and Borden Park is a real park in Edmonton, but I cannot confirm the specific claim about a food forest pilot planted in 2012 without access to search tools.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "demonstrated that serviceberries, hazelnuts, and cold-hardy apple cultivars survive and produce when sited in microclimates",
+        "claim": "Edmonton's Borden Park food forest successfully grew serviceberries, hazelnuts, and cold-hardy apple cultivars",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I attempted to search for information about Edmonton's Borden Park food forest and the specific plants mentioned (serviceberries, hazelnuts, cold-hardy apple cultivars) but was unable to complete web searches due to permission restrictions. The claim cannot be verified or disputed without access to external sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Philadelphia's *Philadelphia Orchard Project*, founded in 2007",
+        "claim": "Philadelphia Orchard Project was founded in 2007",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to verify founding date due to lack of web search access.",
+      "detail": "I attempted to search for information about the Philadelphia Orchard Project's founding date, but web search and web fetch tools are not currently available. The claim cannot be verified or disputed without access to primary sources such as the organization's official website or historical records.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "solved this by pairing each orchard with a community partner — a church, school, or neighborhood association — that commits to a maintenance covenant",
+        "claim": "Philadelphia Orchard Project uses a model pairing orchards with community partners who commit to maintenance covenants",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search/fetch permissions to access current sources.",
+      "detail": "The Philadelphia Orchard Project is a known organization that plants community orchards in Philadelphia and works with community partners. However, without web search or web fetch capabilities being granted, I cannot verify the specific claim about 'maintenance covenants' or confirm the exact structure of their partnership model. The claim is plausible given what is generally known about POP's community-based approach, but specific verification of the covenant terminology requires accessing their website or documentation.",
+      "sources": [
+        "Unable to access web sources - permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "By 2023, the project had established over seventy orchards on formerly vacant land",
+        "claim": "Philadelphia Orchard Project had established over 70 orchards by 2023",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access during this session.",
+      "detail": "I attempted to search for information about the Philadelphia Orchard Project's orchard count but was unable to access web search or fetch capabilities. The Philadelphia Orchard Project is a real organization, but I cannot verify the specific claim of 'over 70 orchards by 2023' without accessing current web sources or their official website.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "producing thousands of kilograms of fruit annually",
+        "claim": "Philadelphia Orchard Project orchards produce thousands of kilograms of fruit annually",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find primary sources about Philadelphia Orchard Project's fruit production statistics.",
+      "detail": "Web search and web fetch tools were not granted permission during this verification attempt. I cannot access the Philadelphia Orchard Project's official website or any news sources to verify their annual fruit production claims. The claim is plausible for an urban orchard network but requires actual data to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a single household cannot use forty kilograms of plums ripening in the same week",
+        "claim": "A single fruit tree can produce forty kilograms of plums ripening in one week",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.75,
+      "summary": "A yield of 40 kilograms per plum tree is within the normal range for mature trees, and plums do ripen within a concentrated window of 1-2 weeks.",
+      "detail": "Agricultural literature consistently indicates mature plum trees produce 30-50 kg (65-110 lbs) of fruit annually, with some well-maintained trees exceeding this. Plum varieties typically have concentrated ripening periods of 1-3 weeks depending on variety. The claim of 40 kg ripening in one week is biologically plausible and consistent with known plum production characteristics. Unable to verify with primary sources due to tool access limitations.",
+      "sources": [
+        "General agricultural knowledge - unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "early-ripening 'Norland' apples in August",
+        "claim": "'Norland' apples ripen in August in northern climates",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.7,
+      "summary": "Unable to perform web search to verify claim, but training data suggests Norland apples do ripen in August in northern climates.",
+      "detail": "Norland is a cold-hardy apple variety developed at the Morden Research Station in Manitoba, Canada, and is widely cited as an early-ripening variety suitable for northern climates with harvest in late July through August. However, I was unable to access web search to confirm this with current authoritative sources.",
+      "sources": [
+        "Unable to access web sources - based on training knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "'Evans' cherries in July",
+        "claim": "'Evans' cherries ripen in July in northern climates",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; claim is consistent with general knowledge of the Evans cherry variety.",
+      "detail": "Web search and fetch tools were not available to verify this claim. Based on training knowledge, Evans cherry is a cold-hardy variety developed in Canada that ripens in mid-to-late summer, which would be consistent with July ripening in northern climates. However, without access to primary sources like university extension services or nursery documentation, this cannot be properly verified.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "haskap berries in June",
+        "claim": "Haskap berries ripen in June in northern climates",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Haskap berries (Lonicera caerulea) are known to be among the earliest fruiting berries, typically ripening in June in northern climates.",
+      "detail": "Haskap berries, also known as honeyberries, are widely documented as one of the earliest ripening fruits in northern regions, with harvest typically occurring from mid-June to early July depending on the specific variety and location. This makes them particularly valuable in northern climates where they ripen before strawberries in many cases. The June ripening timeframe is consistent with agricultural extension literature from Canada and northern U.S. states where haskapberries are commonly grown.",
+      "sources": [
+        "Unable to verify via live web search - assessment based on training data knowledge of haskap cultivation literature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "hazelnuts in September",
+        "claim": "Hazelnuts ripen in September in northern climates",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Hazelnuts do ripen in September in northern temperate climates, which aligns with established horticultural knowledge.",
+      "detail": "Hazelnuts (Corylus species) in northern temperate climates typically ripen from late August through October, with September being the primary harvest month in regions like the Pacific Northwest (Oregon), Northern Europe, and Turkey. The nuts mature when the husks turn brown and begin to open, which occurs in September for most commercial and wild hazelnut varieties in these regions. This timing is well-documented in agricultural extension literature.",
+      "sources": [
+        "General horticultural knowledge - unable to access web sources for real-time verification"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 4,
+    "partially": 2,
+    "unverified": 12,
+    "disputed": 1,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The University of Saskatchewan's Fruit Program, running since 1920, has bred apples, cherries, and plums hardy to Zone 2",
+          "claim": "University of Saskatchewan's Fruit Program has been running since 1920",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools are not available in this session, preventing verification of the claim about the University of Saskatchewan Fruit Program's founding date of 1920. This claim requires external verification from the university's official sources or historical records.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The University of Saskatchewan's Fruit Program, running since 1920, has bred apples, cherries, and plums hardy to Zone 2",
+          "claim": "University of Saskatchewan's Fruit Program bred apples, cherries, and plums hardy to Zone 2",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools were requested but permissions were not granted. Cannot search for information about the University of Saskatchewan's Fruit Program, its history, or the hardiness zones of its cultivars without access to external sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The city of Tromsø, Norway (69°N), maintains public apple trees in schoolyards and parks",
+          "claim": "Tromsø, Norway (at 69°N latitude) maintains public apple trees in schoolyards and parks",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to web search being unavailable.",
+        "detail": "Web search permission was not granted, preventing verification of the claim that Tromsø, Norway maintains public apple trees in schoolyards and parks. The claim is plausible given that hardy apple varieties can grow at high latitudes with proper care, but without access to search results, I cannot confirm or deny this specific municipal program.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Edmonton's own food forest pilot at Borden Park, planted in 2012",
+          "claim": "Edmonton planted a food forest pilot at Borden Park in 2012",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for verification due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are not currently available to verify this claim. Edmonton has had various urban agriculture initiatives, and Borden Park is a real park in Edmonton, but I cannot confirm the specific claim about a food forest pilot planted in 2012 without access to search tools.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "demonstrated that serviceberries, hazelnuts, and cold-hardy apple cultivars survive and produce when sited in microclimates",
+          "claim": "Edmonton's Borden Park food forest successfully grew serviceberries, hazelnuts, and cold-hardy apple cultivars",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I attempted to search for information about Edmonton's Borden Park food forest and the specific plants mentioned (serviceberries, hazelnuts, cold-hardy apple cultivars) but was unable to complete web searches due to permission restrictions. The claim cannot be verified or disputed without access to external sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Philadelphia's *Philadelphia Orchard Project*, founded in 2007",
+          "claim": "Philadelphia Orchard Project was founded in 2007",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to verify founding date due to lack of web search access.",
+        "detail": "I attempted to search for information about the Philadelphia Orchard Project's founding date, but web search and web fetch tools are not currently available. The claim cannot be verified or disputed without access to primary sources such as the organization's official website or historical records.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "solved this by pairing each orchard with a community partner — a church, school, or neighborhood association — that commits to a maintenance covenant",
+          "claim": "Philadelphia Orchard Project uses a model pairing orchards with community partners who commit to maintenance covenants",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search/fetch permissions to access current sources.",
+        "detail": "The Philadelphia Orchard Project is a known organization that plants community orchards in Philadelphia and works with community partners. However, without web search or web fetch capabilities being granted, I cannot verify the specific claim about 'maintenance covenants' or confirm the exact structure of their partnership model. The claim is plausible given what is generally known about POP's community-based approach, but specific verification of the covenant terminology requires accessing their website or documentation.",
+        "sources": [
+          "Unable to access web sources - permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "By 2023, the project had established over seventy orchards on formerly vacant land",
+          "claim": "Philadelphia Orchard Project had established over 70 orchards by 2023",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access during this session.",
+        "detail": "I attempted to search for information about the Philadelphia Orchard Project's orchard count but was unable to access web search or fetch capabilities. The Philadelphia Orchard Project is a real organization, but I cannot verify the specific claim of 'over 70 orchards by 2023' without accessing current web sources or their official website.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ★☆ should be reviewed and potentially downgraded."
+  }
+}

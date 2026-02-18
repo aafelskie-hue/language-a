@@ -1,0 +1,187 @@
+{
+  "patternId": 118,
+  "patternName": "The Air Lock Entry",
+  "timestamp": "2026-02-16T23:15:59.365Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "A study by the National Research Council Canada measured air exchange through a single exterior door at 4-8 cubic meters per opening event in winter conditions",
+        "claim": "National Research Council Canada study measured air exchange through a single exterior door at 4-8 cubic meters per opening event in winter conditions",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access to find the specific NRC Canada study.",
+      "detail": "The National Research Council Canada does conduct building science research including air infiltration studies, and the claimed values of 4-8 cubic meters per door opening event are within plausible ranges for cold climate door infiltration. However, without web search capability, I cannot locate the specific study referenced or confirm the exact figures. The claim is technically plausible but unverifiable with current tool access.",
+      "sources": [
+        "Unable to search - web tools not permitted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Norwegian Building Research Institute found that a properly sequenced double-door entry reduces air infiltration by 70-85% compared to a single door",
+        "claim": "Norwegian Building Research Institute found double-door entry reduces air infiltration by 70-85% compared to single door",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this specific citation as web search permissions were not granted.",
+      "detail": "The Norwegian Building Research Institute (now part of SINTEF Byggforsk) is a real research organization that has conducted building physics research. While the general principle that vestibules/airlocks reduce air infiltration is well-established in building science, I could not search to verify this specific study or the precise 70-85% reduction figure attributed to this institute. The claim is plausible but unverified.",
+      "sources": [
+        "Unable to search - verification requires web access"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Environment and Climate Change Canada recorded 15 days of PM2.5 exceeding 100 µg/m³ in Edmonton during the 2023 wildfire season",
+        "claim": "Environment and Climate Change Canada recorded 15 days of PM2.5 exceeding 100 µg/m³ in Edmonton during 2023 wildfire season",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check Environment and Climate Change Canada records.",
+      "detail": "Web search permissions were not granted, preventing verification of this specific claim about Edmonton PM2.5 levels during the 2023 wildfire season. The 2023 Canadian wildfire season was historically severe and did significantly impact Edmonton's air quality, but the specific figure of 15 days exceeding 100 µg/m³ cannot be confirmed without accessing ECCC data or reports.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Passive House Institut recommends vestibule volumes between 2 and 4 cubic meters for optimal airlock performance",
+        "claim": "Passive House Institut recommends vestibule volumes between 2 and 4 cubic meters",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence as web search tools were not available during this verification attempt.",
+      "detail": "I attempted to search for Passive House Institut vestibule volume recommendations but web search capabilities were not granted for this session. The Passive House Institut does publish technical guidelines for building components, and vestibules/airlocks are relevant to their air-tightness standards, but I cannot confirm whether they specifically recommend 2-4 cubic meters without access to their documentation or web search.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "enough to replace 5-10% of a small home's volume with outside air each time someone enters",
+        "claim": "4-8 cubic meters of air exchange replaces 5-10% of a small home's volume",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify specific cubic meter figures due to lack of web search access; the claim appears to be a reasonable engineering estimate based on general HVAC principles.",
+      "detail": "The claim involves specific technical calculations about air infiltration through door openings. Standard HVAC engineering literature does discuss air exchange when doors open, and 4-8 cubic meters is within plausible range for a standard door opening briefly. A 'small home' of 80-160 cubic meters would indeed see 5-10% volume exchange with 4-8 cubic meters of air. However, without access to primary sources like ASHRAE handbooks or building science literature, I cannot confirm these exact figures.",
+      "sources": [
+        "Unable to access web sources - verification based on general engineering principles only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "if both doors are open simultaneously for even two seconds, infiltration approaches single-door levels",
+        "claim": "Two seconds of simultaneous door opening causes infiltration to approach single-door levels",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this specific technical claim about two-second simultaneous door opening without web search access.",
+      "detail": "This claim makes a precise technical assertion about airlock/vestibule performance - that two seconds of simultaneous door opening negates the infiltration benefits. While the general principle that vestibules work by preventing simultaneous door opening is well-established in HVAC literature, the specific 'two seconds' threshold would require verification from building science research, ASHRAE publications, or CFD studies. Without web search access, I cannot locate primary sources to confirm or dispute this specific timeframe.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "continuous weatherstripping achieving less than 0.5 CFM per linear foot of crack at 75 Pa pressure differential",
+        "claim": "0.5 CFM per linear foot of crack at 75 Pa is the standard for exterior envelope weatherstripping",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; claim appears technically plausible but specific values could not be confirmed against authoritative standards.",
+      "detail": "The claim references a specific air leakage rate (0.5 CFM/linear foot at 75 Pa) for weatherstripping. This type of specification typically appears in standards like ASTM E283 (Standard Test Method for Air Leakage) or building energy codes. The 75 Pa pressure differential is a common testing pressure in air leakage standards. However, without web search access, I could not confirm whether 0.5 CFM/linear foot is the actual threshold specified in relevant standards, or whether this is an industry guideline versus a code requirement.",
+      "sources": [
+        "Unable to search - web access not available"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A study by the National Research Council Canada measured air exchange through a single exterior door at 4-8 cubic meters per opening event in winter conditions",
+          "claim": "National Research Council Canada study measured air exchange through a single exterior door at 4-8 cubic meters per opening event in winter conditions",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access to find the specific NRC Canada study.",
+        "detail": "The National Research Council Canada does conduct building science research including air infiltration studies, and the claimed values of 4-8 cubic meters per door opening event are within plausible ranges for cold climate door infiltration. However, without web search capability, I cannot locate the specific study referenced or confirm the exact figures. The claim is technically plausible but unverifiable with current tool access.",
+        "sources": [
+          "Unable to search - web tools not permitted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Norwegian Building Research Institute found that a properly sequenced double-door entry reduces air infiltration by 70-85% compared to a single door",
+          "claim": "Norwegian Building Research Institute found double-door entry reduces air infiltration by 70-85% compared to single door",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this specific citation as web search permissions were not granted.",
+        "detail": "The Norwegian Building Research Institute (now part of SINTEF Byggforsk) is a real research organization that has conducted building physics research. While the general principle that vestibules/airlocks reduce air infiltration is well-established in building science, I could not search to verify this specific study or the precise 70-85% reduction figure attributed to this institute. The claim is plausible but unverified.",
+        "sources": [
+          "Unable to search - verification requires web access"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Environment and Climate Change Canada recorded 15 days of PM2.5 exceeding 100 µg/m³ in Edmonton during the 2023 wildfire season",
+          "claim": "Environment and Climate Change Canada recorded 15 days of PM2.5 exceeding 100 µg/m³ in Edmonton during 2023 wildfire season",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check Environment and Climate Change Canada records.",
+        "detail": "Web search permissions were not granted, preventing verification of this specific claim about Edmonton PM2.5 levels during the 2023 wildfire season. The 2023 Canadian wildfire season was historically severe and did significantly impact Edmonton's air quality, but the specific figure of 15 days exceeding 100 µg/m³ cannot be confirmed without accessing ECCC data or reports.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Passive House Institut recommends vestibule volumes between 2 and 4 cubic meters for optimal airlock performance",
+          "claim": "Passive House Institut recommends vestibule volumes between 2 and 4 cubic meters",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence as web search tools were not available during this verification attempt.",
+        "detail": "I attempted to search for Passive House Institut vestibule volume recommendations but web search capabilities were not granted for this session. The Passive House Institut does publish technical guidelines for building components, and vestibules/airlocks are relevant to their air-tightness standards, but I cannot confirm whether they specifically recommend 2-4 cubic meters without access to their documentation or web search.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "if both doors are open simultaneously for even two seconds, infiltration approaches single-door levels",
+          "claim": "Two seconds of simultaneous door opening causes infiltration to approach single-door levels",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify this specific technical claim about two-second simultaneous door opening without web search access.",
+        "detail": "This claim makes a precise technical assertion about airlock/vestibule performance - that two seconds of simultaneous door opening negates the infiltration benefits. While the general principle that vestibules work by preventing simultaneous door opening is well-established in HVAC literature, the specific 'two seconds' threshold would require verification from building science research, ASHRAE publications, or CFD studies. Without web search access, I cannot locate primary sources to confirm or dispute this specific timeframe.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

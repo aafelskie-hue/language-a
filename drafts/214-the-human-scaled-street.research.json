@@ -1,0 +1,47 @@
+{
+  "programs": [
+    {
+      "name": "Form-Based Codes (various cities)",
+      "location": "United States (Miami, Denver, others)",
+      "year": "2000s-present",
+      "outcome": "Cannot verify specific outcomes without web access",
+      "source": "Form-Based Codes Institute - requires verification"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Traditional urban design recommends 1:1 to 1:3 building height to street width ratio for human-scaled enclosure",
+      "source": "Allan Jacobs, Great Streets (1993) - classical reference, needs contemporary verification",
+      "year": "1993"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Allan Jacobs",
+      "title": "Great Streets",
+      "year": "1993",
+      "finding": "Analyzed 300+ streets worldwide; identified optimal proportions for pedestrian comfort including height-to-width ratios"
+    },
+    {
+      "authors": "Jan Gehl",
+      "title": "Cities for People",
+      "year": "2010",
+      "finding": "Established principles for human-scale urban design including visual field and building proportions"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Barcelona, Spain - Eixample district",
+      "description": "Consistent building heights (approximately 6-7 stories) with chamfered corners creating defined street enclosure",
+      "source": "Well-documented historic example - specific outcomes require verification"
+    },
+    {
+      "location": "Paris, France - Haussmann boulevards",
+      "description": "Regulated building heights relative to street width (historically ~20m height for wider boulevards)",
+      "source": "Historic urban planning - specific current regulations require verification"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "IMPORTANT: I was unable to access web search or fetch tools to verify current sources. The evidence listed relies on well-known historical references (Jacobs, Gehl) that are foundational to urban design but I cannot confirm current statistics, recent studies, or program outcomes. This pattern concept is well-established in urban design theory but requires proper web research to provide verifiable contemporary evidence with URLs and specific metrics. Please re-run this research with web access enabled."
+}

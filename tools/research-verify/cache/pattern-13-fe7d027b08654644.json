@@ -1,0 +1,99 @@
+{
+  "patternId": 13,
+  "patternName": "The Laneway House",
+  "timestamp": "2026-02-16T20:28:11.006Z",
+  "model": "claude-code-cli",
+  "totalClaims": 4,
+  "results": [
+    {
+      "claim": {
+        "text": "Vancouver's laneway housing program, implemented in 2009, has produced over 4,000 small dwellings on existing single-family lots",
+        "claim": "Vancouver's laneway housing program was implemented in 2009",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access",
+      "detail": "Web search and web fetch tools were unavailable during this verification attempt. The claim about Vancouver's laneway housing program starting in 2009 could not be checked against any sources. This is a technical limitation, not a judgment on the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Vancouver's laneway housing program, implemented in 2009, has produced over 4,000 small dwellings on existing single-family lots",
+        "claim": "Vancouver's laneway housing program has produced over 4,000 dwellings",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "This claim requires checking Vancouver city records or official reports on laneway housing statistics. The 2009 start date and 'over 4,000' figure are specific claims that need verification against official City of Vancouver data. Without web search access, I cannot confirm current statistics.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Edmonton adopted a similar bylaw in 2018",
+        "claim": "Edmonton adopted a laneway/ADU housing bylaw in 2018",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Edmonton did adopt laneway/garden suite housing rules, but the timing may differ slightly from 2018.",
+      "detail": "Edmonton has permitted garden suites (their term for ADUs/laneway houses) and made significant zoning changes to allow them. The city made major updates to its Zoning Bylaw in the late 2010s to facilitate secondary suites and garden suites. However, without web search access, I cannot verify the exact year was 2018 versus 2017 or 2019. Edmonton's approach has been cited as a Canadian example of permissive ADU policy.",
+      "sources": [
+        "Unable to verify - web search not available. Based on training knowledge only."
+      ]
+    },
+    {
+      "claim": {
+        "text": "Portland's ADU program has added thousands more",
+        "claim": "Portland has an ADU program that has added thousands of units",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific claim due to search tool access restrictions.",
+      "detail": "I was unable to search for evidence about Portland's ADU program statistics. Portland, Oregon is widely known to have one of the most successful ADU programs in the United States following their 2010 waiver of system development charges and subsequent 2016 zoning reforms, but I cannot verify the specific claim of 'thousands' of units without access to current permit data or official reports.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Vancouver's laneway housing program, implemented in 2009, has produced over 4,000 small dwellings on existing single-family lots",
+          "claim": "Vancouver's laneway housing program was implemented in 2009",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access",
+        "detail": "Web search and web fetch tools were unavailable during this verification attempt. The claim about Vancouver's laneway housing program starting in 2009 could not be checked against any sources. This is a technical limitation, not a judgment on the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Vancouver's laneway housing program, implemented in 2009, has produced over 4,000 small dwellings on existing single-family lots",
+          "claim": "Vancouver's laneway housing program has produced over 4,000 dwellings",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "This claim requires checking Vancouver city records or official reports on laneway housing statistics. The 2009 start date and 'over 4,000' figure are specific claims that need verification against official City of Vancouver data. Without web search access, I cannot confirm current statistics.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

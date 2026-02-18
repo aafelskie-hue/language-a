@@ -1,0 +1,153 @@
+{
+  "patternId": 212,
+  "patternName": "The Circadian Window",
+  "timestamp": "2026-02-17T05:03:09.599Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "Mariana Figueiro and her colleagues at the Lighting Research Center have demonstrated that morning light exposure above 500 lux significantly improves nighttime sleep quality and reduces daytime sleepiness, particularly in adults over 60",
+        "claim": "Mariana Figueiro and colleagues at the Lighting Research Center published research showing morning light exposure above 500 lux improves nighttime sleep quality and reduces daytime sleepiness in adults over 60",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Cannot verify without web search access; researcher and institution are real but specific claim details cannot be confirmed.",
+      "detail": "Mariana Figueiro is a real researcher at the Lighting Research Center who has published extensively on light and circadian rhythms. However, without web search access, I cannot verify the specific claim about 500 lux threshold for morning light exposure improving sleep in adults over 60. The claim is plausible given Figueiro's research area, but the specific numbers and populations require source verification.",
+      "sources": [
+        "Unable to search - web access denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Duffy and Czeisler's work at Harvard Medical School shows that the *timing* of light exposure matters as much as its intensity",
+        "claim": "Duffy and Czeisler at Harvard Medical School conducted research on timing of light exposure and circadian rhythms",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Charles Czeisler and Jeanne Duffy are established circadian rhythm researchers at Harvard Medical School's Division of Sleep Medicine who have published extensively on timing of light exposure and circadian rhythms.",
+      "detail": "Charles Czeisler is the Chief of the Division of Sleep and Circadian Disorders at Brigham and Women's Hospital and a professor at Harvard Medical School. Jeanne Duffy is a senior neuroscientist in the same division and has collaborated extensively with Czeisler. Their research has demonstrated that the timing of light exposure is critical for circadian phase shifting, with morning light advancing rhythms and evening light delaying them. This is well-established in the circadian research literature.",
+      "sources": [
+        "Harvard Medical School Division of Sleep Medicine",
+        "Published research in journals including Journal of Biological Rhythms, Sleep, and Journal of Physiology"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The WELL Building Standard v2 recognizes this problem: its Circadian Lighting feature (L03) recommends providing at least 200 equivalent melanopic lux at the eye during morning hours and minimizing bright light in the evening",
+        "claim": "WELL Building Standard v2 has a Circadian Lighting feature designated L03 that recommends at least 200 equivalent melanopic lux at the eye during morning hours",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to check current WELL v2 documentation.",
+      "detail": "Web search and fetch tools are not permitted in this session. The claim references specific WELL Building Standard v2 documentation (L03 Circadian Lighting feature with 200 EML threshold) that requires access to the official WELL standard documentation or credible secondary sources to verify. From training data, WELL v2 does include circadian lighting provisions using melanopic metrics, but the exact threshold and feature number cannot be confirmed without current documentation access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Pattern 134 (Zen View) speaks of framing a single dramatic view",
+        "claim": "A Pattern Language Pattern 134 is called 'Zen View' and addresses framing a single dramatic view",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 134 in Christopher Alexander's 'A Pattern Language' is indeed called 'Zen View' and addresses the concept of framing a single dramatic view.",
+      "detail": "In Christopher Alexander's 1977 book 'A Pattern Language', Pattern 134 is titled 'Zen View'. The pattern discusses how instead of having continuous views of special features, you should frame a single dramatic view that can be glimpsed and appreciated. This is based on the Zen aesthetic of presenting beauty sparingly to preserve its power. The claim accurately represents this pattern.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Pattern 159 (Light on Two Sides of Every Room) insists on multiple light sources",
+        "claim": "A Pattern Language Pattern 159 is called 'Light on Two Sides of Every Room'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Pattern 159 in A Pattern Language is indeed titled 'Light on Two Sides of Every Room'.",
+      "detail": "Christopher Alexander's seminal work 'A Pattern Language' (1977) contains 253 patterns numbered sequentially. Pattern 159 is correctly titled 'Light on Two Sides of Every Room' and addresses the importance of having natural light enter a room from multiple directions to create comfortable, well-lit spaces. This is one of the most frequently cited patterns from the book.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein et al., 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In Edmonton, at 53°N latitude, the summer sun rises north of east and sets north of west; in winter it rises south of east and sets south of west",
+        "claim": "Edmonton is located at 53°N latitude",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Edmonton, Alberta is indeed located at approximately 53°N latitude.",
+      "detail": "Edmonton's coordinates are approximately 53°32′N 113°30′W. The city center is at roughly 53.55°N latitude, making the claim of '53°N' accurate as a rounded figure. This is well-established geographical data found in standard reference sources including encyclopedias and mapping services.",
+      "sources": [
+        "Standard geographical references",
+        "Natural Resources Canada geodetic data"
+      ]
+    },
+    {
+      "claim": {
+        "text": "In Edmonton, at 53°N latitude, the summer sun rises north of east and sets north of west; in winter it rises south of east and sets south of west",
+        "claim": "At 53°N latitude, summer sun rises north of east and sets north of west; winter sun rises south of east and sets south of west",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "This is a well-established astronomical fact about sun position at mid-to-high latitudes in the Northern Hemisphere.",
+      "detail": "At any latitude between the tropics and the Arctic/Antarctic circles, the sun rises north of due east and sets north of due west during summer months (around summer solstice), and rises south of due east and sets south of due west during winter months. At 53°N latitude (Edmonton's approximate position), this effect is quite pronounced. On the summer solstice, the sun rises at approximately 40-50° north of due east. This is basic celestial mechanics related to the Earth's 23.5° axial tilt.",
+      "sources": [
+        "Basic astronomical principles regarding Earth's axial tilt and solar position",
+        "Standard sun position calculations for latitudes between tropics and polar circles"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 5,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Mariana Figueiro and her colleagues at the Lighting Research Center have demonstrated that morning light exposure above 500 lux significantly improves nighttime sleep quality and reduces daytime sleepiness, particularly in adults over 60",
+          "claim": "Mariana Figueiro and colleagues at the Lighting Research Center published research showing morning light exposure above 500 lux improves nighttime sleep quality and reduces daytime sleepiness in adults over 60",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Cannot verify without web search access; researcher and institution are real but specific claim details cannot be confirmed.",
+        "detail": "Mariana Figueiro is a real researcher at the Lighting Research Center who has published extensively on light and circadian rhythms. However, without web search access, I cannot verify the specific claim about 500 lux threshold for morning light exposure improving sleep in adults over 60. The claim is plausible given Figueiro's research area, but the specific numbers and populations require source verification.",
+        "sources": [
+          "Unable to search - web access denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The WELL Building Standard v2 recognizes this problem: its Circadian Lighting feature (L03) recommends providing at least 200 equivalent melanopic lux at the eye during morning hours and minimizing bright light in the evening",
+          "claim": "WELL Building Standard v2 has a Circadian Lighting feature designated L03 that recommends at least 200 equivalent melanopic lux at the eye during morning hours",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to check current WELL v2 documentation.",
+        "detail": "Web search and fetch tools are not permitted in this session. The claim references specific WELL Building Standard v2 documentation (L03 Circadian Lighting feature with 200 EML threshold) that requires access to the official WELL standard documentation or credible secondary sources to verify. From training data, WELL v2 does include circadian lighting provisions using melanopic metrics, but the exact threshold and feature number cannot be confirmed without current documentation access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

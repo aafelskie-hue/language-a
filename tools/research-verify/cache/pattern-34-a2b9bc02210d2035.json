@@ -1,0 +1,73 @@
+{
+  "patternId": 34,
+  "patternName": "Light on Two Sides",
+  "timestamp": "2026-02-16T20:59:42.966Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "Every major study of daylighting satisfaction confirms it: rooms with windows on two walls receive more even illumination, offer cross-ventilation, provide multiple views, and are rated as more pleasant, more spacious, and more comfortable than rooms lit from one side.",
+        "claim": "Major daylighting studies confirm rooms with windows on two walls are rated more pleasant, spacious, and comfortable than single-sided rooms",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to search for evidence due to lack of web access permissions.",
+      "detail": "Web search and web fetch tools are unavailable in this session. Verifying claims about daylighting research requires accessing academic databases, building science journals, and organizations like the Illuminating Engineering Society or CIBSE. Without these tools, no assessment can be made.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "bilateral light reduces glare, allows the eye to adjust more naturally, and provides the changing light quality that regulates circadian rhythms",
+        "claim": "Bilateral light reduces glare and allows the eye to adjust more naturally",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access",
+      "detail": "Web search and web fetch tools were not available during this verification session. The claim about bilateral lighting reducing glare and allowing natural eye adjustment is consistent with general daylighting design principles, but I could not access primary sources to confirm the specific technical assertions.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "provides the changing light quality that regulates circadian rhythms",
+        "claim": "Light from multiple directions provides changing light quality that regulates circadian rhythms",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Changing light quality (spectrum/intensity) does regulate circadian rhythms, but 'multiple directions' is not the established mechanism.",
+      "detail": "Scientific literature confirms that changing light quality - particularly the shift in color temperature and blue light content throughout the day - is a key circadian zeitgeber (time-giver). However, the mechanism is primarily about spectral composition and intensity changes over time, not 'light from multiple directions.' The claim conflates two separate concepts: directional lighting (an architectural quality) and temporal changes in light spectrum (the actual circadian mechanism). Unable to search for primary sources to confirm.",
+      "sources": [
+        "Unable to access web search - assessment based on prior knowledge only"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Every major study of daylighting satisfaction confirms it: rooms with windows on two walls receive more even illumination, offer cross-ventilation, provide multiple views, and are rated as more pleasant, more spacious, and more comfortable than rooms lit from one side.",
+          "claim": "Major daylighting studies confirm rooms with windows on two walls are rated more pleasant, spacious, and comfortable than single-sided rooms",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to search for evidence due to lack of web access permissions.",
+        "detail": "Web search and web fetch tools are unavailable in this session. Verifying claims about daylighting research requires accessing academic databases, building science journals, and organizations like the Illuminating Engineering Society or CIBSE. Without these tools, no assessment can be made.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

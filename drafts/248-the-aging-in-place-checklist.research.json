@@ -1,0 +1,60 @@
+{
+  "programs": [
+    {
+      "name": "Visitability Ordinance",
+      "location": "Pima County, Arizona, USA",
+      "year": "2002",
+      "outcome": "Required basic accessibility features (zero-step entrance, wide doors, accessible bathroom on main floor) in new single-family homes. One of the first in the US.",
+      "source": "Unable to verify current status - needs web search"
+    },
+    {
+      "name": "Lifetime Homes Standard",
+      "location": "United Kingdom",
+      "year": "1999 (revised multiple times)",
+      "outcome": "16 design criteria for adaptable housing. Was mandatory for social housing until replaced by optional Building Regulations Part M4 categories in 2015.",
+      "source": "Unable to verify current status - needs web search"
+    },
+    {
+      "name": "NAHB Certified Aging-in-Place Specialist (CAPS) Program",
+      "location": "United States (national)",
+      "year": "2002",
+      "outcome": "Training and certification for professionals in aging-in-place home modifications. Thousands certified, but exact numbers need verification.",
+      "source": "National Association of Home Builders - needs web verification"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "AARP surveys consistently find 75-90% of adults 50+ want to remain in their current home as they age",
+      "source": "AARP research - exact figures and year need verification",
+      "year": "Various surveys 2010-2021"
+    },
+    {
+      "claim": "Home modification costs are typically far lower than nursing home or assisted living costs",
+      "source": "Various sources - specific figures need verification",
+      "year": "Unable to verify"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify without web access",
+      "title": "Studies exist on cost-effectiveness of universal design vs. retrofitting",
+      "year": "Various",
+      "finding": "Research generally shows building accessible features initially costs 1-2% more, while retrofitting costs significantly more. Exact citations need verification."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Atlanta, Georgia, USA",
+      "description": "City has visitability requirements for certain housing. Specific scope and outcomes need verification.",
+      "source": "Needs web verification"
+    },
+    {
+      "location": "Various Scandinavian countries",
+      "description": "Strong national building codes requiring accessibility features in new construction. Specific requirements vary by country.",
+      "source": "Needs web verification"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL LIMITATION: I was unable to access web search or web fetch tools to verify any of this information. The evidence above is based on my training knowledge but CANNOT be treated as verified. This pattern topic (aging-in-place design standards) is well-documented in reality - AARP, HUD, NAHB, and academic journals have extensive research on this. However, without the ability to search and verify current sources, I cannot provide the properly cited evidence this pattern deserves. I recommend re-running this research with web search enabled. The actual evidence for aging-in-place design is likely STRONG, but my current output should be rated THIN due to inability to verify sources."
+}

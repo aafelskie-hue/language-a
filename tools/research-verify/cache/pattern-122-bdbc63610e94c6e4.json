@@ -1,0 +1,184 @@
+{
+  "patternId": 122,
+  "patternName": "Cross Ventilation",
+  "timestamp": "2026-02-17T14:27:54.784Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "The American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) Standard 62.1 assumes a minimum outdoor airflow of 5 cfm per person for acceptable indoor air quality in mechanically ventilated spaces.",
+        "claim": "ASHRAE Standard 62.1 specifies minimum outdoor airflow of 5 cfm per person for acceptable indoor air quality",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "ASHRAE 62.1 uses 5 cfm/person as a component of ventilation calculation, but not as a standalone 'minimum' - it combines this with an area-based rate.",
+      "detail": "ASHRAE Standard 62.1 uses a Ventilation Rate Procedure that calculates outdoor air requirements using two components: a per-person rate (Rp) and a per-area rate (Ra). For office spaces, Rp is indeed 5 cfm/person, but this is added to Ra (typically 0.06 cfm/sq ft for offices). The claim that 5 cfm is the 'minimum' is an oversimplification - the actual minimum depends on space type and occupant density. The 5 cfm figure is accurate for the breathing zone outdoor airflow per person component in many occupancy categories.",
+      "sources": [
+        "ASHRAE Standard 62.1-2019 Ventilation for Acceptable Indoor Air Quality",
+        "ASHRAE knowledge base (unable to verify current version online due to tool access limitations)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A modest cross-ventilation path — two 0.5 m² openings on opposite walls in a 5 m/s breeze — can deliver 15–25 air changes per hour",
+        "claim": "Two 0.5 m² openings on opposite walls in a 5 m/s breeze deliver 15–25 air changes per hour",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claim is consistent with standard cross-ventilation engineering calculations for typical room sizes.",
+      "detail": "Using the standard cross-ventilation formula Q = Cv × A × V with typical effectiveness coefficients (0.5-0.6), 0.5 m² openings at 5 m/s wind speed yields approximately 1.25-1.5 m³/s airflow. This produces 15-25 ACH for rooms of 216-300 m³ volume, which corresponds to typical residential/commercial spaces of 60-85 m² floor area. The calculation follows established ASHRAE and building physics methodologies.",
+      "sources": [
+        "Standard ventilation engineering formula: Q = Cv × A × V",
+        "ASHRAE Fundamentals Handbook ventilation calculations",
+        "Building physics cross-ventilation methodology"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Measurements at the Bullitt Center in Seattle, designed for natural ventilation, showed that operable windows provided comfortable conditions for 85% of occupied hours during the cooling season, eliminating the need for compressor-based cooling entirely.",
+        "claim": "Bullitt Center in Seattle achieved comfortable conditions for 85% of occupied hours during cooling season using operable windows alone",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "I was unable to search the web or fetch pages to verify this specific claim about the Bullitt Center. The Bullitt Center is a well-documented Living Building Challenge certified building in Seattle known for its natural ventilation design, but the specific statistic of 85% comfortable hours during cooling season using operable windows alone requires verification from primary sources such as post-occupancy studies, the building's performance reports, or academic research. Without web access, I cannot confirm whether this exact percentage is accurate.",
+      "sources": [
+        "No sources accessible - web search permission denied"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The building's windows are positioned to align with Seattle's prevailing northwesterly summer winds",
+        "claim": "Seattle has prevailing northwesterly summer winds",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Seattle does experience prevailing northwesterly winds during summer months, which is consistent with Pacific Northwest coastal meteorology.",
+      "detail": "Seattle's summer wind patterns are influenced by the Pacific High pressure system that develops off the coast during summer months, which generates predominantly northwesterly winds. This is well-documented in regional climate data from the National Weather Service. During summer (June-September), winds from the northwest quadrant are most common as the marine air flow from the Pacific Ocean follows this pattern.",
+      "sources": [
+        "National Weather Service Seattle climate data (general knowledge)",
+        "Pacific Northwest regional climate patterns (general knowledge)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Research from the Florida Solar Energy Center found that staggering inlet and outlet windows — placing them on adjacent rather than directly opposite walls — can increase air movement within the room by 20–40%",
+        "claim": "Florida Solar Energy Center research found staggered inlet/outlet windows increase room air movement by 20–40%",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to find Florida Solar Energy Center research.",
+      "detail": "Web search was unavailable to verify this claim about FSEC research on staggered window placement and air movement. The Florida Solar Energy Center is a real research institution at the University of Central Florida that has conducted extensive research on building energy efficiency and natural ventilation in hot-humid climates. The claim is technically plausible given FSEC's research focus, but without access to search their publications or databases, the specific 20-40% figure and staggered window methodology cannot be confirmed.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Edmonton's brief but intense summers, when afternoon temperatures reach 28–32°C",
+        "claim": "Edmonton summer afternoon temperatures reach 28–32°C",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Edmonton summer temperatures can reach 28-32°C on warm days, but this range represents higher-than-average conditions rather than typical afternoon temperatures.",
+      "detail": "Edmonton's average July high temperature is approximately 23°C (around 73°F), with August similar. The 28-32°C range cited in the claim represents warmer-than-average summer days rather than typical afternoon temperatures. However, such temperatures do occur regularly during heat waves and warmer summer days in Edmonton. The claim is directionally correct in that Edmonton experiences these temperatures during summer, but framing them as the typical afternoon temperature overstates the norm.",
+      "sources": [
+        "General climatological knowledge - unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Passivhaus Institut recommends that operable windows for ventilation total at least 1/30 of the floor area served, split between inlet and outlet.",
+        "claim": "Passivhaus Institut recommends operable window area of at least 1/30 of floor area for ventilation",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify this specific ratio recommendation without web search access to check current Passivhaus Institut documentation.",
+      "detail": "The Passivhaus Institut is a real organization that provides guidance on passive house design, including natural ventilation requirements. The 1/30 ratio is a plausible figure that appears in passive house literature, but I cannot confirm this is the exact official recommendation without accessing current Passivhaus Institut documentation or Passipedia. Different sources may cite varying ratios depending on climate zone and building type.",
+      "sources": [
+        "Unable to access web sources - verification requires web search capability"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander, in Pattern 107 (Wings of Light), argued that no building should be more than 25 feet deep if it is to be naturally lit and ventilated from both sides.",
+        "claim": "Christopher Alexander's Pattern 107 (Wings of Light) recommends maximum building depth of 25 feet for natural light and ventilation",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.9,
+      "summary": "Pattern 107 'Wings of Light' in Christopher Alexander's 'A Pattern Language' (1977) does recommend a maximum building depth of approximately 25 feet for natural light and ventilation.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977), Pattern 107 titled 'Wings of Light', explicitly argues that buildings should be no deeper than about 25 feet to ensure natural lighting can penetrate from both sides. The pattern connects this dimension to both natural lighting requirements (light reaching all interior spaces without artificial lighting) and ventilation needs. This is a well-established reference in architectural literature that has been consistently cited for nearly 50 years.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein, 'A Pattern Language: Towns, Buildings, Construction' (Oxford University Press, 1977), Pattern 107"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 2,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Measurements at the Bullitt Center in Seattle, designed for natural ventilation, showed that operable windows provided comfortable conditions for 85% of occupied hours during the cooling season, eliminating the need for compressor-based cooling entirely.",
+          "claim": "Bullitt Center in Seattle achieved comfortable conditions for 85% of occupied hours during cooling season using operable windows alone",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "I was unable to search the web or fetch pages to verify this specific claim about the Bullitt Center. The Bullitt Center is a well-documented Living Building Challenge certified building in Seattle known for its natural ventilation design, but the specific statistic of 85% comfortable hours during cooling season using operable windows alone requires verification from primary sources such as post-occupancy studies, the building's performance reports, or academic research. Without web access, I cannot confirm whether this exact percentage is accurate.",
+        "sources": [
+          "No sources accessible - web search permission denied"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Research from the Florida Solar Energy Center found that staggering inlet and outlet windows — placing them on adjacent rather than directly opposite walls — can increase air movement within the room by 20–40%",
+          "claim": "Florida Solar Energy Center research found staggered inlet/outlet windows increase room air movement by 20–40%",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to find Florida Solar Energy Center research.",
+        "detail": "Web search was unavailable to verify this claim about FSEC research on staggered window placement and air movement. The Florida Solar Energy Center is a real research institution at the University of Central Florida that has conducted extensive research on building energy efficiency and natural ventilation in hot-humid climates. The claim is technically plausible given FSEC's research focus, but without access to search their publications or databases, the specific 20-40% figure and staggered window methodology cannot be confirmed.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Passivhaus Institut recommends that operable windows for ventilation total at least 1/30 of the floor area served, split between inlet and outlet.",
+          "claim": "Passivhaus Institut recommends operable window area of at least 1/30 of floor area for ventilation",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify this specific ratio recommendation without web search access to check current Passivhaus Institut documentation.",
+        "detail": "The Passivhaus Institut is a real organization that provides guidance on passive house design, including natural ventilation requirements. The 1/30 ratio is a plausible figure that appears in passive house literature, but I cannot confirm this is the exact official recommendation without accessing current Passivhaus Institut documentation or Passipedia. Different sources may cite varying ratios depending on climate zone and building type.",
+        "sources": [
+          "Unable to access web sources - verification requires web search capability"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}

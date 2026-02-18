@@ -1,0 +1,37 @@
+{
+  "programs": [
+    {
+      "name": "Americans with Disabilities Act (ADA) Standards for Accessible Design",
+      "location": "United States",
+      "year": "1990 (updated 2010)",
+      "outcome": "Requires 32-inch minimum clear width for doorways in public accommodations and commercial facilities. A 36-inch door typically provides this clear width when accounting for door thickness and hardware.",
+      "source": "U.S. Department of Justice, ADA.gov - unable to verify current URL without web access"
+    },
+    {
+      "name": "Fair Housing Accessibility Guidelines",
+      "location": "United States",
+      "year": "1991",
+      "outcome": "Requires accessible doorways in covered multifamily housing built after March 1991. Interior doors must have 32-inch nominal clear width.",
+      "source": "U.S. Department of Housing and Urban Development - unable to verify current URL without web access"
+    },
+    {
+      "name": "Visitability Ordinances",
+      "location": "Various U.S. cities including Atlanta, GA; Pima County, AZ",
+      "year": "1992 onwards",
+      "outcome": "Local ordinances requiring basic accessibility features including wider doorways in new single-family construction. Specific outcome data unavailable without web verification.",
+      "source": "Concrete Change organization and local municipal codes - unable to verify without web access"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Standard wheelchairs are approximately 24-27 inches wide, requiring doorways of at least 32 inches clear width for passage",
+      "source": "General accessibility guidelines - specific source unverifiable without web access",
+      "year": "N/A"
+    }
+  ],
+  "studies": [],
+  "examples": [],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "IMPORTANT: I do not have permission to use WebSearch or WebFetch tools in this session. The information above is based on well-known accessibility standards but I cannot provide verified URLs, current statistics, academic studies, or specific built examples without web access. The ADA and Fair Housing Act requirements are established law, but specific outcome data, recent studies, and built examples would require web verification. This research should be re-run with web access enabled to provide properly sourced evidence."
+}

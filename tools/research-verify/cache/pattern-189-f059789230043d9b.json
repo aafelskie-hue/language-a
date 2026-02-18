@@ -1,0 +1,123 @@
+{
+  "patternId": 189,
+  "patternName": "The Fire-Resistant Envelope",
+  "timestamp": "2026-02-17T03:14:53.284Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "California Building Code Chapter 7A, developed after repeated catastrophic WUI fires, establishes ignition-resistant construction standards",
+        "claim": "California Building Code Chapter 7A establishes ignition-resistant construction standards for WUI areas",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "California Building Code Chapter 7A does establish ignition-resistant construction standards for wildland-urban interface (WUI) areas.",
+      "detail": "Chapter 7A of the California Building Code, titled 'Materials and Construction Methods for Exterior Wildfire Exposure,' establishes requirements for ignition-resistant construction in State Responsibility Areas and designated Local Agency Very High Fire Hazard Severity Zones. It was developed after California's devastating 1991 Oakland Hills fire and subsequent WUI fires, and has been updated multiple times since its initial adoption around 2005. The code specifies requirements for roofing, exterior walls, vents, decking, and other building components to resist wildfire ignition.",
+      "sources": [
+        "California Building Standards Commission - California Building Code Chapter 7A",
+        "CAL FIRE - Building in the Wildland Urban Interface"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Class A fire-rated roofing, non-combustible or ignition-resistant exterior walls within specified distances, ember-resistant vents with 1/8-inch or smaller mesh, and enclosed eaves",
+        "claim": "California Building Code Chapter 7A requires ember-resistant vents with 1/8-inch or smaller mesh",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "California Building Code Chapter 7A does require ember-resistant vents, but the mesh sizing requirements are more nuanced than stated.",
+      "detail": "Chapter 7A of the California Building Code (Section 708A) does address venting requirements in wildfire-prone areas. The code requires vents to resist ember intrusion, but the specific mesh requirements include provisions for 1/16-inch mesh (not just 1/8-inch) for certain vent types, and some code updates have refined these requirements. The claim of '1/8-inch or smaller' is directionally correct but may not capture the full technical specification, which varies by vent location and type. Without current web access to verify the exact current code language, I cannot confirm the precise specification.",
+      "sources": [
+        "Unable to verify via web search - permissions not granted. Response based on knowledge of CBC Chapter 7A vent requirements."
+      ]
+    },
+    {
+      "claim": {
+        "text": "The IBHS Wildfire Prepared Home program builds on this with whole-structure testing, subjecting mock buildings to ember showers and radiant heat panels to identify weak points",
+        "claim": "IBHS (Insurance Institute for Business & Home Safety) has a Wildfire Prepared Home program that conducts whole-structure testing with ember showers and radiant heat panels",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to access web sources to verify IBHS Wildfire Prepared Home program's specific testing methods.",
+      "detail": "Web search and fetch tools were not available to verify this claim directly. Based on training data, IBHS does have a Wildfire Prepared Home program and operates a research center in South Carolina with full-scale testing capabilities. They are known for multi-hazard testing including wildfire scenarios, but I could not confirm the specific claim about 'ember showers and radiant heat panels' through primary sources. The claim is plausible given IBHS's known research capabilities, but verification requires access to IBHS official documentation.",
+      "sources": [
+        "Unable to access web sources - verification requires WebSearch/WebFetch permissions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Post-fire surveys consistently find that most structure losses in the wildland-urban interface come not from direct flame contact but from ember intrusion and radiant heat",
+        "claim": "Post-fire surveys find most WUI structure losses come from ember intrusion and radiant heat rather than direct flame contact",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search tools being unavailable",
+      "detail": "Web search and web fetch permissions were not granted, preventing verification of this claim. Based on domain knowledge, this claim aligns with well-established fire science findings from NIST, IBHS, and CAL FIRE research, but I cannot cite specific sources without search capability.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Screen all vents — soffit vents, gable vents, foundation vents — with 3-millimeter or smaller corrosion-resistant metal mesh",
+        "claim": "3-millimeter or smaller mesh is the recommended/required standard for ember-resistant vent screening",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "The 1/8-inch (approximately 3.175mm) mesh standard is well-established for ember-resistant vents, though some codes specify different sizes and requirements vary by jurisdiction.",
+      "detail": "California Building Code Chapter 7A and the International Wildland-Urban Interface Code specify 1/8-inch (3.175mm) mesh for vent openings in wildfire-prone areas. However, some sources recommend 1/16-inch mesh for superior ember protection. The claim of '3-millimeter or smaller' is slightly imprecise since the standard is 1/8-inch (3.175mm), not exactly 3mm. Additionally, recent California code updates (2020) have moved toward requiring ember-resistant vents that meet ASTM E2886 testing standards rather than just mesh size specifications.",
+      "sources": [
+        "California Building Code Chapter 7A",
+        "International Wildland-Urban Interface Code (IWUIC)",
+        "Note: Web search unavailable - based on training knowledge only"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 2,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The IBHS Wildfire Prepared Home program builds on this with whole-structure testing, subjecting mock buildings to ember showers and radiant heat panels to identify weak points",
+          "claim": "IBHS (Insurance Institute for Business & Home Safety) has a Wildfire Prepared Home program that conducts whole-structure testing with ember showers and radiant heat panels",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to access web sources to verify IBHS Wildfire Prepared Home program's specific testing methods.",
+        "detail": "Web search and fetch tools were not available to verify this claim directly. Based on training data, IBHS does have a Wildfire Prepared Home program and operates a research center in South Carolina with full-scale testing capabilities. They are known for multi-hazard testing including wildfire scenarios, but I could not confirm the specific claim about 'ember showers and radiant heat panels' through primary sources. The claim is plausible given IBHS's known research capabilities, but verification requires access to IBHS official documentation.",
+        "sources": [
+          "Unable to access web sources - verification requires WebSearch/WebFetch permissions"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Post-fire surveys consistently find that most structure losses in the wildland-urban interface come not from direct flame contact but from ember intrusion and radiant heat",
+          "claim": "Post-fire surveys find most WUI structure losses come from ember intrusion and radiant heat rather than direct flame contact",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search tools being unavailable",
+        "detail": "Web search and web fetch permissions were not granted, preventing verification of this claim. Based on domain knowledge, this claim aligns with well-established fire science findings from NIST, IBHS, and CAL FIRE research, but I cannot cite specific sources without search capability.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "programs": [
+    {
+      "name": "Hong Kong Micro Apartment Regulations",
+      "location": "Hong Kong",
+      "year": "2022",
+      "outcome": "Government minimum flat size regulations of 26 sqm prompted developers to integrate space-saving furniture solutions, though specific modular furniture mandates not confirmed",
+      "source": "Hong Kong Housing Authority - needs verification"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to verify specific statistics on modular furniture adoption rates or outcomes without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "MIT Media Lab / Changing Places Group",
+      "title": "Research on robotic and transformable furniture systems (CityHome project)",
+      "year": "2014-2017",
+      "finding": "Demonstrated that robotic walls and furniture could expand usable floor space in micro-units - specific percentages need verification"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Boston, MA / Various US cities",
+      "description": "Ori Living (spinoff from MIT Media Lab) has deployed robotic furniture systems in apartment buildings that transform bedrooms into living spaces via motorized sliding units. Specific building names and unit counts need verification.",
+      "source": "Ori Living company - needs current verification"
+    },
+    {
+      "location": "Japan",
+      "description": "MUJI modular furniture systems designed for small Japanese apartments, allowing reconfiguration. Widely documented but specific outcome metrics unavailable.",
+      "source": "MUJI product line - needs verification"
+    },
+    {
+      "location": "IKEA global",
+      "description": "IKEA's PLATSA and KALLAX systems represent mass-market modular furniture, though these are freestanding rather than truly built-in transformable systems",
+      "source": "IKEA product catalogs"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL LIMITATION: Web search was not available for this research. The evidence provided is based on general knowledge but lacks verified citations, specific statistics, and current data. The pattern concept is sound - companies like Ori Living and research from MIT's CityHome project do exist and address this exact problem - but I cannot provide the verifiable URLs, specific outcome numbers, or confirmed program details required for strong evidence. This pattern needs proper web research to verify: (1) Ori Living's actual deployment numbers and buildings, (2) academic studies on space utilization gains, (3) housing policy programs that incentivize or require flexible furniture systems, (4) consumer adoption statistics for modular/transformable furniture. I recommend re-running this research with web search enabled."
+}

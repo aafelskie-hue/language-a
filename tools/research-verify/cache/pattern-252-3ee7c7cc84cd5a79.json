@@ -1,0 +1,17 @@
+{
+  "patternId": 252,
+  "patternName": "The Task Light",
+  "timestamp": "2026-02-16T19:30:56.078Z",
+  "model": "claude-code-cli",
+  "totalClaims": 0,
+  "results": [],
+  "summary": {
+    "verified": 0,
+    "partially": 0,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "No verifiable claims found in this pattern."
+  }
+}

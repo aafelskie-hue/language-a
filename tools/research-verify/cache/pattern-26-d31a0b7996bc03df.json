@@ -1,0 +1,94 @@
+{
+  "patternId": 26,
+  "patternName": "Rainwater as Resource",
+  "timestamp": "2026-02-16T20:47:40.934Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "A typical house in Edmonton receives roughly 100,000 liters of rain per year on its roof.",
+        "claim": "A typical house in Edmonton receives approximately 100,000 liters of rainfall on its roof annually",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify without web access to current Edmonton precipitation data, though rough calculation suggests the figure may be high.",
+      "detail": "Web search and fetch permissions were not granted. Based on training knowledge, Edmonton receives approximately 350-450mm annual precipitation. For a typical 100-150 m² roof, this would yield 35,000-67,500 liters annually, making 100,000 liters appear high unless referring to a larger home. However, current authoritative data is needed to confirm.",
+      "sources": [
+        "Unable to access web sources - permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Captured and stored, this is enough for toilet flushing, laundry, and all outdoor irrigation for the year.",
+        "claim": "100,000 liters of captured rainwater is sufficient for a household's annual toilet flushing, laundry, and outdoor irrigation needs",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "100,000 liters is generous but potentially reasonable depending on household size and climate, though typical estimates are lower.",
+      "detail": "Average household water usage for toilet flushing (approximately 30%), laundry (approximately 20%), and outdoor irrigation (varies widely, 30-50% in some regions) would typically total 50,000-80,000 liters annually for a 2-3 person household in temperate climates. The 100,000 liter figure is high but could be accurate for a larger household or one with significant irrigation needs in a drier climate. The claim is directionally correct but may overstate typical needs or understate what 100,000 liters can cover.",
+      "sources": [
+        "Unable to verify via web search - assessment based on general knowledge of water usage statistics from EPA and water utility data"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Size the storage to the roof area and local rainfall: roughly one liter of storage per square meter of roof per millimeter of design rainfall.",
+        "claim": "Rainwater storage sizing formula: approximately 1 liter of storage capacity per square meter of roof area per millimeter of design rainfall",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.6,
+      "summary": "Unable to search for external validation, but the formula is mathematically sound based on dimensional analysis.",
+      "detail": "Web search was unavailable to verify this against engineering standards or rainwater harvesting guidelines. However, the formula is mathematically correct: 1 mm of rain on 1 m² equals exactly 1 liter (0.001 m × 1 m² = 0.001 m³ = 1 L). This appears to be a basic volumetric conversion presented as a sizing rule-of-thumb, though real-world sizing would also consider collection efficiency, first-flush diversion, and demand patterns.",
+      "sources": [
+        "Mathematical dimensional analysis only - web search unavailable"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "A typical house in Edmonton receives roughly 100,000 liters of rain per year on its roof.",
+          "claim": "A typical house in Edmonton receives approximately 100,000 liters of rainfall on its roof annually",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify without web access to current Edmonton precipitation data, though rough calculation suggests the figure may be high.",
+        "detail": "Web search and fetch permissions were not granted. Based on training knowledge, Edmonton receives approximately 350-450mm annual precipitation. For a typical 100-150 m² roof, this would yield 35,000-67,500 liters annually, making 100,000 liters appear high unless referring to a larger home. However, current authoritative data is needed to confirm.",
+        "sources": [
+          "Unable to access web sources - permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Size the storage to the roof area and local rainfall: roughly one liter of storage per square meter of roof per millimeter of design rainfall.",
+          "claim": "Rainwater storage sizing formula: approximately 1 liter of storage capacity per square meter of roof area per millimeter of design rainfall",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.6,
+        "summary": "Unable to search for external validation, but the formula is mathematically sound based on dimensional analysis.",
+        "detail": "Web search was unavailable to verify this against engineering standards or rainwater harvesting guidelines. However, the formula is mathematically correct: 1 mm of rain on 1 m² equals exactly 1 liter (0.001 m × 1 m² = 0.001 m³ = 1 L). This appears to be a basic volumetric conversion presented as a sizing rule-of-thumb, though real-world sizing would also consider collection efficiency, first-flush diversion, and demand patterns.",
+        "sources": [
+          "Mathematical dimensional analysis only - web search unavailable"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

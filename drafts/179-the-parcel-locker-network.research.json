@@ -1,0 +1,48 @@
+{
+  "programs": [
+    {
+      "name": "InPost Parcel Locker Network Expansion",
+      "location": "Poland, UK, France, Italy",
+      "year": "2020-2024",
+      "outcome": "Over 40,000 lockers deployed across Europe; claimed 75% reduction in CO2 per parcel vs home delivery",
+      "source": "InPost corporate sustainability reports - UNVERIFIED without web access"
+    },
+    {
+      "name": "Amazon Hub Locker Program",
+      "location": "United States, UK, Germany",
+      "year": "2011-present",
+      "outcome": "Thousands of lockers in retail locations, apartment buildings, transit stations",
+      "source": "Amazon corporate announcements - UNVERIFIED without web access"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Parcel lockers can reduce last-mile delivery emissions by 30-50% compared to door-to-door delivery",
+      "source": "Various logistics industry reports - UNVERIFIED",
+      "year": "2022-2023"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify specific authors",
+      "title": "Studies on parcel locker environmental impact exist but cannot be cited without web verification",
+      "year": "N/A",
+      "finding": "General research suggests consolidation points reduce vehicle kilometers traveled"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Poland",
+      "description": "InPost operates extensive locker network with high adoption rates; Poland has among highest parcel locker usage globally",
+      "source": "Industry reports - UNVERIFIED"
+    },
+    {
+      "location": "Finland - Posti SmartPOST",
+      "description": "National postal service parcel locker network",
+      "source": "Posti corporate information - UNVERIFIED"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL CAVEAT: I was unable to access web search or fetch external URLs in this session. All information above is based on my training knowledge through May 2025 and CANNOT be verified as current or accurate. This pattern likely has strong real-world evidence from InPost, Amazon, DHL, and academic logistics research, but I cannot provide properly sourced citations without web access. Please either grant WebSearch/WebFetch permissions or conduct manual verification before using any of these claims."
+}

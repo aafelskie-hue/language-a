@@ -1,0 +1,90 @@
+{
+  "patternId": 87,
+  "patternName": "The Sound Garden",
+  "timestamp": "2026-02-16T22:05:43.454Z",
+  "model": "claude-code-cli",
+  "totalClaims": 3,
+  "results": [
+    {
+      "claim": {
+        "text": "the sound of flowing water reduces perceived stress by 20–30% in controlled studies",
+        "claim": "Controlled studies show flowing water sounds reduce perceived stress by 20-30%",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for primary sources to verify the specific 20-30% stress reduction claim for flowing water sounds.",
+      "detail": "While research on nature sounds and stress reduction exists (e.g., studies showing benefits of 'blue noise' and natural soundscapes), I could not search for specific controlled studies that demonstrate the claimed 20-30% reduction in perceived stress from flowing water sounds. The claim is plausible given general research on nature sounds and relaxation, but the specific percentage range requires verification against actual study data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Birdsong increases ratings of 'pleasantness' and 'restoration' in outdoor spaces",
+        "claim": "Research shows birdsong increases pleasantness and restoration ratings in outdoor spaces",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Multiple peer-reviewed studies support that birdsong positively affects perceived pleasantness and restoration in outdoor environments.",
+      "detail": "Research by Eleanor Ratcliffe and colleagues (notably a 2013 study published in Proceedings of Meetings on Acoustics and subsequent work) has specifically examined how birdsong affects perceived restorativeness. Studies in environmental psychology journals have consistently found that natural sounds including birdsong enhance ratings of pleasantness and restoration compared to urban/mechanical sounds. The claim aligns with well-established findings in soundscape research.",
+      "sources": [
+        "Unable to search - based on training knowledge of Ratcliffe et al. research on birdsong and restoration, and broader soundscape ecology literature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Wind in leaves provides a broadband masking sound that reduces the perceived loudness of traffic",
+        "claim": "Wind in leaves produces broadband sound that reduces perceived traffic loudness",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for sources to verify this acoustic claim about vegetation sound masking.",
+      "detail": "Web search tools are not currently available to verify this claim. The claim relates to established acoustic research on natural soundscapes and noise masking, where broadband sounds (like wind in leaves) can psychoacoustically reduce the perceived loudness of intrusive sounds like traffic. This is a plausible technical claim consistent with acoustic masking principles, but specific sources could not be retrieved to confirm.",
+      "sources": [
+        "No sources searched - web tools unavailable"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "the sound of flowing water reduces perceived stress by 20–30% in controlled studies",
+          "claim": "Controlled studies show flowing water sounds reduce perceived stress by 20-30%",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for primary sources to verify the specific 20-30% stress reduction claim for flowing water sounds.",
+        "detail": "While research on nature sounds and stress reduction exists (e.g., studies showing benefits of 'blue noise' and natural soundscapes), I could not search for specific controlled studies that demonstrate the claimed 20-30% reduction in perceived stress from flowing water sounds. The claim is plausible given general research on nature sounds and relaxation, but the specific percentage range requires verification against actual study data.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Wind in leaves provides a broadband masking sound that reduces the perceived loudness of traffic",
+          "claim": "Wind in leaves produces broadband sound that reduces perceived traffic loudness",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for sources to verify this acoustic claim about vegetation sound masking.",
+        "detail": "Web search tools are not currently available to verify this claim. The claim relates to established acoustic research on natural soundscapes and noise masking, where broadband sounds (like wind in leaves) can psychoacoustically reduce the perceived loudness of intrusive sounds like traffic. This is a plausible technical claim consistent with acoustic masking principles, but specific sources could not be retrieved to confirm.",
+        "sources": [
+          "No sources searched - web tools unavailable"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

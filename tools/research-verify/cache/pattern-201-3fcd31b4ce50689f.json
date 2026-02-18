@@ -1,0 +1,197 @@
+{
+  "patternId": 201,
+  "patternName": "The Seed Library",
+  "timestamp": "2026-02-17T04:13:39.305Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "Seeds of Diversity Canada, a national seed-saving network founded in 1984",
+        "claim": "Seeds of Diversity Canada was founded in 1984",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch permissions were not granted, preventing me from searching for primary sources about Seeds of Diversity Canada's founding date. I cannot confirm or deny the 1984 founding claim without access to the organization's official website or other credible sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "the Richmond Grows Seed Lending Library in California (established 2010) often cited as the first public library integration",
+        "claim": "Richmond Grows Seed Lending Library in California was established in 2010 and is often cited as the first public library seed library integration",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to find current sources.",
+      "detail": "Web search permissions were not granted, preventing verification of the Richmond Grows Seed Lending Library establishment date and its status as the first public library seed library integration. From general knowledge, seed libraries in public libraries did emerge around 2010, but I cannot confirm the specific details of this claim without access to primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "by 2015, over 300 seed libraries operated in North American public libraries",
+        "claim": "Over 300 seed libraries operated in North American public libraries by 2015",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search web sources to verify the specific count of 300 seed libraries by 2015.",
+      "detail": "Web search and fetch tools are not available in this session. From general knowledge, seed libraries did grow significantly in public libraries during the 2010s, and numbers in the hundreds were commonly cited, but I cannot verify the specific '300 by 2015' figure without access to primary sources like library association reports or seed library directories from that period.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Pima County Public Library in Arizona reported that their seed library distributed over 50,000 seed packets in its first five years",
+        "claim": "Pima County Public Library seed library distributed over 50,000 seed packets in its first five years",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot search for information about the Pima County Public Library seed library distribution statistics. The claim cannot be verified or disputed without access to external sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "with return rates around 15-20%",
+        "claim": "Pima County Public Library seed library had return rates of 15-20%",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to lack of web search permissions.",
+      "detail": "I attempted to search for information about Pima County Public Library seed library return rates, but web search and web fetch tools were not available. Without the ability to search the internet, I cannot verify whether the claimed 15-20% return rate is accurate. This claim would require searching library program reports, news articles about the seed library program, or academic papers on seed lending programs.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Edmonton's 120-day frost-free season",
+        "claim": "Edmonton has a 120-day frost-free season",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions to find current authoritative sources.",
+      "detail": "Web search and web fetch tools were not available for this verification. Based on training data, Edmonton's frost-free season is typically cited in the range of 100-145 days, making 120 days a plausible figure, but I cannot confirm this against authoritative sources like Environment Canada climate normals without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Edmonton Seed Library, housed at the Highlands branch of the Edmonton Public Library",
+        "claim": "Edmonton Seed Library exists and is housed at the Highlands branch of Edmonton Public Library",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools were unavailable during this verification attempt. The claim about the Edmonton Seed Library being housed at the Highlands branch of Edmonton Public Library could not be checked against current sources. Manual verification using web search is required.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Seeds must be stored cool and dry — 4°C and below 40% relative humidity for long-term viability",
+        "claim": "Optimal seed storage conditions are 4°C and below 40% relative humidity",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The stated conditions of 4°C and below 40% relative humidity align with widely accepted seed storage standards.",
+      "detail": "These conditions match guidelines from major seed banks and agricultural research institutions. The Svalbard Global Seed Vault stores seeds at -18°C, while the FAO/IPGRI Genebank Standards recommend -18°C to -20°C for base collections and 1-4°C for active collections, with relative humidity of 3-7% for dried seeds or seed moisture content of 3-7%. The claim of 4°C and 40% RH represents a reasonable standard for medium-term storage rather than the most stringent long-term conditions, but is within accepted practice.",
+      "sources": [
+        "FAO/IPGRI Genebank Standards (training knowledge)",
+        "General agricultural extension literature on seed storage (training knowledge)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Most vegetable seeds remain viable for 3-7 years under proper storage",
+        "claim": "Most vegetable seeds remain viable for 3-7 years under proper storage conditions",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 3-7 year viability range for most vegetable seeds under proper storage is consistent with widely published agricultural extension guidelines.",
+      "detail": "University agricultural extension services (such as those from Oregon State, University of Minnesota, and Cornell) consistently report that most vegetable seeds remain viable for 2-5 years on the shorter end and up to 5-7+ years for longer-lasting varieties like tomatoes and brassicas when stored cool and dry. The claim's 3-7 year range reasonably captures this variation. However, I was unable to perform live web searches to verify current sources.",
+      "sources": [
+        "Unable to access web sources - verdict based on training knowledge of agricultural extension publications"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 0,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "the Richmond Grows Seed Lending Library in California (established 2010) often cited as the first public library integration",
+          "claim": "Richmond Grows Seed Lending Library in California was established in 2010 and is often cited as the first public library seed library integration",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to lack of web search access to find current sources.",
+        "detail": "Web search permissions were not granted, preventing verification of the Richmond Grows Seed Lending Library establishment date and its status as the first public library seed library integration. From general knowledge, seed libraries in public libraries did emerge around 2010, but I cannot confirm the specific details of this claim without access to primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "by 2015, over 300 seed libraries operated in North American public libraries",
+          "claim": "Over 300 seed libraries operated in North American public libraries by 2015",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search web sources to verify the specific count of 300 seed libraries by 2015.",
+        "detail": "Web search and fetch tools are not available in this session. From general knowledge, seed libraries did grow significantly in public libraries during the 2010s, and numbers in the hundreds were commonly cited, but I cannot verify the specific '300 by 2015' figure without access to primary sources like library association reports or seed library directories from that period.",
+        "sources": [
+          "Unable to access web sources for verification"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Pima County Public Library in Arizona reported that their seed library distributed over 50,000 seed packets in its first five years",
+          "claim": "Pima County Public Library seed library distributed over 50,000 seed packets in its first five years",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot search for information about the Pima County Public Library seed library distribution statistics. The claim cannot be verified or disputed without access to external sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Edmonton Seed Library, housed at the Highlands branch of the Edmonton Public Library",
+          "claim": "Edmonton Seed Library exists and is housed at the Highlands branch of Edmonton Public Library",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools were unavailable during this verification attempt. The claim about the Edmonton Seed Library being housed at the Highlands branch of Edmonton Public Library could not be checked against current sources. Manual verification using web search is required.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

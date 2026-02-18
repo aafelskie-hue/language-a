@@ -1,0 +1,211 @@
+{
+  "patternId": 167,
+  "patternName": "The Mews",
+  "timestamp": "2026-02-17T02:07:40.142Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "The mews — a narrow, shared-surface lane lined with small dwellings — emerged in seventeenth- and eighteenth-century London as a practical solution to an urban problem",
+        "claim": "Mews emerged in 17th and 18th century London as service lanes for stables behind wealthy terraces",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Mews historically originated in London as service lanes containing stables and coach houses behind grand Georgian townhouses, primarily in the 17th-18th centuries.",
+      "detail": "The term 'mews' derives from the Royal Mews, where royal hawks were kept ('mewed'). In the Georgian era (roughly 1714-1830, spanning the 18th century), mews developed as back lanes behind wealthy terraced houses in areas like Belgravia and Mayfair, housing stables, coach houses, and servants' quarters. The 17th century date may be slightly early for widespread development, as most mews architecture dates from the 18th-19th centuries, but the practice did begin emerging in the late 1600s. Unable to verify with current web sources due to tool access limitations.",
+      "sources": [
+        "Training knowledge - unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "These lanes were typically 4 to 6 meters wide, lined on both sides with two-story buildings whose ground floors housed horses and whose upper floors housed grooms",
+        "claim": "Historical London mews lanes were typically 4 to 6 meters wide with two-story buildings",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify specific dimensions due to lack of web search access, though the general description aligns with historical accounts of London mews.",
+      "detail": "London mews historically were indeed narrow lanes behind grand townhouses, featuring two-story buildings with stables below and groom quarters above. However, I could not search for sources to verify the specific 4-6 meter width claim. This dimension seems plausible given the need to accommodate horse-drawn carriages, but would require primary sources such as architectural surveys or historical records to confirm.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Bathurst Mews, Pont Street Mews, Queen's Gate Mews — these former stable lanes now command prices exceeding their parent streets",
+        "claim": "Bathurst Mews, Pont Street Mews, and Queen's Gate Mews now have property prices exceeding their adjacent grand terrace streets",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check current London property prices.",
+      "detail": "This claim requires access to current real estate data for specific London mews addresses (Bathurst Mews, Pont Street Mews, Queen's Gate Mews) and their adjacent terrace streets. Without web search capability, I cannot access property price databases, estate agent listings, or market reports that would confirm or deny whether these mews properties now command higher prices than their 'parent' grand terrace streets. The claim is plausible given the general trend of mews houses becoming desirable in prime London locations, but specific price comparisons require current data.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A street 5 meters wide, lined on both sides with two-story buildings 7 meters tall, produces a height-to-width ratio of roughly 1.4:1",
+        "claim": "5-meter street with 7-meter tall buildings produces 1.4:1 height-to-width ratio",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 1,
+      "summary": "The mathematical calculation is correct: 7 meters divided by 5 meters equals 1.4, producing a 1.4:1 height-to-width ratio.",
+      "detail": "This is a simple arithmetic claim. The height-to-width ratio formula in urban design divides building height by street width. 7÷5=1.4, which expressed as a ratio is 1.4:1. The claim accurately represents this calculation.",
+      "sources": [
+        "Mathematical verification: 7m ÷ 5m = 1.4"
+      ]
+    },
+    {
+      "claim": {
+        "text": "This is the ratio that Alexander, in A Pattern Language, identified as producing comfortable outdoor enclosure — what he called 'positive outdoor space' in pattern 106",
+        "claim": "Christopher Alexander's A Pattern Language pattern 106 identifies approximately 1.4:1 height-to-width ratio as producing comfortable outdoor enclosure ('positive outdoor space')",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Pattern 106 'Positive Outdoor Space' exists and discusses enclosure ratios, but the specific 1.4:1 ratio cited may be misattributed or approximated.",
+      "detail": "Christopher Alexander's 'A Pattern Language' (1977) does contain Pattern 106 titled 'Positive Outdoor Space' which discusses the importance of enclosed outdoor areas feeling comfortable. The pattern discusses height-to-width ratios for enclosure, but Alexander typically references ratios in terms of how surrounding building heights relate to the width of outdoor spaces. The commonly cited threshold from Alexander's work is that the height of surrounding walls should be at least half the width of the space, or a relationship where D/H (distance to height) should not exceed 2:1. The specific '1.4:1' ratio may be an interpretation or approximation rather than an exact quote from the pattern.",
+      "sources": [
+        "Christopher Alexander, A Pattern Language (1977), Pattern 106: Positive Outdoor Space - referenced from prior knowledge, requires primary source verification"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Edmonton's fire code, like most, requires a minimum 6-meter-wide access route for aerial apparatus",
+        "claim": "Edmonton fire code requires minimum 6-meter-wide access route for aerial apparatus",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify the specific 6-meter requirement without access to Edmonton's fire code documentation or web search capabilities.",
+      "detail": "The claim references a specific technical requirement (6-meter minimum width for aerial apparatus access) from Edmonton's fire code. While Canadian fire codes typically do require minimum access route widths for fire apparatus (often in the 6-meter range, consistent with National Fire Code of Canada requirements), I cannot confirm Edmonton's specific local requirements without accessing their bylaws or fire prevention regulations directly. The claim is plausible as it aligns with common Canadian fire code standards.",
+      "sources": [
+        "Unable to access web sources - verification requires Edmonton Fire Prevention Bylaw or National Fire Code of Canada documentation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The City of Portland's 'skinny street' standards, adopted in 1991, permit 6-meter rights-of-way for streets serving fewer than 20 dwellings, with fire department review",
+        "claim": "Portland adopted 'skinny street' standards in 1991 permitting 6-meter rights-of-way for streets serving fewer than 20 dwellings",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "I was unable to search for sources to verify Portland's skinny street standards. The claim is specific about the year (1991), measurements (6-meter rights-of-way), and threshold (fewer than 20 dwellings). Without access to Portland city records, transportation planning documents, or urban planning literature, I cannot confirm or deny these specifics. Portland is known for progressive street design policies, but the exact details require verification.",
+      "sources": [
+        "No sources accessed - web search unavailable"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The result has been hundreds of narrow residential lanes that function as mews in all but name",
+        "claim": "Portland's skinny street standards have resulted in hundreds of narrow residential lanes",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search/fetch permissions to access current sources.",
+      "detail": "Portland, Oregon is known for pioneering 'skinny street' standards starting in the 1990s, which allowed narrower residential streets (as narrow as 20 feet) in new developments. However, I cannot verify the specific claim of 'hundreds of narrow residential lanes' without access to web search to find current Portland city documents, transportation department reports, or urban planning studies that would quantify the number of streets built under these standards.",
+      "sources": [
+        "Unable to access web sources - permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Vancouver's laneway housing program has produced a similar outcome by accident: dense clusters of laneway houses now line former service alleys, transforming them into de facto mews",
+        "claim": "Vancouver's laneway housing program has created dense clusters of laneway houses along former service alleys",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "Vancouver's laneway housing program exists and has produced thousands of laneway houses, but they are distributed across single-family lots rather than forming intentional 'dense clusters'",
+      "detail": "Vancouver's laneway housing program was launched in 2009 and has resulted in several thousand laneway houses being built across the city. However, these are individual secondary dwelling units built on single-family residential lots, accessed via back lanes (alleys). While multiple laneway houses may exist along the same lane, this is an emergent pattern from individual homeowner decisions rather than planned 'dense clusters.' The characterization of them as 'de facto mews' is interpretive rather than an official program outcome.",
+      "sources": [
+        "City of Vancouver laneway housing regulations (general knowledge)",
+        "Urban planning literature on Vancouver's housing policies"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 2,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "These lanes were typically 4 to 6 meters wide, lined on both sides with two-story buildings whose ground floors housed horses and whose upper floors housed grooms",
+          "claim": "Historical London mews lanes were typically 4 to 6 meters wide with two-story buildings",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify specific dimensions due to lack of web search access, though the general description aligns with historical accounts of London mews.",
+        "detail": "London mews historically were indeed narrow lanes behind grand townhouses, featuring two-story buildings with stables below and groom quarters above. However, I could not search for sources to verify the specific 4-6 meter width claim. This dimension seems plausible given the need to accommodate horse-drawn carriages, but would require primary sources such as architectural surveys or historical records to confirm.",
+        "sources": [
+          "Unable to access web sources for verification"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Bathurst Mews, Pont Street Mews, Queen's Gate Mews — these former stable lanes now command prices exceeding their parent streets",
+          "claim": "Bathurst Mews, Pont Street Mews, and Queen's Gate Mews now have property prices exceeding their adjacent grand terrace streets",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check current London property prices.",
+        "detail": "This claim requires access to current real estate data for specific London mews addresses (Bathurst Mews, Pont Street Mews, Queen's Gate Mews) and their adjacent terrace streets. Without web search capability, I cannot access property price databases, estate agent listings, or market reports that would confirm or deny whether these mews properties now command higher prices than their 'parent' grand terrace streets. The claim is plausible given the general trend of mews houses becoming desirable in prime London locations, but specific price comparisons require current data.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Edmonton's fire code, like most, requires a minimum 6-meter-wide access route for aerial apparatus",
+          "claim": "Edmonton fire code requires minimum 6-meter-wide access route for aerial apparatus",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify the specific 6-meter requirement without access to Edmonton's fire code documentation or web search capabilities.",
+        "detail": "The claim references a specific technical requirement (6-meter minimum width for aerial apparatus access) from Edmonton's fire code. While Canadian fire codes typically do require minimum access route widths for fire apparatus (often in the 6-meter range, consistent with National Fire Code of Canada requirements), I cannot confirm Edmonton's specific local requirements without accessing their bylaws or fire prevention regulations directly. The claim is plausible as it aligns with common Canadian fire code standards.",
+        "sources": [
+          "Unable to access web sources - verification requires Edmonton Fire Prevention Bylaw or National Fire Code of Canada documentation"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The City of Portland's 'skinny street' standards, adopted in 1991, permit 6-meter rights-of-way for streets serving fewer than 20 dwellings, with fire department review",
+          "claim": "Portland adopted 'skinny street' standards in 1991 permitting 6-meter rights-of-way for streets serving fewer than 20 dwellings",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "I was unable to search for sources to verify Portland's skinny street standards. The claim is specific about the year (1991), measurements (6-meter rights-of-way), and threshold (fewer than 20 dwellings). Without access to Portland city records, transportation planning documents, or urban planning literature, I cannot confirm or deny these specifics. Portland is known for progressive street design policies, but the exact details require verification.",
+        "sources": [
+          "No sources accessed - web search unavailable"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

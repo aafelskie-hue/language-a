@@ -1,0 +1,55 @@
+{
+  "programs": [
+    {
+      "name": "Playing Out",
+      "location": "Bristol, UK (now nationwide)",
+      "year": "2009",
+      "outcome": "Organization claims over 2,000 streets have registered across UK; pioneered model of resident-led temporary street closures",
+      "source": "playingout.net - UNVERIFIED, requires web access to confirm current figures"
+    },
+    {
+      "name": "Play Streets Program",
+      "location": "New York City, USA",
+      "year": "1914 (historical), revived periodically",
+      "outcome": "NYC was among first US cities to designate play streets; current program allows temporary closures during summer months",
+      "source": "NYC DOT - UNVERIFIED, requires web access"
+    },
+    {
+      "name": "Woonerven (Living Streets)",
+      "location": "Netherlands",
+      "year": "1970s onward",
+      "outcome": "Permanent design concept where pedestrians and play have priority over vehicles; influenced global shared space movement",
+      "source": "Dutch traffic law - UNVERIFIED"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Unable to provide verified statistics without web search access",
+      "source": "N/A",
+      "year": "N/A"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Unable to verify",
+      "title": "Studies on play streets and child physical activity exist but cannot be confirmed without search access",
+      "year": "N/A",
+      "finding": "General literature suggests play streets increase outdoor play time and physical activity, but specific citations require verification"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Bristol, UK",
+      "description": "Birthplace of modern UK play streets movement; residential streets closed for regular play sessions",
+      "source": "Playing Out organization - UNVERIFIED"
+    },
+    {
+      "location": "Ghent, Belgium",
+      "description": "Extensive play streets program during summer months",
+      "source": "UNVERIFIED"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "IMPORTANT: I do not have permission to use web search or web fetch tools in this session. All information provided is from training data and CANNOT BE VERIFIED as current or accurate. Before using this evidence, you should: 1) Grant web search permissions and re-run this research, OR 2) Manually verify each claim. The play streets concept is well-documented historically, but specific statistics, program outcomes, and current figures require live verification. DO NOT cite this output as verified research."
+}

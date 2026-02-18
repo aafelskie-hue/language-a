@@ -1,0 +1,207 @@
+{
+  "patternId": 226,
+  "patternName": "The Joinery Tradition",
+  "timestamp": "2026-02-17T05:31:30.181Z",
+  "model": "claude-code-cli",
+  "totalClaims": 8,
+  "results": [
+    {
+      "claim": {
+        "text": "Hōryū-ji, built in 607 CE near Nara, has stood for over 1,400 years",
+        "claim": "Hōryū-ji temple was built in 607 CE near Nara, Japan",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Hōryū-ji temple was indeed founded in 607 CE near Nara, Japan, though the current structures date from a later rebuild after a fire in 670.",
+      "detail": "Hōryū-ji was founded by Prince Shōtoku in 607 CE in what is now Ikaruga, Nara Prefecture, Japan. The original temple burned down in 670 and was rebuilt by around 711. The current Western Precinct (Saiin Garan) contains the oldest surviving wooden buildings in the world. The claim that it was 'built in 607 CE near Nara' is accurate for the founding date and location.",
+      "sources": [
+        "Historical consensus on Hōryū-ji founding - widely documented in Japanese temple records and UNESCO World Heritage documentation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "When the Riesenhaus in Goslar required restoration in the 1990s, carpenters found that joints cut in 1494 could still be separated and reassembled",
+        "claim": "The Riesenhaus in Goslar has joints dating to 1494 that were restored in the 1990s",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to lack of web access permissions.",
+      "detail": "I was unable to conduct web searches or fetch web pages to verify this claim about the Riesenhaus in Goslar. The claim is specific enough (building name, location, dates) that it could potentially be verified with proper web access. Goslar is a UNESCO World Heritage Site known for historic timber-framed buildings, so a 15th-century building there is plausible, but I cannot confirm the specific details about 1494 joints or 1990s restoration without access to sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Timber Framers Guild, founded in 1984 and now comprising over 1,500 professional members across North America",
+        "claim": "Timber Framers Guild was founded in 1984 and has over 1,500 professional members in North America",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check current sources.",
+      "detail": "The Timber Framers Guild is a known real organization in the timber framing industry. However, without web search capabilities, I cannot verify the specific founding year of 1984 or the claimed membership of over 1,500 professional members. These details require access to the organization's official website or other authoritative sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A housed dovetail connecting a joist to a beam, for instance, requires perhaps twenty minutes to lay out and cut with a circular saw, chisel, and mallet",
+        "claim": "A housed dovetail joint can be laid out and cut in approximately 20 minutes with basic tools",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for sources to verify the specific timing claim for housed dovetail joints.",
+      "detail": "This claim about a 20-minute time frame for cutting a housed dovetail joint with basic tools (circular saw, chisel, mallet) is a practical woodworking estimate. Such timing claims are highly variable depending on skill level, wood species, joint size, and tool condition. Without access to web search to find timber framing guides, woodworking instructional sources, or expert testimonials, I cannot verify whether 20 minutes is an accurate, conservative, or optimistic estimate for this joint type.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A nailed connection loses roughly 10-15% of its holding strength per decade as the wood cycles through seasonal moisture changes",
+        "claim": "Nailed wood connections lose 10-15% of holding strength per decade due to moisture cycling",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify the specific 10-15% per decade figure through web search due to tool access limitations.",
+      "detail": "The claim that nailed wood connections lose strength due to moisture cycling is generally supported by wood science literature - repeated wetting/drying cycles cause wood fibers to compress and relax around nails, reducing withdrawal resistance. However, the specific figure of '10-15% per decade' could not be verified through primary sources. The Forest Products Laboratory Wood Handbook and similar authoritative sources discuss nail withdrawal resistance degradation but I could not access them to confirm this specific percentage. This figure may be derived from specific research studies or may be an approximation based on field observations.",
+      "sources": [
+        "Unable to access web sources - tool permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "After fifty years, the connection may retain half its original capacity",
+        "claim": "Nailed connections retain approximately half their original capacity after 50 years",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify this specific claim about 50% capacity retention after 50 years due to lack of web search access.",
+      "detail": "This claim relates to the long-term degradation of nailed timber connections, which is a topic studied in wood engineering research. The Forest Products Laboratory and similar institutions have published data on nail connection performance over time, including factors like corrosion, wood shrinkage, and cyclic loading. However, without access to search for current research, I cannot verify whether the specific figure of 'approximately half' capacity after 50 years is accurately sourced from engineering literature. The claim is plausible given known degradation mechanisms but requires verification against primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Timber Frame Engineering Council's span tables, developed in collaboration with the American Wood Council",
+        "claim": "Timber Frame Engineering Council developed span tables in collaboration with the American Wood Council",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search to verify whether the Timber Frame Engineering Council exists or collaborated with the American Wood Council on span tables.",
+      "detail": "Web search was unavailable for this verification. The American Wood Council is a known real organization that publishes span tables and engineering resources for wood construction. However, I could not confirm the existence of an organization specifically named 'Timber Frame Engineering Council' or any collaboration between it and AWC. Similar organizations like the Timber Framers Guild exist, but the specific organization named in the claim could not be verified.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "joinery connections carry higher allowable loads at longer service life than equivalent metal-fastened connections",
+        "claim": "Timber Frame Engineering Council span tables show joinery connections have higher allowable loads and longer service life than metal-fastened connections",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; the named organization 'Timber Frame Engineering Council' is not a well-known timber engineering body.",
+      "detail": "Web search permissions were not granted, preventing verification. The 'Timber Frame Engineering Council' is not a recognized organization in my training data. Known timber engineering authorities include the American Wood Council, Timber Framers Guild, and Timber Frame Business Council, but none match this name exactly. The claim about joinery vs. metal fasteners may have merit technically but the specific attribution to this organization's span tables cannot be confirmed.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 7,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "When the Riesenhaus in Goslar required restoration in the 1990s, carpenters found that joints cut in 1494 could still be separated and reassembled",
+          "claim": "The Riesenhaus in Goslar has joints dating to 1494 that were restored in the 1990s",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to lack of web access permissions.",
+        "detail": "I was unable to conduct web searches or fetch web pages to verify this claim about the Riesenhaus in Goslar. The claim is specific enough (building name, location, dates) that it could potentially be verified with proper web access. Goslar is a UNESCO World Heritage Site known for historic timber-framed buildings, so a 15th-century building there is plausible, but I cannot confirm the specific details about 1494 joints or 1990s restoration without access to sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Timber Framers Guild, founded in 1984 and now comprising over 1,500 professional members across North America",
+          "claim": "Timber Framers Guild was founded in 1984 and has over 1,500 professional members in North America",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check current sources.",
+        "detail": "The Timber Framers Guild is a known real organization in the timber framing industry. However, without web search capabilities, I cannot verify the specific founding year of 1984 or the claimed membership of over 1,500 professional members. These details require access to the organization's official website or other authoritative sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A nailed connection loses roughly 10-15% of its holding strength per decade as the wood cycles through seasonal moisture changes",
+          "claim": "Nailed wood connections lose 10-15% of holding strength per decade due to moisture cycling",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify the specific 10-15% per decade figure through web search due to tool access limitations.",
+        "detail": "The claim that nailed wood connections lose strength due to moisture cycling is generally supported by wood science literature - repeated wetting/drying cycles cause wood fibers to compress and relax around nails, reducing withdrawal resistance. However, the specific figure of '10-15% per decade' could not be verified through primary sources. The Forest Products Laboratory Wood Handbook and similar authoritative sources discuss nail withdrawal resistance degradation but I could not access them to confirm this specific percentage. This figure may be derived from specific research studies or may be an approximation based on field observations.",
+        "sources": [
+          "Unable to access web sources - tool permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "After fifty years, the connection may retain half its original capacity",
+          "claim": "Nailed connections retain approximately half their original capacity after 50 years",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify this specific claim about 50% capacity retention after 50 years due to lack of web search access.",
+        "detail": "This claim relates to the long-term degradation of nailed timber connections, which is a topic studied in wood engineering research. The Forest Products Laboratory and similar institutions have published data on nail connection performance over time, including factors like corrosion, wood shrinkage, and cyclic loading. However, without access to search for current research, I cannot verify whether the specific figure of 'approximately half' capacity after 50 years is accurately sourced from engineering literature. The claim is plausible given known degradation mechanisms but requires verification against primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The Timber Frame Engineering Council's span tables, developed in collaboration with the American Wood Council",
+          "claim": "Timber Frame Engineering Council developed span tables in collaboration with the American Wood Council",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search to verify whether the Timber Frame Engineering Council exists or collaborated with the American Wood Council on span tables.",
+        "detail": "Web search was unavailable for this verification. The American Wood Council is a known real organization that publishes span tables and engineering resources for wood construction. However, I could not confirm the existence of an organization specifically named 'Timber Frame Engineering Council' or any collaboration between it and AWC. Similar organizations like the Timber Framers Guild exist, but the specific organization named in the claim could not be verified.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "joinery connections carry higher allowable loads at longer service life than equivalent metal-fastened connections",
+          "claim": "Timber Frame Engineering Council span tables show joinery connections have higher allowable loads and longer service life than metal-fastened connections",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; the named organization 'Timber Frame Engineering Council' is not a well-known timber engineering body.",
+        "detail": "Web search permissions were not granted, preventing verification. The 'Timber Frame Engineering Council' is not a recognized organization in my training data. Known timber engineering authorities include the American Wood Council, Timber Framers Guild, and Timber Frame Business Council, but none match this name exactly. The claim about joinery vs. metal fasteners may have merit technically but the specific attribution to this organization's span tables cannot be confirmed.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

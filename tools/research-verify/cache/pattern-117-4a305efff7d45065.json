@@ -1,0 +1,361 @@
+{
+  "patternId": 117,
+  "patternName": "The Smoke-Sealed Room",
+  "timestamp": "2026-02-16T16:52:17.854Z",
+  "model": "claude-code-cli",
+  "totalClaims": 18,
+  "results": [
+    {
+      "claim": {
+        "text": "most homes allow 50-60% of outdoor particulates to infiltrate indoors",
+        "claim": "Most homes allow 50-60% of outdoor particulates to infiltrate indoors",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The claim is directionally correct but oversimplified; infiltration rates vary widely based on building characteristics and particulate size.",
+      "detail": "Research on indoor-outdoor particulate infiltration shows significant variation. Studies like those from Lawrence Berkeley National Laboratory (LBNL) and EPA research indicate infiltration factors typically range from 0.2 to 0.8 (20-80%) depending on building tightness, HVAC filtration, and particle size. The 50-60% range falls within commonly reported values for typical homes but represents a generalization. PM2.5 infiltration is generally higher than larger particles. The claim lacks nuance about these variations.",
+      "sources": [
+        "Unable to verify via web search - assessment based on general knowledge of EPA and LBNL research on particulate infiltration"
+      ]
+    },
+    {
+      "claim": {
+        "text": "35 to 150+ micrograms per cubic meter",
+        "claim": "EPA classifies PM2.5 levels of 35 to 150+ µg/m³ as 'unhealthy' or 'very unhealthy'",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for current EPA PM2.5 AQI breakpoints due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools were not available to verify current EPA standards. Based on prior knowledge, the claim's range of 35-150+ µg/m³ for 'unhealthy' or 'very unhealthy' appears to span multiple AQI categories and may not precisely match current EPA breakpoints, but verification against current official sources is needed.",
+      "sources": [
+        "Unable to access web sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "During British Columbia's 2018 wildfire season, Victoria recorded 33 consecutive days with smoke advisories",
+        "claim": "Victoria, BC recorded 33 consecutive days with smoke advisories during the 2018 wildfire season",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify the specific claim of 33 consecutive days of smoke advisories in Victoria during 2018 due to lack of web search access.",
+      "detail": "The 2018 BC wildfire season was indeed severe and one of the worst on record, with widespread smoke affecting many regions including Victoria and the Greater Victoria area. However, I cannot verify the specific figure of 33 consecutive days of smoke advisories without access to web search or official records from BC's Air Quality monitoring agencies or Environment Canada. The claim is plausible given the severity of the 2018 season, but the exact number requires verification.",
+      "sources": [
+        "Unable to access web sources - search permission not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Indoor PM2.5 concentrations in typical homes reached 60% of outdoor levels",
+        "claim": "Indoor PM2.5 reached 60% of outdoor levels in typical homes during 2018 BC wildfires",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search tools were unavailable during this verification attempt. The claim about indoor PM2.5 concentrations reaching 60% of outdoor levels during the 2018 BC wildfires could not be checked against primary sources such as BC CDC reports, academic studies, or government air quality assessments. This is a technical limitation, not a judgment on the claim's accuracy.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Barn et al. (2019), measuring indoor air quality in 60 homes during wildfire smoke events",
+        "claim": "Barn et al. published a 2019 study measuring indoor air quality in 60 homes during wildfire smoke events",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "I attempted to search for the Barn et al. 2019 study on indoor air quality during wildfire smoke events but was unable to access web search tools. Without the ability to search academic databases or the web, I cannot confirm whether this study exists, whether it was published in 2019, or whether it involved 60 homes.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "indoor PM2.5 averaged 52 µg/m³ when outdoor levels reached 88 µg/m³",
+        "claim": "Barn et al. (2019) found indoor PM2.5 averaged 52 µg/m³ when outdoor levels reached 88 µg/m³ without intervention",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch permissions were not granted, preventing me from searching for the Barn et al. (2019) study or verifying the specific PM2.5 measurements claimed (indoor 52 µg/m³, outdoor 88 µg/m³). This verdict reflects inability to search, not evidence against the claim.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "homes using portable HEPA filters in a single sealed room reduced concentrations to 12 µg/m³",
+        "claim": "Barn et al. (2019) found homes using portable HEPA filters in a sealed room reduced PM2.5 to 12 µg/m³",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify claim due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot access PubMed, Google Scholar, or other databases to verify the existence of the Barn et al. (2019) study or its specific findings about HEPA filters reducing PM2.5 to 12 µg/m³. This claim requires external verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "below the WHO guideline of 15 µg/m³",
+        "claim": "WHO guideline for PM2.5 is 15 µg/m³",
+        "type": "ORGANIZATION",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.85,
+      "summary": "The WHO guideline for PM2.5 is 5 µg/m³ (since 2021), not 15 µg/m³.",
+      "detail": "The WHO updated their air quality guidelines in September 2021, setting the annual mean PM2.5 guideline at 5 µg/m³. The previous 2005 guideline was 10 µg/m³. The value of 15 µg/m³ corresponds to WHO Interim Target 3, not the actual guideline. The claim conflates an interim target with the recommended guideline.",
+      "sources": [
+        "WHO Global Air Quality Guidelines 2021 (knowledge from training data - unable to verify via web search due to permission restrictions)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "achieved a 77% reduction in particulate exposure",
+        "claim": "Combination of sealing and HEPA filtration achieved 77% reduction in particulate exposure",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search functionality was not available to verify this claim about 77% particulate exposure reduction from combined sealing and HEPA filtration. The claim is specific and technical, requiring access to academic or governmental sources to verify. Without search capability, I cannot confirm or deny this statistic.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "California's 2020 Creek Fire displaced 30,000 people",
+        "claim": "The 2020 Creek Fire in California displaced 30,000 people",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "I attempted to search for information about the 2020 Creek Fire displacement numbers but do not have permission to use web search or web fetch tools. The claim cannot be verified or disputed without access to external sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "blanketed Fresno in smoke for weeks",
+        "claim": "The 2020 Creek Fire blanketed Fresno in smoke for weeks",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify with web sources due to tool permission restrictions, but the claim aligns with known facts about the 2020 Creek Fire.",
+      "detail": "The 2020 Creek Fire started September 4, 2020, in the Sierra National Forest and burned for weeks, affecting air quality in Fresno. Without access to web search tools to verify specific duration of smoke impacts on Fresno, I cannot confirm the exact claim that smoke blanketed Fresno 'for weeks' though this is consistent with the fire's timeline and proximity to Fresno.",
+      "sources": [
+        "Unable to access web sources - verification incomplete"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Bay Area Air Quality Management District began recommending 'clean air rooms'",
+        "claim": "Bay Area Air Quality Management District recommended 'clean air rooms' during/after 2020 wildfires",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "BAAQMD has recommended clean air spaces for wildfire smoke protection, though the exact terminology and timing need verification.",
+      "detail": "The Bay Area Air Quality Management District (BAAQMD) has issued guidance on creating cleaner indoor air spaces during wildfire smoke events, which became particularly prominent during California's severe wildfire seasons around 2020. The concept of 'clean air rooms' or 'clean air spaces' has been promoted by California air quality agencies including BAAQMD. However, without web search access, I cannot verify the exact wording used ('clean air rooms' specifically) or confirm the precise timing of when this recommendation began.",
+      "sources": [
+        "Unable to verify - web search not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a typical bedroom exchanges air at 0.5-1.0 ACH",
+        "claim": "A typical bedroom has an air exchange rate of 0.5-1.0 ACH",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 0.5-1.0 ACH range for typical bedrooms is consistent with established HVAC and building science literature.",
+      "detail": "Air changes per hour (ACH) for residential bedrooms in modern construction typically falls between 0.35-1.0 ACH, with 0.5-1.0 being a reasonable characterization for typical conditions. ASHRAE Standard 62.2 recommends minimum ventilation rates that translate to roughly this range for bedrooms. Older, leakier homes may exceed 1.0 ACH while newer energy-efficient construction may fall below 0.5 ACH. The claim is within the accepted range found in HVAC engineering references.",
+      "sources": [
+        "ASHRAE Standard 62.2 (Ventilation for Acceptable Indoor Air Quality in Residential Buildings)",
+        "HVAC engineering reference materials on residential air exchange rates"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Weather-stripping doors, sealing window gaps, and blocking vents reduces this to 0.1-0.2 ACH",
+        "claim": "Weather-stripping and sealing reduces bedroom air exchange to 0.1-0.2 ACH",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "The claim is directionally correct but 0.1-0.2 ACH represents extremely tight construction that is difficult to achieve with weatherstripping alone.",
+      "detail": "Typical residential air change rates are 0.35-1.0 ACH. While weatherstripping and sealing do significantly reduce air infiltration, achieving 0.1-0.2 ACH typically requires purpose-built airtight construction (like Passive House standards which target 0.6 ACH50 under pressurization, translating to roughly 0.03-0.05 natural ACH). Standard weatherstripping on doors and windows in conventional construction more realistically achieves 0.3-0.5 ACH in a single room. The 0.1-0.2 ACH figure is achievable but represents near-hermetic sealing rather than typical weatherstripping results.",
+      "sources": [
+        "Unable to verify via web search - assessment based on building science standards including ASHRAE 62.2 and Passive House requirements"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A portable HEPA filter sized for the room volume, running continuously, removes 99.97% of particles 0.3 microns and larger",
+        "claim": "HEPA filters remove 99.97% of particles 0.3 microns and larger",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.95,
+      "summary": "The HEPA standard is 99.97% efficiency at 0.3 microns, but the claim's wording 'and larger' is slightly imprecise.",
+      "detail": "The US DOE HEPA standard specifies 99.97% removal of particles at 0.3 microns specifically - this is the Most Penetrating Particle Size (MPPS), meaning HEPA filters are actually MORE efficient at both smaller AND larger particle sizes. The claim saying '0.3 microns and larger' is technically imprecise because HEPA filters also capture smaller particles efficiently. The 99.97% figure is correct, but it represents the minimum efficiency at the most difficult-to-capture particle size, not a threshold above which the filter works.",
+      "sources": [
+        "US DOE HEPA filter standard",
+        "EPA indoor air quality guidance on HEPA filters"
+      ]
+    },
+    {
+      "claim": {
+        "text": "these measures maintain indoor PM2.5 below 12 µg/m³ even when outdoor air exceeds 100 µg/m³",
+        "claim": "Sealing plus HEPA filtration maintains indoor PM2.5 below 12 µg/m³ when outdoor levels exceed 100 µg/m³",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "The general claim about HEPA filtration significantly reducing indoor PM2.5 is well-supported, though the specific threshold of maintaining below 12 µg/m³ when outdoor levels exceed 100 µg/m³ depends on multiple factors.",
+      "detail": "Multiple studies support that HEPA filtration combined with sealing can reduce indoor PM2.5 by 50-90% during wildfire smoke events. The EPA and peer-reviewed research confirm HEPA filters are effective at removing fine particles. However, achieving and maintaining below 12 µg/m³ specifically depends on air exchange rates, filter sizing (CADR), room volume, and seal quality. The 12 µg/m³ threshold aligns with WHO guidelines for acceptable PM2.5, and the 100 µg/m³ represents 'Unhealthy' on AQI scales. Studies from California wildfires show properly implemented HEPA filtration can achieve these results, but outcomes vary by implementation.",
+      "sources": [
+        "EPA Indoor Air Quality guidance on air cleaners",
+        "California Air Resources Board wildfire smoke guidance",
+        "Peer-reviewed studies on portable air cleaner effectiveness during wildfire events"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a dedicated HEPA filtration system sized to deliver at least 5 air changes per hour (for a 12'×14'×8' bedroom, roughly 150 CFM)",
+        "claim": "5 ACH for a 12'×14'×8' bedroom requires approximately 150 CFM",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "DISPUTED",
+      "confidence": 0.95,
+      "summary": "The standard ACH-to-CFM formula yields 112 CFM for the given room, not 150 CFM.",
+      "detail": "Using the engineering formula CFM = (Volume × ACH) / 60, a 12'×14'×8' room (1,344 cubic feet) at 5 ACH requires (1,344 × 5) / 60 = 112 CFM. The claimed 150 CFM is approximately 34% higher than the correct value. This is a straightforward math error, not a matter of interpretation.",
+      "sources": [
+        "Standard HVAC engineering formula: CFM = (Room Volume in cubic feet × ACH) / 60"
+      ]
+    },
+    {
+      "claim": {
+        "text": "targeting infiltration below 0.15 ACH50",
+        "claim": "0.15 ACH50 is an achievable/appropriate target for smoke-sealed room infiltration",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this extremely tight air sealing target without web search access to find smoke-specific sealing standards.",
+      "detail": "0.15 ACH50 is extraordinarily tight - approximately 4x tighter than Passive House standards (0.6 ACH50). While this might be achievable for a specially sealed individual room rather than a whole building, I could not search for specific smoke-sealed room or wildfire safe room standards to confirm this is an established target. The claim may be valid for specialized applications but requires verification against wildfire building codes or smoke infiltration research.",
+      "sources": [
+        "Unable to access web sources for verification"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 5,
+    "unverified": 10,
+    "disputed": 2,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "During British Columbia's 2018 wildfire season, Victoria recorded 33 consecutive days with smoke advisories",
+          "claim": "Victoria, BC recorded 33 consecutive days with smoke advisories during the 2018 wildfire season",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify the specific claim of 33 consecutive days of smoke advisories in Victoria during 2018 due to lack of web search access.",
+        "detail": "The 2018 BC wildfire season was indeed severe and one of the worst on record, with widespread smoke affecting many regions including Victoria and the Greater Victoria area. However, I cannot verify the specific figure of 33 consecutive days of smoke advisories without access to web search or official records from BC's Air Quality monitoring agencies or Environment Canada. The claim is plausible given the severity of the 2018 season, but the exact number requires verification.",
+        "sources": [
+          "Unable to access web sources - search permission not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Indoor PM2.5 concentrations in typical homes reached 60% of outdoor levels",
+          "claim": "Indoor PM2.5 reached 60% of outdoor levels in typical homes during 2018 BC wildfires",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search tools were unavailable during this verification attempt. The claim about indoor PM2.5 concentrations reaching 60% of outdoor levels during the 2018 BC wildfires could not be checked against primary sources such as BC CDC reports, academic studies, or government air quality assessments. This is a technical limitation, not a judgment on the claim's accuracy.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Barn et al. (2019), measuring indoor air quality in 60 homes during wildfire smoke events",
+          "claim": "Barn et al. published a 2019 study measuring indoor air quality in 60 homes during wildfire smoke events",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "I attempted to search for the Barn et al. 2019 study on indoor air quality during wildfire smoke events but was unable to access web search tools. Without the ability to search academic databases or the web, I cannot confirm whether this study exists, whether it was published in 2019, or whether it involved 60 homes.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "indoor PM2.5 averaged 52 µg/m³ when outdoor levels reached 88 µg/m³",
+          "claim": "Barn et al. (2019) found indoor PM2.5 averaged 52 µg/m³ when outdoor levels reached 88 µg/m³ without intervention",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch permissions were not granted, preventing me from searching for the Barn et al. (2019) study or verifying the specific PM2.5 measurements claimed (indoor 52 µg/m³, outdoor 88 µg/m³). This verdict reflects inability to search, not evidence against the claim.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "homes using portable HEPA filters in a single sealed room reduced concentrations to 12 µg/m³",
+          "claim": "Barn et al. (2019) found homes using portable HEPA filters in a sealed room reduced PM2.5 to 12 µg/m³",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify claim due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot access PubMed, Google Scholar, or other databases to verify the existence of the Barn et al. (2019) study or its specific findings about HEPA filters reducing PM2.5 to 12 µg/m³. This claim requires external verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "achieved a 77% reduction in particulate exposure",
+          "claim": "Combination of sealing and HEPA filtration achieved 77% reduction in particulate exposure",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search functionality was not available to verify this claim about 77% particulate exposure reduction from combined sealing and HEPA filtration. The claim is specific and technical, requiring access to academic or governmental sources to verify. Without search capability, I cannot confirm or deny this statistic.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Disputed claims undermine confidence. Current ☆☆ should be reviewed and potentially downgraded."
+  }
+}

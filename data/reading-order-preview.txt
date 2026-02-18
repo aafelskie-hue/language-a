@@ -1,0 +1,87 @@
+
+================================================================================
+FIRST 15 NEIGHBORHOOD PATTERNS
+================================================================================
+
+1. The Local Street  [score: +9]
+   When streets are designed for cars moving at 50 km/h, they are hostile to everyone else — pedestrians, cyclists, chil...
+
+2. Green Corridors  [score: +9]
+   When natural areas exist only as isolated patches — a park here, a garden there — wildlife cannot move between them, ...
+
+3. Common Ground  [score: +7]
+   When all land in a neighborhood is privately owned and individually fenced, there is nowhere for the community to gat...
+
+4. The Fifteen-Minute Neighborhood  [score: +8]
+   When daily needs — groceries, school, a park, a café, a doctor — require a car to reach, people spend hours each week...
+
+5. The Third Place Network  [score: +5]
+   When homes are only for sleeping and workplaces are only for working, and there is no informal public life between th...
+
+6. Safe Streets for Children  [score: +5]
+   When streets are designed for vehicle speed and throughput, children cannot safely walk, bike, or play outside withou...
+
+7. The Identifiable Neighborhood  [score: +4]
+   When residential areas are too large to know and too anonymous to care about, nobody takes responsibility for the pub...
+
+8. The Community Workshop  [score: +4]
+   When making, repairing, and building require expensive tools that each household owns individually (or doesn't own at...
+
+9. The Winter City Street  [score: +4]
+   When streets are designed for summer and then endured in winter, the city dies for five months of the year.
+
+10. The Tool Library  [score: +4]
+   A typical homeowner owns $5,000–$10,000 in tools used fewer than ten times each.
+
+11. The Co-Housing Cluster  [score: +4]
+   When housing is entirely private, each household must duplicate expensive, rarely-used spaces — the guest bedroom emp...
+
+12. The Tiny House Village  [score: +4]
+   When minimum dwelling sizes are mandated at 30 or 40 square meters, the most affordable housing form — the tiny dwell...
+
+13. Participatory Budgeting Space  [score: +3]
+   When decisions about shared resources — the park, the street, the community center budget — are made in closed sessio...
+
+14. Walkable Density Gradient  [score: +3]
+   When density is uniform across a neighborhood — either all low-density or all high-density — it either can't support ...
+
+15. Suburban Densification  [score: +2]
+   Established single-family neighbourhoods have everything new developments lack — mature trees, settled gardens, infra...
+
+================================================================================
+LAST 5 NEIGHBORHOOD PATTERNS
+================================================================================
+
+70. The Elder Bench  [score: -3]
+   When benches are spaced for the young and able — a few hundred meters apart, or absent entirely — elders cannot walk ...
+
+71. The Market Street  [score: -3]
+   When commercial activity clusters in car-dependent power centers — the big box store surrounded by parking, the regio...
+
+72. The Micro-Mobility Lane  [score: -4]
+   When a single bike lane must serve both a parent pedaling a cargo bike at 15 km/h and a commuter on a speed pedelec a...
+
+73. The Material Library  [score: -4]
+   When a building comes down, its materials go to the landfill — lumber still sound, brick still whole, doors and windo...
+
+74. The Consensus Process  [score: -5]
+   When a community makes decisions by majority vote, the process is efficient but the losing minority — always losing, ...
+
+================================================================================
+FIRST 5 BUILDING PATTERNS
+================================================================================
+
+75. South-Facing Living  [score: +6]
+   In the Northern Hemisphere, south-facing rooms receive the most consistent, warmest daylight throughout the year.
+
+76. The Lifetime Home  [score: +5]
+   When homes are designed for the able-bodied adult, every inhabitant who is young, old, pregnant, injured, or disabled...
+
+77. The Biophilic Workplace  [score: +5]
+   When workplaces are sealed environments optimized for floor-plate efficiency — windowless interior zones, uniform art...
+
+78. The Dark Season Room  [score: +4]
+   North of 50° latitude, winter daylight drops below eight hours.
+
+79. The Sheltering Roof  [score: +4]
+   When the roof is merely a lid — flat, invisible, serving only to keep rain out — the building loses its most powerful...

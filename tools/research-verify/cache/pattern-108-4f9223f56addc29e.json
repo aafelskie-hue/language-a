@@ -1,0 +1,164 @@
+{
+  "patternId": 108,
+  "patternName": "Seasonal Maintenance Ritual",
+  "timestamp": "2026-02-16T22:30:26.428Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "Facilities management research consistently shows that reactive maintenance — fixing things after they break — costs three to five times more than preventive maintenance",
+        "claim": "Reactive maintenance costs 3-5 times more than preventive maintenance according to facilities management research",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.7,
+      "summary": "The 3-5x cost multiplier for reactive vs preventive maintenance is widely cited in facilities management, though specific sourcing varies and some studies cite different ranges.",
+      "detail": "This statistic appears in numerous facilities management publications and is commonly attributed to various sources including the U.S. Department of Energy and industry associations like IFMA. However, the exact multiplier varies by source - some cite 2-3x, others 4-5x, and some as high as 10x depending on the asset type and industry. The claim is directionally accurate and within the commonly cited range, but 'facilities management research' is vague attribution since no single definitive study is universally cited for this figure.",
+      "sources": [
+        "U.S. Department of Energy O&M Best Practices Guide (commonly cited)",
+        "IFMA (International Facility Management Association) industry reports",
+        "Various facilities management textbooks and industry publications"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Each dollar spent on preventive maintenance saves roughly five dollars in future repair costs",
+        "claim": "Each dollar spent on preventive maintenance saves approximately five dollars in future repair costs",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search access being blocked.",
+      "detail": "This claim about preventive maintenance ROI is a commonly cited industry rule of thumb, but I could not actively search for primary sources to verify the specific 5:1 ratio. The claim appears in many facilities management contexts but the original source and exact methodology are difficult to trace without web access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "a $50 gutter cleaning in autumn prevents a $2,000 to $5,000 ice dam repair in winter",
+        "claim": "$50 gutter cleaning prevents $2,000-$5,000 ice dam repairs",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.65,
+      "summary": "The ice dam repair cost range is accurate, but average gutter cleaning typically costs more than $50.",
+      "detail": "Based on industry sources, ice dam removal and repair typically costs $400-$2,000 for removal alone, with water damage repairs from ice dams ranging from $1,500-$10,000+, making the $2,000-$5,000 range reasonable for significant ice dam damage repair. However, professional gutter cleaning typically averages $100-$250 for most homes, with $50 being on the very low end (only realistic for small, single-story homes or DIY). The preventive relationship between gutter cleaning and ice dams is also somewhat oversimplified—clogged gutters are one contributing factor, but ice dams are primarily caused by heat loss from the attic.",
+      "sources": [
+        "HomeAdvisor cost guides (training data)",
+        "Angi/Thumbtack service cost estimates (training data)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "A $200 annual furnace service prevents a $3,000 premature replacement",
+        "claim": "$200 annual furnace service prevents $3,000 premature replacement",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for sources to verify the specific dollar amounts claimed for furnace service costs and replacement prevention.",
+      "detail": "The claim cites specific figures ($200 for annual service, $3,000 for replacement) that would require verification from HVAC industry sources, consumer reports, or government energy departments. While annual furnace maintenance is generally recommended and costs typically range from $80-$300, and furnace replacements can cost $2,000-$5,000+, I could not search for sources that specifically support this exact cost-benefit ratio. The claim appears to use plausible industry-approximate figures but the specific 15:1 return ratio needs verification.",
+      "sources": [
+        "Unable to search - web access not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Japanese tradition of *susu-harai* — literally 'soot sweeping'",
+        "claim": "Susu-harai is a Japanese tradition meaning 'soot sweeping'",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though the claim aligns with training knowledge about Japanese traditions.",
+      "detail": "Web search and fetch tools are not available in this session. Based on training data, susu-harai (煤払い) does appear to be a real Japanese year-end cleaning tradition where 'susu' means soot and 'harai' means sweeping/brushing. However, proper verification requires accessing current authoritative sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Before New Year, the entire household participates in a thorough cleaning and inspection of the house, a ritual that is both spiritual (purification for the new year) and practical",
+        "claim": "Susu-harai is a pre-New Year household cleaning ritual in Japan with both spiritual and practical purposes",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify via web search due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. While the claim aligns with general knowledge about Japanese New Year traditions (Susu-harai/煤払い is a recognized tradition), I cannot provide source-backed verification without web access to confirm the specific details about spiritual purification and practical purposes.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "This exists in commercial construction as the facility management plan. It is almost never provided for residential buildings",
+        "claim": "Facility management plans exist in commercial construction but are almost never provided for residential buildings",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify without web search access; claim aligns with general industry knowledge but specific evidence was not searched.",
+      "detail": "Web search permissions were not granted, preventing verification. The claim that facility management plans are standard in commercial construction but rare in residential construction is consistent with general knowledge about the construction industry - commercial buildings typically have ongoing professional management requiring documentation, while residential buildings are owner-maintained. However, without searching industry sources, IFMA standards, or construction literature, this cannot be properly verified.",
+      "sources": [
+        "Unable to search - permissions not granted"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 2,
+    "unverified": 5,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Each dollar spent on preventive maintenance saves roughly five dollars in future repair costs",
+          "claim": "Each dollar spent on preventive maintenance saves approximately five dollars in future repair costs",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search access being blocked.",
+        "detail": "This claim about preventive maintenance ROI is a commonly cited industry rule of thumb, but I could not actively search for primary sources to verify the specific 5:1 ratio. The claim appears in many facilities management contexts but the original source and exact methodology are difficult to trace without web access.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A $200 annual furnace service prevents a $3,000 premature replacement",
+          "claim": "$200 annual furnace service prevents $3,000 premature replacement",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for sources to verify the specific dollar amounts claimed for furnace service costs and replacement prevention.",
+        "detail": "The claim cites specific figures ($200 for annual service, $3,000 for replacement) that would require verification from HVAC industry sources, consumer reports, or government energy departments. While annual furnace maintenance is generally recommended and costs typically range from $80-$300, and furnace replacements can cost $2,000-$5,000+, I could not search for sources that specifically support this exact cost-benefit ratio. The claim appears to use plausible industry-approximate figures but the specific 15:1 return ratio needs verification.",
+        "sources": [
+          "Unable to search - web access not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "This exists in commercial construction as the facility management plan. It is almost never provided for residential buildings",
+          "claim": "Facility management plans exist in commercial construction but are almost never provided for residential buildings",
+          "type": "TECHNICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify without web search access; claim aligns with general industry knowledge but specific evidence was not searched.",
+        "detail": "Web search permissions were not granted, preventing verification. The claim that facility management plans are standard in commercial construction but rare in residential construction is consistent with general knowledge about the construction industry - commercial buildings typically have ongoing professional management requiring documentation, while residential buildings are owner-maintained. However, without searching industry sources, IFMA standards, or construction literature, this cannot be properly verified.",
+        "sources": [
+          "Unable to search - permissions not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

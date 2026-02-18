@@ -1,0 +1,183 @@
+{
+  "patternId": 184,
+  "patternName": "The Accessory Commercial Unit",
+  "timestamp": "2026-02-17T14:52:14.673Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "Edmonton's Zoning Bylaw 20001, effective January 2024, permits home-based businesses in residential zones with up to 60 square meters of accessory building space and a maximum of two non-resident employees working on-site",
+        "claim": "Edmonton's Zoning Bylaw 20001 became effective January 2024",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot search for information about Edmonton's Zoning Bylaw 20001 or its effective date. The claim would need to be verified manually by checking the City of Edmonton's official bylaw pages or council records.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Edmonton's Zoning Bylaw 20001, effective January 2024, permits home-based businesses in residential zones with up to 60 square meters of accessory building space and a maximum of two non-resident employees working on-site",
+        "claim": "Edmonton Zoning Bylaw 20001 permits home-based businesses with up to 60 square meters of accessory building space",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify claim due to lack of web search access in this session.",
+      "detail": "I attempted to search for Edmonton Zoning Bylaw 20001 and its provisions for home-based businesses including the 60 square meter accessory building space limit, but web search tools are not available. The claim references specific regulatory details (Bylaw 20001, effective January 2024, 60 sq m limit, 2 non-resident employees) that require access to Edmonton's official zoning documents or city website to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Edmonton's Zoning Bylaw 20001, effective January 2024, permits home-based businesses in residential zones with up to 60 square meters of accessory building space and a maximum of two non-resident employees working on-site",
+        "claim": "Edmonton Zoning Bylaw 20001 allows a maximum of two non-resident employees working on-site for home-based businesses",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search permissions.",
+      "detail": "Web search and web fetch tools are not available in this session. I cannot access Edmonton's official zoning bylaw documentation or any other sources to verify the claim about non-resident employee limits for home-based businesses under Zoning Bylaw 20001.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Minneapolis amended its zoning in 2020 to allow 'home occupation with customer visits' in accessory structures, requiring only that the structure match the residential character of the block",
+        "claim": "Minneapolis amended zoning in 2020 to allow 'home occupation with customer visits' in accessory structures",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not granted permissions in this session. I cannot search for Minneapolis zoning ordinances, 2020 amendments, or home occupation regulations without these capabilities. The claim references a specific policy change that would require checking Minneapolis city records or news coverage to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Minneapolis amended its zoning in 2020 to allow 'home occupation with customer visits' in accessory structures, requiring only that the structure match the residential character of the block",
+        "claim": "Minneapolis zoning for home occupation with customer visits requires only that structures match residential character of the block",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check Minneapolis zoning code and 2020 amendments.",
+      "detail": "Minneapolis did implement significant zoning reforms around 2019-2020 through the Minneapolis 2040 plan, which included changes to accessory structures and home occupations. However, without web search access, I cannot verify the specific claim about 'home occupation with customer visits' requirements or confirm that the only requirement is matching 'residential character of the block.' The actual zoning code likely contains more specific requirements.",
+      "sources": [
+        "Unable to access web sources - verification requires access to Minneapolis municipal code and 2040 plan documents"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Neither city has reported significant traffic complaints or enforcement actions; the businesses are simply too small to register as nuisances",
+        "claim": "Neither Edmonton nor Minneapolis has reported significant traffic complaints or enforcement actions related to these home-based business provisions",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.2,
+      "summary": "Unable to search for evidence due to lack of web access permissions.",
+      "detail": "This claim requires searching official city records, council reports, or news coverage from Edmonton and Minneapolis to determine whether traffic complaints or enforcement actions have been reported regarding home-based business provisions. The claim asserts a negative (no significant complaints), which is inherently difficult to verify as it would require access to city enforcement databases or official statements confirming the absence of such complaints. Without web search capability, I cannot investigate this claim.",
+      "sources": [
+        "No sources accessed - web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander, writing in 1977, understood this. His pattern 87 — Individually Owned Shops",
+        "claim": "Christopher Alexander's pattern 87 is titled 'Individually Owned Shops' and was published in 1977",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander's 'A Pattern Language' was published in 1977 and pattern 87 is titled 'Individually Owned Shops'.",
+      "detail": "A Pattern Language: Towns, Buildings, Construction by Christopher Alexander et al. was published by Oxford University Press in 1977. The book contains 253 patterns numbered sequentially, and pattern 87 is indeed 'Individually Owned Shops'. This is standard bibliographic information about a seminal work in architecture and design theory. High confidence based on well-established publication history, though web verification was not available.",
+      "sources": [
+        "Christopher Alexander et al., A Pattern Language: Towns, Buildings, Construction, Oxford University Press, 1977"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 0,
+    "unverified": 6,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Edmonton's Zoning Bylaw 20001, effective January 2024, permits home-based businesses in residential zones with up to 60 square meters of accessory building space and a maximum of two non-resident employees working on-site",
+          "claim": "Edmonton's Zoning Bylaw 20001 became effective January 2024",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot search for information about Edmonton's Zoning Bylaw 20001 or its effective date. The claim would need to be verified manually by checking the City of Edmonton's official bylaw pages or council records.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Edmonton's Zoning Bylaw 20001, effective January 2024, permits home-based businesses in residential zones with up to 60 square meters of accessory building space and a maximum of two non-resident employees working on-site",
+          "claim": "Edmonton Zoning Bylaw 20001 permits home-based businesses with up to 60 square meters of accessory building space",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify claim due to lack of web search access in this session.",
+        "detail": "I attempted to search for Edmonton Zoning Bylaw 20001 and its provisions for home-based businesses including the 60 square meter accessory building space limit, but web search tools are not available. The claim references specific regulatory details (Bylaw 20001, effective January 2024, 60 sq m limit, 2 non-resident employees) that require access to Edmonton's official zoning documents or city website to verify.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Edmonton's Zoning Bylaw 20001, effective January 2024, permits home-based businesses in residential zones with up to 60 square meters of accessory building space and a maximum of two non-resident employees working on-site",
+          "claim": "Edmonton Zoning Bylaw 20001 allows a maximum of two non-resident employees working on-site for home-based businesses",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search permissions.",
+        "detail": "Web search and web fetch tools are not available in this session. I cannot access Edmonton's official zoning bylaw documentation or any other sources to verify the claim about non-resident employee limits for home-based businesses under Zoning Bylaw 20001.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Minneapolis amended its zoning in 2020 to allow 'home occupation with customer visits' in accessory structures, requiring only that the structure match the residential character of the block",
+          "claim": "Minneapolis amended zoning in 2020 to allow 'home occupation with customer visits' in accessory structures",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not granted permissions in this session. I cannot search for Minneapolis zoning ordinances, 2020 amendments, or home occupation regulations without these capabilities. The claim references a specific policy change that would require checking Minneapolis city records or news coverage to verify.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Neither city has reported significant traffic complaints or enforcement actions; the businesses are simply too small to register as nuisances",
+          "claim": "Neither Edmonton nor Minneapolis has reported significant traffic complaints or enforcement actions related to these home-based business provisions",
+          "type": "PROGRAM",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.2,
+        "summary": "Unable to search for evidence due to lack of web access permissions.",
+        "detail": "This claim requires searching official city records, council reports, or news coverage from Edmonton and Minneapolis to determine whether traffic complaints or enforcement actions have been reported regarding home-based business provisions. The claim asserts a negative (no significant complaints), which is inherently difficult to verify as it would require access to city enforcement databases or official statements confirming the absence of such complaints. Without web search capability, I cannot investigate this claim.",
+        "sources": [
+          "No sources accessed - web search permissions not granted"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ☆☆ is supported by the evidence."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "programs": [
+    {
+      "name": "BREEAM Natural Ventilation Credits",
+      "location": "United Kingdom",
+      "year": "2008-present",
+      "outcome": "UK green building rating system awards credits for natural ventilation strategies including wind catchers; specific outcome data requires verification",
+      "source": "BRE Global - BREEAM certification scheme (needs verification for current credit values)"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Traditional Iranian badgirs can reduce indoor temperatures by 8-12°C compared to outdoor temperatures in hot-arid climates",
+      "source": "Various academic sources cite this range, but specific original source needs verification",
+      "year": "Multiple studies 2000s-2010s"
+    },
+    {
+      "claim": "Wind towers can provide air change rates of 10-30 ACH (air changes per hour) depending on wind conditions",
+      "source": "Academic literature on passive ventilation - specific source needs verification",
+      "year": "Approximate range from multiple studies"
+    }
+  ],
+  "studies": [
+    {
+      "authors": "Bahadori, M.N.",
+      "title": "Passive Cooling Systems in Iranian Architecture",
+      "year": "1978",
+      "finding": "Foundational study documenting traditional Persian wind catchers (badgirs) and their cooling mechanisms; established baseline understanding of wind tower thermodynamics"
+    },
+    {
+      "authors": "Hughes, B.R., Calautit, J.K., Ghani, S.A.",
+      "title": "The development of commercial wind towers for natural ventilation: A review",
+      "year": "2012",
+      "finding": "Review of modern commercial wind tower systems showing potential for significant energy savings in appropriate climates - published in Applied Energy journal"
+    }
+  ],
+  "examples": [
+    {
+      "location": "Yazd, Iran",
+      "description": "Historic city with hundreds of traditional badgirs (wind catchers), some dating to pre-Islamic period. UNESCO World Heritage Site recognition acknowledges this traditional technology.",
+      "source": "UNESCO World Heritage documentation; extensive academic literature"
+    },
+    {
+      "location": "BedZED, London, UK",
+      "description": "Beddington Zero Energy Development (2002) features distinctive colorful wind cowls on rooftops for heat recovery ventilation",
+      "source": "BioRegional/Peabody Trust project documentation"
+    },
+    {
+      "location": "Queen's Building, De Montfort University, Leicester, UK",
+      "description": "1993 building designed by Short Ford Associates featuring large passive ventilation stacks that function as wind scoops",
+      "source": "RIBA case study; architectural publications"
+    },
+    {
+      "location": "Masdar City, Abu Dhabi, UAE",
+      "description": "Modern planned city incorporates contemporary wind tower designs inspired by traditional Gulf architecture",
+      "source": "Foster + Partners / Masdar Initiative documentation"
+    }
+  ],
+  "evidenceStrength": "moderate",
+  "suggestedConfidence": 1,
+  "notes": "WITHOUT WEB SEARCH ACCESS, I cannot verify current URLs or confirm specific statistics. The examples cited are well-documented in architectural literature, but specific performance metrics require verification. Traditional wind catchers (badgirs) are extensively documented; modern applications have more variable evidence quality. The Bahadori 1978 study is a legitimate foundational reference. Recommend web search verification for: (1) specific energy savings percentages, (2) current BREEAM credit values, (3) Masdar performance data, (4) any post-2024 studies. Evidence is moderate because the technology is well-established historically but modern performance data is more scattered."
+}

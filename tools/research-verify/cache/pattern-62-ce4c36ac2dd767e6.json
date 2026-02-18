@@ -1,0 +1,50 @@
+{
+  "patternId": 62,
+  "patternName": "Ice Management by Design",
+  "timestamp": "2026-02-16T21:26:25.976Z",
+  "model": "claude-code-cli",
+  "totalClaims": 2,
+  "results": [
+    {
+      "claim": {
+        "text": "Falls on ice cause more injuries than any other winter hazard",
+        "claim": "Ice falls cause more injuries than any other winter hazard",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.6,
+      "summary": "Falls on ice are among the leading causes of winter injuries, though whether they cause 'more injuries than any other winter hazard' depends on how hazards are categorized.",
+      "detail": "Research and emergency room data generally support that slip-and-fall injuries on ice are extremely common during winter months. The CDC and various studies have noted that falls on ice result in significant emergency department visits. However, the claim's absoluteness ('more than any other') may not hold in all jurisdictions or when considering categories like hypothermia, frostbite, or motor vehicle accidents on icy roads as separate 'winter hazards.' Without current web access, I cannot verify exact comparative statistics.",
+      "sources": [
+        "Unable to access web sources - based on training knowledge only"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Slope all exterior surfaces for immediate drainage (minimum 2% grade)",
+        "claim": "2% grade is the minimum slope needed for effective water drainage on exterior surfaces",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The 2% minimum slope (1/4 inch per foot) is a widely accepted standard in construction for exterior drainage.",
+      "detail": "Building codes and construction standards commonly specify a minimum 2% slope (equivalent to 1/4 inch per foot or approximately 1:48 ratio) for exterior surfaces like patios, sidewalks, driveways, and decks to ensure proper water drainage away from structures. This standard appears in the International Building Code (IBC), ADA accessibility guidelines (which allow 2% cross-slope), and numerous construction best practice guides. Some applications may require steeper slopes (like roofing), but 2% is the established minimum for horizontal exterior surfaces.",
+      "sources": [
+        "International Building Code (IBC)",
+        "ADA Accessibility Guidelines",
+        "Standard construction practice literature"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "partially": 1,
+    "unverified": 0,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [],
+    "suggestedConfidenceImpact": "Current ★★ is supported by the evidence."
+  }
+}

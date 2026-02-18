@@ -1,0 +1,41 @@
+{
+  "programs": [
+    {
+      "name": "Philadelphia Green City, Clean Waters",
+      "location": "Philadelphia, PA, USA",
+      "year": "2011",
+      "outcome": "25-year plan to manage stormwater with green infrastructure including permeable paving; aims to reduce combined sewer overflows by 85%",
+      "source": "Philadelphia Water Department - UNABLE TO VERIFY CURRENT STATUS WITHOUT WEB ACCESS"
+    },
+    {
+      "name": "EPA Green Infrastructure Program",
+      "location": "United States (Federal)",
+      "year": "Ongoing since 2007",
+      "outcome": "Promotes permeable pavement as a best management practice for stormwater",
+      "source": "EPA.gov - UNABLE TO VERIFY CURRENT DETAILS WITHOUT WEB ACCESS"
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Permeable pavements can reduce stormwater runoff by 70-90% compared to conventional pavement",
+      "source": "EPA Green Infrastructure resources - REQUIRES VERIFICATION",
+      "year": "Pre-2025"
+    },
+    {
+      "claim": "Pervious concrete can infiltrate 3-8 gallons of water per minute per square foot",
+      "source": "National Ready Mixed Concrete Association - REQUIRES VERIFICATION",
+      "year": "Unknown"
+    }
+  ],
+  "studies": [],
+  "examples": [
+    {
+      "location": "Chicago, IL - Green Alley Program",
+      "description": "Permeable paving in alleyways to reduce urban flooding",
+      "source": "City of Chicago - REQUIRES VERIFICATION"
+    }
+  ],
+  "evidenceStrength": "thin",
+  "suggestedConfidence": 0,
+  "notes": "CRITICAL CAVEAT: I was unable to access web search or fetch capabilities during this research session. The evidence provided above is based on general knowledge but has NOT been verified against current sources. All claims, statistics, and programs listed should be independently verified before use. I cannot confirm that these programs are still active, that statistics are accurate, or that cited sources still exist. This research task requires web access to be completed properly."
+}

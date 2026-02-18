@@ -1,0 +1,225 @@
+{
+  "patternId": 125,
+  "patternName": "The Wind Scoop",
+  "timestamp": "2026-02-16T23:39:17.732Z",
+  "model": "claude-code-cli",
+  "totalClaims": 10,
+  "results": [
+    {
+      "claim": {
+        "text": "In Yazd, Iran, hundreds of traditional *badgirs* still stand, some predating the Islamic period",
+        "claim": "Yazd, Iran has hundreds of traditional badgirs (wind catchers), some of which predate the Islamic period",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to check primary sources.",
+      "detail": "Web search and web fetch permissions were not granted, preventing me from checking academic sources, UNESCO documentation, or historical records about Yazd's badgirs. From general knowledge, Yazd is indeed known as the 'city of windcatchers' and has many badgirs, and some Persian windcatchers may have pre-Islamic origins, but I cannot verify specific claims about 'hundreds' of structures or their dating without access to current sources.",
+      "sources": [
+        "No sources accessible - web permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "UNESCO's World Heritage documentation for Yazd acknowledges these structures as sophisticated environmental technology",
+        "claim": "UNESCO World Heritage documentation for Yazd acknowledges badgirs as sophisticated environmental technology",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.6,
+      "summary": "Cannot access UNESCO documentation directly to verify exact terminology used for badgirs.",
+      "detail": "The Historic City of Yazd is UNESCO World Heritage Site #1544 (inscribed 2017), and UNESCO documentation does discuss badgirs as part of Yazd's heritage value. UNESCO typically describes these as 'ingenious engineering solutions' or traditional adaptations to desert environments. However, without direct access to verify the exact phrase 'sophisticated environmental technology,' I cannot confirm or deny this specific wording. The claim is directionally plausible but exact terminology is unverified.",
+      "sources": [
+        "Unable to access https://whc.unesco.org/en/list/1544 - web permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Studies by M.N. Bahadori, published in *Scientific American* in 1978, documented how badgirs can reduce indoor temperatures by 8–12°C compared to outdoor conditions in hot-arid climates",
+        "claim": "M.N. Bahadori published a study in Scientific American in 1978 documenting badgir temperature reduction of 8-12°C",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "M.N. Bahadori did publish 'Passive Cooling Systems in Iranian Architecture' in Scientific American in February 1978, but the specific 8-12°C temperature reduction figure cannot be verified without accessing the original article.",
+      "detail": "The existence of Bahadori's 1978 Scientific American article on passive cooling systems including badgir is well-established in academic literature and is frequently cited. The article appeared in the February 1978 issue (Vol. 238, No. 2). However, without direct access to the original article text, I cannot confirm whether the specific claim of '8-12°C temperature reduction' appears in the article exactly as stated. Various secondary sources cite different temperature reduction ranges when referencing this work, which suggests the original may have been paraphrased or approximated over time.",
+      "sources": [
+        "Training knowledge of academic citations referencing Bahadori 1978 Scientific American article",
+        "Scientific American archives (February 1978, Vol. 238, No. 2)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "At the Queen's Building of De Montfort University in Leicester, UK (Short Ford Associates, 1993), massive ventilation stacks rise from the roof",
+        "claim": "Queen's Building at De Montfort University in Leicester, UK was designed by Short Ford Associates in 1993 with ventilation stacks",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access, though the claim aligns with general knowledge about this landmark building.",
+      "detail": "The Queen's Building at De Montfort University is widely recognized in architectural literature as a pioneering example of natural ventilation design with prominent ventilation stacks. Short Ford Associates is commonly credited as the architect. However, without web search access, I cannot confirm the specific year (1993) or provide primary sources. This claim appears plausible based on training data but requires verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "At the BedZED development in south London (2002), colorful rotating wind cowls top each residential unit",
+        "claim": "BedZED development in south London was completed in 2002 and features rotating wind cowls on residential units",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search permissions required for fact-checking.",
+      "detail": "This fact-checking task requires web search to verify claims against current sources, but web search and web fetch permissions were not granted. Based on general knowledge, BedZED is a real sustainable development in south London known for its distinctive wind cowls, but I cannot verify the specific completion date or confirm all details without access to primary sources.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Hughes, Calautit, and Ghani's 2012 review in *Applied Energy* documented that commercial wind tower systems can achieve 10–30 air changes per hour depending on wind conditions",
+        "claim": "Hughes, Calautit, and Ghani published a review in Applied Energy in 2012 documenting commercial wind towers achieving 10-30 air changes per hour",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access to confirm publication details and specific claims.",
+      "detail": "Hughes, Calautit, and Ghani are known researchers in the field of wind tower ventilation, and they have published extensively in journals including Applied Energy. However, without access to web search or academic databases, I cannot confirm: (1) whether a specific 2012 Applied Energy review exists by these authors, (2) whether it documents 10-30 air changes per hour for commercial wind towers, or (3) whether the year 2012 is correct. Web search tools are required for proper verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "In Edmonton, where summer temperatures now regularly exceed 30°C but prevailing northwest winds remain reliable",
+        "claim": "Edmonton has prevailing northwest winds in summer",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search/fetch tools being unavailable.",
+      "detail": "I attempted to search for information about Edmonton's prevailing wind direction in summer months, but web search and fetch capabilities were not available during this verification attempt. This claim about northwest winds being prevailing in Edmonton during summer would require access to meteorological data from Environment Canada, Weather Spark, or similar weather data sources to verify.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Size the scoop opening to at least 0.15 square meters per 25 square meters of floor area served",
+        "claim": "Wind scoop sizing guideline of 0.15 square meters opening per 25 square meters floor area",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify this specific wind scoop sizing guideline due to lack of web search access.",
+      "detail": "The claim specifies a ratio of 0.15 m² opening per 25 m² floor area (0.6% of floor area). This is within the range of typical natural ventilation guidelines, which generally recommend 2-5% of floor area for cross-ventilation openings, but wind scoops are specialized devices with different requirements. Without access to authoritative sources like ASHRAE guidelines, CIBSE documents, or peer-reviewed papers on passive ventilation, I cannot confirm this specific ratio.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "Raise the intake at least 1.5 meters above the surrounding roof surface to clear the turbulent boundary layer",
+        "claim": "1.5 meters above roof surface is sufficient to clear the turbulent boundary layer",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access in this environment.",
+      "detail": "This technical claim about 1.5 meters being sufficient to clear the turbulent boundary layer for roof air intakes requires verification against ASHRAE standards, building codes, or HVAC engineering literature. Without web search capabilities, I cannot access the primary sources needed to confirm or dispute this specific measurement. The claim is plausible given general HVAC design principles, but the exact figure requires verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "on a day with 3 m/s wind measured at 10 meters above grade, hold a tissue at a low outlet in the room served — it should deflect outward with visible movement",
+        "claim": "3 m/s wind at 10 meters above grade is sufficient to produce visible airflow through a properly designed wind scoop system",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0,
+      "summary": "Verification failed after retries",
+      "detail": "Error: Process exited with code 1",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 0,
+    "partially": 1,
+    "unverified": 9,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "In Yazd, Iran, hundreds of traditional *badgirs* still stand, some predating the Islamic period",
+          "claim": "Yazd, Iran has hundreds of traditional badgirs (wind catchers), some of which predate the Islamic period",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to check primary sources.",
+        "detail": "Web search and web fetch permissions were not granted, preventing me from checking academic sources, UNESCO documentation, or historical records about Yazd's badgirs. From general knowledge, Yazd is indeed known as the 'city of windcatchers' and has many badgirs, and some Persian windcatchers may have pre-Islamic origins, but I cannot verify specific claims about 'hundreds' of structures or their dating without access to current sources.",
+        "sources": [
+          "No sources accessible - web permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "UNESCO's World Heritage documentation for Yazd acknowledges these structures as sophisticated environmental technology",
+          "claim": "UNESCO World Heritage documentation for Yazd acknowledges badgirs as sophisticated environmental technology",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.6,
+        "summary": "Cannot access UNESCO documentation directly to verify exact terminology used for badgirs.",
+        "detail": "The Historic City of Yazd is UNESCO World Heritage Site #1544 (inscribed 2017), and UNESCO documentation does discuss badgirs as part of Yazd's heritage value. UNESCO typically describes these as 'ingenious engineering solutions' or traditional adaptations to desert environments. However, without direct access to verify the exact phrase 'sophisticated environmental technology,' I cannot confirm or deny this specific wording. The claim is directionally plausible but exact terminology is unverified.",
+        "sources": [
+          "Unable to access https://whc.unesco.org/en/list/1544 - web permissions not granted"
+        ]
+      },
+      {
+        "claim": {
+          "text": "At the Queen's Building of De Montfort University in Leicester, UK (Short Ford Associates, 1993), massive ventilation stacks rise from the roof",
+          "claim": "Queen's Building at De Montfort University in Leicester, UK was designed by Short Ford Associates in 1993 with ventilation stacks",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access, though the claim aligns with general knowledge about this landmark building.",
+        "detail": "The Queen's Building at De Montfort University is widely recognized in architectural literature as a pioneering example of natural ventilation design with prominent ventilation stacks. Short Ford Associates is commonly credited as the architect. However, without web search access, I cannot confirm the specific year (1993) or provide primary sources. This claim appears plausible based on training data but requires verification.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "At the BedZED development in south London (2002), colorful rotating wind cowls top each residential unit",
+          "claim": "BedZED development in south London was completed in 2002 and features rotating wind cowls on residential units",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search permissions required for fact-checking.",
+        "detail": "This fact-checking task requires web search to verify claims against current sources, but web search and web fetch permissions were not granted. Based on general knowledge, BedZED is a real sustainable development in south London known for its distinctive wind cowls, but I cannot verify the specific completion date or confirm all details without access to primary sources.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Hughes, Calautit, and Ghani's 2012 review in *Applied Energy* documented that commercial wind tower systems can achieve 10–30 air changes per hour depending on wind conditions",
+          "claim": "Hughes, Calautit, and Ghani published a review in Applied Energy in 2012 documenting commercial wind towers achieving 10-30 air changes per hour",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access to confirm publication details and specific claims.",
+        "detail": "Hughes, Calautit, and Ghani are known researchers in the field of wind tower ventilation, and they have published extensively in journals including Applied Energy. However, without access to web search or academic databases, I cannot confirm: (1) whether a specific 2012 Applied Energy review exists by these authors, (2) whether it documents 10-30 air changes per hour for commercial wind towers, or (3) whether the year 2012 is correct. Web search tools are required for proper verification.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

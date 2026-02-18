@@ -1,0 +1,111 @@
+{
+  "patternId": 96,
+  "patternName": "The Courtyard Cluster",
+  "timestamp": "2026-02-16T22:14:56.019Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "The courtyard cluster — four to eight dwellings arranged around a shared outdoor space of 100–300 square meters — is the oldest and most successful form of medium-density housing.",
+        "claim": "The courtyard cluster is the oldest form of medium-density housing",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify the specific claim that courtyard clusters are the 'oldest' form of medium-density housing due to lack of web search access.",
+      "detail": "Courtyard housing is indeed ancient, with evidence from Mesopotamia (Ur, ~2000 BCE), ancient China, and Roman insulae. However, the specific claim that courtyard clusters of '4-8 dwellings around 100-300 sqm shared space' constitute the oldest form of medium-density housing would require archaeological and architectural history sources to verify. Other ancient housing forms (longhouses, row housing, stacked dwellings) also have deep histories. Without web search access, I cannot locate primary sources to confirm or dispute this specific chronological claim.",
+      "sources": [
+        "Unable to search - assessment based on general architectural history knowledge"
+      ]
+    },
+    {
+      "claim": {
+        "text": "It appears in every culture: the Roman domus, the Chinese siheyuan, the Spanish patio house, the Danish bofællesskab.",
+        "claim": "The Roman domus was a courtyard-based housing form",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Roman domus was definitively a courtyard-based housing form, featuring the atrium and often a peristyle courtyard.",
+      "detail": "The Roman domus is one of the most well-documented ancient housing types. It centered on the atrium, an open courtyard with an impluvium (rainwater collection basin), and wealthier homes also featured a peristyle (colonnaded garden courtyard) at the rear. Archaeological evidence from Pompeii, Herculaneum, and other Roman sites extensively documents this courtyard-centric design. This is fundamental, established knowledge in Roman architectural history.",
+      "sources": [
+        "Archaeological evidence from Pompeii and Herculaneum",
+        "Standard Roman architectural history texts"
+      ]
+    },
+    {
+      "claim": {
+        "text": "It appears in every culture: the Roman domus, the Chinese siheyuan, the Spanish patio house, the Danish bofællesskab.",
+        "claim": "The Chinese siheyuan is a courtyard-based housing form",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Chinese siheyuan is definitively a courtyard-based housing form, with the name literally meaning 'four-sided courtyard'.",
+      "detail": "The siheyuan (四合院) is one of the most well-documented traditional Chinese architectural forms. The name itself translates to 'four-sided enclosed courtyard' - 'si' (四) means four, 'he' (合) means to surround/enclose, and 'yuan' (院) means courtyard. This housing typology features buildings arranged on all four sides of a central courtyard, which has been a fundamental Chinese residential design for over 2,000 years, particularly prominent in Beijing and northern China.",
+      "sources": [
+        "General architectural knowledge - siheyuan is extensively documented in architectural literature and Chinese cultural sources; the etymology of the term itself confirms the courtyard-based nature"
+      ]
+    },
+    {
+      "claim": {
+        "text": "It appears in every culture: the Roman domus, the Chinese siheyuan, the Spanish patio house, the Danish bofællesskab.",
+        "claim": "The Spanish patio house is a courtyard-based housing form",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "The Spanish patio house is well-documented as a traditional courtyard-based housing form derived from Mediterranean and Moorish architectural traditions.",
+      "detail": "The Spanish patio house (casa patio) is a well-established architectural typology featuring an interior courtyard as the central organizing element of the dwelling. This form developed from Roman and Moorish influences in the Iberian Peninsula, particularly prominent in Andalusia. The courtyard serves as the private outdoor heart of the home, with rooms arranged around it. This is widely documented in architectural history texts and is consistent with the claim's broader context listing other courtyard housing types across cultures.",
+      "sources": [
+        "Architectural history knowledge of Mediterranean vernacular housing",
+        "Unable to verify with live web search due to permission restrictions"
+      ]
+    },
+    {
+      "claim": {
+        "text": "It appears in every culture: the Roman domus, the Chinese siheyuan, the Spanish patio house, the Danish bofællesskab.",
+        "claim": "The Danish bofællesskab is a courtyard-based housing form",
+        "type": "HISTORICAL",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Danish bofællesskab refers to cohousing communities, which emphasize shared common spaces but are not specifically defined as courtyard-based.",
+      "detail": "Bofællesskab is the Danish word for cohousing, a collaborative housing model that originated in Denmark in the 1960s. While many cohousing communities do feature shared outdoor spaces and some have courtyard-like arrangements, the defining characteristic is shared common facilities and intentional community, not specifically a courtyard layout. The claim conflates bofællesskab with courtyard architecture when it's actually a social housing model that can take various physical forms including row houses, clusters, and yes, sometimes courtyards.",
+      "sources": [
+        "Unable to verify with web sources - based on training knowledge of Danish cohousing history"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 1,
+    "unverified": 1,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The courtyard cluster — four to eight dwellings arranged around a shared outdoor space of 100–300 square meters — is the oldest and most successful form of medium-density housing.",
+          "claim": "The courtyard cluster is the oldest form of medium-density housing",
+          "type": "HISTORICAL",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to verify the specific claim that courtyard clusters are the 'oldest' form of medium-density housing due to lack of web search access.",
+        "detail": "Courtyard housing is indeed ancient, with evidence from Mesopotamia (Ur, ~2000 BCE), ancient China, and Roman insulae. However, the specific claim that courtyard clusters of '4-8 dwellings around 100-300 sqm shared space' constitute the oldest form of medium-density housing would require archaeological and architectural history sources to verify. Other ancient housing forms (longhouses, row housing, stacked dwellings) also have deep histories. Without web search access, I cannot locate primary sources to confirm or dispute this specific chronological claim.",
+        "sources": [
+          "Unable to search - assessment based on general architectural history knowledge"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★★. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

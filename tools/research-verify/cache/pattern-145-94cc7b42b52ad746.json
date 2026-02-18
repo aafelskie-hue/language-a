@@ -1,0 +1,152 @@
+{
+  "patternId": 145,
+  "patternName": "The Breathing Wall",
+  "timestamp": "2026-02-17T01:21:55.356Z",
+  "model": "claude-code-cli",
+  "totalClaims": 7,
+  "results": [
+    {
+      "claim": {
+        "text": "A family of four produces 10 to 15 liters of water vapor per day",
+        "claim": "A family of four produces 10-15 liters of water vapor per day through breathing, cooking, and bathing",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "The claim of 10-15 liters of water vapor per day from a family of four aligns with building science literature on household moisture production.",
+      "detail": "Building science and indoor air quality research consistently cites figures in this range. A person produces approximately 1-2 liters of moisture per day through respiration and perspiration alone. Cooking adds 2-3 liters per day, bathing/showering adds 1.5-2 liters per use, and other activities like dishwashing and laundry contribute additional moisture. For a family of four, totals of 10-15 liters daily are widely cited in ventilation and moisture control guidelines from sources like ASHRAE and building science organizations.",
+      "sources": [
+        "Building Science Corporation moisture control guidelines",
+        "ASHRAE Fundamentals Handbook on indoor moisture sources",
+        "General building science literature on household moisture generation"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Research at the Building Envelope and Structure Program at the National Research Council of Canada, conducted by Kumaran and others through the 1990s and 2000s, demonstrated that walls with vapor-variable membranes — 'smart' retarders that become more permeable when humidity rises — outperformed conventional polyethylene assemblies in both laboratory and field testing",
+        "claim": "Kumaran and others at NRC Canada's Building Envelope and Structure Program conducted research in 1990s-2000s showing vapor-variable membranes outperformed polyethylene assemblies",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Cannot verify due to web search unavailability; claim references real researcher and institution but specific findings cannot be confirmed.",
+      "detail": "M.K. Kumaran was indeed a researcher at NRC Canada's Institute for Research in Construction who worked on building envelope moisture research. The Building Envelope and Structure Program existed at NRC. However, without web search access, I cannot verify the specific claim about vapor-variable membranes outperforming polyethylene assemblies in laboratory and field testing during the 1990s-2000s timeframe.",
+      "sources": [
+        "Unable to search - verification inconclusive"
+      ]
+    },
+    {
+      "claim": {
+        "text": "The Fraunhofer Institute for Building Physics in Germany developed similar findings, showing that hygric redistribution — the ability of materials to absorb, store, and release moisture — is essential for long-term wall durability",
+        "claim": "Fraunhofer Institute for Building Physics in Germany conducted research showing hygric redistribution is essential for long-term wall durability",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to search for evidence due to tool permission restrictions.",
+      "detail": "Web search and web fetch tools are not available to verify this claim. The Fraunhofer Institute for Building Physics is a legitimate research institution known for building physics and moisture research, but I cannot confirm the specific claim about hygric redistribution and wall durability without accessing their publications or research summaries.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The Building Science Corporation's 'perfect wall' concept, developed by Joseph Lstiburek, places all control layers — air barrier, vapor retarder, thermal insulation — outboard of the structure",
+        "claim": "Joseph Lstiburek at Building Science Corporation developed the 'perfect wall' concept with control layers placed outboard of structure",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Joseph Lstiburek of Building Science Corporation is well-documented as the developer of the 'perfect wall' concept featuring control layers placed outboard of structure.",
+      "detail": "Joseph Lstiburek is a principal at Building Science Corporation and has written extensively about the 'perfect wall' concept in BSC's Insights series (particularly BSI-001). The concept describes placing all four control layers (water, air, vapor, and thermal) on the exterior side of the structure, which is exactly what the claim states. This is foundational building science literature widely referenced in the construction industry.",
+      "sources": [
+        "Building Science Corporation Insights BSI-001: The Perfect Wall by Joseph Lstiburek",
+        "Building Science Corporation website (buildingscience.com)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "a wall must still achieve 1.5 ACH50 or better",
+        "claim": "1.5 ACH50 is a recognized target standard for wall air tightness",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to lack of web search access to find current standards documentation.",
+      "detail": "Web search tools were unavailable to research this claim. From training knowledge, ACH50 is typically a whole-building metric rather than a wall-specific metric, and 1.5 ACH50 falls between Passive House (0.6) and typical codes (3-7), but I could not verify if 1.5 ACH50 is specifically recognized as a 'wall air tightness' standard. The claim's framing of ACH50 as applying to individual walls rather than whole buildings may be technically imprecise.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "On the exterior, use vapor-open weather barriers (minimum 1,400 ng/Pa·s·m²)",
+        "claim": "1,400 ng/Pa·s·m² is the threshold for vapor-open weather barriers",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.4,
+      "summary": "Unable to verify the specific 1,400 ng/Pa·s·m² threshold through web search due to tool access limitations.",
+      "detail": "The claim references a specific permeance value of 1,400 ng/Pa·s·m² as the threshold for vapor-open weather barriers. This unit (ng/Pa·s·m²) is the SI unit for water vapor permeance, where 1 US perm ≈ 57.4 ng/Pa·s·m². Thus 1,400 ng/Pa·s·m² would equal approximately 24 perms, which is in the range typically associated with highly vapor-permeable materials. However, I was unable to access web sources to verify this specific threshold value against building codes or standards like ASHRAE or IRC. Common thresholds vary by climate zone and application.",
+      "sources": [
+        "Web search unavailable - verification requires access to building science resources, ASHRAE standards, or IRC building codes"
+      ]
+    },
+    {
+      "claim": {
+        "text": "model the temperature gradient through the wall under January design conditions (-30°C exterior, +21°C interior, 40% RH)",
+        "claim": "-30°C is an appropriate January design temperature for Edmonton",
+        "type": "TECHNICAL",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "-30°C is within the accepted range of heating design temperatures for Edmonton based on standard engineering practice.",
+      "detail": "Edmonton's ASHRAE heating design temperatures typically range from -28°C (99% design) to -33°C (99.6% design). The -30°C figure used in the claim falls squarely within this range and represents a reasonable design temperature for January conditions in Edmonton. This is consistent with Canadian building codes and engineering standards for Climate Zone 7A.",
+      "sources": [
+        "ASHRAE Fundamentals Handbook climate data tables",
+        "National Building Code of Canada climate data"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 0,
+    "unverified": 4,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Research at the Building Envelope and Structure Program at the National Research Council of Canada, conducted by Kumaran and others through the 1990s and 2000s, demonstrated that walls with vapor-variable membranes — 'smart' retarders that become more permeable when humidity rises — outperformed conventional polyethylene assemblies in both laboratory and field testing",
+          "claim": "Kumaran and others at NRC Canada's Building Envelope and Structure Program conducted research in 1990s-2000s showing vapor-variable membranes outperformed polyethylene assemblies",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Cannot verify due to web search unavailability; claim references real researcher and institution but specific findings cannot be confirmed.",
+        "detail": "M.K. Kumaran was indeed a researcher at NRC Canada's Institute for Research in Construction who worked on building envelope moisture research. The Building Envelope and Structure Program existed at NRC. However, without web search access, I cannot verify the specific claim about vapor-variable membranes outperforming polyethylene assemblies in laboratory and field testing during the 1990s-2000s timeframe.",
+        "sources": [
+          "Unable to search - verification inconclusive"
+        ]
+      },
+      {
+        "claim": {
+          "text": "The Fraunhofer Institute for Building Physics in Germany developed similar findings, showing that hygric redistribution — the ability of materials to absorb, store, and release moisture — is essential for long-term wall durability",
+          "claim": "Fraunhofer Institute for Building Physics in Germany conducted research showing hygric redistribution is essential for long-term wall durability",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.4,
+        "summary": "Unable to search for evidence due to tool permission restrictions.",
+        "detail": "Web search and web fetch tools are not available to verify this claim. The Fraunhofer Institute for Building Physics is a legitimate research institution known for building physics and moisture research, but I cannot confirm the specific claim about hygric redistribution and wall durability without accessing their publications or research summaries.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

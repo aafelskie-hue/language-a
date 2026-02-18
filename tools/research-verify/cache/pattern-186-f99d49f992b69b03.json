@@ -1,0 +1,212 @@
+{
+  "patternId": 186,
+  "patternName": "The Tiny House Village",
+  "timestamp": "2026-02-17T03:08:35.811Z",
+  "model": "claude-code-cli",
+  "totalClaims": 9,
+  "results": [
+    {
+      "claim": {
+        "text": "At Edmonton's construction costs of $2,500–$3,500 per square meter",
+        "claim": "Construction costs in Edmonton are $2,500–$3,500 per square meter",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "Web search and web fetch tools were not available during this verification attempt. The claim of $2,500–$3,500 per square meter ($232–$325 per square foot) for Edmonton construction costs is a plausible range for Canadian urban construction, but I cannot confirm without access to current market data, Statistics Canada reports, or industry sources like Altus Group cost guides.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "someone earning $18,000 a year on provincial disability support",
+        "claim": "Alberta provincial disability support provides approximately $18,000 per year",
+        "type": "PROGRAM",
+        "importance": "low"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.75,
+      "summary": "Alberta's AISH program exists and provides approximately this amount, though the exact figure varies based on individual circumstances and has changed over time.",
+      "detail": "Alberta's Assured Income for the Severely Handicapped (AISH) program is real. As of my knowledge cutoff, the maximum monthly benefit was approximately $1,685-$1,787/month (roughly $20,000-$21,400/year), which is somewhat higher than the $18,000 claimed. However, actual amounts vary based on other income, living arrangements, and individual assessments. The $18,000 figure may reflect an earlier rate or an individual's actual received amount after adjustments.",
+      "sources": [
+        "Alberta Government AISH program (unable to verify current rates via web search)"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Community First! Village in Austin, Texas, demonstrates the model at scale: over 500 micro-homes of 10 to 40 square meters",
+        "claim": "Community First! Village in Austin, Texas has over 500 micro-homes of 10 to 40 square meters",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; Community First! Village is a real development but specific numbers cannot be confirmed.",
+      "detail": "Web search and fetch tools are not currently available. Community First! Village in Austin is a legitimate housing development for formerly homeless individuals operated by Mobile Loaves & Fishes, but I cannot verify the specific claim of 'over 500 micro-homes' or the stated size range of '10 to 40 square meters' (approximately 108 to 430 square feet) without access to current sources.",
+      "sources": [
+        "Unable to search - web tools not available"
+      ]
+    },
+    {
+      "claim": {
+        "text": "clustered around shared bathhouses, community kitchens, and common gathering spaces",
+        "claim": "Community First! Village is organized around shared bathhouses, community kitchens, and common gathering spaces",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "Community First! Village in Austin, Texas is well-documented as having shared bathhouses, community kitchens, and common gathering spaces as core design elements.",
+      "detail": "Community First! Village, operated by Mobile Loaves & Fishes in Austin, Texas, is a widely-covered model village for people transitioning out of chronic homelessness. Its design centers on shared amenities including bathhouses (with showers, toilets, laundry), community kitchens, and gathering spaces like outdoor pavilions and gardens. This shared-amenity model is a documented core feature of their approach to building community among residents. Unable to perform live web search to confirm current details.",
+      "sources": [
+        "Unable to access web sources - based on training knowledge of Mobile Loaves & Fishes Community First! Village"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Residents pay $225–$430 per month",
+        "claim": "Community First! Village residents pay $225–$430 per month",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search/fetch permissions to access current sources.",
+      "detail": "Web search and web fetch tools were not available to verify this claim. Community First! Village is a known real program in Austin, Texas, and the claimed rent range is plausible based on general knowledge of the program's affordable housing model, but exact figures cannot be confirmed without accessing current sources from Mobile Loaves & Fishes or recent reporting.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "The village reports 85% housing retention over five years",
+        "claim": "Community First! Village reports 85% housing retention over five years",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.5,
+      "summary": "Unable to verify due to lack of web search access in this session.",
+      "detail": "Web search and web fetch tools were not available to verify this claim about Community First! Village's 85% housing retention rate over five years. This claim cannot be checked without access to external sources. The claim may be accurate, but I cannot confirm or deny it.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "far exceeding typical shelter outcomes",
+        "claim": "85% five-year housing retention far exceeds typical shelter outcomes",
+        "type": "STATISTIC",
+        "importance": "low"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; the claim aligns with commonly cited Housing First statistics but specific sources could not be checked.",
+      "detail": "The 85% five-year housing retention rate and the comparison to typical shelter outcomes could not be verified because web search and fetch tools were not available. Housing First programs are widely reported to achieve retention rates in the 80-90% range, and they generally do outperform traditional shelter models, but the specific 85% five-year figure and the comparison claim require source verification.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A 15-square-meter insulated unit with a single 1500W electric heater maintains 20°C when it is -30°C outside, if the envelope achieves R-40 walls and R-60 roof",
+        "claim": "A 15-square-meter unit with R-40 walls, R-60 roof, and a 1500W heater can maintain 20°C interior when exterior is -30°C",
+        "type": "TECHNICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.75,
+      "summary": "Standard heat transfer calculations confirm that 1500W is sufficient to maintain a 50°C temperature differential in a 15m² well-insulated structure with R-40/R-60 values.",
+      "detail": "Using Q=A×ΔT/R heat transfer formula with reasonable geometry assumptions (walls ~37m², roof 15m², floor 15m²), total envelope heat loss calculates to approximately 700-900W, leaving substantial margin from the 1500W heater. This assumes a tight building envelope with minimal air infiltration. The claim is physically plausible and consistent with engineering calculations, though actual performance depends on construction quality, window area, and air sealing.",
+      "sources": [
+        "Standard heat transfer physics (Q=A×ΔT/R)",
+        "ASHRAE Fundamentals heat loss calculation methodology"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Edmonton's Ambrose Place, a permanent supportive housing project, uses small private rooms (under 25 square meters) with shared kitchens and common areas",
+        "claim": "Ambrose Place in Edmonton is a permanent supportive housing project with private rooms under 25 square meters and shared kitchens and common areas",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.1,
+      "summary": "Unable to verify due to lack of web search access.",
+      "detail": "I attempted to use WebSearch and WebFetch tools to find information about Ambrose Place in Edmonton, but these tools were not granted permission. Without web access, I cannot confirm or deny claims about whether Ambrose Place is permanent supportive housing, whether it has rooms under 25 square meters, or whether it uses shared kitchens and common areas. Manual verification with web access is required.",
+      "sources": []
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 6,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "At Edmonton's construction costs of $2,500–$3,500 per square meter",
+          "claim": "Construction costs in Edmonton are $2,500–$3,500 per square meter",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "Web search and web fetch tools were not available during this verification attempt. The claim of $2,500–$3,500 per square meter ($232–$325 per square foot) for Edmonton construction costs is a plausible range for Canadian urban construction, but I cannot confirm without access to current market data, Statistics Canada reports, or industry sources like Altus Group cost guides.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Community First! Village in Austin, Texas, demonstrates the model at scale: over 500 micro-homes of 10 to 40 square meters",
+          "claim": "Community First! Village in Austin, Texas has over 500 micro-homes of 10 to 40 square meters",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; Community First! Village is a real development but specific numbers cannot be confirmed.",
+        "detail": "Web search and fetch tools are not currently available. Community First! Village in Austin is a legitimate housing development for formerly homeless individuals operated by Mobile Loaves & Fishes, but I cannot verify the specific claim of 'over 500 micro-homes' or the stated size range of '10 to 40 square meters' (approximately 108 to 430 square feet) without access to current sources.",
+        "sources": [
+          "Unable to search - web tools not available"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Residents pay $225–$430 per month",
+          "claim": "Community First! Village residents pay $225–$430 per month",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search/fetch permissions to access current sources.",
+        "detail": "Web search and web fetch tools were not available to verify this claim. Community First! Village is a known real program in Austin, Texas, and the claimed rent range is plausible based on general knowledge of the program's affordable housing model, but exact figures cannot be confirmed without accessing current sources from Mobile Loaves & Fishes or recent reporting.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "The village reports 85% housing retention over five years",
+          "claim": "Community First! Village reports 85% housing retention over five years",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.5,
+        "summary": "Unable to verify due to lack of web search access in this session.",
+        "detail": "Web search and web fetch tools were not available to verify this claim about Community First! Village's 85% housing retention rate over five years. This claim cannot be checked without access to external sources. The claim may be accurate, but I cannot confirm or deny it.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Edmonton's Ambrose Place, a permanent supportive housing project, uses small private rooms (under 25 square meters) with shared kitchens and common areas",
+          "claim": "Ambrose Place in Edmonton is a permanent supportive housing project with private rooms under 25 square meters and shared kitchens and common areas",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.1,
+        "summary": "Unable to verify due to lack of web search access.",
+        "detail": "I attempted to use WebSearch and WebFetch tools to find information about Ambrose Place in Edmonton, but these tools were not granted permission. Without web access, I cannot confirm or deny claims about whether Ambrose Place is permanent supportive housing, whether it has rooms under 25 square meters, or whether it uses shared kitchens and common areas. Manual verification with web access is required.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

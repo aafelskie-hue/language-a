@@ -1,0 +1,151 @@
+{
+  "patternId": 255,
+  "patternName": "The Market Street",
+  "timestamp": "2026-02-17T07:00:00.821Z",
+  "model": "claude-code-cli",
+  "totalClaims": 6,
+  "results": [
+    {
+      "claim": {
+        "text": "Anthropologist Edward Hall, in *The Hidden Dimension* (1966), observed that humans naturally cluster commerce along linear paths",
+        "claim": "Edward Hall's book 'The Hidden Dimension' was published in 1966 and discusses how humans cluster commerce along linear paths",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "PARTIALLY",
+      "confidence": 0.85,
+      "summary": "Edward Hall's 'The Hidden Dimension' was published in 1966, but the book primarily discusses proxemics (human use of space) rather than commerce along linear paths.",
+      "detail": "Edward Hall's 'The Hidden Dimension' was indeed published in 1966 and Hall was an anthropologist. However, the book is primarily about proxemics—the study of how humans perceive and use space in different cultures, including personal space, territorial behavior, and spatial relationships. While Hall discusses how humans organize and perceive space, the specific claim that he observed humans 'naturally cluster commerce along linear paths' appears to be an interpretation or extension rather than a core thesis of the book. The book focuses more on interpersonal distance and cross-cultural spatial perception than on commercial geography.",
+      "sources": [
+        "Unable to access web sources - based on background knowledge of Hall's work"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Alexander recognized this in his Pattern 46 (Market of Many Shops) and Pattern 87 (Individually Owned Shops)",
+        "claim": "Christopher Alexander's pattern language includes Pattern 46 titled 'Market of Many Shops' and Pattern 87 titled 'Individually Owned Shops'",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander's 'A Pattern Language' (1977) contains Pattern 46 titled 'Market of Many Shops' and Pattern 87 titled 'Individually Owned Shops' exactly as claimed.",
+      "detail": "Both pattern numbers and titles are accurate. Pattern 46 'Market of Many Shops' advocates for markets composed of many small, individually-owned shops rather than department stores. Pattern 87 'Individually Owned Shops' calls for shops where the owner works behind the counter and has a personal stake in the community. These are well-documented patterns from the 253-pattern system in Alexander's canonical architecture text.",
+      "sources": [
+        "Christopher Alexander, Sara Ishikawa, Murray Silverstein. A Pattern Language: Towns, Buildings, Construction. Oxford University Press, 1977.",
+        "Existing verification cache in tools/research-verify/cache/pattern-184-a78a7485c6df6764.json confirming Pattern 87"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Clifford Guy's work on convenience retailing in the UK (2007) found that a grocery store, pharmacy, and three to five complementary shops — bakery, butcher, café, hardware — could sustain themselves on a catchment of 2,000 to 4,000 households within a 400-meter walk",
+        "claim": "Clifford Guy published work on convenience retailing in the UK in 2007 that found grocery/pharmacy/3-5 complementary shops can sustain on a catchment of 2,000-4,000 households within 400 meters",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify claim due to web search being unavailable.",
+      "detail": "Web search permissions were not granted, preventing verification of Clifford Guy's 2007 work on convenience retailing. Clifford Guy is a known retail geography academic at Cardiff University who has published extensively on UK retail planning, making the citation plausible. However, without search access, the specific figures (2,000-4,000 households, 400 meters, 3-5 complementary shops) cannot be confirmed against the original source.",
+      "sources": [
+        "Unable to access web sources"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Jane Jacobs described this in *The Death and Life of Great American Cities* (1961): the 'intricate sidewalk ballet'",
+        "claim": "Jane Jacobs used the phrase 'intricate sidewalk ballet' in 'The Death and Life of Great American Cities' (1961)",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Jane Jacobs did use the phrase 'intricate sidewalk ballet' in 'The Death and Life of Great American Cities' published in 1961.",
+      "detail": "This is one of the most famous and frequently-quoted phrases from Jacobs' seminal 1961 work on urban planning. The phrase appears in Chapter 2 discussing sidewalk safety, where Jacobs describes the complex daily choreography of street life in Greenwich Village. This attribution is well-established in urban planning literature and academic citations.",
+      "sources": [
+        "Training knowledge - Jane Jacobs, 'The Death and Life of Great American Cities' (1961), Chapter 2"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Research by the Congress for New Urbanism found that retail streets with continuous storefronts and minimal curb cuts generated 40% higher pedestrian counts than comparable streets with parking between sidewalk and building",
+        "claim": "Congress for New Urbanism research found continuous storefront streets generate 40% higher pedestrian counts than streets with parking between sidewalk and building",
+        "type": "ORGANIZATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to web search permission not being granted.",
+      "detail": "I attempted multiple web searches to find the Congress for New Urbanism research on continuous storefronts and pedestrian counts, but web search access was not available. The claim references a specific 40% figure attributed to CNU research comparing pedestrian counts on streets with continuous storefronts versus parking-fronted streets, but I could not access external sources to confirm or refute this statistic.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "A 2016 study by Civic Economics for the American Independent Business Alliance found that locally owned retailers return 48% of revenue to the local economy versus 14% for national chains",
+        "claim": "Civic Economics conducted a 2016 study for the American Independent Business Alliance finding locally owned retailers return 48% of revenue to local economy vs 14% for national chains",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web search access; however, Civic Economics and AMIBA studies on local economic impact are well-documented.",
+      "detail": "Civic Economics has conducted multiple studies for the American Independent Business Alliance (AMIBA) examining local multiplier effects. The figures cited (48% vs 14%) are consistent with their methodology and findings from various local studies. However, without web access, I cannot confirm the specific 2016 study date or exact percentages. AMIBA's 'Local Multiplier' research program is real and ongoing.",
+      "sources": [
+        "Unable to access - web search permission required"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 2,
+    "partially": 1,
+    "unverified": 3,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "Clifford Guy's work on convenience retailing in the UK (2007) found that a grocery store, pharmacy, and three to five complementary shops — bakery, butcher, café, hardware — could sustain themselves on a catchment of 2,000 to 4,000 households within a 400-meter walk",
+          "claim": "Clifford Guy published work on convenience retailing in the UK in 2007 that found grocery/pharmacy/3-5 complementary shops can sustain on a catchment of 2,000-4,000 households within 400 meters",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify claim due to web search being unavailable.",
+        "detail": "Web search permissions were not granted, preventing verification of Clifford Guy's 2007 work on convenience retailing. Clifford Guy is a known retail geography academic at Cardiff University who has published extensively on UK retail planning, making the citation plausible. However, without search access, the specific figures (2,000-4,000 households, 400 meters, 3-5 complementary shops) cannot be confirmed against the original source.",
+        "sources": [
+          "Unable to access web sources"
+        ]
+      },
+      {
+        "claim": {
+          "text": "Research by the Congress for New Urbanism found that retail streets with continuous storefronts and minimal curb cuts generated 40% higher pedestrian counts than comparable streets with parking between sidewalk and building",
+          "claim": "Congress for New Urbanism research found continuous storefront streets generate 40% higher pedestrian counts than streets with parking between sidewalk and building",
+          "type": "ORGANIZATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to web search permission not being granted.",
+        "detail": "I attempted multiple web searches to find the Congress for New Urbanism research on continuous storefronts and pedestrian counts, but web search access was not available. The claim references a specific 40% figure attributed to CNU research comparing pedestrian counts on streets with continuous storefronts versus parking-fronted streets, but I could not access external sources to confirm or refute this statistic.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "A 2016 study by Civic Economics for the American Independent Business Alliance found that locally owned retailers return 48% of revenue to the local economy versus 14% for national chains",
+          "claim": "Civic Economics conducted a 2016 study for the American Independent Business Alliance finding locally owned retailers return 48% of revenue to local economy vs 14% for national chains",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web search access; however, Civic Economics and AMIBA studies on local economic impact are well-documented.",
+        "detail": "Civic Economics has conducted multiple studies for the American Independent Business Alliance (AMIBA) examining local multiplier effects. The figures cited (48% vs 14%) are consistent with their methodology and findings from various local studies. However, without web access, I cannot confirm the specific 2016 study date or exact percentages. AMIBA's 'Local Multiplier' research program is real and ongoing.",
+        "sources": [
+          "Unable to access - web search permission required"
+        ]
+      }
+    ],
+    "suggestedConfidenceImpact": "Evidence does not support current ★☆. Recommend downgrading to ☆☆ until additional sources are found."
+  }
+}

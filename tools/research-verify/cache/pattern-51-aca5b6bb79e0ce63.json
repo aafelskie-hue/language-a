@@ -1,0 +1,116 @@
+{
+  "patternId": 51,
+  "patternName": "Participatory Budgeting Space",
+  "timestamp": "2026-02-16T21:09:53.249Z",
+  "model": "claude-code-cli",
+  "totalClaims": 5,
+  "results": [
+    {
+      "claim": {
+        "text": "The process was first developed in Porto Alegre, Brazil, in 1989",
+        "claim": "Participatory budgeting was first developed in Porto Alegre, Brazil, in 1989",
+        "type": "HISTORICAL",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Participatory budgeting is widely documented as originating in Porto Alegre, Brazil, in 1989 under the Workers' Party (PT) administration.",
+      "detail": "This is a well-established historical fact in political science and urban planning literature. Porto Alegre initiated participatory budgeting in 1989 when the Workers' Party (Partido dos Trabalhadores) took control of the city government. The practice allowed citizens to directly influence municipal budget decisions and became a model replicated in thousands of cities worldwide. This origin story is consistently cited in academic sources including the World Bank, UN-Habitat, and numerous peer-reviewed studies.",
+      "sources": [
+        "Unable to access web sources due to permission restrictions. Verification based on established knowledge in political science and urban planning literature."
+      ]
+    },
+    {
+      "claim": {
+        "text": "The model has since spread to over 7,000 cities worldwide",
+        "claim": "Participatory budgeting has spread to over 7,000 cities worldwide",
+        "type": "STATISTIC",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to verify due to lack of web access to search for current statistics on participatory budgeting adoption.",
+      "detail": "I attempted to search for evidence about participatory budgeting spreading to 7,000+ cities worldwide but was unable to access web search or fetch capabilities. The claim about 7,000 cities is a specific statistic that requires verification from current sources like the Participatory Budgeting Project, World Bank reports, or academic research on PB adoption. Without access to these sources, I cannot confirm or dispute this number.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "New York City's participatory budgeting program ran for a decade, directing tens of millions in capital funds to projects selected by residents",
+        "claim": "New York City's participatory budgeting program ran for a decade and directed tens of millions in capital funds to resident-selected projects",
+        "type": "PROGRAM",
+        "importance": "high"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.85,
+      "summary": "NYC's participatory budgeting program (PBNYC) ran from 2011 to approximately 2020-2021 and allocated over $200 million in capital funds to resident-selected projects.",
+      "detail": "New York City's participatory budgeting program was launched in 2011-2012 by four City Council members and grew to include most council districts. Over its duration, it allocated well over $200 million in capital funds (far exceeding 'tens of millions') for projects selected by residents including parks, schools, libraries, and public housing improvements. The program ran for approximately a decade before being suspended during COVID-19. The claim's characterization of 'tens of millions' actually understates the total funding.",
+      "sources": [
+        "Based on training data knowledge of PBNYC - unable to provide live sources due to web search permissions not granted"
+      ]
+    },
+    {
+      "claim": {
+        "text": "Research on deliberative design consistently finds that the physical environment affects who participates, how long they stay, and how constructively they engage",
+        "claim": "Research on deliberative design finds physical environment affects participation, duration of stay, and quality of engagement",
+        "type": "CITATION",
+        "importance": "high"
+      },
+      "verdict": "UNVERIFIED",
+      "confidence": 0.3,
+      "summary": "Unable to search for evidence due to tool access restrictions.",
+      "detail": "I attempted multiple web searches for research on deliberative design, physical environment effects on participation, and related academic literature, but was unable to complete any searches. The claim that physical environments affect participation, duration, and engagement quality is plausible and consistent with general environmental psychology literature, but I cannot verify specific deliberative design research without search access.",
+      "sources": []
+    },
+    {
+      "claim": {
+        "text": "His patterns for COMMON LAND (67) and NECKLACE OF COMMUNITY PROJECTS (45)",
+        "claim": "Christopher Alexander's A Pattern Language includes COMMON LAND as pattern 67 and NECKLACE OF COMMUNITY PROJECTS as pattern 45",
+        "type": "CITATION",
+        "importance": "low"
+      },
+      "verdict": "VERIFIED",
+      "confidence": 0.95,
+      "summary": "Christopher Alexander's A Pattern Language does include COMMON LAND as pattern 67 and NECKLACE OF COMMUNITY PROJECTS as pattern 45.",
+      "detail": "A Pattern Language (1977) by Christopher Alexander contains 253 numbered patterns. Pattern 67 is indeed COMMON LAND, which discusses shared land at the heart of communities. Pattern 45 is NECKLACE OF COMMUNITY PROJECTS, which addresses how community facilities should be arranged. These pattern numbers are consistent with the standard published edition.",
+      "sources": [
+        "A Pattern Language: Towns, Buildings, Construction by Christopher Alexander et al., Oxford University Press, 1977"
+      ]
+    }
+  ],
+  "summary": {
+    "verified": 3,
+    "partially": 0,
+    "unverified": 2,
+    "disputed": 0,
+    "fabricated": 0,
+    "highImportanceIssues": [
+      {
+        "claim": {
+          "text": "The model has since spread to over 7,000 cities worldwide",
+          "claim": "Participatory budgeting has spread to over 7,000 cities worldwide",
+          "type": "STATISTIC",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to verify due to lack of web access to search for current statistics on participatory budgeting adoption.",
+        "detail": "I attempted to search for evidence about participatory budgeting spreading to 7,000+ cities worldwide but was unable to access web search or fetch capabilities. The claim about 7,000 cities is a specific statistic that requires verification from current sources like the Participatory Budgeting Project, World Bank reports, or academic research on PB adoption. Without access to these sources, I cannot confirm or dispute this number.",
+        "sources": []
+      },
+      {
+        "claim": {
+          "text": "Research on deliberative design consistently finds that the physical environment affects who participates, how long they stay, and how constructively they engage",
+          "claim": "Research on deliberative design finds physical environment affects participation, duration of stay, and quality of engagement",
+          "type": "CITATION",
+          "importance": "high"
+        },
+        "verdict": "UNVERIFIED",
+        "confidence": 0.3,
+        "summary": "Unable to search for evidence due to tool access restrictions.",
+        "detail": "I attempted multiple web searches for research on deliberative design, physical environment effects on participation, and related academic literature, but was unable to complete any searches. The claim that physical environments affect participation, duration, and engagement quality is plausible and consistent with general environmental psychology literature, but I cannot verify specific deliberative design research without search access.",
+        "sources": []
+      }
+    ],
+    "suggestedConfidenceImpact": "Current ★☆ is supported by the evidence."
+  }
+}
