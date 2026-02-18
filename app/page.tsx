@@ -136,9 +136,9 @@ export default function HomePage() {
             >
               <p className="font-mono text-xs text-copper mb-1">Remote work</p>
               <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
-                The Home Office Threshold
+                The Remote Work Walk
               </h3>
-              <p className="text-sm text-slate mt-1">Designing for work from home</p>
+              <p className="text-sm text-slate mt-1">A daily walking circuit for mental transition</p>
             </Link>
 
             <Link
