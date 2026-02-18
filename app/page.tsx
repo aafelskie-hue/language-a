@@ -8,7 +8,6 @@ import type { Scale, Confidence } from '@/lib/types';
 import { PatternCard } from '@/components/patterns/PatternCard';
 import { PatternList } from '@/components/patterns/PatternList';
 import { FilterBar } from '@/components/patterns/FilterBar';
-import { MiniNetworkPreview } from '@/components/network/MiniNetworkPreview';
 
 type ViewMode = 'grid' | 'list';
 
@@ -56,36 +55,102 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="bg-navy-deep text-white">
         <div className="max-w-page mx-auto px-4 md:px-6 py-16 md:py-24">
-          <div className="lg:flex lg:items-center lg:gap-12">
-            <div className="max-w-2xl lg:flex-1">
-              <p className="font-mono text-[11px] uppercase tracking-widest text-copper-light mb-4">
-                Design Patterns for Enduring Places
-              </p>
-              <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight mb-6 leading-tight">
-                {patterns.length} design patterns for places that last
-              </h1>
-              <p className="text-lg md:text-xl text-silver leading-relaxed mb-8">
-                Grounded in the forces that don&apos;t change — climate, light, gravity, and human need for shelter and community.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <button
-                  onClick={handleRandomPattern}
-                  className="btn bg-copper hover:bg-copper-dark text-white"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                  </svg>
-                  Explore a Random Pattern
-                </button>
-                <Link href="/network" className="btn bg-white/10 hover:bg-white/20 text-white">
-                  View Pattern Network
-                </Link>
-              </div>
+          <div className="max-w-2xl">
+            <p className="font-mono text-[11px] uppercase tracking-widest text-copper-light mb-4">
+              Design Patterns for Enduring Places
+            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight mb-6 leading-tight">
+              {patterns.length} design patterns for places that last
+            </h1>
+            <p className="text-lg md:text-xl text-silver leading-relaxed mb-8">
+              Grounded in the forces that don&apos;t change — climate, light, gravity, and human need for shelter and community.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <button
+                onClick={handleRandomPattern}
+                className="btn bg-copper hover:bg-copper-dark text-white"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                Explore a Random Pattern
+              </button>
+              <Link href="/network" className="btn bg-white/10 hover:bg-white/20 text-white">
+                View Pattern Network
+              </Link>
             </div>
-            {/* Mini Network Preview */}
-            <div className="hidden lg:block lg:w-96 lg:flex-shrink-0 mt-12 lg:mt-0">
-              <MiniNetworkPreview />
-            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sub-Hero */}
+      <section className="bg-navy-deep text-white border-t border-white/10">
+        <div className="max-w-page mx-auto px-4 md:px-6 py-8">
+          <div className="max-w-3xl">
+            <p className="text-silver leading-relaxed mb-3">
+              Each pattern identifies a recurring design problem and offers a tested solution — connected to patterns above it that give it context, and patterns below it that give it form.
+            </p>
+            <p className="text-silver leading-relaxed">
+              For architects, planners, developers, homeowners, and anyone shaping the places where people live and work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Where to Start */}
+      <section className="bg-white border-b border-slate/10">
+        <div className="max-w-page mx-auto px-4 md:px-6 py-12 md:py-16">
+          <p className="font-mono text-[11px] uppercase tracking-widest text-copper mb-4">
+            Where to Start
+          </p>
+          <h2 className="text-2xl md:text-3xl font-bold text-charcoal tracking-tight mb-8">
+            What are you working on?
+          </h2>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link
+              href="/patterns/1"
+              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
+            >
+              <p className="font-mono text-xs text-copper mb-1">Start here</p>
+              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
+                The Fifteen-Minute Neighborhood
+              </h3>
+              <p className="text-sm text-slate mt-1">The foundational pattern for community design</p>
+            </Link>
+
+            <Link
+              href="/patterns/22"
+              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
+            >
+              <p className="font-mono text-xs text-copper mb-1">Cold climate</p>
+              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
+                Building Envelope as Climate System
+              </h3>
+              <p className="text-sm text-slate mt-1">For northern projects at -30°C</p>
+            </Link>
+
+            <Link
+              href="/patterns/5"
+              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
+            >
+              <p className="font-mono text-xs text-copper mb-1">Remote work</p>
+              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
+                The Home Office Threshold
+              </h3>
+              <p className="text-sm text-slate mt-1">Designing for work from home</p>
+            </Link>
+
+            <Link
+              href="/patterns/12"
+              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
+            >
+              <p className="font-mono text-xs text-copper mb-1">Housing</p>
+              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
+                The Missing Middle
+              </h3>
+              <p className="text-sm text-slate mt-1">Between single-family and towers</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -163,64 +228,6 @@ export default function HomePage() {
                 {constructionCount} patterns →
               </p>
             </button>
-          </div>
-        </div>
-      </section>
-
-      {/* Quick Starts */}
-      <section className="bg-white border-b border-slate/10">
-        <div className="max-w-page mx-auto px-4 md:px-6 py-12 md:py-16">
-          <p className="font-mono text-[11px] uppercase tracking-widest text-copper mb-4">
-            Where to Start
-          </p>
-          <h2 className="text-2xl md:text-3xl font-bold text-charcoal tracking-tight mb-8">
-            What are you working on?
-          </h2>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <Link
-              href="/patterns/1"
-              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
-            >
-              <p className="font-mono text-xs text-copper mb-1">Start here</p>
-              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
-                The Fifteen-Minute Neighborhood
-              </h3>
-              <p className="text-sm text-slate mt-1">The foundational pattern for community design</p>
-            </Link>
-
-            <Link
-              href="/patterns/22"
-              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
-            >
-              <p className="font-mono text-xs text-copper mb-1">Cold climate</p>
-              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
-                Building Envelope as Climate System
-              </h3>
-              <p className="text-sm text-slate mt-1">For northern projects at -30°C</p>
-            </Link>
-
-            <Link
-              href="/patterns/5"
-              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
-            >
-              <p className="font-mono text-xs text-copper mb-1">Remote work</p>
-              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
-                The Home Office Threshold
-              </h3>
-              <p className="text-sm text-slate mt-1">Designing for work from home</p>
-            </Link>
-
-            <Link
-              href="/patterns/12"
-              className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
-            >
-              <p className="font-mono text-xs text-copper mb-1">Housing</p>
-              <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
-                The Missing Middle
-              </h3>
-              <p className="text-sm text-slate mt-1">Between single-family and towers</p>
-            </Link>
           </div>
         </div>
       </section>
@@ -362,14 +369,16 @@ export default function HomePage() {
               A pattern language for our time
             </h2>
             <p className="text-slate leading-relaxed mb-6">
-              Inspired by Christopher Alexander&apos;s original work, Language A addresses contemporary challenges:
-              remote work, climate adaptation, housing affordability, aging in place, and the recovery of
-              community life after decades of car-centric sprawl.
+              In 1977, Christopher Alexander and his colleagues published <em>A Pattern Language</em> — 253 design patterns spanning towns, buildings, and construction. It became one of the best-selling architecture books ever written, and its core idea is still radical: that ordinary people, not just professionals, can design places that work.
+            </p>
+            <p className="text-slate leading-relaxed mb-6">
+              Language A extends that work into the forces Alexander couldn&apos;t have anticipated. Remote work has reorganized the home. Climate change has made envelope performance existential. Fifty years of car-centric planning have hollowed out the communities his patterns were meant to serve. Housing affordability, aging in place, digital infrastructure, the missing middle — these are the design problems of our time, and they deserve the same rigor Alexander brought to his.
+            </p>
+            <p className="text-slate leading-relaxed mb-6">
+              Alexander&apos;s original 253 patterns stand on their own. Language A doesn&apos;t revise them — it extends the method into territory he pointed toward but couldn&apos;t yet map. Language A adds 254 new patterns that address contemporary challenges while honoring his method: name the problem, present the evidence, propose a solution, and connect each pattern to the larger network of decisions that make a place whole.
             </p>
             <p className="text-slate leading-relaxed mb-8">
-              Each pattern names a problem, presents evidence, and proposes a solution — connected to patterns
-              above it (which give it context) and patterns below it (which give it form). Together, they
-              form a network of mutually reinforcing design decisions.
+              The language is free, open, and actively maintained.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/guide" className="btn btn-primary">
