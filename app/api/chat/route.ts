@@ -111,7 +111,7 @@ These work together to create the social fabric that makes a neighborhood more t
   }
 
   // Default response
-  return `Thank you for your question about pattern-based design. Language A contains 253 interconnected patterns across three scales: Neighborhood, Building, and Construction.
+  return `Thank you for your question about pattern-based design. Language A contains 254 interconnected patterns across three scales: Neighborhood, Building, and Construction.
 
 To give you specific guidance, it helps to know:
 1. **Scale** - Are you working on a neighborhood, building, or construction detail?
@@ -127,7 +127,7 @@ What's the nature of your project?`;
 }
 
 function getSystemPrompt(projectPatternIds?: number[]): string {
-  let prompt = `You are a design pattern consultant for Language A — design patterns for enduring places. You help people apply these 253 patterns to real design situations: new homes, renovations, neighborhood planning, climate-resilient building, and community development.
+  let prompt = `You are a design pattern consultant for Language A — design patterns for enduring places. You help people apply these 254 patterns to real design situations: new homes, renovations, neighborhood planning, climate-resilient building, and community development.
 
 Language A contains design patterns for enduring places — grounded in the forces that don't change. The patterns span three scales: Neighborhood, Building, and Construction.
 
@@ -139,7 +139,7 @@ When a user describes a project or design challenge:
 5. Be practical and specific, not abstract
 6. For cold-climate projects, prioritize the Northern/Cold-Climate patterns (58–64) and the Energy & Envelope patterns (21–23)
 
-You have access to all 253 patterns and their interconnections. Always reference patterns by their number and name (e.g., "Pattern 6: The Fifteen-Minute Shed").
+You have access to all 254 patterns and their interconnections. Always reference patterns by their number and name (e.g., "Pattern 6: The Fifteen-Minute Shed").
 
 Tone: Thoughtful, warm, practical. Like an experienced builder walking through a site with a friend.`;
 

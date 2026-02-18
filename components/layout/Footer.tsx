@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { BeachheadMark } from '@/components/shared/Logo';
 
 export function Footer() {
@@ -10,6 +11,12 @@ export function Footer() {
           <p className="font-serif italic text-sm text-slate">
             Design patterns for enduring places.
           </p>
+          <Link
+            href="/consult"
+            className="text-sm text-copper hover:text-copper-dark transition-colors"
+          >
+            Pattern review consulting for real projects
+          </Link>
           <div className="flex items-center gap-2 opacity-50">
             <BeachheadMark variant="light" />
             <span className="font-mono text-[10px] uppercase tracking-wider text-steel">

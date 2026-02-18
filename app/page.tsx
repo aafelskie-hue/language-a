@@ -377,8 +377,13 @@ export default function HomePage() {
             <p className="text-slate leading-relaxed mb-6">
               Alexander&apos;s original 253 patterns stand on their own. Language A doesn&apos;t revise them — it extends the method into territory he pointed toward but couldn&apos;t yet map. Language A adds 254 new patterns that address contemporary challenges while honoring his method: name the problem, present the evidence, propose a solution, and connect each pattern to the larger network of decisions that make a place whole.
             </p>
-            <p className="text-slate leading-relaxed mb-8">
+            <p className="text-slate leading-relaxed mb-6">
               The language is free, open, and actively maintained.
+            </p>
+            <p className="text-slate leading-relaxed mb-8">
+              <Link href="/consult" className="text-copper hover:text-copper-dark transition-colors">
+                Beachhead Systems offers pattern review consulting for real projects &rarr;
+              </Link>
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/guide" className="btn btn-primary">
