@@ -1,0 +1,33 @@
+{
+  "id": 221,
+  "name": "The Sweat Equity Path",
+  "number": "221",
+  "scale": "neighborhood",
+  "category": "community-governance",
+  "categoryLabel": "Patterns for Community Governance",
+  "confidence": 1,
+  "status": "candidate",
+  "problem": "When housing costs are denominated entirely in dollars, those with modest incomes but abundant time — the young without savings, the retired without pensions, the underemployed with willing hands — cannot convert their labor into ownership. Yet when sweat equity programs lack structure, they collapse into exploitation or chaos: hours go untracked, skills go unmatched, and resentment poisons what should build community.",
+  "body": "Habitat for Humanity has refined the sweat equity model over five decades. Their standard requirement — 200 to 500 hours of labor per household before receiving keys — emerged from practical experience across thousands of builds. In their 2019 annual report, Habitat International documented 13.4 million people served since founding, with sweat equity remaining central to their model. The labor is not symbolic: partner families work alongside volunteers on their own homes and their neighbors' homes, learning construction skills while reducing costs by 10-15% on a typical build.\n\nThe U.S. Department of Housing and Urban Development's Section 523 Self-Help Housing Program extends this model through loans to groups of families who agree to build each other's homes under qualified supervision. The USDA's Rural Housing Service reports that self-help housing programs produce homes at 15-20% below market construction costs, with foreclosure rates consistently lower than conventional mortgages — families who built their homes stay in them. In Canada, the Northern Self-Help Housing program administered through Indigenous Services Canada uses similar principles, though documentation of outcomes remains scattered.\n\nThe critical design problem is tracking and valuing labor fairly. Successful programs establish clear equivalences: one hour of skilled electrical work may equal two hours of painting; childcare during build days counts toward the family's total; administrative work preparing meals for crews earns credit. Habitat chapters maintain detailed hour logs, signed off weekly by supervisors. When a family falls behind their hour commitment, the program intervenes early — not with punishment, but with problem-solving. This is where The Conflict Resolution Space (222) becomes essential: disputes about hours, about who worked and who didn't, about whether the plumbing was done right, need a place to be heard.\n\nThe model works best when it extends beyond initial construction into ongoing maintenance. Housing cooperatives in Denmark have pioneered \"arbejdsweekend\" — mandatory work weekends where members maintain common areas, with hours credited against monthly fees. Members who cannot participate pay a buyout fee that funds hired labor. The Cooperative Housing Federation of British Columbia reports similar arrangements among their member co-ops, with work requirements typically ranging from 4 to 10 hours per household per month.",
+  "solution": "when establishing a housing cooperative, community land trust, or self-help building program, create a formal sweat equity system with four components. First, a clear labor ledger: every household tracks hours in a shared log, reviewed monthly, with categories for construction, maintenance, administration, and care work. Second, an equivalence table: establish published rates that convert specialized skills and different task types into standard hours, reviewed annually by the membership. Third, a minimum commitment: require 100-300 hours per household toward initial construction or buy-in, with ongoing requirements of 4-8 hours monthly for maintenance. Fourth, a buyout option: allow households to pay cash at a set hourly rate (tied to local minimum wage) when they cannot contribute labor, ensuring flexibility without resentment. Test the system by this measure: at least 80% of member households should meet their annual labor commitment through actual hours worked, not buyouts — if more are buying out, the work requirements have become a hidden fee rather than a community-building practice.",
+  "connections_up": [
+    52,
+    219,
+    225
+  ],
+  "connections_down": [
+    54,
+    55,
+    57,
+    222,
+    227
+  ],
+  "tags": [
+    "housing",
+    "affordability",
+    "labor",
+    "community",
+    "ownership"
+  ],
+  "coldClimate": false
+}

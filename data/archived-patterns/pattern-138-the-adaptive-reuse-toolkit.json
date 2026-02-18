@@ -1,0 +1,35 @@
+{
+  "id": 138,
+  "name": "The Adaptive Reuse Toolkit",
+  "number": "138",
+  "scale": "neighborhood",
+  "category": "adaptive-reuse",
+  "categoryLabel": "Patterns for Adaptive Reuse",
+  "confidence": 1,
+  "status": "candidate",
+  "problem": "Building codes and zoning ordinances are written for new construction — they assume a blank slate, standard proportions, modern systems. But when these same rules are applied to existing buildings seeking new uses, the math breaks down. A 1920s warehouse cannot provide the parking ratios written for a 2020 apartment building. A former church cannot meet corridor widths designed for hotels. The building sits vacant, too expensive to adapt legally, too solid to demolish economically — while across the street, new construction rises on cleared land, burning carbon to build what already exists.",
+  "body": "The tension is real. Building codes protect occupants from fire, collapse, and unsafe conditions. Zoning ordinances separate incompatible uses and ensure parking, light, and air. These protections matter. But when applied without flexibility to existing structures, they create an absurd incentive: demolish the building that already stands and build new, because adaptation is legally impossible.\n\nLos Angeles confronted this problem directly. In 1999, the city adopted its Adaptive Reuse Ordinance, which exempted pre-1974 commercial buildings in downtown from most parking requirements and allowed by-right conversion to residential use. The results were dramatic: by 2020, more than 12,000 housing units had been created in formerly vacant office buildings, hotels, and banks — the Eastern Columbia Building, a 1929 Art Deco landmark, became 147 residential lofts. Downtown LA's residential population grew from fewer than 20,000 to over 80,000. The ordinance did not abandon safety; it allowed alternative compliance paths and accepted existing conditions where they posed no danger.\n\nThe toolkit has three essential components. First, a clear by-right pathway for conversion between specified uses — residential to commercial, commercial to residential, industrial to live-work — without discretionary review, conditional use permits, or public hearings. The Los Angeles ordinance made conversions ministerial, not discretionary; if you met the checklist, you received approval. Second, flexibility on dimensional standards: reduced or eliminated parking minimums, acceptance of existing ceiling heights, corridor widths, and window areas where they meet the original code of construction or provide equivalent safety. Third, streamlined structural and fire-safety review that evaluates actual risk rather than theoretical compliance — accepting sprinklers in lieu of rated corridors, existing masonry walls in lieu of modern assemblies, shared egress where occupant loads permit.\n\nNew York City's Office Conversion Accelerator Program, launched in 2024, extended the city's 1961 conversion provisions to a wider geography and more building types, responding to the post-pandemic office vacancy crisis. California's AB 2011 (2022) streamlined approvals for housing on commercial sites statewide, including adaptive reuse. Cleveland's Warehouse District conversions, enabled by flexible local codes combined with federal historic tax credits, turned nineteenth-century industrial buildings into a residential neighborhood without the code warfare that stalls projects elsewhere.\n\nThe philosophical foundation is simple: an occupied building is safer than a vacant one. A building adapted incrementally, by small developers and owner-occupants, serves the city better than one demolished for a master-planned replacement. The toolkit does not lower safety standards; it allows existing buildings to meet them through alternative means.",
+  "solution": "Therefore: adopt a municipal adaptive reuse ordinance that grants by-right conversion for specified use changes in buildings over twenty-five years old. Eliminate parking minimums for conversions. Accept existing ceiling heights, corridor widths, and window areas where they meet the code in effect at original construction or provide equivalent safety through alternative means such as sprinklers, reduced occupant loads, or additional egress. Require ministerial approval within sixty days for projects meeting the checklist. Test: at least 30% of housing units added in the core area should come from building conversions rather than new construction within ten years of adoption.",
+  "connections_up": [
+    100
+  ],
+  "connections_down": [
+    27,
+    28,
+    139,
+    140,
+    141,
+    142,
+    203,
+    204,
+    207
+  ],
+  "coldClimate": false,
+  "tags": [
+    "zoning",
+    "building-codes",
+    "adaptive-reuse",
+    "vacancy",
+    "regulation"
+  ]
+}

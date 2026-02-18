@@ -1,0 +1,41 @@
+{
+  "id": 5,
+  "name": "The Home Office Threshold",
+  "number": "05",
+  "scale": "building",
+  "category": "digital-age-dwelling",
+  "categoryLabel": "Patterns for Dwelling in the Digital Age",
+  "confidence": 2,
+  "status": "candidate",
+  "problem": "When people work from home without a physical transition between workspace and living space, neither work nor rest is fully possible. The mind cannot switch modes because the space doesn't change. Relationships suffer because \"home\" never stops being \"office.\"",
+  "body": "Before the pandemic, roughly 5% of U.S. workers worked primarily from home. By 2025, that number had stabilized around 27%. A 2024 Houzz survey found 60% of homeowners had renovated or added a home office in the prior two years. But the evidence is clear that a desk in the corner of the bedroom doesn't work — the blurring of domains increases stress, reduces sleep quality, and creates persistent low-grade tension.\n\nThe problem is specific: the boundary must exist *within* the dwelling, and it must be *crossable* — something you pass through physically that signals the shift from one mode to another. Research on environmental psychology supports this: physical transitions — a change in floor level, a door, a passage through a different room, even a shift in lighting — trigger cognitive state changes that purely mental boundaries cannot.",
+  "solution": "in any home designed for regular remote work, create a physical threshold between the workspace and the living space. This is not merely a door — it is a transition: a change in floor level or material, a passage through a buffer space (mudroom, hallway, garden), a shift in light quality. The work zone should have its own climate, its own sound, and its own light, separated from the domestic realm by something you must physically cross.",
+  "connections_up": [
+    6,
+    7,
+    9,
+    10,
+    34,
+    35,
+    38,
+    39,
+    90,
+    141,
+    144,
+    180,
+    184,
+    204
+  ],
+  "connections_down": [
+    6,
+    7,
+    9,
+    10,
+    34,
+    39,
+    90,
+    109,
+    170,
+    182
+  ]
+}

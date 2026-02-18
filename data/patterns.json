@@ -30,7 +30,6 @@
       40,
       41,
       43,
-      50,
       58,
       76,
       77,
@@ -61,10 +60,10 @@
     "connections_up": [
       1,
       4,
+      12,
       41,
       42,
       43,
-      50,
       57,
       75,
       78,
@@ -75,8 +74,8 @@
     ],
     "connections_down": [
       4,
+      12,
       41,
-      50,
       51,
       52,
       57,
@@ -160,47 +159,6 @@
     ]
   },
   {
-    "id": 5,
-    "name": "The Home Office Threshold",
-    "number": "05",
-    "scale": "building",
-    "category": "digital-age-dwelling",
-    "categoryLabel": "Patterns for Dwelling in the Digital Age",
-    "confidence": 2,
-    "status": "candidate",
-    "problem": "When people work from home without a physical transition between workspace and living space, neither work nor rest is fully possible. The mind cannot switch modes because the space doesn't change. Relationships suffer because \"home\" never stops being \"office.\"",
-    "body": "Before the pandemic, roughly 5% of U.S. workers worked primarily from home. By 2025, that number had stabilized around 27%. A 2024 Houzz survey found 60% of homeowners had renovated or added a home office in the prior two years. But the evidence is clear that a desk in the corner of the bedroom doesn't work — the blurring of domains increases stress, reduces sleep quality, and creates persistent low-grade tension.\n\nThe problem is specific: the boundary must exist *within* the dwelling, and it must be *crossable* — something you pass through physically that signals the shift from one mode to another. Research on environmental psychology supports this: physical transitions — a change in floor level, a door, a passage through a different room, even a shift in lighting — trigger cognitive state changes that purely mental boundaries cannot.",
-    "solution": "in any home designed for regular remote work, create a physical threshold between the workspace and the living space. This is not merely a door — it is a transition: a change in floor level or material, a passage through a buffer space (mudroom, hallway, garden), a shift in light quality. The work zone should have its own climate, its own sound, and its own light, separated from the domestic realm by something you must physically cross.",
-    "connections_up": [
-      6,
-      7,
-      9,
-      10,
-      34,
-      35,
-      38,
-      39,
-      90,
-      141,
-      144,
-      180,
-      184,
-      204
-    ],
-    "connections_down": [
-      6,
-      7,
-      9,
-      10,
-      34,
-      39,
-      90,
-      109,
-      170,
-      182
-    ]
-  },
-  {
     "id": 6,
     "name": "The Fifteen-Minute Shed",
     "number": "06",
@@ -213,7 +171,7 @@
     "body": "The traditional outbuilding — workshop, studio, writing shed — has a long history as a creative refuge. Roald Dahl, Virginia Woolf, George Bernard Shaw all wrote in garden sheds. What's new is the *necessity*: when the commute disappears, the shed becomes essential infrastructure, not a luxury.\n\nIn Edmonton, where winter temperatures reach -30°C and daylight drops to fewer than eight hours, the \"fifteen-minute\" criterion is literal: you need to be able to reach the workspace within fifteen minutes of waking, before you're fully dressed, in any weather. This means: within the property or immediate neighborhood, heated and insulated to habitable standards, connected to power and internet, and reachable via a covered or very short outdoor path.\n\nThe pattern works for any cold climate — Scandinavian countries have a robust tradition of separate small structures for focused work. The principle scales: from a well-insulated garden office (10m² minimum) to a shared neighborhood workshop.",
     "solution": "within fifteen minutes' walk of the dwelling, in any weather, provide a small heated workspace of at least ten square meters — separate from the main house but close enough to reach before getting dressed. Insulate it to the same standard as the dwelling. Give it its own entrance, its own heat, its own light on two sides, and a view. The separation from the house, even if only twenty steps through the garden, is what makes it work.",
     "connections_up": [
-      5,
+      7,
       22,
       34,
       35,
@@ -223,7 +181,7 @@
       180
     ],
     "connections_down": [
-      5,
+      7,
       22,
       34,
       38,
@@ -244,13 +202,13 @@
     "body": "The scale of the problem is new. Before 2020, a household might manage one or two video calls a week. By 2025, most remote workers spend two to four hours daily on camera — a Stanford study of 10 million meetings found video call frequency had stabilized at roughly triple pre-pandemic levels. In a two-earner household, that means four to eight hours of the day when at least one room is a locked broadcast studio.\n\nThe typical home was not designed for this. A call from the kitchen means nobody can cook. A call from the bedroom means an unmade bed on camera and a partner locked out. A call from the shared office means the other person cannot work. Every room the call colonizes is a room lost to the household for its duration.\n\nThe insight is that video calls need very little space but very specific qualities. A seated person on camera occupies roughly two square meters of usable area: a chair, a neutral background, and enough distance from the camera to frame the head and shoulders. The requirements are precise: front-facing light (natural or warm artificial, never overhead), a background that is visually calm and reveals nothing private, acoustic isolation sufficient that a child shouting in the next room is not intelligible (STC 50 minimum for the enclosure), and a door that closes completely.\n\nThe critical design question is not the room's dimensions — it is the room's *position in the floor plan*. The Zoom room fails if it blocks household circulation: not off the main hallway where a closed door forces a detour, not between the kitchen and the living room where a meeting means the family cannot move freely. It succeeds when it is a dead-end — a niche off a secondary space, a converted closet at the end of a hall, an alcove under the stairs. It should be possible to forget it exists when it is not in use.\n\nThis is not the office. THE HOME OFFICE THRESHOLD (258) is where you think — a room with light on two sides, a view, space to spread out. The Zoom room is where you perform. Think of it as the modern phone booth: small, enclosed, acoustically private, and positioned so that its use disrupts nothing.",
     "solution": "in any home where video calls are a regular part of daily life, provide a dedicated enclosure of two to three square meters — enough for a chair, a small surface, and a neutral background wall. Position it at a dead end in the floor plan, off a secondary circulation path, where a closed door blocks no one's movement through the house. Give it a solid-core door with gaskets (STC 35 minimum), front-facing light from a window or a warm-toned fixture at eye level, acoustic dampening on at least two walls (fabric panel, bookshelf, or heavy curtain), and a hardwired ethernet connection. The room is right when someone can take a two-hour call and the rest of the household does not notice.",
     "connections_up": [
-      5,
+      7,
       39,
       90,
       144
     ],
     "connections_down": [
-      5,
+      7,
       32,
       46,
       90,
@@ -302,7 +260,7 @@
     "body": "This is not about shared gathering — that is THE SCREEN-FREE HEARTH (261). This is about the room where you cannot be found.\n\nAlexander's A ROOM OF ONE'S OWN (141) addressed the need for private space, but assumed the only intrusion was other people. The modern intrusion is the signal itself. Americans check their phones an average of 96 times per day (Asurion, 2019) — not because they choose to, but because the signal reaches them, the device responds, and the behavioral loop fires before conscious thought intervenes. A room where the signal is weak breaks the loop. The mechanism is behavioral, not electromagnetic. That is a stronger and more honest claim than arguing about radiation.\n\nThe construction response is straightforward. Concrete attenuates WiFi signal by 10–15 dB per wall. Dense masonry by 8–12 dB. A room behind two concrete walls and at maximum distance from the router has naturally weak signal — not by intent but by physics. This is not exotic construction. It is the consequence of building one room with the kind of mass that most modern lightweight timber-frame construction avoids. The same mass that provides acoustic isolation, thermal stability, and the solid, grounded feeling Alexander admired in old buildings also attenuates wireless signal. THICK WALLS (197) was already the right pattern — it just has a benefit Alexander could not have anticipated.\n\nThe room need not be a Faraday cage. A signal reduction of 20–25 dB — the range achieved by two masonry walls — is enough to make the phone slow to refresh, the notification delayed by seconds that become minutes, the pull perceptibly weaker. The building does not need to block the signal completely. It needs to introduce enough friction that the behavioral loop loses its automaticity.\n\nSome people want this as a sleeping space — the evidence on sleep quality and device proximity is strong (Hale & Guan, 2015, Sleep Medicine Reviews). Others want it as a reading room, a meditation space, or simply a room where the mind is not perpetually available. The specific use matters less than the construction principle: at least one room should be built with enough mass that wireless signal is materially weaker inside it than in the rest of the dwelling.",
     "solution": "design at least one room in the dwelling where wireless signal is materially attenuated — through thick masonry or concrete walls, distance from the router, or a combination of both. Do not rely on behavioral discipline; rely on mass. Place this room where it naturally serves rest or solitary focus — the bedroom, the reading alcove, the meditation corner. No chargers, no smart speakers, no screen mounts. The walls do the work that willpower cannot: they make you unreachable.",
     "connections_up": [
-      5,
+      7,
       8,
       10,
       32,
@@ -310,7 +268,7 @@
       154
     ],
     "connections_down": [
-      5,
+      7,
       8,
       10,
       32,
@@ -331,14 +289,14 @@
     "body": "Alexander designed for light and air with exquisite care — southern exposure, cross-ventilation, light on two sides of every room. He mapped the path of the sun through the building and shaped the walls to receive it. Wireless signal deserves the same deliberate attention, because the materials that make a high-performance envelope are precisely the materials that block it.\n\nThe conflict is specific and predictable. Foil-backed rigid insulation — the workhorse of passive house retrofits — attenuates WiFi signal by 30–50 dB, enough to create a near-total barrier. Metal cladding, wire mesh in plaster, concrete floor slabs (10–15 dB each), even low-e coatings on high-performance windows — all the things that make BUILDING ENVELOPE AS CLIMATE SYSTEM (275) work make wireless coverage fail. As buildings get tighter, they accidentally become Faraday cages. The home office behind two insulated walls has excellent thermal performance and no usable signal.\n\nThe solution is not maximum signal everywhere — that contradicts THE QUIET ZONE (262), where mass deliberately attenuates connectivity. The solution is *intention*: strong signal where people work and communicate, weak signal where people rest and gather, and no accidental dead zones caused by material choices nobody thought through.\n\nThis requires mapping the wireless environment at the same stage of design as the thermal environment — during material selection and wall assembly design, not after construction. Where will the router sit? Which walls use foil-backed insulation (signal barrier) and which use mineral wool (signal-transparent)? Where does ethernet run to eliminate wireless dependency at fixed workstations? The answers shape the wall sections, the insulation specifications, and the wiring plan. They cannot be retrofitted without tearing open walls.",
     "solution": "when designing a building, map the wireless coverage as deliberately as you map the natural light. During envelope design, identify which wall and ceiling assemblies will block signal (foil-faced insulation, metal cladding, concrete, wire mesh) and which will transmit it (mineral wool, wood, fibreglass). Place the router centrally in the working zone, with signal-transparent assemblies between it and the spaces that need coverage. Use signal-blocking assemblies deliberately toward sleeping and rest spaces. Run hardwired ethernet to every fixed workstation and to the router's location, so the wireless network serves mobile devices, not the primary work connection. The building's energy envelope and its signal envelope are drawn on the same wall section — design them together.",
     "connections_up": [
-      5,
+      7,
       9,
       22,
       46,
       181
     ],
     "connections_down": [
-      5,
+      7,
       9,
       22,
       46
@@ -407,12 +365,12 @@
       219
     ],
     "connections_down": [
+      12,
       13,
       14,
       27,
       29,
       40,
-      50,
       95,
       96,
       97,
@@ -974,8 +932,8 @@
       12,
       34,
       37,
+      49,
       96,
-      138,
       139,
       141,
       142,
@@ -1010,7 +968,6 @@
       56,
       84,
       100,
-      138,
       140,
       203
     ],
@@ -1223,8 +1180,8 @@
     "body": "Every major study of daylighting satisfaction confirms it: rooms with windows on two walls receive more even illumination, offer cross-ventilation, provide multiple views, and are rated as more pleasant, more spacious, and more comfortable than rooms lit from one side. The effect is physiological as well as psychological — bilateral light reduces glare, allows the eye to adjust more naturally, and provides the changing light quality that regulates circadian rhythms.",
     "solution": "give every room where people spend more than an hour at a time natural light from at least two directions. This can be two walls with windows, a window and a skylight, a window and a clerestory, or a window and a glass door — but the light must come from two distinct directions so that no part of the room is in permanent shadow.",
     "connections_up": [
-      5,
       6,
+      7,
       13,
       23,
       27,
@@ -1245,8 +1202,8 @@
       209
     ],
     "connections_down": [
-      5,
       6,
+      7,
       13,
       16,
       22,
@@ -1298,8 +1255,8 @@
       180
     ],
     "connections_down": [
-      5,
       6,
+      7,
       11,
       13,
       15,
@@ -1416,8 +1373,8 @@
       197
     ],
     "connections_down": [
-      5,
       6,
+      7,
       8,
       13,
       22,
@@ -1446,7 +1403,7 @@
     "body": "The best homes have a gradient of openness: wide openings between kitchen and living room, narrower passages to bedrooms, doors that can be open or closed between the children's realm and the adults'. The threshold between rooms — a wide doorway, a half-wall, a change in level, a sliding partition — is where the social life of the home is negotiated.",
     "solution": "connect rooms with openings that vary in width and closability. Use wide, uncloseable openings (archways, half-walls) between the most social spaces. Use doors between public and private zones. Use sliding partitions or pocket doors where flexibility is needed. The connection between any two rooms should match the social relationship between the activities they contain — open where shared life happens, closeable where privacy is needed.",
     "connections_up": [
-      5,
+      7,
       8,
       14,
       34,
@@ -1457,7 +1414,7 @@
       217
     ],
     "connections_down": [
-      5,
+      7,
       7,
       8,
       11,
@@ -1898,30 +1855,6 @@
     ]
   },
   {
-    "id": 50,
-    "name": "Community Land Trust",
-    "number": "50",
-    "scale": "neighborhood",
-    "category": "community-governance",
-    "categoryLabel": "Patterns for Community Governance",
-    "confidence": 2,
-    "status": "candidate",
-    "problem": "When land and buildings are sold together as a single commodity, housing prices are driven by land speculation rather than the cost of shelter, neighborhoods change faster than communities can adapt, and the people who built a place are the first to be displaced from it.",
-    "body": "The fundamental problem is well understood. Housing markets conflate two very different things: the value of a building — which depreciates over time and reflects the labor and materials that went into it — and the value of land, which appreciates as communities invest in schools, parks, transit, and social infrastructure. A family buys a house. The neighborhood improves. Land values rise. Taxes follow. The family can no longer afford to stay. The improvements they helped create benefit someone else.\n\nThis is not a minor distortion. In many North American cities, land accounts for 50–80% of residential property value. A household is not really buying a home — it is buying a speculative position in a land market. When that market rises, existing residents are priced out. When it falls, they are underwater. Either way, the house — the actual shelter — is hostage to forces that have nothing to do with its quality or the needs of its occupants.\n\nThe community land trust separates these two values. The CLT — a nonprofit governed by residents, community members, and public representatives in equal thirds — owns the land permanently. Individuals own or rent the buildings on that land. When a homeowner sells, a resale formula ensures the home remains affordable to the next buyer, typically allowing the seller to recover their investment and a modest share of any appreciation, while the community retains the rest. The land never re-enters the speculative market.\n\nThis is not a new idea. The first modern CLT in the United States was established in Albany, Georgia, in 1969, emerging from the civil rights movement as a way for Black farmers to access land they had been systematically denied. Today there are over 300 CLTs across the United States holding more than 40,000 housing units. The Burlington Community Land Trust in Vermont, founded in 1984, has grown to over 700 units and demonstrated that CLT homeowners experience dramatically lower rates of mortgage delinquency and foreclosure than conventional buyers — the land trust provides stability precisely because it removes the speculative variable.\n\nThe spatial implications are specific. A CLT neighborhood looks different from a conventional development because it can afford to look different. When land cost is removed from the equation, buildings can be smaller, gardens larger, shared spaces more generous. The Missing Middle housing types — duplexes, triplexes, cottage courts — become economically viable without developer subsidies because the land beneath them is not priced for maximum extraction. The architecture can respond to human needs rather than to the pressure to maximize floor area ratio.\n\nThe governance structure matters as much as the financial structure. Ostrom's research on commons management — for which she received the Nobel Prize in Economics in 2009 — identified eight design principles for successful collective resource governance: clear boundaries, rules adapted to local conditions, participatory decision-making, monitoring, graduated sanctions, conflict resolution, recognized self-governance, and nested institutions. CLTs that follow these principles endure. Those that neglect them — particularly participatory decision-making and clear boundaries — fail like any other commons.\n\nThe 99-year ground lease is the mechanism that makes permanence possible. It is long enough to provide security of tenure for any human lifetime, and its terms ensure that the land remains under community stewardship across generations. This is not public housing — residents own their homes, maintain them, improve them, and build equity in them. What they cannot do is extract speculative profit from the land beneath.",
-    "solution": "Where housing affordability is threatened by land speculation, establish a community land trust to hold residential land permanently outside the speculative market. Govern it with a tripartite board — one-third residents, one-third community members, one-third public interest representatives. Lease land to homeowners and renters through long-term ground leases with resale formulas that preserve affordability across generations. Use the CLT structure to enable Missing Middle housing types — duplexes, cottage courts, small apartment buildings — that would otherwise be uneconomical. The test of success is not how many units are built, but whether a teacher, a carpenter, and a shop clerk can still afford to live in the neighborhood their labor helps sustain, twenty years from now.",
-    "connections_up": [
-      1,
-      2,
-      12
-    ],
-    "connections_down": [
-      2,
-      51,
-      52,
-      219
-    ]
-  },
-  {
     "id": 51,
     "name": "Participatory Budgeting Space",
     "number": "51",
@@ -1935,7 +1868,7 @@
     "solution": "In every neighborhood of 500–5,000 people, establish a participatory budgeting process with dedicated physical infrastructure. Provide a deliberation space — a room for 30–80 people with round tables, good acoustics, display walls for project proposals, a children's area, and accessible entry. Distribute idea-collection points through existing third places — the café, the library, the community garden. Make voting accessible through multiple locations and extended hours. Allocate a meaningful portion of the shared budget — enough that the stakes justify participation, but small enough that mistakes are survivable. Run the cycle annually so the practice becomes ritual, not experiment. The test: after three cycles, do more people attend the budget meeting than the last municipal election?",
     "connections_up": [
       2,
-      50,
+      12,
       178,
       254
     ],
@@ -1965,7 +1898,7 @@
     "solution": "In every neighborhood of 200–2,000 households, establish a maintenance commons with three linked components: a tool library lending hand tools, power tools, and specialty equipment at low or no cost; a shared workshop with workbenches, basic stationary tools, and project staging space; and a skill-sharing network that connects residents who can teach with those who need to learn. Locate all three in or adjacent to an existing community anchor — the public library, the community center, the school. Govern it using Ostrom's commons principles: clear membership, participatory rules, graduated sanctions, and accessible conflict resolution. The test: can a new homeowner, arriving in the neighborhood with no tools and no contacts, find what they need to fix a broken fence within a week — and meet a neighbor in the process?",
     "connections_up": [
       2,
-      50,
+      12,
       51,
       54,
       57,
@@ -1977,10 +1910,10 @@
       54,
       55,
       92,
+      100,
       108,
       219,
       220,
-      221,
       222,
       223
     ]
@@ -2035,9 +1968,9 @@
       68,
       91,
       92,
+      100,
       105,
       161,
-      221,
       224,
       227
     ],
@@ -2076,10 +2009,10 @@
       56,
       57,
       91,
+      100,
       101,
       105,
       106,
-      221,
       225,
       227
     ],
@@ -2158,7 +2091,7 @@
       91,
       92,
       94,
-      221
+      100
     ],
     "connections_down": [
       2,
@@ -3187,7 +3120,7 @@
     "body": "The most livable dwellings have an acoustic gradient: loud, social spaces (kitchen, living room) with hard surfaces and lively acoustics; transitional spaces (hallways, stairwells) with moderate absorption; and quiet, private spaces (bedrooms, study) with heavy construction and soft absorption. The gradient should be continuous — you can hear the acoustic quality change as you move through the house.",
     "solution": "design the dwelling as a gradient from acoustically lively to acoustically quiet. Kitchen and living areas: hard floors, open connections, lively reverberation. Transitional spaces: carpeted or cork floors, partial doors, moderate absorption. Bedrooms and study: heavy walls (DEEP WALLS, 46), solid doors, soft floors, low reverberation. The acoustic quality of each room should match its social function — lively where people gather, quiet where they retreat.",
     "connections_up": [
-      5,
+      7,
       7,
       32,
       39,
@@ -3195,7 +3128,7 @@
       85
     ],
     "connections_down": [
-      5,
+      7,
       7,
       32,
       39,
@@ -3498,7 +3431,6 @@
       29,
       41,
       49,
-      138,
       139,
       166,
       168,
@@ -3738,7 +3670,7 @@
     "body": "The commercial office world discovered this tension a decade ago. Open-plan offices, which dominated workplace design from 2010 onward, promised collaboration but delivered distraction. Steelcase's 2017 global workplace survey of 12,480 workers across 17 countries found that only 11% of employees were highly satisfied with their work environment, with noise identified as the leading complaint. The response was the phone booth: a freestanding acoustic enclosure, typically 1.0 to 1.5 square meters in floor area, with STC 30-35 walls, ventilation, lighting, and power. Framery, a Finnish manufacturer founded in 2010, had by 2022 installed over 100,000 such pods in offices worldwide. Room (formerly Telephone Booth), Zenbooth, and dozens of competitors followed. The form became ubiquitous in corporate interiors because it solved a specific problem: a call requires acoustic isolation, but not for long, and not with much space.\n\nThe home presents the same problem in compressed form. A 2021 survey by the American Institute of Architects found that 61% of residential clients requested dedicated home office space — but the median new single-family home in the United States offers 230 square meters, and carving out a full room for occasional calls competes with bedrooms, storage, and living space. The booth form factor — standing or seated, 0.8 to 1.5 square meters, heavily insulated — offers a different trade: maximum acoustic isolation in minimum floor area, deployable in a corner, a closet conversion, or a garage.\n\nAlexander did not anticipate this pattern. His WORKSPACE ENCLOSURE (183) assumes a full room; his ALCOVES (179) provides spatial definition but not acoustic separation. The acoustic booth fills a gap that emerged only when video calls became a daily ritual and housing costs made dedicated rooms unaffordable for many households. The critical performance threshold is speech privacy: a person speaking at normal volume inside the booth should not be intelligible outside it, and household noise outside should not appear on the microphone inside. This requires walls with STC 30 minimum — roughly the performance of a well-sealed solid-core door — plus a ceiling, ventilation that does not create a flanking path, and gaskets on all joints.\n\nThe construction is simple: a frame of 2×4 lumber or steel studs, two layers of 16mm gypsum board with Green Glue damping compound between them, acoustic insulation in the cavity, a solid-core door with perimeter gaskets, and a small silent fan ducted to an adjacent space. Interior dimensions of 1.0m × 1.2m accommodate a chair, a small shelf, and a camera-neutral background. A hardwired ethernet connection and two electrical outlets complete the infrastructure. The booth can be built into a closet, a corner of a basement, or as a freestanding unit in a garage or spare room. It need not be beautiful — but if it includes one HAND-MADE DETAIL (106), a carved door pull or a hand-thrown hook for headphones, it becomes a place rather than an appliance.",
     "solution": "in any dwelling where regular video calls occur but a full ZOOM ROOM (7) is impractical, build an acoustic booth of 0.8 to 1.5 square meters — enough for one seated person, a small surface, and a neutral background. Construct the walls to achieve STC 30 or better: double gypsum board with damping compound, insulated cavity, gaskets on the door. Provide ventilation, lighting, power, and ethernet. The test: with a person speaking at normal volume inside the closed booth, a listener standing one meter outside cannot understand the words.",
     "connections_up": [
-      5,
+      7,
       7,
       90,
       158,
@@ -3772,8 +3704,8 @@
     "body": "The average North American household now contains somewhere between fifteen and twenty-five connected devices requiring regular charging — phones, tablets, laptops, watches, earbuds, e-readers, game controllers, portable speakers, and the expanding category of rechargeable tools. Each device arrives with its own cable and adapter. Without a designated location, these accumulate in junk drawers, tangle behind furniture, and migrate across every horizontal surface in the house.\n\nThe problem is architectural, not organizational. No amount of cable ties or charging baskets will solve what is fundamentally a failure to provide a place. Alexander understood this principle: in his Pattern 197 (Thick Walls), he argued that walls should be deep enough to accommodate the activities that cluster at edges — sitting, storage, display. The modern equivalent is that walls must now accommodate power. A shallow wall with a single duplex outlet every twelve feet — the minimum code requirement — cannot support the electrical reality of contemporary life.\n\nThe Visible Utility (68) establishes that infrastructure should be traceable and accessible. The Utility Core (156) consolidates major systems for maintenance. The Charging Station applies the same logic at the scale of daily electronics: consolidate the charging function into a single, purpose-built location so that cables, adapters, and devices have a home. When each device has a designated slot, the rest of the dwelling can remain free of cables — including The Screen-Free Hearth (8), which depends on keeping technology out of social space. The Charging Threshold (11) handles the vehicle and the arrival sequence; this pattern handles everything smaller, the pocket-sized devices that follow you through the day.\n\nThe location matters. It should be near but not in the main living spaces — a hallway nook, the edge of a mudroom, a deep windowsill near the entrance, or a dedicated alcove off the kitchen. The station should be visible enough that you remember to use it, but contained enough that it doesn't dominate. Depth is essential: a shelf or counter at least ten inches deep, with outlets at the back and cable channels or grommets to keep cords organized. The best versions include a drawer or cabinet below for storing backup cables, adapters, and devices not in daily use.",
     "solution": "build a dedicated charging station into the dwelling — a shelf, niche, or shallow cabinet at least 30 inches wide and 10 inches deep, equipped with a minimum of six USB outlets and two standard receptacles, located within 15 feet of the main entrance but outside the primary living and sleeping rooms. Provide cable management — grommets, channels, or a raised shelf with a gap behind — so that cords route neatly from outlet to device. The test: every portable electronic device in the household should have a designated charging slot at this station, and no other room should require a charging cable left permanently plugged in.",
     "connections_up": [
-      11,
       8,
+      11,
       68,
       156
     ],
@@ -4280,11 +4212,11 @@
     "body": "For millennia, builders in hot climates solved this problem with wind catchers — towers that rise above the roofline to intercept moving air and direct it downward into the building. In Yazd, Iran, hundreds of traditional *badgirs* still stand, some predating the Islamic period, their tall rectangular shafts dividing the wind into channels that serve different rooms below. UNESCO's World Heritage documentation for Yazd acknowledges these structures as sophisticated environmental technology. Studies by M.N. Bahadori, published in *Scientific American* in 1978, documented how badgirs can reduce indoor temperatures by 8–12°C compared to outdoor conditions in hot-arid climates — not through mechanical refrigeration but through the simple physics of moving air across skin and thermal mass.\n\nModern architects have adapted this ancient form. At the Queen's Building of De Montfort University in Leicester, UK (Short Ford Associates, 1993), massive ventilation stacks rise from the roof, their openings oriented to catch prevailing winds and draw air upward through the building by combining wind pressure with stack effect. At the BedZED development in south London (2002), colorful rotating wind cowls top each residential unit, capturing wind from any direction and channeling it through heat recovery ventilators. These cowls have become the project's visual signature — proof that environmental technology can be beautiful rather than hidden. Hughes, Calautit, and Ghani's 2012 review in *Applied Energy* documented that commercial wind tower systems can achieve 10–30 air changes per hour depending on wind conditions, rivaling or exceeding mechanical ventilation without consuming electricity.\n\nThe wind scoop differs from a simple opening in two ways: it rises above the boundary layer of turbulent, slow-moving air that hugs the roof surface, and it creates positive pressure on the windward side that actively pushes air into the building rather than waiting for negative pressure to pull it through. Combined with a thermal chimney on the leeward side, a wind scoop creates a complete passive ventilation circuit — wind pushes air in, stack effect pulls it out, and the building breathes without a single watt of electricity.\n\nIn Edmonton, where summer temperatures now regularly exceed 30°C but prevailing northwest winds remain reliable, a wind scoop offers a way to reduce air conditioning loads during the short intense summer — and to maintain airflow during power outages when mechanical cooling fails precisely when it is needed most.",
     "solution": "where a building requires natural ventilation and prevailing summer winds are reliable, install a wind scoop — a projecting element on the roof or upper wall, oriented to face the dominant summer wind direction, that captures moving air above the roofline and channels it into the building's ventilation path. Size the scoop opening to at least 0.15 square meters per 25 square meters of floor area served. Raise the intake at least 1.5 meters above the surrounding roof surface to clear the turbulent boundary layer. Connect the scoop to the building's cross-ventilation path (122), with an unobstructed duct or shaft leading to low-level outlets in occupied rooms. Where wind direction varies, use a rotating cowl or multi-directional fixed louvers. The test: on a day with 3 m/s wind measured at 10 meters above grade, hold a tissue at a low outlet in the room served — it should deflect outward with visible movement, confirming positive airflow from scoop to outlet.",
     "connections_up": [
+      37,
+      121,
       122,
       123,
       124,
-      37,
-      121,
       127,
       131,
       194,
@@ -4632,9 +4564,9 @@
     "connections_up": [
       24,
       25,
+      94,
       132,
       133,
-      94,
       136,
       175
     ],
@@ -4733,14 +4665,14 @@
     "body": "The basic biology is simple and ancient. Fish excrete ammonia. Bacteria convert ammonia to nitrite, then to nitrate. Plants absorb nitrate as fertilizer and return clean water to the fish. The loop closes. What makes aquaponics distinct from keeping a fish tank beside a garden is the integration: the same water circulates continuously through both systems, with bacteria as the invisible third partner.\n\nThe University of the Virgin Islands developed the first large-scale research aquaponics system in the 1980s, demonstrating that tilapia and lettuce could be raised together with 90% less water than conventional agriculture. Their system produced 5 kg of vegetables per square meter per year while simultaneously raising fish for protein. The key metric: water loss came only from evaporation and plant transpiration — roughly 1-2% of system volume per day — rather than the constant discharge required by separate aquaculture and hydroponics.\n\nCommercial operations have since validated the approach at scale. Growing Power in Milwaukee operated urban aquaponics greenhouses from 1993 to 2017, producing over 450 kg of tilapia and 4,500 kg of vegetables annually in a single 930-square-meter facility. Their system integrated worm composting to supplement fish waste with additional nutrients — a practical acknowledgment that aquaponics alone may not provide all the trace minerals plants require. The FAO's 2014 technical paper on small-scale aquaponics documented successful installations across climate zones, noting that systems perform best when fish tank volume, grow bed area, and fish stocking density are balanced: roughly 1 kg of fish per 40-60 liters of water, with 1-2 square meters of grow bed per 500 liters of fish tank.\n\nIn Edmonton's climate, the aquaponics loop must live inside The Four-Season Greenhouse (24) — the fish require water temperatures above 15°C year-round, which outdoor systems cannot maintain through winter. This constraint becomes an advantage: the water mass provides thermal storage, the plants humidify the greenhouse air, and the fish provide a protein source during months when even the most cold-hardy greens grow slowly. The system transforms the greenhouse from seasonal vegetable production into year-round food infrastructure.\n\nAlexander wrote of gardens that give back — places where the household's attention is repaid with abundance. The aquaponics loop extends this logic to protein. The loop is working when the fish feed the plants, the plants clean the water, and the household eats from both.",
     "solution": "within any greenhouse or indoor growing space, install a recirculating aquaponics system with a fish tank of at least 500 liters, connected to grow beds totaling at least 2 square meters of planted area. Stock the tank with edible fish — tilapia, perch, or trout depending on your temperature regime — at no more than 20 kg of fish per 1,000 liters of water. Cycle water continuously from fish tank through grow beds and back at a rate that turns over the full tank volume once per hour. Test ammonia and nitrate weekly during the first three months; the system is established when ammonia stays below 0.5 ppm while plants show healthy growth. The system is succeeding when, after one year of operation, the only inputs are fish food and occasional top-up water — no fertilizers, no water changes, no waste stream.",
     "connections_up": [
-      132,
-      24
+      24,
+      132
     ],
     "connections_down": [
-      136,
+      26,
       65,
       70,
-      26
+      136
     ],
     "tags": [
       "food-production",
@@ -4750,41 +4682,6 @@
       "greenhouse"
     ],
     "coldClimate": false
-  },
-  {
-    "id": 138,
-    "name": "The Adaptive Reuse Toolkit",
-    "number": "138",
-    "scale": "neighborhood",
-    "category": "adaptive-reuse",
-    "categoryLabel": "Patterns for Adaptive Reuse",
-    "confidence": 1,
-    "status": "candidate",
-    "problem": "Building codes and zoning ordinances are written for new construction — they assume a blank slate, standard proportions, modern systems. But when these same rules are applied to existing buildings seeking new uses, the math breaks down. A 1920s warehouse cannot provide the parking ratios written for a 2020 apartment building. A former church cannot meet corridor widths designed for hotels. The building sits vacant, too expensive to adapt legally, too solid to demolish economically — while across the street, new construction rises on cleared land, burning carbon to build what already exists.",
-    "body": "The tension is real. Building codes protect occupants from fire, collapse, and unsafe conditions. Zoning ordinances separate incompatible uses and ensure parking, light, and air. These protections matter. But when applied without flexibility to existing structures, they create an absurd incentive: demolish the building that already stands and build new, because adaptation is legally impossible.\n\nLos Angeles confronted this problem directly. In 1999, the city adopted its Adaptive Reuse Ordinance, which exempted pre-1974 commercial buildings in downtown from most parking requirements and allowed by-right conversion to residential use. The results were dramatic: by 2020, more than 12,000 housing units had been created in formerly vacant office buildings, hotels, and banks — the Eastern Columbia Building, a 1929 Art Deco landmark, became 147 residential lofts. Downtown LA's residential population grew from fewer than 20,000 to over 80,000. The ordinance did not abandon safety; it allowed alternative compliance paths and accepted existing conditions where they posed no danger.\n\nThe toolkit has three essential components. First, a clear by-right pathway for conversion between specified uses — residential to commercial, commercial to residential, industrial to live-work — without discretionary review, conditional use permits, or public hearings. The Los Angeles ordinance made conversions ministerial, not discretionary; if you met the checklist, you received approval. Second, flexibility on dimensional standards: reduced or eliminated parking minimums, acceptance of existing ceiling heights, corridor widths, and window areas where they meet the original code of construction or provide equivalent safety. Third, streamlined structural and fire-safety review that evaluates actual risk rather than theoretical compliance — accepting sprinklers in lieu of rated corridors, existing masonry walls in lieu of modern assemblies, shared egress where occupant loads permit.\n\nNew York City's Office Conversion Accelerator Program, launched in 2024, extended the city's 1961 conversion provisions to a wider geography and more building types, responding to the post-pandemic office vacancy crisis. California's AB 2011 (2022) streamlined approvals for housing on commercial sites statewide, including adaptive reuse. Cleveland's Warehouse District conversions, enabled by flexible local codes combined with federal historic tax credits, turned nineteenth-century industrial buildings into a residential neighborhood without the code warfare that stalls projects elsewhere.\n\nThe philosophical foundation is simple: an occupied building is safer than a vacant one. A building adapted incrementally, by small developers and owner-occupants, serves the city better than one demolished for a master-planned replacement. The toolkit does not lower safety standards; it allows existing buildings to meet them through alternative means.",
-    "solution": "Therefore: adopt a municipal adaptive reuse ordinance that grants by-right conversion for specified use changes in buildings over twenty-five years old. Eliminate parking minimums for conversions. Accept existing ceiling heights, corridor widths, and window areas where they meet the code in effect at original construction or provide equivalent safety through alternative means such as sprinklers, reduced occupant loads, or additional egress. Require ministerial approval within sixty days for projects meeting the checklist. Test: at least 30% of housing units added in the core area should come from building conversions rather than new construction within ten years of adoption.",
-    "connections_up": [
-      100
-    ],
-    "connections_down": [
-      27,
-      28,
-      139,
-      140,
-      141,
-      142,
-      203,
-      204,
-      207
-    ],
-    "coldClimate": false,
-    "tags": [
-      "zoning",
-      "building-codes",
-      "adaptive-reuse",
-      "vacancy",
-      "regulation"
-    ]
   },
   {
     "id": 139,
@@ -4801,8 +4698,8 @@
     "connections_up": [
       1,
       29,
+      49,
       100,
-      138,
       203
     ],
     "connections_down": [
@@ -4833,8 +4730,8 @@
     "solution": "when converting a church to community, cultural, or residential use, preserve the primary volume as a single readable space — the nave must remain legible from at least one major public or common area, even if other portions are subdivided. Insert new structure as freestanding elements within the shell, leaving at least three feet clear between new walls and original masonry to maintain thermal buffering and visual separation. Retain all original windows; if thermal performance requires improvement, add interior storm glazing following Heritage Retrofit (28) rather than replacing the glass. For housing conversions, insert mezzanine levels to capture upper volume without destroying it, following The Industrial Loft (141) proportions: minimum twelve-foot clear height in primary living spaces, minimum eight feet on mezzanine sleeping levels. Test the conversion against this criterion: a person standing in the main common space should be able to see the original ceiling, at least two original windows, and understand that this was once a church — if any of these three readings is blocked, the conversion has gone too far.",
     "connections_up": [
       2,
+      49,
       51,
-      138,
       142
     ],
     "connections_down": [
@@ -4864,12 +4761,12 @@
     "body": "The industrial loft emerged as a dwelling type in Manhattan's SoHo and Tribeca districts during the 1960s, when artists occupied vacant textile and printing buildings illegally, then fought for legal recognition. New York's Loft Law of 1982 codified what the artists had learned: industrial buildings make compelling live-work spaces because their proportions allow multiple zones within a single room. A fourteen-foot ceiling permits a sleeping loft above the workspace without sacrificing light or air to either level. A twenty-five-foot bay between columns accommodates living, working, and making without interior walls. The large industrial windows that lit sewing machines now light painting studios, darkrooms, and home offices.\n\nThe conversions that succeed preserve these proportions while solving the building's thermal and acoustic failures. The Eastern Columbia Building in Los Angeles, a 1929 clock tower converted to 147 lofts under the city's Adaptive Reuse Ordinance, retained its thirteen-foot ceilings and steel-sash windows while adding interior storm windows and in-floor radiant heating — addressing the thermal envelope without destroying the industrial character. The American Tobacco Campus in Durham, North Carolina, converted a million square feet of tobacco warehouses beginning in 2004, keeping exposed heavy timber structure, brick walls, and monitor skylights while inserting mezzanine levels in the highest bays. These projects demonstrate the spatial logic: industrial buildings work as dwellings precisely because their excess — of height, of span, of light — allows subdivision that still leaves generous rooms.\n\nThe critical design moves distinguish successful conversions from failures. First, the ceiling height must be sufficient to permit a sleeping loft with seven feet of clear height below and six feet above — meaning original ceilings of at least thirteen feet, and preferably fourteen or more. Second, the window area must provide light on two sides of the unit, either through the building's perimeter or through interior light wells carved from the floor plate (as in Office-to-Housing Conversion, 27). Third, the thermal envelope must be upgraded from the inside — interior insulation, storm windows, air sealing at the roof and penetrations — following the sequence that preserves exterior character (Heritage Retrofit, 28). Fourth, acoustic separation between units must exceed residential standards, because the hard surfaces that give lofts their character also reflect sound; target STC 55 or higher at party walls and floors.\n\nThe connected-rooms logic (39) applies differently here than in conventional dwellings. In an industrial loft, the entire unit may be a single room with zones defined by furniture, level changes, and partial partitions rather than walls. The home-office threshold (5) becomes a change in floor material or a step up to a mezzanine rather than a door. Light on two sides (34) is achieved through the building's original fenestration, supplemented by skylights or light wells where floor plates exceed fifteen meters depth.",
     "solution": "when converting industrial buildings to live-work dwellings, preserve the spatial proportions that make them irreplaceable: minimum thirteen-foot floor-to-floor height to allow mezzanine sleeping lofts with adequate headroom; minimum twenty-foot clear span between structural elements; and at least fifteen percent glazed wall area on the building perimeter. Upgrade the thermal envelope from the interior following the retrofit sequence (143). Define zones within the open floor plate through level changes, partial walls, and material transitions rather than full-height partitions. Test the conversion against this criterion: a person standing in the living zone should be able to see natural light in at least two directions and the full height of the ceiling; if partitions block either the light or the height, the loft character has been lost.",
     "connections_up": [
-      138,
+      49,
       140,
       203
     ],
     "connections_down": [
-      5,
+      7,
       27,
       34,
       39,
@@ -4900,9 +4797,9 @@
     "solution": "when converting a closed school to housing, preserve the gymnasium, auditorium, or cafeteria — whichever is the largest clear-span volume — as permanently dedicated community space, owned or leased by a community land trust, neighborhood association, or municipal recreation department. Convert classrooms along exterior walls to housing units, using the existing window walls and adding mezzanine lofts where ceiling heights exceed 3.3 meters. Cluster new kitchens and bathrooms along the original corridor walls where plumbing can be consolidated. Keep the main entrance and lobby as a shared threshold serving both housing and community uses. The conversion is right when the gymnasium or auditorium remains publicly accessible at least 40 hours per week — for recreation, meetings, performances, or civic gatherings — and wrong when the largest volume has been subdivided, privatized, or demolished.",
     "connections_up": [
       2,
+      49,
       51,
-      76,
-      138
+      76
     ],
     "connections_down": [
       27,
@@ -4980,7 +4877,7 @@
       208
     ],
     "connections_down": [
-      5,
+      7,
       7,
       30,
       31,
@@ -5607,13 +5504,13 @@
     "body": "The arithmetic is stark. A modest spare bedroom in Edmonton consumes 10 to 12 square meters of conditioned floor space. At construction costs of $3,000 to $4,000 per square meter for multi-unit residential, that room represents $30,000 to $48,000 in capital cost per household — for a space used perhaps twenty nights per year. In a fifty-unit building, this totals $1.5 to $2.4 million in construction for rooms that sit empty 95 percent of the time.\n\nCohousing communities have understood this for decades. The cohousing model, developed in Denmark in the 1960s and brought to North America by Kathryn McCamant and Charles Durrett in the 1980s, treats guest accommodation as a shared amenity rather than private redundancy. Muir Commons in Davis, California (1991) — the first cohousing community built in the United States — included guest rooms in its common house from the beginning. Residents book the space when needed, typically for a modest nightly fee that covers linens and cleaning. The same pattern appears in cohousing across Scandinavia, Germany, and increasingly in North American projects: a hotel-quality room that serves fifty households instead of fifty underused bedrooms serving one household each.\n\nThe benefits extend beyond economics. A guest suite in a separate building offers something a spare bedroom cannot: genuine privacy for both host and visitor. The elderly parent visiting for two weeks has their own front door, their own schedule, their own space to retreat to. The host household maintains its routines. The visit becomes easier — and therefore more likely. Alexander understood related dynamics in his pattern for The Multigenerational Suite (14): the lockable door between zones allows intimacy without intrusion. The Guest Suite Commons applies this same principle at the neighborhood scale.\n\nThe suite must be more than a hotel room. It needs a small kitchenette — a sink, a kettle, a refrigerator, a microwave — so guests can make their own breakfast without imposing on their hosts. It needs a bathroom with a proper shower, not a shared facility down the hall. It needs a comfortable bed, good lighting for reading, a place to hang clothes, a desk or table for a laptop. Natural light is essential — this is a room where someone might spend a sick day recovering from travel, or a rainy afternoon reading while their hosts are at work. In buildings that include a Care Suite (80), consider locating the guest suite nearby: the same accessibility features that serve a recovering family member serve an elderly guest, and the guest suite can house visiting family during a medical crisis.",
     "solution": "in any multi-unit building of twenty households or more, provide at least one bookable guest suite — a self-contained room of 18 to 25 square meters with a queen bed, a private bathroom with shower, a kitchenette, good natural light, and a separate entrance or private hallway access. For larger buildings, provide one suite per thirty to forty units. Locate the suite within two minutes' walk of all units it serves. Include a simple booking system and clear policies for cleaning and turnover. The test: a resident's parent arriving for a two-week visit should be able to live comfortably in the suite without entering the resident's home except by invitation — and without either party feeling they are imposing on the other.",
     "connections_up": [
-      95,
-      93
+      93,
+      95
     ],
     "connections_down": [
-      107,
       14,
-      80
+      80,
+      107
     ],
     "tags": [
       "shared-amenities",
@@ -5837,7 +5734,7 @@
     "body": "Alexander recognized this pattern in *A Pattern Language* as \"Shopfront Schools\" (85) and \"Individually Owned Shops\" (87), noting that chain stores and absent ownership hollow out neighborhoods. But he stopped short of the spatial prescription that makes it work: the single deed, the shared stair, the apartment that is not separate from the shop but continuous with it.\n\nThe evidence for owner-occupation is clearest in survival rates. The U.S. Small Business Administration's Office of Advocacy reports that businesses operating from owner-occupied premises show 23% higher five-year survival rates than those paying market rent (SBA, 2019). In Philadelphia's Italian Market corridor, where many buildings remain shopfront dwellings passed through families, the average business tenure exceeds 18 years — compared to 4.7 years for commercial tenants in comparable retail strips (Temple University Center City Research, 2021). The building absorbs the bad months. When you live above your shop, you do not close when rent comes due; you eat less, work longer, and survive.\n\nThe street benefits as well. Jane Jacobs documented this in *The Death and Life of Great American Cities* (1961): \"The trust of a city street is formed over time from many, many little public sidewalk contacts.\" The shopkeeper who lives above sweeps the sidewalk at 6 a.m., knows who belongs on the block, leaves a light on after closing. A study of Portland's Alberta Street by the Portland State University Urban Studies department (2018) found that blocks with three or more owner-occupied shopfront dwellings had 40% fewer reported property crimes than blocks of equivalent density with separated ownership. Eyes that live there see differently than eyes that commute away.\n\nThe form itself is ancient and widespread: the Roman *taberna* with sleeping loft above, the Amsterdam canal house with merchant's quarters over the trading floor, the Montreal duplex with *dépanneur* at grade. What killed it was not obsolescence but zoning — the rigid separation of commercial and residential that North American codes imposed after 1920. Edmonton's current zoning (DC1 and RF3 zones, City of Edmonton Zoning Bylaw 12800) now permits live-work units in many areas, but financing remains difficult: CMHC mortgage insurance treats mixed-use differently than pure residential, and commercial lenders balk at the apartment above. The pattern must be built despite, not because of, the systems meant to enable it.",
     "solution": "Therefore: build the shopfront dwelling as a single property with one deed, one tax lot, and one owner-household. The ground floor should meet the standards of The Mixed-Use Ground Floor (99) — 3.5 meters clear height, display windows, separate street entrance — but the dwelling above must connect internally to the shop by a private stair. This stair is the test: if you can walk from your bedroom to your cash register without going outside, you have built a shopfront dwelling. If you cannot, you have built an apartment above a store, which is a different and lesser thing. The shop and dwelling share heating, share insurance, share the single act of ownership that binds them. Size the dwelling for a household of at least two — 70 square meters minimum — so that the business can be a family enterprise, tended across shifts, surviving the owner's illness or absence.",
     "connections_up": [
-      5,
+      7,
       99,
       166,
       176,
@@ -6178,8 +6075,8 @@
       204
     ],
     "connections_down": [
-      5,
       6,
+      7,
       35,
       107,
       109
@@ -6237,9 +6134,9 @@
     "body": "The mathematics of function versus time reveals the problem. A bed is used eight hours. A desk, perhaps six. A dining table, two. Yet each claims its floor space twenty-four hours a day. In a dwelling of fifty square metres — common in Tokyo, increasingly common in Vancouver and Toronto — furniture for sleeping, working, eating, and living cannot coexist as separate pieces. The room must transform, or the household must choose which functions to abandon.\n\nMIT's Changing Places group, led by Kent Larson, demonstrated one approach: the CityHome project (2014) used motorized walls embedded with bed, desk, and storage that could shift a 18.5-square-metre unit between bedroom, living room, and workspace configurations. Ori Living, a spinoff founded in 2015, has since deployed similar robotic furniture systems in apartment buildings across Boston, Seattle, and other North American cities — units where a motorized cabinet slides to reveal or conceal a bed, transforming the room in seconds. The principle is sound, but the technology is expensive and requires maintenance infrastructure most buildings lack.\n\nA simpler precedent exists in Japanese domestic design, where transformable furniture has been standard for centuries. The futon, stored in the *oshiire* closet by day, converts sleeping space to living space each morning. MUJI's contemporary systems extend this logic with modular shelving and storage that attach to walls on a grid, allowing reconfiguration as needs change. The key insight: furniture that folds, slides, or stacks into a defined storage zone — not furniture that merely rolls to another corner of the room.\n\nAlexander's pattern 201 (Waist-High Shelf) understood that built-in elements at the right height support daily life. But he wrote before the home became workplace, classroom, and broadcast studio. The contemporary dwelling needs not just the shelf but the entire furniture system to flex — the surface that is desk by day and dining table by evening, the seating that converts to guest bed, the storage that reveals or conceals the tools of each function.",
     "solution": "design a modular furniture system coordinated with the dwelling's planning grid — the same 600mm or 900mm module used for demountable partitions (169). Build furniture as components that attach to walls, floors, or ceiling tracks at grid points: fold-down desks, murphy beds, sliding storage units, convertible tables. Provide a defined storage zone — a deep closet, a wall cavity, or an alcove — where furniture in its folded or stacked state lives invisibly when not in use. The test: a single person should be able to convert the room from work function to sleep function in under three minutes, with no piece of furniture left standing that is not in use.",
     "connections_up": [
-      115,
-      5,
-      7
+      7,
+      7,
+      115
     ],
     "connections_down": [
       107,
@@ -6305,7 +6202,7 @@
       170
     ],
     "connections_down": [
-      5,
+      7,
       13,
       20,
       101,
@@ -6819,13 +6716,13 @@
     "body": "Vernal pools — seasonal wetlands that fill with snowmelt and spring rain, then dry completely by late summer — are among the most productive habitats per square meter in temperate landscapes. The California Department of Fish and Wildlife documented over 200 species of plants and animals associated with vernal pools in the Central Valley, including 34 species found nowhere else. In eastern North America, the wood frog (*Lithobates sylvaticus*) and spotted salamander (*Amblyostoma maculatum*) breed exclusively in fishless temporary pools; their populations collapse when these pools are drained or made permanent. The breeding migration of spotted salamanders — hundreds of adults crossing roads on the first warm rain of spring — has become a conservation icon in New England, where towns like Amherst, Massachusetts close roads on \"Big Night\" to protect the crossing.\n\nThe hydrological function is equally specific. Seasonal ponds act as groundwater recharge points during the wet season, holding water long enough for slow infiltration rather than rapid runoff. A study of prairie potholes in the northern Great Plains by the U.S. Geological Survey found that these temporary wetlands store an average of 2.5 million acre-feet of floodwater annually across the region — water that would otherwise contribute to downstream flooding. Unlike permanent ponds, which lose water primarily to evaporation, seasonal ponds lose water primarily to infiltration and plant uptake, making them net contributors to the local water table.\n\nAlexander's Pools and Streams (64) called for water in every neighborhood — \"still water for swimming, and fast water for drinking\" — but treated water as a permanent feature. The seasonal pond completes this vision by adding the temporal dimension: water that comes and goes with the year, marking the seasons as visibly as the trees. A pond that fills with snowmelt in March, hosts a chorus of frogs in April, shrinks through May, and becomes a wildflower meadow by July teaches the rhythm of the year in a way that a static pond never can. Children who grow up with a seasonal pond in their neighborhood know something true about water that children with only taps and drains do not.",
     "solution": "where the site has a natural low point or where grading can create one, build a shallow depression — no more than 450mm deep at center — that collects runoff from rain gardens, roofs, and adjacent landscape. Line the bottom with compacted clay or bentonite to slow drainage, but do not seal it completely; the pond should hold water for 8-12 weeks in spring but dry completely by late summer. Size the pond to hold at least 20 cubic meters of water at peak — roughly 6 meters in diameter at 400mm average depth. Plant the margins with native sedges and rushes; leave the center bare or with submerged vegetation only. The test: by the first week of August, the pond should be dry enough to walk across; by the second week of April, it should hold at least 200mm of standing water. If it dries too fast, add clay; if it holds water into summer, reduce the clay or increase the overflow connection to adjacent rain gardens.",
     "connections_up": [
-      119,
-      64
+      64,
+      119
     ],
     "connections_down": [
-      120,
       19,
-      26
+      26,
+      120
     ],
     "tags": [
       "stormwater",
@@ -6849,8 +6746,8 @@
     "body": "Seeds are not static. A tomato variety grown for five generations in Edmonton becomes a different plant than the same variety grown in Ohio — earlier to mature, more tolerant of cool nights, attuned to the long summer days at 53°N. This is not mysticism; it is selection pressure. Seeds of Diversity Canada, a national seed-saving network founded in 1984, has documented this local adaptation across hundreds of heritage varieties preserved by home gardeners. Their annual seed listings show cultivars with names like \"Beaver Lodge\" and \"Prairie Sunset\" — varieties that exist only because someone saved seed in a specific place, year after year.\n\nThe seed library model emerged in the early 2010s, with the Richmond Grows Seed Lending Library in California (established 2010) often cited as the first public library integration. The concept spread rapidly: by 2015, over 300 seed libraries operated in North American public libraries. The structure is simple — seeds are \"checked out\" in spring, grown, and returned (with saved seed) in fall. But the deeper function is creating a commons of locally adapted genetics. The Pima County Public Library in Arizona reported that their seed library distributed over 50,000 seed packets in its first five years, with return rates around 15-20% — enough to maintain and expand the collection while building a community of seed savers.\n\nIn cold climates, local adaptation matters more. Edmonton's 120-day frost-free season, late spring frosts into May, and occasional -35°C winter nights eliminate varieties that thrive elsewhere. The Edmonton Seed Library, housed at the Highlands branch of the Edmonton Public Library, specifically collects varieties proven in Zones 3-4. When a gardener borrows \"Stupice\" tomato seeds that have been grown and returned in Edmonton for a decade, they receive genetics shaped by this place — not a gamble on whether a catalog description of \"early\" means early enough.\n\nThe practice requires minimal infrastructure but specific care. Seeds must be stored cool and dry — 4°C and below 40% relative humidity for long-term viability. Most vegetable seeds remain viable for 3-7 years under proper storage. The library needs a coordinator who understands isolation distances (to prevent cross-pollination), proper drying techniques, and which crops are easy for beginners (beans, peas, tomatoes, lettuce) versus those requiring more skill (biennials like carrots and beets that must overwinter before seeding).",
     "solution": "in every neighborhood, establish a seed library — a managed collection of locally adapted, open-pollinated seeds available for borrowing and return. House it within the public library branch, the community center, or adjacent to the tool library. Stock it with at least fifty varieties of vegetables, herbs, and flowers suited to Zone 3-4 conditions. Label each variety with its years of local adaptation: \"Saved in this neighborhood since 2019.\" Provide simple guides for beginner seed-saving (beans, peas, tomatoes). Host at least one seed swap event each March, timed two months before last frost. The library is working when a gardener can check out seeds in May, grow them through the summer, and return saved seeds in October — and when at least ten varieties in the collection have five or more years of documented local growing history.",
     "connections_up": [
-      132,
       91,
+      132,
       198
     ],
     "connections_down": [
@@ -6909,8 +6806,8 @@
     "solution": "Therefore: designate adaptive reuse districts in areas with concentrations of vacant or underused buildings over twenty-five years old. Within these districts, establish by-right conversion between commercial, industrial, and residential uses for existing buildings. Waive parking minimums entirely for conversions. Allow building code compliance through alternative means — fire suppression in lieu of second egress, accessible units on ground floors rather than all floors. Cap development fees at a fixed percentage of construction cost rather than per-unit charges. Set a simple test: if a building has been vacant for three years, the district provisions apply automatically. Review the district boundaries every five years; a successful district should show at least thirty percent of eligible buildings converted or under renovation within ten years.",
     "connections_up": [
       29,
+      49,
       100,
-      138,
       205
     ],
     "connections_down": [
@@ -6946,11 +6843,11 @@
     "body": "The Preservation Green Lab's 2011 study \"The Greenest Building\" found that converting a warehouse to multifamily housing in Chicago's climate takes forty-two years to break even on carbon compared to demolition and replacement — meaning a new building must operate for four decades before its efficiency gains offset the carbon released by destroying the old one. The Carbon Leadership Forum's 2020 analysis confirms the scale: embodied carbon accounts for thirty to fifty percent of a building's total lifecycle emissions over sixty years, and deep retrofits release only 100–200 kilograms of CO₂ equivalent per square meter compared to 500 kilograms for new construction. A ten-thousand-square-foot masonry warehouse represents roughly two hundred tonnes of CO₂ already embedded in its walls — carbon that re-enters the atmosphere if the building comes down.\n\nSingle-story warehouses present conversion opportunities distinct from multi-story industrial lofts. Their clear-span structures — steel rigid frames or glulam beams — create uninterrupted floor plates of five thousand to fifty thousand square feet without interior columns. Their twenty-foot-plus ceiling heights allow the insertion of full mezzanine levels with code-compliant headroom both above and below. Their floor slabs, typically six-inch reinforced concrete designed for pallet loads of 250 pounds per square foot, support any residential or commercial use without reinforcement. Most importantly, their roof area provides natural light through skylights — clerestories, monitor roofs, or sawtooth profiles — that can illuminate the deep interior without the light wells required in multi-story conversions.\n\nThe American Tobacco Campus in Durham, North Carolina, converted over one million square feet of tobacco warehouses beginning in 2004, preserving exposed heavy timber structure, brick walls, and monitor skylights while inserting mezzanine levels in the highest bays. The heavy-section structure visible throughout serves as both character and amenity — the warmth of timber, the solidity of brick, the honesty of a building that shows its bones. Los Angeles's Adaptive Reuse Ordinance, adopted in 1999, enabled conversion of industrial buildings by eliminating parking minimums and accepting existing conditions where they met the original building code or provided equivalent safety. By 2020, the ordinance had produced over twelve thousand housing units in formerly vacant commercial and industrial buildings across downtown.\n\nThe conversion sequence matters. First, survey the existing conditions: column spacing and clear heights determine what uses fit; existing openings — loading docks, truck doors, clerestory windows — become the raw material for fenestration; floor load capacity determines whether mezzanines can be added without foundation work. Second, address the thermal envelope from the interior following The Retrofit Sequence (143): air-seal the roof deck and wall penetrations, insulate to current standards with spray foam or rigid board, and size mechanical systems to the improved envelope rather than the original shell. Third, carve the large floor plate into distinct zones — housing, workspace, retail — using level changes, partial partitions, and material transitions rather than full-height walls that would destroy the spatial generosity the warehouse provides.",
     "solution": "when converting single-story warehouses to housing, workspace, or mixed use, preserve the building's structural capacity and spatial proportion. Retain clear heights of at least eighteen feet to allow mezzanine levels with seven feet of headroom above and below. Preserve the clear-span structure — remove no columns, no trusses — and use the column grid to organize zones rather than fighting it. Bring daylight to the interior through existing or enlarged roof openings — skylights, clerestories, monitor windows — targeting a minimum of four percent of floor area in glazed roof openings. Test the conversion against this criterion: a person standing at the center of the floor plate should see natural daylight from the roof and at least one perimeter wall; if the interior is dark at noon on a clear day, the conversion has failed to preserve the warehouse's essential quality.",
     "connections_up": [
-      138,
+      49,
       203
     ],
     "connections_down": [
-      5,
+      7,
       143,
       180
     ],
@@ -7044,7 +6941,6 @@
     "connections_up": [
       28,
       49,
-      138,
       143,
       203,
       224
@@ -7434,7 +7330,6 @@
     "solution": "Therefore: when a group of households seeks collective ownership — whether in a new building, a converted apartment block, or a cluster of townhouses — incorporate as a housing cooperative under provincial law. Establish membership shares, monthly carrying charges, and a governance structure with an elected board and annual general meetings. Provide a common room sized for the full membership to gather (at minimum, two square meters per unit, with a lower bound of 30 square meters). Hold monthly board meetings and at least one annual meeting where every member votes on the budget, major expenditures, and house rules. Test the health of the cooperative by this measure: at least 60% of member households should participate in the annual meeting, in person or by proxy.",
     "connections_up": [
       12,
-      50,
       52,
       53
     ],
@@ -7442,8 +7337,8 @@
       12,
       52,
       53,
+      100,
       220,
-      221,
       222,
       223
     ],
@@ -7470,10 +7365,10 @@
     "solution": "when a cooperative, cohousing cluster, or neighborhood association adopts consensus decision-making, provide a meeting room arranged so that every participant can see every other participant's face — a circle, a hollow square, or a rectangle no more than three rows deep on any side. Seat no more than 40 people for decisions requiring true consensus; larger groups must delegate to working committees that report back. Allow at least three hours for major decisions, with a break in the middle. Post the three levels of response visibly: \"I agree,\" \"I stand aside,\" \"I stand in the way\" — and track each decision's outcome so the community can see its own pattern over time. The test: after twelve months, has every member either actively supported or consciously stood aside from every major decision, with no one feeling they were simply outvoted?",
     "connections_up": [
       51,
+      52,
       53,
-      219,
       183,
-      52
+      219
     ],
     "connections_down": [
       222
@@ -7483,39 +7378,6 @@
       "decision-making",
       "community",
       "cooperation"
-    ],
-    "coldClimate": false
-  },
-  {
-    "id": 221,
-    "name": "The Sweat Equity Path",
-    "number": "221",
-    "scale": "neighborhood",
-    "category": "community-governance",
-    "categoryLabel": "Patterns for Community Governance",
-    "confidence": 1,
-    "status": "candidate",
-    "problem": "When housing costs are denominated entirely in dollars, those with modest incomes but abundant time — the young without savings, the retired without pensions, the underemployed with willing hands — cannot convert their labor into ownership. Yet when sweat equity programs lack structure, they collapse into exploitation or chaos: hours go untracked, skills go unmatched, and resentment poisons what should build community.",
-    "body": "Habitat for Humanity has refined the sweat equity model over five decades. Their standard requirement — 200 to 500 hours of labor per household before receiving keys — emerged from practical experience across thousands of builds. In their 2019 annual report, Habitat International documented 13.4 million people served since founding, with sweat equity remaining central to their model. The labor is not symbolic: partner families work alongside volunteers on their own homes and their neighbors' homes, learning construction skills while reducing costs by 10-15% on a typical build.\n\nThe U.S. Department of Housing and Urban Development's Section 523 Self-Help Housing Program extends this model through loans to groups of families who agree to build each other's homes under qualified supervision. The USDA's Rural Housing Service reports that self-help housing programs produce homes at 15-20% below market construction costs, with foreclosure rates consistently lower than conventional mortgages — families who built their homes stay in them. In Canada, the Northern Self-Help Housing program administered through Indigenous Services Canada uses similar principles, though documentation of outcomes remains scattered.\n\nThe critical design problem is tracking and valuing labor fairly. Successful programs establish clear equivalences: one hour of skilled electrical work may equal two hours of painting; childcare during build days counts toward the family's total; administrative work preparing meals for crews earns credit. Habitat chapters maintain detailed hour logs, signed off weekly by supervisors. When a family falls behind their hour commitment, the program intervenes early — not with punishment, but with problem-solving. This is where The Conflict Resolution Space (222) becomes essential: disputes about hours, about who worked and who didn't, about whether the plumbing was done right, need a place to be heard.\n\nThe model works best when it extends beyond initial construction into ongoing maintenance. Housing cooperatives in Denmark have pioneered \"arbejdsweekend\" — mandatory work weekends where members maintain common areas, with hours credited against monthly fees. Members who cannot participate pay a buyout fee that funds hired labor. The Cooperative Housing Federation of British Columbia reports similar arrangements among their member co-ops, with work requirements typically ranging from 4 to 10 hours per household per month.",
-    "solution": "when establishing a housing cooperative, community land trust, or self-help building program, create a formal sweat equity system with four components. First, a clear labor ledger: every household tracks hours in a shared log, reviewed monthly, with categories for construction, maintenance, administration, and care work. Second, an equivalence table: establish published rates that convert specialized skills and different task types into standard hours, reviewed annually by the membership. Third, a minimum commitment: require 100-300 hours per household toward initial construction or buy-in, with ongoing requirements of 4-8 hours monthly for maintenance. Fourth, a buyout option: allow households to pay cash at a set hourly rate (tied to local minimum wage) when they cannot contribute labor, ensuring flexibility without resentment. Test the system by this measure: at least 80% of member households should meet their annual labor commitment through actual hours worked, not buyouts — if more are buying out, the work requirements have become a hidden fee rather than a community-building practice.",
-    "connections_up": [
-      52,
-      219,
-      225
-    ],
-    "connections_down": [
-      54,
-      55,
-      57,
-      222,
-      227
-    ],
-    "tags": [
-      "housing",
-      "affordability",
-      "labor",
-      "community",
-      "ownership"
     ],
     "coldClimate": false
   },
@@ -7532,13 +7394,13 @@
     "body": "Community mediation centers emerged across North America in the 1970s and 1980s as alternatives to courts for neighbor disputes. San Francisco's Community Boards, founded in 1976, trained volunteers to mediate conflicts in church basements and community centers — and discovered that the physical setting mattered as much as the process. Cases heard in rooms with fluorescent lighting, hard chairs, and a table separating parties reached agreement less often than those in rooms with soft lighting, comfortable seating, and a round configuration. The Rochester Community Dispute Resolution Center, operating since 1983, reports settlement rates above 85 percent for cases that reach mediation — but staff note that physical environment affects whether parties agree to mediate at all.\n\nThe key spatial elements have been documented by practitioners. The Institute for the Study of Conflict Transformation recommends: no head of table, so no one holds positional authority; seating at conversational distance (four to eight feet), close enough for connection but far enough to feel safe; acoustic privacy, so voices stay in the room; natural light where possible, to reduce the institutional feeling that puts people on edge; and a clear exit, so no one feels trapped. These principles align with Alexander's original Pattern 150, A Place to Wait, which notes that people need to feel neither exposed nor cornered — a spatial condition that applies doubly when emotions run high.\n\nRestorative justice circles, adapted from Indigenous practices in New Zealand, Canada, and elsewhere, add another requirement: the room must accommodate a circle of eight to twenty people sitting as equals, with no furniture blocking sight lines. The Hollow Water Community Holistic Circle Healing program in Manitoba, operating since 1984, conducts circles in purpose-built spaces where chairs form a true ring, a central object (often a candle or stone) anchors attention, and the walls are acoustically soft enough that voices don't echo. Participants report that the physical equality of the circle — no one elevated, no one behind a desk — makes accountability possible in ways that courtroom geometry does not.\n\nWhat emerges from this evidence is a room designed for difficulty: acoustically private but not dead, comfortable but not casual, neutral but not sterile. The furniture must be movable — sometimes you need a round table, sometimes a circle of chairs, sometimes two armchairs at an angle. The lighting must be warm and adjustable. The walls must absorb sound without creating the coffin-like silence of a recording studio.",
     "solution": "in every building that houses a cooperative, a community center, or a neighborhood organization, provide at least one conflict resolution room. Size it for four to twelve people — large enough for a circle, small enough for two. Use acoustically absorptive surfaces — carpet, fabric panels, soft plaster — to bring the ambient noise below 35 dB(A) and the reverberation time below 0.5 seconds. Provide seating that can be arranged in multiple configurations: a round table, a circle without table, two chairs facing at a 90-degree angle. Include warm, dimmable lighting and at least one window with blinds. Place the room where voices cannot be heard from the corridor. The test: two people having a difficult conversation at normal speaking volume should not be audible from the hallway, and a third party should be able to join without anyone feeling cornered.",
     "connections_up": [
-      51,
       2,
-      220,
-      53,
+      51,
       52,
+      53,
+      100,
       219,
-      221,
+      220,
       254
     ],
     "connections_down": [
@@ -7636,8 +7498,8 @@
     ],
     "connections_down": [
       55,
+      100,
       104,
-      221,
       224,
       227
     ],
@@ -7657,13 +7519,13 @@
     "body": "The Japanese temple tradition demonstrates what is possible when joinery replaces fasteners entirely. Hōryū-ji, built in 607 CE near Nara, has stood for over 1,400 years through periodic disassembly, member replacement, and reassembly — a process called *kaitai shūri* (dismantling repair). The carpenters who maintain it work with the same joint geometries their predecessors cut fourteen centuries ago. When a beam decays, they remove it, shape a new member to the same profile, cut the same joints, and slide it into place. No fasteners to corrode. No adhesive to fail. The building is not preserved — it is continuously remade, piece by piece, across generations.\n\nEuropean timber framing followed a parallel logic. The barns and guild halls of medieval Germany used mortise-and-tenon joints secured with wooden pegs — *Fachwerk* construction that allowed frames to be disassembled, transported, and re-erected. When the Riesenhaus in Goslar required restoration in the 1990s, carpenters found that joints cut in 1494 could still be separated and reassembled. The pegs had shrunk slightly; the tenons had worn smooth; but the geometry held. Metal would have welded itself to wood through rust; glue would have failed or required destruction to separate. The wood-to-wood connection remained reversible after five hundred years.\n\nContemporary practice offers a middle path. The Timber Framers Guild, founded in 1984 and now comprising over 1,500 professional members across North America, has codified traditional joinery for modern applications. Their standards specify joints — housed dovetails, through-tenons, scarf joints — that can be cut with a combination of power tools and hand work by carpenters with focused training rather than decade-long apprenticeships. A housed dovetail connecting a joist to a beam, for instance, requires perhaps twenty minutes to lay out and cut with a circular saw, chisel, and mallet. The joint transfers load through geometry — the dovetail's angle locks against withdrawal, the housing's shoulder resists rotation — rather than relying on the shear strength of metal through wood fiber.\n\nThe advantage compounds over time. A nailed connection loses roughly 10-15% of its holding strength per decade as the wood cycles through seasonal moisture changes, swelling and shrinking around the rigid steel. After fifty years, the connection may retain half its original capacity. A properly fitted wooden joint, by contrast, grows tighter as the wood dries — the peg swells first and shrinks last, locking the tenon in place. The Timber Frame Engineering Council's span tables, developed in collaboration with the American Wood Council, account for this difference: joinery connections carry higher allowable loads at longer service life than equivalent metal-fastened connections.",
     "solution": "wherever wood members join — beam to post, joist to beam, brace to frame — use interlocking joinery secured with wooden pegs rather than metal fasteners. Choose joints appropriate to the load: mortise-and-tenon for posts and beams in compression, dovetails for members in tension, scarf joints for lengthening timbers. Cut joints with a combination of power tools for rough shaping and hand tools for final fitting. Drive pegs of a harder wood — white oak pegs in softwood frames, black locust pegs in hardwood — through offset holes (drawboring) to pull the joint tight. The test: every major joint should be disassemblable by driving out its pegs and separating its members, without splitting wood or cutting metal, in under fifteen minutes by one person with a mallet and drift pin.",
     "connections_up": [
-      54,
       49,
+      54,
       56
     ],
     "connections_down": [
-      210,
-      169
+      169,
+      210
     ],
     "tags": [
       "wood",
@@ -7689,7 +7551,7 @@
     "solution": "establish in every neighborhood construction program a formal apprenticeship track with defined stages — observer, assistant, journeyperson, mentor — each lasting at least one full project cycle. Pair each apprentice with a single lead builder for at least six months of continuous work. Require that 20 percent of labor hours on any community-supported construction project be performed by registered apprentices. Document the skills matrix: what an apprentice at each stage should be able to do with their hands, unaided, to a testable standard. The test: can the third-year apprentice, given materials and drawings, build a four-meter wall section — framed, sheathed, weatherproofed — in one working day, to code, without supervision? If so, the program is working.",
     "connections_up": [
       57,
-      221,
+      100,
       225
     ],
     "connections_down": [
@@ -8064,13 +7926,13 @@
     "body": "The problem is not ignorance but invisibility. A dripping toilet flapper wastes 750 liters per day — enough to fill three bathtubs — yet makes no sound and leaves no trace until the bill arrives six weeks later. A slow leak beneath a sink can run for months before anyone notices the water damage. The WaterSmart behavioral studies conducted across California utilities between 2013 and 2018 found that households receiving real-time consumption feedback reduced usage by 5 percent on average, with high users — those most unaware of their habits — reducing by 12 to 15 percent. The savings came not from deprivation but from awareness: people who could see the spike when they ran the irrigation system began to question whether the lawn needed water that day.\n\nThe principle extends Alexander's pattern Light on Two Sides (159), which argues that rooms need light from multiple directions to feel alive and legible. The same logic applies to resource flows: a single monthly bill provides one dim reading; a continuous display provides the light by which a household understands itself. The city of Dubuque, Iowa, deployed smart water meters with in-home displays to 22,000 residents between 2011 and 2013 as part of its Smarter Sustainable Dubuque initiative. Households with displays detected leaks within hours instead of weeks; the program documented a 6.6 percent reduction in residential water use and identified over 1,000 previously undetected leaks in the first year. The display made the meter legible, and legibility enabled action.\n\nThe technology has matured. Devices like the Flume sensor strap onto existing meters without cutting pipes and transmit consumption data to a smartphone or mounted display. The Phyn Plus installs at the main shutoff and can detect flow signatures as small as a slowly running toilet. Municipal advanced metering infrastructure (AMI) programs in cities from Philadelphia to Singapore now provide near-real-time data to utility customers through web portals. The hardware exists; the question is where to put the information. A smartphone app works for those who check it, but a dashboard mounted in a visible location — near the kitchen, by the mechanical room, beside the water heater — works for everyone who lives in the house. It becomes part of the building, not a subscription service.\n\nThe Water Budget (70) calls for a household accounting of water in and water out. The dashboard makes that budget a living document. When the cistern (136) fills after a rain, the display shows the contribution. When irrigation runs, the display shows the draw. The abstract becomes tangible: you can see the relationship between the roof, the tank, and the garden. A household that watches its water is a household that conserves its water — not from guilt, but from understanding.",
     "solution": "install a real-time water consumption display in every dwelling, connected to a smart meter at the main supply line. Mount the display where it will be seen daily — near the kitchen sink, in the hallway to the mechanical room, or beside the water heater. The display should show current flow rate, daily consumption compared to the household baseline, and an alert when flow continues for more than two hours without interruption (the signature of a leak). Test: a toilet left running should trigger a visible alert within four hours; household members should be able to state their average daily consumption within 20 percent accuracy.",
     "connections_up": [
-      223,
+      68,
       70,
-      68
+      223
     ],
     "connections_down": [
-      136,
-      26
+      26,
+      136
     ],
     "tags": [
       "water",
@@ -8458,10 +8320,10 @@
     "solution": "at every place where focused work occurs — desk, reading chair, workbench, sewing table, kitchen counter where knives are used — provide a dedicated task light positioned 30-45 degrees from the work surface, opposite the user's dominant hand, with the light source shielded from direct view. Size the pool of light to cover the active work area plus 150mm margin. Aim for 400-500 lux at the task surface while ambient room light holds at 100-200 lux. Test by reading 8-point type comfortably without leaning forward, and by confirming that the hand does not cast a shadow on the work.",
     "connections_up": [
       34,
-      251,
       83,
       85,
-      250
+      250,
+      251
     ],
     "connections_down": [],
     "tags": [
