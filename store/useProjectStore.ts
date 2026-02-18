@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { persist, createJSONStorage } from 'zustand/middleware';
 import type { Project, ProjectPattern, ProjectPatternStatus } from '@/lib/types';
 
 export interface ProjectTemplate {
@@ -34,35 +34,174 @@ interface ProjectStore {
   projects: Project[];
   activeProjectId: string | null;
 
+  // Auth state
+  isAuthenticated: boolean;
+  isLoading: boolean;
+  isSyncing: boolean;
+  migrationComplete: boolean;
+
   // Project CRUD
-  createProject: (name: string, description?: string) => Project;
-  createProjectFromTemplate: (templateId: string) => Project | null;
-  updateProject: (id: string, updates: Partial<Pick<Project, 'name' | 'description'>>) => void;
-  deleteProject: (id: string) => void;
+  createProject: (name: string, description?: string) => Promise<Project>;
+  createProjectFromTemplate: (templateId: string) => Promise<Project | null>;
+  updateProject: (id: string, updates: Partial<Pick<Project, 'name' | 'description'>>) => Promise<void>;
+  deleteProject: (id: string) => Promise<void>;
   setActiveProject: (id: string | null) => void;
 
   // Pattern operations
-  addPattern: (projectId: string, patternId: number) => void;
-  removePattern: (projectId: string, patternId: number) => void;
-  updatePatternStatus: (projectId: string, patternId: number, status: ProjectPatternStatus) => void;
-  updatePatternNotes: (projectId: string, patternId: number, notes: string) => void;
+  addPattern: (projectId: string, patternId: number) => Promise<void>;
+  removePattern: (projectId: string, patternId: number) => Promise<void>;
+  updatePatternStatus: (projectId: string, patternId: number, status: ProjectPatternStatus) => Promise<void>;
+  updatePatternNotes: (projectId: string, patternId: number, notes: string) => Promise<void>;
 
   // Helpers
   getActiveProject: () => Project | undefined;
   isPatternInProject: (projectId: string, patternId: number) => boolean;
   exportProject: (id: string) => string;
+
+  // Auth methods
+  setAuthenticated: (authenticated: boolean) => void;
+  loadProjects: () => Promise<void>;
+  migrateLocalToCloud: () => Promise<number>;
+  clearLocalProjects: () => void;
 }
 
 const generateId = () => Math.random().toString(36).substring(2, 15);
+
+const STORAGE_KEY = 'language-a-projects';
+
+// Helper to get localStorage projects directly (for migration)
+function getLocalStorageProjects(): Project[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (!stored) return [];
+    const parsed = JSON.parse(stored);
+    return parsed?.state?.projects ?? [];
+  } catch {
+    return [];
+  }
+}
+
+// Helper to clear localStorage projects (after migration)
+function clearLocalStorageProjects(): void {
+  if (typeof window === 'undefined') return;
+  try {
+    localStorage.removeItem(STORAGE_KEY);
+  } catch {
+    // Ignore errors
+  }
+}
 
 export const useProjectStore = create<ProjectStore>()(
   persist(
     (set, get) => ({
       projects: [],
       activeProjectId: null,
+      isAuthenticated: false,
+      isLoading: false,
+      isSyncing: false,
+      migrationComplete: false,
 
-      createProject: (name, description = '') => {
+      setAuthenticated: (authenticated) => {
+        set({ isAuthenticated: authenticated });
+      },
+
+      loadProjects: async () => {
+        const { isAuthenticated } = get();
+        if (!isAuthenticated) return;
+
+        set({ isLoading: true });
+        try {
+          const response = await fetch('/api/projects');
+          if (response.ok) {
+            const projects = await response.json();
+            set({ projects, isLoading: false });
+          } else {
+            set({ isLoading: false });
+          }
+        } catch {
+          set({ isLoading: false });
+        }
+      },
+
+      migrateLocalToCloud: async () => {
+        const { isAuthenticated } = get();
+        if (!isAuthenticated) return 0;
+
+        const localProjects = getLocalStorageProjects();
+        if (localProjects.length === 0) {
+          set({ migrationComplete: true });
+          return 0;
+        }
+
+        set({ isSyncing: true });
+        let migratedCount = 0;
+
+        try {
+          for (const project of localProjects) {
+            const response = await fetch('/api/projects', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                name: project.name,
+                description: project.description,
+                patterns: project.patterns,
+              }),
+            });
+
+            if (response.ok) {
+              migratedCount++;
+            }
+          }
+
+          // Clear localStorage after successful migration
+          if (migratedCount > 0) {
+            clearLocalStorageProjects();
+          }
+
+          // Reload projects from cloud
+          await get().loadProjects();
+          set({ isSyncing: false, migrationComplete: true });
+          return migratedCount;
+        } catch {
+          set({ isSyncing: false, migrationComplete: true });
+          return migratedCount;
+        }
+      },
+
+      clearLocalProjects: () => {
+        clearLocalStorageProjects();
+      },
+
+      createProject: async (name, description = '') => {
+        const { isAuthenticated } = get();
         const now = new Date().toISOString();
+
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch('/api/projects', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ name, description }),
+            });
+
+            if (response.ok) {
+              const project = await response.json();
+              set(state => ({
+                projects: [...state.projects, project],
+                activeProjectId: project.id,
+                isSyncing: false,
+              }));
+              return project;
+            }
+          } catch {
+            // Fall through to local creation
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local creation (anonymous or fallback)
         const project: Project = {
           id: generateId(),
           name,
@@ -80,10 +219,11 @@ export const useProjectStore = create<ProjectStore>()(
         return project;
       },
 
-      createProjectFromTemplate: (templateId) => {
+      createProjectFromTemplate: async (templateId) => {
         const template = PROJECT_TEMPLATES.find(t => t.id === templateId);
         if (!template) return null;
 
+        const { isAuthenticated } = get();
         const now = new Date().toISOString();
         const patterns: ProjectPattern[] = template.patternIds.map(patternId => ({
           patternId,
@@ -92,6 +232,35 @@ export const useProjectStore = create<ProjectStore>()(
           addedAt: now,
         }));
 
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch('/api/projects', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                name: template.name,
+                description: template.description,
+                patterns: patterns,
+              }),
+            });
+
+            if (response.ok) {
+              const project = await response.json();
+              set(state => ({
+                projects: [...state.projects, project],
+                activeProjectId: project.id,
+                isSyncing: false,
+              }));
+              return project;
+            }
+          } catch {
+            // Fall through to local creation
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local creation (anonymous or fallback)
         const project: Project = {
           id: generateId(),
           name: template.name,
@@ -109,7 +278,35 @@ export const useProjectStore = create<ProjectStore>()(
         return project;
       },
 
-      updateProject: (id, updates) => {
+      updateProject: async (id, updates) => {
+        const { isAuthenticated } = get();
+
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch(`/api/projects/${id}`, {
+              method: 'PUT',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(updates),
+            });
+
+            if (response.ok) {
+              const updatedProject = await response.json();
+              set(state => ({
+                projects: state.projects.map(p =>
+                  p.id === id ? updatedProject : p
+                ),
+                isSyncing: false,
+              }));
+              return;
+            }
+          } catch {
+            // Fall through to local update
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local update
         set(state => ({
           projects: state.projects.map(p =>
             p.id === id
@@ -119,7 +316,31 @@ export const useProjectStore = create<ProjectStore>()(
         }));
       },
 
-      deleteProject: (id) => {
+      deleteProject: async (id) => {
+        const { isAuthenticated } = get();
+
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch(`/api/projects/${id}`, {
+              method: 'DELETE',
+            });
+
+            if (response.ok) {
+              set(state => ({
+                projects: state.projects.filter(p => p.id !== id),
+                activeProjectId: state.activeProjectId === id ? null : state.activeProjectId,
+                isSyncing: false,
+              }));
+              return;
+            }
+          } catch {
+            // Fall through to local delete
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local delete
         set(state => ({
           projects: state.projects.filter(p => p.id !== id),
           activeProjectId: state.activeProjectId === id ? null : state.activeProjectId,
@@ -130,10 +351,43 @@ export const useProjectStore = create<ProjectStore>()(
         set({ activeProjectId: id });
       },
 
-      addPattern: (projectId, patternId) => {
+      addPattern: async (projectId, patternId) => {
+        const { isAuthenticated } = get();
         const project = get().projects.find(p => p.id === projectId);
         if (!project || project.patterns.some(pp => pp.patternId === patternId)) return;
 
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch(`/api/projects/${projectId}/patterns`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ patternId }),
+            });
+
+            if (response.ok) {
+              const newPattern = await response.json();
+              set(state => ({
+                projects: state.projects.map(p =>
+                  p.id === projectId
+                    ? {
+                        ...p,
+                        patterns: [...p.patterns, newPattern],
+                        updatedAt: new Date().toISOString(),
+                      }
+                    : p
+                ),
+                isSyncing: false,
+              }));
+              return;
+            }
+          } catch {
+            // Fall through to local add
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local add
         const newPattern: ProjectPattern = {
           patternId,
           status: 'not_started',
@@ -154,7 +408,38 @@ export const useProjectStore = create<ProjectStore>()(
         }));
       },
 
-      removePattern: (projectId, patternId) => {
+      removePattern: async (projectId, patternId) => {
+        const { isAuthenticated } = get();
+
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch(`/api/projects/${projectId}/patterns/${patternId}`, {
+              method: 'DELETE',
+            });
+
+            if (response.ok) {
+              set(state => ({
+                projects: state.projects.map(p =>
+                  p.id === projectId
+                    ? {
+                        ...p,
+                        patterns: p.patterns.filter(pp => pp.patternId !== patternId),
+                        updatedAt: new Date().toISOString(),
+                      }
+                    : p
+                ),
+                isSyncing: false,
+              }));
+              return;
+            }
+          } catch {
+            // Fall through to local remove
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local remove
         set(state => ({
           projects: state.projects.map(p =>
             p.id === projectId
@@ -168,7 +453,42 @@ export const useProjectStore = create<ProjectStore>()(
         }));
       },
 
-      updatePatternStatus: (projectId, patternId, status) => {
+      updatePatternStatus: async (projectId, patternId, status) => {
+        const { isAuthenticated } = get();
+
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch(`/api/projects/${projectId}/patterns/${patternId}`, {
+              method: 'PUT',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ status }),
+            });
+
+            if (response.ok) {
+              set(state => ({
+                projects: state.projects.map(p =>
+                  p.id === projectId
+                    ? {
+                        ...p,
+                        patterns: p.patterns.map(pp =>
+                          pp.patternId === patternId ? { ...pp, status } : pp
+                        ),
+                        updatedAt: new Date().toISOString(),
+                      }
+                    : p
+                ),
+                isSyncing: false,
+              }));
+              return;
+            }
+          } catch {
+            // Fall through to local update
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local update
         set(state => ({
           projects: state.projects.map(p =>
             p.id === projectId
@@ -184,7 +504,42 @@ export const useProjectStore = create<ProjectStore>()(
         }));
       },
 
-      updatePatternNotes: (projectId, patternId, notes) => {
+      updatePatternNotes: async (projectId, patternId, notes) => {
+        const { isAuthenticated } = get();
+
+        if (isAuthenticated) {
+          set({ isSyncing: true });
+          try {
+            const response = await fetch(`/api/projects/${projectId}/patterns/${patternId}`, {
+              method: 'PUT',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ notes }),
+            });
+
+            if (response.ok) {
+              set(state => ({
+                projects: state.projects.map(p =>
+                  p.id === projectId
+                    ? {
+                        ...p,
+                        patterns: p.patterns.map(pp =>
+                          pp.patternId === patternId ? { ...pp, notes } : pp
+                        ),
+                        updatedAt: new Date().toISOString(),
+                      }
+                    : p
+                ),
+                isSyncing: false,
+              }));
+              return;
+            }
+          } catch {
+            // Fall through to local update
+          }
+          set({ isSyncing: false });
+        }
+
+        // Local update
         set(state => ({
           projects: state.projects.map(p =>
             p.id === projectId
@@ -217,7 +572,26 @@ export const useProjectStore = create<ProjectStore>()(
       },
     }),
     {
-      name: 'language-a-projects',
+      name: STORAGE_KEY,
+      storage: createJSONStorage(() => localStorage),
+      // Only persist when not authenticated
+      partialize: (state) => {
+        if (state.isAuthenticated) {
+          // Don't persist projects to localStorage when authenticated
+          return {
+            activeProjectId: state.activeProjectId,
+            isAuthenticated: false,
+            isLoading: false,
+            isSyncing: false,
+            migrationComplete: state.migrationComplete,
+            projects: [],
+          };
+        }
+        return {
+          projects: state.projects,
+          activeProjectId: state.activeProjectId,
+        };
+      },
     }
   )
 );

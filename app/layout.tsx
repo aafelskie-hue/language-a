@@ -3,6 +3,7 @@ import { DM_Sans, IBM_Plex_Mono, Instrument_Serif } from 'next/font/google';
 import { TopNav } from '@/components/layout/TopNav';
 import { Footer } from '@/components/layout/Footer';
 import { SessionProvider } from '@/components/providers/SessionProvider';
+import { ProjectSync } from '@/components/providers/ProjectSync';
 import '@/styles/globals.css';
 
 const dmSans = DM_Sans({
@@ -62,6 +63,7 @@ export default function RootLayout({
     <html lang="en" className={`${dmSans.variable} ${ibmPlexMono.variable} ${instrumentSerif.variable}`}>
       <body className="min-h-screen flex flex-col font-sans antialiased">
         <SessionProvider>
+          <ProjectSync />
           <a href="#main-content" className="skip-link">
             Skip to main content
           </a>
