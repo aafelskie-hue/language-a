@@ -1,14 +1,24 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import type { ChatMessage as ChatMessageType } from '@/lib/types';
 import { ChatMessage } from './ChatMessage';
 import { useProjectStore } from '@/store/useProjectStore';
+
+// Generate a unique session ID for this conversation
+function generateSessionId(): string {
+  return `${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
+}
 
 export function ChatInterface() {
   const [messages, setMessages] = useState<ChatMessageType[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [sessionId, setSessionId] = useState<string>(() => generateSessionId());
+  const [rateLimitInfo, setRateLimitInfo] = useState<{
+    message?: string;
+    upgradeHint?: string;
+  } | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const { getActiveProject } = useProjectStore();
@@ -22,9 +32,18 @@ export function ChatInterface() {
     scrollToBottom();
   }, [messages]);
 
+  const startNewConversation = useCallback(() => {
+    setMessages([]);
+    setSessionId(generateSessionId());
+    setRateLimitInfo(null);
+  }, []);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!input.trim() || isLoading) return;
+
+    // Clear any previous rate limit info
+    setRateLimitInfo(null);
 
     const userMessage: ChatMessageType = {
       id: Date.now().toString(),
@@ -33,31 +52,68 @@ export function ChatInterface() {
       timestamp: new Date().toISOString(),
     };
 
-    setMessages(prev => [...prev, userMessage]);
+    const updatedMessages = [...messages, userMessage];
+    setMessages(updatedMessages);
     setInput('');
     setIsLoading(true);
 
     try {
+      // Build conversation history for multi-turn support
+      const conversationHistory = updatedMessages.map(m => ({
+        role: m.role,
+        content: m.content,
+      }));
+
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          message: userMessage.content,
+          messages: conversationHistory,
           projectPatternIds: activeProject?.patterns.map(p => p.patternId),
+          sessionId,
         }),
       });
 
       const data = await response.json();
 
+      // Handle rate limiting
+      if (response.status === 429) {
+        setRateLimitInfo({
+          message: data.message,
+          upgradeHint: data.upgradeHint,
+        });
+        // Remove the user message since it wasn't processed
+        setMessages(messages);
+        return;
+      }
+
+      // Handle service unavailable
+      if (response.status === 503) {
+        const errorMessage: ChatMessageType = {
+          id: (Date.now() + 1).toString(),
+          role: 'assistant',
+          content: data.message || 'The Pattern Guide is temporarily unavailable. Please try again later.',
+          timestamp: new Date().toISOString(),
+        };
+        setMessages(prev => [...prev, errorMessage]);
+        return;
+      }
+
+      // Handle other errors
+      if (!response.ok) {
+        throw new Error(data.error || 'Request failed');
+      }
+
       const assistantMessage: ChatMessageType = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: data.message || 'I apologize, but I had trouble processing that. Please try again.',
+        content: data.response || 'I apologize, but I had trouble processing that. Please try again.',
         timestamp: new Date().toISOString(),
       };
 
       setMessages(prev => [...prev, assistantMessage]);
     } catch (error) {
+      console.error('Chat error:', error);
       const errorMessage: ChatMessageType = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
@@ -79,6 +135,18 @@ export function ChatInterface() {
 
   return (
     <div className="flex flex-col h-[calc(100vh-12rem)] max-h-[700px]">
+      {/* Header with new conversation button */}
+      {messages.length > 0 && (
+        <div className="flex justify-end px-4 py-2 border-b border-slate/10">
+          <button
+            onClick={startNewConversation}
+            className="text-sm text-steel hover:text-copper transition-colors"
+          >
+            New conversation
+          </button>
+        </div>
+      )}
+
       {/* Messages Area */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.length === 0 ? (
@@ -128,6 +196,16 @@ export function ChatInterface() {
           </>
         )}
       </div>
+
+      {/* Rate Limit Warning */}
+      {rateLimitInfo && (
+        <div className="mx-4 mb-2 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+          <p className="text-sm text-amber-800">{rateLimitInfo.message}</p>
+          {rateLimitInfo.upgradeHint && (
+            <p className="text-xs text-amber-600 mt-1">{rateLimitInfo.upgradeHint}</p>
+          )}
+        </div>
+      )}
 
       {/* Input Area */}
       <form onSubmit={handleSubmit} className="border-t border-slate/10 p-4 bg-white">
