@@ -43,7 +43,8 @@
       229,
       255,
       257
-    ]
+    ],
+    "reading_order": 4
   },
   {
     "id": 2,
@@ -95,7 +96,8 @@
       254,
       255,
       257
-    ]
+    ],
+    "reading_order": 5
   },
   {
     "id": 3,
@@ -124,7 +126,8 @@
       86,
       88,
       205
-    ]
+    ],
+    "reading_order": 35
   },
   {
     "id": 4,
@@ -156,7 +159,8 @@
       162,
       179,
       256
-    ]
+    ],
+    "reading_order": 16
   },
   {
     "id": 6,
@@ -187,7 +191,8 @@
       38,
       63,
       64
-    ]
+    ],
+    "reading_order": 169
   },
   {
     "id": 7,
@@ -214,7 +219,8 @@
       90,
       109,
       182
-    ]
+    ],
+    "reading_order": 188
   },
   {
     "id": 8,
@@ -245,7 +251,8 @@
       61,
       83,
       110
-    ]
+    ],
+    "reading_order": 146
   },
   {
     "id": 9,
@@ -274,7 +281,8 @@
       32,
       46,
       158
-    ]
+    ],
+    "reading_order": 155
   },
   {
     "id": 10,
@@ -300,7 +308,8 @@
       9,
       22,
       46
-    ]
+    ],
+    "reading_order": 156
   },
   {
     "id": 11,
@@ -332,7 +341,8 @@
       62,
       110,
       121
-    ]
+    ],
+    "reading_order": 150
   },
   {
     "id": 12,
@@ -380,7 +390,8 @@
       166,
       169,
       219
-    ]
+    ],
+    "reading_order": 84
   },
   {
     "id": 13,
@@ -417,7 +428,8 @@
       38,
       64,
       114
-    ]
+    ],
+    "reading_order": 121
   },
   {
     "id": 14,
@@ -449,7 +461,8 @@
       114,
       115,
       185
-    ]
+    ],
+    "reading_order": 90
   },
   {
     "id": 15,
@@ -484,7 +497,8 @@
       175,
       185,
       248
-    ]
+    ],
+    "reading_order": 76
   },
   {
     "id": 16,
@@ -517,7 +531,8 @@
       117,
       124,
       192
-    ]
+    ],
+    "reading_order": 91
   },
   {
     "id": 17,
@@ -542,7 +557,8 @@
       47,
       49,
       237
-    ]
+    ],
+    "reading_order": 132
   },
   {
     "id": 18,
@@ -571,7 +587,8 @@
       36,
       117,
       189
-    ]
+    ],
+    "reading_order": 124
   },
   {
     "id": 19,
@@ -620,7 +637,8 @@
       120,
       136,
       238
-    ]
+    ],
+    "reading_order": 182
   },
   {
     "id": 20,
@@ -659,7 +677,8 @@
       44,
       67,
       235
-    ]
+    ],
+    "reading_order": 218
   },
   {
     "id": 21,
@@ -694,7 +713,8 @@
       193,
       197,
       236
-    ]
+    ],
+    "reading_order": 21
   },
   {
     "id": 22,
@@ -752,7 +772,8 @@
       155,
       157,
       194
-    ]
+    ],
+    "reading_order": 105
   },
   {
     "id": 23,
@@ -791,7 +812,8 @@
       86,
       126,
       153
-    ]
+    ],
+    "reading_order": 106
   },
   {
     "id": 24,
@@ -827,7 +849,8 @@
       134,
       137,
       153
-    ]
+    ],
+    "reading_order": 82
   },
   {
     "id": 25,
@@ -877,7 +900,8 @@
       133,
       134,
       135
-    ]
+    ],
+    "reading_order": 145
   },
   {
     "id": 26,
@@ -914,7 +938,8 @@
       70,
       136,
       240
-    ]
+    ],
+    "reading_order": 189
   },
   {
     "id": 27,
@@ -946,7 +971,8 @@
       48,
       96,
       169
-    ]
+    ],
+    "reading_order": 176
   },
   {
     "id": 28,
@@ -982,7 +1008,8 @@
       104,
       143,
       207
-    ]
+    ],
+    "reading_order": 158
   },
   {
     "id": 29,
@@ -1019,7 +1046,8 @@
       203,
       205,
       206
-    ]
+    ],
+    "reading_order": 15
   },
   {
     "id": 30,
@@ -1061,7 +1089,8 @@
       87,
       114,
       210
-    ]
+    ],
+    "reading_order": 190
   },
   {
     "id": 31,
@@ -1089,7 +1118,8 @@
       68,
       117,
       145
-    ]
+    ],
+    "reading_order": 152
   },
   {
     "id": 32,
@@ -1126,7 +1156,8 @@
       89,
       90,
       159
-    ]
+    ],
+    "reading_order": 246
   },
   {
     "id": 33,
@@ -1165,7 +1196,8 @@
       87,
       146,
       211
-    ]
+    ],
+    "reading_order": 120
   },
   {
     "id": 34,
@@ -1228,7 +1260,8 @@
       250,
       252,
       253
-    ]
+    ],
+    "reading_order": 86
   },
   {
     "id": 35,
@@ -1270,7 +1303,8 @@
       172,
       213,
       217
-    ]
+    ],
+    "reading_order": 80
   },
   {
     "id": 36,
@@ -1309,7 +1343,8 @@
       146,
       213,
       215
-    ]
+    ],
+    "reading_order": 107
   },
   {
     "id": 37,
@@ -1348,7 +1383,8 @@
       183,
       186,
       189
-    ]
+    ],
+    "reading_order": 79
   },
   {
     "id": 38,
@@ -1388,7 +1424,8 @@
       126,
       153,
       212
-    ]
+    ],
+    "reading_order": 75
   },
   {
     "id": 39,
@@ -1426,7 +1463,8 @@
       115,
       173,
       218
-    ]
+    ],
+    "reading_order": 87
   },
   {
     "id": 40,
@@ -1460,7 +1498,8 @@
       215,
       217,
       218
-    ]
+    ],
+    "reading_order": 14
   },
   {
     "id": 41,
@@ -1514,7 +1553,8 @@
       96,
       100,
       254
-    ]
+    ],
+    "reading_order": 7
   },
   {
     "id": 42,
@@ -1556,7 +1596,8 @@
       188,
       198,
       254
-    ]
+    ],
+    "reading_order": 3
   },
   {
     "id": 43,
@@ -1608,7 +1649,8 @@
       246,
       255,
       256
-    ]
+    ],
+    "reading_order": 1
   },
   {
     "id": 44,
@@ -1648,7 +1690,8 @@
       199,
       208,
       234
-    ]
+    ],
+    "reading_order": 2
   },
   {
     "id": 45,
@@ -1691,7 +1734,8 @@
       64,
       159,
       233
-    ]
+    ],
+    "reading_order": 230
   },
   {
     "id": 46,
@@ -1740,7 +1784,8 @@
       128,
       129,
       150
-    ]
+    ],
+    "reading_order": 203
   },
   {
     "id": 47,
@@ -1784,7 +1829,8 @@
       104,
       189,
       210
-    ]
+    ],
+    "reading_order": 229
   },
   {
     "id": 48,
@@ -1814,7 +1860,8 @@
       31,
       34,
       84
-    ]
+    ],
+    "reading_order": 220
   },
   {
     "id": 49,
@@ -1852,7 +1899,8 @@
       169,
       207,
       226
-    ]
+    ],
+    "reading_order": 204
   },
   {
     "id": 51,
@@ -1882,7 +1930,8 @@
       222,
       223,
       225
-    ]
+    ],
+    "reading_order": 13
   },
   {
     "id": 52,
@@ -1916,7 +1965,8 @@
       220,
       222,
       223
-    ]
+    ],
+    "reading_order": 34
   },
   {
     "id": 53,
@@ -1945,7 +1995,8 @@
       219,
       220,
       222
-    ]
+    ],
+    "reading_order": 23
   },
   {
     "id": 54,
@@ -1987,7 +2038,8 @@
       108,
       226,
       228
-    ]
+    ],
+    "reading_order": 192
   },
   {
     "id": 55,
@@ -2027,7 +2079,8 @@
       106,
       107,
       108
-    ]
+    ],
+    "reading_order": 198
   },
   {
     "id": 56,
@@ -2070,7 +2123,8 @@
       189,
       210,
       226
-    ]
+    ],
+    "reading_order": 191
   },
   {
     "id": 57,
@@ -2108,7 +2162,8 @@
       225,
       227,
       257
-    ]
+    ],
+    "reading_order": 8
   },
   {
     "id": 58,
@@ -2145,7 +2200,8 @@
       232,
       234,
       256
-    ]
+    ],
+    "reading_order": 9
   },
   {
     "id": 59,
@@ -2180,7 +2236,8 @@
       147,
       232,
       233
-    ]
+    ],
+    "reading_order": 112
   },
   {
     "id": 60,
@@ -2204,7 +2261,8 @@
       58,
       62,
       149
-    ]
+    ],
+    "reading_order": 26
   },
   {
     "id": 61,
@@ -2238,7 +2296,8 @@
       230,
       231,
       251
-    ]
+    ],
+    "reading_order": 78
   },
   {
     "id": 62,
@@ -2273,7 +2332,8 @@
       59,
       151,
       152
-    ]
+    ],
+    "reading_order": 235
   },
   {
     "id": 63,
@@ -2306,7 +2366,8 @@
       59,
       64,
       147
-    ]
+    ],
+    "reading_order": 236
   },
   {
     "id": 64,
@@ -2345,7 +2406,8 @@
       129,
       200,
       233
-    ]
+    ],
+    "reading_order": 231
   },
   {
     "id": 65,
@@ -2376,7 +2438,8 @@
       135,
       202,
       240
-    ]
+    ],
+    "reading_order": 122
   },
   {
     "id": 66,
@@ -2404,7 +2467,8 @@
       25,
       33,
       70
-    ]
+    ],
+    "reading_order": 147
   },
   {
     "id": 67,
@@ -2435,7 +2499,8 @@
       120,
       235,
       238
-    ]
+    ],
+    "reading_order": 113
   },
   {
     "id": 68,
@@ -2470,7 +2535,8 @@
       228,
       239,
       240
-    ]
+    ],
+    "reading_order": 93
   },
   {
     "id": 69,
@@ -2498,7 +2564,8 @@
       22,
       64,
       68
-    ]
+    ],
+    "reading_order": 240
   },
   {
     "id": 70,
@@ -2527,7 +2594,8 @@
       136,
       190,
       239
-    ]
+    ],
+    "reading_order": 108
   },
   {
     "id": 71,
@@ -2559,7 +2627,8 @@
       242,
       243,
       245
-    ]
+    ],
+    "reading_order": 44
   },
   {
     "id": 72,
@@ -2591,7 +2660,8 @@
       241,
       244,
       256
-    ]
+    ],
+    "reading_order": 6
   },
   {
     "id": 73,
@@ -2624,7 +2694,8 @@
       74,
       213,
       245
-    ]
+    ],
+    "reading_order": 148
   },
   {
     "id": 74,
@@ -2653,7 +2724,8 @@
       242,
       243,
       245
-    ]
+    ],
+    "reading_order": 85
   },
   {
     "id": 75,
@@ -2679,7 +2751,8 @@
       42,
       71,
       243
-    ]
+    ],
+    "reading_order": 27
   },
   {
     "id": 76,
@@ -2709,7 +2782,8 @@
       142,
       165,
       244
-    ]
+    ],
+    "reading_order": 17
   },
   {
     "id": 77,
@@ -2746,7 +2820,8 @@
       172,
       246,
       248
-    ]
+    ],
+    "reading_order": 28
   },
   {
     "id": 78,
@@ -2773,7 +2848,8 @@
       77,
       244,
       246
-    ]
+    ],
+    "reading_order": 19
   },
   {
     "id": 79,
@@ -2799,7 +2875,8 @@
       43,
       77,
       116
-    ]
+    ],
+    "reading_order": 29
   },
   {
     "id": 80,
@@ -2834,7 +2911,8 @@
       174,
       175,
       185
-    ]
+    ],
+    "reading_order": 88
   },
   {
     "id": 81,
@@ -2862,7 +2940,8 @@
       171,
       209,
       249
-    ]
+    ],
+    "reading_order": 94
   },
   {
     "id": 82,
@@ -2894,7 +2973,8 @@
       212,
       231,
       251
-    ]
+    ],
+    "reading_order": 83
   },
   {
     "id": 83,
@@ -2927,7 +3007,8 @@
       212,
       251,
       252
-    ]
+    ],
+    "reading_order": 123
   },
   {
     "id": 84,
@@ -2963,7 +3044,8 @@
       48,
       82,
       150
-    ]
+    ],
+    "reading_order": 249
   },
   {
     "id": 85,
@@ -2991,7 +3073,8 @@
       231,
       250,
       252
-    ]
+    ],
+    "reading_order": 126
   },
   {
     "id": 86,
@@ -3023,7 +3106,8 @@
       83,
       154,
       197
-    ]
+    ],
+    "reading_order": 89
   },
   {
     "id": 87,
@@ -3052,7 +3136,8 @@
       160,
       184,
       211
-    ]
+    ],
+    "reading_order": 92
   },
   {
     "id": 88,
@@ -3076,7 +3161,8 @@
       32,
       33,
       53
-    ]
+    ],
+    "reading_order": 37
   },
   {
     "id": 89,
@@ -3105,7 +3191,8 @@
       53,
       87,
       234
-    ]
+    ],
+    "reading_order": 25
   },
   {
     "id": 90,
@@ -3138,7 +3225,8 @@
       158,
       159,
       160
-    ]
+    ],
+    "reading_order": 129
   },
   {
     "id": 91,
@@ -3169,7 +3257,8 @@
       164,
       201,
       224
-    ]
+    ],
+    "reading_order": 10
   },
   {
     "id": 92,
@@ -3199,7 +3288,8 @@
       161,
       164,
       224
-    ]
+    ],
+    "reading_order": 20
   },
   {
     "id": 93,
@@ -3226,7 +3316,8 @@
       41,
       42,
       163
-    ]
+    ],
+    "reading_order": 140
   },
   {
     "id": 94,
@@ -3255,7 +3346,8 @@
       42,
       57,
       134
-    ]
+    ],
+    "reading_order": 57
   },
   {
     "id": 95,
@@ -3283,7 +3375,8 @@
       161,
       162,
       163
-    ]
+    ],
+    "reading_order": 36
   },
   {
     "id": 96,
@@ -3319,7 +3412,8 @@
       111,
       112,
       167
-    ]
+    ],
+    "reading_order": 24
   },
   {
     "id": 97,
@@ -3344,7 +3438,8 @@
       25,
       29,
       96
-    ]
+    ],
+    "reading_order": 38
   },
   {
     "id": 98,
@@ -3374,7 +3469,8 @@
       113,
       159,
       209
-    ]
+    ],
+    "reading_order": 95
   },
   {
     "id": 99,
@@ -3406,7 +3502,8 @@
       166,
       170,
       176
-    ]
+    ],
+    "reading_order": 130
   },
   {
     "id": 100,
@@ -3436,7 +3533,8 @@
       168,
       203,
       205
-    ]
+    ],
+    "reading_order": 18
   },
   {
     "id": 101,
@@ -3466,7 +3564,8 @@
       103,
       105,
       108
-    ]
+    ],
+    "reading_order": 206
   },
   {
     "id": 102,
@@ -3491,7 +3590,8 @@
     "connections_down": [
       105,
       106
-    ]
+    ],
+    "reading_order": 237
   },
   {
     "id": 103,
@@ -3517,7 +3617,8 @@
     "connections_down": [
       104,
       147
-    ]
+    ],
+    "reading_order": 247
   },
   {
     "id": 104,
@@ -3549,7 +3650,8 @@
     "connections_down": [
       105,
       106
-    ]
+    ],
+    "reading_order": 250
   },
   {
     "id": 105,
@@ -3577,7 +3679,8 @@
       55,
       104,
       106
-    ]
+    ],
+    "reading_order": 244
   },
   {
     "id": 106,
@@ -3602,7 +3705,8 @@
     "connections_down": [
       55,
       104
-    ]
+    ],
+    "reading_order": 251
   },
   {
     "id": 107,
@@ -3630,7 +3734,8 @@
     "connections_down": [
       52,
       108
-    ]
+    ],
+    "reading_order": 252
   },
   {
     "id": 108,
@@ -3655,7 +3760,8 @@
       156,
       181
     ],
-    "connections_down": []
+    "connections_down": [],
+    "reading_order": 253
   },
   {
     "id": 109,
@@ -3689,7 +3795,8 @@
       "video-calls",
       "focus"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 199
   },
   {
     "id": 110,
@@ -3716,7 +3823,8 @@
       "utility",
       "organization"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 224
   },
   {
     "id": 111,
@@ -3755,7 +3863,8 @@
       "courtyard",
       "community",
       "small-dwelling"
-    ]
+    ],
+    "reading_order": 59
   },
   {
     "id": 112,
@@ -3789,7 +3898,8 @@
       "privacy",
       "outdoor-space"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 110
   },
   {
     "id": 113,
@@ -3821,7 +3931,8 @@
       "missing-middle",
       "ground-related"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 114
   },
   {
     "id": 114,
@@ -3857,7 +3968,8 @@
       "infill-housing",
       "garden-integration",
       "gentle-density"
-    ]
+    ],
+    "reading_order": 168
   },
   {
     "id": 115,
@@ -3889,7 +4001,8 @@
       "partitions",
       "open-building"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 175
   },
   {
     "id": 116,
@@ -3928,7 +4041,8 @@
       "community-infrastructure",
       "climate-adaptation",
       "distributed-systems"
-    ]
+    ],
+    "reading_order": 45
   },
   {
     "id": 117,
@@ -3960,7 +4074,8 @@
       "filtration",
       "refuge",
       "health"
-    ]
+    ],
+    "reading_order": 181
   },
   {
     "id": 118,
@@ -3995,7 +4110,8 @@
       "thermal-envelope",
       "entry"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 207
   },
   {
     "id": 119,
@@ -4032,7 +4148,8 @@
       "water-quality",
       "flood-control",
       "urban-ecology"
-    ]
+    ],
+    "reading_order": 39
   },
   {
     "id": 120,
@@ -4069,7 +4186,8 @@
       "drainage",
       "landscape"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 221
   },
   {
     "id": 121,
@@ -4105,7 +4223,8 @@
       "solar",
       "backup-power",
       "load-shifting"
-    ]
+    ],
+    "reading_order": 127
   },
   {
     "id": 122,
@@ -4136,7 +4255,8 @@
       "window placement",
       "airflow",
       "thermal comfort"
-    ]
+    ],
+    "reading_order": 183
   },
   {
     "id": 123,
@@ -4166,7 +4286,8 @@
       "natural-ventilation",
       "summer-comfort"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 116
   },
   {
     "id": 124,
@@ -4197,7 +4318,8 @@
       "night-cooling",
       "summer-comfort"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 159
   },
   {
     "id": 125,
@@ -4234,7 +4356,8 @@
       "envelope",
       "construction-detail"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 225
   },
   {
     "id": 126,
@@ -4277,7 +4400,8 @@
       "thermal-mass",
       "heating",
       "winter"
-    ]
+    ],
+    "reading_order": 109
   },
   {
     "id": 127,
@@ -4314,7 +4438,8 @@
       "roof",
       "energy-generation",
       "cold-climate"
-    ]
+    ],
+    "reading_order": 153
   },
   {
     "id": 128,
@@ -4357,7 +4482,8 @@
       "envelope-continuity",
       "condensation-prevention",
       "energy-efficiency"
-    ]
+    ],
+    "reading_order": 243
   },
   {
     "id": 129,
@@ -4404,7 +4530,8 @@
       "passive-house",
       "cold-climate",
       "energy"
-    ]
+    ],
+    "reading_order": 242
   },
   {
     "id": 130,
@@ -4444,7 +4571,8 @@
       "airtightness",
       "blower-door",
       "cold-climate"
-    ]
+    ],
+    "reading_order": 197
   },
   {
     "id": 131,
@@ -4479,7 +4607,8 @@
       "insulation",
       "urban-ecology"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 96
   },
   {
     "id": 132,
@@ -4515,7 +4644,8 @@
       "agroforestry",
       "public-land"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 47
   },
   {
     "id": 133,
@@ -4547,7 +4677,8 @@
       "earth-sheltered",
       "preservation"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 173
   },
   {
     "id": 134,
@@ -4581,7 +4712,8 @@
       "cold-climate",
       "self-reliance"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 184
   },
   {
     "id": 135,
@@ -4614,7 +4746,8 @@
       "planted-filter",
       "subsurface"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 180
   },
   {
     "id": 136,
@@ -4650,7 +4783,8 @@
       "irrigation",
       "resilience"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 210
   },
   {
     "id": 137,
@@ -4681,7 +4815,8 @@
       "closed-loop",
       "greenhouse"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 98
   },
   {
     "id": 139,
@@ -4714,7 +4849,8 @@
       "adaptive-reuse",
       "suburban-retrofit"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 102
   },
   {
     "id": 140,
@@ -4746,7 +4882,8 @@
       "sacred-space",
       "housing"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 117
   },
   {
     "id": 141,
@@ -4781,7 +4918,8 @@
       "high-ceiling",
       "open-plan"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 99
   },
   {
     "id": 142,
@@ -4813,7 +4951,8 @@
       "community",
       "housing"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 103
   },
   {
     "id": 143,
@@ -4859,7 +4998,8 @@
       "mechanical-systems",
       "equipment-sizing",
       "cold-climate"
-    ]
+    ],
+    "reading_order": 232
   },
   {
     "id": 144,
@@ -4893,7 +5033,8 @@
       "productivity",
       "wellbeing"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 77
   },
   {
     "id": 145,
@@ -4927,7 +5068,8 @@
       "building science",
       "durability"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 213
   },
   {
     "id": 146,
@@ -4961,7 +5103,8 @@
       "transition-space",
       "covered-space"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 177
   },
   {
     "id": 147,
@@ -4998,7 +5141,8 @@
       "thermal",
       "boot-storage",
       "cold-climate"
-    ]
+    ],
+    "reading_order": 215
   },
   {
     "id": 148,
@@ -5033,7 +5177,8 @@
       "infrastructure",
       "hydronic-heating"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 194
   },
   {
     "id": 149,
@@ -5065,7 +5210,8 @@
       "stormwater",
       "vegetation-protection"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 61
   },
   {
     "id": 150,
@@ -5101,7 +5247,8 @@
       "condensation",
       "triple-glazing",
       "cold-climate"
-    ]
+    ],
+    "reading_order": 245
   },
   {
     "id": 151,
@@ -5133,7 +5280,8 @@
       "snow",
       "safety",
       "engineering"
-    ]
+    ],
+    "reading_order": 216
   },
   {
     "id": 152,
@@ -5169,7 +5317,8 @@
       "attic",
       "eaves",
       "winter"
-    ]
+    ],
+    "reading_order": 214
   },
   {
     "id": 153,
@@ -5203,7 +5352,8 @@
       "solar-heating",
       "seasonal-adaptation"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 178
   },
   {
     "id": 154,
@@ -5236,7 +5386,8 @@
       "bedroom",
       "light-control"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 157
   },
   {
     "id": 155,
@@ -5274,7 +5425,8 @@
       "envelope-testing",
       "pressure-testing",
       "cold-climate"
-    ]
+    ],
+    "reading_order": 233
   },
   {
     "id": 156,
@@ -5309,7 +5461,8 @@
       "infrastructure",
       "vertical-chase"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 100
   },
   {
     "id": 157,
@@ -5347,7 +5500,8 @@
       "air-sealing",
       "insulation"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 205
   },
   {
     "id": 158,
@@ -5378,7 +5532,8 @@
       "vestibule",
       "noise-control"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 201
   },
   {
     "id": 159,
@@ -5410,7 +5565,8 @@
       "impact-noise",
       "multi-family",
       "construction-detail"
-    ]
+    ],
+    "reading_order": 208
   },
   {
     "id": 160,
@@ -5434,7 +5590,8 @@
       47
     ],
     "tags": "[acoustics, materials, surfaces, absorption, reverberation]",
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 209
   },
   {
     "id": 161,
@@ -5464,7 +5621,8 @@
       "multi-unit",
       "repair"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 141
   },
   {
     "id": 162,
@@ -5489,7 +5647,8 @@
       206
     ],
     "tags": "[mobility, sharing, commons, vehicles, parking]",
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 63
   },
   {
     "id": 163,
@@ -5518,7 +5677,8 @@
       "space-efficiency",
       "hospitality"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 41
   },
   {
     "id": 164,
@@ -5548,7 +5708,8 @@
       "storage",
       "community"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 48
   },
   {
     "id": 165,
@@ -5579,7 +5740,8 @@
       "early-childhood",
       "mutual-aid"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 40
   },
   {
     "id": 166,
@@ -5617,7 +5779,8 @@
       "fine-grain",
       "incremental",
       "missing-middle"
-    ]
+    ],
+    "reading_order": 154
   },
   {
     "id": 167,
@@ -5648,7 +5811,8 @@
       "incremental-development",
       "enclosure"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 49
   },
   {
     "id": 168,
@@ -5684,7 +5848,8 @@
       "height",
       "infill",
       "neighborhood-edge"
-    ]
+    ],
+    "reading_order": 60
   },
   {
     "id": 169,
@@ -5719,7 +5884,8 @@
       "flexible-layout",
       "lifecycle"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 248
   },
   {
     "id": 170,
@@ -5754,7 +5920,8 @@
       "mixed-use",
       "ownership",
       "street-activation"
-    ]
+    ],
+    "reading_order": 111
   },
   {
     "id": 171,
@@ -5793,7 +5960,8 @@
       "doorways",
       "bathrooms",
       "thresholds"
-    ]
+    ],
+    "reading_order": 125
   },
   {
     "id": 172,
@@ -5831,7 +5999,8 @@
       "entrance",
       "wheelchair",
       "visitability"
-    ]
+    ],
+    "reading_order": 171
   },
   {
     "id": 173,
@@ -5863,7 +6032,8 @@
       "universal-design",
       "aging-in-place"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 226
   },
   {
     "id": 174,
@@ -5896,7 +6066,8 @@
       "grab-bars",
       "roll-in-shower"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 187
   },
   {
     "id": 175,
@@ -5927,7 +6098,8 @@
       "kitchen",
       "mobility"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 172
   },
   {
     "id": 176,
@@ -5964,7 +6136,8 @@
       "active-frontage",
       "dual-address",
       "street-presence"
-    ]
+    ],
+    "reading_order": 151
   },
   {
     "id": 177,
@@ -5997,7 +6170,8 @@
       "mid-block",
       "permeability"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 62
   },
   {
     "id": 178,
@@ -6029,7 +6203,8 @@
       "community-gathering",
       "local-economy"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 46
   },
   {
     "id": 179,
@@ -6053,7 +6228,8 @@
       105
     ],
     "tags": [],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 52
   },
   {
     "id": 180,
@@ -6088,7 +6264,8 @@
       "client-access",
       "professional-space"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 170
   },
   {
     "id": 181,
@@ -6119,7 +6296,8 @@
       "home-technology",
       "redundancy"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 161
   },
   {
     "id": 182,
@@ -6149,7 +6327,8 @@
       "transformable",
       "modular"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 200
   },
   {
     "id": 183,
@@ -6183,7 +6362,8 @@
       "housing-diversity",
       "common-house"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 11
   },
   {
     "id": 184,
@@ -6216,7 +6396,8 @@
       "live-work",
       "small-enterprise"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 133
   },
   {
     "id": 185,
@@ -6254,7 +6435,8 @@
       "universal-design",
       "main-floor-living",
       "lifetime-home"
-    ]
+    ],
+    "reading_order": 149
   },
   {
     "id": 186,
@@ -6286,7 +6468,8 @@
       "cold-climate",
       "community"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 12
   },
   {
     "id": 187,
@@ -6320,7 +6503,8 @@
       "stormwater",
       "land-use",
       "retreat"
-    ]
+    ],
+    "reading_order": 32
   },
   {
     "id": 188,
@@ -6350,7 +6534,8 @@
       "fire-resilience",
       "landscape-planning",
       "defensible-space"
-    ]
+    ],
+    "reading_order": 64
   },
   {
     "id": 189,
@@ -6382,7 +6567,8 @@
       "ignition-resistance",
       "embers",
       "WUI"
-    ]
+    ],
+    "reading_order": 217
   },
   {
     "id": 190,
@@ -6417,7 +6603,8 @@
       "xeriscaping",
       "irrigation"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 97
   },
   {
     "id": 191,
@@ -6445,7 +6632,8 @@
       "resilience",
       "shelter"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 142
   },
   {
     "id": 192,
@@ -6479,7 +6667,8 @@
       "shade",
       "cooling"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 81
   },
   {
     "id": 193,
@@ -6509,7 +6698,8 @@
       "shared-systems",
       "winter",
       "efficiency"
-    ]
+    ],
+    "reading_order": 53
   },
   {
     "id": 194,
@@ -6544,7 +6734,8 @@
       "renewable-energy",
       "ground-source",
       "air-source"
-    ]
+    ],
+    "reading_order": 134
   },
   {
     "id": 195,
@@ -6575,7 +6766,8 @@
       "resilience",
       "district-heating"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 160
   },
   {
     "id": 196,
@@ -6606,7 +6798,8 @@
       "heat-pump",
       "floor-slab"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 196
   },
   {
     "id": 197,
@@ -6640,7 +6833,8 @@
       "louvers",
       "awnings"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 135
   },
   {
     "id": 198,
@@ -6672,7 +6866,8 @@
       "collective-maintenance",
       "cold-hardy"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 30
   },
   {
     "id": 199,
@@ -6701,7 +6896,8 @@
       "food-production",
       "biodiversity"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 54
   },
   {
     "id": 200,
@@ -6731,7 +6927,8 @@
       "amphibians",
       "biodiversity"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 104
   },
   {
     "id": 201,
@@ -6760,7 +6957,8 @@
       "community-infrastructure",
       "resilience"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 65
   },
   {
     "id": 202,
@@ -6790,7 +6988,8 @@
       "biological-filtration",
       "water-reuse"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 137
   },
   {
     "id": 203,
@@ -6828,7 +7027,8 @@
       "vacancy",
       "incremental-development",
       "heritage"
-    ]
+    ],
+    "reading_order": 42
   },
   {
     "id": 204,
@@ -6859,7 +7059,8 @@
       "mixed-use",
       "embodied-carbon"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 118
   },
   {
     "id": 205,
@@ -6894,7 +7095,8 @@
       "vacant-lots",
       "infrastructure",
       "neighborhood-investment"
-    ]
+    ],
+    "reading_order": 58
   },
   {
     "id": 206,
@@ -6924,7 +7126,8 @@
       "housing",
       "urban-land"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 143
   },
   {
     "id": 207,
@@ -6956,7 +7159,8 @@
       "reuse",
       "demolition",
       "assessment"
-    ]
+    ],
+    "reading_order": 219
   },
   {
     "id": 208,
@@ -6992,7 +7196,8 @@
       "mental health",
       "woodland"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 43
   },
   {
     "id": 209,
@@ -7025,7 +7230,8 @@
       "movement",
       "biophilia"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 115
   },
   {
     "id": 210,
@@ -7058,7 +7264,8 @@
       "wellbeing",
       "texture"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 239
   },
   {
     "id": 211,
@@ -7089,7 +7296,8 @@
       "restoration",
       "sensory"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 136
   },
   {
     "id": 212,
@@ -7121,7 +7329,8 @@
       "orientation",
       "health"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 228
   },
   {
     "id": 213,
@@ -7157,7 +7366,8 @@
       "street-life",
       "surveillance",
       "social"
-    ]
+    ],
+    "reading_order": 179
   },
   {
     "id": 214,
@@ -7187,7 +7397,8 @@
       "enclosure",
       "pedestrian comfort",
       "building height"
-    ]
+    ],
+    "reading_order": 50
   },
   {
     "id": 215,
@@ -7221,7 +7432,8 @@
       "enclosure",
       "view"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 131
   },
   {
     "id": 216,
@@ -7252,7 +7464,8 @@
       "window-seats",
       "cold-climate"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 193
   },
   {
     "id": 217,
@@ -7283,7 +7496,8 @@
       "proportion",
       "drama"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 101
   },
   {
     "id": 218,
@@ -7314,7 +7528,8 @@
       "small-footprint",
       "alcoves"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 167
   },
   {
     "id": 219,
@@ -7349,7 +7564,8 @@
       "governance",
       "collective-ownership",
       "resident-control"
-    ]
+    ],
+    "reading_order": 22
   },
   {
     "id": 220,
@@ -7379,7 +7595,8 @@
       "community",
       "cooperation"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 74
   },
   {
     "id": 222,
@@ -7413,7 +7630,8 @@
       "governance",
       "neutral-space"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 144
   },
   {
     "id": 223,
@@ -7443,7 +7661,8 @@
       "trust",
       "display"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 66
   },
   {
     "id": 224,
@@ -7478,7 +7697,8 @@
       "deconstruction",
       "materials"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 73
   },
   {
     "id": 225,
@@ -7504,7 +7724,8 @@
       227
     ],
     "tags": "[community, education, design, participation, craft]",
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 33
   },
   {
     "id": 226,
@@ -7535,7 +7756,8 @@
       "reuse",
       "timber-frame"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 238
   },
   {
     "id": 227,
@@ -7566,7 +7788,8 @@
       "mentorship",
       "construction"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 55
   },
   {
     "id": 228,
@@ -7596,7 +7819,8 @@
       "repair",
       "longevity"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 222
   },
   {
     "id": 229,
@@ -7627,7 +7851,8 @@
       "accessibility",
       "winter-maintenance",
       "walking"
-    ]
+    ],
+    "reading_order": 67
   },
   {
     "id": 230,
@@ -7657,7 +7882,8 @@
       "energy conservation",
       "thermal comfort"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 195
   },
   {
     "id": 231,
@@ -7690,7 +7916,8 @@
       "nordic",
       "SAD"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 185
   },
   {
     "id": 232,
@@ -7722,7 +7949,8 @@
       "passive",
       "energy"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 162
   },
   {
     "id": 233,
@@ -7758,7 +7986,8 @@
       "crawlspace",
       "cold-climate",
       "heat-loss"
-    ]
+    ],
+    "reading_order": 234
   },
   {
     "id": 234,
@@ -7790,7 +8019,8 @@
       "heating",
       "outdoor-comfort"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 68
   },
   {
     "id": 235,
@@ -7819,7 +8049,8 @@
       "groundwater",
       "runoff"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 223
   },
   {
     "id": 236,
@@ -7850,7 +8081,8 @@
       "water-reuse",
       "subsurface-flow"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 56
   },
   {
     "id": 237,
@@ -7881,7 +8113,8 @@
       "resilience",
       "water-management"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 163
   },
   {
     "id": 238,
@@ -7911,7 +8144,8 @@
       "flood-protection",
       "site-design",
       "resilience"
-    ]
+    ],
+    "reading_order": 164
   },
   {
     "id": 239,
@@ -7941,7 +8175,8 @@
       "leak-detection",
       "feedback"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 165
   },
   {
     "id": 240,
@@ -7970,7 +8205,8 @@
       "cross-connection",
       "infrastructure"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 211
   },
   {
     "id": 241,
@@ -8000,7 +8236,8 @@
       "children",
       "traffic",
       "community"
-    ]
+    ],
+    "reading_order": 51
   },
   {
     "id": 242,
@@ -8030,7 +8267,8 @@
       "motor-development",
       "natural-materials"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 138
   },
   {
     "id": 243,
@@ -8061,7 +8299,8 @@
       "autonomy",
       "privacy"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 119
   },
   {
     "id": 244,
@@ -8091,7 +8330,8 @@
       "safety",
       "school",
       "neighborhood"
-    ]
+    ],
+    "reading_order": 69
   },
   {
     "id": 245,
@@ -8121,7 +8361,8 @@
       "sensory",
       "loose-parts"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 166
   },
   {
     "id": 246,
@@ -8150,7 +8391,8 @@
       "aging",
       "public-space",
       "rest-stations"
-    ]
+    ],
+    "reading_order": 70
   },
   {
     "id": 247,
@@ -8179,7 +8421,8 @@
       "framing",
       "universal-design"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 212
   },
   {
     "id": 248,
@@ -8214,7 +8457,8 @@
       "housing",
       "aging",
       "visitability"
-    ]
+    ],
+    "reading_order": 128
   },
   {
     "id": 249,
@@ -8243,7 +8487,8 @@
       "thresholds",
       "aging-in-place"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 227
   },
   {
     "id": 250,
@@ -8273,7 +8518,8 @@
       "glare-control",
       "interior-quality"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 202
   },
   {
     "id": 251,
@@ -8304,7 +8550,8 @@
       "controls",
       "atmosphere"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 186
   },
   {
     "id": 252,
@@ -8333,7 +8580,8 @@
       "reading",
       "workspace"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 241
   },
   {
     "id": 253,
@@ -8363,7 +8611,8 @@
       "depth",
       "atmosphere"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 174
   },
   {
     "id": 254,
@@ -8396,7 +8645,8 @@
       "identity",
       "seasonal"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 31
   },
   {
     "id": 255,
@@ -8429,7 +8679,8 @@
       "street-life",
       "mixed-use",
       "local-economy"
-    ]
+    ],
+    "reading_order": 71
   },
   {
     "id": 256,
@@ -8462,7 +8713,8 @@
       "active-transportation",
       "speed-separation",
       "winter-mobility"
-    ]
+    ],
+    "reading_order": 72
   },
   {
     "id": 257,
@@ -8498,6 +8750,7 @@
       "housing",
       "walkability",
       "main-street"
-    ]
+    ],
+    "reading_order": 139
   }
 ]
