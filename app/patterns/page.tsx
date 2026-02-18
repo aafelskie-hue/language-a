@@ -45,7 +45,7 @@ export default function PatternsPage() {
             Pattern Explorer
           </p>
           <h1 className="text-3xl md:text-4xl font-bold text-charcoal tracking-tight mb-4">
-            All 254 Patterns
+            All {patterns.length} Patterns
           </h1>
           <p className="text-slate max-w-2xl">
             Browse the complete collection of design patterns for places that last.

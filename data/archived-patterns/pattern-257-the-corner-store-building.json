@@ -1,0 +1,35 @@
+{
+  "id": 257,
+  "name": "The Corner Store Building",
+  "number": "257",
+  "scale": "building",
+  "category": "fifteen-minute-life",
+  "categoryLabel": "Patterns for the Fifteen-Minute Life",
+  "confidence": 1,
+  "status": "published",
+  "problem": "When zoning separates residential from commercial uses entirely, neighborhoods lose the small shops that make daily life walkable — but when commercial buildings are permitted without limit, they grow too large, draw too much traffic, and destroy the residential character they were meant to serve.",
+  "body": "The corner store is among the oldest building types in North American cities. Before Euclidean zoning spread across the continent in the 1920s and 1930s, mixed-use buildings were the default on neighborhood corners. A 2019 study by the Congress for New Urbanism found that in pre-1940 streetcar neighborhoods across 12 American cities, corner lots were 3.4 times more likely to contain mixed-use buildings than mid-block lots. These buildings typically featured 100-200 square meters of ground-floor retail with two to four dwelling units above — a scale that served the immediate neighbors without generating destination traffic.\n\nEdmonton's own Highlands neighborhood, platted in 1910, shows this pattern clearly. The original commercial nodes at 112th Avenue and 118th Avenue featured two- and three-story brick buildings with shops below and apartments above, spaced at roughly 400-meter intervals — a five-minute walk between each. The 1960 Henderson's Directory lists 23 such buildings in Highlands alone: grocers, druggists, cobblers, barbers. By 1990, zoning changes had reduced that number to 7. The shops that remain — like the one at 6519 112th Avenue, built in 1912 — still anchor the social life of their blocks.\n\nAlexander, in Pattern 89 (The Corner Grocery), argued that \"the small store, at the corner, is the most basic element in the public life of a neighborhood.\" He specified that such stores should be within three-minute walks of every home. What he did not specify — writing from Berkeley in the 1970s — was the building type itself. The corner store is not merely a retail use; it is a physical form. The dwelling units above provide eyes on the street at night, income diversity for the property owner, and housing in the very location where walkability is highest. The shopkeeper who lives upstairs has a stake in the block that a distant landlord never will.\n\nThe economics matter. A 2021 analysis by Incremental Development Alliance found that mixed-use corner buildings of 300-600 square meters generate 2.5 to 4 times the property tax revenue per hectare of single-family lots, while requiring less infrastructure per dollar of assessment. In Montreal, the classic \"plex\" building — dépanneur below, flats above — remains legal in most residential zones, and the city has over 5,000 such buildings still operating. They survive because they are small enough to be owner-operated and large enough to be economically viable.\n\nThe building must be scaled to its context. Too small, and it cannot support a shop. Too large, and it ceases to be a neighbor and becomes a destination. The three-story, narrow-lot form — 7 to 10 meters of street frontage, 18 to 25 meters deep, with 80-150 square meters of retail and two to six dwelling units — has proven durable from Philadelphia's rowhouse corners to Vancouver's Kitsilano.",
+  "solution": "At neighborhood corners where two pedestrian streets meet, permit and encourage a specific building type — the corner store building. It should be two to three stories, with 80 to 150 square meters of ground-floor retail accessed directly from the sidewalk, and two to six dwelling units above. The building should hold the corner with zero setback on both street frontages, place its entrance at the corner or within three meters of it, and provide at least one dwelling unit window overlooking each street. Test this: stand at the corner at 9 PM — you should see lit windows above and be within earshot of the shop door.",
+  "connections_up": [
+    1,
+    2,
+    57,
+    255,
+    256
+  ],
+  "connections_down": [
+    148,
+    176,
+    177,
+    224
+  ],
+  "coldClimate": false,
+  "tags": [
+    "mixed-use",
+    "retail",
+    "housing",
+    "walkability",
+    "main-street"
+  ],
+  "reading_order": 190
+}
