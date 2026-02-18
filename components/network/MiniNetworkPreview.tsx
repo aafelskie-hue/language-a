@@ -65,6 +65,11 @@ const scaleSizes: Record<Scale, number> = {
 export function MiniNetworkPreview() {
   const links = useMemo(() => generateLinks(), []);
 
+  // Count patterns with at least one connection (up or down)
+  const connectedCount = useMemo(() =>
+    patterns.filter(p => p.connections_up.length > 0 || p.connections_down.length > 0).length,
+  []);
+
   return (
     <Link
       href="/network"
@@ -111,7 +116,7 @@ export function MiniNetworkPreview() {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm group-hover:bg-white transition-colors">
           <p className="font-mono text-[10px] uppercase tracking-widest text-copper mb-1">
-            100 Connected Patterns
+            {connectedCount} Connected Patterns
           </p>
           <p className="text-sm font-medium text-charcoal flex items-center gap-2">
             Explore the Network

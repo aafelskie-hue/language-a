@@ -6,7 +6,7 @@ import { Logo } from '@/components/shared/Logo';
 import { useState } from 'react';
 
 const navLinks = [
-  { href: '/', label: 'Patterns' },
+  { href: '/patterns', label: 'Patterns' },
   { href: '/network', label: 'Network' },
   { href: '/projects', label: 'Projects' },
   { href: '/guide', label: 'Guide' },
@@ -17,8 +17,8 @@ export function TopNav() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const isActive = (href: string) => {
-    if (href === '/') {
-      return pathname === '/' || pathname.startsWith('/patterns');
+    if (href === '/patterns') {
+      return pathname.startsWith('/patterns');
     }
     return pathname.startsWith(href);
   };

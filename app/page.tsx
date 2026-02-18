@@ -62,7 +62,7 @@ export default function HomePage() {
                 Design Patterns for Enduring Places
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight mb-6 leading-tight">
-                253 design patterns for places that last
+                {patterns.length} design patterns for places that last
               </h1>
               <p className="text-lg md:text-xl text-silver leading-relaxed mb-8">
                 Grounded in the forces that don&apos;t change — climate, light, gravity, and human need for shelter and community.
