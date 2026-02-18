@@ -12,14 +12,9 @@
     "body": "The concept has been validated globally. Paris, Melbourne, and Portland have restructured planning around the principle that essential services should be reachable within fifteen minutes by walking or cycling. Carlos Moreno's research at the Sorbonne demonstrated that neighborhoods meeting this threshold show higher social cohesion, lower carbon emissions, and stronger local economies. The COVID-19 pandemic made the case viscerally — people confined to their neighborhoods discovered whether those neighborhoods could actually sustain daily life, or whether they were merely dormitories.\n\nThe traditional idea of a community large enough to support basic services but small enough to feel coherent assumed car access. The modern version acknowledges that *accessible without a car* is the critical threshold, not merely *nearby.*\n\nThe forces: residents need variety and access; businesses need foot traffic to survive; communities need casual encounters to build trust. All three are served by proximity.",
     "solution": "arrange every neighborhood so that a resident can reach groceries, a school, a park, a primary care clinic, a gathering place, and public transit within fifteen minutes on foot or by bicycle. Use this as the primary test for any proposed development — not density alone, not zoning category, but functional completeness within walking distance.",
     "connections_up": [
-      4,
       40,
       41,
-      43,
-      76,
-      77,
-      79,
-      99
+      43
     ],
     "connections_down": [
       2,
@@ -27,9 +22,6 @@
       4,
       12,
       21,
-      40,
-      41,
-      43,
       58,
       76,
       77,
@@ -61,22 +53,12 @@
     "connections_up": [
       1,
       4,
-      12,
       41,
       42,
-      43,
-      57,
-      75,
-      78,
-      92,
-      93,
-      94,
-      99
+      43
     ],
     "connections_down": [
-      4,
       12,
-      41,
       51,
       52,
       57,
@@ -114,13 +96,10 @@
     "connections_up": [
       1,
       43,
-      44,
-      83,
-      88
+      44
     ],
     "connections_down": [
       33,
-      44,
       82,
       83,
       86,
@@ -143,17 +122,12 @@
     "solution": "at the intersection of each major transit route with a neighborhood center, create a mobility hub — a sheltered, human-scaled transfer area of roughly 80 to 120 square meters, the size of a small public square. Give it a canopy or roof for weather protection, seating that faces the approaching transit, a low wall or planting on the wind side, and clear sight lines to bike parking, scooter docking, and car-share vehicles. Place a real-time information display at eye level, readable from the seating. Include EV charging for car-share vehicles and parcel lockers where they don't block circulation. The hub works when a person would choose to sit there for ten minutes even if they weren't waiting for a bus — because the space is pleasant, legible, and alive with the movement of the street.",
     "connections_up": [
       1,
-      2,
-      11,
       40,
-      43,
-      58
+      43
     ],
     "connections_down": [
-      1,
       2,
       11,
-      43,
       58,
       59,
       162,
@@ -175,20 +149,14 @@
     "body": "The traditional outbuilding — workshop, studio, writing shed — has a long history as a creative refuge. Roald Dahl, Virginia Woolf, George Bernard Shaw all wrote in garden sheds. What's new is the *necessity*: when the commute disappears, the shed becomes essential infrastructure, not a luxury.\n\nIn Edmonton, where winter temperatures reach -30°C and daylight drops to fewer than eight hours, the \"fifteen-minute\" criterion is literal: you need to be able to reach the workspace within fifteen minutes of waking, before you're fully dressed, in any weather. This means: within the property or immediate neighborhood, heated and insulated to habitable standards, connected to power and internet, and reachable via a covered or very short outdoor path.\n\nThe pattern works for any cold climate — Scandinavian countries have a robust tradition of separate small structures for focused work. The principle scales: from a well-insulated garden office (10m² minimum) to a shared neighborhood workshop.",
     "solution": "within fifteen minutes' walk of the dwelling, in any weather, provide a small heated workspace of at least ten square meters — separate from the main house but close enough to reach before getting dressed. Insulate it to the same standard as the dwelling. Give it its own entrance, its own heat, its own light on two sides, and a view. The separation from the house, even if only twenty steps through the garden, is what makes it work.",
     "connections_up": [
-      7,
       22,
       34,
       35,
       38,
-      63,
-      64,
       180
     ],
     "connections_down": [
       7,
-      22,
-      34,
-      38,
       63,
       64
     ],
@@ -207,17 +175,25 @@
     "body": "The scale of the problem is new. Before 2020, a household might manage one or two video calls a week. By 2025, most remote workers spend two to four hours daily on camera — a Stanford study of 10 million meetings found video call frequency had stabilized at roughly triple pre-pandemic levels. In a two-earner household, that means four to eight hours of the day when at least one room is a locked broadcast studio.\n\nThe typical home was not designed for this. A call from the kitchen means nobody can cook. A call from the bedroom means an unmade bed on camera and a partner locked out. A call from the shared office means the other person cannot work. Every room the call colonizes is a room lost to the household for its duration.\n\nThe insight is that video calls need very little space but very specific qualities. A seated person on camera occupies roughly two square meters of usable area: a chair, a neutral background, and enough distance from the camera to frame the head and shoulders. The requirements are precise: front-facing light (natural or warm artificial, never overhead), a background that is visually calm and reveals nothing private, acoustic isolation sufficient that a child shouting in the next room is not intelligible (STC 50 minimum for the enclosure), and a door that closes completely.\n\nThe critical design question is not the room's dimensions — it is the room's *position in the floor plan*. The Zoom room fails if it blocks household circulation: not off the main hallway where a closed door forces a detour, not between the kitchen and the living room where a meeting means the family cannot move freely. It succeeds when it is a dead-end — a niche off a secondary space, a converted closet at the end of a hall, an alcove under the stairs. It should be possible to forget it exists when it is not in use.\n\nThis is not the office. THE HOME OFFICE THRESHOLD (258) is where you think — a room with light on two sides, a view, space to spread out. The Zoom room is where you perform. Think of it as the modern phone booth: small, enclosed, acoustically private, and positioned so that its use disrupts nothing.",
     "solution": "in any home where video calls are a regular part of daily life, provide a dedicated enclosure of two to three square meters — enough for a chair, a small surface, and a neutral background wall. Position it at a dead end in the floor plan, off a secondary circulation path, where a closed door blocks no one's movement through the house. Give it a solid-core door with gaskets (STC 35 minimum), front-facing light from a window or a warm-toned fixture at eye level, acoustic dampening on at least two walls (fabric panel, bookshelf, or heavy curtain), and a hardwired ethernet connection. The room is right when someone can take a two-hour call and the rest of the household does not notice.",
     "connections_up": [
-      7,
+      6,
+      9,
+      10,
+      34,
+      35,
+      38,
       39,
       90,
-      144
+      141,
+      144,
+      180,
+      184,
+      204
     ],
     "connections_down": [
-      7,
       32,
       46,
-      90,
       109,
+      170,
       182
     ],
     "reading_order": 188
@@ -240,16 +216,10 @@
       30,
       38,
       39,
-      61,
       83
     ],
     "connections_down": [
-      9,
-      11,
-      30,
-      39,
       61,
-      83,
       110
     ],
     "reading_order": 146
@@ -267,17 +237,12 @@
     "body": "This is not about shared gathering — that is THE SCREEN-FREE HEARTH (261). This is about the room where you cannot be found.\n\nAlexander's A ROOM OF ONE'S OWN (141) addressed the need for private space, but assumed the only intrusion was other people. The modern intrusion is the signal itself. Americans check their phones an average of 96 times per day (Asurion, 2019) — not because they choose to, but because the signal reaches them, the device responds, and the behavioral loop fires before conscious thought intervenes. A room where the signal is weak breaks the loop. The mechanism is behavioral, not electromagnetic. That is a stronger and more honest claim than arguing about radiation.\n\nThe construction response is straightforward. Concrete attenuates WiFi signal by 10–15 dB per wall. Dense masonry by 8–12 dB. A room behind two concrete walls and at maximum distance from the router has naturally weak signal — not by intent but by physics. This is not exotic construction. It is the consequence of building one room with the kind of mass that most modern lightweight timber-frame construction avoids. The same mass that provides acoustic isolation, thermal stability, and the solid, grounded feeling Alexander admired in old buildings also attenuates wireless signal. THICK WALLS (197) was already the right pattern — it just has a benefit Alexander could not have anticipated.\n\nThe room need not be a Faraday cage. A signal reduction of 20–25 dB — the range achieved by two masonry walls — is enough to make the phone slow to refresh, the notification delayed by seconds that become minutes, the pull perceptibly weaker. The building does not need to block the signal completely. It needs to introduce enough friction that the behavioral loop loses its automaticity.\n\nSome people want this as a sleeping space — the evidence on sleep quality and device proximity is strong (Hale & Guan, 2015, Sleep Medicine Reviews). Others want it as a reading room, a meditation space, or simply a room where the mind is not perpetually available. The specific use matters less than the construction principle: at least one room should be built with enough mass that wireless signal is materially weaker inside it than in the rest of the dwelling.",
     "solution": "design at least one room in the dwelling where wireless signal is materially attenuated — through thick masonry or concrete walls, distance from the router, or a combination of both. Do not rely on behavioral discipline; rely on mass. Place this room where it naturally serves rest or solitary focus — the bedroom, the reading alcove, the meditation corner. No chargers, no smart speakers, no screen mounts. The walls do the work that willpower cannot: they make you unreachable.",
     "connections_up": [
-      7,
-      8,
       10,
-      32,
-      46,
       154
     ],
     "connections_down": [
       7,
       8,
-      10,
       32,
       46,
       158
@@ -297,16 +262,12 @@
     "body": "Alexander designed for light and air with exquisite care — southern exposure, cross-ventilation, light on two sides of every room. He mapped the path of the sun through the building and shaped the walls to receive it. Wireless signal deserves the same deliberate attention, because the materials that make a high-performance envelope are precisely the materials that block it.\n\nThe conflict is specific and predictable. Foil-backed rigid insulation — the workhorse of passive house retrofits — attenuates WiFi signal by 30–50 dB, enough to create a near-total barrier. Metal cladding, wire mesh in plaster, concrete floor slabs (10–15 dB each), even low-e coatings on high-performance windows — all the things that make BUILDING ENVELOPE AS CLIMATE SYSTEM (275) work make wireless coverage fail. As buildings get tighter, they accidentally become Faraday cages. The home office behind two insulated walls has excellent thermal performance and no usable signal.\n\nThe solution is not maximum signal everywhere — that contradicts THE QUIET ZONE (262), where mass deliberately attenuates connectivity. The solution is *intention*: strong signal where people work and communicate, weak signal where people rest and gather, and no accidental dead zones caused by material choices nobody thought through.\n\nThis requires mapping the wireless environment at the same stage of design as the thermal environment — during material selection and wall assembly design, not after construction. Where will the router sit? Which walls use foil-backed insulation (signal barrier) and which use mineral wool (signal-transparent)? Where does ethernet run to eliminate wireless dependency at fixed workstations? The answers shape the wall sections, the insulation specifications, and the wiring plan. They cannot be retrofitted without tearing open walls.",
     "solution": "when designing a building, map the wireless coverage as deliberately as you map the natural light. During envelope design, identify which wall and ceiling assemblies will block signal (foil-faced insulation, metal cladding, concrete, wire mesh) and which will transmit it (mineral wool, wood, fibreglass). Place the router centrally in the working zone, with signal-transparent assemblies between it and the spaces that need coverage. Use signal-blocking assemblies deliberately toward sleeping and rest spaces. Run hardwired ethernet to every fixed workstation and to the router's location, so the wireless network serves mobile devices, not the primary work connection. The building's energy envelope and its signal envelope are drawn on the same wall section — design them together.",
     "connections_up": [
-      7,
-      9,
       22,
-      46,
       181
     ],
     "connections_down": [
       7,
       9,
-      22,
       46
     ],
     "reading_order": 156
@@ -325,22 +286,16 @@
     "solution": "design the arrival sequence so that vehicle charging is integrated into the entrance transition, not appended to it. Provide a sheltered parking space with the charging connection at waist height on the driver's side, holstered to keep the cable off the ground. Between the vehicle space and the living space, create a buffer — mudroom, breezeway, or covered passage — where the shift from outside to inside happens: coats and boots come off, devices are put down on a small shelf with charging points, and the door to the domestic realm closes behind you. The act of plugging in the car and putting down the phone is the first and last act of arriving. When it is done, you are home.",
     "connections_up": [
       4,
-      8,
       35,
       39,
-      59,
-      62,
       121,
       162
     ],
     "connections_down": [
-      4,
       8,
-      35,
       59,
       62,
-      110,
-      121
+      110
     ],
     "reading_order": 150
   },
@@ -358,15 +313,13 @@
     "solution": "in any residential neighborhood, allow and encourage building types between the single-family home and the apartment building — duplexes, triplexes, fourplexes, cottage courts, and townhouses — at densities of sixteen to thirty units per acre. These buildings should match the scale, setback, and materials of existing houses. They should have individual entries from the street or a shared courtyard, not a common corridor.",
     "connections_up": [
       1,
-      13,
-      27,
+      2,
       29,
       40,
       41,
       95,
       96,
       97,
-      98,
       100,
       111,
       168,
@@ -375,21 +328,15 @@
       219
     ],
     "connections_down": [
-      12,
       13,
       14,
       27,
-      29,
-      40,
-      95,
-      96,
-      97,
+      51,
+      52,
       98,
-      100,
       113,
       166,
-      169,
-      219
+      169
     ],
     "reading_order": 84
   },
@@ -407,12 +354,10 @@
     "solution": "on any single-family lot with rear lane access, allow a second small dwelling of fifty to ninety square meters, one to two stories, accessed from the lane. Give it its own entrance, its own garden (even a small one), and its own address. Set it back far enough from the main house to create two distinct domestic realms with privacy between them. Build it to the same quality standard as the main house — this is someone's home, not an accessory.",
     "connections_up": [
       12,
-      14,
       29,
       34,
       35,
       38,
-      64,
       95,
       111,
       167,
@@ -420,12 +365,7 @@
       205
     ],
     "connections_down": [
-      12,
       14,
-      29,
-      34,
-      35,
-      38,
       64,
       114
     ],
@@ -449,14 +389,9 @@
       15,
       39,
       77,
-      80,
       163
     ],
     "connections_down": [
-      13,
-      15,
-      39,
-      77,
       80,
       114,
       115,
@@ -477,17 +412,13 @@
     "body": "Universal design — building for all ages and abilities from the start — costs roughly 1% more during construction but saves enormously in renovation costs and healthcare. The key features are well-documented: zero-step entries, 36-inch doorways, hallways wide enough for a wheelchair, at least one bedroom and full bathroom on the entry level, reinforced walls for future grab bars, lever handles, rocker switches.\n\nThis is not about designing for the elderly — it's about designing for *every body that will ever inhabit this building*, including your future self.",
     "solution": "design every new home so that a person using a wheelchair can enter without steps, reach a bathroom and a sleeping area without stairs, and move through doorways and hallways without difficulty. Reinforce bathroom walls for future grab bars. Use lever handles everywhere. Place at least one full bathroom and one bedroom on the entry level. These are not elderly accommodations — they are the baseline for any body that might live here.",
     "connections_up": [
-      14,
       35,
       77,
-      79,
-      80,
-      81
+      79
     ],
     "connections_down": [
       14,
       47,
-      77,
       80,
       81,
       171,
@@ -516,14 +447,9 @@
       22,
       34,
       37,
-      45,
-      48,
-      69,
       116
     ],
     "connections_down": [
-      22,
-      37,
       45,
       46,
       48,
@@ -547,9 +473,7 @@
     "body": "Flooding is the costliest natural disaster worldwide. FEMA estimates that even one inch of floodwater causes $25,000 in damage to a typical home. The areas designated as flood-prone are expanding as climate changes rainfall patterns.\n\nThe solution is not to prevent flooding (which is often impossible) but to *design for it*: ground floors that accept water and recover. Hard, water-resistant surfaces; all electrical outlets and mechanical equipment above the flood line; no permanent built-in fixtures below the expected water level; utility connections that can be quickly disconnected; and a drainage path that lets water exit as efficiently as it enters.",
     "solution": "in any building within a current or projected flood zone, design the ground floor to flood and recover. Use water-resistant materials for the lowest three feet of wall and all flooring. Place all electrical panels, outlets, and mechanical equipment above the expected flood level. Design furniture to be movable. Include floor drains and a clear drainage path. The building should survive a flood the way a boat survives a wave — not by resisting it, but by accepting it and remaining functional afterward.",
     "connections_up": [
-      19,
       36,
-      47,
       187
     ],
     "connections_down": [
@@ -573,9 +497,6 @@
     "body": "The Firewise USA program and similar international standards have established clear zones: Zone 1 (0–5 feet) uses noncombustible materials only; Zone 2 (5–30 feet) uses fire-resistant plants with spacing to prevent fire spread; Zone 3 (30–100 feet) thins vegetation to reduce fire intensity.\n\nThe challenge is to make these zones feel like gardens, not firebreaks. Fire-resistant plants are often beautiful — succulents, rock gardens, deciduous hardwoods with high moisture content, ground covers that stay green.",
     "solution": "around any building in a fire-prone area, create three concentric zones: an innermost zone of noncombustible surfaces (gravel, stone, concrete) that still feels like a courtyard or terrace; a middle zone of fire-resistant, well-spaced plants that reads as a curated garden; and an outer zone where native vegetation is thinned but not eliminated. The goal is a landscape that is beautiful, ecologically alive, and fire-resistant — not a moonscape with a house in the middle.",
     "connections_up": [
-      19,
-      25,
-      33,
       36,
       188,
       190
@@ -584,7 +505,6 @@
       19,
       25,
       33,
-      36,
       117,
       189
     ],
@@ -605,31 +525,19 @@
     "connections_up": [
       17,
       18,
-      20,
-      25,
-      26,
       44,
       60,
-      65,
-      66,
-      67,
-      70,
       119,
       131,
       135,
       187,
       192,
-      200,
-      238
+      200
     ],
     "connections_down": [
-      17,
-      18,
       20,
       25,
       26,
-      44,
-      60,
       65,
       66,
       67,
@@ -671,11 +579,6 @@
       245
     ],
     "connections_down": [
-      19,
-      26,
-      43,
-      44,
-      67,
       235
     ],
     "reading_order": 218
@@ -700,8 +603,6 @@
     "connections_down": [
       22,
       38,
-      41,
-      42,
       116,
       121,
       122,
@@ -729,22 +630,10 @@
     "body": "The passive house movement has demonstrated conclusively that a well-designed envelope — continuous insulation, airtight construction, controlled ventilation with heat recovery, optimized glazing ratios, and thermal bridge-free details — can reduce heating and cooling energy by 80–90% compared to conventional construction. In cold climates like Edmonton, this transforms heating from a major expense to a minor one.\n\nThe integration is the pattern: passive house *performance* with human *atmosphere*. High-performance windows that still open. Heat recovery ventilation that doesn't sound like an airplane. Thermal mass that you can feel with your hand — stone, concrete, earthen plaster.",
     "solution": "design the building envelope — insulation, air barrier, windows, and thermal mass — as the primary climate system, not as a container for mechanical systems. Target at least 80% reduction in heating and cooling energy compared to the local code baseline. Then add natural ventilation, operable windows, and materials you can touch and feel. The envelope should make the building comfortable. The mechanical system should make it perfect.",
     "connections_up": [
-      6,
-      10,
-      16,
       21,
-      23,
-      24,
-      28,
-      31,
       34,
       37,
-      38,
-      45,
-      46,
-      48,
-      64,
-      69
+      38
     ],
     "connections_down": [
       6,
@@ -754,8 +643,6 @@
       24,
       28,
       31,
-      37,
-      38,
       45,
       46,
       48,
@@ -789,22 +676,13 @@
     "solution": "in any dwelling north of 45° latitude, create a south-facing room with high-performance glazing, a dark thermal mass floor, and a closeable connection to the rest of the house. Size the glazing at roughly one square meter per five square meters of floor area served. Use this room as the warmest, brightest room in winter — a place for morning coffee, plants, and reading. In summer, shade it with deciduous trees or exterior shutters.",
     "connections_up": [
       22,
-      24,
       34,
       37,
       38,
-      45,
-      61,
-      82,
-      86,
       197
     ],
     "connections_down": [
-      22,
       24,
-      34,
-      37,
-      38,
       45,
       47,
       61,
@@ -832,16 +710,10 @@
       23,
       25,
       38,
-      63,
-      64,
-      66,
       94,
       132
     ],
     "connections_down": [
-      22,
-      23,
-      25,
       63,
       64,
       66,
@@ -867,12 +739,9 @@
     "connections_up": [
       18,
       19,
-      24,
       33,
       36,
       44,
-      65,
-      66,
       74,
       94,
       97,
@@ -888,15 +757,9 @@
       245
     ],
     "connections_down": [
-      18,
-      19,
       24,
-      33,
-      36,
-      44,
       65,
       66,
-      74,
       133,
       134,
       135
@@ -917,11 +780,7 @@
     "solution": "collect rainwater from every roof surface and store it for non-potable use — toilet flushing, laundry, and irrigation. Size the storage to the roof area and local rainfall: roughly one liter of storage per square meter of roof per millimeter of design rainfall. Place the tank where it's accessible for maintenance. Connect it to the building's non-potable water system with appropriate backflow prevention. In cold climates, insulate or bury the tank below the frost line.",
     "connections_up": [
       19,
-      20,
       60,
-      65,
-      67,
-      70,
       120,
       131,
       137,
@@ -931,7 +790,6 @@
       239
     ],
     "connections_down": [
-      19,
       20,
       65,
       67,
@@ -965,11 +823,7 @@
       203
     ],
     "connections_down": [
-      12,
-      34,
-      37,
       48,
-      96,
       169
     ],
     "reading_order": 176
@@ -988,17 +842,11 @@
     "solution": "when improving energy performance in buildings worth preserving, work from the inside and the hidden surfaces: insulate the attic first, then the basement, then interior walls with vapor-permeable insulation. Add interior storm windows to retain the original frames. Air-seal at the attic floor, basement rim joist, and around penetrations. Never wrap the exterior. Never replace windows that can be repaired. Aim for 50–60% energy reduction rather than 80–90%, and accept that the remaining gap is the cost of keeping the building's character.",
     "connections_up": [
       22,
-      46,
-      47,
-      49,
-      56,
-      84,
       100,
       140,
       203
     ],
     "connections_down": [
-      22,
       46,
       47,
       49,
@@ -1024,23 +872,15 @@
     "body": "The policy tools are known: laneway houses, lot-splitting, basement suites, cottage courts on consolidated lots, replacing single houses with duplexes at the same scale. Every major city in North America is experimenting with some combination. But the tools are not the pattern. The pattern is: *what does a well-densified block actually look like?*\n\nPicture a block of six houses built in the 1950s — detached, single-story or split-level, each on a lot roughly 15 meters wide and 40 meters deep. The mature elms arch over the street. The front gardens are established. The back yards are deep, mostly lawn, largely unused. The garages face the lane. Each lot houses two to three people in a building designed for five.\n\nNow picture the same block, ten years into gentle densification. Three of the six lots have laneway houses — small, well-built, one or two stories, each with its own entrance from the lane, its own small garden, its own address. One lot has converted its basement to an independent suite with a separate entrance at grade. One lot has been split, and the back half holds a new cottage — smaller than the original house, oriented to face the lane and the laneway houses across from it. The sixth lot is unchanged — its owner likes it as it is.\n\nThe block now houses sixteen to eighteen people instead of twelve. The street view is almost unchanged — the mature trees, the front gardens, the original houses all remain. The density was absorbed at the *back* of the lots, along the lane, where it created a second, quieter street: a lane lined with small buildings, small gardens, and the comings and goings of people who live there. The lane, which was a service corridor for garbage trucks, has become a neighbourhood in miniature.\n\nAlexander saw this in HOUSE CLUSTER (37) — small groups of houses around shared outdoor space, creating a legible community at a scale between the single home and the urban block. The well-densified suburban block is a house cluster achieved without tearing anything down. The original houses face the street. The new houses face the lane. The back gardens, formerly private and underused, become the shared seam — a zone where fences might come down, where a shared garden or a cluster of fruit trees could emerge, where the two rows of houses begin to relate to each other as a community rather than as a collection of individual lots.\n\nThe critical constraint is scale. The new buildings must match the grain of what exists — one to two stories, wood-frame, pitched roofs, individual entries, gardens. No building on the block should be taller than the existing houses. No lot should house more than four units. The density is absorbed gradually, incrementally, reversibly. The neighbourhood grows the way a garden grows — one plant at a time, each finding its place among what's already there.",
     "solution": "add housing to established single-family blocks by building along the lane — laneway houses, lot-split cottages, and garden suites that face the back of the lot and create a second, quieter street behind the original one. Preserve the street face: keep existing houses, front gardens, and mature trees. Absorb the density at the back, where deep lots have unused space. Match the scale and materials of existing buildings — one to two stories, wood-frame, individual entries, planted gardens. Allow no more than a doubling of the block's population within a decade. The block is well-densified when a visitor walking down the street sees the same neighbourhood as before, but walking down the lane discovers a new one — smaller, quieter, and alive.",
     "connections_up": [
-      12,
-      13,
       41,
       53,
       96,
       97,
-      100,
-      203
+      100
     ],
     "connections_down": [
       12,
       13,
-      41,
-      53,
-      96,
-      97,
-      100,
       139,
       168,
       203,
@@ -1062,13 +902,8 @@
     "body": "The evidence for biophilic design is now extensive. Terrapin Bright Green's \"14 Patterns of Biophilic Design\" (2014, updated 2024), drawing on over 500 publications, identifies measurable health benefits from nature connection. Hospital patients with views of trees recover faster. Office workers with plants report 15% higher productivity. Students in biophilic classrooms score higher on tests.",
     "solution": "in every room where people spend more than an hour a day, provide at least one of the following: a view of living plants or natural landscape, indoor plants, natural materials (wood, stone, earth) visible and touchable, flowing water, or natural light that changes with the time of day. Prioritize real over simulated — a potted plant over a photograph of a forest. Make the connection specific and sensory: you should be able to see, touch, hear, or smell something alive from wherever you sit.",
     "connections_up": [
-      8,
-      33,
       34,
       38,
-      80,
-      83,
-      87,
       112,
       114,
       131,
@@ -1081,13 +916,11 @@
     "connections_down": [
       8,
       33,
-      34,
       47,
       56,
       80,
       83,
       87,
-      114,
       210
     ],
     "reading_order": 190
@@ -1107,12 +940,9 @@
     "connections_up": [
       22,
       34,
-      48,
-      68,
       144
     ],
     "connections_down": [
-      22,
       48,
       56,
       68,
@@ -1143,18 +973,12 @@
       90,
       144,
       158,
-      159,
       160,
       209,
       211,
       222
     ],
     "connections_down": [
-      9,
-      45,
-      46,
-      89,
-      90,
       159
     ],
     "reading_order": 246
@@ -1174,12 +998,8 @@
     "connections_up": [
       3,
       18,
-      25,
       30,
       36,
-      66,
-      74,
-      87,
       88,
       89,
       144,
@@ -1187,10 +1007,7 @@
       208
     ],
     "connections_down": [
-      18,
       25,
-      30,
-      36,
       66,
       74,
       87,
@@ -1212,22 +1029,7 @@
     "body": "Every major study of daylighting satisfaction confirms it: rooms with windows on two walls receive more even illumination, offer cross-ventilation, provide multiple views, and are rated as more pleasant, more spacious, and more comfortable than rooms lit from one side. The effect is physiological as well as psychological — bilateral light reduces glare, allows the eye to adjust more naturally, and provides the changing light quality that regulates circadian rhythms.",
     "solution": "give every room where people spend more than an hour at a time natural light from at least two directions. This can be two walls with windows, a window and a skylight, a window and a clerestory, or a window and a glass door — but the light must come from two distinct directions so that no part of the room is in permanent shadow.",
     "connections_up": [
-      6,
-      7,
-      13,
-      23,
-      27,
-      30,
       38,
-      39,
-      48,
-      61,
-      80,
-      82,
-      83,
-      84,
-      85,
-      98,
       112,
       141,
       144,
@@ -1243,7 +1045,6 @@
       27,
       30,
       31,
-      38,
       39,
       48,
       61,
@@ -1276,14 +1077,8 @@
     "body": "Every memorable building has a sequence: you approach, you pause, you enter. A gate, a path, a covered porch, a vestibule, a hallway — each element adds one layer of transition between the fully public and the fully private. In cold climates, this sequence also serves as a thermal buffer — each layer reduces heat loss and wind intrusion.",
     "solution": "design the approach to every dwelling as a sequence of at least three spatial transitions between the street and the interior — a change in direction, a change in enclosure, and a change in light. This might be: a gate or hedge (direction change), a covered porch (enclosure change), and a vestibule or mudroom (light change). In cold climates, the vestibule is not optional — it is the thermal airlock between winter and home.",
     "connections_up": [
-      11,
-      13,
       41,
       43,
-      59,
-      62,
-      63,
-      81,
       113,
       180
     ],
@@ -1293,7 +1088,6 @@
       11,
       13,
       15,
-      43,
       59,
       62,
       63,
@@ -1319,16 +1113,9 @@
     "body": "Outdoor space that works has a convex shape — it is surrounded, embraced, defined by edges. A courtyard is positive space. A strip of grass between two parking lots is negative space. People gather in positive outdoor space; they walk through negative outdoor space without stopping.",
     "solution": "shape every outdoor space so that it is at least partially enclosed — bounded by buildings, walls, hedges, or changes in level on at least two sides. The space should feel like a room without a ceiling. Give it a floor (paving, lawn, gravel), edges (planting, seating walls, building faces), and a purpose (dining, playing, gathering, growing). If the space has no shape, give it shape before doing anything else.",
     "connections_up": [
-      18,
-      25,
-      33,
       41,
-      73,
-      87,
       96,
       112,
-      114,
-      213,
       243
     ],
     "connections_down": [
@@ -1338,7 +1125,6 @@
       33,
       73,
       87,
-      96,
       114,
       146,
       213,
@@ -1359,11 +1145,6 @@
     "body": "The roof does more work than any other building element: it sheds rain, blocks sun, holds snow, captures solar energy, insulates against heat loss, and defines the silhouette of the building against the sky. In cold climates, the roof is also the primary surface for ice dam prevention, snow load management, and attic ventilation.",
     "solution": "make the roof the primary gesture of the building. Give it enough slope to shed snow and rain visibly. Extend the eaves to protect walls and windows from weather. Insulate it to the highest standard of any surface in the building. Make it visible from inside — the underside of the roof structure, exposed where possible, is one of the most satisfying elements in architecture. The roof should feel like shelter, not just enclosure.",
     "connections_up": [
-      16,
-      22,
-      23,
-      27,
-      86,
       234
     ],
     "connections_down": [
@@ -1399,13 +1180,7 @@
     "body": "The solar geometry is simple and inescapable: south-facing glazing in northern latitudes receives direct sun in winter (when it's wanted) and is easily shaded in summer (when it's not), because the sun is high. North-facing rooms receive only diffuse light. West-facing rooms receive harsh, low-angle sun in summer afternoons that is difficult to shade.",
     "solution": "orient the primary living spaces — kitchen, living room, dining area — toward the south, within 30° of true south. Place service spaces (bathrooms, storage, utilities, garages) on the north side, where they act as a thermal buffer. In summer, shade south glazing with overhangs, deciduous trees, or exterior shutters. This single orientation decision affects comfort, energy use, and daily mood more than almost any other design choice.",
     "connections_up": [
-      6,
-      13,
       21,
-      22,
-      23,
-      34,
-      86,
       197
     ],
     "connections_down": [
@@ -1440,13 +1215,7 @@
     "body": "The best homes have a gradient of openness: wide openings between kitchen and living room, narrower passages to bedrooms, doors that can be open or closed between the children's realm and the adults'. The threshold between rooms — a wide doorway, a half-wall, a change in level, a sliding partition — is where the social life of the home is negotiated.",
     "solution": "connect rooms with openings that vary in width and closability. Use wide, uncloseable openings (archways, half-walls) between the most social spaces. Use doors between public and private zones. Use sliding partitions or pocket doors where flexibility is needed. The connection between any two rooms should match the social relationship between the activities they contain — open where shared life happens, closeable where privacy is needed.",
     "connections_up": [
-      7,
-      8,
-      14,
       34,
-      73,
-      85,
-      90,
       141,
       217
     ],
@@ -1456,7 +1225,6 @@
       8,
       11,
       14,
-      34,
       73,
       85,
       90,
@@ -1478,13 +1246,7 @@
     "problem": "When density is uniform across a neighborhood — either all low-density or all high-density — it either can't support walkable services (too few people) or it overwhelms the human scale (too many). The gradient matters: highest density at the center where services cluster, tapering to lowest density at the edges where gardens and quiet dominate.",
     "body": "The pattern appears in every successful walkable neighborhood: a mixed-use center with apartments above shops, transitioning to townhouses and duplexes, then to detached houses at the periphery. This gradient provides the foot traffic that makes businesses viable at the center while preserving the garden-scale living that people choose at the edges.",
     "solution": "organize neighborhood density as a gradient from center to edge. Place the highest density (four stories, mixed use, 40+ units per acre) at transit stops and commercial centers. Transition to medium density (two to three stories, 16–30 units per acre) within a five-minute walk. Taper to low density (detached and semi-detached, 8–15 units per acre) at the neighborhood edges. The gradient should feel natural — like a hillside village where density increases toward the square.",
-    "connections_up": [
-      1,
-      12,
-      41,
-      98,
-      99
-    ],
+    "connections_up": [],
     "connections_down": [
       1,
       4,
@@ -1514,21 +1276,7 @@
     "body": "Research on social networks in neighborhoods consistently finds that people can maintain casual recognition of roughly 500 faces — enough to fill a few blocks. Beyond that, anonymity takes over. The neighborhood that works is the one where the mail carrier knows your name, the corner store owner recognizes your kid, and you notice when a stranger is wandering.",
     "solution": "organize residential areas into identifiable neighborhoods of roughly 500 people — small enough that residents recognize each other, large enough to support a shared gathering place. Give each neighborhood a name, a center (even just a corner with a bench and a tree), and clear edges (a park, a street, a change in character). The test: can a resident describe where their neighborhood begins and ends?",
     "connections_up": [
-      1,
-      2,
-      21,
-      29,
-      40,
-      42,
-      53,
-      72,
-      75,
-      76,
-      78,
-      93,
-      95,
-      96,
-      100
+      40
     ],
     "connections_down": [
       1,
@@ -1538,7 +1286,6 @@
       29,
       35,
       36,
-      40,
       42,
       43,
       53,
@@ -1569,20 +1316,11 @@
     "body": "Community gardens, pocket parks, shared courtyards, and common greens appear in every culture and every era — they are as fundamental as the dwelling itself. The modern erosion of common ground (through privatization, liability concerns, and the assumption that parks are the government's job) has removed the physical basis for neighborly life.",
     "solution": "in every neighborhood, reserve at least 10% of the land area as common ground — land owned collectively (by a trust, cooperative, or municipality) and maintained by the community. This includes community gardens, shared courtyards, playgrounds, gathering greens, and the land under shared infrastructure like solar arrays and tool libraries. Common ground should be distributed, not concentrated — every resident should be within a two-minute walk of at least one common space.",
     "connections_up": [
-      21,
-      41,
-      57,
-      71,
-      75,
-      76,
-      91,
-      93,
-      94
+      41
     ],
     "connections_down": [
       2,
       21,
-      41,
       57,
       71,
       75,
@@ -1612,18 +1350,7 @@
     "body": "The evidence is unambiguous: reducing vehicle speed to 30 km/h cuts pedestrian fatality risk by 80%. Streets designed for 30 km/h — narrow lanes, tight corners, raised crossings, street trees — are simultaneously safer, quieter, more commercially successful, and more socially active than streets designed for higher speeds.",
     "solution": "design every residential and commercial street for a maximum vehicle speed of 30 km/h. Narrow the roadway. Plant street trees at close intervals. Raise crossings to sidewalk level. Provide protected bike lanes or shared space. Use permeable surfaces where possible. The street should be a place where children can cross safely, where neighbors can talk without shouting, and where walking is more pleasant than driving.",
     "connections_up": [
-      1,
-      4,
-      20,
-      35,
-      41,
-      44,
-      58,
-      72,
-      79,
-      81,
-      89,
-      99
+      41
     ],
     "connections_down": [
       1,
@@ -1665,20 +1392,13 @@
     "body": "Ecological research is clear: a network of narrow green corridors connecting larger natural areas supports more biodiversity than the same total area in isolated patches. The same corridors serve as pedestrian paths, stormwater channels, urban cooling strips, and recreational routes.",
     "solution": "connect every park, garden, natural area, and green space in the neighborhood with continuous green corridors — planted strips at least five meters wide along streets, lanes, or dedicated paths. These corridors should carry stormwater, support native vegetation, provide shade, and create continuous walking routes from any point in the neighborhood to the nearest natural area. The corridor is the connective tissue; without it, the green spaces are islands.",
     "connections_up": [
-      3,
-      19,
-      20,
-      25,
-      43,
-      67,
-      89
+      43
     ],
     "connections_down": [
       3,
       19,
       20,
       25,
-      43,
       67,
       89,
       119,
@@ -1709,25 +1429,16 @@
       16,
       22,
       23,
-      32,
-      46,
-      47,
-      64,
       124,
       126,
       133,
-      159,
       191,
       195,
       196,
       213,
-      215,
-      233
+      215
     ],
     "connections_down": [
-      16,
-      22,
-      23,
       32,
       46,
       47,
@@ -1756,29 +1467,18 @@
       16,
       22,
       28,
-      32,
       45,
-      47,
-      56,
-      84,
       90,
-      129,
       145,
       216,
       218,
       247
     ],
     "connections_down": [
-      9,
-      10,
-      22,
-      28,
       32,
-      45,
       47,
       56,
       84,
-      90,
       101,
       102,
       128,
@@ -1808,21 +1508,12 @@
       45,
       46,
       49,
-      55,
-      56,
       59,
-      62,
       145,
       160,
-      189,
       216
     ],
     "connections_down": [
-      17,
-      28,
-      45,
-      46,
-      49,
       55,
       56,
       62,
@@ -1850,15 +1541,10 @@
       27,
       31,
       34,
-      84,
       122,
       123
     ],
     "connections_down": [
-      16,
-      22,
-      31,
-      34,
       84
     ],
     "reading_order": 220
@@ -1878,25 +1564,25 @@
     "connections_up": [
       17,
       28,
-      47,
-      54,
-      55,
-      56,
       68,
       100,
       115,
-      207,
       224,
       228
     ],
     "connections_down": [
-      28,
+      27,
       47,
       54,
       55,
       56,
-      68,
+      139,
+      140,
+      141,
+      142,
       169,
+      203,
+      204,
       207,
       226
     ],
@@ -1949,9 +1635,7 @@
       2,
       12,
       51,
-      54,
       57,
-      92,
       107,
       219
     ],
@@ -1961,7 +1645,6 @@
       92,
       100,
       108,
-      219,
       220,
       222,
       223
@@ -1981,18 +1664,13 @@
     "body": "Most neighbor disputes are spatial before they are social. A study of residential complaint patterns in any municipal bylaw enforcement office reveals the same recurring list: water draining from one lot to another, fences blocking light or views, air conditioning compressors humming against a shared wall, security lights shining into bedrooms, trees dropping branches or shade across the line, decks and balconies overlooking private spaces.\n\nThese conflicts are not failures of communication — they are failures of design. The five-foot side setback in most residential zoning codes was established for fire separation, not for livability. It creates a ten-foot zone between buildings that belongs to no one and serves no one — too narrow for a garden, too exposed for storage, too neglected for maintenance. In many neighborhoods this gap becomes a dead zone of weeds, garbage bins, and resentment.\n\nThe design problem sharpens as density increases. When laneway houses, duplexes, and secondary suites are added to single-family lots — as they should be under The Missing Middle (12) — the boundary zone that was barely adequate for two detached houses becomes critically important for four or six dwelling units. Every additional unit multiplies the potential for drainage conflict, noise transmission, overlooking, and light trespass.\n\nThe solution is not a wider setback — that wastes land. It is a *designed boundary*: a zone where drainage is directed by intent, where fences serve both sides, where mechanical equipment is placed away from neighbors' quiet rooms, where windows are positioned to avoid direct sight lines, and where the edge of one property contributes to the quality of the next.\n\nTraditional urbanism understood this. Row houses share party walls — a deliberate acoustic boundary designed once, serving both sides. European courtyard housing turns the boundary inward, creating shared gardens instead of dead side yards. Japanese residential design places windows high and small on boundary walls, preserving light while preventing overlooking. Each tradition solved the boundary problem through design rather than regulation.",
     "solution": "Design the boundary between adjacent properties as deliberately as you design the rooms inside them. Direct drainage away from the neighbor's foundation, not just away from your own. Place mechanical equipment (heat pumps, compressors, generators) on the side of the building farthest from the neighbor's bedrooms and living spaces. Position windows on boundary walls high or translucent — admitting light without sight lines. Build fences that serve both sides — finished on both faces, at a height that screens ground-level activity without blocking light above. When lots share a side yard, design it as a single usable space rather than two unusable strips. The test: stand at the property line and ask whether the design works for both sides, not just yours.",
     "connections_up": [
-      29,
       41,
-      88,
-      89,
       219
     ],
     "connections_down": [
       29,
-      41,
       88,
       89,
-      219,
       220,
       222
     ],
@@ -2013,25 +1691,18 @@
     "connections_up": [
       49,
       52,
-      55,
-      56,
       57,
       68,
       91,
       92,
       100,
-      105,
       161,
       224,
       227
     ],
     "connections_down": [
-      49,
-      52,
       55,
       56,
-      91,
-      92,
       101,
       105,
       107,
@@ -2069,14 +1740,6 @@
       227
     ],
     "connections_down": [
-      47,
-      49,
-      54,
-      56,
-      57,
-      101,
-      105,
-      106,
       107,
       108
     ],
@@ -2103,18 +1766,10 @@
       47,
       49,
       54,
-      55,
-      68,
-      189
+      68
     ],
     "connections_down": [
-      28,
-      46,
-      47,
-      49,
-      54,
       55,
-      68,
       102,
       103,
       104,
@@ -2141,21 +1796,15 @@
     "connections_up": [
       2,
       42,
-      55,
       91,
       92,
       94,
       100
     ],
     "connections_down": [
-      2,
-      42,
       52,
       54,
       55,
-      91,
-      92,
-      94,
       107,
       161,
       224,
@@ -2181,14 +1830,9 @@
       1,
       4,
       43,
-      59,
-      60,
-      62,
       153
     ],
     "connections_down": [
-      4,
-      43,
       59,
       60,
       62,
@@ -2220,16 +1864,11 @@
       11,
       35,
       58,
-      62,
-      63,
       149,
       229
     ],
     "connections_down": [
-      11,
-      35,
       47,
-      58,
       62,
       63,
       118,
@@ -2252,13 +1891,11 @@
     "body": "Fresh snow is roughly 90–95% trapped air by volume. Its density ranges from 50 to 200 kg/m³ depending on temperature and wind, with a typical fresh snowfall around 100 kg/m³ — meaning one cubic meter of fresh snow contains roughly 100 liters of water. That air content also makes snow a surprisingly effective insulator: fresh snow provides approximately R-1 per inch of depth (comparable to wood), enough that a 30-centimeter snowpack keeps the ground beneath it near freezing even when air temperatures drop to -30°C. Gardeners and farmers have known this for centuries — an early, deep snowfall protects root systems and prevents the deep frost heave that kills perennials.\n\nThe deliberate management of snow drift has been studied extensively. The Wyoming Department of Transportation, building on over 40 years of research by Dr. Ronald Tabler through the Strategic Highway Research Program (SHRP), found that trapping snow with fences costs roughly one hundred times less than mechanical removal. A properly designed snow fence — 50% porous, set back at a distance of 20 to 35 times its height from the area being protected — creates a controlled drift that deposits snow where it is wanted rather than where it causes problems. Iowa's Department of Transportation has operated a living snow fence program for over 40 years, using rows of native shrubs, grasses, and standing corn to trap blowing snow before it reaches highways. The USDA Natural Resources Conservation Service funds living snow fence programs through the Conservation Reserve Program across multiple northern states.\n\nThe principle translates directly to residential and neighborhood design. A snow fence or dense hedge on the north or west side of a garden creates a drift that insulates the soil beneath it and melts slowly in spring, delivering moisture to the garden over weeks rather than in a single runoff event. Roof snow directed to designated melt zones can feed rain gardens or cisterns — in Edmonton, a typical house roof (150 m²) collects roughly 165 cubic meters of snow in an average winter — Edmonton averages about 110 cm annually — equivalent to approximately 15,000 liters of meltwater. Designated snow storage areas in parking lots and parks, graded to drain toward rain gardens, capture the spring melt that would otherwise overwhelm storm drains.\n\nThe opposite of this pattern — the current norm — is instructive. In December 2025, Edmonton received 416% of its normal December precipitation as snow — 49 millimeters of water equivalent against a 30-year average of 11.8 millimeters, with 43 to 67 centimeters of snow recorded across the city. The city's removal-based approach collapsed under the volume. Crews worked non-stop for over 20 days. The city warned that residential roads would take two to three more weeks to clear. Residential streets remained impassable into February. The snow that was removed sat contaminated with road salt in four municipal storage sites, eventually melting into waterways rather than soaking into soil. Meanwhile, Alberta farmers noted that the same snowfall could help replenish water tables and refill dugouts that had been declining through years of drought — the snow was exactly the moisture the region needed, delivered to precisely the wrong place by a system designed to treat it as waste.\n\nThis is the paradigm: cities spend enormous sums removing snow, spread salt that damages soil, vegetation, and concrete, haul the contaminated result to remote dumps, and deprive urban trees and gardens of the insulating blanket and spring moisture that snow naturally provides. The December 2025 event did not reveal a failure of capacity. It revealed a failure of design.",
     "solution": "Design the landscape and building to use snow rather than remove it. Place living snow fences — dense rows of shrubs or native grasses — on the windward side of gardens and outdoor spaces to create controlled drifts that insulate soil and deliver slow meltwater in spring. Direct roof snow to designated melt zones graded to feed rain gardens or storage cisterns. In parking lots and common areas, grade snow storage zones so spring melt flows to planted infiltration areas rather than storm drains. Preserve the snowpack on garden beds and around trees — do not plow or salt where the snow is doing useful work. The test: in April, is your meltwater feeding your garden or flooding your storm drain?",
     "connections_up": [
-      19,
       58
     ],
     "connections_down": [
       19,
       26,
-      58,
       62,
       149
     ],
@@ -2285,12 +1922,6 @@
       86
     ],
     "connections_down": [
-      8,
-      23,
-      34,
-      82,
-      83,
-      86,
       153,
       154,
       230,
@@ -2320,17 +1951,10 @@
       60,
       148,
       151,
-      152,
       153,
       154
     ],
     "connections_down": [
-      11,
-      35,
-      47,
-      58,
-      59,
-      151,
       152
     ],
     "reading_order": 235
@@ -2359,14 +1983,7 @@
       147,
       232
     ],
-    "connections_down": [
-      6,
-      24,
-      35,
-      59,
-      64,
-      147
-    ],
+    "connections_down": [],
     "reading_order": 236
   },
   {
@@ -2387,23 +2004,14 @@
       22,
       24,
       45,
-      63,
       69,
       129,
       133,
       191,
-      196,
-      233
+      196
     ],
     "connections_down": [
-      6,
-      13,
-      22,
-      24,
-      45,
       63,
-      69,
-      129,
       200,
       233
     ],
@@ -2431,10 +2039,6 @@
       236
     ],
     "connections_down": [
-      19,
-      25,
-      26,
-      70,
       135,
       202,
       240
@@ -2461,13 +2065,7 @@
       70,
       156
     ],
-    "connections_down": [
-      19,
-      24,
-      25,
-      33,
-      70
-    ],
+    "connections_down": [],
     "reading_order": 147
   },
   {
@@ -2484,7 +2082,6 @@
     "solution": "handle stormwater on-site wherever possible. Route roof runoff to rain gardens or cisterns, not to the sewer. Use permeable surfaces for all non-structural paving. Ensure that no clean stormwater leaves the lot through the sanitary sewer connection. In new construction, install separate storm and sanitary connections. In existing buildings, disconnect downspouts from the sewer and route them to rain gardens or infiltration areas.",
     "connections_up": [
       19,
-      20,
       26,
       44,
       119,
@@ -2492,10 +2089,7 @@
       236
     ],
     "connections_down": [
-      19,
       20,
-      26,
-      44,
       120,
       235,
       238
@@ -2516,14 +2110,10 @@
     "solution": "wherever possible, run building services — plumbing, electrical, ventilation — in accessible locations: exposed along walls, in accessible chases with removable panels, or in open ceiling cavities. Design the routing as part of the architecture, not hidden from it. The occupant should be able to trace the path of water, air, and electricity through their building without opening a wall. Visibility enables maintenance; maintenance enables longevity.",
     "connections_up": [
       31,
-      49,
-      56,
-      69,
       223,
       237
     ],
     "connections_down": [
-      31,
       49,
       54,
       56,
@@ -2553,17 +2143,13 @@
     "connections_up": [
       16,
       22,
-      64,
       68,
       156,
       237,
       240
     ],
     "connections_down": [
-      16,
-      22,
-      64,
-      68
+      64
     ],
     "reading_order": 240
   },
@@ -2582,13 +2168,9 @@
     "connections_up": [
       19,
       26,
-      65,
-      66,
       137
     ],
     "connections_down": [
-      19,
-      26,
       65,
       66,
       136,
@@ -2612,15 +2194,10 @@
     "connections_up": [
       42,
       72,
-      74,
-      75,
       165,
-      177,
-      241
+      177
     ],
     "connections_down": [
-      42,
-      72,
       74,
       75,
       241,
@@ -2644,14 +2221,9 @@
     "solution": "design every residential street so that a seven-year-old can safely walk or bike to school, to a friend's house, and to a park without adult supervision. This requires: maximum vehicle speeds of 30 km/h, raised crossings at every intersection, continuous sidewalks on both sides, protected bike routes on school routes, and sight lines that let children see and be seen. The test is visceral: would you let your child walk this route alone?",
     "connections_up": [
       41,
-      43,
-      71,
-      73,
-      76
+      43
     ],
     "connections_down": [
-      41,
-      43,
       71,
       73,
       76,
@@ -2679,7 +2251,6 @@
       36,
       39,
       72,
-      74,
       96,
       113,
       165,
@@ -2688,11 +2259,7 @@
       242
     ],
     "connections_down": [
-      36,
-      39,
-      72,
       74,
-      213,
       245
     ],
     "reading_order": 148
@@ -2710,7 +2277,6 @@
     "body": "Richard Louv's \"Last Child in the Woods\" (2005) catalyzed research showing that direct nature contact in childhood correlates with environmental stewardship in adulthood, improved attention (reduced ADHD symptoms), better immune function, and greater emotional resilience. The key is *unstructured contact* — not nature education, but nature immersion.",
     "solution": "in every play space, include natural elements that children can interact with directly: earth to dig, water to dam, logs to balance on, trees to climb, rocks to turn over, insects to observe, plants to pick. These elements should be real — not plastic replicas — and allowed to be messy, seasonal, and alive. A mud kitchen, a log pile, a shallow stream, a stand of trees with low branches — these are the infrastructure of nature play.",
     "connections_up": [
-      25,
       33,
       71,
       73,
@@ -2718,9 +2284,6 @@
     ],
     "connections_down": [
       25,
-      33,
-      71,
-      73,
       242,
       243,
       245
@@ -2746,10 +2309,6 @@
       71
     ],
     "connections_down": [
-      2,
-      41,
-      42,
-      71,
       243
     ],
     "reading_order": 27
@@ -2770,14 +2329,9 @@
       1,
       41,
       42,
-      72,
-      78
+      72
     ],
     "connections_down": [
-      1,
-      41,
-      42,
-      72,
       78,
       142,
       165,
@@ -2799,17 +2353,10 @@
     "solution": "organize the aging-in-community network as a cluster of services and social infrastructure within a ten-minute walk of housing designed for all ages: a primary care clinic, a pharmacy, a grocery store, a gathering place with daily programming, and a volunteer visiting network. The network succeeds when an elder can fill a day without a car and without advance planning — a walk to the store in the morning, lunch at the community center, a visit to the clinic in the afternoon. This is not a retirement community; it is a neighborhood where retirement is possible.",
     "connections_up": [
       1,
-      14,
-      15,
       41,
-      78,
-      79,
-      80,
-      81,
       175
     ],
     "connections_down": [
-      1,
       14,
       15,
       78,
@@ -2842,10 +2389,6 @@
       77
     ],
     "connections_down": [
-      2,
-      41,
-      76,
-      77,
       244,
       246
     ],
@@ -2870,11 +2413,7 @@
       116
     ],
     "connections_down": [
-      1,
-      15,
-      43,
-      77,
-      116
+      15
     ],
     "reading_order": 29
   },
@@ -2901,16 +2440,9 @@
       185
     ],
     "connections_down": [
-      14,
-      15,
-      30,
-      34,
-      77,
-      114,
       173,
       174,
-      175,
-      185
+      175
     ],
     "reading_order": 88
   },
@@ -2933,10 +2465,6 @@
       77
     ],
     "connections_down": [
-      15,
-      35,
-      43,
-      77,
       171,
       209,
       249
@@ -2959,16 +2487,11 @@
       3,
       23,
       34,
-      61,
-      84,
       86
     ],
     "connections_down": [
-      23,
-      34,
       61,
       84,
-      86,
       154,
       212,
       231,
@@ -2990,20 +2513,14 @@
     "solution": "design interior lighting as a circadian system — cool and bright (5000K, 500+ lux) in morning-occupied spaces (kitchen, workspace), transitioning to warm and dim (2700K, 100 lux or less) in evening-occupied spaces (living room, bedroom). Use tunable white LED fixtures where electric light is the primary source. Maximize daylight access — the best circadian lighting is the sky itself. The building should help the body know what time it is.",
     "connections_up": [
       3,
-      8,
       30,
       34,
-      61,
       86,
       154
     ],
     "connections_down": [
-      3,
       8,
-      30,
-      34,
       61,
-      86,
       212,
       251,
       252
@@ -3037,14 +2554,7 @@
       251,
       253
     ],
-    "connections_down": [
-      28,
-      34,
-      46,
-      48,
-      82,
-      150
-    ],
+    "connections_down": [],
     "reading_order": 249
   },
   {
@@ -3062,12 +2572,9 @@
     "connections_up": [
       34,
       39,
-      90,
       209
     ],
     "connections_down": [
-      34,
-      39,
       84,
       90,
       231,
@@ -3092,15 +2599,9 @@
       3,
       23,
       37,
-      38,
-      61,
-      82,
-      83
+      38
     ],
     "connections_down": [
-      23,
-      37,
-      38,
       61,
       82,
       83,
@@ -3129,10 +2630,6 @@
       208
     ],
     "connections_down": [
-      30,
-      33,
-      36,
-      89,
       160,
       184,
       211
@@ -3157,10 +2654,8 @@
       53
     ],
     "connections_down": [
-      3,
       32,
-      33,
-      53
+      33
     ],
     "reading_order": 37
   },
@@ -3177,18 +2672,13 @@
     "body": "Earth berms, dense evergreen plantings, masonry walls, and water features can reduce perceived noise levels by 5–15 dB at the property line — enough to make the difference between a garden you avoid and one you enjoy. The most effective buffers combine mass (earth or masonry) with absorption (dense planting) and masking (water).",
     "solution": "between every residential lot and every significant noise source, provide a landscape buffer — an earth berm (minimum 1.5 meters high), dense evergreen planting (minimum 3 meters deep), a masonry wall, or a combination. Add a water feature on the quiet side to mask residual noise. The buffer should be beautiful — an earth berm becomes a garden; a masonry wall becomes a trellis for climbing plants. Silence is the luxury; the buffer is the architecture that provides it.",
     "connections_up": [
-      32,
       43,
       44,
-      53,
-      87
+      53
     ],
     "connections_down": [
       32,
       33,
-      43,
-      44,
-      53,
       87,
       234
     ],
@@ -3207,20 +2697,14 @@
     "body": "The most livable dwellings have an acoustic gradient: loud, social spaces (kitchen, living room) with hard surfaces and lively acoustics; transitional spaces (hallways, stairwells) with moderate absorption; and quiet, private spaces (bedrooms, study) with heavy construction and soft absorption. The gradient should be continuous — you can hear the acoustic quality change as you move through the house.",
     "solution": "design the dwelling as a gradient from acoustically lively to acoustically quiet. Kitchen and living areas: hard floors, open connections, lively reverberation. Transitional spaces: carpeted or cork floors, partial doors, moderate absorption. Bedrooms and study: heavy walls (DEEP WALLS, 46), solid doors, soft floors, low reverberation. The acoustic quality of each room should match its social function — lively where people gather, quiet where they retreat.",
     "connections_up": [
-      7,
-      7,
-      32,
       39,
-      46,
       85
     ],
     "connections_down": [
       7,
       7,
       32,
-      39,
       46,
-      85,
       109,
       158,
       159,
@@ -3241,13 +2725,9 @@
     "body": "Tool libraries — modeled on book libraries — lend tools for short periods. Toronto's tool library, founded in 2013, circulates thousands of tools to members for a small annual fee. Sacramento, Berkeley, and dozens of other cities have followed. The model works: lower cost than ownership, higher tool quality (the library can afford professional-grade), and the social benefit of a shared institution.",
     "solution": "in every neighborhood, establish a tool library — a managed collection of hand tools, power tools, garden equipment, and specialty items available for short-term loan. House it in or adjacent to the community workshop. Stock it with professional-grade tools (better than what most individuals would buy). Staff it with volunteers who can advise on tool selection and basic technique. The tool library makes THE OWNER-BUILDER (55) and REPAIR CULTURE (54) economically viable for everyone.",
     "connections_up": [
-      42,
-      54,
-      57,
-      92
+      42
     ],
     "connections_down": [
-      42,
       54,
       55,
       57,
@@ -3275,16 +2755,11 @@
     "connections_up": [
       2,
       52,
-      54,
-      57,
       91
     ],
     "connections_down": [
-      2,
-      52,
       54,
       57,
-      91,
       161,
       164,
       224
@@ -3312,9 +2787,6 @@
       186
     ],
     "connections_down": [
-      2,
-      41,
-      42,
       163
     ],
     "reading_order": 140
@@ -3334,16 +2806,13 @@
     "connections_up": [
       2,
       42,
-      57,
       165,
       183,
       186
     ],
     "connections_down": [
-      2,
       24,
       25,
-      42,
       57,
       134
     ],
@@ -3362,7 +2831,6 @@
     "body": "Shared storage — lockable units in a common area, organized by building or block — allows small units to stay small while providing the seasonal and occasional storage that every household needs. The key is access: convenient enough that it's used, secure enough that it's trusted.",
     "solution": "in every multi-unit building or dense neighborhood, provide shared storage — lockable units of 2–4 square meters per household, accessible without stairs, well-lit, and climate-controlled (at minimum, frost-free). Locate the storage within a two-minute walk of every unit it serves. Include a few oversized bays for items like kayaks, bicycles, and lumber. Shared storage lets small homes stay small without sacrificing livability.",
     "connections_up": [
-      12,
       41,
       164,
       183,
@@ -3371,7 +2839,6 @@
     "connections_down": [
       12,
       13,
-      41,
       161,
       162,
       163
@@ -3391,13 +2858,7 @@
     "body": "The courtyard cluster — four to eight dwellings arranged around a shared outdoor space of 100–300 square meters — is the oldest and most successful form of medium-density housing. It appears in every culture: the Roman domus, the Chinese siheyuan, the Spanish patio house, the Danish bofællesskab. The principle is consistent: when you can see your neighbors' front doors from your own, casual social contact is inevitable.",
     "solution": "arrange four to eight dwellings around a shared courtyard of at least 100 square meters. Give every dwelling its own front door opening onto the courtyard. Make the courtyard a positive outdoor space — enclosed on at least three sides, with a surface that supports gathering (not just lawn), and at least one large tree. Vehicle access and parking are outside the cluster, never within the courtyard. The courtyard is the social center; the dwellings are the walls that define it.",
     "connections_up": [
-      12,
-      27,
-      29,
-      36,
       41,
-      97,
-      98,
       183
     ],
     "connections_down": [
@@ -3405,7 +2866,6 @@
       27,
       29,
       36,
-      41,
       73,
       97,
       98,
@@ -3428,16 +2888,13 @@
     "body": "The shared garden works when it has clear governance (who maintains it, how decisions are made), when every dwelling has at least a small private outdoor space in addition to the shared garden (a patio, a balcony, a doorstep — the private retreat), and when the shared space has multiple functions (play, food growing, gathering, quiet).",
     "solution": "in any multi-dwelling development, combine private garden space into a larger shared garden — allocating at least 20 square meters of shared garden per dwelling plus at least 6 square meters of private outdoor space per dwelling (a patio, a balcony). Give the shared garden multiple zones: a gathering area, a food-growing area, a children's play area, and a quiet corner. Establish clear maintenance responsibility (THE MAINTENANCE COMMONS, 52). The shared garden makes gentle density feel generous rather than cramped.",
     "connections_up": [
-      12,
-      29,
       96,
       167
     ],
     "connections_down": [
       12,
       25,
-      29,
-      96
+      29
     ],
     "reading_order": 38
   },
@@ -3462,10 +2919,6 @@
       214
     ],
     "connections_down": [
-      12,
-      34,
-      40,
-      96,
       113,
       159,
       209
@@ -3491,15 +2944,9 @@
       43,
       139,
       166,
-      176,
       255
     ],
     "connections_down": [
-      1,
-      2,
-      40,
-      43,
-      166,
       170,
       176
     ],
@@ -3518,21 +2965,26 @@
     "body": "The most beloved neighborhoods in every city share a trait: they were built incrementally, by many hands, over many decades. Each generation added to what the last one built. The variety of building ages, styles, and scales creates visual richness, economic diversity (older buildings are cheaper), and resilience (different buildings serve different needs).",
     "solution": "allow and encourage neighborhoods to develop incrementally — one lot at a time, over decades, by many different builders. Prefer small developers, owner-builders, and cooperative housing over master-planned developments. Allow existing buildings to be expanded, subdivided, and adapted rather than requiring demolition for change. Welcome the variety that comes from many hands: the neighborhood where a 1945 bungalow sits beside a 2020 laneway house beside a 1970 duplex is richer, more affordable, and more resilient than any planned community.",
     "connections_up": [
-      12,
-      29,
-      41
+      41,
+      52,
+      219,
+      225
     ],
     "connections_down": [
       12,
       28,
       29,
-      41,
       49,
+      54,
+      55,
+      57,
       139,
       166,
       168,
       203,
-      205
+      205,
+      222,
+      227
     ],
     "reading_order": 18
   },
@@ -3552,7 +3004,6 @@
       22,
       46,
       54,
-      55,
       148,
       178,
       179,
@@ -3609,7 +3060,6 @@
       28,
       56,
       101,
-      147,
       148,
       229,
       256
@@ -3637,8 +3087,6 @@
       47,
       56,
       103,
-      105,
-      106,
       148,
       177,
       179,
@@ -3667,7 +3115,6 @@
     "solution": "At every junction where two materials meet — wall to floor, wall to roof, wood to stone, old construction to new — make the joint express how the parts are connected. Use mechanical fasteners — screws, bolts, pegs — over adhesives wherever possible. Leave connection plates visible rather than burying them in wall cavities. Where trim covers a joint, let the trim express the joint rather than hiding it — a cover board that bridges two surfaces honestly, not a seamless caulk line pretending there is no joint at all. Prefer connections that can be taken apart: bolted over welded, screwed over glued, pegged over nailed. The test: can the building's occupant point to any junction and explain how the two parts connect? If the answer is yes, the joinery is honest.",
     "connections_up": [
       54,
-      55,
       56,
       101,
       102,
@@ -3675,9 +3122,7 @@
       179
     ],
     "connections_down": [
-      54,
       55,
-      104,
       106
     ],
     "reading_order": 244
@@ -3695,7 +3140,6 @@
     "body": "The neurological basis is straightforward. Humans are wired to detect evidence of other human agency. The slight irregularity of a hand-carved bracket, the tool marks on a hand-adzed beam, the variation in a hand-thrown tile — these are signals that another person invested specific attention in this object. Research in neuroaesthetics suggests the brain processes handmade irregularity differently from machine regularity — not as error, but as evidence of intention.\n\nThe hand-made detail is not nostalgia for pre-industrial craft. It is the recognition that a building is more than an assembly of products. It is a place, and a place gains meaning from the evidence that people cared about it specifically. A hand-forged door pull costs no more than a high-end factory pull — often less. A hand-thrown tile backsplash costs roughly the same as a designer ceramic import. A carved house number costs less than a backlit LED sign. The barrier is not cost. It is habit — the assumption that \"building\" means ordering from catalogues.\n\nThe minimum viable hand is one detail. A single hand-forged entry door handle. A hand-laid tile pattern at the hearth. A carved timber bracket at the porch. A hand-set stone threshold. A house number chiselled into local stone. One detail is enough to transform the building from product to place — as long as it is placed where inhabitants encounter it daily, not displayed on a mantel.",
     "solution": "In every building, include at least one element made by a human hand rather than a machine — a carved bracket, a hand-laid tile, a forged hinge, a hand-thrown pot set into a wall niche, a hand-adzed beam, a hand-set stone threshold. Place it where inhabitants touch it daily or pass it on every entrance: the front door handle, the stair newel, the kitchen backsplash, the garden gate latch, the house number. The element need not be large, expensive, or conspicuously \"artisanal.\" It needs only to be the work of a specific person for this specific building. The test: close your eyes and run your hand across it. Can you feel that a person made this? If so, it is doing its work.",
     "connections_up": [
-      55,
       56,
       102,
       104,
@@ -3703,8 +3147,7 @@
       109
     ],
     "connections_down": [
-      55,
-      104
+      55
     ],
     "reading_order": 251
   },
@@ -3842,8 +3285,7 @@
       42,
       96,
       183,
-      186,
-      205
+      186
     ],
     "connections_down": [
       12,
@@ -3949,16 +3391,13 @@
     "connections_up": [
       13,
       14,
-      30,
       36,
-      80,
       111,
       112
     ],
     "connections_down": [
       20,
       30,
-      36,
       80,
       180
     ],
@@ -4019,9 +3458,7 @@
     "connections_up": [
       2,
       21,
-      51,
-      79,
-      187
+      51
     ],
     "connections_down": [
       16,
@@ -4094,7 +3531,6 @@
       59,
       117,
       130,
-      147,
       158
     ],
     "connections_down": [
@@ -4136,7 +3572,6 @@
       25,
       67,
       120,
-      187,
       200,
       235,
       236
@@ -4202,7 +3637,6 @@
     "body": "The arithmetic of solar without storage is punishing. A typical rooftop system in Edmonton generates 80% of its daily output between 10 AM and 4 PM, yet household consumption peaks between 5 PM and 9 PM — after the sun has weakened or set. Without batteries, surplus generation flows to the grid at wholesale rates (often 3-5 cents/kWh in Alberta), then flows back at retail rates (12-18 cents/kWh) a few hours later. The building generates enough energy to cover its needs but captures only a fraction of the value.\n\nThe resilience case is starker. During the February 2021 Texas grid collapse, 4.5 million homes lost power for days in freezing temperatures. Homes with solar panels but no storage went dark alongside everyone else — the panels cannot operate without grid connection unless paired with battery backup. Meanwhile, homes with battery systems maintained critical loads: refrigeration, a few lights, phone charging, medical equipment. The California Public Utilities Commission found that after the 2019 Public Safety Power Shutoffs, battery storage installations in affected areas increased 400% the following year. People remember what it felt like to lose power, and they remember which houses kept their lights on.\n\nThe technology has crossed a threshold. Lithium iron phosphate (LFP) batteries now offer 6,000+ cycle lifespans — roughly 15-20 years of daily cycling — at costs that have fallen 90% since 2010. Tesla's Powerwall, Enphase's IQ batteries, and similar residential systems provide 10-15 kWh of usable storage in wall-mounted units roughly the size of a water heater. The U.S. Investment Tax Credit (30% through 2032) and various provincial and utility incentives have made the payback period for storage increasingly reasonable, particularly where time-of-use rates create significant peak/off-peak spreads.\n\nAlexander did not write a storage pattern — batteries were exotic technology in 1977. But his pattern *South Facing Outdoors* (Alexander 105) recognized that buildings must orient themselves to capture what nature provides. The Battery Bank extends this logic: capture what the panels harvest, hold it through the gap between generation and need, and release it when darkness falls or the grid fails.",
     "solution": "Therefore: install battery storage sized to cover critical loads for 24 hours and to shift at least 80% of daily solar generation to evening use. Place the battery bank in a conditioned, accessible space — basement, utility room, or garage — where it can be monitored and maintained without special equipment. Wire critical circuits (refrigerator, a few lights, one outlet per floor, medical equipment if present) through an automatic transfer switch so they remain powered during outages. The system should be testable: once per year, simulate a grid outage and confirm that critical loads operate for at least 12 hours on stored power alone.",
     "connections_up": [
-      11,
       21,
       116,
       126,
@@ -4212,8 +3646,6 @@
     "connections_down": [
       11,
       125,
-      126,
-      127,
       237
     ],
     "coldClimate": false,
@@ -4344,11 +3776,7 @@
       194,
       234
     ],
-    "connections_down": [
-      127,
-      131,
-      194
-    ],
+    "connections_down": [],
     "tags": [
       "ventilation",
       "passive-cooling",
@@ -4375,10 +3803,7 @@
       21,
       23,
       38,
-      121,
-      127,
-      193,
-      194
+      193
     ],
     "connections_down": [
       45,
@@ -4419,14 +3844,11 @@
       21,
       22,
       37,
-      121,
-      125,
       126
     ],
     "connections_down": [
       121,
       125,
-      126,
       131,
       151
     ],
@@ -4459,16 +3881,9 @@
       126,
       129,
       130,
-      143,
-      150,
-      155,
-      157,
-      216,
-      233
+      216
     ],
     "connections_down": [
-      129,
-      130,
       143,
       150,
       155,
@@ -4500,20 +3915,11 @@
     "connections_up": [
       22,
       46,
-      64,
       126,
-      128,
-      130,
-      143,
-      150,
-      152,
-      155,
       157,
-      230,
-      233
+      230
     ],
     "connections_down": [
-      46,
       64,
       128,
       130,
@@ -4547,17 +3953,11 @@
     "solution": "Therefore: before construction begins, draw the air barrier as a continuous line on every building section — foundation to roof, wall to window, floor to ceiling. Use a dedicated air barrier material appropriate to each assembly: sealed polyethylene or smart vapor retarders in wood-frame walls; taped sheathing or fluid-applied membranes on the exterior; gaskets and sealants at every penetration. At transitions between materials or trades, detail the connection explicitly and assign responsibility. Test the completed envelope with a blower door before insulation is concealed; achieve 1.5 ACH50 or better, with 0.6 ACH50 as the target for high-performance buildings. If the test fails, find and fix the leaks before the walls close.",
     "connections_up": [
       22,
-      128,
-      129,
-      143,
-      152,
-      155,
-      157
+      129
     ],
     "connections_down": [
       118,
       128,
-      129,
       143,
       145,
       152,
@@ -4589,7 +3989,6 @@
     "connections_up": [
       21,
       37,
-      125,
       127
     ],
     "connections_down": [
@@ -4698,7 +4097,6 @@
       94,
       132,
       133,
-      136,
       175
     ],
     "connections_down": [
@@ -4773,7 +4171,6 @@
     ],
     "connections_down": [
       120,
-      134,
       135
     ],
     "tags": [
@@ -4982,13 +4379,7 @@
       206,
       207
     ],
-    "connections_down": [
-      128,
-      129,
-      130,
-      155,
-      207
-    ],
+    "connections_down": [],
     "coldClimate": true,
     "tags": [
       "energy-retrofit",
@@ -5057,9 +4448,7 @@
     ],
     "connections_down": [
       46,
-      47,
-      155,
-      157
+      47
     ],
     "tags": [
       "vapor diffusion",
@@ -5121,7 +4510,6 @@
     "connections_up": [
       35,
       59,
-      63,
       103,
       118,
       172,
@@ -5130,9 +4518,7 @@
       256
     ],
     "connections_down": [
-      63,
-      103,
-      118
+      63
     ],
     "coldClimate": true,
     "tags": [
@@ -5228,17 +4614,13 @@
     "connections_up": [
       34,
       46,
-      84,
       128,
       129,
       157,
       230
     ],
     "connections_down": [
-      84,
-      128,
-      129,
-      157
+      84
     ],
     "coldClimate": true,
     "tags": [
@@ -5264,10 +4646,8 @@
     "solution": "Therefore: design roof structures for a minimum of 1.5 times the code-specified ground snow load for your location, plus explicit drift and sliding loads at all transitions, valleys, and parapets. Pitch primary roof surfaces at 4:12 (18 degrees) minimum to encourage shedding; pitch secondary roofs steeper where they receive sliding loads from above. At valleys and inside corners, double the local load assumption or provide positive drainage that cannot be blocked by ice. Specify structural members — rafters, trusses, ridge beams — for deflection limits of L/240 under full snow load (tighter than code minimum) so that sagging does not trigger progressive failure. The test: load the roof design in structural software with 2.0 kPa uniform plus drift concentrations; if any member exceeds 80% of capacity, the design is too light.",
     "connections_up": [
       37,
-      62,
       127,
-      131,
-      152
+      131
     ],
     "connections_down": [
       62,
@@ -5302,12 +4682,7 @@
       130,
       151
     ],
-    "connections_down": [
-      62,
-      129,
-      130,
-      151
-    ],
+    "connections_down": [],
     "coldClimate": true,
     "tags": [
       "roof",
@@ -5407,14 +4782,9 @@
       118,
       128,
       129,
-      130,
-      143,
-      145
+      130
     ],
     "connections_down": [
-      128,
-      129,
-      130,
       143,
       145
     ],
@@ -5481,14 +4851,10 @@
       117,
       118,
       128,
-      130,
-      145,
-      150
+      130
     ],
     "connections_down": [
-      128,
       129,
-      130,
       143,
       145,
       150
@@ -5554,8 +4920,6 @@
       98
     ],
     "connections_down": [
-      32,
-      45,
       158
     ],
     "coldClimate": false,
@@ -5758,12 +5122,9 @@
     "connections_up": [
       12,
       43,
-      99,
       100,
       167,
       168,
-      170,
-      176,
       214
     ],
     "connections_down": [
@@ -5830,15 +5191,13 @@
       29,
       40,
       100,
-      205,
       214
     ],
     "connections_down": [
       12,
       98,
       166,
-      205,
-      214
+      205
     ],
     "coldClimate": false,
     "tags": [
@@ -5907,9 +5266,7 @@
       255
     ],
     "connections_down": [
-      166,
       169,
-      176,
       180,
       184
     ],
@@ -5939,16 +5296,13 @@
       15,
       77,
       81,
-      172,
-      185,
-      248
+      185
     ],
     "connections_down": [
       172,
       173,
       174,
       175,
-      185,
       247,
       248,
       249
@@ -5985,10 +5339,7 @@
     ],
     "connections_down": [
       147,
-      171,
       173,
-      185,
-      248,
       249
     ],
     "coldClimate": true,
@@ -6118,16 +5469,12 @@
       111,
       113,
       166,
-      170,
       255,
       257
     ],
     "connections_down": [
-      99,
-      166,
       169,
-      170,
-      257
+      170
     ],
     "coldClimate": false,
     "tags": [
@@ -6414,11 +5761,7 @@
     "connections_up": [
       14,
       15,
-      80,
-      111,
-      171,
-      172,
-      248
+      111
     ],
     "connections_down": [
       20,
@@ -6484,14 +5827,12 @@
     "body": "The Dutch, who have more experience with flooding than almost anyone, changed their approach after the near-catastrophe of 1995, when 250,000 people evacuated from rising rivers. Their *Room for the River* program, completed in 2018, didn't build higher dikes. Instead, it gave water places to go: 34 projects that lowered floodplains, created bypasses, relocated dikes inland, and designated areas that would flood intentionally so that others wouldn't. The Noordwaard polder, for instance, was redesigned to flood regularly — its farms built on elevated mounds, its roads designed to go underwater, its residents compensated and prepared. The water comes, spreads, and recedes. Life continues.\n\nIn the United States, FEMA has funded property buyouts in flood-prone areas since 1989. The acquired land becomes permanent open space — no future development, no future damage. Harris County, Texas, which includes Houston, has run one of the largest buyout programs in the country. After Tropical Storm Allison in 2001 and Hurricane Harvey in 2017, the county purchased thousands of homes in repeatedly flooded areas, converting subdivisions into detention basins and wetlands. The Edgebrook neighborhood, flooded six times in fourteen years, became Edgebrook Park. Families relocated. The water now has somewhere to go.\n\nWhat both approaches share is acceptance: flooding will happen, and the question is not whether to prevent it — you cannot — but how to arrange land and buildings so that floods cause inconvenience rather than catastrophe. This means some areas become flood storage, absorbing water intentionally. Other areas, where people live, sit higher — on natural ridges, constructed mounds, or elevated foundations. Streets and parks serve double duty, becoming temporary channels and detention during storms. Nothing precious sits at the bottom.\n\nAlexander's original language said little about flooding, though his patterns for WATER (25) and STILL WATER (71) recognized water's pull on human settlement. The attraction is real: people want to live near rivers, and they always have. The pattern here is not to forbid it, but to arrange the settlement so the relationship is honest — water will enter, and the neighborhood will survive it.",
     "solution": "Therefore: design flood-prone neighborhoods with three distinct zones. First, designate lowest-lying areas — those within the 100-year floodplain — as flood storage: parks, sports fields, community gardens, and wetlands that accept water during floods and recover afterward. Second, place all residential and commercial buildings on ground at least one meter above the 100-year flood level, whether through natural topography, engineered mounds, or elevated construction. Third, design streets, pathways, and utilities to function as temporary drainage, with infrastructure protected or accessible for quick restoration. Test by modeling: when the 100-year flood arrives, no occupied building should flood above floor level, and 90% of neighborhood function should return within 72 hours of water receding.",
     "connections_up": [
-      116,
-      119
+      116
     ],
     "connections_down": [
       17,
       19,
       67,
-      116,
       119,
       120,
       238
@@ -6556,10 +5897,7 @@
       56,
       188
     ],
-    "connections_down": [
-      47,
-      56
-    ],
+    "connections_down": [],
     "coldClimate": false,
     "tags": [
       "wildfire",
@@ -6715,13 +6053,11 @@
     "solution": "Therefore: install an electric heat pump as the primary heating and cooling system. For air-source units, select a cold-climate rated system with a COP of at least 2.0 at -20°C. For ground-source, bore vertical loops to 60-100 meters or lay horizontal loops below the frost line at 2 meters minimum. Size the system after the envelope is designed — never before — and verify that heat pump capacity at the 1% design temperature (Edmonton: -33°C) meets at least 80% of the peak heating load, with electric resistance backup for the coldest hours only. Test: measure annual heating COP across a full winter; the system passes if seasonal COP exceeds 2.5 for ground-source or 2.0 for air-source.",
     "connections_up": [
       22,
-      125,
       126,
       193
     ],
     "connections_down": [
       125,
-      126,
       195,
       196
     ],
@@ -7006,13 +6342,11 @@
     "connections_up": [
       29,
       49,
-      100,
-      205
+      100
     ],
     "connections_down": [
       27,
       28,
-      29,
       139,
       141,
       204,
@@ -7084,9 +6418,6 @@
     ],
     "connections_down": [
       13,
-      111,
-      168,
-      203,
       206
     ],
     "coldClimate": false,
@@ -7144,12 +6475,10 @@
     "connections_up": [
       28,
       49,
-      143,
       203,
       224
     ],
     "connections_down": [
-      49,
       143
     ],
     "coldClimate": false,
@@ -7348,14 +6677,12 @@
       35,
       36,
       40,
-      73,
       215,
       217,
       244,
       246
     ],
     "connections_down": [
-      36,
       45,
       73
     ],
@@ -7383,8 +6710,7 @@
     "solution": "Therefore: proportion building height to street width within the range of 1:1 to 1:3. On a street 12 meters wide, permit buildings up to 12 meters (four stories); on a street 20 meters wide, permit up to 20 meters (six stories). Test by standing at the curb and sighting upward at 45 degrees: if you see sky before you see the opposite roofline, the street has adequate enclosure. If you must tilt your head back past 60 degrees to see the sky above you, the buildings are too tall for the street. Where existing streets are too wide for their buildings, plant double rows of trees to create a secondary, closer \"wall\" of foliage.",
     "connections_up": [
       40,
-      43,
-      168
+      43
     ],
     "connections_down": [
       98,
@@ -7543,11 +6869,7 @@
     "problem": "When housing is owned by distant landlords or faceless corporations, residents become tenants in their own lives — unable to fix what needs fixing, unable to improve what could be beautiful, unable to plan beyond the next lease renewal. Yet when each household acts alone, the neighborhood has no collective voice, no shared resources, no ability to negotiate with the forces that shape it. The tension is between individual autonomy and collective power: people need both the freedom to make their own home and the strength that comes only from acting together.",
     "body": "The housing cooperative is not a new invention. The Rochdale Pioneers established cooperative principles in England in 1844, and cooperative housing followed within decades. What distinguishes cooperatives from other forms of collective ownership is democratic control: one member, one vote, regardless of the size of unit or the amount of equity. In a cooperative, you do not buy an apartment — you buy a share in an organization that owns the building and grants you the right to occupy a unit. You are simultaneously owner and tenant, landlord and resident.\n\nThe evidence from long-established cooperatives suggests they create stability without stagnation. A 2006 study by the National Association of Housing Cooperatives found that U.S. housing cooperatives had an average tenure of 16 years per household, compared to 5-7 years for rental housing. In Sweden, where cooperative housing (bostadsrätt) accounts for roughly 22% of all housing stock, the system has operated since 1923 and produces neighborhoods where residents invest in maintenance and improvement because they capture the benefits. The Stockholms Kooperativa Bostadsförening, founded in 1916, still operates today, its buildings well-maintained after a century of resident governance.\n\nThe mechanics matter. Cooperatives typically require monthly carrying charges (covering mortgage, taxes, insurance, maintenance, and reserves) rather than rent. Decisions about major repairs, capital improvements, and house rules flow through an elected board and, for significant matters, a vote of all members. This creates friction — decisions take longer, meetings can be contentious — but the friction is productive. It forces neighbors to negotiate, to persuade, to find common ground. Alexander understood this in Community of 7000 (12), where he argued that a community needs to be small enough for people to know each other and large enough to sustain shared institutions. A housing cooperative is precisely such an institution: small enough for face-to-face governance, large enough to employ professional management when needed.\n\nIn Edmonton, the Sundance Housing Cooperative (founded 1981) and the Greater Edmonton Foundation's cooperative housing portfolio demonstrate that this model functions in a Canadian legal and climatic context. Alberta's Cooperatives Act provides the legal structure; the cooperative provides the social one. The key spatial requirement is a place to meet. A cooperative without a common room is a cooperative that meets in living rooms or rents church basements — possible, but harder to sustain over decades.",
     "solution": "Therefore: when a group of households seeks collective ownership — whether in a new building, a converted apartment block, or a cluster of townhouses — incorporate as a housing cooperative under provincial law. Establish membership shares, monthly carrying charges, and a governance structure with an elected board and annual general meetings. Provide a common room sized for the full membership to gather (at minimum, two square meters per unit, with a lower bound of 30 square meters). Hold monthly board meetings and at least one annual meeting where every member votes on the budget, major expenditures, and house rules. Test the health of the cooperative by this measure: at least 60% of member households should participate in the annual meeting, in person or by proxy.",
-    "connections_up": [
-      12,
-      52,
-      53
-    ],
+    "connections_up": [],
     "connections_down": [
       12,
       52,
@@ -7972,12 +7294,7 @@
       129,
       196
     ],
-    "connections_down": [
-      45,
-      64,
-      128,
-      129
-    ],
+    "connections_down": [],
     "coldClimate": true,
     "tags": [
       "insulation",
@@ -8134,7 +7451,6 @@
       187
     ],
     "connections_down": [
-      19,
       120
     ],
     "coldClimate": false,
@@ -8226,7 +7542,6 @@
       72
     ],
     "connections_down": [
-      71,
       73
     ],
     "coldClimate": false,
@@ -8440,15 +7755,12 @@
       15,
       77,
       171,
-      172,
       185
     ],
     "connections_down": [
-      171,
       172,
       173,
-      174,
-      185
+      174
     ],
     "coldClimate": false,
     "tags": [
@@ -8698,8 +8010,7 @@
       4,
       43,
       58,
-      72,
-      257
+      72
     ],
     "connections_down": [
       103,
@@ -8732,7 +8043,6 @@
       1,
       2,
       57,
-      176,
       255,
       256
     ],
@@ -8740,8 +8050,7 @@
       148,
       176,
       177,
-      224,
-      256
+      224
     ],
     "coldClimate": false,
     "tags": [
