@@ -1,9 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { Logo } from '@/components/shared/Logo';
 import { useState } from 'react';
+import { getRandomPattern } from '@/lib/patterns';
 
 const navLinks = [
   { href: '/patterns', label: 'Patterns' },
@@ -14,7 +15,13 @@ const navLinks = [
 
 export function TopNav() {
   const pathname = usePathname();
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  const handleRandomPattern = () => {
+    const pattern = getRandomPattern();
+    router.push(`/patterns/${pattern.id}`);
+  };
 
   const isActive = (href: string) => {
     if (href === '/patterns') {
@@ -48,6 +55,16 @@ export function TopNav() {
                 {link.label}
               </Link>
             ))}
+            <button
+              onClick={handleRandomPattern}
+              className="font-mono text-[11px] uppercase tracking-wider px-3 py-2 rounded-md transition-colors text-silver hover:text-white hover:bg-white/5 border border-steel/30 flex items-center gap-1.5 ml-2"
+              aria-label="Go to random pattern"
+            >
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              Random
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -87,6 +104,19 @@ export function TopNav() {
                 {link.label}
               </Link>
             ))}
+            <button
+              onClick={() => {
+                handleRandomPattern();
+                setMobileOpen(false);
+              }}
+              className="w-full mt-2 font-mono text-xs uppercase tracking-wider px-3 py-3 rounded-md transition-colors text-silver hover:text-white hover:bg-white/5 border border-steel/30 flex items-center gap-1.5"
+              aria-label="Go to random pattern"
+            >
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              Random
+            </button>
           </div>
         )}
       </div>

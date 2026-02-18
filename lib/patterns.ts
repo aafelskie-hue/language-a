@@ -2,10 +2,10 @@ import patternsData from '@/data/patterns.json';
 import categoriesData from '@/data/categories.json';
 import type { Pattern, Category, Scale, Confidence } from './types';
 
-// Sort patterns by reading_order for display (default browse/list order)
-// ID is still used for URL routing and cross-reference links
+// Sort patterns by ID (pattern number) for display
+// reading_order field preserved in data for future use
 export const patterns: Pattern[] = (patternsData as Pattern[]).slice().sort(
-  (a, b) => a.reading_order - b.reading_order
+  (a, b) => a.id - b.id
 );
 export const categories: Category[] = categoriesData as Category[];
 
