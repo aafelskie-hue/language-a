@@ -3,9 +3,27 @@
 import Link from 'next/link';
 import type { ChatMessage as ChatMessageType } from '@/lib/types';
 import { getPatternById, getConfidenceStars } from '@/lib/patterns';
+import { AddToProjectButton } from './AddToProjectButton';
+import { AddAllPatternsBar } from './AddAllPatternsBar';
 
 interface ChatMessageProps {
   message: ChatMessageType;
+}
+
+// Extract pattern IDs from message content
+export function extractPatternIds(content: string): number[] {
+  const regex = /\*\*Pattern (\d+):?\s*([^*]+)\*\*/g;
+  const ids: number[] = [];
+  let match;
+
+  while ((match = regex.exec(content)) !== null) {
+    const id = parseInt(match[1], 10);
+    if (!isNaN(id) && !ids.includes(id)) {
+      ids.push(id);
+    }
+  }
+
+  return ids;
 }
 
 // Render an inline pattern card
@@ -20,11 +38,11 @@ function PatternCard({ patternId }: { patternId: number }) {
     : firstSentence + '.';
 
   return (
-    <Link
-      href={`/patterns/${pattern.id}`}
-      className="block my-2 p-3 bg-copper-pale/30 border border-copper/20 rounded-lg hover:border-copper/40 hover:bg-copper-pale/50 transition-all group"
-    >
-      <div className="flex items-start gap-3">
+    <div className="my-2 p-3 bg-copper-pale/30 border border-copper/20 rounded-lg hover:border-copper/40 hover:bg-copper-pale/50 transition-all group flex items-start gap-3">
+      <Link
+        href={`/patterns/${pattern.id}`}
+        className="flex-1 min-w-0 flex items-start gap-3"
+      >
         <span className="font-mono text-lg font-medium text-copper flex-shrink-0">
           {pattern.number}
         </span>
@@ -49,8 +67,9 @@ function PatternCard({ patternId }: { patternId: number }) {
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
-      </div>
-    </Link>
+      </Link>
+      <AddToProjectButton patternId={patternId} />
+    </div>
   );
 }
 
@@ -94,6 +113,9 @@ export function ChatMessage({ message }: ChatMessageProps) {
   // Split content by double newlines to create paragraphs
   const paragraphs = message.content.split('\n\n');
 
+  // Extract pattern IDs for assistant messages
+  const patternIds = !isUser ? extractPatternIds(message.content) : [];
+
   return (
     <div className={`chat-message ${isUser ? 'chat-message-user' : 'chat-message-assistant'}`}>
       {isUser ? (
@@ -105,6 +127,9 @@ export function ChatMessage({ message }: ChatMessageProps) {
               {parsePatternReferences(paragraph)}
             </div>
           ))}
+          {patternIds.length > 0 && (
+            <AddAllPatternsBar patternIds={patternIds} />
+          )}
         </div>
       )}
     </div>
