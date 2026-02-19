@@ -248,41 +248,41 @@ function getMockResponse(message: string): string {
   if (lowerMessage.includes('cold') || lowerMessage.includes('winter') || lowerMessage.includes('edmonton') || lowerMessage.includes('northern')) {
     return `For cold-climate projects, I'd recommend starting with these key patterns:
 
-**Pattern 58: The Winter City Street** — Design streets for the worst month, not the best. Orient pedestrian routes for maximum sun exposure in winter.
+**Pattern 59: The Winter City Street** — Design streets for the worst month, not the best. Orient pedestrian routes for maximum sun exposure in winter.
 
-**Pattern 59: The Heated Threshold** — Create a proper vestibule (at least 3 square meters) with radiant floor heat, bench, and storage. This is essential at -30°C.
+**Pattern 153: The Heated Threshold** — Create a proper vestibule (at least 3 square meters) with radiant floor heat, bench, and storage. This is essential at -30°C.
 
-**Pattern 61: The Dark Season Room** — Designate one south-facing room with maximum winter solar gain and full-spectrum lighting. This addresses the psychological toll of northern winters.
+**Pattern 154: The Dark Season Room** — Designate one south-facing room with maximum winter solar gain and full-spectrum lighting. This addresses the psychological toll of northern winters.
 
-**Pattern 63: The Covered Connection** — Between any two buildings used daily, provide covered, wind-protected walkways.
+**Pattern 225: The Covered Connection** — Between any two buildings used daily, provide covered, wind-protected walkways.
 
-These patterns work together — the heated threshold (59) connects to the entrance sequence (35), and the dark season room (61) builds on south-facing living (38). Would you like me to explore the connections in more detail?`;
+These patterns work together — the heated threshold (153) connects to the entrance sequence (76), and the dark season room (154) builds on south-facing living. Would you like me to explore the connections in more detail?`;
   }
 
   if (lowerMessage.includes('home office') || lowerMessage.includes('work from home') || lowerMessage.includes('remote work')) {
     return `For a successful home office setup, consider this sequence of patterns:
 
-**Pattern 05: The Home Office Threshold** — The most critical pattern. Create a physical transition between workspace and living space — not just a door, but a change in level, light quality, or passage through a buffer space.
+**Pattern 14: The Remote Work Walk** — The most critical pattern. Create a physical transition between workspace and living space — not just a door, but a change in level, light quality, or passage through a buffer space.
 
-**Pattern 06: The Fifteen-Minute Shed** — If possible, a small separate structure within the property. Even 10 square meters, heated and insulated, transforms the work-from-home experience.
+**Pattern 130: The Fifteen-Minute Shed** — If possible, a small separate structure within the property. Even 10 square meters, heated and insulated, transforms the work-from-home experience.
 
-**Pattern 07: The Zoom Room** — A dedicated 2 square meter enclosure for video calls. Separate from the main office — the office is for thinking, the Zoom Room is for performing.
+**Pattern 131: The Zoom Room** — A dedicated 2 square meter enclosure for video calls. Separate from the main office — the office is for thinking, the Zoom Room is for performing.
 
-**Pattern 34: Light on Two Sides** — Give your workspace natural light from at least two directions. This affects mood, productivity, and circadian rhythm.
+**Pattern 75: Light on Two Sides** — Give your workspace natural light from at least two directions. This affects mood, productivity, and circadian rhythm.
 
-Start with Pattern 05 — the threshold is what makes the separation real. Do you have a specific space in mind?`;
+Start with Pattern 14 — the transition is what makes the separation real. Do you have a specific space in mind?`;
   }
 
   if (lowerMessage.includes('renovation') || lowerMessage.includes('retrofit') || lowerMessage.includes('existing')) {
     return `For existing building renovations, these patterns are particularly relevant:
 
-**Pattern 28: Heritage Retrofit** — Work from the inside and hidden surfaces. Insulate attic first, then basement, then interior walls. Never wrap the exterior of a building worth preserving.
+**Pattern 139: Heritage Retrofit** — Work from the inside and hidden surfaces. Insulate attic first, then basement, then interior walls. Never wrap the exterior of a building worth preserving.
 
-**Pattern 49: The Repaired Building** — Design so layers are independent and accessible. Structure exposed or inspectable, mechanical systems in accessible chases.
+**Pattern 208: The Repaired Building** — Design so layers are independent and accessible. Structure exposed or inspectable, mechanical systems in accessible chases.
 
-**Pattern 27: Office-to-Housing Conversion** — If converting commercial space, the key move is carving light wells to bring daylight to deep floor plates.
+**Pattern 138: Office-to-Housing Conversion** — If converting commercial space, the key move is carving light wells to bring daylight to deep floor plates.
 
-**Pattern 47: Living Surfaces** — Choose materials that age well — wood, stone, tile, lime plaster. Avoid surfaces that peak on installation day.
+**Pattern 206: Living Surfaces** — Choose materials that age well — wood, stone, tile, lime plaster. Avoid surfaces that peak on installation day.
 
 What's the nature of your renovation — is it primarily energy performance, adapting to new uses, or restoring character?`;
   }
@@ -290,13 +290,13 @@ What's the nature of your renovation — is it primarily energy performance, ada
   if (lowerMessage.includes('neighbor') || lowerMessage.includes('community') || lowerMessage.includes('neighborhood')) {
     return `For neighborhood-scale thinking, start with these foundational patterns:
 
-**Pattern 01: The Fifteen-Minute Neighborhood** — The primary test: can residents reach groceries, school, park, clinic, gathering place, and transit within fifteen minutes on foot or by bicycle?
+**Pattern 7: The Fifteen-Minute Neighborhood** — The primary test: can residents reach groceries, school, park, clinic, gathering place, and transit within fifteen minutes on foot or by bicycle?
 
-**Pattern 41: The Identifiable Neighborhood** — Roughly 500 people — small enough that residents recognize each other, large enough to support a gathering place.
+**Pattern 2: The Identifiable Neighborhood** — Roughly 500 people — small enough that residents recognize each other, large enough to support a gathering place.
 
-**Pattern 42: Common Ground** — Reserve at least 10% of land as collectively owned space — gardens, courtyards, playgrounds.
+**Pattern 3: Common Ground** — Reserve at least 10% of land as collectively owned space — gardens, courtyards, playgrounds.
 
-**Pattern 02: The Third Place Network** — Ensure at least five distinct third places serving different social functions — morning quiet, informal gathering, active socializing, creative work, intergenerational mixing.
+**Pattern 8: The Third Place Network** — Ensure at least five distinct third places serving different social functions — morning quiet, informal gathering, active socializing, creative work, intergenerational mixing.
 
 These work together to create the social fabric that makes a neighborhood more than just houses. Which aspect interests you most?`;
   }
@@ -310,9 +310,9 @@ To give you specific guidance, it helps to know:
 3. **Context** — New construction, renovation, or planning?
 
 Some good starting points:
-- For any project: **Pattern 34: Light on Two Sides** and **Pattern 35: The Entrance Sequence**
-- For cold climates: **Pattern 22: Building Envelope as Climate System** and **Pattern 59: The Heated Threshold**
-- For housing: **Pattern 12: The Missing Middle** and **Pattern 14: The Multigenerational Suite**
+- For any project: **Pattern 75: Light on Two Sides** and **Pattern 76: The Entrance Sequence**
+- For cold climates: **Pattern 95: Building Envelope as Climate System** and **Pattern 153: The Heated Threshold**
+- For housing: **Pattern 85: The Missing Middle** and **Pattern 87: The Multigenerational Suite**
 
 What's the nature of your project?`;
 }

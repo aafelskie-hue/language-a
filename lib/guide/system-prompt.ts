@@ -1,4 +1,4 @@
-import { patterns } from '@/lib/patterns';
+import { patterns, getPatternById } from '@/lib/patterns';
 import type { Pattern } from '@/lib/types';
 
 // Build the pattern index once at module load time (not per request)
@@ -54,20 +54,24 @@ function buildPatternIndex(): string {
         // First sentence of problem statement = the diagnostic hook
         const firstSentence = p.problem.split(/(?<=[.!?])\s/)[0] || p.problem;
 
-        // Compact connection list - use pattern IDs, limit to 6
-        const allConnections = [
+        // Compact connection list - convert internal IDs to reading_order, limit to 6
+        const allConnectionIds = [
           ...p.connections_up,
           ...p.connections_down
         ].slice(0, 6);
 
-        const connStr = allConnections.length > 0
-          ? ` [→ ${allConnections.join(', ')}]`
+        const connectionReadingOrders = allConnectionIds
+          .map(id => getPatternById(id)?.reading_order)
+          .filter((ro): ro is number => ro !== undefined);
+
+        const connStr = connectionReadingOrders.length > 0
+          ? ` [→ ${connectionReadingOrders.join(', ')}]`
           : '';
 
         // Confidence indicator
         const confidence = '★'.repeat(p.confidence) + '☆'.repeat(2 - p.confidence);
 
-        index += `${p.number}. ${p.name} ${confidence} — ${firstSentence}${connStr}\n`;
+        index += `${p.reading_order}. ${p.name} ${confidence} — ${firstSentence}${connStr}\n`;
       }
     }
   }
@@ -84,7 +88,7 @@ function buildProjectContext(patternIds: number[]): string {
   let context = `\n\nACTIVE PROJECT CONTEXT:\nThe user has selected these patterns for their current project:\n`;
 
   for (const p of projectPatterns) {
-    context += `- Pattern ${p.number}: ${p.name}\n`;
+    context += `- Pattern ${p.reading_order}: ${p.name}\n`;
   }
 
   context += `\nWhen making recommendations, consider what they've already chosen. Suggest patterns that connect to or complement their selection. Note any obvious gaps — if they have envelope patterns but no site orientation pattern, that's worth mentioning.\n`;
@@ -102,7 +106,7 @@ You help people apply these patterns to real design situations: new homes, renov
 
 Your tone is warm, practical, and specific. You are an experienced builder walking through a site with a friend — pointing out what matters and why, connecting the physical reality to the underlying forces. You never condescend. You assume the person asking is intelligent and capable of understanding spatial reasoning when it is explained well.
 
-When you reference a pattern, always use its number and name together (e.g., "Pattern 06: The Fifteen-Minute Shed"). This helps people find it on the site.`;
+When you reference a pattern, always use its reading order number and name together (e.g., "Pattern 130: The Fifteen-Minute Shed"). This helps people find it on the site — the number is the pattern's position in the reading sequence (1–254).`;
 
 const BEHAVIORAL_INSTRUCTIONS = `
 
