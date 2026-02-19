@@ -27,10 +27,7 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section
-        className="text-white"
-        style={{ background: 'linear-gradient(to bottom, #0f1f33 0%, #0f1f33 50%, #18150f 72%, #f2ece4 100%)' }}
-      >
+      <section className="bg-navy-deep text-white">
         <div className="max-w-page mx-auto px-4 md:px-6 pt-16 md:pt-24 pb-0">
           <div className="max-w-2xl">
             <p className="font-mono text-[11px] uppercase tracking-widest text-copper-light mb-4">
@@ -81,12 +78,12 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Methodology text — in the parchment zone at bottom of gradient */}
+            {/* Methodology text */}
             <div className="max-w-3xl pt-8 pb-12">
-              <p className="text-[#1c1c1e]/70 leading-relaxed mb-3">
+              <p className="text-silver leading-relaxed mb-3">
                 Each pattern identifies a recurring design problem and offers a tested solution — connected to patterns above it that give it context, and patterns below it that give it form.
               </p>
-              <p className="text-[#1c1c1e]/70 leading-relaxed">
+              <p className="text-silver leading-relaxed">
                 For architects, planners, developers, homeowners, and anyone shaping the places where people live and work.
               </p>
             </div>
