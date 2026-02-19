@@ -163,7 +163,8 @@
       "ritual",
       "winter-city"
     ],
-    "coldClimate": true
+    "coldClimate": true,
+    "reading_order": 14
   },
   {
     "id": 6,
@@ -4314,7 +4315,8 @@
       "embodied-carbon",
       "flexibility"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 190
   },
   {
     "id": 139,
@@ -7046,7 +7048,8 @@
       "community-capacity",
       "tool-lending"
     ],
-    "coldClimate": false
+    "coldClimate": false,
+    "reading_order": 15
   },
   {
     "id": 222,

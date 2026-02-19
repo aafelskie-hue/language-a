@@ -7,8 +7,8 @@ const allPatterns: Pattern[] = (patternsData as Pattern[]).slice().sort(
   (a, b) => a.id - b.id
 );
 
-// Published patterns (those with reading_order 1-254) for listings and explorer
-export const patterns: Pattern[] = allPatterns.filter(p => p.reading_order !== undefined && p.reading_order >= 1 && p.reading_order <= 254);
+// Published patterns (1-254) for listings and explorer
+export const patterns: Pattern[] = allPatterns.filter(p => p.id <= 254);
 export const categories: Category[] = categoriesData as Category[];
 
 export function getPatternById(id: number): Pattern | undefined {
