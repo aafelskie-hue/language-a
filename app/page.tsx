@@ -11,6 +11,13 @@ import { FilterBar } from '@/components/patterns/FilterBar';
 
 type ViewMode = 'grid' | 'list';
 
+// Featured patterns for hero transition zone
+const FEATURED_PATTERNS = [
+  { id: 1, name: "The Fifteen-Minute Neighborhood", scale: "Neighborhood" },
+  { id: 34, name: "Light on Two Sides", scale: "Building" },
+  { id: 269, name: "Heat Refuge Room", scale: "Building" },
+] as const;
+
 // Stats
 const neighborhoodCount = patterns.filter(p => p.scale === 'neighborhood').length;
 const buildingCount = patterns.filter(p => p.scale === 'building').length;
@@ -79,12 +86,41 @@ export default function HomePage() {
                 View Pattern Network
               </Link>
             </div>
+
+            {/* Transition Zone — editorial preview cards in dissolving gradient */}
+            <div className="mt-16 pt-8">
+              <div className="relative">
+                {/* Gradient background: navy dissolving downward (behind cards) */}
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/60 to-navy-deep pointer-events-none" />
+
+                {/* Three pattern preview cards (above gradient) */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 relative">
+                  {FEATURED_PATTERNS.map((p) => (
+                    <Link
+                      key={p.id}
+                      href={`/patterns/${p.id}`}
+                      className="group block p-4 rounded-sm border border-white/10 bg-white/5 hover:bg-white/10 hover:border-copper/30 transition-all duration-300"
+                    >
+                      <p className="font-mono text-[10px] tracking-widest text-copper-light mb-1.5 uppercase">
+                        {String(p.id).padStart(2, '0')} ↗
+                      </p>
+                      <p className="font-serif text-sm text-white/70 leading-snug group-hover:text-white/90 transition-colors">
+                        {p.name}
+                      </p>
+                      <p className="font-mono text-[9px] tracking-wider text-white/30 mt-2 uppercase">
+                        {p.scale}
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Sub-Hero */}
-      <section className="bg-navy-deep text-white border-t border-white/10">
+      <section className="bg-navy-deep text-white">
         <div className="max-w-page mx-auto px-4 md:px-6 py-8">
           <div className="max-w-3xl">
             <p className="text-silver leading-relaxed mb-3">
