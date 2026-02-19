@@ -1,4 +1,4 @@
-import { pgTable, uuid, text, timestamp, pgEnum, integer } from 'drizzle-orm/pg-core';
+import { pgTable, uuid, text, timestamp, pgEnum, integer, jsonb } from 'drizzle-orm/pg-core';
 
 // Enums
 export const providerEnum = pgEnum('provider', ['credentials', 'google']);
@@ -52,3 +52,25 @@ export type Project = typeof projects.$inferSelect;
 export type NewProject = typeof projects.$inferInsert;
 export type ProjectPattern = typeof projectPatterns.$inferSelect;
 export type NewProjectPattern = typeof projectPatterns.$inferInsert;
+
+// Conversation message type for JSONB storage
+export interface ConversationMessage {
+  role: 'user' | 'assistant';
+  content: string;
+  timestamp: string; // ISO 8601
+}
+
+// Conversations table for authenticated users
+export const conversations = pgTable('conversations', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: uuid('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
+  title: text('title').notNull(),
+  messages: jsonb('messages').$type<ConversationMessage[]>().notNull().default([]),
+  totalOutputTokens: integer('total_output_tokens').notNull().default(0),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+// Conversation type exports
+export type Conversation = typeof conversations.$inferSelect;
+export type NewConversation = typeof conversations.$inferInsert;

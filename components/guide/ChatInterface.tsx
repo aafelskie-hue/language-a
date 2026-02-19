@@ -1,28 +1,69 @@
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
+import { useSession } from 'next-auth/react';
+import Link from 'next/link';
 import type { ChatMessage as ChatMessageType } from '@/lib/types';
 import { ChatMessage } from './ChatMessage';
+import { ConversationHistory } from './ConversationHistory';
 import { useProjectStore } from '@/store/useProjectStore';
+import { useConversationStore, type ConversationMessage } from '@/store/useConversationStore';
 
-// Generate a unique session ID for this conversation
+// Generate a unique session ID for anonymous conversations
 function generateSessionId(): string {
   return `${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
 }
 
+interface RateLimitInfo {
+  reason?: 'message_limit' | 'conversation_limit_anonymous' | 'conversation_limit_free';
+  message?: string;
+}
+
 export function ChatInterface() {
-  const [messages, setMessages] = useState<ChatMessageType[]>([]);
+  const { data: session, status } = useSession();
+  const isAuthenticated = status === 'authenticated';
+  const isAuthLoading = status === 'loading';
+
+  // Conversation store for authenticated users
+  const {
+    activeConversationId,
+    messages: storedMessages,
+    loadConversations,
+    appendMessages,
+    startNewConversation: resetConversation,
+    setLocalMessages,
+  } = useConversationStore();
+
+  // Local state for anonymous users
+  const [localMessages, setLocalMessagesState] = useState<ChatMessageType[]>([]);
+  const [sessionId, setSessionId] = useState<string>(() => generateSessionId());
+
+  // Shared state
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [sessionId, setSessionId] = useState<string>(() => generateSessionId());
-  const [rateLimitInfo, setRateLimitInfo] = useState<{
-    message?: string;
-    upgradeHint?: string;
-  } | null>(null);
+  const [rateLimitInfo, setRateLimitInfo] = useState<RateLimitInfo | null>(null);
+  const [spendLimitReached, setSpendLimitReached] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const { getActiveProject } = useProjectStore();
   const activeProject = getActiveProject();
+
+  // Get messages based on auth state
+  const messages: ChatMessageType[] = isAuthenticated
+    ? storedMessages.map((m, i) => ({
+        id: `${i}`,
+        role: m.role,
+        content: m.content,
+        timestamp: m.timestamp,
+      }))
+    : localMessages;
+
+  // Load conversations for authenticated users
+  useEffect(() => {
+    if (isAuthenticated) {
+      loadConversations();
+    }
+  }, [isAuthenticated, loadConversations]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -32,45 +73,60 @@ export function ChatInterface() {
     scrollToBottom();
   }, [messages]);
 
-  const startNewConversation = useCallback(() => {
-    setMessages([]);
-    setSessionId(generateSessionId());
+  const handleStartNewConversation = useCallback(() => {
+    if (isAuthenticated) {
+      resetConversation();
+    } else {
+      setLocalMessagesState([]);
+      setSessionId(generateSessionId());
+    }
     setRateLimitInfo(null);
-  }, []);
+    setSpendLimitReached(false);
+  }, [isAuthenticated, resetConversation]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!input.trim() || isLoading) return;
 
-    // Clear any previous rate limit info
+    // Clear any previous limits
     setRateLimitInfo(null);
+    setSpendLimitReached(false);
+
+    const userContent = input.trim();
+    const now = new Date().toISOString();
 
     const userMessage: ChatMessageType = {
       id: Date.now().toString(),
       role: 'user',
-      content: input.trim(),
-      timestamp: new Date().toISOString(),
+      content: userContent,
+      timestamp: now,
     };
 
-    const updatedMessages = [...messages, userMessage];
-    setMessages(updatedMessages);
+    // Optimistically add user message
+    if (isAuthenticated) {
+      setLocalMessages([...storedMessages, { role: 'user', content: userContent, timestamp: now }]);
+    } else {
+      setLocalMessagesState((prev) => [...prev, userMessage]);
+    }
     setInput('');
     setIsLoading(true);
 
     try {
-      // Build conversation history for multi-turn support
-      const conversationHistory = updatedMessages.map(m => ({
-        role: m.role,
-        content: m.content,
-      }));
+      // Build conversation history for API
+      const currentMessages = isAuthenticated ? storedMessages : localMessages;
+      const conversationHistory = [
+        ...currentMessages.map((m) => ({ role: m.role, content: m.content })),
+        { role: 'user' as const, content: userContent },
+      ];
 
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           messages: conversationHistory,
-          projectPatternIds: activeProject?.patterns.map(p => p.patternId),
-          sessionId,
+          projectPatternIds: activeProject?.patterns.map((p) => p.patternId),
+          conversationId: isAuthenticated ? activeConversationId : undefined,
+          sessionId: isAuthenticated ? undefined : sessionId,
         }),
       });
 
@@ -79,23 +135,27 @@ export function ChatInterface() {
       // Handle rate limiting
       if (response.status === 429) {
         setRateLimitInfo({
+          reason: data.reason,
           message: data.message,
-          upgradeHint: data.upgradeHint,
         });
-        // Remove the user message since it wasn't processed
-        setMessages(messages);
+        // Remove the optimistic user message
+        if (isAuthenticated) {
+          setLocalMessages(storedMessages);
+        } else {
+          setLocalMessagesState(localMessages);
+        }
         return;
       }
 
-      // Handle service unavailable
-      if (response.status === 503) {
-        const errorMessage: ChatMessageType = {
-          id: (Date.now() + 1).toString(),
-          role: 'assistant',
-          content: data.message || 'The Pattern Guide is temporarily unavailable. Please try again later.',
-          timestamp: new Date().toISOString(),
-        };
-        setMessages(prev => [...prev, errorMessage]);
+      // Handle spend limit
+      if (response.status === 503 && data.error === 'spend_limit') {
+        setSpendLimitReached(true);
+        // Remove the optimistic user message
+        if (isAuthenticated) {
+          setLocalMessages(storedMessages);
+        } else {
+          setLocalMessagesState(localMessages);
+        }
         return;
       }
 
@@ -111,7 +171,28 @@ export function ChatInterface() {
         timestamp: new Date().toISOString(),
       };
 
-      setMessages(prev => [...prev, assistantMessage]);
+      if (isAuthenticated) {
+        // Update conversation store
+        const userMsg: ConversationMessage = {
+          role: 'user',
+          content: userContent,
+          timestamp: now,
+        };
+        const assistantMsg: ConversationMessage = {
+          role: 'assistant',
+          content: assistantMessage.content,
+          timestamp: assistantMessage.timestamp,
+        };
+        appendMessages(userMsg, assistantMsg);
+
+        // Update active conversation ID if a new one was created
+        if (data.conversationId && !activeConversationId) {
+          // Reload conversations to get the new one
+          loadConversations();
+        }
+      } else {
+        setLocalMessagesState((prev) => [...prev, assistantMessage]);
+      }
     } catch (error) {
       console.error('Chat error:', error);
       const errorMessage: ChatMessageType = {
@@ -120,7 +201,16 @@ export function ChatInterface() {
         content: 'I apologize, but I encountered an error. Please try again.',
         timestamp: new Date().toISOString(),
       };
-      setMessages(prev => [...prev, errorMessage]);
+      if (isAuthenticated) {
+        const msg: ConversationMessage = {
+          role: 'assistant',
+          content: errorMessage.content,
+          timestamp: errorMessage.timestamp,
+        };
+        setLocalMessages([...storedMessages, { role: 'user', content: userContent, timestamp: now }, msg]);
+      } else {
+        setLocalMessagesState((prev) => [...prev, errorMessage]);
+      }
     } finally {
       setIsLoading(false);
     }
@@ -133,13 +223,65 @@ export function ChatInterface() {
     'What are the key patterns for aging in place?',
   ];
 
+  // Render rate limit messages based on type
+  const renderRateLimitMessage = () => {
+    if (!rateLimitInfo) return null;
+
+    if (rateLimitInfo.reason === 'conversation_limit_anonymous') {
+      return (
+        <div className="mx-4 mb-2 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+          <p className="text-sm text-amber-800 mb-3">
+            You&apos;ve used your free preview conversations. Create a free profile to continue — your projects and conversations will be saved across devices.
+          </p>
+          <Link
+            href="/auth/signin"
+            className="inline-block px-4 py-2 bg-copper text-white rounded-lg hover:bg-copper/90 transition-colors text-sm font-medium"
+          >
+            Create Free Profile
+          </Link>
+        </div>
+      );
+    }
+
+    if (rateLimitInfo.reason === 'conversation_limit_free') {
+      return (
+        <div className="mx-4 mb-2 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+          <p className="text-sm text-amber-800">
+            You&apos;ve reached this week&apos;s Guide limit (5 conversations). Your conversations reset on Monday. All patterns, projects, and the network are still available.
+          </p>
+        </div>
+      );
+    }
+
+    // message_limit or fallback
+    return (
+      <div className="mx-4 mb-2 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+        <p className="text-sm text-amber-800">{rateLimitInfo.message}</p>
+      </div>
+    );
+  };
+
+  if (isAuthLoading) {
+    return (
+      <div className="flex items-center justify-center h-[400px]">
+        <div className="flex items-center gap-2 text-steel">
+          <div className="spinner"></div>
+          <span className="text-sm">Loading...</span>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col h-[calc(100vh-12rem)] max-h-[700px]">
-      {/* Header with new conversation button */}
-      {messages.length > 0 && (
+      {/* Conversation History for authenticated users */}
+      {isAuthenticated && <ConversationHistory />}
+
+      {/* Header with new conversation button for anonymous users */}
+      {!isAuthenticated && messages.length > 0 && (
         <div className="flex justify-end px-4 py-2 border-b border-slate/10">
           <button
-            onClick={startNewConversation}
+            onClick={handleStartNewConversation}
             className="text-sm text-steel hover:text-copper transition-colors"
           >
             New conversation
@@ -165,6 +307,12 @@ export function ChatInterface() {
             {activeProject && (
               <p className="text-sm text-steel mb-6">
                 Project context: <span className="text-copper">{activeProject.name}</span> ({activeProject.patterns.length} patterns)
+              </p>
+            )}
+
+            {!isAuthenticated && (
+              <p className="text-xs text-steel mb-4">
+                <Link href="/auth/signin" className="text-copper hover:underline">Sign in</Link> to save conversations across devices
               </p>
             )}
 
@@ -197,15 +345,17 @@ export function ChatInterface() {
         )}
       </div>
 
-      {/* Rate Limit Warning */}
-      {rateLimitInfo && (
-        <div className="mx-4 mb-2 p-3 bg-amber-50 border border-amber-200 rounded-lg">
-          <p className="text-sm text-amber-800">{rateLimitInfo.message}</p>
-          {rateLimitInfo.upgradeHint && (
-            <p className="text-xs text-amber-600 mt-1">{rateLimitInfo.upgradeHint}</p>
-          )}
+      {/* Spend Limit Warning */}
+      {spendLimitReached && (
+        <div className="mx-4 mb-2 p-4 bg-slate/5 border border-slate/20 rounded-lg">
+          <p className="text-sm text-slate">
+            The AI Guide is taking a brief rest. All patterns, the network, and your projects are still available.
+          </p>
         </div>
       )}
+
+      {/* Rate Limit Warning */}
+      {renderRateLimitMessage()}
 
       {/* Input Area */}
       <form onSubmit={handleSubmit} className="border-t border-slate/10 p-4 bg-white">
@@ -216,11 +366,11 @@ export function ChatInterface() {
             onChange={(e) => setInput(e.target.value)}
             placeholder="Describe your project or ask about patterns..."
             className="flex-1"
-            disabled={isLoading}
+            disabled={isLoading || spendLimitReached || rateLimitInfo?.reason === 'conversation_limit_anonymous' || rateLimitInfo?.reason === 'conversation_limit_free'}
           />
           <button
             type="submit"
-            disabled={!input.trim() || isLoading}
+            disabled={!input.trim() || isLoading || spendLimitReached}
             className="btn btn-primary"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

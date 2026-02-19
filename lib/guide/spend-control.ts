@@ -1,47 +1,31 @@
-// Simple spend tracking — in-memory for now
-// Replace with Vercel KV or database when traffic justifies it
-
-let dailySpendCents = 0;
-let monthlySpendCents = 0;
-let currentDay = new Date().toDateString();
-let currentMonth = new Date().getMonth();
+import { kv, kvKeys, getTodayDateKey } from '@/lib/kv';
 
 const DAILY_LIMIT = parseInt(
-  process.env.GUIDE_DAILY_SPEND_LIMIT_CENTS || '500'
+  process.env.GUIDE_DAILY_SPEND_LIMIT_CENTS || '5000'
 );
-const MONTHLY_LIMIT = parseInt(
-  process.env.GUIDE_MONTHLY_SPEND_LIMIT_CENTS || '5000'
-);
+
+// 48 hours in seconds - gives buffer for timezone differences
+const EXPIRY_SECONDS = 48 * 60 * 60;
 
 export interface SpendCheckResult {
   allowed: boolean;
   dailySpendCents: number;
-  monthlySpendCents: number;
   dailyLimitCents: number;
-  monthlyLimitCents: number;
 }
 
-export function checkSpendLimit(): SpendCheckResult {
-  const now = new Date();
+/**
+ * Check if daily spend limit has been reached
+ */
+export async function checkSpendLimit(): Promise<SpendCheckResult> {
+  const dateKey = getTodayDateKey();
+  const key = kvKeys.dailySpend(dateKey);
 
-  // Reset daily counter
-  if (now.toDateString() !== currentDay) {
-    dailySpendCents = 0;
-    currentDay = now.toDateString();
-  }
-
-  // Reset monthly counter
-  if (now.getMonth() !== currentMonth) {
-    monthlySpendCents = 0;
-    currentMonth = now.getMonth();
-  }
+  const dailySpendCents = (await kv.get<number>(key)) || 0;
 
   return {
-    allowed: dailySpendCents < DAILY_LIMIT && monthlySpendCents < MONTHLY_LIMIT,
+    allowed: dailySpendCents < DAILY_LIMIT,
     dailySpendCents,
-    monthlySpendCents,
     dailyLimitCents: DAILY_LIMIT,
-    monthlyLimitCents: MONTHLY_LIMIT,
   };
 }
 
@@ -55,46 +39,45 @@ export function estimateCost(usage: { input_tokens: number; output_tokens: numbe
   return inputCostCents + outputCostCents;
 }
 
-export function recordUsage(
+/**
+ * Record API usage cost
+ */
+export async function recordUsage(
   clientIP: string,
   sessionId: string | undefined,
   costCents: number
-): void {
-  dailySpendCents += costCents;
-  monthlySpendCents += costCents;
+): Promise<void> {
+  const dateKey = getTodayDateKey();
+  const key = kvKeys.dailySpend(dateKey);
+
+  // Increment daily spend and set expiry
+  await kv.incrby(key, Math.ceil(costCents * 100)); // Store as integer (hundredths of cents)
+  await kv.expire(key, EXPIRY_SECONDS);
 
   // Log for monitoring (Vercel logs)
+  const newTotal = (await kv.get<number>(key)) || 0;
   console.log(
     `[Guide] IP=${clientIP} session=${sessionId || 'none'} ` +
-    `cost=${costCents.toFixed(4)}¢ ` +
-    `daily=${dailySpendCents.toFixed(2)}¢ ` +
-    `monthly=${monthlySpendCents.toFixed(2)}¢`
+    `cost=${costCents.toFixed(4)}c ` +
+    `daily=${(newTotal / 100).toFixed(2)}c`
   );
 }
 
-// Get current spend stats (useful for debugging/monitoring)
-export function getSpendStats(): {
+/**
+ * Get current spend stats (for debugging/monitoring)
+ */
+export async function getSpendStats(): Promise<{
   dailySpendCents: number;
-  monthlySpendCents: number;
   dailyLimitCents: number;
-  monthlyLimitCents: number;
-  currentDay: string;
-  currentMonth: number;
-} {
-  return {
-    dailySpendCents,
-    monthlySpendCents,
-    dailyLimitCents: DAILY_LIMIT,
-    monthlyLimitCents: MONTHLY_LIMIT,
-    currentDay,
-    currentMonth,
-  };
-}
+  dateKey: string;
+}> {
+  const dateKey = getTodayDateKey();
+  const key = kvKeys.dailySpend(dateKey);
+  const rawValue = (await kv.get<number>(key)) || 0;
 
-// Reset spend counters (useful for testing)
-export function resetSpend(): void {
-  dailySpendCents = 0;
-  monthlySpendCents = 0;
-  currentDay = new Date().toDateString();
-  currentMonth = new Date().getMonth();
+  return {
+    dailySpendCents: rawValue / 100, // Convert back from hundredths
+    dailyLimitCents: DAILY_LIMIT,
+    dateKey,
+  };
 }

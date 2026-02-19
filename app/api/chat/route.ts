@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSystemPrompt } from '@/lib/guide/system-prompt';
-import { checkRateLimit } from '@/lib/guide/rate-limit';
+import { checkRateLimit, recordNewConversation, type UserTier } from '@/lib/guide/rate-limit';
 import { checkSpendLimit, estimateCost, recordUsage } from '@/lib/guide/spend-control';
+import { auth } from '@/auth';
+import { db } from '@/lib/db';
+import { conversations, type ConversationMessage } from '@/lib/db/schema';
+import { eq, and } from 'drizzle-orm';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -12,16 +16,25 @@ export async function POST(request: NextRequest) {
   const apiKey = process.env.GUIDE_API_KEY;
 
   try {
+    // Get session for authenticated users
+    const session = await auth();
+    const userId = session?.user?.id || null;
+    const userTier: UserTier = userId
+      ? ((session?.user as { tier?: string })?.tier === 'premium' ? 'premium' : 'free')
+      : 'anonymous';
+
     const body = await request.json();
     const {
       message,
       messages,
       projectPatternIds,
+      conversationId,
       sessionId
     } = body as {
       message?: string;
       messages?: Message[];
       projectPatternIds?: number[];
+      conversationId?: string;
       sessionId?: string;
     };
 
@@ -34,36 +47,73 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // --- Rate Limiting ---
     const clientIP = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
-    const rateLimitResult = checkRateLimit(clientIP, sessionId);
+
+    // Determine message count for rate limiting
+    let currentMessageCount = 0;
+    let isNewConversation = false;
+    let existingConversation: typeof conversations.$inferSelect | null = null;
+
+    if (conversationId && userId) {
+      // Authenticated user with existing conversation
+      const [conv] = await db
+        .select()
+        .from(conversations)
+        .where(
+          and(
+            eq(conversations.id, conversationId),
+            eq(conversations.userId, userId)
+          )
+        );
+
+      if (conv) {
+        existingConversation = conv;
+        currentMessageCount = (conv.messages as ConversationMessage[]).length;
+      }
+    } else if (!conversationId && userId) {
+      // Authenticated user starting new conversation
+      isNewConversation = true;
+    } else if (!sessionId) {
+      // Anonymous user starting new conversation (no sessionId)
+      isNewConversation = true;
+    }
+    // Anonymous user with sessionId - continuing ephemeral conversation
+    // Message count tracked client-side for anonymous
+
+    // --- Rate Limiting ---
+    const rateLimitResult = await checkRateLimit(
+      clientIP,
+      currentMessageCount,
+      userTier,
+      userId,
+      isNewConversation
+    );
 
     if (!rateLimitResult.allowed) {
       return NextResponse.json(
         {
           error: 'rate_limited',
+          reason: rateLimitResult.reason,
           message: rateLimitResult.message,
-          upgradeHint: rateLimitResult.upgradeHint || null,
         },
         { status: 429 }
       );
     }
 
     // --- Spend Circuit Breaker ---
-    const spendCheck = checkSpendLimit();
+    const spendCheck = await checkSpendLimit();
     if (!spendCheck.allowed) {
       console.error('[Guide] Spend limit reached:', spendCheck);
       return NextResponse.json(
         {
-          error: 'service_unavailable',
-          message: 'The Pattern Guide is temporarily unavailable. Please try again later.',
+          error: 'spend_limit',
+          message: 'The AI Guide is taking a brief rest. All patterns, the network, and your projects are still available.',
         },
         { status: 503 }
       );
     }
 
     // --- Build Conversation ---
-    // Support multi-turn: client sends full message history
     const conversationMessages: Message[] = messages
       ? messages.map((m) => ({ role: m.role, content: m.content }))
       : message
@@ -110,10 +160,60 @@ export async function POST(request: NextRequest) {
 
     // --- Record Usage ---
     const cost = estimateCost(data.usage);
-    recordUsage(clientIP, sessionId, cost);
+    await recordUsage(clientIP, sessionId || conversationId, cost);
+
+    // --- Persist Conversation for Authenticated Users ---
+    let resultConversationId = conversationId;
+
+    if (userId) {
+      const now = new Date().toISOString();
+      const userMsg: ConversationMessage = {
+        role: 'user',
+        content: conversationMessages[conversationMessages.length - 1].content,
+        timestamp: now,
+      };
+      const assistantMsg: ConversationMessage = {
+        role: 'assistant',
+        content: assistantMessage,
+        timestamp: new Date().toISOString(),
+      };
+
+      if (existingConversation) {
+        // Append to existing conversation
+        const existingMessages = existingConversation.messages as ConversationMessage[];
+        await db
+          .update(conversations)
+          .set({
+            messages: [...existingMessages, userMsg, assistantMsg],
+            totalOutputTokens: existingConversation.totalOutputTokens + (data.usage?.output_tokens || 0),
+            updatedAt: new Date(),
+          })
+          .where(eq(conversations.id, existingConversation.id));
+      } else {
+        // Create new conversation
+        const firstUserMessage = conversationMessages[0].content;
+        const title = firstUserMessage.slice(0, 50) + (firstUserMessage.length > 50 ? '...' : '');
+
+        const [newConv] = await db
+          .insert(conversations)
+          .values({
+            userId,
+            title,
+            messages: [userMsg, assistantMsg],
+            totalOutputTokens: data.usage?.output_tokens || 0,
+          })
+          .returning();
+
+        resultConversationId = newConv.id;
+
+        // Record the new conversation for rate limiting
+        await recordNewConversation(clientIP, userId);
+      }
+    }
 
     return NextResponse.json({
       response: assistantMessage,
+      conversationId: resultConversationId,
       usage: {
         conversationTurn: conversationMessages.length,
       },
