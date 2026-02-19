@@ -60,7 +60,10 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-navy-deep text-white">
+      <section
+        className="text-white"
+        style={{ background: 'linear-gradient(to bottom, #0f1f33 0%, #0f1f33 50%, #2a2218 75%, #f2ece4 100%)' }}
+      >
         <div className="max-w-page mx-auto px-4 md:px-6 pt-16 md:pt-24 pb-0">
           <div className="max-w-2xl">
             <p className="font-mono text-[11px] uppercase tracking-widest text-copper-light mb-4">
@@ -89,52 +92,43 @@ export default function HomePage() {
 
             {/* Transition Zone — editorial preview cards in dissolving gradient */}
             <div className="mt-8 pt-8">
-              <div className="relative">
-                {/* Gradient background: navy warming downward toward parchment tones */}
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/80 to-[#2a2218] pointer-events-none" />
-
-                {/* Three pattern preview cards (above gradient) */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 relative pb-px border-b border-white/10">
-                  {FEATURED_PATTERNS.map((p) => (
-                    <Link
-                      key={p.id}
-                      href={`/patterns/${p.id}`}
-                      className="group block p-4 rounded-sm border border-white/10 bg-white/5 hover:bg-white/10 hover:border-copper/30 transition-all duration-300"
-                    >
-                      <p className="font-mono text-[10px] tracking-widest text-copper-light mb-1.5 uppercase">
-                        {String(p.id).padStart(2, '0')} ↗
-                      </p>
-                      <p className="font-serif text-sm text-white/70 leading-snug group-hover:text-white/90 transition-colors">
-                        {p.name}
-                      </p>
-                      <p className="font-mono text-[9px] tracking-wider text-white/30 mt-2 uppercase">
-                        {p.scale}
-                      </p>
-                    </Link>
-                  ))}
-                </div>
+              {/* Three pattern preview cards */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+                {FEATURED_PATTERNS.map((p) => (
+                  <Link
+                    key={p.id}
+                    href={`/patterns/${p.id}`}
+                    className="group block p-4 rounded-sm border border-white/10 bg-white/5 hover:bg-white/10 hover:border-copper/30 transition-all duration-300"
+                  >
+                    <p className="font-mono text-[10px] tracking-widest text-copper-light mb-1.5 uppercase">
+                      {String(p.id).padStart(2, '0')} ↗
+                    </p>
+                    <p className="font-serif text-sm text-white/70 leading-snug group-hover:text-white/90 transition-colors">
+                      {p.name}
+                    </p>
+                    <p className="font-mono text-[9px] tracking-wider text-white/30 mt-2 uppercase">
+                      {p.scale}
+                    </p>
+                  </Link>
+                ))}
               </div>
+            </div>
+
+            {/* Methodology text — in the parchment zone at bottom of gradient */}
+            <div className="max-w-3xl pt-8 pb-12">
+              <p className="text-[#1c1c1e]/70 leading-relaxed mb-3">
+                Each pattern identifies a recurring design problem and offers a tested solution — connected to patterns above it that give it context, and patterns below it that give it form.
+              </p>
+              <p className="text-[#1c1c1e]/70 leading-relaxed">
+                For architects, planners, developers, homeowners, and anyone shaping the places where people live and work.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Sub-Hero */}
-      <section className="bg-navy-deep text-white">
-        <div className="max-w-page mx-auto px-4 md:px-6 py-8">
-          <div className="max-w-3xl">
-            <p className="text-silver leading-relaxed mb-3">
-              Each pattern identifies a recurring design problem and offers a tested solution — connected to patterns above it that give it context, and patterns below it that give it form.
-            </p>
-            <p className="text-silver leading-relaxed">
-              For architects, planners, developers, homeowners, and anyone shaping the places where people live and work.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Where to Start */}
-      <section className="bg-white border-b border-slate/10">
+      <section className="bg-[#f2ece4] border-b border-slate/10">
         <div className="max-w-page mx-auto px-4 md:px-6 py-12 md:py-16">
           <p className="font-mono text-[11px] uppercase tracking-widest text-copper mb-4">
             Where to Start
