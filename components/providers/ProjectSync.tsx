@@ -38,10 +38,13 @@ export function ProjectSync() {
         const migratedCount = await migrateLocalToCloud(localData);
 
         if (migratedCount > 0) {
-          setNotification(
-            `${migratedCount} project${migratedCount === 1 ? '' : 's'} saved to your account`
+          const totalPatterns = localData.projects.reduce(
+            (sum, p) => sum + p.patterns.length,
+            0
           );
-          setTimeout(() => setNotification(null), 4000);
+          const msg = `Welcome. Your ${migratedCount} project${migratedCount === 1 ? '' : 's'} and ${totalPatterns} pattern${totalPatterns === 1 ? '' : 's'} have been saved to your account.`;
+          setNotification(msg);
+          setTimeout(() => setNotification(null), 5000);
         }
       };
 

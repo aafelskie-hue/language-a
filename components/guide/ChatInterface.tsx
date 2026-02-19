@@ -234,7 +234,7 @@ export function ChatInterface() {
             You&apos;ve used your free preview conversations. Create a free profile to continue — your projects and conversations will be saved across devices.
           </p>
           <Link
-            href="/auth/signin"
+            href={`/auth/signin?callbackUrl=${encodeURIComponent('/guide')}`}
             className="inline-block px-4 py-2 bg-copper text-white rounded-lg hover:bg-copper/90 transition-colors text-sm font-medium"
           >
             Create Free Profile

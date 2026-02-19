@@ -13,6 +13,8 @@ export const users = pgTable('users', {
   provider: providerEnum('provider').notNull().default('credentials'),
   image: text('image'),
   tier: tierEnum('tier').notNull().default('free'),
+  resetToken: text('reset_token'),
+  resetTokenExpiry: timestamp('reset_token_expiry'),
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
 });

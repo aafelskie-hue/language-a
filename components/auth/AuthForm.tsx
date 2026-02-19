@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 
 export function AuthForm() {
   const router = useRouter();
@@ -183,6 +184,13 @@ export function AuthForm() {
             minLength={mode === 'signup' ? 8 : undefined}
             autoComplete={mode === 'signup' ? 'new-password' : 'current-password'}
           />
+          {mode === 'signin' && (
+            <div className="text-right mt-1">
+              <Link href="/auth/forgot-password" className="text-sm text-copper hover:underline">
+                Forgot password?
+              </Link>
+            </div>
+          )}
         </div>
 
         {error && (

@@ -6,6 +6,7 @@ import type { Project, ProjectPatternStatus } from '@/lib/types';
 import { getPatternById } from '@/lib/patterns';
 import { PatternStatus } from './PatternStatus';
 import { SuggestionPanel } from './SuggestionPanel';
+import { SaveProjectPrompt } from './SaveProjectPrompt';
 import { ScaleBadge } from '@/components/patterns/ScaleBadge';
 
 interface ProjectDetailProps {
@@ -157,6 +158,9 @@ export function ProjectDetail({
           })}
         </div>
       )}
+
+      {/* Save Project Prompt for anonymous users */}
+      <SaveProjectPrompt patternCount={project.patterns.length} />
 
       {/* Suggestions */}
       {patternIds.length > 0 && (

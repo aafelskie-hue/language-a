@@ -115,6 +115,14 @@ export function UserMenu() {
             >
               My Projects
             </Link>
+            <Link
+              href="/profile"
+              onClick={() => setOpen(false)}
+              className="block px-4 py-2 text-sm text-slate hover:bg-cloud transition-colors"
+              role="menuitem"
+            >
+              Profile
+            </Link>
           </div>
 
           {/* Sign out */}
