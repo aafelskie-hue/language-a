@@ -61,7 +61,10 @@ export async function checkRateLimit(
       const key = kvKeys.ipUsage(clientIP);
       const count = (await kv.get<number>(key)) || 0;
 
+      console.log('[Rate Limit] Anonymous check - key:', key, 'count:', count, 'limit:', ANONYMOUS_TOTAL_CONVERSATIONS);
+
       if (count >= ANONYMOUS_TOTAL_CONVERSATIONS) {
+        console.log('[Rate Limit] Anonymous BLOCKED - limit reached');
         return {
           allowed: false,
           reason: 'conversation_limit_anonymous',
@@ -126,13 +129,15 @@ export async function recordNewConversation(
     // Authenticated user - increment weekly count
     const weekId = getISOWeekNumber();
     const key = kvKeys.userWeeklyUsage(userId, weekId);
-    await kv.incr(key);
+    const newCount = await kv.incr(key);
     // Set expiry to 7 days (will auto-expire after the week)
     await kv.expire(key, WEEK_SECONDS);
+    console.log('[Rate Limit] Recorded auth conversation - key:', key, 'newCount:', newCount);
   } else {
     // Anonymous - increment lifetime count (no expiry)
     const key = kvKeys.ipUsage(clientIP);
-    await kv.incr(key);
+    const newCount = await kv.incr(key);
+    console.log('[Rate Limit] Recorded anonymous conversation - key:', key, 'newCount:', newCount);
   }
 }
 

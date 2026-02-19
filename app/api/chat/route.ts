@@ -54,6 +54,9 @@ export async function POST(request: NextRequest) {
     let isNewConversation = false;
     let existingConversation: typeof conversations.$inferSelect | null = null;
 
+    // Count messages being sent (for anonymous, this is how we detect new vs continuing)
+    const incomingMessageCount = messages?.length || (message ? 1 : 0);
+
     if (conversationId && userId) {
       // Authenticated user with existing conversation
       const [conv] = await db
@@ -73,12 +76,14 @@ export async function POST(request: NextRequest) {
     } else if (!conversationId && userId) {
       // Authenticated user starting new conversation
       isNewConversation = true;
-    } else if (!sessionId) {
-      // Anonymous user starting new conversation (no sessionId)
-      isNewConversation = true;
+    } else if (!userId) {
+      // Anonymous user - new conversation if this is the first message (messages array has 1 item)
+      isNewConversation = incomingMessageCount === 1;
+      // For anonymous, message count is what client sends (ephemeral)
+      currentMessageCount = incomingMessageCount > 0 ? incomingMessageCount - 1 : 0;
     }
-    // Anonymous user with sessionId - continuing ephemeral conversation
-    // Message count tracked client-side for anonymous
+
+    console.log('[Guide Rate Limit] IP:', clientIP, 'tier:', userTier, 'isNew:', isNewConversation, 'msgCount:', currentMessageCount);
 
     // --- Rate Limiting ---
     const rateLimitResult = await checkRateLimit(
@@ -161,6 +166,13 @@ export async function POST(request: NextRequest) {
     // --- Record Usage ---
     const cost = estimateCost(data.usage);
     await recordUsage(clientIP, sessionId || conversationId, cost);
+
+    // --- Record New Conversation for Rate Limiting ---
+    // For anonymous users, record when they start a new conversation
+    if (isNewConversation && !userId) {
+      console.log('[Guide Rate Limit] Recording new anonymous conversation for IP:', clientIP);
+      await recordNewConversation(clientIP, null);
+    }
 
     // --- Persist Conversation for Authenticated Users ---
     let resultConversationId = conversationId;
