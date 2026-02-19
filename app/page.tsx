@@ -65,7 +65,7 @@ export default function HomePage() {
                   <Link
                     key={p.id}
                     href={`/patterns/${p.id}`}
-                    className="group block p-4 rounded-sm border border-white/10 bg-white/5 hover:bg-white/10 hover:border-copper/30 transition-all duration-300"
+                    className="group block p-4 rounded-sm bg-[#1a2a3a] border border-white/10 hover:border-copper/30 transition-all duration-300"
                   >
                     <p className="font-mono text-[10px] tracking-widest text-copper-light mb-1.5 uppercase">
                       {String(p.id).padStart(2, '0')} ↗
