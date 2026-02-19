@@ -31,10 +31,10 @@ export function SuggestionPanel({ patternIds, onAddPattern }: SuggestionPanelPro
             className="flex items-center justify-between bg-white rounded-lg px-3 py-2 border border-slate/10"
           >
             <Link
-              href={`/patterns/${pattern.id}`}
+              href={`/patterns/${pattern.reading_order}`}
               className="flex items-center gap-2 text-sm hover:text-copper transition-colors"
             >
-              <span className="font-mono text-xs text-copper">{pattern.number}</span>
+              <span className="font-mono text-xs text-copper">{pattern.reading_order}</span>
               <span className="text-charcoal">{pattern.name}</span>
             </Link>
             <button

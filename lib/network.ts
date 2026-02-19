@@ -5,6 +5,7 @@ export interface NetworkNode {
   id: number;
   name: string;
   number: string;
+  reading_order: number;
   scale: Scale;
   category: string;
   categoryLabel: string;
@@ -32,6 +33,7 @@ export function prepareNetworkData(): NetworkData {
     id: p.id,
     name: p.name,
     number: p.number,
+    reading_order: p.reading_order,
     scale: p.scale,
     category: p.category,
     categoryLabel: p.categoryLabel,

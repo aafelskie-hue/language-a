@@ -65,7 +65,7 @@ export function NetworkGraph({
     const searchLower = searchQuery.toLowerCase();
     const matchingNodeIds = new Set(
       filteredNodes
-        .filter(n => n.name.toLowerCase().includes(searchLower) || n.number.includes(searchLower))
+        .filter(n => n.name.toLowerCase().includes(searchLower) || n.reading_order.toString().includes(searchLower))
         .map(n => n.id)
     );
 
@@ -149,7 +149,7 @@ export function NetworkGraph({
     node
       .on('mouseover', function(event, d) {
         tooltip
-          .html(`<strong>${d.number}</strong> ${d.name}`)
+          .html(`<strong>${d.reading_order}</strong> ${d.name}`)
           .style('left', (event.pageX + 10) + 'px')
           .style('top', (event.pageY - 10) + 'px')
           .style('opacity', 1);

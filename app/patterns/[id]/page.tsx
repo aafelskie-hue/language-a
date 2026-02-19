@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { patterns, getPatternById } from '@/lib/patterns';
+import { patterns, getPatternByReadingOrder } from '@/lib/patterns';
 import { PatternDetail } from '@/components/patterns/PatternDetail';
 
 interface PageProps {
@@ -9,12 +9,12 @@ interface PageProps {
 
 export async function generateStaticParams() {
   return patterns.map((pattern) => ({
-    id: pattern.id.toString(),
+    id: pattern.reading_order.toString(),
   }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const pattern = getPatternById(parseInt(params.id, 10));
+  const pattern = getPatternByReadingOrder(parseInt(params.id, 10));
 
   if (!pattern) {
     return {
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default function PatternPage({ params }: PageProps) {
-  const pattern = getPatternById(parseInt(params.id, 10));
+  const pattern = getPatternByReadingOrder(parseInt(params.id, 10));
 
   if (!pattern) {
     notFound();

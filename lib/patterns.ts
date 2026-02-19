@@ -7,12 +7,16 @@ const allPatterns: Pattern[] = (patternsData as Pattern[]).slice().sort(
   (a, b) => a.id - b.id
 );
 
-// Published patterns (1-254) for listings and explorer
-export const patterns: Pattern[] = allPatterns.filter(p => p.id <= 254);
+// Published patterns (those with reading_order 1-254) for listings and explorer
+export const patterns: Pattern[] = allPatterns.filter(p => p.reading_order !== undefined && p.reading_order >= 1 && p.reading_order <= 254);
 export const categories: Category[] = categoriesData as Category[];
 
 export function getPatternById(id: number): Pattern | undefined {
   return allPatterns.find(p => p.id === id);
+}
+
+export function getPatternByReadingOrder(readingOrder: number): Pattern | undefined {
+  return patterns.find(p => p.reading_order === readingOrder);
 }
 
 export function getPatternByNumber(num: string): Pattern | undefined {
@@ -81,7 +85,7 @@ export function searchPatterns(query: string): Pattern[] {
     p.name.toLowerCase().includes(lowerQuery) ||
     p.problem.toLowerCase().includes(lowerQuery) ||
     p.solution.toLowerCase().includes(lowerQuery) ||
-    p.number.includes(lowerQuery) ||
+    p.reading_order.toString().includes(lowerQuery) ||
     p.categoryLabel.toLowerCase().includes(lowerQuery)
   );
 }
@@ -112,7 +116,7 @@ export function filterPatterns(options: {
       p.name.toLowerCase().includes(query) ||
       p.problem.toLowerCase().includes(query) ||
       p.solution.toLowerCase().includes(query) ||
-      p.number.includes(query)
+      p.reading_order.toString().includes(query)
     );
   }
 

@@ -21,7 +21,7 @@ export function TopNav() {
 
   const handleRandomPattern = () => {
     const pattern = getRandomPattern();
-    router.push(`/patterns/${pattern.id}`);
+    router.push(`/patterns/${pattern.reading_order}`);
   };
 
   const isActive = (href: string) => {

@@ -24,7 +24,7 @@ export default function PatternsPage() {
 
   const handleRandomPattern = () => {
     const randomPattern = getRandomPattern();
-    router.push(`/patterns/${randomPattern.id}`);
+    router.push(`/patterns/${randomPattern.reading_order}`);
   };
 
   const clearFilters = () => {

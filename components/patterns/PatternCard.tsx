@@ -17,11 +17,11 @@ export function PatternCard({ pattern }: PatternCardProps) {
 
   return (
     <Link
-      href={`/patterns/${pattern.id}`}
+      href={`/patterns/${pattern.reading_order}`}
       className="card card-hover group block"
     >
       <div className="flex items-start justify-between gap-2 mb-3">
-        <span className="pattern-number text-lg">{pattern.number}</span>
+        <span className="pattern-number text-lg">{pattern.reading_order}</span>
         <ConfidenceBadge confidence={pattern.confidence} />
       </div>
 

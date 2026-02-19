@@ -40,11 +40,11 @@ function PatternCard({ patternId }: { patternId: number }) {
   return (
     <div className="my-2 p-3 bg-copper-pale/30 border border-copper/20 rounded-lg hover:border-copper/40 hover:bg-copper-pale/50 transition-all group flex items-start gap-3">
       <Link
-        href={`/patterns/${pattern.id}`}
+        href={`/patterns/${pattern.reading_order}`}
         className="flex-1 min-w-0 flex items-start gap-3"
       >
         <span className="font-mono text-lg font-medium text-copper flex-shrink-0">
-          {pattern.number}
+          {pattern.reading_order}
         </span>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">

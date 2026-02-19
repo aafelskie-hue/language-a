@@ -40,11 +40,11 @@ export function PatternList({ patterns }: PatternListProps) {
               className="border-b border-slate/5 hover:bg-copper/5 transition-colors"
             >
               <td className="px-4 py-3">
-                <span className="pattern-number">{pattern.number}</span>
+                <span className="pattern-number">{pattern.reading_order}</span>
               </td>
               <td className="px-4 py-3">
                 <Link
-                  href={`/patterns/${pattern.id}`}
+                  href={`/patterns/${pattern.reading_order}`}
                   className="font-medium text-charcoal hover:text-copper transition-colors"
                 >
                   {pattern.name}

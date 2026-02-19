@@ -47,7 +47,7 @@ export function PatternDetail({ pattern }: PatternDetailProps) {
       {/* Header */}
       <header className="mb-8">
         <div className="flex items-center gap-3 mb-4">
-          <span className="pattern-number text-3xl md:text-4xl">{pattern.number}</span>
+          <span className="pattern-number text-3xl md:text-4xl">{pattern.reading_order}</span>
           <ConfidenceBadge confidence={pattern.confidence} showLabel />
         </div>
 
@@ -164,13 +164,13 @@ export function PatternDetail({ pattern }: PatternDetailProps) {
       <nav className="flex items-center justify-between pt-8 border-t border-slate/10" aria-label="Pattern navigation">
         {prevPattern ? (
           <Link
-            href={`/patterns/${prevPattern.id}`}
+            href={`/patterns/${prevPattern.reading_order}`}
             className="flex items-center gap-2 text-slate hover:text-copper transition-colors"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            <span className="font-mono text-xs">{prevPattern.number}</span>
+            <span className="font-mono text-xs">{prevPattern.reading_order}</span>
             <span className="hidden sm:inline">{prevPattern.name}</span>
           </Link>
         ) : (
@@ -179,11 +179,11 @@ export function PatternDetail({ pattern }: PatternDetailProps) {
 
         {nextPattern ? (
           <Link
-            href={`/patterns/${nextPattern.id}`}
+            href={`/patterns/${nextPattern.reading_order}`}
             className="flex items-center gap-2 text-slate hover:text-copper transition-colors"
           >
             <span className="hidden sm:inline">{nextPattern.name}</span>
-            <span className="font-mono text-xs">{nextPattern.number}</span>
+            <span className="font-mono text-xs">{nextPattern.reading_order}</span>
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -203,10 +203,10 @@ export function PatternDetail({ pattern }: PatternDetailProps) {
             {siblings.slice(0, 8).map((p) => (
               <Link
                 key={p.id}
-                href={`/patterns/${p.id}`}
+                href={`/patterns/${p.reading_order}`}
                 className="flex items-center gap-2 px-3 py-2 bg-white border border-slate/10 rounded-lg hover:border-copper/30 transition-colors"
               >
-                <span className="font-mono text-xs text-copper">{p.number}</span>
+                <span className="font-mono text-xs text-copper">{p.reading_order}</span>
                 <span className="text-sm text-slate truncate">{p.name}</span>
               </Link>
             ))}

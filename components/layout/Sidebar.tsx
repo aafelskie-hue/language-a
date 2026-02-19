@@ -67,12 +67,12 @@ export function Sidebar({ showPatterns = true, currentPatternId }: SidebarProps)
                   {categoryPatterns.map((pattern) => (
                     <Link
                       key={pattern.id}
-                      href={`/patterns/${pattern.id}`}
+                      href={`/patterns/${pattern.reading_order}`}
                       className={`sidebar-item text-sm ${
                         currentPatternId === pattern.id ? 'active' : ''
                       }`}
                     >
-                      <span className="num">{pattern.number}</span>
+                      <span className="num">{pattern.reading_order}</span>
                       <span className="truncate">{pattern.name}</span>
                     </Link>
                   ))}

@@ -113,10 +113,10 @@ export function ProjectDetail({
                     </svg>
                   </button>
 
-                  <span className="font-mono text-copper text-sm">{pattern.number}</span>
+                  <span className="font-mono text-copper text-sm">{pattern.reading_order}</span>
 
                   <Link
-                    href={`/patterns/${pattern.id}`}
+                    href={`/patterns/${pattern.reading_order}`}
                     className="flex-1 font-medium text-charcoal hover:text-copper transition-colors"
                   >
                     {pattern.name}

@@ -4,11 +4,11 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { patterns, getRandomPattern } from '@/lib/patterns';
 
-// Featured patterns for hero transition zone
+// Featured patterns for hero transition zone (using reading_order for display and links)
 const FEATURED_PATTERNS = [
-  { id: 1, name: "The Fifteen-Minute Neighborhood", scale: "Neighborhood" },
-  { id: 34, name: "Light on Two Sides", scale: "Building" },
-  { id: 269, name: "Heat Refuge Room", scale: "Building" },
+  { reading_order: 7, name: "The Fifteen-Minute Neighborhood", scale: "Neighborhood" },
+  { reading_order: 75, name: "Light on Two Sides", scale: "Building" },
+  { reading_order: 107, name: "Heat Refuge Room", scale: "Building" },
 ] as const;
 
 // Stats
@@ -21,7 +21,7 @@ export default function HomePage() {
 
   const handleRandomPattern = () => {
     const randomPattern = getRandomPattern();
-    router.push(`/patterns/${randomPattern.id}`);
+    router.push(`/patterns/${randomPattern.reading_order}`);
   };
 
   return (
@@ -60,12 +60,12 @@ export default function HomePage() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
                 {FEATURED_PATTERNS.map((p) => (
                   <Link
-                    key={p.id}
-                    href={`/patterns/${p.id}`}
+                    key={p.reading_order}
+                    href={`/patterns/${p.reading_order}`}
                     className="group block p-4 rounded-sm bg-[#1a2a3a] border border-white/10 hover:border-copper/30 transition-all duration-300"
                   >
                     <p className="font-mono text-[10px] tracking-widest text-copper-light mb-1.5 uppercase">
-                      {String(p.id).padStart(2, '0')} ↗
+                      {String(p.reading_order).padStart(2, '0')} ↗
                     </p>
                     <p className="font-serif text-sm text-white/70 leading-snug group-hover:text-white/90 transition-colors">
                       {p.name}
@@ -103,7 +103,7 @@ export default function HomePage() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <Link
-              href="/patterns/1"
+              href="/patterns/7"
               className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
             >
               <p className="font-mono text-xs text-copper mb-1">Start here</p>
@@ -114,7 +114,7 @@ export default function HomePage() {
             </Link>
 
             <Link
-              href="/patterns/22"
+              href="/patterns/95"
               className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
             >
               <p className="font-mono text-xs text-copper mb-1">Cold climate</p>
@@ -125,18 +125,18 @@ export default function HomePage() {
             </Link>
 
             <Link
-              href="/patterns/5"
+              href="/patterns/130"
               className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
             >
               <p className="font-mono text-xs text-copper mb-1">Remote work</p>
               <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors">
-                The Remote Work Walk
+                The Fifteen-Minute Shed
               </h3>
-              <p className="text-sm text-slate mt-1">A daily walking circuit for mental transition</p>
+              <p className="text-sm text-slate mt-1">A backyard workspace for home-based work</p>
             </Link>
 
             <Link
-              href="/patterns/12"
+              href="/patterns/85"
               className="p-4 border border-slate/10 rounded-lg hover:border-copper/30 hover:bg-copper-pale/20 transition-all group"
             >
               <p className="font-mono text-xs text-copper mb-1">Housing</p>

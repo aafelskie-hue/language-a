@@ -27,7 +27,7 @@ export function NodeDetail({ node, onClose }: NodeDetailProps) {
       </button>
 
       <div className="flex items-center gap-2 mb-2">
-        <span className="pattern-number text-lg">{node.number}</span>
+        <span className="pattern-number text-lg">{node.reading_order}</span>
         <span className="text-copper">{getConfidenceStars(node.confidence as Confidence)}</span>
       </div>
 
@@ -39,7 +39,7 @@ export function NodeDetail({ node, onClose }: NodeDetailProps) {
       </div>
 
       <Link
-        href={`/patterns/${node.id}`}
+        href={`/patterns/${node.reading_order}`}
         className="btn btn-primary w-full text-sm"
       >
         View Full Pattern

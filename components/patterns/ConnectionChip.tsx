@@ -13,11 +13,11 @@ export function ConnectionChip({ pattern, direction }: ConnectionChipProps) {
 
   return (
     <Link
-      href={`/patterns/${pattern.id}`}
+      href={`/patterns/${pattern.reading_order}`}
       className="connection-chip"
     >
       <span aria-hidden="true">{arrow}</span>
-      <span className="chip-num">{pattern.number}</span>
+      <span className="chip-num">{pattern.reading_order}</span>
       <span className="truncate max-w-[150px]">{pattern.name}</span>
     </Link>
   );
