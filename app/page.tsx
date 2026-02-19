@@ -94,7 +94,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/80 to-[#2a2218] pointer-events-none" />
 
                 {/* Three pattern preview cards (above gradient) */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 relative">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 relative pb-px border-b border-white/10">
                   {FEATURED_PATTERNS.map((p) => (
                     <Link
                       key={p.id}
