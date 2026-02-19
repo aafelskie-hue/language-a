@@ -62,7 +62,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section
         className="text-white"
-        style={{ background: 'linear-gradient(to bottom, #0f1f33 0%, #0f1f33 50%, #2a2218 75%, #f2ece4 100%)' }}
+        style={{ background: 'linear-gradient(to bottom, #0f1f33 0%, #0f1f33 45%, #2a2218 65%, #f2ece4 85%)' }}
       >
         <div className="max-w-page mx-auto px-4 md:px-6 pt-16 md:pt-24 pb-0">
           <div className="max-w-2xl">
