@@ -88,10 +88,10 @@ export default function HomePage() {
             </div>
 
             {/* Transition Zone — editorial preview cards in dissolving gradient */}
-            <div className="mt-16 pt-8">
+            <div className="mt-8 pt-8">
               <div className="relative">
-                {/* Gradient background: navy dissolving downward (behind cards) */}
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/60 to-navy-deep pointer-events-none" />
+                {/* Gradient background: navy warming downward toward parchment tones */}
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-navy-deep/80 to-[#2a2218] pointer-events-none" />
 
                 {/* Three pattern preview cards (above gradient) */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 relative">
