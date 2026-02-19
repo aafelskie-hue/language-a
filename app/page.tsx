@@ -61,7 +61,7 @@ export default function HomePage() {
     <div>
       {/* Hero Section */}
       <section className="bg-navy-deep text-white">
-        <div className="max-w-page mx-auto px-4 md:px-6 py-16 md:py-24">
+        <div className="max-w-page mx-auto px-4 md:px-6 pt-16 md:pt-24 pb-0">
           <div className="max-w-2xl">
             <p className="font-mono text-[11px] uppercase tracking-widest text-copper-light mb-4">
               Design Patterns for Enduring Places
