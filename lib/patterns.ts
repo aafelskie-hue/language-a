@@ -7,8 +7,10 @@ const allPatterns: Pattern[] = (patternsData as Pattern[]).slice().sort(
   (a, b) => a.id - b.id
 );
 
-// Published patterns (1-254) for listings and explorer
-export const patterns: Pattern[] = allPatterns.filter(p => p.id <= 254);
+// Published patterns (1-254) for listings and explorer, sorted by reading_order
+export const patterns: Pattern[] = allPatterns
+  .filter(p => p.id <= 254)
+  .sort((a, b) => a.reading_order - b.reading_order);
 export const categories: Category[] = categoriesData as Category[];
 
 export function getPatternById(id: number): Pattern | undefined {
@@ -120,7 +122,8 @@ export function filterPatterns(options: {
     );
   }
 
-  return result;
+  // Sort by reading_order ascending
+  return result.sort((a, b) => a.reading_order - b.reading_order);
 }
 
 export function getScaleLabel(scale: Scale): string {
