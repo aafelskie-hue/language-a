@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   description: '254 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
   keywords: ['pattern language', 'architecture', 'design patterns', 'urban planning', 'housing', 'cold climate', 'enduring places'],
-  authors: [{ name: 'Beachhead Systems' }],
+  authors: [{ name: 'Andrew Afelskie' }],
   openGraph: {
     type: 'website',
     locale: 'en_CA',

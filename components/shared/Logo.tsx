@@ -59,22 +59,3 @@ export function Logo({ size = 'md', variant = 'light', showWordmark = true }: Lo
     </div>
   );
 }
-
-export function BeachheadMark({ variant = 'light' }: { variant?: 'light' | 'dark' }) {
-  const fill = variant === 'light' ? '#1E3A5F' : '#FFFFFF';
-
-  return (
-    <svg
-      width="16"
-      height="10"
-      viewBox="0 0 24 14"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <rect x="0" y="0" width="8" height="2.5" rx="1" fill={fill} />
-      <rect x="0" y="5.5" width="14" height="2.5" rx="1" fill={fill} />
-      <rect x="0" y="11" width="22" height="2.5" rx="1" fill={fill} />
-    </svg>
-  );
-}
