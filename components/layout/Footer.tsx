@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { useSession } from 'next-auth/react';
-import { BeachheadMark } from '@/components/shared/Logo';
 
 export function Footer() {
   const { data: session, status } = useSession();
@@ -32,12 +31,6 @@ export function Footer() {
                 </Link>
               </>
             )}
-          </div>
-          <div className="flex items-center gap-2 opacity-50">
-            <BeachheadMark variant="light" />
-            <span className="font-mono text-[10px] uppercase tracking-wider text-steel">
-              A Beachhead Systems Product
-            </span>
           </div>
         </div>
       </div>

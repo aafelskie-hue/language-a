@@ -32,16 +32,7 @@ export default function AboutPage() {
               Who made it
             </h2>
             <p className="text-slate leading-relaxed mb-6">
-              Language A is a project of{' '}
-              <a
-                href="https://beachheadsystems.ca"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-copper hover:underline"
-              >
-                Beachhead Systems
-              </a>
-              , a structural engineering firm based in Edmonton, Alberta. We spend our working days understanding why structures hold — or don&apos;t. That work has made us careful readers of the built environment: attentive to the forces acting on a place, skeptical of resolutions that ignore them.
+              Language A is developed by Andrew Afelskie, an Engineer-in-Training based in Edmonton, Alberta. I spend my working days understanding why structures hold — or don&apos;t. That work has made me a careful reader of the built environment: attentive to the forces acting on a place, skeptical of resolutions that ignore them.
             </p>
             <p className="text-slate leading-relaxed mb-6">
               Pattern thinking is, in some ways, what structural engineers do anyway. You identify a recurring problem — a beam-column connection, a thermal bridge, a load path that nobody drew. You understand the forces. You develop a resolution that handles them. Language A is an attempt to do that for the places people actually inhabit, at every scale from the street corner to the window seat.
@@ -53,19 +44,9 @@ export default function AboutPage() {
             <h2 className="text-xl font-bold text-charcoal tracking-tight mt-10 mb-4">
               Contact
             </h2>
-            <p className="text-slate leading-relaxed mb-2">
+            <p className="text-slate leading-relaxed">
               <a href="mailto:hello@language-a.com" className="text-copper hover:underline">
                 hello@language-a.com
-              </a>
-            </p>
-            <p className="text-slate leading-relaxed">
-              <a
-                href="https://beachheadsystems.ca"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-copper hover:underline"
-              >
-                Beachhead Systems
               </a>
             </p>
           </div>
