@@ -31,7 +31,11 @@ export default function SignInPage() {
 
         {/* Footer note */}
         <p className="mt-6 text-center text-xs text-steel">
-          By signing in, you agree to our terms of service.
+          By signing in, you agree to our{' '}
+          <Link href="/terms" className="text-copper hover:underline">
+            terms of service
+          </Link>
+          .
         </p>
       </div>
     </div>
