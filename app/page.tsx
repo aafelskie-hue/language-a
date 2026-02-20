@@ -250,7 +250,7 @@ export default function HomePage() {
             </p>
             <p className="text-slate leading-relaxed mb-8">
               <Link href="/consult" className="text-copper hover:text-copper-dark transition-colors">
-                Beachhead Systems offers pattern review consulting for real projects &rarr;
+                Pattern review consulting for real projects &rarr;
               </Link>
             </p>
             <div className="flex flex-wrap justify-center gap-4">
