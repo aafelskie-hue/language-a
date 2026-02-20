@@ -1,6 +1,7 @@
 'use client';
 
 import { ChatInterface } from '@/components/guide/ChatInterface';
+import { UsageIndicator } from '@/components/guide/UsageIndicator';
 
 export default function GuidePage() {
   return (
@@ -19,6 +20,9 @@ export default function GuidePage() {
           a coherent pattern language for your specific situation.
         </p>
       </header>
+
+      {/* Usage indicator */}
+      <UsageIndicator />
 
       {/* Chat Interface */}
       <div className="card p-0 overflow-hidden">
