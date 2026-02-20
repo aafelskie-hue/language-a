@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Pattern Review Consulting',
-  description: 'Beachhead Systems offers pattern review consulting for architects, developers, planners, and homeowners applying Language A to real projects.',
+  description: 'Pattern review consulting for architects, developers, planners, and homeowners applying Language A to real projects.',
 };
 
 export default function ConsultPage() {
@@ -30,7 +30,7 @@ export default function ConsultPage() {
         <div className="max-w-page mx-auto px-4 md:px-6 py-12 md:py-16">
           <div className="max-w-2xl">
             <p className="text-slate leading-relaxed">
-              Beachhead Systems offers pattern review consulting for architects, developers, planners, and homeowners who want to apply Language A&apos;s design thinking to a real project.
+              We offer pattern review consulting for architects, developers, planners, and homeowners who want to apply Language A&apos;s design thinking to a real project.
             </p>
           </div>
         </div>
@@ -90,13 +90,13 @@ export default function ConsultPage() {
               Describe your project in a few sentences and we will tell you whether a pattern review is a good fit.
             </p>
             <a
-              href="mailto:andrew@beachheadsystems.ca"
+              href="mailto:hello@language-a.com"
               className="inline-flex items-center gap-2 btn bg-copper hover:bg-copper-dark text-white"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              andrew@beachheadsystems.ca
+              hello@language-a.com
             </a>
           </div>
         </div>
