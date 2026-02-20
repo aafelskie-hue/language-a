@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useMemo } from 'react';
-import { useRouter } from 'next/navigation';
-import { patterns, filterPatterns, getRandomPattern, categories } from '@/lib/patterns';
+import { useState, useMemo, useEffect, useCallback, Suspense } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { patterns, filterPatterns, getRandomPattern } from '@/lib/patterns';
 import type { Scale, Confidence } from '@/lib/types';
 import { PatternCard } from '@/components/patterns/PatternCard';
 import { PatternList } from '@/components/patterns/PatternList';
@@ -10,13 +10,63 @@ import { FilterBar } from '@/components/patterns/FilterBar';
 
 type ViewMode = 'grid' | 'list';
 
-export default function PatternsPage() {
+function PatternsLoading() {
+  return (
+    <div className="bg-surface-warm min-h-screen">
+      <div className="max-w-page mx-auto px-4 md:px-6 py-8 md:py-12">
+        <div className="mb-8">
+          <p className="font-mono text-[11px] uppercase tracking-widest text-copper mb-2">
+            Pattern Explorer
+          </p>
+          <h1 className="text-3xl md:text-4xl font-bold text-charcoal tracking-tight mb-4">
+            All {patterns.length} Patterns
+          </h1>
+          <p className="text-slate max-w-2xl">
+            Browse the complete collection of design patterns for places that last.
+            Filter by scale, category, or search for specific topics.
+          </p>
+        </div>
+        <div className="animate-pulse">
+          <div className="h-64 bg-slate/10 rounded-lg"></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PatternsContent() {
   const router = useRouter();
-  const [viewMode, setViewMode] = useState<ViewMode>('grid');
-  const [scale, setScale] = useState<Scale | null>(null);
-  const [category, setCategory] = useState<string | null>(null);
+  const searchParams = useSearchParams();
+
+  // Initialize state from URL params
+  const [viewMode, setViewMode] = useState<ViewMode>(
+    (searchParams.get('view') as ViewMode) || 'grid'
+  );
+  const [scale, setScale] = useState<Scale | null>(
+    (searchParams.get('scale') as Scale) || null
+  );
+  const [category, setCategory] = useState<string | null>(
+    searchParams.get('category') || null
+  );
   const [confidence, setConfidence] = useState<Confidence | null>(null);
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState(searchParams.get('q') || '');
+
+  // Update URL when filters change
+  const updateURL = useCallback(() => {
+    const params = new URLSearchParams();
+    if (scale) params.set('scale', scale);
+    if (category) params.set('category', category);
+    if (search) params.set('q', search);
+    if (viewMode !== 'grid') params.set('view', viewMode);
+
+    const queryString = params.toString();
+    const newURL = queryString ? `/patterns?${queryString}` : '/patterns';
+    router.replace(newURL, { scroll: false });
+  }, [scale, category, search, viewMode, router]);
+
+  useEffect(() => {
+    updateURL();
+  }, [updateURL]);
 
   const filteredPatterns = useMemo(() => {
     return filterPatterns({ scale, category, confidence, search });
@@ -137,5 +187,13 @@ export default function PatternsPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function PatternsPage() {
+  return (
+    <Suspense fallback={<PatternsLoading />}>
+      <PatternsContent />
+    </Suspense>
   );
 }

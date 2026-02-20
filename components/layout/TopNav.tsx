@@ -12,6 +12,7 @@ const navLinks = [
   { href: '/network', label: 'Network' },
   { href: '/projects', label: 'Projects' },
   { href: '/guide', label: 'Guide' },
+  { href: '/about', label: 'About' },
 ];
 
 export function TopNav() {
