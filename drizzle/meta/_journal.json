@@ -22,6 +22,13 @@
       "when": 1771648707946,
       "tag": "0002_abnormal_enchantress",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1771656899381,
+      "tag": "0003_wide_landau",
+      "breakpoints": true
     }
   ]
 }

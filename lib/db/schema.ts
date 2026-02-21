@@ -1,4 +1,4 @@
-import { pgTable, uuid, text, timestamp, pgEnum, integer, jsonb } from 'drizzle-orm/pg-core';
+import { pgTable, uuid, text, timestamp, pgEnum, integer, jsonb, boolean, unique } from 'drizzle-orm/pg-core';
 
 // Enums
 export const providerEnum = pgEnum('provider', ['credentials', 'google']);
@@ -78,3 +78,54 @@ export const conversations = pgTable('conversations', {
 // Conversation type exports
 export type Conversation = typeof conversations.$inferSelect;
 export type NewConversation = typeof conversations.$inferInsert;
+
+// Analytics event types
+export const analyticsEventTypeEnum = pgEnum('analytics_event_type', [
+  'gap_signal', 'pattern_reference', 'entry_point', 'translation_moment', 'engagement_metric'
+]);
+
+// Guide analytics events - stores extracted signals from conversations
+export const guideAnalyticsEvents = pgTable('guide_analytics_events', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  conversationId: uuid('conversation_id').notNull().references(() => conversations.id, { onDelete: 'cascade' }),
+  eventType: analyticsEventTypeEnum('event_type').notNull(),
+  patternReadingOrder: integer('pattern_reading_order'),
+  patternId: integer('pattern_id'),
+  gapTopic: text('gap_topic'),
+  gapPhrase: text('gap_phrase'),
+  userQueryText: text('user_query_text'),
+  messageIndex: integer('message_index'),
+  isEntryPoint: boolean('is_entry_point').default(false),
+  coOccurringPatterns: jsonb('co_occurring_patterns').$type<number[]>().default([]),
+  timestamp: timestamp('timestamp'),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});
+
+// Guide analytics summary - materialized aggregations for fast dashboard queries
+// CRITICAL: Unique constraint on (summary_type, summary_key) enables upsert on reprocess
+export const guideAnalyticsSummary = pgTable('guide_analytics_summary', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  summaryType: text('summary_type').notNull(),
+  summaryKey: text('summary_key').notNull(),
+  summaryValue: jsonb('summary_value').notNull(),
+  count: integer('count').notNull().default(0),
+  lastUpdated: timestamp('last_updated').defaultNow().notNull(),
+}, (table) => ({
+  uniqueTypeKey: unique().on(table.summaryType, table.summaryKey),
+}));
+
+// Guide analytics metadata - tracks processing state
+export const guideAnalyticsMetadata = pgTable('guide_analytics_metadata', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  key: text('key').notNull().unique(),
+  value: text('value').notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+// Analytics type exports
+export type GuideAnalyticsEvent = typeof guideAnalyticsEvents.$inferSelect;
+export type NewGuideAnalyticsEvent = typeof guideAnalyticsEvents.$inferInsert;
+export type GuideAnalyticsSummary = typeof guideAnalyticsSummary.$inferSelect;
+export type NewGuideAnalyticsSummary = typeof guideAnalyticsSummary.$inferInsert;
+export type GuideAnalyticsMetadata = typeof guideAnalyticsMetadata.$inferSelect;
+export type NewGuideAnalyticsMetadata = typeof guideAnalyticsMetadata.$inferInsert;
