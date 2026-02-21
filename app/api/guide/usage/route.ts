@@ -5,20 +5,17 @@ import { getUsageStats, type UserTier } from '@/lib/guide/rate-limit';
 const ANONYMOUS_TOTAL_CONVERSATIONS = parseInt(
   process.env.GUIDE_ANONYMOUS_CONVERSATIONS || '2'
 );
-const FREE_CONVERSATIONS_PER_WEEK = parseInt(
-  process.env.GUIDE_FREE_CONVERSATIONS_PER_WEEK || '5'
+const FREE_CONVERSATIONS_PER_MONTH = parseInt(
+  process.env.GUIDE_FREE_CONVERSATIONS_PER_MONTH || '5'
 );
 
 /**
- * Calculate the next Monday (ISO week reset day)
+ * Calculate the 1st of next month (monthly reset day)
  */
-function getNextMonday(): string {
+function getNextFirstOfMonth(): string {
   const now = new Date();
-  const dayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, ...
-  const daysUntilMonday = dayOfWeek === 0 ? 1 : 8 - dayOfWeek;
-  const nextMonday = new Date(now);
-  nextMonday.setDate(now.getDate() + daysUntilMonday);
-  return nextMonday.toLocaleDateString('en-US', { weekday: 'long' });
+  const nextMonth = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+  return nextMonth.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
 }
 
 export async function GET(request: NextRequest) {
@@ -52,14 +49,14 @@ export async function GET(request: NextRequest) {
     }
 
     // Free authenticated user
-    const limit = FREE_CONVERSATIONS_PER_WEEK;
+    const limit = FREE_CONVERSATIONS_PER_MONTH;
     const used = stats.conversationCount;
     return NextResponse.json({
       tier: 'free',
       used,
       limit,
       remaining: Math.max(0, limit - used),
-      resetDay: getNextMonday(),
+      resetDay: getNextFirstOfMonth(),
     });
   } catch (error) {
     console.error('Guide usage fetch error:', error);

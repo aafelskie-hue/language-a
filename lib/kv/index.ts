@@ -4,8 +4,8 @@ export { kv };
 
 // Key patterns for rate limiting and spend tracking
 export const kvKeys = {
-  // Authenticated user weekly conversation count
-  userWeeklyUsage: (userId: string, weekId: string) => `usage:${userId}:${weekId}`,
+  // Authenticated user monthly conversation count
+  userMonthlyUsage: (userId: string, monthId: string) => `usage:monthly:${userId}:${monthId}`,
 
   // Anonymous IP lifetime conversation count
   ipUsage: (ip: string) => `usage:ip:${ip}`,
@@ -33,4 +33,13 @@ export function getISOWeekNumber(date: Date = new Date()): string {
 export function getTodayDateKey(): string {
   const now = new Date();
   return now.toISOString().split('T')[0];
+}
+
+/**
+ * Get month key in YYYY-MM format for monthly rate limit resets
+ */
+export function getMonthKey(date: Date = new Date()): string {
+  const year = date.getUTCFullYear();
+  const month = (date.getUTCMonth() + 1).toString().padStart(2, '0');
+  return `${year}-${month}`;
 }

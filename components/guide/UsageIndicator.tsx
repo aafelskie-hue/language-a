@@ -62,7 +62,7 @@ export function UsageIndicator() {
     return (
       <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
         <p className="text-sm text-amber-800">
-          You&apos;ve reached your 5 conversations for this week. Resets {usage.resetDay}.
+          You&apos;ve reached your 5 conversations for this month. Resets {usage.resetDay}.
         </p>
       </div>
     );
@@ -80,7 +80,7 @@ export function UsageIndicator() {
         >
           Sign in
         </Link>{' '}
-        for 5 per week
+        for 5 per month
       </p>
     );
   }
@@ -88,7 +88,7 @@ export function UsageIndicator() {
   // Free authenticated user
   return (
     <p className="text-xs text-steel mb-4">
-      {usage.used} of {usage.limit} conversations used this week{' '}
+      {usage.used} of {usage.limit} conversations used this month{' '}
       <span className="text-slate/50">·</span>{' '}
       Resets {usage.resetDay}
     </p>

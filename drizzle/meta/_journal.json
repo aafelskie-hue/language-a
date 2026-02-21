@@ -15,6 +15,13 @@
       "when": 1771459834576,
       "tag": "0001_eager_moira_mactaggert",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1771648707946,
+      "tag": "0002_abnormal_enchantress",
+      "breakpoints": true
     }
   ]
 }

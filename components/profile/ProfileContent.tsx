@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { signOut } from 'next-auth/react';
+import Link from 'next/link';
 
 interface ProfileUser {
   id: string;
@@ -14,6 +15,53 @@ interface ProfileUser {
 
 interface Props {
   user: ProfileUser;
+}
+
+function ManageSubscriptionButton() {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const handleManageSubscription = async () => {
+    setLoading(true);
+    setError(null);
+
+    try {
+      const response = await fetch('/api/stripe/portal', {
+        method: 'POST',
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to open billing portal');
+      }
+
+      window.location.href = data.url;
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Something went wrong');
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div>
+      {error && <p className="text-sm text-red-600 mb-2">{error}</p>}
+      <button
+        onClick={handleManageSubscription}
+        disabled={loading}
+        className="btn btn-secondary"
+      >
+        {loading ? (
+          <span className="flex items-center gap-2">
+            <span className="spinner w-4 h-4" />
+            Loading...
+          </span>
+        ) : (
+          'Manage Subscription'
+        )}
+      </button>
+    </div>
+  );
 }
 
 export function ProfileContent({ user }: Props) {
@@ -96,10 +144,14 @@ export function ProfileContent({ user }: Props) {
             </dt>
             <dd className="flex items-center gap-2">
               <span className="text-charcoal capitalize">{user.tier}</span>
-              {user.tier === 'premium' && (
+              {user.tier === 'premium' ? (
                 <span className="px-1.5 py-0.5 text-[10px] font-mono uppercase tracking-wider bg-copper/10 text-copper rounded">
                   Premium
                 </span>
+              ) : (
+                <Link href="/premium" className="text-sm text-copper hover:underline ml-2">
+                  Upgrade to Premium
+                </Link>
               )}
             </dd>
           </div>
@@ -118,32 +170,45 @@ export function ProfileContent({ user }: Props) {
         </dl>
       </div>
 
-      {/* Usage Card */}
-      <div className="bg-white rounded-card border border-slate/10 shadow-sm p-6">
-        <h2 className="text-lg font-semibold text-charcoal mb-4">Usage</h2>
-        {usageLoading ? (
-          <div className="flex items-center gap-2 text-steel">
-            <span className="spinner" />
-            <span className="text-sm">Loading usage...</span>
-          </div>
-        ) : usage ? (
-          <div>
-            <p className="text-charcoal">
-              <span className="font-mono text-lg">{usage.count}</span> of{' '}
-              <span className="font-mono text-lg">{usage.limit}</span> Guide conversations this week
-            </p>
-            <div className="mt-2 h-2 bg-slate/10 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-copper transition-all"
-                style={{ width: `${Math.min(100, (usage.count / usage.limit) * 100)}%` }}
-              />
+      {/* Usage Card - only show for free users */}
+      {user.tier === 'free' && (
+        <div className="bg-white rounded-card border border-slate/10 shadow-sm p-6">
+          <h2 className="text-lg font-semibold text-charcoal mb-4">Usage</h2>
+          {usageLoading ? (
+            <div className="flex items-center gap-2 text-steel">
+              <span className="spinner" />
+              <span className="text-sm">Loading usage...</span>
             </div>
-            <p className="text-xs text-steel mt-2">Resets every Monday</p>
-          </div>
-        ) : (
-          <p className="text-slate text-sm">Unable to load usage data</p>
-        )}
-      </div>
+          ) : usage ? (
+            <div>
+              <p className="text-charcoal">
+                <span className="font-mono text-lg">{usage.count}</span> of{' '}
+                <span className="font-mono text-lg">{usage.limit}</span> Guide conversations this month
+              </p>
+              <div className="mt-2 h-2 bg-slate/10 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-copper transition-all"
+                  style={{ width: `${Math.min(100, (usage.count / usage.limit) * 100)}%` }}
+                />
+              </div>
+              <p className="text-xs text-steel mt-2">Resets on the 1st of each month</p>
+            </div>
+          ) : (
+            <p className="text-slate text-sm">Unable to load usage data</p>
+          )}
+        </div>
+      )}
+
+      {/* Subscription Card - only show for premium users */}
+      {user.tier === 'premium' && (
+        <div className="bg-white rounded-card border border-slate/10 shadow-sm p-6">
+          <h2 className="text-lg font-semibold text-charcoal mb-4">Subscription</h2>
+          <p className="text-slate mb-4">
+            You have unlimited access to the AI Pattern Guide.
+          </p>
+          <ManageSubscriptionButton />
+        </div>
+      )}
 
       {/* Actions */}
       <div className="space-y-3">

@@ -28,25 +28,16 @@ export default function AboutPage() {
               Language A extends the original work to 254 patterns. The new patterns follow Alexander&apos;s methodology — problem, forces, resolution — and are calibrated to contemporary contexts: cold-climate construction, housing diversity, climate resilience, the social dynamics of density. They sit alongside the original 253 rather than replacing them. The language grew; it didn&apos;t break.
             </p>
 
-            <h2 className="text-xl font-bold text-charcoal tracking-tight mt-10 mb-4">
-              Who made it
-            </h2>
-            <p className="text-slate leading-relaxed mb-6">
-              Language A is developed by Andrew Afelskie, an Engineer-in-Training based in Edmonton, Alberta. I spend my working days understanding why structures hold — or don&apos;t. That work has made me a careful reader of the built environment: attentive to the forces acting on a place, skeptical of resolutions that ignore them.
-            </p>
-            <p className="text-slate leading-relaxed mb-6">
-              Pattern thinking is, in some ways, what structural engineers do anyway. You identify a recurring problem — a beam-column connection, a thermal bridge, a load path that nobody drew. You understand the forces. You develop a resolution that handles them. Language A is an attempt to do that for the places people actually inhabit, at every scale from the street corner to the window seat.
-            </p>
-            <p className="text-slate leading-relaxed mb-8">
-              The intellectual contribution is free. The patterns are published, open, and will stay that way. If you want to go deeper — to apply the language to a specific project, review a design through its lens, or understand how the patterns interact — we&apos;re available as consultants. That&apos;s the deal.
+            <p className="text-slate leading-relaxed mt-10 mb-8">
+              <strong>Sylvie Marchetti</strong> is the editorial voice of Language A.
             </p>
 
             <h2 className="text-xl font-bold text-charcoal tracking-tight mt-10 mb-4">
               Contact
             </h2>
             <p className="text-slate leading-relaxed">
-              <a href="mailto:hello@language-a.com" className="text-copper hover:underline">
-                hello@language-a.com
+              <a href="mailto:sylvie@language-a.com" className="text-copper hover:underline">
+                sylvie@language-a.com
               </a>
             </p>
           </div>

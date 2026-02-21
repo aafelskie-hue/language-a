@@ -6,6 +6,7 @@ import Link from 'next/link';
 import type { ChatMessage as ChatMessageType } from '@/lib/types';
 import { ChatMessage } from './ChatMessage';
 import { ConversationHistory } from './ConversationHistory';
+import { GatePrompt } from './GatePrompt';
 import { useProjectStore } from '@/store/useProjectStore';
 import { useConversationStore, type ConversationMessage } from '@/store/useConversationStore';
 
@@ -43,6 +44,7 @@ export function ChatInterface() {
   const [isLoading, setIsLoading] = useState(false);
   const [rateLimitInfo, setRateLimitInfo] = useState<RateLimitInfo | null>(null);
   const [spendLimitReached, setSpendLimitReached] = useState(false);
+  const [gatePromptDismissed, setGatePromptDismissed] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const { getActiveProject } = useProjectStore();
@@ -82,6 +84,7 @@ export function ChatInterface() {
     }
     setRateLimitInfo(null);
     setSpendLimitReached(false);
+    setGatePromptDismissed(false);
   }, [isAuthenticated, resetConversation]);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -244,13 +247,8 @@ export function ChatInterface() {
     }
 
     if (rateLimitInfo.reason === 'conversation_limit_free') {
-      return (
-        <div className="mx-4 mb-2 p-4 bg-amber-50 border border-amber-200 rounded-lg">
-          <p className="text-sm text-amber-800">
-            You&apos;ve reached this week&apos;s Guide limit (5 conversations). Your conversations reset on Monday. All patterns, projects, and the network are still available.
-          </p>
-        </div>
-      );
+      // Gate prompt is shown in messages area instead
+      return null;
     }
 
     // message_limit or fallback
@@ -334,6 +332,9 @@ export function ChatInterface() {
             {messages.map((message) => (
               <ChatMessage key={message.id} message={message} />
             ))}
+            {rateLimitInfo?.reason === 'conversation_limit_free' && !gatePromptDismissed && (
+              <GatePrompt onDismiss={() => setGatePromptDismissed(true)} />
+            )}
             {isLoading && (
               <div className="flex items-center gap-2 text-steel">
                 <div className="spinner"></div>

@@ -1,16 +1,16 @@
-import { kv, kvKeys, getISOWeekNumber } from '@/lib/kv';
+import { kv, kvKeys, getMonthKey } from '@/lib/kv';
 
 // Limits
 const ANONYMOUS_TOTAL_CONVERSATIONS = parseInt(
   process.env.GUIDE_ANONYMOUS_CONVERSATIONS || '2'
 );
-const FREE_CONVERSATIONS_PER_WEEK = parseInt(
-  process.env.GUIDE_FREE_CONVERSATIONS_PER_WEEK || '5'
+const FREE_CONVERSATIONS_PER_MONTH = parseInt(
+  process.env.GUIDE_FREE_CONVERSATIONS_PER_MONTH || '5'
 );
 const MESSAGES_PER_CONVERSATION = parseInt(
   process.env.GUIDE_MESSAGES_PER_CONVERSATION || '10'
 );
-const WEEK_SECONDS = 7 * 24 * 60 * 60;
+const MONTH_SECONDS = 31 * 24 * 60 * 60;
 
 export type UserTier = 'anonymous' | 'free' | 'premium';
 
@@ -82,23 +82,23 @@ export async function checkRateLimit(
     }
 
     if (userTier === 'free' && userId) {
-      // Free: weekly limit
-      const weekId = getISOWeekNumber();
-      const key = kvKeys.userWeeklyUsage(userId, weekId);
+      // Free: monthly limit
+      const monthId = getMonthKey();
+      const key = kvKeys.userMonthlyUsage(userId, monthId);
       const count = (await kv.get<number>(key)) || 0;
 
-      if (count >= FREE_CONVERSATIONS_PER_WEEK) {
+      if (count >= FREE_CONVERSATIONS_PER_MONTH) {
         return {
           allowed: false,
           reason: 'conversation_limit_free',
-          message: "You've reached this week's Guide limit (5 conversations). Your conversations reset on Monday. All patterns, projects, and the network are still available.",
+          message: "You've reached this month's Guide limit (5 conversations). Your conversations reset on the 1st. All patterns, projects, and the network are still available.",
         };
       }
 
       return {
         allowed: true,
         remaining: {
-          conversations: FREE_CONVERSATIONS_PER_WEEK - count,
+          conversations: FREE_CONVERSATIONS_PER_MONTH - count,
           messages: MESSAGES_PER_CONVERSATION - messageCount,
         },
       };
@@ -111,7 +111,7 @@ export async function checkRateLimit(
     remaining: {
       conversations: userTier === 'anonymous'
         ? ANONYMOUS_TOTAL_CONVERSATIONS
-        : FREE_CONVERSATIONS_PER_WEEK,
+        : FREE_CONVERSATIONS_PER_MONTH,
       messages: MESSAGES_PER_CONVERSATION - messageCount,
     },
   };
@@ -126,12 +126,12 @@ export async function recordNewConversation(
   userId: string | null
 ): Promise<void> {
   if (userId) {
-    // Authenticated user - increment weekly count
-    const weekId = getISOWeekNumber();
-    const key = kvKeys.userWeeklyUsage(userId, weekId);
+    // Authenticated user - increment monthly count
+    const monthId = getMonthKey();
+    const key = kvKeys.userMonthlyUsage(userId, monthId);
     const newCount = await kv.incr(key);
-    // Set expiry to 7 days (will auto-expire after the week)
-    await kv.expire(key, WEEK_SECONDS);
+    // Set expiry to 31 days (will auto-expire after the month)
+    await kv.expire(key, MONTH_SECONDS);
     console.log('[Rate Limit] Recorded auth conversation - key:', key, 'newCount:', newCount);
   } else {
     // Anonymous - increment lifetime count (no expiry)
@@ -147,12 +147,12 @@ export async function recordNewConversation(
 export async function getUsageStats(
   clientIP: string,
   userId: string | null
-): Promise<{ conversationCount: number; weekId?: string }> {
+): Promise<{ conversationCount: number; monthId?: string }> {
   if (userId) {
-    const weekId = getISOWeekNumber();
-    const key = kvKeys.userWeeklyUsage(userId, weekId);
+    const monthId = getMonthKey();
+    const key = kvKeys.userMonthlyUsage(userId, monthId);
     const count = (await kv.get<number>(key)) || 0;
-    return { conversationCount: count, weekId };
+    return { conversationCount: count, monthId };
   } else {
     const key = kvKeys.ipUsage(clientIP);
     const count = (await kv.get<number>(key)) || 0;
