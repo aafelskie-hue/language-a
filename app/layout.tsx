@@ -5,6 +5,7 @@ import { Footer } from '@/components/layout/Footer';
 import { SessionProvider } from '@/components/providers/SessionProvider';
 import { ProjectSync } from '@/components/providers/ProjectSync';
 import '@/styles/globals.css';
+import { Analytics } from "@vercel/analytics/next";
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -73,6 +74,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </SessionProvider>
+	<Analytics />
       </body>
     </html>
   );
