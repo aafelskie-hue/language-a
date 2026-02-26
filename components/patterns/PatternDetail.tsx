@@ -6,6 +6,7 @@ import { getConnectedPatterns, getCategorySiblings, getNextPattern, getPreviousP
 import { ScaleBadge } from './ScaleBadge';
 import { ConfidenceBadge } from './ConfidenceBadge';
 import { ConnectionChip } from './ConnectionChip';
+import { useSession } from 'next-auth/react';
 import { useProjectStore } from '@/store/useProjectStore';
 
 interface PatternDetailProps {
@@ -13,6 +14,7 @@ interface PatternDetailProps {
 }
 
 export function PatternDetail({ pattern }: PatternDetailProps) {
+  const { data: session } = useSession();
   const { projects, activeProjectId, addPattern, isPatternInProject } = useProjectStore();
   const activeProject = projects.find(p => p.id === activeProjectId);
   const isInActiveProject = activeProjectId ? isPatternInProject(activeProjectId, pattern.id) : false;
@@ -89,7 +91,7 @@ export function PatternDetail({ pattern }: PatternDetailProps) {
             )}
           </button>
         ) : (
-          <Link href="/projects" className="btn btn-secondary text-sm">
+          <Link href={session?.user ? "/projects" : "/auth/signin?callbackUrl=/projects"} className="btn btn-secondary text-sm">
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
             </svg>

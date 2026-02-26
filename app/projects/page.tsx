@@ -1,9 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { useSession } from 'next-auth/react';
 import { useProjectStore, PROJECT_TEMPLATES } from '@/store/useProjectStore';
 import { ProjectList } from '@/components/projects/ProjectList';
 import { ProjectDetail } from '@/components/projects/ProjectDetail';
+import { SignInGate } from '@/components/projects/SignInGate';
 
 export default function ProjectsPage() {
   const {
@@ -22,7 +24,9 @@ export default function ProjectsPage() {
     isSyncing,
   } = useProjectStore();
 
+  const { data: session } = useSession();
   const [showNewForm, setShowNewForm] = useState(false);
+  const [showSignInGate, setShowSignInGate] = useState(false);
   const [newName, setNewName] = useState('');
   const [newDescription, setNewDescription] = useState('');
 
@@ -134,7 +138,7 @@ export default function ProjectsPage() {
                 Your Projects
               </h2>
               <button
-                onClick={() => setShowNewForm(true)}
+                onClick={() => session?.user ? setShowNewForm(true) : setShowSignInGate(true)}
                 className="btn btn-primary text-sm"
               >
                 + New
@@ -213,7 +217,7 @@ export default function ProjectsPage() {
                   {PROJECT_TEMPLATES.map((template) => (
                     <button
                       key={template.id}
-                      onClick={() => createProjectFromTemplate(template.id)}
+                      onClick={() => session?.user ? createProjectFromTemplate(template.id) : setShowSignInGate(true)}
                       className="card card-hover text-left group"
                     >
                       <h3 className="font-semibold text-charcoal group-hover:text-copper transition-colors mb-2">
@@ -236,7 +240,7 @@ export default function ProjectsPage() {
                   Or start from scratch with a blank project.
                 </p>
                 <button
-                  onClick={() => setShowNewForm(true)}
+                  onClick={() => session?.user ? setShowNewForm(true) : setShowSignInGate(true)}
                   className="btn btn-secondary"
                 >
                   Create Blank Project
@@ -246,6 +250,10 @@ export default function ProjectsPage() {
           )}
         </main>
       </div>
+
+      {showSignInGate && (
+        <SignInGate onDismiss={() => setShowSignInGate(false)} />
+      )}
     </div>
   );
 }
