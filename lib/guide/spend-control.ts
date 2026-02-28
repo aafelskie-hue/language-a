@@ -20,7 +20,8 @@ export async function checkSpendLimit(): Promise<SpendCheckResult> {
   const dateKey = getTodayDateKey();
   const key = kvKeys.dailySpend(dateKey);
 
-  const dailySpendCents = (await kv.get<number>(key)) || 0;
+  const rawValue = (await kv.get<number>(key)) || 0;
+  const dailySpendCents = rawValue / 100; // Convert from hundredths of cents to cents
 
   return {
     allowed: dailySpendCents < DAILY_LIMIT,
