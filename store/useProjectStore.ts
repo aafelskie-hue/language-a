@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import type { Project, ProjectPattern, ProjectPatternStatus } from '@/lib/types';
+import { generateProjectMarkdown } from '@/lib/exportMarkdown';
 
 export interface ProjectTemplate {
   id: string;
@@ -616,7 +617,7 @@ export const useProjectStore = create<ProjectStore>()(
       exportProject: (id) => {
         const project = get().projects.find(p => p.id === id);
         if (!project) return '';
-        return JSON.stringify(project, null, 2);
+        return generateProjectMarkdown(project);
       },
     }),
     {

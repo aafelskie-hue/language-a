@@ -1,9 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import type { Project, ProjectPatternStatus } from '@/lib/types';
-import { getPatternById } from '@/lib/patterns';
+import type { Project, ProjectPatternStatus, Scale } from '@/lib/types';
+import { getPatternById, getScaleLabel } from '@/lib/patterns';
 import { PatternStatus } from './PatternStatus';
 import { SuggestionPanel } from './SuggestionPanel';
 import { SaveProjectPrompt } from './SaveProjectPrompt';
@@ -13,23 +13,62 @@ interface ProjectDetailProps {
   project: Project;
   onUpdateStatus: (patternId: number, status: ProjectPatternStatus) => void;
   onUpdateNotes: (patternId: number, notes: string) => void;
+  onUpdateDescription: (description: string) => void;
   onRemovePattern: (patternId: number) => void;
   onAddPattern: (patternId: number) => void;
   onExport: () => void;
 }
 
+const SCALE_ORDER: Scale[] = ['neighborhood', 'building', 'construction'];
+
 export function ProjectDetail({
   project,
   onUpdateStatus,
   onUpdateNotes,
+  onUpdateDescription,
   onRemovePattern,
   onAddPattern,
   onExport,
 }: ProjectDetailProps) {
   const [expandedPattern, setExpandedPattern] = useState<number | null>(null);
+  const [localDescription, setLocalDescription] = useState(project.description);
+
+  // Reset local description when project changes
+  const [prevProjectId, setPrevProjectId] = useState(project.id);
+  if (project.id !== prevProjectId) {
+    setPrevProjectId(project.id);
+    setLocalDescription(project.description);
+  }
 
   const patternIds = project.patterns.map(p => p.patternId);
-  const sortedPatterns = [...project.patterns].sort((a, b) => a.patternId - b.patternId);
+
+  // Group patterns by scale
+  const scaleGroups = useMemo(() => {
+    const groups = new Map<Scale, typeof project.patterns>();
+
+    for (const pp of project.patterns) {
+      const pattern = getPatternById(pp.patternId);
+      if (!pattern) continue;
+      const group = groups.get(pattern.scale) || [];
+      group.push(pp);
+      groups.set(pattern.scale, group);
+    }
+
+    // Sort within each group by reading_order
+    Array.from(groups.keys()).forEach((scale) => {
+      const group = groups.get(scale)!;
+      groups.set(
+        scale,
+        [...group].sort((a, b) => {
+          const pa = getPatternById(a.patternId);
+          const pb = getPatternById(b.patternId);
+          return (pa?.reading_order ?? 0) - (pb?.reading_order ?? 0);
+        })
+      );
+    });
+
+    return groups;
+  }, [project.patterns]);
 
   const statusCounts = {
     not_started: project.patterns.filter(p => p.status === 'not_started').length,
@@ -38,23 +77,33 @@ export function ProjectDetail({
     rejected: project.patterns.filter(p => p.status === 'rejected').length,
   };
 
+  const handleDescriptionBlur = () => {
+    if (localDescription !== project.description) {
+      onUpdateDescription(localDescription);
+    }
+  };
+
   return (
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-start justify-between">
-        <div>
-          <h2 className="text-2xl font-bold text-charcoal">{project.name}</h2>
-          {project.description && (
-            <p className="text-slate mt-1">{project.description}</p>
-          )}
-        </div>
-        <button onClick={onExport} className="btn btn-secondary text-sm">
+        <h2 className="text-2xl font-bold text-charcoal">{project.name}</h2>
+        <button onClick={onExport} className="btn btn-secondary text-sm flex-shrink-0">
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
           </svg>
-          Export
+          Export Markdown
         </button>
       </div>
+
+      {/* Editable Description */}
+      <textarea
+        value={localDescription}
+        onChange={(e) => setLocalDescription(e.target.value)}
+        onBlur={handleDescriptionBlur}
+        placeholder="Describe your project — site, climate, program, constraints. This helps the Pattern Guide give you better recommendations."
+        className="w-full h-24 resize-none text-sm"
+      />
 
       {/* Status Summary */}
       <div className="grid grid-cols-4 gap-3">
@@ -76,8 +125,8 @@ export function ProjectDetail({
         </div>
       </div>
 
-      {/* Pattern List */}
-      {sortedPatterns.length === 0 ? (
+      {/* Pattern List — grouped by scale */}
+      {project.patterns.length === 0 ? (
         <div className="text-center py-12 bg-cloud/50 rounded-card">
           <p className="text-slate mb-2">No patterns in this project yet.</p>
           <p className="text-sm text-steel">
@@ -88,71 +137,83 @@ export function ProjectDetail({
           </Link>
         </div>
       ) : (
-        <div className="space-y-2">
-          {sortedPatterns.map((pp) => {
-            const pattern = getPatternById(pp.patternId);
-            if (!pattern) return null;
-
-            const isExpanded = expandedPattern === pp.patternId;
+        <div className="space-y-6">
+          {SCALE_ORDER.map((scale) => {
+            const group = scaleGroups.get(scale);
+            if (!group || group.length === 0) return null;
 
             return (
-              <div key={pp.patternId} className="card">
-                <div className="flex items-center gap-3">
-                  <button
-                    onClick={() => setExpandedPattern(isExpanded ? null : pp.patternId)}
-                    className="p-1 text-silver hover:text-slate transition-colors"
-                    aria-expanded={isExpanded}
-                  >
-                    <svg
-                      className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-90' : ''}`}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </button>
+              <div key={scale}>
+                <h3 className="font-mono text-xs uppercase tracking-widest text-steel mb-3">
+                  {getScaleLabel(scale).toUpperCase()} — {group.length} {group.length === 1 ? 'pattern' : 'patterns'}
+                </h3>
+                <div className="space-y-2">
+                  {group.map((pp) => {
+                    const pattern = getPatternById(pp.patternId);
+                    if (!pattern) return null;
 
-                  <span className="font-mono text-copper text-sm">{pattern.reading_order}</span>
+                    const isExpanded = expandedPattern === pp.patternId;
 
-                  <Link
-                    href={`/patterns/${pattern.reading_order}`}
-                    className="flex-1 font-medium text-charcoal hover:text-copper transition-colors"
-                  >
-                    {pattern.name}
-                  </Link>
+                    return (
+                      <div key={pp.patternId} className="card">
+                        <div className="flex items-center gap-3">
+                          <button
+                            onClick={() => setExpandedPattern(isExpanded ? null : pp.patternId)}
+                            className="p-1 text-silver hover:text-slate transition-colors"
+                            aria-expanded={isExpanded}
+                          >
+                            <svg
+                              className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-90' : ''}`}
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </button>
 
-                  <ScaleBadge scale={pattern.scale} />
+                          <span className="font-mono text-copper text-sm">{pattern.reading_order}</span>
 
-                  <PatternStatus
-                    status={pp.status}
-                    onChange={(status) => onUpdateStatus(pp.patternId, status)}
-                  />
+                          <Link
+                            href={`/patterns/${pattern.reading_order}`}
+                            className="flex-1 font-medium text-charcoal hover:text-copper transition-colors"
+                          >
+                            {pattern.name}
+                          </Link>
 
-                  <button
-                    onClick={() => onRemovePattern(pp.patternId)}
-                    className="p-1 text-silver hover:text-error transition-colors"
-                    aria-label="Remove pattern"
-                  >
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
+                          <PatternStatus
+                            status={pp.status}
+                            onChange={(status) => onUpdateStatus(pp.patternId, status)}
+                          />
+
+                          <button
+                            onClick={() => onRemovePattern(pp.patternId)}
+                            className="p-1 text-silver hover:text-error transition-colors"
+                            aria-label="Remove pattern"
+                          >
+                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                          </button>
+                        </div>
+
+                        {isExpanded && (
+                          <div className="mt-4 pt-4 border-t border-slate/10">
+                            <label className="block text-sm font-medium text-slate mb-2">
+                              Notes
+                            </label>
+                            <textarea
+                              value={pp.notes}
+                              onChange={(e) => onUpdateNotes(pp.patternId, e.target.value)}
+                              placeholder="How does this pattern show up in your project?"
+                              className="w-full h-24 resize-none"
+                            />
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
-
-                {isExpanded && (
-                  <div className="mt-4 pt-4 border-t border-slate/10">
-                    <label className="block text-sm font-medium text-slate mb-2">
-                      Notes
-                    </label>
-                    <textarea
-                      value={pp.notes}
-                      onChange={(e) => onUpdateNotes(pp.patternId, e.target.value)}
-                      placeholder="Add notes about how this pattern applies to your project..."
-                      className="w-full h-24 resize-none"
-                    />
-                  </div>
-                )}
               </div>
             );
           })}

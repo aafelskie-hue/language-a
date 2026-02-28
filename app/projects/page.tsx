@@ -19,6 +19,7 @@ export default function ProjectsPage() {
     removePattern,
     updatePatternStatus,
     updatePatternNotes,
+    updateProject,
     exportProject,
     isLoading,
     isSyncing,
@@ -45,11 +46,12 @@ export default function ProjectsPage() {
   const handleExport = () => {
     if (!activeProjectId) return;
     const data = exportProject(activeProjectId);
-    const blob = new Blob([data], { type: 'application/json' });
+    const blob = new Blob([data], { type: 'text/markdown' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${activeProject?.name || 'project'}.json`;
+    const slug = (activeProject?.name || 'project').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    a.download = `${slug}-language-a.md`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -197,6 +199,9 @@ export default function ProjectsPage() {
               }
               onUpdateNotes={(patternId, notes) =>
                 updatePatternNotes(activeProject.id, patternId, notes)
+              }
+              onUpdateDescription={(description) =>
+                updateProject(activeProject.id, { description })
               }
               onRemovePattern={(patternId) =>
                 removePattern(activeProject.id, patternId)
