@@ -30,6 +30,7 @@ export default function ProjectsPage() {
   const [showSignInGate, setShowSignInGate] = useState(false);
   const [newName, setNewName] = useState('');
   const [newDescription, setNewDescription] = useState('');
+  const [isPdfExporting, setIsPdfExporting] = useState(false);
 
   const activeProject = projects.find(p => p.id === activeProjectId);
 
@@ -43,7 +44,7 @@ export default function ProjectsPage() {
     setShowNewForm(false);
   };
 
-  const handleExport = () => {
+  const handleExportMarkdown = () => {
     if (!activeProjectId) return;
     const data = exportProject(activeProjectId);
     const blob = new Blob([data], { type: 'text/markdown' });
@@ -54,6 +55,44 @@ export default function ProjectsPage() {
     a.download = `${slug}-language-a.md`;
     a.click();
     URL.revokeObjectURL(url);
+  };
+
+  const handleExportPdf = async () => {
+    if (!activeProjectId) return;
+
+    if (!session?.user) {
+      setShowSignInGate(true);
+      return;
+    }
+
+    setIsPdfExporting(true);
+    try {
+      const response = await fetch(`/api/projects/${activeProjectId}/export/pdf`, {
+        method: 'POST',
+      });
+
+      if (response.status === 401) {
+        setShowSignInGate(true);
+        return;
+      }
+
+      if (!response.ok) {
+        throw new Error('PDF export failed');
+      }
+
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      const slug = (activeProject?.name || 'project').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      a.download = `${slug}-language-a.pdf`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch {
+      // Silent fail — user sees loading state end
+    } finally {
+      setIsPdfExporting(false);
+    }
   };
 
   if (isLoading) {
@@ -209,7 +248,9 @@ export default function ProjectsPage() {
               onAddPattern={(patternId) =>
                 addPattern(activeProject.id, patternId)
               }
-              onExport={handleExport}
+              onExportMarkdown={handleExportMarkdown}
+              onExportPdf={handleExportPdf}
+              isPdfExporting={isPdfExporting}
             />
           ) : (
             <div>

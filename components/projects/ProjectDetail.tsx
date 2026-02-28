@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import type { Project, ProjectPatternStatus, Scale } from '@/lib/types';
 import { getPatternById, getScaleLabel } from '@/lib/patterns';
@@ -16,7 +16,9 @@ interface ProjectDetailProps {
   onUpdateDescription: (description: string) => void;
   onRemovePattern: (patternId: number) => void;
   onAddPattern: (patternId: number) => void;
-  onExport: () => void;
+  onExportMarkdown: () => void;
+  onExportPdf: () => void;
+  isPdfExporting: boolean;
 }
 
 const SCALE_ORDER: Scale[] = ['neighborhood', 'building', 'construction'];
@@ -28,10 +30,36 @@ export function ProjectDetail({
   onUpdateDescription,
   onRemovePattern,
   onAddPattern,
-  onExport,
+  onExportMarkdown,
+  onExportPdf,
+  isPdfExporting,
 }: ProjectDetailProps) {
   const [expandedPattern, setExpandedPattern] = useState<number | null>(null);
   const [localDescription, setLocalDescription] = useState(project.description);
+  const [exportOpen, setExportOpen] = useState(false);
+  const exportRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown on click-outside
+  useEffect(() => {
+    if (!exportOpen) return;
+    function handleClick(e: MouseEvent) {
+      if (exportRef.current && !exportRef.current.contains(e.target as Node)) {
+        setExportOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, [exportOpen]);
+
+  // Close dropdown on Escape
+  useEffect(() => {
+    if (!exportOpen) return;
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') setExportOpen(false);
+    }
+    document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, [exportOpen]);
 
   // Reset local description when project changes
   const [prevProjectId, setPrevProjectId] = useState(project.id);
@@ -88,12 +116,59 @@ export function ProjectDetail({
       {/* Header */}
       <div className="flex items-start justify-between">
         <h2 className="text-2xl font-bold text-charcoal">{project.name}</h2>
-        <button onClick={onExport} className="btn btn-secondary text-sm flex-shrink-0">
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-          </svg>
-          Export Markdown
-        </button>
+        <div className="relative flex-shrink-0" ref={exportRef}>
+          <button
+            onClick={() => !isPdfExporting && setExportOpen(!exportOpen)}
+            disabled={isPdfExporting}
+            className="btn btn-secondary text-sm"
+          >
+            {isPdfExporting ? (
+              <>
+                <svg
+                  className="animate-spin h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                Generating PDF...
+              </>
+            ) : (
+              <>
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                Export
+                <svg className="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </>
+            )}
+          </button>
+          {exportOpen && (
+            <div
+              className="absolute right-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-slate/10 py-1 z-50"
+              role="menu"
+            >
+              <button
+                role="menuitem"
+                onClick={() => { setExportOpen(false); onExportMarkdown(); }}
+                className="w-full text-left px-4 py-2 text-sm text-charcoal hover:bg-cloud/50 transition-colors"
+              >
+                Markdown (.md)
+              </button>
+              <button
+                role="menuitem"
+                onClick={() => { setExportOpen(false); onExportPdf(); }}
+                className="w-full text-left px-4 py-2 text-sm text-charcoal hover:bg-cloud/50 transition-colors"
+              >
+                PDF (.pdf)
+              </button>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Editable Description */}
