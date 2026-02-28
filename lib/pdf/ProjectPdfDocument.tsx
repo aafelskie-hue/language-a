@@ -39,6 +39,19 @@ const styles = StyleSheet.create({
     borderBottomColor: '#cccccc',
     marginBottom: 16,
   },
+  sectionDivider: {
+    borderBottomWidth: 1,
+    borderBottomColor: '#aaaaaa',
+    marginTop: 24,
+    marginBottom: 16,
+  },
+  brandMark: {
+    fontSize: 9,
+    textTransform: 'uppercase',
+    letterSpacing: 2,
+    color: '#999999',
+    marginBottom: 8,
+  },
   // Scale group
   scaleHeading: {
     fontFamily: 'Helvetica-Bold',
@@ -64,10 +77,10 @@ const styles = StyleSheet.create({
     color: '#444444',
     marginTop: 2,
   },
-  patternStatus: {
+  patternStatusInline: {
+    fontFamily: 'Helvetica',
     fontSize: 9,
-    color: '#666666',
-    marginTop: 2,
+    color: '#999999',
   },
   // Notes (can break across pages)
   patternNotes: {
@@ -145,6 +158,7 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
     <Document>
       <Page size="LETTER" style={styles.page}>
         {/* Cover header */}
+        <Text style={styles.brandMark}>LANGUAGE A</Text>
         <Text style={styles.projectName}>{data.projectName}</Text>
         {data.description ? (
           <Text style={styles.description}>{data.description}</Text>
@@ -169,10 +183,9 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
                 {/* Unbreakable header block */}
                 <View wrap={false} style={styles.patternHeader}>
                   <Text style={styles.patternName}>
-                    {entry.readingOrder}. {entry.name}
+                    Pattern {entry.readingOrder}: {entry.name}  <Text style={styles.patternStatusInline}>({entry.status})</Text>
                   </Text>
                   <Text style={styles.patternSolution}>{entry.solution}</Text>
-                  <Text style={styles.patternStatus}>Status: {entry.status}</Text>
                 </View>
                 {/* Notes outside the unbreakable block — can break across pages */}
                 {entry.notes ? (
@@ -186,7 +199,7 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
         {/* Connected patterns */}
         {data.connectedPatterns.length > 0 ? (
           <View>
-            <View style={styles.divider} />
+            <View style={styles.sectionDivider} />
             <Text style={styles.sectionTitle}>Connected Patterns</Text>
             <Text style={styles.introText}>
               Patterns not in this project that connect to two or more of your selected patterns.
@@ -194,7 +207,7 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
             {data.connectedPatterns.map((entry) => (
               <View key={entry.readingOrder} wrap={false} style={styles.connectedEntry}>
                 <Text style={styles.connectedName}>
-                  {entry.readingOrder}. {entry.name}
+                  Pattern {entry.readingOrder}: {entry.name}
                 </Text>
                 <Text style={styles.connectedTo}>
                   Connected to: {entry.connectedToNames.join(', ')}
@@ -202,12 +215,17 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
                 <Text style={styles.connectedSolution}>{entry.solution}</Text>
               </View>
             ))}
+            {data.totalConnectedCount > 8 ? (
+              <Text style={styles.introText}>
+                {data.totalConnectedCount - 8} additional connected patterns not shown. View your full project network at language-a.com.
+              </Text>
+            ) : null}
           </View>
         ) : null}
 
         {/* Network summary */}
         <View>
-          <View style={styles.divider} />
+          <View style={styles.sectionDivider} />
           <Text style={styles.sectionTitle}>Network Summary</Text>
           <Text style={styles.networkRow}>
             <Text style={styles.networkLabel}>Patterns: </Text>

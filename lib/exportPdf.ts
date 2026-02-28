@@ -2,6 +2,19 @@ import type { Scale, ProjectPatternStatus } from './types';
 import { getPatternById, getScaleLabel, categories } from './patterns';
 import { getConnectedUnselected } from './connectedPatterns';
 
+function sanitizeForPdf(text: string): string {
+  return text
+    .replace(/₀/g, '0')
+    .replace(/₁/g, '1')
+    .replace(/₂/g, '2')
+    .replace(/₃/g, '3');
+}
+
+function capitalize(text: string): string {
+  if (!text) return text;
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
 const STATUS_LABELS: Record<ProjectPatternStatus, string> = {
   not_started: 'Not Started',
   considering: 'Considering',
@@ -49,6 +62,7 @@ export interface PdfExportData {
   scaleNames: string[];
   scaleGroups: PdfScaleGroup[];
   connectedPatterns: PdfConnectedEntry[];
+  totalConnectedCount: number;
   networkSummary: PdfNetworkSummary;
 }
 
@@ -120,9 +134,9 @@ export function buildPdfExportData(
     const entry: PdfPatternEntry = {
       readingOrder: pattern.reading_order,
       name: pattern.name,
-      solution: pattern.solution,
+      solution: capitalize(sanitizeForPdf(pattern.solution)),
       status: STATUS_LABELS[pp.status as ProjectPatternStatus] ?? pp.status,
-      notes: pp.notes || '',
+      notes: sanitizeForPdf(pp.notes || ''),
     };
 
     const group = groupMap.get(pattern.scale) || [];
@@ -160,10 +174,13 @@ export function buildPdfExportData(
     return a.pattern.reading_order - b.pattern.reading_order;
   });
 
-  const connectedPatterns: PdfConnectedEntry[] = connected.map(entry => ({
+  const totalConnectedCount = connected.length;
+  const cappedConnected = connected.slice(0, 8);
+
+  const connectedPatterns: PdfConnectedEntry[] = cappedConnected.map(entry => ({
     readingOrder: entry.pattern.reading_order,
     name: entry.pattern.name,
-    solution: entry.pattern.solution,
+    solution: capitalize(sanitizeForPdf(entry.pattern.solution)),
     connectedToNames: entry.connectedTo.map(p => p.name),
   }));
 
@@ -183,6 +200,7 @@ export function buildPdfExportData(
     scaleNames,
     scaleGroups,
     connectedPatterns,
+    totalConnectedCount,
     networkSummary,
   };
 }
