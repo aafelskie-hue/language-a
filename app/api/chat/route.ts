@@ -28,12 +28,14 @@ export async function POST(request: NextRequest) {
       message,
       messages,
       projectPatternIds,
+      projectName,
       conversationId,
       sessionId
     } = body as {
       message?: string;
       messages?: Message[];
       projectPatternIds?: number[];
+      projectName?: string;
       conversationId?: string;
       sessionId?: string;
     };
@@ -142,7 +144,7 @@ export async function POST(request: NextRequest) {
       },
       body: JSON.stringify({
         model: 'claude-sonnet-4-5-20250929',
-        system: getSystemPrompt(projectPatternIds),
+        system: getSystemPrompt(projectPatternIds, projectName),
         max_tokens: 2048,
         messages: conversationMessages,
       }),
