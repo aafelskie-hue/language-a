@@ -224,8 +224,8 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
         ) : null}
 
         {/* Network summary */}
-        <View>
-          <View style={styles.sectionDivider} />
+        <View wrap={false}>
+          <View style={[styles.sectionDivider, { marginTop: 12 }]} />
           <Text style={styles.sectionTitle}>Network Summary</Text>
           <Text style={styles.networkRow}>
             <Text style={styles.networkLabel}>Patterns: </Text>
