@@ -25,12 +25,16 @@ export const PRICE_IDS = {
 
 export type PriceInterval = keyof typeof PRICE_IDS;
 
+// TODO: Stripe checkout disabled pending IP resolution. Re-enable checkout
+// buttons on /workshop and gate prompt when ready. Update Stripe dashboard
+// product names from "Premium" to "Workshop."
+
 // URL helpers for redirects
 export function getStripeUrls() {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.language-a.com';
   return {
     success: `${baseUrl}/guide?subscription=success`,
-    cancel: `${baseUrl}/premium`,
+    cancel: `${baseUrl}/workshop`,
     portal: `${baseUrl}/profile`,
   };
 }

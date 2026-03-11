@@ -143,14 +143,14 @@ export function ProfileContent({ user }: Props) {
               Account Type
             </dt>
             <dd className="flex items-center gap-2">
-              <span className="text-charcoal capitalize">{user.tier}</span>
+              <span className="text-charcoal">{user.tier === 'premium' ? 'Workshop' : 'Free'}</span>
               {user.tier === 'premium' ? (
                 <span className="px-1.5 py-0.5 text-[10px] font-mono uppercase tracking-wider bg-copper/10 text-copper rounded">
-                  Premium
+                  Workshop
                 </span>
               ) : (
-                <Link href="/premium" className="text-sm text-copper hover:underline ml-2">
-                  Upgrade to Premium
+                <Link href="/workshop" className="text-sm text-copper hover:underline ml-2">
+                  The Workshop — Coming Soon
                 </Link>
               )}
             </dd>

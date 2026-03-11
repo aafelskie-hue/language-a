@@ -16,34 +16,30 @@ export function GatePrompt({ onDismiss }: GatePromptProps) {
       </div>
       <div className="flex-1 space-y-4">
         <p className="text-charcoal">
-          You&apos;ve used your 5 free Pattern Guide conversations this month.
+          You&apos;ve used your 5 free design sessions this month.
         </p>
 
         <p className="text-slate text-sm">
-          Your free conversations reset on the 1st.
+          Your sessions reset on the 1st.
         </p>
 
         <p className="text-slate text-sm">
-          The AI Pattern Guide is a premium feature. A subscription unlocks
-          unlimited conversations and saves your project context across sessions.
-        </p>
-
-        <p className="text-charcoal font-mono text-sm">
-          $9 USD/month · $79 USD/year
+          The Workshop — with unlimited design sessions — is coming soon.
+          In the meantime, your free sessions reset on the 1st of each month.
         </p>
 
         <div className="flex gap-3 pt-2">
           <Link
-            href="/premium"
+            href="/workshop"
             className="btn btn-primary"
           >
-            Subscribe
+            Learn more about The Workshop
           </Link>
           <button
             onClick={onDismiss}
             className="btn btn-secondary"
           >
-            Maybe later
+            Got it
           </button>
         </div>
       </div>

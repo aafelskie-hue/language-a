@@ -98,7 +98,7 @@ export function UserMenu() {
               </p>
               {user.tier === 'premium' && (
                 <span className="px-1.5 py-0.5 text-[10px] font-mono uppercase tracking-wider bg-copper/10 text-copper rounded">
-                  Premium
+                  Workshop
                 </span>
               )}
             </div>
