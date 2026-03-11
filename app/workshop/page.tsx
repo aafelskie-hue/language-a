@@ -108,12 +108,10 @@ export default function WorkshopPage() {
                 </Link>{' '}
                 are free to explore.
               </p>
-              <a
-                href="mailto:hello@language-a.com?subject=Workshop%20interest"
-                className="btn btn-primary px-8"
-              >
-                Want to know when The Workshop opens? Leave your email
-              </a>
+              <p className="text-slate text-sm">
+                Want to know when The Workshop opens? Drop a note to{' '}
+                <span className="text-charcoal">hello@language-a.com</span>.
+              </p>
             </div>
           </div>
         </div>
