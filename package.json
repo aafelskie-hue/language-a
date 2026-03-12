@@ -16,7 +16,9 @@
     "quality-gate:batch": "npx tsx tools/quality-gate.ts --batch data/patterns.json",
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "db:promote": "npx tsx scripts/toggle-tier.ts promote",
+    "db:demote": "npx tsx scripts/toggle-tier.ts demote"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.74.0",

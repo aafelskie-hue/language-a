@@ -9,6 +9,7 @@ export interface AuthenticatedUser {
   email?: string | null;
   name?: string | null;
   image?: string | null;
+  tier: 'free' | 'premium';
 }
 
 export async function getAuthenticatedUser(): Promise<AuthenticatedUser | null> {
@@ -21,6 +22,7 @@ export async function getAuthenticatedUser(): Promise<AuthenticatedUser | null> 
     email: session.user.email,
     name: session.user.name,
     image: session.user.image,
+    tier: (session.user as { tier?: string }).tier === 'premium' ? 'premium' : 'free',
   };
 }
 
@@ -34,6 +36,13 @@ export function unauthorizedResponse() {
 export function forbiddenResponse() {
   return NextResponse.json(
     { error: 'Forbidden' },
+    { status: 403 }
+  );
+}
+
+export function premiumRequiredResponse() {
+  return NextResponse.json(
+    { error: 'Workshop tier required' },
     { status: 403 }
   );
 }

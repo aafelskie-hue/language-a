@@ -1,17 +1,9 @@
 import React from 'react';
 import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 import type { PdfExportData } from '../exportPdf';
+import { sharedStyles, PdfFooter } from './shared-styles';
 
 const styles = StyleSheet.create({
-  page: {
-    fontFamily: 'Helvetica',
-    fontSize: 10,
-    lineHeight: 1.35,
-    paddingTop: 72,
-    paddingBottom: 72,
-    paddingHorizontal: 72,
-    color: '#222222',
-  },
   // Cover header
   projectName: {
     fontFamily: 'Helvetica-Bold',
@@ -33,24 +25,6 @@ const styles = StyleSheet.create({
     fontSize: 9,
     color: '#666666',
     marginBottom: 20,
-  },
-  divider: {
-    borderBottomWidth: 0.5,
-    borderBottomColor: '#cccccc',
-    marginBottom: 16,
-  },
-  sectionDivider: {
-    borderBottomWidth: 1,
-    borderBottomColor: '#aaaaaa',
-    marginTop: 24,
-    marginBottom: 16,
-  },
-  brandMark: {
-    fontSize: 9,
-    textTransform: 'uppercase',
-    letterSpacing: 2,
-    color: '#999999',
-    marginBottom: 8,
   },
   // Scale group
   scaleHeading: {
@@ -81,6 +55,15 @@ const styles = StyleSheet.create({
     fontFamily: 'Helvetica',
     fontSize: 9,
     color: '#999999',
+  },
+  // Pattern body (can break across pages)
+  patternBody: {
+    fontFamily: 'Helvetica',
+    fontSize: 9,
+    color: '#444444',
+    paddingLeft: 12,
+    lineHeight: 1.4,
+    marginTop: 4,
   },
   // Notes (can break across pages)
   patternNotes: {
@@ -136,17 +119,6 @@ const styles = StyleSheet.create({
     fontSize: 9.5,
     color: '#333333',
   },
-  // Footer
-  footer: {
-    position: 'absolute',
-    bottom: 36,
-    left: 72,
-    right: 72,
-    fontSize: 8,
-    color: '#999999',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
 });
 
 interface ProjectPdfDocumentProps {
@@ -156,9 +128,9 @@ interface ProjectPdfDocumentProps {
 export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
   return (
     <Document>
-      <Page size="LETTER" style={styles.page}>
+      <Page size="LETTER" style={sharedStyles.page}>
         {/* Cover header */}
-        <Text style={styles.brandMark}>LANGUAGE A</Text>
+        <Text style={sharedStyles.brandMark}>LANGUAGE A</Text>
         <Text style={styles.projectName}>{data.projectName}</Text>
         {data.description ? (
           <Text style={styles.description}>{data.description}</Text>
@@ -169,7 +141,7 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
           {data.scaleNames.join(', ')}
         </Text>
 
-        <View style={styles.divider} />
+        <View style={sharedStyles.divider} />
 
         {/* Patterns by scale */}
         {data.scaleGroups.map((group) => (
@@ -187,6 +159,10 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
                   </Text>
                   <Text style={styles.patternSolution}>{entry.solution}</Text>
                 </View>
+                {/* Body outside the unbreakable block — can break across pages */}
+                {entry.body ? (
+                  <Text style={styles.patternBody}>{entry.body}</Text>
+                ) : null}
                 {/* Notes outside the unbreakable block — can break across pages */}
                 {entry.notes ? (
                   <Text style={styles.patternNotes}>{entry.notes}</Text>
@@ -199,25 +175,30 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
         {/* Connected patterns */}
         {data.connectedPatterns.length > 0 ? (
           <View>
-            <View style={styles.sectionDivider} />
+            <View style={sharedStyles.sectionDivider} />
             <Text style={styles.sectionTitle}>Connected Patterns</Text>
             <Text style={styles.introText}>
               Patterns not in this project that connect to two or more of your selected patterns.
             </Text>
             {data.connectedPatterns.map((entry) => (
-              <View key={entry.readingOrder} wrap={false} style={styles.connectedEntry}>
-                <Text style={styles.connectedName}>
-                  Pattern {entry.readingOrder}: {entry.name}
-                </Text>
-                <Text style={styles.connectedTo}>
-                  Connected to: {entry.connectedToNames.join(', ')}
-                </Text>
-                <Text style={styles.connectedSolution}>{entry.solution}</Text>
+              <View key={entry.readingOrder} style={styles.connectedEntry}>
+                <View wrap={false}>
+                  <Text style={styles.connectedName}>
+                    Pattern {entry.readingOrder}: {entry.name}
+                  </Text>
+                  <Text style={styles.connectedTo}>
+                    Connected to: {entry.connectedToNames.join(', ')}
+                  </Text>
+                  <Text style={styles.connectedSolution}>{entry.solution}</Text>
+                </View>
+                {entry.body ? (
+                  <Text style={styles.patternBody}>{entry.body}</Text>
+                ) : null}
               </View>
             ))}
-            {data.totalConnectedCount > 8 ? (
+            {data.totalConnectedCount > data.connectedPatterns.length ? (
               <Text style={styles.introText}>
-                {data.totalConnectedCount - 8} additional connected patterns not shown. View your full project network at language-a.com.
+                {data.totalConnectedCount - data.connectedPatterns.length} additional connected patterns not shown. View your full project network at language-a.com.
               </Text>
             ) : null}
           </View>
@@ -225,7 +206,7 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
 
         {/* Network summary */}
         <View wrap={false}>
-          <View style={[styles.sectionDivider, { marginTop: 12 }]} />
+          <View style={[sharedStyles.sectionDivider, { marginTop: 12 }]} />
           <Text style={styles.sectionTitle}>Network Summary</Text>
           <Text style={styles.networkRow}>
             <Text style={styles.networkLabel}>Patterns: </Text>
@@ -249,14 +230,7 @@ export function ProjectPdfDocument({ data }: ProjectPdfDocumentProps) {
           </Text>
         </View>
 
-        {/* Page footer on every page */}
-        <Text
-          style={styles.footer}
-          render={({ pageNumber, totalPages }) =>
-            `${data.projectName} — Language A (language-a.com)     Page ${pageNumber} of ${totalPages}`
-          }
-          fixed
-        />
+        <PdfFooter title={data.projectName} />
       </Page>
     </Document>
   );

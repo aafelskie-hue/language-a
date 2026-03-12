@@ -30,6 +30,7 @@ export interface PdfPatternEntry {
   solution: string;
   status: string;
   notes: string;
+  body?: string;
 }
 
 export interface PdfScaleGroup {
@@ -43,6 +44,7 @@ export interface PdfConnectedEntry {
   name: string;
   solution: string;
   connectedToNames: string[];
+  body?: string;
 }
 
 export interface PdfNetworkSummary {
@@ -117,10 +119,16 @@ interface PatternInput {
   notes: string;
 }
 
+export interface PdfExportOptions {
+  includeBodies?: boolean;
+  uncapConnected?: boolean;
+}
+
 export function buildPdfExportData(
   name: string,
   description: string,
-  patterns: PatternInput[]
+  patterns: PatternInput[],
+  options?: PdfExportOptions
 ): PdfExportData {
   const patternIds = patterns.map(p => p.patternId);
 
@@ -137,6 +145,7 @@ export function buildPdfExportData(
       solution: capitalize(sanitizeForPdf(pattern.solution)),
       status: STATUS_LABELS[pp.status as ProjectPatternStatus] ?? pp.status,
       notes: sanitizeForPdf(pp.notes || ''),
+      ...(options?.includeBodies && pattern.body ? { body: sanitizeForPdf(pattern.body) } : {}),
     };
 
     const group = groupMap.get(pattern.scale) || [];
@@ -175,13 +184,14 @@ export function buildPdfExportData(
   });
 
   const totalConnectedCount = connected.length;
-  const cappedConnected = connected.slice(0, 8);
+  const displayConnected = options?.uncapConnected ? connected : connected.slice(0, 8);
 
-  const connectedPatterns: PdfConnectedEntry[] = cappedConnected.map(entry => ({
+  const connectedPatterns: PdfConnectedEntry[] = displayConnected.map(entry => ({
     readingOrder: entry.pattern.reading_order,
     name: entry.pattern.name,
     solution: capitalize(sanitizeForPdf(entry.pattern.solution)),
     connectedToNames: entry.connectedTo.map(p => p.name),
+    ...(options?.includeBodies && entry.pattern.body ? { body: sanitizeForPdf(entry.pattern.body) } : {}),
   }));
 
   const networkSummary = computeNetworkSummary(patternIds);

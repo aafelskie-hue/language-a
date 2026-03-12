@@ -36,10 +36,12 @@ export async function POST(
     notes: p.notes ?? '',
   }));
 
+  const isPremium = user.tier === 'premium';
   const pdfData = buildPdfExportData(
     project.name,
     project.description,
-    patternInput
+    patternInput,
+    isPremium ? { includeBodies: true, uncapConnected: true } : undefined
   );
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
