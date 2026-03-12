@@ -1,16 +1,24 @@
 import { patterns, getPatternById } from '@/lib/patterns';
+import { getConnectedUnselected } from '@/lib/connectedPatterns';
 import type { Pattern } from '@/lib/types';
 
 // Build the pattern index once at module load time (not per request)
 const PATTERN_INDEX = buildPatternIndex();
 
-export function getSystemPrompt(projectPatternIds?: number[], projectName?: string): string {
+interface ProjectContext {
+  patternIds?: number[];
+  name?: string;
+  description?: string;
+  patterns?: Array<{ patternId: number; status: string; notes: string }>;
+}
+
+export function getSystemPrompt(project?: ProjectContext): string {
   let prompt = IDENTITY_AND_VOICE;
   prompt += PATTERN_INDEX;
   prompt += KNOWLEDGE_AND_REASONING;
 
-  if (projectPatternIds && projectPatternIds.length > 0) {
-    prompt += buildProjectContext(projectPatternIds, projectName);
+  if (project?.patternIds && project.patternIds.length > 0) {
+    prompt += buildProjectContext(project);
   }
 
   return prompt;
@@ -80,19 +88,35 @@ function buildPatternIndex(): string {
   return index;
 }
 
-function buildProjectContext(patternIds: number[], projectName?: string): string {
-  const projectPatterns = patterns.filter(p => patternIds.includes(p.id));
+const STATUS_LABELS: Record<string, string> = {
+  not_started: 'Not Started',
+  considering: 'Considering',
+  applied: 'Applied',
+  rejected: 'Rejected',
+};
 
-  if (projectPatterns.length === 0) return '';
+function buildProjectContext(project: ProjectContext): string {
+  const patternIds = project.patternIds!;
+  const projectPatternData = patterns.filter(p => patternIds.includes(p.id));
+
+  if (projectPatternData.length === 0) return '';
+
+  // Build a lookup from patternId to user-supplied status/notes
+  const enrichmentMap = new Map<number, { status: string; notes: string }>();
+  if (project.patterns) {
+    for (const pp of project.patterns) {
+      enrichmentMap.set(pp.patternId, pp);
+    }
+  }
 
   // Sort by reading order for scale-cascading presentation
-  projectPatterns.sort((a, b) => a.reading_order - b.reading_order);
+  projectPatternData.sort((a, b) => a.reading_order - b.reading_order);
 
   // Scale distribution
   const scaleCounts = { neighborhood: 0, building: 0, construction: 0 };
   const categorySet = new Set<string>();
 
-  for (const p of projectPatterns) {
+  for (const p of projectPatternData) {
     const scale = (p.scale || 'building').toLowerCase() as keyof typeof scaleCounts;
     if (scaleCounts[scale] !== undefined) scaleCounts[scale]++;
     categorySet.add(p.categoryLabel || p.category || 'Uncategorized');
@@ -100,19 +124,42 @@ function buildProjectContext(patternIds: number[], projectName?: string): string
 
   let context = `\n\n--- ACTIVE PROJECT ---\n`;
 
-  if (projectName) {
-    context += `Active project: ${projectName}\n`;
+  if (project.name) {
+    context += `Active project: ${project.name}\n`;
   }
 
-  context += `Patterns selected (${projectPatterns.length}):\n`;
+  if (project.description) {
+    context += `Project description: ${project.description}\n`;
+  }
 
-  for (const p of projectPatterns) {
+  context += `\nPatterns selected (${projectPatternData.length}):\n`;
+
+  for (const p of projectPatternData) {
     const scaleLabel = (p.scale || 'building').toLowerCase();
-    context += `  - Pattern ${p.reading_order}: ${p.name} [${scaleLabel}]\n`;
+    const enrichment = enrichmentMap.get(p.id);
+    const statusLabel = enrichment?.status ? (STATUS_LABELS[enrichment.status] || enrichment.status) : 'Not Started';
+
+    context += `  - Pattern ${p.reading_order}: ${p.name} [${scaleLabel}] — Status: ${statusLabel}\n`;
+
+    if (enrichment?.notes) {
+      context += `    Note: ${enrichment.notes}\n`;
+    }
   }
 
-  context += `\nScale distribution: ${scaleCounts.neighborhood} neighborhood, ${scaleCounts.building} building, ${scaleCounts.construction} construction\n`;
-  context += `Categories represented: ${Array.from(categorySet).join(', ')}\n`;
+  context += `\nNetwork analysis:\n`;
+  context += `  Scale distribution: ${scaleCounts.neighborhood} neighborhood, ${scaleCounts.building} building, ${scaleCounts.construction} construction\n`;
+  context += `  Categories represented: ${Array.from(categorySet).join(', ')}\n`;
+
+  // High-convergence unselected patterns
+  const convergent = getConnectedUnselected(patternIds).slice(0, 5);
+  if (convergent.length > 0) {
+    context += `  High-convergence unselected patterns:\n`;
+    for (const c of convergent) {
+      const connectedNames = c.connectedTo.map(p => `Pattern ${p.reading_order}: ${p.name}`).join(', ');
+      context += `    - Pattern ${c.pattern.reading_order}: ${c.pattern.name} (${c.connectionCount} connections: ${connectedNames})\n`;
+    }
+  }
+
   context += `--- END ACTIVE PROJECT ---\n`;
 
   return context;
@@ -220,6 +267,8 @@ When a project is active, every response should be project-aware:
 - When the user asks a general question, ground the answer in their project: "For your project, the most relevant consideration here is..."
 
 When no project is active, operate in exploration mode — broader recommendations, more open-ended, with an invitation to start a project if the conversation reaches a point where one would help.
+
+When a user's notes describe specific site conditions (orientation, trees, lot dimensions, climate), treat these as design constraints. Reference them when recommending patterns — "since your lot faces south and the elm provides a north wind buffer..."
 
 Never recite the project contents unprompted. Do not open with "I see you have 5 patterns selected: ..." — that's a database readout. Weave project awareness into the natural flow of conversation.
 
