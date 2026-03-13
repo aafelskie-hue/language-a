@@ -6,9 +6,9 @@ import { patterns, getRandomPattern } from '@/lib/patterns';
 
 // Featured patterns for hero transition zone (using reading_order for display and links)
 const FEATURED_PATTERNS = [
-  { reading_order: 7, name: "The Fifteen-Minute Neighborhood", scale: "Neighborhood" },
-  { reading_order: 75, name: "Light on Two Sides", scale: "Building" },
-  { reading_order: 107, name: "Heat Refuge Room", scale: "Building" },
+  { reading_order: 7, name: "The Fifteen-Minute Neighborhood", scale: "Neighborhood", problem: "When daily needs require a car to reach, neighborhoods lose their social fabric, and the elderly and young become dependent on those who can drive." },
+  { reading_order: 75, name: "Light on Two Sides", scale: "Building", problem: "A room lit from only one side has a harsh gradient — bright near the window, dark at the back — that makes the space feel like a corridor rather than a room." },
+  { reading_order: 82, name: "The Prospect and Refuge", scale: "Building", problem: "Humans need to see without being seen, to survey the terrain while keeping their backs to something solid." },
 ] as const;
 
 // Stats
@@ -69,6 +69,9 @@ export default function HomePage() {
                     </p>
                     <p className="font-serif text-sm text-white/70 leading-snug group-hover:text-white/90 transition-colors">
                       {p.name}
+                    </p>
+                    <p className="font-serif text-[0.8rem] italic text-white/40 leading-snug mt-1.5">
+                      {p.problem}
                     </p>
                     <p className="font-mono text-[9px] tracking-wider text-white/30 mt-2 uppercase">
                       {p.scale}
