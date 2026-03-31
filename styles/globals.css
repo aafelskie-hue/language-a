@@ -227,11 +227,10 @@ select {
 
 /* Horizon Mark — footer logo */
 .horizon-bar {
-  x: 25.08;
+  x: 7.92;
   width: 18.92px;
   fill: #1E3A5F;
-  transition: x 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-              width 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+  transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1),
               fill 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -244,7 +243,6 @@ select {
 }
 
 .horizon-mark:hover .horizon-bar {
-  x: 7;
   width: 36.08px;
   fill: #E8651A;
 }
