@@ -224,3 +224,27 @@ select {
   @apply w-5 h-5 border-2 border-copper/30 border-t-copper rounded-full;
   animation: spin 0.8s linear infinite;
 }
+
+/* Horizon Mark — footer logo */
+.horizon-bar {
+  x: 25.08;
+  width: 18.92px;
+  fill: #1E3A5F;
+  transition: x 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+              width 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+              fill 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.horizon-bar-2 {
+  transition-delay: 0.05s;
+}
+
+.horizon-bar-3 {
+  transition-delay: 0.1s;
+}
+
+.horizon-mark:hover .horizon-bar {
+  x: 7;
+  width: 36.08px;
+  fill: #E8651A;
+}
