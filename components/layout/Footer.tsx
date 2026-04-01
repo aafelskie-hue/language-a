@@ -10,7 +10,7 @@ function HorizonMark() {
       aria-label="Beachhead Systems"
     >
       <svg
-        viewBox="0 0 44 44"
+        viewBox="0 0 56 56"
         width={44}
         height={44}
         xmlns="http://www.w3.org/2000/svg"
@@ -19,20 +19,20 @@ function HorizonMark() {
         <rect
           className="horizon-bar horizon-bar-1"
           y={12}
-          height={2.36}
-          rx={1.57}
+          height={3}
+          rx={1.5}
         />
         <rect
           className="horizon-bar horizon-bar-2"
-          y={19.5}
-          height={4.71}
-          rx={1.57}
+          y={24}
+          height={6}
+          rx={2}
         />
         <rect
           className="horizon-bar horizon-bar-3"
-          y={29}
-          height={8.64}
-          rx={2.36}
+          y={38}
+          height={11}
+          rx={3}
         />
       </svg>
     </a>
