@@ -18,21 +18,21 @@ function HorizonMark() {
       >
         <rect
           className="horizon-bar horizon-bar-1"
-          y={14.08}
-          height={2.84}
-          rx={1.5}
+          y={12}
+          height={2.36}
+          rx={1.57}
         />
         <rect
           className="horizon-bar horizon-bar-2"
-          y={20.58}
-          height={2.84}
-          rx={1.5}
+          y={19.5}
+          height={4.71}
+          rx={1.57}
         />
         <rect
           className="horizon-bar horizon-bar-3"
-          y={27.08}
-          height={2.84}
-          rx={1.5}
+          y={29}
+          height={8.64}
+          rx={2.36}
         />
       </svg>
     </a>
