@@ -127,14 +127,6 @@ export function ChatInterface() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           messages: conversationHistory,
-          projectPatternIds: activeProject?.patterns.map((p) => p.patternId),
-          projectName: activeProject?.name,
-          projectDescription: activeProject?.description,
-          projectPatterns: activeProject?.patterns.map((p) => ({
-            patternId: p.patternId,
-            status: p.status,
-            notes: p.notes,
-          })),
           conversationId: isAuthenticated ? activeConversationId : undefined,
           sessionId: isAuthenticated ? undefined : sessionId,
         }),
