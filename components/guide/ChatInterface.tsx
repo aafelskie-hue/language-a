@@ -312,8 +312,8 @@ export function ChatInterface() {
 
   const suggestedQuestions = [
     'How do I design a home office for cold climates?',
-    'What patterns work well for neighborhood planning?',
-    'How should I approach a heritage building renovation?',
+    'What patterns matter for a basement renovation?',
+    'Tell me about Pattern 82: The Prospect and Refuge',
     'What are the key patterns for aging in place?',
   ];
 
@@ -389,8 +389,10 @@ export function ChatInterface() {
             </div>
             <h2 className="text-xl font-bold text-charcoal mb-2">Pattern Guide</h2>
             <p className="text-slate mb-6 max-w-md mx-auto">
-              I can help you apply Language A&apos;s 254 patterns to your design projects.
-              Describe your situation, and I&apos;ll suggest relevant patterns.
+              Describe your project, ask about any pattern, or bring a design challenge.
+              I work from the full text of every pattern I recommend — I&apos;ll explain the
+              forces at play, show how patterns connect, and tell you honestly where the
+              language doesn&apos;t reach.
             </p>
 
             {!isAuthenticated && (

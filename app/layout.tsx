@@ -44,11 +44,13 @@ export const metadata: Metadata = {
     siteName: 'Language A',
     title: 'Language A — Design Patterns for Enduring Places',
     description: '254 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
+    images: ['https://language-a.com/api/og'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Language A — Design Patterns for Enduring Places',
     description: '254 interconnected design patterns for neighborhoods, buildings, and construction. Grounded in the forces that don\'t change.',
+    images: ['https://language-a.com/api/og'],
   },
   icons: {
     icon: '/favicon.svg',

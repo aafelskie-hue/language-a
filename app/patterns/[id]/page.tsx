@@ -26,6 +26,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ? pattern.problem.slice(0, 157) + '...'
     : pattern.problem;
 
+  const ogImage = `https://language-a.com/api/og/pattern/${pattern.reading_order}`;
+
   return {
     title: pattern.name,
     description,
@@ -33,6 +35,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: `${pattern.name} | Language A`,
       description,
       type: 'article',
+      images: [ogImage],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${pattern.name} | Language A`,
+      description,
+      images: [ogImage],
     },
   };
 }

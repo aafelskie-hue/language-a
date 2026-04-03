@@ -251,6 +251,9 @@ export default function HomePage() {
             <p className="text-slate leading-relaxed mb-6">
               The language is free, open, and actively maintained.
             </p>
+            <p className="text-slate leading-relaxed mb-6">
+              Language A includes an AI-powered design partner that reads the full text of every pattern it recommends — describe your project and see how the patterns apply to your specific situation.
+            </p>
             <p className="text-slate leading-relaxed mb-8">
               <Link href="/consult" className="text-copper hover:text-copper-dark transition-colors">
                 Pattern review consulting for real projects &rarr;

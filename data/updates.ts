@@ -7,6 +7,20 @@ export interface UpdateEntry {
 
 export const updates: UpdateEntry[] = [
   {
+    id: '2026-04-guide-retrieval',
+    date: '2026-04-03',
+    title: 'The Guide reads the patterns now',
+    body: `When we launched the AI Pattern Guide, it worked from a compressed index — pattern names, one-line summaries, and connection maps. Enough to point in the right direction, not enough to describe what the patterns actually say. The model was selecting patterns by title association and generating plausible explanations that didn't match the real content. It was confidently wrong, which is worse than being uncertain.
+
+We rebuilt the Guide's architecture around a two-stage retrieval system. The first stage identifies which patterns are relevant to your question, working from the full index of 254 patterns. The second stage reads the complete text of those patterns — problem, evidence, solution, connections — before generating its response. The Guide now works from the same content you see on each pattern page.
+
+The difference is structural. The Guide no longer invents what patterns say. When it cites Pattern 217: Freeze-Proof Plumbing for a basement bathroom, the advice comes from the pattern's actual resolution, not from a plausible guess about what a pattern with that name might contain. When the language doesn't cover something — basement waterproofing details, for instance — the Guide says so directly rather than stretching an unrelated pattern to fill the gap.
+
+We also added streaming responses. The Guide's answers arrive as they're generated rather than appearing all at once. The experience is faster, even though the system is doing more work behind the scenes.
+
+This is the kind of change that's invisible when it works. You ask a question, you get a grounded answer, you don't think about the retrieval architecture. That's the point.`,
+  },
+  {
     id: '2026-01-network-density',
     date: '2026-01-15',
     title: 'On network density and the three scales',
