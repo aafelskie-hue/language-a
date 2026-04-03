@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getSystemPrompt } from '@/lib/guide/system-prompt';
+import { getSystemPrompt, getSelectionPrompt, getReasoningPrompt } from '@/lib/guide/system-prompt';
+import { selectPatterns, formatPatternsForContext, formatRationales, createReasoningStream, parseAnthropicStream } from '@/lib/guide/retrieval';
 import { checkRateLimit, recordNewConversation, type UserTier } from '@/lib/guide/rate-limit';
 import { checkSpendLimit, estimateCost, recordUsage } from '@/lib/guide/spend-control';
 import { auth } from '@/auth';
@@ -138,104 +139,169 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // --- Call Anthropic API ---
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-5-20250929',
-        system: getSystemPrompt({ patternIds: projectPatternIds, name: projectName, description: projectDescription, patterns: projectPatterns }),
-        max_tokens: 2048,
-        messages: conversationMessages,
-      }),
-    });
+    // --- Build Project Context ---
+    const projectCtx = (projectPatternIds && projectPatternIds.length > 0)
+      ? { patternIds: projectPatternIds, name: projectName, description: projectDescription, patterns: projectPatterns }
+      : undefined;
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      console.error('Anthropic API error:', response.status, errorText);
-      return NextResponse.json(
-        { error: 'API request failed' },
-        { status: response.status }
+    // --- Stage 1: Pattern Selection (non-streaming) ---
+    let stage1Result;
+    try {
+      const selectionPrompt = getSelectionPrompt(projectCtx);
+      stage1Result = await selectPatterns(apiKey, conversationMessages, selectionPrompt);
+
+      console.log(
+        `[Guide] Stage 1 selected ${stage1Result.patternIds.length} patterns: ` +
+        `[${stage1Result.patternIds.join(', ')}] ` +
+        `(${stage1Result.usage.input_tokens}in/${stage1Result.usage.output_tokens}out)`
+      );
+    } catch (error) {
+      console.error('[Guide] Stage 1 failed, falling back to single-call:', error);
+    }
+
+    // --- Fallback: single-call if Stage 1 failed or returned nothing ---
+    if (!stage1Result || stage1Result.patternIds.length === 0) {
+      console.warn('[Guide] Using fallback single-call path');
+      return await handleFallback(
+        apiKey, conversationMessages, projectCtx,
+        clientIP, sessionId, conversationId,
+        isNewConversation, userId, existingConversation,
+        rateLimitResult,
       );
     }
 
-    const data = await response.json();
-    const assistantMessage = data.content
-      .filter((block: { type: string }) => block.type === 'text')
-      .map((block: { text: string }) => block.text)
-      .join('');
+    // --- Hydrate: fetch full pattern content ---
+    const selectedPatternsContent = formatPatternsForContext(stage1Result.patternIds);
+    const selectionRationales = formatRationales(stage1Result.patternIds, stage1Result.rationales);
 
-    // --- Record Usage ---
-    const cost = estimateCost(data.usage);
-    await recordUsage(clientIP, sessionId || conversationId, cost);
+    // --- Stage 2: Reasoning (streaming) ---
+    const reasoningPrompt = getReasoningPrompt(selectedPatternsContent, selectionRationales, projectCtx);
 
-    // --- Record New Conversation for Rate Limiting ---
-    // For anonymous users, record when they start a new conversation
+    let anthropicStream: Response;
+    try {
+      anthropicStream = await createReasoningStream(apiKey, conversationMessages, reasoningPrompt);
+    } catch (error) {
+      console.error('[Guide] Stage 2 stream failed:', error);
+      return NextResponse.json(
+        { error: 'API request failed' },
+        { status: 502 }
+      );
+    }
+
+    // --- Record New Conversation for Rate Limiting (before stream starts) ---
     if (isNewConversation && !userId) {
       console.log('[Guide Rate Limit] Recording new anonymous conversation for IP:', clientIP);
       await recordNewConversation(clientIP, null);
     }
 
-    // --- Persist Conversation for Authenticated Users ---
+    // For authenticated new conversations, create the conversation record now
+    // so we can include the conversationId in the stream metadata
     let resultConversationId = conversationId;
+    if (userId && !existingConversation) {
+      const firstUserMessage = conversationMessages[0].content;
+      const title = firstUserMessage.slice(0, 50) + (firstUserMessage.length > 50 ? '...' : '');
 
-    if (userId) {
-      const now = new Date().toISOString();
+      const userMsgTimestamp = new Date().toISOString();
       const userMsg: ConversationMessage = {
         role: 'user',
         content: conversationMessages[conversationMessages.length - 1].content,
-        timestamp: now,
-      };
-      const assistantMsg: ConversationMessage = {
-        role: 'assistant',
-        content: assistantMessage,
-        timestamp: new Date().toISOString(),
+        timestamp: userMsgTimestamp,
       };
 
-      if (existingConversation) {
-        // Append to existing conversation
-        const existingMessages = existingConversation.messages as ConversationMessage[];
-        await db
-          .update(conversations)
-          .set({
-            messages: [...existingMessages, userMsg, assistantMsg],
-            totalOutputTokens: existingConversation.totalOutputTokens + (data.usage?.output_tokens || 0),
-            updatedAt: new Date(),
-          })
-          .where(eq(conversations.id, existingConversation.id));
-      } else {
-        // Create new conversation
-        const firstUserMessage = conversationMessages[0].content;
-        const title = firstUserMessage.slice(0, 50) + (firstUserMessage.length > 50 ? '...' : '');
+      const [newConv] = await db
+        .insert(conversations)
+        .values({
+          userId,
+          title,
+          messages: [userMsg],
+          totalOutputTokens: 0,
+        })
+        .returning();
 
-        const [newConv] = await db
-          .insert(conversations)
-          .values({
-            userId,
-            title,
-            messages: [userMsg, assistantMsg],
-            totalOutputTokens: data.usage?.output_tokens || 0,
-          })
-          .returning();
-
-        resultConversationId = newConv.id;
-
-        // Record the new conversation for rate limiting
-        await recordNewConversation(clientIP, userId);
-      }
+      resultConversationId = newConv.id;
+      await recordNewConversation(clientIP, userId);
     }
 
-    return NextResponse.json({
-      response: assistantMessage,
-      conversationId: resultConversationId,
-      usage: {
-        conversationTurn: conversationMessages.length,
+    // --- Stream Response to Client ---
+    const stage1Usage = stage1Result.usage;
+
+    const stream = parseAnthropicStream(
+      anthropicStream,
+      {
+        conversationId: resultConversationId,
+        remaining: rateLimitResult.remaining as Record<string, unknown> | undefined,
       },
-      remaining: rateLimitResult.remaining,
+      async (fullText, stage2Usage) => {
+        // --- Async post-stream: record usage and persist conversation ---
+        try {
+          const combinedUsage = {
+            input_tokens: stage1Usage.input_tokens + stage2Usage.input_tokens,
+            output_tokens: stage1Usage.output_tokens + stage2Usage.output_tokens,
+          };
+          const cost = estimateCost(combinedUsage);
+          await recordUsage(clientIP, sessionId || resultConversationId, cost);
+
+          console.log(
+            `[Guide] Stage 2 complete ` +
+            `(${stage2Usage.input_tokens}in/${stage2Usage.output_tokens}out) ` +
+            `total_cost=${cost.toFixed(4)}c`
+          );
+
+          // Persist conversation for authenticated users
+          if (userId && fullText) {
+            const assistantMsg: ConversationMessage = {
+              role: 'assistant',
+              content: fullText,
+              timestamp: new Date().toISOString(),
+            };
+
+            if (existingConversation) {
+              const existingMessages = existingConversation.messages as ConversationMessage[];
+              const userMsg: ConversationMessage = {
+                role: 'user',
+                content: conversationMessages[conversationMessages.length - 1].content,
+                timestamp: new Date().toISOString(),
+              };
+              await db
+                .update(conversations)
+                .set({
+                  messages: [...existingMessages, userMsg, assistantMsg],
+                  totalOutputTokens: existingConversation.totalOutputTokens + combinedUsage.output_tokens,
+                  updatedAt: new Date(),
+                })
+                .where(eq(conversations.id, existingConversation.id));
+            } else if (resultConversationId) {
+              // Update the conversation we created before streaming with the assistant response
+              const [conv] = await db
+                .select()
+                .from(conversations)
+                .where(eq(conversations.id, resultConversationId));
+
+              if (conv) {
+                const currentMessages = conv.messages as ConversationMessage[];
+                await db
+                  .update(conversations)
+                  .set({
+                    messages: [...currentMessages, assistantMsg],
+                    totalOutputTokens: combinedUsage.output_tokens,
+                    updatedAt: new Date(),
+                  })
+                  .where(eq(conversations.id, resultConversationId));
+              }
+            }
+          }
+        } catch (error) {
+          console.error('[Guide] Post-stream persistence error:', error);
+        }
+      },
+    );
+
+    return new Response(stream, {
+      headers: {
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',
+      },
     });
 
   } catch (error) {
@@ -245,6 +311,113 @@ export async function POST(request: NextRequest) {
       { status: 500 }
     );
   }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Fallback: single-call path (used when Stage 1 fails)
+// ─────────────────────────────────────────────────────────────────────────────
+
+async function handleFallback(
+  apiKey: string,
+  conversationMessages: Message[],
+  projectCtx: { patternIds?: number[]; name?: string; description?: string; patterns?: Array<{ patternId: number; status: string; notes: string }> } | undefined,
+  clientIP: string,
+  sessionId: string | undefined,
+  conversationId: string | undefined,
+  isNewConversation: boolean,
+  userId: string | null,
+  existingConversation: typeof conversations.$inferSelect | null,
+  rateLimitResult: { remaining?: Record<string, unknown> },
+) {
+  const response = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+    },
+    body: JSON.stringify({
+      model: 'claude-sonnet-4-5-20250929',
+      system: getSystemPrompt(projectCtx),
+      max_tokens: 2048,
+      messages: conversationMessages,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    console.error('Anthropic API error (fallback):', response.status, errorText);
+    return NextResponse.json(
+      { error: 'API request failed' },
+      { status: response.status }
+    );
+  }
+
+  const data = await response.json();
+  const assistantMessage = data.content
+    .filter((block: { type: string }) => block.type === 'text')
+    .map((block: { text: string }) => block.text)
+    .join('');
+
+  const cost = estimateCost(data.usage);
+  await recordUsage(clientIP, sessionId || conversationId, cost);
+
+  if (isNewConversation && !userId) {
+    await recordNewConversation(clientIP, null);
+  }
+
+  let resultConversationId = conversationId;
+
+  if (userId) {
+    const now = new Date().toISOString();
+    const userMsg: ConversationMessage = {
+      role: 'user',
+      content: conversationMessages[conversationMessages.length - 1].content,
+      timestamp: now,
+    };
+    const assistantMsg: ConversationMessage = {
+      role: 'assistant',
+      content: assistantMessage,
+      timestamp: new Date().toISOString(),
+    };
+
+    if (existingConversation) {
+      const existingMessages = existingConversation.messages as ConversationMessage[];
+      await db
+        .update(conversations)
+        .set({
+          messages: [...existingMessages, userMsg, assistantMsg],
+          totalOutputTokens: existingConversation.totalOutputTokens + (data.usage?.output_tokens || 0),
+          updatedAt: new Date(),
+        })
+        .where(eq(conversations.id, existingConversation.id));
+    } else {
+      const firstUserMessage = conversationMessages[0].content;
+      const title = firstUserMessage.slice(0, 50) + (firstUserMessage.length > 50 ? '...' : '');
+
+      const [newConv] = await db
+        .insert(conversations)
+        .values({
+          userId,
+          title,
+          messages: [userMsg, assistantMsg],
+          totalOutputTokens: data.usage?.output_tokens || 0,
+        })
+        .returning();
+
+      resultConversationId = newConv.id;
+      await recordNewConversation(clientIP, userId);
+    }
+  }
+
+  return NextResponse.json({
+    response: assistantMessage,
+    conversationId: resultConversationId,
+    usage: {
+      conversationTurn: conversationMessages.length,
+    },
+    remaining: rateLimitResult.remaining,
+  });
 }
 
 // Mock response for demo mode (no API key)

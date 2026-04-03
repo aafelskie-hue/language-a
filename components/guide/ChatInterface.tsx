@@ -140,69 +140,161 @@ export function ChatInterface() {
         }),
       });
 
-      const data = await response.json();
+      const contentType = response.headers.get('content-type') || '';
 
-      // Handle rate limiting
-      if (response.status === 429) {
-        setRateLimitInfo({
-          reason: data.reason,
-          message: data.message,
-        });
-        // Remove the optimistic user message
-        if (isAuthenticated) {
-          setLocalMessages(storedMessages);
-        } else {
-          setLocalMessagesState(localMessages);
+      // --- JSON response path (errors, fallback, rate limits) ---
+      if (contentType.includes('application/json')) {
+        const data = await response.json();
+
+        if (response.status === 429) {
+          setRateLimitInfo({
+            reason: data.reason,
+            message: data.message,
+          });
+          if (isAuthenticated) {
+            setLocalMessages(storedMessages);
+          } else {
+            setLocalMessagesState(localMessages);
+          }
+          return;
         }
-        return;
-      }
 
-      // Handle spend limit
-      if (response.status === 503 && data.error === 'spend_limit') {
-        setSpendLimitReached(true);
-        // Remove the optimistic user message
-        if (isAuthenticated) {
-          setLocalMessages(storedMessages);
-        } else {
-          setLocalMessagesState(localMessages);
+        if (response.status === 503 && data.error === 'spend_limit') {
+          setSpendLimitReached(true);
+          if (isAuthenticated) {
+            setLocalMessages(storedMessages);
+          } else {
+            setLocalMessagesState(localMessages);
+          }
+          return;
         }
-        return;
-      }
 
-      // Handle other errors
-      if (!response.ok) {
-        throw new Error(data.error || 'Request failed');
-      }
+        if (!response.ok) {
+          throw new Error(data.error || 'Request failed');
+        }
 
-      const assistantMessage: ChatMessageType = {
-        id: (Date.now() + 1).toString(),
-        role: 'assistant',
-        content: data.response || 'I apologize, but I had trouble processing that. Please try again.',
-        timestamp: new Date().toISOString(),
-      };
-
-      if (isAuthenticated) {
-        // Update conversation store
-        const userMsg: ConversationMessage = {
-          role: 'user',
-          content: userContent,
-          timestamp: now,
-        };
-        const assistantMsg: ConversationMessage = {
+        // Fallback JSON response (non-streaming)
+        const assistantMessage: ChatMessageType = {
+          id: (Date.now() + 1).toString(),
           role: 'assistant',
-          content: assistantMessage.content,
-          timestamp: assistantMessage.timestamp,
+          content: data.response || 'I apologize, but I had trouble processing that. Please try again.',
+          timestamp: new Date().toISOString(),
         };
-        appendMessages(userMsg, assistantMsg);
 
-        // Update active conversation ID if a new one was created
-        if (data.conversationId && !activeConversationId) {
-          // Reload conversations to get the new one
-          loadConversations();
+        if (isAuthenticated) {
+          const userMsg: ConversationMessage = { role: 'user', content: userContent, timestamp: now };
+          const assistantMsg: ConversationMessage = { role: 'assistant', content: assistantMessage.content, timestamp: assistantMessage.timestamp };
+          appendMessages(userMsg, assistantMsg);
+          if (data.conversationId && !activeConversationId) {
+            loadConversations();
+          }
+        } else {
+          setLocalMessagesState((prev) => [...prev, assistantMessage]);
         }
-      } else {
-        setLocalMessagesState((prev) => [...prev, assistantMessage]);
+        return;
       }
+
+      // --- SSE streaming response path ---
+      if (!response.body) {
+        throw new Error('No response body for streaming');
+      }
+
+      // Create a placeholder assistant message that we'll update as chunks arrive
+      const assistantMessageId = (Date.now() + 1).toString();
+      const assistantTimestamp = new Date().toISOString();
+      let streamedContent = '';
+
+      // Add empty assistant message to display
+      if (isAuthenticated) {
+        setLocalMessages([
+          ...storedMessages,
+          { role: 'user', content: userContent, timestamp: now },
+          { role: 'assistant', content: '', timestamp: assistantTimestamp },
+        ]);
+      } else {
+        setLocalMessagesState((prev) => [
+          ...prev,
+          { id: assistantMessageId, role: 'assistant', content: '', timestamp: assistantTimestamp },
+        ]);
+      }
+      setIsLoading(false); // Hide spinner — streaming message is now visible
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let sseBuffer = '';
+      let streamConversationId: string | undefined;
+
+      try {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          sseBuffer += decoder.decode(value, { stream: true });
+
+          // Process complete SSE events
+          const events = sseBuffer.split('\n\n');
+          sseBuffer = events.pop() || '';
+
+          for (const event of events) {
+            if (!event.trim()) continue;
+
+            const dataLine = event.split('\n').find(line => line.startsWith('data: '));
+            if (!dataLine) continue;
+
+            try {
+              const parsed = JSON.parse(dataLine.slice(6));
+
+              if (parsed.type === 'metadata') {
+                streamConversationId = parsed.conversationId;
+              } else if (parsed.type === 'text') {
+                streamedContent += parsed.text;
+                // Update the assistant message in place
+                if (isAuthenticated) {
+                  setLocalMessages([
+                    ...storedMessages,
+                    { role: 'user', content: userContent, timestamp: now },
+                    { role: 'assistant', content: streamedContent, timestamp: assistantTimestamp },
+                  ]);
+                } else {
+                  setLocalMessagesState((prev) => {
+                    const updated = [...prev];
+                    const lastIdx = updated.length - 1;
+                    if (lastIdx >= 0 && updated[lastIdx].role === 'assistant') {
+                      updated[lastIdx] = { ...updated[lastIdx], content: streamedContent };
+                    }
+                    return updated;
+                  });
+                }
+              } else if (parsed.type === 'done') {
+                // Stream complete — finalize
+                if (isAuthenticated) {
+                  const userMsg: ConversationMessage = { role: 'user', content: userContent, timestamp: now };
+                  const assistantMsg: ConversationMessage = { role: 'assistant', content: streamedContent, timestamp: assistantTimestamp };
+                  appendMessages(userMsg, assistantMsg);
+                  if (streamConversationId && !activeConversationId) {
+                    loadConversations();
+                  }
+                }
+              } else if (parsed.type === 'error') {
+                throw new Error(parsed.message || 'Stream error');
+              }
+            } catch (parseError) {
+              // Skip unparseable SSE events
+              if (parseError instanceof Error && parseError.message !== 'Stream error') {
+                continue;
+              }
+              throw parseError;
+            }
+          }
+        }
+      } catch (streamError) {
+        console.error('Stream reading error:', streamError);
+        // If we have partial content, keep it
+        if (!streamedContent) {
+          throw streamError;
+        }
+      }
+      return; // Streaming path complete
     } catch (error) {
       console.error('Chat error:', error);
       const errorMessage: ChatMessageType = {
@@ -345,7 +437,7 @@ export function ChatInterface() {
             {isLoading && (
               <div className="flex items-center gap-2 text-steel">
                 <div className="spinner"></div>
-                <span className="text-sm">Thinking...</span>
+                <span className="text-sm">Analyzing your question...</span>
               </div>
             )}
             <div ref={messagesEndRef} />
