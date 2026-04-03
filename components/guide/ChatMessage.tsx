@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import type { ChatMessage as ChatMessageType } from '@/lib/types';
-import { getPatternById, getConfidenceStars } from '@/lib/patterns';
+import { getPatternByReadingOrder, getConfidenceStars } from '@/lib/patterns';
 import { AddToProjectButton } from './AddToProjectButton';
 import { AddAllPatternsBar } from './AddAllPatternsBar';
 
@@ -10,16 +10,17 @@ interface ChatMessageProps {
   message: ChatMessageType;
 }
 
-// Extract pattern IDs from message content
+// Extract pattern database IDs from message content (Guide cites by reading_order)
 export function extractPatternIds(content: string): number[] {
   const regex = /\*\*Pattern (\d+):?\s*([^*]+)\*\*/g;
   const ids: number[] = [];
   let match;
 
   while ((match = regex.exec(content)) !== null) {
-    const id = parseInt(match[1], 10);
-    if (!isNaN(id) && !ids.includes(id)) {
-      ids.push(id);
+    const readingOrder = parseInt(match[1], 10);
+    const pattern = getPatternByReadingOrder(readingOrder);
+    if (pattern && !ids.includes(pattern.id)) {
+      ids.push(pattern.id);
     }
   }
 
@@ -27,8 +28,8 @@ export function extractPatternIds(content: string): number[] {
 }
 
 // Render an inline pattern card
-function PatternCard({ patternId }: { patternId: number }) {
-  const pattern = getPatternById(patternId);
+function PatternCard({ readingOrder }: { readingOrder: number }) {
+  const pattern = getPatternByReadingOrder(readingOrder);
   if (!pattern) return null;
 
   // Truncate problem to first sentence or 80 chars
@@ -68,7 +69,7 @@ function PatternCard({ patternId }: { patternId: number }) {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </Link>
-      <AddToProjectButton patternId={patternId} />
+      <AddToProjectButton patternId={pattern.id} />
     </div>
   );
 }
@@ -90,8 +91,8 @@ function parsePatternReferences(content: string): React.ReactNode[] {
     }
 
     // Add the pattern card
-    const patternId = parseInt(match[1], 10);
-    parts.push(<PatternCard key={`pattern-${match.index}-${patternId}`} patternId={patternId} />);
+    const readingOrder = parseInt(match[1], 10);
+    parts.push(<PatternCard key={`pattern-${match.index}-${readingOrder}`} readingOrder={readingOrder} />);
 
     lastIndex = match.index + match[0].length;
   }
