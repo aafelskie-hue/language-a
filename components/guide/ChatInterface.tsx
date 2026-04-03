@@ -266,11 +266,15 @@ export function ChatInterface() {
                   });
                 }
               } else if (parsed.type === 'done') {
-                // Stream complete — finalize
+                // Stream complete — finalize the messages already in state
                 if (isAuthenticated) {
-                  const userMsg: ConversationMessage = { role: 'user', content: userContent, timestamp: now };
-                  const assistantMsg: ConversationMessage = { role: 'assistant', content: streamedContent, timestamp: assistantTimestamp };
-                  appendMessages(userMsg, assistantMsg);
+                  // setLocalMessages already placed user + assistant in store.messages
+                  // during streaming. Write the final content so the store is authoritative.
+                  setLocalMessages([
+                    ...storedMessages,
+                    { role: 'user', content: userContent, timestamp: now },
+                    { role: 'assistant', content: streamedContent, timestamp: assistantTimestamp },
+                  ]);
                   if (streamConversationId && !activeConversationId) {
                     loadConversations();
                   }
