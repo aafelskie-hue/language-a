@@ -7,7 +7,6 @@ import type { ChatMessage as ChatMessageType } from '@/lib/types';
 import { ChatMessage } from './ChatMessage';
 import { ConversationHistory } from './ConversationHistory';
 import { GatePrompt } from './GatePrompt';
-import { useProjectStore } from '@/store/useProjectStore';
 import { useConversationStore, type ConversationMessage } from '@/store/useConversationStore';
 
 // Generate a unique session ID for anonymous conversations
@@ -46,9 +45,6 @@ export function ChatInterface() {
   const [spendLimitReached, setSpendLimitReached] = useState(false);
   const [gatePromptDismissed, setGatePromptDismissed] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-
-  const { getActiveProject } = useProjectStore();
-  const activeProject = getActiveProject();
 
   // Get messages based on auth state
   const messages: ChatMessageType[] = isAuthenticated
@@ -397,12 +393,6 @@ export function ChatInterface() {
               Describe your situation, and I&apos;ll suggest relevant patterns.
             </p>
 
-            {activeProject && (
-              <p className="text-sm text-steel mb-6">
-                Project context: <span className="text-copper">{activeProject.name}</span> ({activeProject.patterns.length} patterns)
-              </p>
-            )}
-
             {!isAuthenticated && (
               <p className="text-xs text-steel mb-4">
                 <Link href="/auth/signin" className="text-copper hover:underline">Sign in</Link> to save conversations across devices
@@ -475,9 +465,7 @@ export function ChatInterface() {
           </button>
         </div>
         <p className="text-xs text-steel mt-2">
-          {activeProject
-            ? `Using project "${activeProject.name}" for context`
-            : 'No active project - select one in Projects to get contextual suggestions'}
+          Ask about any pattern, design situation, or project idea
         </p>
       </form>
     </div>
