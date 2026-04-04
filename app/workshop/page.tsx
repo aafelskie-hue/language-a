@@ -29,7 +29,7 @@ export default function WorkshopPage() {
 
           <div className="text-left bg-white rounded-xl border border-slate/10 p-8 mb-10">
             <p className="text-slate leading-relaxed mb-6">
-              The Workshop gives you five design sessions a month with the AI
+              The Workshop gives you unlimited design sessions with the AI
               Pattern Guide. Each conversation starts with your project — your
               site, your climate, your constraints — and applies patterns to the
               specific decisions you&apos;re facing.
@@ -54,7 +54,7 @@ export default function WorkshopPage() {
                   />
                 </svg>
                 <span className="text-slate">
-                  Five AI Pattern Guide design sessions per month
+                  Unlimited AI Pattern Guide design sessions
                 </span>
               </li>
               <li className="flex items-start gap-3">
